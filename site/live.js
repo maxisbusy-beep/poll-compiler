@@ -127,23 +127,165 @@
     return null;
   }
 
-  // ---- in-page poller ------------------------------------------------------------
-  async function wikiJSON(params) {
-    const u = API + "?" + new URLSearchParams({ ...params, format: "json", formatversion: "2", origin: "*" });
-    const r = await fetch(u);
-    if (!r.ok) throw new Error("Wikipedia " + r.status);
-    return r.json();
+  // ---- wikitext: what the poller actually reads -----------------------------------
+  // Wikipedia's results boxes are templates ({{Election box candidate with party link|
+  // party=...|candidate=...|votes=...}}), and a call shows up as a "winning candidate"
+  // line plus a "hold"/"gain" line. Reading the raw wikitext is one cheap request per
+  // page, instead of asking Wikipedia to render megabytes of HTML.
+
+  function sections(wt) {
+    const re = /^(={2,6})\s*(.+?)\s*\1\s*$/gm;
+    const out = [{ level: 1, title: "", start: 0, body: "" }];
+    let m;
+    while ((m = re.exec(wt))) out.push({ level: m[1].length, title: stripMarkup(m[2]), start: m.index, end: re.lastIndex });
+    for (let i = 0; i < out.length; i++) {
+      const from = i === 0 ? 0 : out[i].end;
+      const to = i + 1 < out.length ? out[i + 1].start : wt.length;
+      out[i].body = wt.slice(from, to);
+    }
+    return out;
   }
 
-  /** Revision ids for many titles, 50 per request. */
+  /** Top-level {{templates}} in a string, with their parameters. */
+  function templates(str) {
+    const out = [];
+    let i = 0;
+    while ((i = str.indexOf("{{", i)) >= 0) {
+      let depth = 0, j = i;
+      for (; j < str.length - 1; j++) {
+        if (str[j] === "{" && str[j + 1] === "{") { depth++; j++; }
+        else if (str[j] === "}" && str[j + 1] === "}") { depth--; j++; if (depth === 0) break; }
+      }
+      const inner = str.slice(i + 2, j - 1);
+      const parts = [];
+      let buf = "", d1 = 0, d2 = 0;
+      for (let k = 0; k < inner.length; k++) {
+        const c = inner[k], n = inner[k + 1];
+        if (c === "{" && n === "{") { d1++; buf += "{{"; k++; continue; }
+        if (c === "}" && n === "}") { d1--; buf += "}}"; k++; continue; }
+        if (c === "[" && n === "[") { d2++; buf += "[["; k++; continue; }
+        if (c === "]" && n === "]") { d2--; buf += "]]"; k++; continue; }
+        if (c === "|" && d1 === 0 && d2 === 0) { parts.push(buf); buf = ""; continue; }
+        buf += c;
+      }
+      parts.push(buf);
+      const name = parts.shift().trim().toLowerCase().replace(/_/g, " ").replace(/\s+/g, " ");
+      const params = {};
+      parts.forEach((p, k) => {
+        const eq = p.indexOf("=");
+        if (eq > 0 && /^[\w ]+$/.test(p.slice(0, eq).trim())) params[p.slice(0, eq).trim().toLowerCase()] = p.slice(eq + 1).trim();
+        else params[k + 1] = p.trim();
+      });
+      out.push({ name, params });
+      i = j + 1;
+    }
+    return out;
+  }
+
+  function stripMarkup(s) {
+    let t = String(s || "")
+      .replace(/<ref[^>]*\/>/gi, "").replace(/<ref[\s\S]*?<\/ref>/gi, "").replace(/<!--[\s\S]*?-->/g, "");
+    // unwrap formatting templates that hold the text itself, innermost first
+    for (let k = 0; k < 4; k++) {
+      const before = t;
+      t = t.replace(/\{\{\s*(?:nowrap|nobr|no wrap|small|nowrap begin)\s*\|([^{}]*)\}\}/gi, "$1")
+           .replace(/\{\{\s*sortname\s*\|([^|{}]*)\|([^|{}]*)[^{}]*\}\}/gi, "$1 $2");
+      if (t === before) break;
+    }
+    return t
+      .replace(/\{\{[^{}]*\}\}/g, "")
+      .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, "$1")
+      .replace(/'{2,}/g, "").replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ")
+      .replace(/\s+/g, " ").trim();
+  }
+
+  const partyOf = (s) => { const t = stripMarkup(s).toLowerCase(); if (t === "total") return "TOTAL";
+    return (PARTY.find(([k]) => t.includes(k)) || [])[1] || "OTH"; };
+
+  /** The results boxes of one race from a page's wikitext. */
+  function parseWikitext(wt, district) {
+    let secs = sections(wt);
+    if (district) {
+      const i = secs.findIndex((x) => x.level === 2 && (x.title.match(/^District (\d+)\b/) || [])[1] == +district);
+      if (i < 0) return null;
+      const j = secs.findIndex((x, k) => k > i && x.level === 2);
+      secs = secs.slice(i + 1, j < 0 ? undefined : j);
+    }
+    const g = secs.findIndex((x) => /general election/i.test(x.title));
+    const after = g >= 0 ? secs.slice(g) : secs;
+    let skip = false, idx = -1;
+    for (let k = 0; k < after.length; k++) {
+      const x = after[k];
+      if (x.level <= 3) skip = SKIP.test(x.title);
+      if (/^results?$/i.test(x.title) && !skip) { idx = k; break; }
+    }
+    if (idx < 0) return null;
+    // the results section plus its own subsections
+    let body = "";
+    for (let k = idx; k < after.length; k++) {
+      if (k > idx && after[k].level <= after[idx].level) break;
+      body += after[k].body;
+    }
+    const lines = new Map();
+    let total = 0, called = false, holdParty = null;
+    for (const t of templates(body)) {
+      if (!t.name.startsWith("election box")) continue;
+      if (/\b(hold|gain)\b/.test(t.name)) { called = true; holdParty = partyOf(t.params.winner || ""); continue; }
+      if (/total/.test(t.name)) { total = num(t.params.votes || "") || total; continue; }
+      if (!/candidate/.test(t.name)) continue;
+      const name = stripMarkup(t.params.candidate || "").replace(/\s*\((incumbent|write-in)\)/gi, "").trim();
+      if (!name || /^(total|majority|turnout)/i.test(name)) continue;
+      const party = partyOf(t.params.party || "");
+      if (!lines.has(name)) lines.set(name, []);
+      lines.get(name).push({ party, votes: num(t.params.votes || ""), pct: pct(t.params.percentage || ""),
+                             win: /winning/.test(t.name) });
+    }
+    if (!lines.size) return null;
+    const cands = [];
+    for (const [name, ls] of lines) {
+      const tot = ls.find((l) => l.party === "TOTAL");
+      const real = ls.filter((l) => l.party !== "TOTAL");
+      const parties = real.map((l) => l.party);
+      cands.push({ name, party: ["DEM", "REP"].find((p) => parties.includes(p)) || parties[0] || "OTH",
+                   votes: tot ? tot.votes : real.reduce((a, l) => a + l.votes, 0), winner: ls.some((l) => l.win) });
+    }
+    const sum = cands.reduce((a, c) => a + c.votes, 0);
+    cands.forEach((c) => (c.pct = sum ? 100 * c.votes / sum : null));
+    cands.sort((a, b) => b.votes - a.votes);
+    const winner = cands.find((c) => c.winner);
+    const isCalled = (called || !!winner) && sum > 0;
+    return { candidates: cands, total: total || sum, called: isCalled,
+             winner_party: isCalled ? (winner ? winner.party : (holdParty && holdParty !== "OTH" ? holdParty : cands[0].party)) : null };
+  }
+
+  // ---- in-page poller ------------------------------------------------------------
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function wikiJSON(params, tries = 3) {
+    const u = API + "?" + new URLSearchParams({ ...params, format: "json", formatversion: "2", origin: "*", maxlag: "5" });
+    for (let k = 0; k < tries; k++) {
+      try {
+        const r = await fetch(u);
+        const body = await r.text();
+        if (r.ok && body.startsWith("{")) {
+          const d = JSON.parse(body);
+          if (!d.error) return d;
+        }
+      } catch (e) { /* retry */ }
+      await sleep(2000 * (k + 1));      // Wikipedia asks clients to back off when busy
+    }
+    throw new Error("Wikipedia did not answer");
+  }
+
+  /** Latest revision id and time for many titles, 50 per request. */
   async function revisions(titles) {
     const out = {};
     for (let i = 0; i < titles.length; i += 50) {
       const d = await wikiJSON({ action: "query", prop: "revisions", rvprop: "ids|timestamp",
                                  titles: titles.slice(i, i + 50).join("|"), redirects: "1" });
       const back = {};
-      (d.query.redirects || []).forEach((r) => (back[r.to] = r.from));
-      (d.query.normalized || []).forEach((r) => (back[r.to] = back[r.to] || r.from));
+      (d.query.normalized || []).forEach((r) => (back[r.to] = r.from));
+      (d.query.redirects || []).forEach((r) => (back[r.to] = back[r.from] || r.from));
       for (const p of d.query.pages || []) {
         if (!p.revisions) continue;
         out[back[p.title] || p.title] = { revid: p.revisions[0].revid, ts: p.revisions[0].timestamp };
@@ -152,40 +294,16 @@
     return out;
   }
 
-  async function fetchSection(title, index) {
-    const d = await wikiJSON({ action: "parse", page: title, prop: "text", section: String(index),
-                               redirects: "1", disableeditsection: "1", disabletoc: "1" });
-    return new DOMParser().parseFromString(d.parse.text, "text/html");
+  async function wikitext(title) {
+    const d = await wikiJSON({ action: "query", prop: "revisions", rvprop: "content", rvslots: "main",
+                               titles: title, redirects: "1" });
+    const p = d.query.pages[0];
+    return p && p.revisions ? p.revisions[0].slots.main.content : "";
   }
 
-  const strip = (h) => String(h).replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
-
-  /** Index of the general-election "Results" section for a district (or the whole page).
-      Same rule as the table parser: after the first "General election" heading, skipping
-      anything under a primary or runoff heading. Downloading just that section keeps each
-      check small (whole state pages run to several megabytes). */
-  function resultSection(sections, district) {
-    let subs = sections;
-    if (district) {
-      const i = sections.findIndex((s) => s.level === "2" && (strip(s.line).match(/^District (\d+)\b/) || [])[1] == +district);
-      if (i < 0) return null;
-      const j = sections.findIndex((s, k) => k > i && s.level === "2");
-      subs = sections.slice(i + 1, j < 0 ? undefined : j);
-    }
-    const g = subs.findIndex((s) => /general election/i.test(strip(s.line)));
-    const after = g >= 0 ? subs.slice(g) : subs;
-    let parentSkip = false;
-    for (const s of after) {
-      const line = strip(s.line);
-      if (+s.level <= 3) parentSkip = SKIP.test(line);
-      if (/^results?$/i.test(line) && !parentSkip) return s.index;
-    }
-    return null;
-  }
-
-  /** Poll Wikipedia; only pages whose revision changed are downloaded again. */
-  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 8 } = {}) {
-    const seen = {}, results = {}, pageTime = {};
+  /** Check every few minutes; download only pages whose revision changed (one light request each). */
+  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 3 } = {}) {
+    const seen = {}, results = {};
     const pages = [...new Set(Object.values(liveTable.races).map((r) => r.page).filter(Boolean))];
     let timer = null, running = false;
     async function tick() {
@@ -194,31 +312,19 @@
       try {
         const revs = await revisions(pages);
         const changed = pages.filter((t) => revs[t] && revs[t].revid !== seen[t]);
-        // one job per race: the small "Results" section of its page
-        const jobs = [];
         for (let i = 0; i < changed.length; i += concurrency) {
           await Promise.all(changed.slice(i, i + concurrency).map(async (t) => {
-            let sections;
-            try { sections = (await wikiJSON({ action: "parse", page: t, prop: "sections", redirects: "1" })).parse.sections; }
-            catch (e) { return; }
-            for (const [rid, info] of Object.entries(liveTable.races)) {
-              if (info.page !== t) continue;
-              const idx = resultSection(sections, info.single_district ? null : info.district);
-              if (idx != null) jobs.push({ rid, info, t, idx });
-            }
-            seen[t] = revs[t].revid;
-            pageTime[t] = revs[t].ts;
-          }));
-        }
-        for (let i = 0; i < jobs.length; i += concurrency) {
-          await Promise.all(jobs.slice(i, i + concurrency).map(async ({ rid, info, t, idx }) => {
             try {
-              const doc = await fetchSection(t, idx);
-              const r = parseRace(doc, null);
-              if (r) results[rid] = { ...r, expected: info.expected_votes, page: t, edited: revs[t].ts };
-            } catch (e) { /* one bad section should not stop the rest */ }
+              const wt = await wikitext(t);
+              for (const [rid, info] of Object.entries(liveTable.races)) {
+                if (info.page !== t) continue;
+                const r = parseWikitext(wt, info.single_district ? null : info.district);
+                if (r) results[rid] = { ...r, expected: info.expected_votes, page: t, edited: revs[t].ts };
+              }
+              seen[t] = revs[t].revid;
+            } catch (e) { /* try this page again next time */ }
           }));
-          if (i % (concurrency * 10) === 0) onUpdate({ results, checked: new Date(), partial: true });
+          if (i % (concurrency * 5) === 0) onUpdate({ results, checked: new Date(), partial: true });
         }
         onUpdate({ results, checked: new Date(), changed: changed.length });
       } catch (e) {
@@ -266,5 +372,6 @@
              median: seats[Math.floor(nSims / 2)], p10: seats[Math.floor(nSims * 0.1)], p90: seats[Math.floor(nSims * 0.9)] };
   }
 
-  return { blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, resultSection, poller, liveOdds, revisions };
+  return { blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, sections, templates, stripMarkup,
+           parseWikitext, poller, liveOdds, revisions };
 });

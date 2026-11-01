@@ -373,7 +373,7 @@
       ${pollRows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${pollRows}</tbody></table>
       <p class="note">Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. A pollster that has historically leaned one way is counted with that lean taken out.</p>` : ""}`;
     document.body.classList.add("sheet-open");
-    history.replaceState(null, "", "#" + id);
+    history.replaceState(null, "", location.pathname + location.search + "#" + id);
     $("close").focus();
   }
   function leanNote(r) {
@@ -387,7 +387,7 @@
   function closeRace() {
     document.body.classList.remove("sheet-open");
     document.querySelectorAll(".map path.sel").forEach((p) => p.classList.remove("sel"));
-    history.replaceState(null, "", location.pathname);
+    history.replaceState(null, "", location.pathname + location.search);
   }
 
   // ---- election night ------------------------------------------------------------

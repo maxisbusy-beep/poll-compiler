@@ -55,16 +55,60 @@ t("Live odds lock in called races", () => {
   assert.strictEqual(none.p_dem, 0);
 });
 
-t("Finds the general-election Results section, not the primary one", () => {
-  const S = (level, line, index) => ({ level: String(level), line, index: String(index) });
-  const secs = [S(2, "Statewide polling", 1), S(2, "District 3", 2), S(3, "Polling", 3), S(3, "Results", 4),
-    S(3, "General election", 5), S(4, "Polling", 6), S(3, "Results", 7), S(4, "By county", 8), S(2, "District 4", 9),
-    S(3, "Republican primary", 10), S(4, "Results", 11), S(3, "General election", 12), S(4, "Results", 13)];
-  assert.strictEqual(Live.resultSection(secs, "3"), "7");
-  assert.strictEqual(Live.resultSection(secs, "4"), "13");
-  assert.strictEqual(Live.resultSection(secs, "9"), null);
-  const sen = [S(2, "Democratic primary", 1), S(3, "Results", 2), S(2, "General election", 3), S(3, "Polling", 4), S(3, "Results", 5)];
-  assert.strictEqual(Live.resultSection(sen, null), "5");
+// ---- wikitext (what the live poller reads) ----
+const wt = (f) => fs.readFileSync(path.join(__dirname, "fixtures", "wikitext", f), "utf8");
+
+t("wikitext: Pennsylvania Senate 2024 called for McCormick", () => {
+  const r = Live.parseWikitext(wt("2024_United_States_Senate_election_in_Pennsylvania.wiki"), null);
+  assert.strictEqual(r.candidates[0].name, "Dave McCormick");
+  assert.strictEqual(r.candidates[0].party, "REP");
+  assert.ok(Math.abs(r.candidates[0].pct - r.candidates[1].pct - 0.2) < 0.15);
+  assert.strictEqual(r.called, true);
+  assert.strictEqual(r.winner_party, "REP");
+});
+
+t("wikitext: New York 19th, fusion lines and Total lines", () => {
+  const r = Live.parseWikitext(wt("2024_United_States_House_of_Representatives_elections_in_New_York.wiki"), "19");
+  const riley = r.candidates.find((c) => c.name === "Josh Riley");
+  assert.strictEqual(riley.votes, 192647);
+  assert.strictEqual(riley.party, "DEM");
+  assert.strictEqual(r.winner_party, "DEM");
+  assert.strictEqual(r.total, 376937);
+});
+
+t("wikitext: Washington 3rd, general not top-two primary", () => {
+  const r = Live.parseWikitext(wt("2024_United_States_House_of_Representatives_elections_in_Washington.wiki"), "3");
+  assert.strictEqual(r.candidates[0].name, "Marie Gluesenkamp Perez");
+  assert.ok(Math.abs(r.candidates[0].pct - 51.7) < 0.3);
+  assert.strictEqual(r.winner_party, "DEM");
+});
+
+t("wikitext: every Texas district 2024 parses and is called", () => {
+  const page = wt("2024_United_States_House_of_Representatives_elections_in_Texas.wiki");
+  const bad = [];
+  for (let d = 1; d <= 38; d++) {
+    const r = Live.parseWikitext(page, String(d));
+    if (!r || !r.called || !r.total) bad.push(d);
+  }
+  assert.deepStrictEqual(bad, []);
+});
+
+t("wikitext: Wyoming at-large and Nebraska independent", () => {
+  const wy = Live.parseWikitext(wt("2024_United_States_House_of_Representatives_election_in_Wyoming.wiki"), null);
+  assert.strictEqual(wy.winner_party, "REP");
+  const ne = Live.parseWikitext(wt("2024_United_States_Senate_election_in_Nebraska.wiki"), null);
+  assert.ok(ne.candidates.some((c) => c.party === "IND" && /Osborn/.test(c.name)));
+  assert.strictEqual(ne.winner_party, "REP");
+});
+
+t("wikitext: 2026 pages before Election Day show no votes and no calls", () => {
+  const tx = Live.parseWikitext(wt("2026_United_States_Senate_election_in_Texas.wiki"), null);
+  assert.ok(!tx || (!tx.called && !tx.total));
+  const pa = wt("2026_United_States_House_of_Representatives_elections_in_Pennsylvania.wiki");
+  for (let d = 1; d <= 17; d++) {
+    const r = Live.parseWikitext(pa, String(d));
+    assert.ok(!r || (!r.called && !r.total), "PA-" + d);
+  }
 });
 
 console.log(`${n} passed`);
