@@ -7,15 +7,15 @@ Compiles public polls into **Senate and House control odds**, and grades every p
 
 ## Status
 
-**Phase 2 — pollster scoring.** 468 pollsters graded on 6,685 final polls across 1,802 races (1998–2022): win-call %, average error, bias and excess error, for the last same-type cycle, the last two cycles and all time. Report: [reports/pollster_scores.md](reports/pollster_scores.md). Data coverage: [reports/history_coverage.md](reports/history_coverage.md).
+**Phase 3 — Wikipedia polls.** 1,125 polls (2024) and 881 polls (2026) parsed from Wikipedia Senate and House pages, plus 397 race results for 2024. Pollsters now scored on 1998–2024 (491 pollsters, 6,946 final polls). Reports: [pollster scores](reports/pollster_scores.md), [data coverage](reports/history_coverage.md).
 
 | Phase | What | State |
 |---|---|---|
 | 0 | Repo, Pages, Action | ✅ |
 | 1 | 538 history + results, pollster aliases | ✅ |
-| 2 | Pollster scoring | ✅ awaiting sign-off |
-| 3 | Wikipedia scraper | next |
-| 4 | Senate model + backtest | |
+| 2 | Pollster scoring | ✅ |
+| 3 | Wikipedia scraper | ✅ awaiting sign-off |
+| 4 | Senate model + backtest | next |
 | 5 | House model | |
 | 6 | UI | |
 | 7 | Daily automation | |

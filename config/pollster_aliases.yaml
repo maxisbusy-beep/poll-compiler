@@ -484,6 +484,10 @@ pollsters:
     name: Communication Express
     fivethirtyeight_id: 681
     aliases: []
+  competitive-edge-research:
+    name: Competitive Edge Research
+    aliases: []
+    source: wikipedia
   concord-public-opinion-partners:
     name: Concord Public Opinion Partners
     fivethirtyeight_id: 553
@@ -2495,7 +2499,8 @@ pollsters:
   university-of-california-berkeley-institute-of-governmental-studies:
     name: University of California Berkeley Institute of Governmental Studies
     fivethirtyeight_id: 457
-    aliases: []
+    aliases:
+    - UC Berkeley
   university-of-cincinnati-ohio-poll:
     name: University of Cincinnati (Ohio Poll)
     fivethirtyeight_id: 346
@@ -2660,7 +2665,8 @@ pollsters:
     source: wikipedia
   usc-csu:
     name: USC / CSU
-    aliases: []
+    aliases:
+    - USC / CSULB / Cal Poly Pomona
     source: wikipedia
   valley-research:
     name: Valley Research

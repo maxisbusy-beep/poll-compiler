@@ -69,7 +69,7 @@ def build() -> str:
     rho = spearman([a for a, _ in pairs], [b for _, b in pairs]) if len(pairs) > 2 else None
 
     w = data["windows"]
-    out = ["# Pollster scores — Phase 2 gate", "",
+    out = ["# Pollster scores", "",
            f"- Target cycle **{data['target_cycle']}** · scored polls **{data['scored_polls']:,}** "
            f"(one final poll per pollster per race, ≤{data['settings']['final_window_days']} days out) · "
            f"races **{data['scored_races']:,}** · pollsters **{len(ps)}**",
@@ -106,14 +106,15 @@ def build() -> str:
                        f"{fmt(a['bias'], signed=True)} | {fmt(a['excess_error'])} | "
                        f"{p['model']['weight']:.2f} |")
 
-    same = [p for p in data["pollsters"] if p["windows"]["same_type"]["n"] >= 5]
-    same.sort(key=lambda p: p["windows"]["same_type"]["mean_abs_error"])
-    out += ["", f"## {w['same_type']['label']}: pollsters with ≥5 scored races, by average error", "",
-            "| Pollster | n | Win-call | Avg error | Bias |", "|---|---|---|---|---|"]
-    for p in same:
-        a = p["windows"]["same_type"]
-        out.append(f"| {p['name']} | {a['n']} | {fmt(a['win_call_pct'], pct=True)} | "
-                   f"{fmt(a['mean_abs_error'])} | {fmt(a['bias'], signed=True)} |")
+    for wkey in ("same_type", "last_two"):
+        rows = [p for p in data["pollsters"] if p["windows"][wkey]["n"] >= 5]
+        rows.sort(key=lambda p: p["windows"][wkey]["mean_abs_error"])
+        out += ["", f"## {w[wkey]['label']}: pollsters with ≥5 scored races, by average error", "",
+                "| Pollster | n | Win-call | Avg error | Bias |", "|---|---|---|---|---|"]
+        for p in rows:
+            a = p["windows"][wkey]
+            out.append(f"| {p['name']} | {a['n']} | {fmt(a['win_call_pct'], pct=True)} | "
+                       f"{fmt(a['mean_abs_error'])} | {fmt(a['bias'], signed=True)} |")
     out += ["", "Bias: average signed miss on the margin. **D+** = overstated the Democratic "
             "(or main non-Republican) side; **R+** = overstated the Republican.", ""]
     return "\n".join(out)

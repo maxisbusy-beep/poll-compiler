@@ -73,6 +73,8 @@ TO_EXISTING = {
     "The Mellman Group": "mellman-group",
     "Fabrizio, Lee, & Associates": "fabrizio-lee-and-associates",
     "Mitchell Research": "mitchell-research-and-communications",
+    "USC / CSULB / Cal Poly Pomona": "usc-csu",
+    "UC Berkeley": "university-of-california-berkeley-institute-of-governmental-studies",
     # joint polls 538 rated as a pair
     "Fabrizio Ward / Impact Research": "fabrizio-lee-and-associates-impact-research",
     "Beacon Research / Shaw & Co. Research": "beacon-research-shaw-and-co-research",
@@ -148,6 +150,7 @@ NEW = {
     "verasight": ("Verasight", ["Verasight / VoteHub", "Michigan State University / Verasight"]),
     "recon-mr": ("ReconMR", ["ReconMR / Siena University", "Texas A&M University / ReconMR / Siena University"]),
     "usc-csu": ("USC / CSU", []),
+    "competitive-edge-research": ("Competitive Edge Research", []),
     "deep-root-analytics": ("Deep Root Analytics", []),
     "university-of-arizona-truedot": ("University of Arizona / Truedot", []),
 }
