@@ -1,0 +1,7 @@
+# Per-cycle facts (SPEC.md section 2). Senate seat counts are added in Phase 4.
+2022:
+  election_date: 2022-11-08
+2024:
+  election_date: 2024-11-05
+2026:
+  election_date: 2026-11-03

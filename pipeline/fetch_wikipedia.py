@@ -84,7 +84,7 @@ def discover(cycle: int) -> dict:
     y = str(cycle)
     sen_hub = f"{y} United States Senate elections"
     house_hub = f"{y} United States House of Representatives elections"
-    sen_re = re.compile(rf"^{y} United States Senate (special )?election in [A-Z][\w .]+$")
+    sen_re = re.compile(rf"^{y} United States Senate (special )?elections? in [A-Z][\w .]+$")
     house_re = re.compile(rf"^{y} United States House of Representatives elections? in [A-Z][\w .]+$")
 
     senate = sorted({t for t in page_links(sen_hub) if sen_re.match(t)})

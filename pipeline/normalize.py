@@ -133,7 +133,8 @@ class PollsterAliases:
 
     @staticmethod
     def _key(name: str) -> str:
-        return " ".join(name.lower().split())
+        k = " ".join(name.lower().replace("\u2019", "'").split())
+        return k.replace(" /", "/").replace("/ ", "/")
 
     def get(self, raw: str) -> str | None:
         return self._lookup.get(self._key(raw))
@@ -150,3 +151,20 @@ class PollsterAliases:
         if missing:
             raise UnmappedPollsterError(missing)
         return out
+
+
+def write_merged(path: Path, columns: list[str], rows: list[dict], source: str,
+                 sort_key) -> None:
+    """Replace this source's rows in a per-cycle CSV, keeping other sources' rows."""
+    import csv
+
+    keep = []
+    if path.exists():
+        keep = [r for r in csv.DictReader(path.open()) if r.get("source") != source]
+    allrows = keep + rows
+    allrows.sort(key=lambda r: tuple(str(x) for x in sort_key(r)))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=columns, lineterminator="\n")
+        w.writeheader()
+        w.writerows(allrows)

@@ -1,0 +1,397 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2024,presidential,2024-11-05,2024-HOUSE-AL-1,HOUSE,AL,1,,Tom Holmes,DEM,21.5,Barry Moore,REP,78.4,-56.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AL-2,HOUSE,AL,2,,Shomari Figures,DEM,54.6,Caroleene Dobson,REP,45.4,9.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AL-6,HOUSE,AL,6,,Elizabeth Anderson,DEM,29.6,Gary Palmer,REP,70.3,-40.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AL-7,HOUSE,AL,7,,Terri Sewell,DEM,63.7,Robin Litaker,REP,36.3,27.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AR-1,HOUSE,AR,1,,Rodney Govens,DEM,24.0,Rick Crawford,REP,72.9,-48.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AR-2,HOUSE,AR,2,,Marcus Jones,DEM,41.1,French Hill,REP,58.9,-17.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AR-3,HOUSE,AR,3,,Caitlin Draper,DEM,31.8,Steve Womack,REP,63.8,-32.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AR-4,HOUSE,AR,4,,Risie Howard,DEM,27.1,Bruce Westerman,REP,72.9,-45.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-1,HOUSE,AZ,1,,Amish Shah,DEM,48.09,David Schweikert,REP,51.91,-3.82,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-2,HOUSE,AZ,2,,Jonathan Nez,DEM,45.51,Eli Crane,REP,54.48,-8.97,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-3,HOUSE,AZ,3,,Yassamin Ansari,DEM,70.9,Jeff Zink,REP,26.6,44.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-4,HOUSE,AZ,4,,Greg Stanton,DEM,52.74,Kelly Cooper,REP,45.45,7.29,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-5,HOUSE,AZ,5,,Katrina Schaffner,DEM,39.6,Andy Biggs,REP,60.4,-20.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-6,HOUSE,AZ,6,,Kirsten Engel,DEM,47.49,Juan Ciscomani,REP,50.0,-2.51,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-7,HOUSE,AZ,7,,Raúl Grijalva,DEM,63.4,Daniel Butierez,REP,36.6,26.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-8,HOUSE,AZ,8,,Gregory Whitten,DEM,43.5,Abraham Hamadeh,REP,56.5,-13.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-AZ-9,HOUSE,AZ,9,,Quacy Smith,DEM,34.7,Paul Gosar,REP,65.3,-30.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CA-16,HOUSE,CA,16,,Sam Liccardo,DEM,79.3,Evan Low,DEM,58.4,20.9,same-party,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-1,HOUSE,CO,1,,Diana DeGette,DEM,76.53,Valdamar Archuleta,REP,21.58,54.95,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-2,HOUSE,CO,2,,Joe Neguse,DEM,68.36,Marshall Dawson,REP,28.94,39.42,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-3,HOUSE,CO,3,,Adam Frisch,DEM,45.81,Jeff Hurd,REP,50.79,-4.98,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-4,HOUSE,CO,4,,Trisha Calvarese,DEM,42.04,Lauren Boebert,REP,53.64,-11.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-5,HOUSE,CO,5,,River Gassen,DEM,40.87,Jeff Crank,REP,54.66,-13.79,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-6,HOUSE,CO,6,,Jason Crow,DEM,58.97,John Fabbricatore,REP,38.45,20.52,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-7,HOUSE,CO,7,,Brittany Pettersen,DEM,55.33,Sergei Matveyuk,REP,41.15,14.18,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CO-8,HOUSE,CO,8,,Yadira Caraveo,DEM,48.22,Gabe Evans,REP,48.95,-0.73,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CT-1,HOUSE,CT,1,,John Larson,DEM,63.13,Jim Griffin,REP,34.82,28.31,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CT-2,HOUSE,CT,2,,Joe Courtney,DEM,58.01,Mike France,REP,41.98,16.03,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CT-3,HOUSE,CT,3,,Rosa DeLauro,DEM,58.88,Michael Massey,REP,41.07,17.81,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CT-4,HOUSE,CT,4,,Jim Himes,DEM,61.06,Michael Goldstein,REP,37.34,23.72,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-CT-5,HOUSE,CT,5,,Jahana Hayes,DEM,53.4,George Logan,REP,46.58,6.82,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-DE-1,HOUSE,DE,1,,Sarah McBride,DEM,57.86,John Whalen,REP,42.14,15.72,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-1,HOUSE,FL,1,,Gay Valimont,DEM,34.0,Matt Gaetz,REP,66.0,-32.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-10,HOUSE,FL,10,,Maxwell Alejandro Frost,DEM,62.4,Willie J. Montague,REP,37.6,24.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-11,HOUSE,FL,11,,Barbie Harden Hall,DEM,39.6,Daniel Webster,REP,60.4,-20.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-12,HOUSE,FL,12,,Rock Aboujaoude Jr.,DEM,29.0,Gus Bilirakis,REP,71.0,-42.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-13,HOUSE,FL,13,,Whitney Fox,DEM,45.2,Anna Paulina Luna,REP,54.8,-9.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-14,HOUSE,FL,14,,Kathy Castor,DEM,56.9,Robert Rochford,REP,41.6,15.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-15,HOUSE,FL,15,,Pat Kemp,DEM,43.8,Laurel Lee,REP,56.2,-12.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-16,HOUSE,FL,16,,Jan Schneider,DEM,40.5,Vern Buchanan,REP,59.5,-19.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-17,HOUSE,FL,17,,Manny Lopez,DEM,36.1,Greg Steube,REP,63.9,-27.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-18,HOUSE,FL,18,,Andrea Doria Kale,DEM,34.7,Scott Franklin,REP,65.3,-30.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-19,HOUSE,FL,19,,Kari Lerner,DEM,33.7,Byron Donalds,REP,66.3,-32.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-2,HOUSE,FL,2,,Yen Bailey,DEM,38.4,Neal Dunn,REP,61.6,-23.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-21,HOUSE,FL,21,,Thomas Witkop,DEM,38.2,Brian Mast,REP,61.8,-23.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-22,HOUSE,FL,22,,Lois Frankel,DEM,55.0,Dan Franzese,REP,45.0,10.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-23,HOUSE,FL,23,,Jared Moskowitz,DEM,52.4,Joe Kaufman,REP,47.6,4.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-24,HOUSE,FL,24,,Frederica Wilson,DEM,68.2,Jesus Navarro,REP,31.8,36.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-25,HOUSE,FL,25,,Debbie Wasserman Schultz,DEM,54.5,Chris Eddy,REP,45.5,9.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-26,HOUSE,FL,26,,Joey Atkins,DEM,29.1,Mario Díaz-Balart,REP,70.9,-41.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-27,HOUSE,FL,27,,Lucia Baez-Geller,DEM,39.6,Maria Elvira Salazar,REP,60.4,-20.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-28,HOUSE,FL,28,,Phil Ehr,DEM,35.4,Carlos Giménez,REP,64.6,-29.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-3,HOUSE,FL,3,,Tom Wells,DEM,38.4,Kat Cammack,REP,61.6,-23.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-4,HOUSE,FL,4,,LaShonda Holloway,DEM,42.7,Aaron Bean,REP,57.3,-14.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-5,HOUSE,FL,5,,Jay McGovern,DEM,36.9,John Rutherford,REP,63.1,-26.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-6,HOUSE,FL,6,,James Stockton III,DEM,33.5,Michael Waltz,REP,66.5,-33.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-7,HOUSE,FL,7,,Jennifer Adams,DEM,43.5,Cory Mills,REP,56.5,-13.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-8,HOUSE,FL,8,,Sandy Kennedy,DEM,37.8,Mike Haridopolos,REP,62.2,-24.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-FL-9,HOUSE,FL,9,,Darren Soto,DEM,55.1,Thomas Chalifoux,REP,42.6,12.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-1,HOUSE,GA,1,,Patti Hewitt,DEM,38.0,Buddy Carter,REP,62.0,-24.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-10,HOUSE,GA,10,,Lexy Doherty,DEM,36.9,Mike Collins,REP,63.1,-26.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-11,HOUSE,GA,11,,Kate Stamper,DEM,31.9,Barry Loudermilk,REP,65.6,-33.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-12,HOUSE,GA,12,,Liz Johnson,DEM,39.7,Rick Allen,REP,60.3,-20.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-13,HOUSE,GA,13,,David Scott,DEM,71.8,Jonathan Chavez,REP,28.2,43.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-14,HOUSE,GA,14,,Shawn Harris,DEM,35.6,Marjorie Taylor Greene,REP,64.4,-28.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-2,HOUSE,GA,2,,Sanford Bishop,DEM,56.3,Wayne Johnson,REP,43.7,12.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-3,HOUSE,GA,3,,Maura Keller,DEM,33.7,Brian Jack,REP,66.3,-32.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-4,HOUSE,GA,4,,Hank Johnson,DEM,75.6,Eugene Yu,REP,24.4,51.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-5,HOUSE,GA,5,,Nikema Williams,DEM,85.7,John Salvesen,REP,14.3,71.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-6,HOUSE,GA,6,,Lucy McBath,DEM,74.7,Jeff Criswell,REP,25.3,49.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-7,HOUSE,GA,7,,Bob Christian,DEM,35.1,Rich McCormick,REP,64.9,-29.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-8,HOUSE,GA,8,,Darrius Butler,DEM,31.1,Austin Scott,REP,68.9,-37.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-GA-9,HOUSE,GA,9,,Tambrei Cash,DEM,31.0,Andrew Clyde,REP,69.0,-38.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-HI-1,HOUSE,HI,1,,Ed Case,DEM,71.8,Patrick Largey,REP,28.2,43.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-HI-2,HOUSE,HI,2,,Jill Tokuda,DEM,66.5,Steve Bond,REP,30.2,36.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IA-1,HOUSE,IA,1,,Christina Bohannan,DEM,49.79,Mariannette Miller-Meeks,REP,49.98,-0.19,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IA-2,HOUSE,IA,2,,Sarah Corkery,DEM,41.5,Ashley Hinson,REP,57.1,-15.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IA-3,HOUSE,IA,3,,Lanon Baccam,DEM,47.9,Zach Nunn,REP,51.8,-3.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IA-4,HOUSE,IA,4,,Ryan Melton,DEM,32.7,Randy Feenstra,REP,67.0,-34.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-ID-1,HOUSE,ID,1,,Kaylee Peterson,DEM,25.4,Russ Fulcher,REP,71.0,-45.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-ID-2,HOUSE,ID,2,,David Roth,DEM,31.0,Mike Simpson,REP,61.4,-30.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-1,HOUSE,IL,1,,Jonathan Jackson,DEM,65.8,Marcus Lewis,REP,34.1,31.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-10,HOUSE,IL,10,,Brad Schneider,DEM,59.9,Jim Carris,REP,40.0,19.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-11,HOUSE,IL,11,,Bill Foster,DEM,55.5,Jerry Evans,REP,44.4,11.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-12,HOUSE,IL,12,,Brian Roberts,DEM,25.8,Mike Bost,REP,74.2,-48.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-13,HOUSE,IL,13,,Nikki Budzinski,DEM,58.1,Joshua Loyd,REP,41.9,16.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-14,HOUSE,IL,14,,Lauren Underwood,DEM,55.1,James Marter,REP,44.9,10.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-15,HOUSE,IL,15,,William Bonnett,DEM,0.5,Mary Miller,REP,99.5,-99.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-16,HOUSE,IL,16,,Scott Summers,GRN,0.1,Darin LaHood,REP,99.9,-99.8,X-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-17,HOUSE,IL,17,,Eric Sorensen,DEM,54.4,Joseph McGraw,REP,45.6,8.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-2,HOUSE,IL,2,,Robin Kelly,DEM,67.6,Ashley Ramos,REP,32.4,35.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-3,HOUSE,IL,3,,Delia Ramirez,DEM,67.3,John Booras,REP,32.7,34.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-4,HOUSE,IL,4,,Chuy García,DEM,67.5,Lupe Castillo,REP,27.3,40.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-5,HOUSE,IL,5,,Mike Quigley,DEM,69.0,Tommy Hanson,REP,31.0,38.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-6,HOUSE,IL,6,,Sean Casten,DEM,54.2,Niki Conforti,REP,45.8,8.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-7,HOUSE,IL,7,,Danny Davis,DEM,83.2,Chad Koppie,REP,16.7,66.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-8,HOUSE,IL,8,,Raja Krishnamoorthi,DEM,57.1,Mark Rice,REP,42.9,14.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IL-9,HOUSE,IL,9,,Janice Schakowsky,DEM,68.4,Seth Cohen,REP,31.6,36.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-1,HOUSE,IN,1,,Frank J. Mrvan,DEM,53.4,Randy Niemeyer,REP,44.9,8.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-2,HOUSE,IN,2,,Lori Camp,DEM,34.6,Rudy Yakym,REP,62.7,-28.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-3,HOUSE,IN,3,,Kiley Adolph,DEM,31.4,Marlin Stutzman,REP,65.0,-33.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-4,HOUSE,IN,4,,Derrick Holder,DEM,30.9,Jim Baird,REP,64.8,-33.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-5,HOUSE,IN,5,,Deborah Pickett,DEM,38.0,Victoria Spartz,REP,56.6,-18.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-6,HOUSE,IN,6,,Cynthia Wirth,DEM,31.7,Jefferson Shreve,REP,63.9,-32.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-7,HOUSE,IN,7,,André Carson,DEM,68.3,John Schmitz,REP,29.0,39.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-8,HOUSE,IN,8,,Erik Hurt,DEM,29.5,Mark Messmer,REP,68.0,-38.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-IN-9,HOUSE,IN,9,,Timothy Peck,DEM,32.8,Erin Houchin,REP,64.5,-31.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KS-1,HOUSE,KS,1,,Paul Buskirk,DEM,30.9,Tracey Mann,REP,69.1,-38.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KS-2,HOUSE,KS,2,,Nancy Boyda,DEM,38.2,Derek Schmidt,REP,57.1,-18.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KS-3,HOUSE,KS,3,,Sharice Davids,DEM,53.4,Prasanth Reddy,REP,42.6,10.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KS-4,HOUSE,KS,4,,Esau Freeman,DEM,35.0,Ron Estes,REP,65.0,-30.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KY-1,HOUSE,KY,1,,Erin Marshall,DEM,25.3,James Comer,REP,74.7,-49.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KY-2,HOUSE,KY,2,,Hank Linderman,DEM,26.9,Brett Guthrie,REP,73.1,-46.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KY-3,HOUSE,KY,3,,Morgan McGarvey,DEM,61.9,Mike Craven,REP,38.0,23.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-KY-6,HOUSE,KY,6,,Randy Cravens,DEM,37.0,Andy Barr,REP,63.0,-26.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-1,HOUSE,LA,1,,Mel Manuel,DEM,24.0,Steve Scalise,REP,66.8,-42.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-2,HOUSE,LA,2,,Troy Carter,DEM,60.3,Christy Lynch,REP,13.6,46.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-3,HOUSE,LA,3,,Priscilla Gonzalez,DEM,18.7,Clay Higgins,REP,70.6,-51.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-4,HOUSE,LA,4,,Mike Johnson,REP,85.8,Joshua Morott,REP,14.2,71.6,same-party,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-5,HOUSE,LA,5,,Michael Vallien Jr.,DEM,25.9,Julia Letlow,REP,62.9,-37.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-LA-6,HOUSE,LA,6,,Cleo Fields,DEM,50.8,Elbert Guillory,REP,37.7,13.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MA-1,HOUSE,MA,1,,Richard Neal,DEM,62.4,Nadia Milleron,IND,37.3,25.1,other,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MA-2,HOUSE,MA,2,,Jim McGovern,DEM,68.6,Cornelius Shea,IND,31.1,37.5,other,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MA-8,HOUSE,MA,8,,Stephen Lynch,DEM,70.4,Robert Burke,REP,29.4,41.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MA-9,HOUSE,MA,9,,Bill Keating,DEM,56.4,Dan Sullivan,REP,43.4,13.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-1,HOUSE,MD,1,,"Blane Miller, III",DEM,37.37,Andy Harris,REP,59.41,-22.04,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-2,HOUSE,MD,2,,Johnny Olszewski,DEM,58.16,Kimberly Klacik,REP,39.52,18.64,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-3,HOUSE,MD,3,,Sarah Elfreth,DEM,59.29,Robert Steinberger,REP,37.87,21.42,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-4,HOUSE,MD,4,,Glenn Ivey,DEM,88.42,George McDermott,REP,11.24,77.18,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-5,HOUSE,MD,5,,Steny Hoyer,DEM,67.75,Michelle Talkington,REP,32.01,35.74,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-6,HOUSE,MD,6,,April McClain Delaney,DEM,53.05,Neil Parrott,REP,46.72,6.33,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-7,HOUSE,MD,7,,Kweisi Mfume,DEM,80.25,Scott Collier,REP,17.16,63.09,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MD-8,HOUSE,MD,8,,Jamie Raskin,DEM,76.8,Cheryl Riley,REP,20.46,56.34,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-ME-1,HOUSE,ME,1,,Chellie Pingree,DEM,58.7,Ronald Russell,REP,36.39,22.31,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-ME-2,HOUSE,ME,2,,Jared Golden,DEM,50.35,Austin Theriault,REP,49.65,0.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-1,HOUSE,MI,1,,Callie Barr,DEM,37.9,Jack Bergman,REP,59.1,-21.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-10,HOUSE,MI,10,,Carl Marlinga,DEM,45.0,John James,REP,51.1,-6.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-11,HOUSE,MI,11,,Haley Stevens,DEM,58.2,Nick Somberg,REP,39.6,18.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-12,HOUSE,MI,12,,Rashida Tlaib,DEM,69.7,James Hooper,REP,25.4,44.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-13,HOUSE,MI,13,,Shri Thanedar,DEM,68.6,Martel Bivings,REP,24.5,44.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-2,HOUSE,MI,2,,Michael Lynch,DEM,31.7,John Moolenaar,REP,65.1,-33.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-3,HOUSE,MI,3,,Hillary Scholten,DEM,53.7,Paul Hudson,REP,43.8,9.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-4,HOUSE,MI,4,,Jessica Swartz,DEM,43.4,Bill Huizenga,REP,55.1,-11.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-5,HOUSE,MI,5,,Libbi Urban,DEM,32.8,Tim Walberg,REP,65.7,-32.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-6,HOUSE,MI,6,,Debbie Dingell,DEM,62.0,Heather Smiley,REP,35.0,27.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-7,HOUSE,MI,7,,Curtis Hertel Jr.,DEM,46.6,Tom Barrett,REP,50.3,-3.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-8,HOUSE,MI,8,,Kristen McDonald Rivet,DEM,51.3,Paul Junge,REP,44.6,6.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MI-9,HOUSE,MI,9,,Clinton St. Mosley,DEM,29.5,Lisa McClain,REP,66.8,-37.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-1,HOUSE,MN,1,,Rachel Bohman,DEM,41.4,Brad Finstad,REP,58.5,-17.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-2,HOUSE,MN,2,,Angie Craig,DEM,55.5,Joe Teirab,REP,42.1,13.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-3,HOUSE,MN,3,,Kelly Morrison,DEM,58.4,Tad Jude,REP,41.5,16.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-4,HOUSE,MN,4,,Betty McCollum,DEM,67.2,May Lor Xiong,REP,32.6,34.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-5,HOUSE,MN,5,,Ilhan Omar,DEM,74.4,Dalia Al-Aqidi,REP,24.6,49.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-6,HOUSE,MN,6,,Jeanne Hendricks,DEM,37.4,Tom Emmer,REP,62.5,-25.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-7,HOUSE,MN,7,,John Peters,DEM,29.4,Michelle Fischbach,REP,70.4,-41.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MN-8,HOUSE,MN,8,,Jennifer Schultz,DEM,41.9,Pete Stauber,REP,58.0,-16.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-1,HOUSE,MO,1,,Wesley Bell,DEM,75.9,Andrew Jones,REP,18.4,57.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-2,HOUSE,MO,2,,Ray Hartmann,DEM,42.5,Ann Wagner,REP,54.49,-11.99,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-3,HOUSE,MO,3,,Bethany Mann,DEM,35.3,Bob Onder,REP,61.31,-26.01,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-4,HOUSE,MO,4,,Jeanette Cass,DEM,26.4,Mark Alford,REP,71.1,-44.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-5,HOUSE,MO,5,,Emanuel Cleaver,DEM,60.2,Sean Smith,REP,36.4,23.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-6,HOUSE,MO,6,,Pam May,DEM,26.9,Sam Graves,REP,70.7,-43.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-7,HOUSE,MO,7,,Missi Hesketh,DEM,26.3,Eric Burlison,REP,71.6,-45.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MO-8,HOUSE,MO,8,,Randi McCallian,DEM,21.8,Jason Smith,REP,76.2,-54.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MS-1,HOUSE,MS,1,,Dianne Black,DEM,30.2,Trent Kelly,REP,69.8,-39.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MS-2,HOUSE,MS,2,,Bennie Thompson,DEM,62.02,Ron Eller,REP,37.98,24.04,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MS-4,HOUSE,MS,4,,Craig Raybon,DEM,26.1,Mike Ezell,REP,73.9,-47.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MT-1,HOUSE,MT,1,,Monica Tranel,DEM,44.62,Ryan Zinke,REP,52.29,-7.67,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-MT-2,HOUSE,MT,2,,John Driscoll,DEM,33.87,Troy Downing,REP,65.73,-31.86,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-1,HOUSE,NC,1,,Don Davis,DEM,49.5,Laurie Buckhout,REP,47.8,1.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-10,HOUSE,NC,10,,Ralph Scott Jr.,DEM,38.2,Pat Harrigan,REP,57.5,-19.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-11,HOUSE,NC,11,,Caleb Rudow,DEM,43.2,Chuck Edwards,REP,56.8,-13.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-12,HOUSE,NC,12,,Alma Adams,DEM,74.0,Addul Ali,REP,26.0,48.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-13,HOUSE,NC,13,,Frank Pierce,DEM,41.4,Brad Knott,REP,58.6,-17.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-14,HOUSE,NC,14,,Pam Genant,DEM,41.9,Tim Moore,REP,58.1,-16.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-2,HOUSE,NC,2,,Deborah Ross,DEM,66.3,Alan Swain,REP,31.6,34.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-3,HOUSE,NC,3,,Gheorghe Cormos,LIB,22.6,Greg Murphy,REP,77.4,-54.8,X-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-4,HOUSE,NC,4,,Valerie Foushee,DEM,71.9,Eric Blankenburg,REP,26.1,45.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-5,HOUSE,NC,5,,Chuck Hubbard,DEM,40.5,Virginia Foxx,REP,59.5,-19.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-6,HOUSE,NC,6,,Kevin Hayes,CON,30.8,Addison McDowell,REP,69.2,-38.4,X-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-7,HOUSE,NC,7,,Marlando Pridgen,DEM,41.4,David Rouzer,REP,58.6,-17.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-8,HOUSE,NC,8,,Justin Dues,DEM,40.4,Mark Harris,REP,59.6,-19.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NC-9,HOUSE,NC,9,,Nigel William Bristow,DEM,37.8,Richard Hudson,REP,56.3,-18.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-ND-1,HOUSE,ND,1,,Trygve Hammer,DEM,30.36,Julie Fedorchak,REP,69.24,-38.88,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NE-1,HOUSE,NE,1,,Carol Blood,DEM,39.9,Mike Flood,REP,60.1,-20.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NE-2,HOUSE,NE,2,,Tony Vargas,DEM,49.07,Don Bacon,REP,50.93,-1.86,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NE-3,HOUSE,NE,3,,Daniel Ebers,DEM,19.58,Adrian Smith,REP,80.42,-60.84,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NH-1,HOUSE,NH,1,,Chris Pappas,DEM,54.0,Russell Prescott,REP,45.9,8.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NH-2,HOUSE,NH,2,,Maggie Goodlander,DEM,52.9,Lily Tang Williams,REP,47.0,5.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-1,HOUSE,NJ,1,,Donald Norcross,DEM,57.8,Teddy Liddell,REP,40.0,17.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-10,HOUSE,NJ,10,,LaMonica McIver,DEM,74.4,Carmen Bucco,REP,22.2,52.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-11,HOUSE,NJ,11,,Mikie Sherrill,DEM,56.5,Joseph Belnome,REP,41.8,14.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-12,HOUSE,NJ,12,,Bonnie Watson Coleman,DEM,61.2,Darius Mayfield,REP,36.4,24.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-2,HOUSE,NJ,2,,Joe Salerno,DEM,41.2,Jeff Van Drew,REP,58.1,-16.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-3,HOUSE,NJ,3,,Herb Conaway,DEM,53.2,Rajesh Mohan,REP,44.7,8.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-4,HOUSE,NJ,4,,Matthew Jenkins,DEM,31.6,Chris Smith,REP,67.4,-35.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-5,HOUSE,NJ,5,,Josh Gottheimer,DEM,54.6,Mary Jo-Ann Guinchard,REP,43.3,11.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-6,HOUSE,NJ,6,,Frank Pallone,DEM,56.1,Scott Fegler,REP,40.3,15.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-7,HOUSE,NJ,7,,Sue Altman,DEM,46.4,Thomas Kean Jr.,REP,51.8,-5.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-8,HOUSE,NJ,8,,Rob Menendez,DEM,59.2,Anthony Valdes,REP,34.6,24.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NJ-9,HOUSE,NJ,9,,Nellie Pou,DEM,50.8,Billy Prempeh,REP,45.9,4.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NM-1,HOUSE,NM,1,,Melanie Stansbury,DEM,56.4,Steve Jones,REP,43.6,12.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NM-2,HOUSE,NM,2,,Gabe Vasquez,DEM,52.1,Yvette Herrell,REP,47.9,4.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NM-3,HOUSE,NM,3,,Teresa Leger Fernandez,DEM,56.3,Sharon Clahchischilliage,REP,43.7,12.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NV-1,HOUSE,NV,1,,Dina Titus,DEM,52.0,Mark Robertson,REP,44.5,7.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NV-2,HOUSE,NV,2,,Greg Kidd,IND,36.1,Mark Amodei,REP,55.0,-18.9,X-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NV-3,HOUSE,NV,3,,Susie Lee,DEM,51.4,Drew Johnson,REP,48.6,2.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NV-4,HOUSE,NV,4,,Steven Horsford,DEM,52.7,John Lee,REP,44.6,8.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-1,HOUSE,NY,1,,John Avlon,DEM,44.8,Nick LaLota,REP,55.2,-10.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-10,HOUSE,NY,10,,Dan Goldman,DEM,82.3,Alex Dodenhoff,REP,15.0,67.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-11,HOUSE,NY,11,,Andrea Morse,DEM,35.9,Nicole Malliotakis,REP,64.1,-28.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-12,HOUSE,NY,12,,Jerry Nadler,DEM,80.5,Michael Zumbluskas,REP,19.5,61.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-13,HOUSE,NY,13,,Adriano Espaillat,DEM,83.5,Ruben Vargas,REP,16.5,67.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-14,HOUSE,NY,14,,Alexandria Ocasio-Cortez,DEM,69.2,Tina Forte,REP,30.8,38.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-15,HOUSE,NY,15,,Ritchie Torres,DEM,76.5,Gonzalo Duran,REP,21.1,55.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-16,HOUSE,NY,16,,George Latimer,DEM,71.6,Miriam Flisser,REP,28.4,43.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-17,HOUSE,NY,17,,Mondaire Jones,DEM,45.9,Mike Lawler,REP,52.2,-6.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-18,HOUSE,NY,18,,Pat Ryan,DEM,57.2,Alison Esposito,REP,42.8,14.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-19,HOUSE,NY,19,,Josh Riley,DEM,51.1,Marc Molinaro,REP,48.9,2.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-2,HOUSE,NY,2,,Rob Lubin,DEM,40.2,Andrew Garbarino,REP,59.8,-19.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-20,HOUSE,NY,20,,Paul Tonko,DEM,61.1,Kevin Waltz,REP,38.9,22.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-21,HOUSE,NY,21,,Paula Collins,DEM,37.9,Elise Stefanik,REP,62.1,-24.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-22,HOUSE,NY,22,,John Mannion,DEM,54.6,Brandon Williams,REP,45.4,9.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-23,HOUSE,NY,23,,Thomas Carle,DEM,34.2,Nick Langworthy,REP,65.8,-31.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-24,HOUSE,NY,24,,David Wagenhauser,DEM,34.3,Claudia Tenney,REP,65.7,-31.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-25,HOUSE,NY,25,,Joseph Morelle,DEM,60.8,Gregg Sadwick,REP,39.2,21.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-26,HOUSE,NY,26,,Tim Kennedy,DEM,65.2,Anthony Marecki,REP,34.8,30.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-3,HOUSE,NY,3,,Tom Suozzi,DEM,51.8,Mike LiPetri,REP,48.2,3.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-4,HOUSE,NY,4,,Laura Gillen,DEM,51.2,Anthony D'Esposito,REP,48.8,2.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-5,HOUSE,NY,5,,Gregory Meeks,DEM,72.9,Paul King,REP,27.1,45.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-6,HOUSE,NY,6,,Grace Meng,DEM,60.7,Thomas Zmich,REP,37.6,23.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-7,HOUSE,NY,7,,Nydia Velázquez,DEM,78.1,William Kregler,REP,21.9,56.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-8,HOUSE,NY,8,,Hakeem Jeffries,DEM,75.4,John Delaney,REP,24.6,50.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-NY-9,HOUSE,NY,9,,Yvette Clarke,DEM,74.3,Menachem Raitport,REP,25.7,48.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-1,HOUSE,OH,1,,Greg Landsman,DEM,54.58,Orlando Sonza,REP,45.42,9.16,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-10,HOUSE,OH,10,,Amy Cox,DEM,39.22,Mike Turner,REP,57.64,-18.42,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-11,HOUSE,OH,11,,Shontel Brown,DEM,78.33,Alan Rapoport,REP,19.64,58.69,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-12,HOUSE,OH,12,,Jerrad Christian,DEM,31.49,Troy Balderson,REP,68.51,-37.02,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-13,HOUSE,OH,13,,Emilia Sykes,DEM,51.11,Kevin Coughlin,REP,48.89,2.22,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-14,HOUSE,OH,14,,Brian Kenderes,DEM,36.58,David Joyce,REP,63.42,-26.84,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-15,HOUSE,OH,15,,Adam Miller,DEM,43.54,Mike Carey,REP,56.46,-12.92,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-2,HOUSE,OH,2,,Samantha Meadows,DEM,26.44,David Taylor,REP,73.56,-47.12,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-3,HOUSE,OH,3,,Joyce Beatty,DEM,70.74,Michael Young,REP,29.26,41.48,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-4,HOUSE,OH,4,,Tamie Wilson,DEM,31.54,Jim Jordan,REP,68.46,-36.92,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-5,HOUSE,OH,5,,Keith Mundy,DEM,32.49,Bob Latta,REP,67.51,-35.02,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-6,HOUSE,OH,6,,Michael Kripchak,DEM,33.26,Michael Rulli,REP,66.74,-33.48,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-7,HOUSE,OH,7,,Matthew Diemer,DEM,36.12,Max Miller,REP,51.08,-14.96,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-8,HOUSE,OH,8,,Vanessa Enoch,DEM,37.19,Warren Davidson,REP,62.81,-25.62,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OH-9,HOUSE,OH,9,,Marcy Kaptur,DEM,48.27,Derek Merrin,REP,47.63,0.64,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OK-1,HOUSE,OK,1,,Dennis Baker,DEM,34.53,Kevin Hern,REP,60.43,-25.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OK-2,HOUSE,OK,2,,Brandon Wade,DEM,21.44,Josh Brecheen,REP,74.18,-52.74,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OK-4,HOUSE,OK,4,,Mary Brannon,DEM,28.27,Tom Cole,REP,65.25,-36.98,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OK-5,HOUSE,OK,5,,Madison Horn,DEM,39.31,Stephanie Bice,REP,60.69,-21.38,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-1,HOUSE,OR,1,,Suzanne Bonamici,DEM,68.6,Bob Todd,REP,28.1,40.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-2,HOUSE,OR,2,,Dan Ruby,DEM,32.8,Cliff Bentz,REP,63.9,-31.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-3,HOUSE,OR,3,,Maxine Dexter,DEM,67.7,Joanna Harbour,REP,25.2,42.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-4,HOUSE,OR,4,,Val Hoyle,DEM,51.7,Monique DeSpain,REP,43.9,7.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-5,HOUSE,OR,5,,Janelle Bynum,DEM,47.7,Lori Chavez-DeRemer,REP,45.0,2.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-OR-6,HOUSE,OR,6,,Andrea Salinas,DEM,53.3,Mike Erickson,REP,46.5,6.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-1,HOUSE,PA,1,,Ashley Ehasz,DEM,43.6,Brian Fitzpatrick,REP,56.4,-12.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-10,HOUSE,PA,10,,Janelle Stelson,DEM,49.4,Scott Perry,REP,50.6,-1.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-11,HOUSE,PA,11,,Jim Atkinson,DEM,37.1,Lloyd Smucker,REP,62.9,-25.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-12,HOUSE,PA,12,,Summer Lee,DEM,56.4,James Hayes,REP,43.6,12.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-13,HOUSE,PA,13,,Beth Farnham,DEM,25.8,John Joyce,REP,74.2,-48.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-14,HOUSE,PA,14,,Chris Dziados,DEM,33.4,Guy Reschenthaler,REP,66.6,-33.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-15,HOUSE,PA,15,,Zacheray Womer,DEM,28.5,Glenn Thompson,REP,71.5,-43.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-16,HOUSE,PA,16,,Preston Nouri,DEM,36.3,Mike Kelly,REP,63.7,-27.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-17,HOUSE,PA,17,,Chris Deluzio,DEM,53.9,Rob Mercuri,REP,46.1,7.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-2,HOUSE,PA,2,,Brendan Boyle,DEM,71.5,Haroon Bashir,REP,28.5,43.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-4,HOUSE,PA,4,,Madeleine Dean,DEM,59.1,David Winkler,REP,40.9,18.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-5,HOUSE,PA,5,,Mary Gay Scanlon,DEM,65.3,Alfeia DeVaughn-Goodwin,REP,34.7,30.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-6,HOUSE,PA,6,,Chrissy Houlahan,DEM,56.2,Neil Young Jr.,REP,43.8,12.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-7,HOUSE,PA,7,,Susan Wild,DEM,49.5,Ryan Mackenzie,REP,50.5,-1.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-8,HOUSE,PA,8,,Matt Cartwright,DEM,49.2,Rob Bresnahan Jr.,REP,50.8,-1.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-PA-9,HOUSE,PA,9,,Amanda Waldman,DEM,29.5,Dan Meuser,REP,70.5,-41.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-RI-1,HOUSE,RI,1,,Gabe Amo,DEM,63.0,Allen Waters,REP,32.0,31.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-RI-2,HOUSE,RI,2,,Seth Magaziner,DEM,58.2,Steve Corvi,REP,41.5,16.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-1,HOUSE,SC,1,,Michael B. Moore,DEM,41.6,Nancy Mace,REP,58.2,-16.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-2,HOUSE,SC,2,,David Robinson,DEM,40.3,Joe Wilson,REP,59.5,-19.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-3,HOUSE,SC,3,,Bryon Best,DEM,25.3,Sheri Biggs,REP,71.7,-46.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-4,HOUSE,SC,4,,Kathryn Harvey,DEM,37.2,William Timmons,REP,59.7,-22.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-5,HOUSE,SC,5,,Evangeline Hundley,DEM,36.3,Ralph Norman,REP,63.5,-27.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-6,HOUSE,SC,6,,Jim Clyburn,DEM,59.5,Duke Buckner,REP,36.7,22.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SC-7,HOUSE,SC,7,,Mal Hyman,DEM,35.0,Russell Fry,REP,64.9,-29.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-SD-1,HOUSE,SD,1,,Sheryl Johnson,DEM,27.96,Dusty Johnson,REP,72.04,-44.08,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-1,HOUSE,TN,1,,Kevin Jenkins,DEM,19.39,Diana Harshbarger,REP,78.08,-58.69,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-2,HOUSE,TN,2,,Jane George,DEM,30.74,Tim Burchett,REP,69.26,-38.52,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-3,HOUSE,TN,3,,Jack Allen,DEM,29.36,Chuck Fleischmann,REP,67.51,-38.15,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-4,HOUSE,TN,4,,Victoria Broderick,DEM,26.76,Scott DesJarlais,REP,69.95,-43.19,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-5,HOUSE,TN,5,,Maryam Abolfazli,DEM,39.47,Andy Ogles,REP,56.85,-17.38,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-6,HOUSE,TN,6,,Lore Bergman,DEM,32.0,John Rose,REP,68.0,-36.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-7,HOUSE,TN,7,,Megan Barry,DEM,38.05,Mark Green,REP,59.5,-21.45,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-8,HOUSE,TN,8,,Sarah Freeman,DEM,25.59,David Kustoff,REP,72.34,-46.75,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TN-9,HOUSE,TN,9,,Steve Cohen,DEM,71.31,Charlotte Bergman,REP,25.66,45.65,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-10,HOUSE,TX,10,,Theresa Boisseau,DEM,34.8,Michael McCaul,REP,65.2,-30.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-12,HOUSE,TX,12,,Trey Hunt,DEM,36.5,Craig Goldman,REP,63.5,-27.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-14,HOUSE,TX,14,,Rhonda Hart,DEM,31.31,Randy Weber,REP,68.69,-37.38,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-15,HOUSE,TX,15,,Michelle Vallejo,DEM,42.89,Monica De La Cruz,REP,57.11,-14.22,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-16,HOUSE,TX,16,,Veronica Escobar,DEM,59.54,Irene Armendariz-Jackson,REP,40.46,19.08,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-17,HOUSE,TX,17,,Mark Lorenzen,DEM,33.65,Pete Sessions,REP,66.35,-32.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-18,HOUSE,TX,18,,Sylvester Turner,DEM,69.4,Lana Centonze,REP,30.6,38.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-19,HOUSE,TX,19,,Nathan Lewis,IND,10.3,Jodey Arrington,REP,80.7,-70.4,X-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-2,HOUSE,TX,2,,Peter Filler,DEM,34.34,Dan Crenshaw,REP,65.66,-31.32,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-21,HOUSE,TX,21,,Kristin Hook,DEM,36.06,Chip Roy,REP,61.85,-25.79,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-22,HOUSE,TX,22,,Marquette Greene-Scott,DEM,37.88,Troy Nehls,REP,62.12,-24.24,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-23,HOUSE,TX,23,,Santos Limon,DEM,37.7,Tony Gonzales,REP,62.3,-24.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-24,HOUSE,TX,24,,Sam Eppler,DEM,39.7,Beth Van Duyne,REP,60.3,-20.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-26,HOUSE,TX,26,,Ernest Lineberger,DEM,35.67,Brandon Gill,REP,62.07,-26.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-27,HOUSE,TX,27,,Tanya Lloyd,DEM,33.96,Michael Cloud,REP,66.04,-32.08,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-28,HOUSE,TX,28,,Henry Cuellar,DEM,52.8,Jay Furman,REP,47.2,5.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-29,HOUSE,TX,29,,Sylvia Garcia,DEM,65.2,Alan Garza,REP,34.8,30.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-3,HOUSE,TX,3,,Sandeep Srivastava,DEM,37.6,Keith Self,REP,62.5,-24.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-30,HOUSE,TX,30,,Jasmine Crockett,DEM,84.9,Jrmar Jefferson,LIB,15.1,69.8,other,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-31,HOUSE,TX,31,,Stuart Whitlow,DEM,35.5,John Carter,REP,64.5,-29.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-32,HOUSE,TX,32,,Julie Johnson,DEM,60.4,Darrell Day,REP,37.0,23.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-33,HOUSE,TX,33,,Marc Veasey,DEM,68.7,Patrick Gillespie,REP,31.3,37.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-34,HOUSE,TX,34,,Vicente Gonzalez,DEM,51.3,Mayra Flores,REP,48.7,2.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-35,HOUSE,TX,35,,Greg Casar,DEM,67.4,Steven Wright,REP,32.6,34.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-36,HOUSE,TX,36,,Dayna Steele,DEM,30.6,Brian Babin,REP,69.4,-38.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-37,HOUSE,TX,37,,Lloyd Doggett,DEM,74.22,Jenny Garcia Sharon,REP,23.58,50.64,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-38,HOUSE,TX,38,,Melissa McDonough,DEM,37.24,Wesley Hunt,REP,62.73,-25.49,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-4,HOUSE,TX,4,,Simon Cardell,DEM,31.6,Pat Fallon,REP,68.4,-36.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-5,HOUSE,TX,5,,Ruth Torres,DEM,35.9,Lance Gooden,REP,64.1,-28.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-6,HOUSE,TX,6,,John Love III,DEM,34.32,Jake Ellzey,REP,65.68,-31.36,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-7,HOUSE,TX,7,,Lizzie Fletcher,DEM,61.2,Caroline Kane,REP,38.8,22.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-TX-8,HOUSE,TX,8,,Laura Jones,DEM,31.8,Morgan Luttrell,REP,68.2,-36.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-UT-1,HOUSE,UT,1,,Bill Campbell,DEM,32.1,Blake Moore,REP,63.1,-31.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-UT-2,HOUSE,UT,2,,Nathaniel Woodward,DEM,34.2,Celeste Maloy,REP,58.0,-23.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-UT-3,HOUSE,UT,3,,Glenn Wright,DEM,33.6,Mike Kennedy,REP,66.4,-32.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-UT-4,HOUSE,UT,4,,Katrina Fallick-Wang,DEM,30.2,Burgess Owens,REP,63.4,-33.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-1,HOUSE,VA,1,,Leslie Mehta,DEM,43.5,Rob Wittman,REP,56.3,-12.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-10,HOUSE,VA,10,,Suhas Subramanyam,DEM,52.1,Mike Clancy,REP,47.5,4.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-11,HOUSE,VA,11,,Gerry Connolly,DEM,66.7,Michael Van Meter,REP,32.9,33.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-2,HOUSE,VA,2,,Missy Cotter Smasal,DEM,46.9,Jen Kiggans,REP,50.7,-3.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-3,HOUSE,VA,3,,Bobby Scott,DEM,70.0,John Sitka III,REP,29.8,40.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-4,HOUSE,VA,4,,Jennifer McClellan,DEM,67.3,Bill Moher,REP,32.4,34.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-5,HOUSE,VA,5,,Gloria Witt,DEM,42.3,John McGuire,REP,57.3,-15.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-6,HOUSE,VA,6,,Ken Mitchell,DEM,34.8,Ben Cline,REP,63.1,-28.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-7,HOUSE,VA,7,,Eugene Vindman,DEM,51.2,Derrick Anderson,REP,48.5,2.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-8,HOUSE,VA,8,,Don Beyer,DEM,71.5,Jerry Torres,REP,24.7,46.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VA-9,HOUSE,VA,9,,Karen Baker,DEM,27.3,Morgan Griffith,REP,72.5,-45.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-VT-1,HOUSE,VT,1,,Becca Balint,DEM,62.29,Mark Coester,REP,29.79,32.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-1,HOUSE,WA,1,,Suzan DelBene,DEM,63.0,Jeb Brewer,REP,36.7,26.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-10,HOUSE,WA,10,,Marilyn Strickland,DEM,58.5,Don Hewett,REP,41.2,17.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-2,HOUSE,WA,2,,Rick Larsen,DEM,63.8,Cody Hart,REP,35.9,27.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-3,HOUSE,WA,3,,Marie Gluesenkamp Perez,DEM,51.7,Joe Kent,REP,47.9,3.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-4,HOUSE,WA,4,,Dan Newhouse,REP,52.0,Jerrod Sessler,REP,46.2,5.8,same-party,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-5,HOUSE,WA,5,,Carmela Conroy,DEM,39.3,Michael Baumgartner,REP,60.6,-21.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-6,HOUSE,WA,6,,Emily Randall,DEM,56.7,Drew MacEwen,REP,43.1,13.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-7,HOUSE,WA,7,,Pramila Jayapal,DEM,83.9,Dan Alexander,REP,15.8,68.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-8,HOUSE,WA,8,,Kim Schrier,DEM,54.0,Carmen Goers,REP,45.8,8.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WA-9,HOUSE,WA,9,,Adam Smith,DEM,65.4,Melissa Chaudhry,DEM,32.4,33.0,same-party,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-1,HOUSE,WI,1,,Peter Barca,DEM,43.8,Bryan Steil,REP,54.0,-10.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-2,HOUSE,WI,2,,Mark Pocan,DEM,70.1,Erik Olsen,REP,29.8,40.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-3,HOUSE,WI,3,,Rebecca Cooke,DEM,48.6,Derrick Van Orden,REP,51.3,-2.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-4,HOUSE,WI,4,,Gwen Moore,DEM,74.8,Tim Rogers,REP,22.4,52.4,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-5,HOUSE,WI,5,,Ben Steinhoff,DEM,35.5,Scott Fitzgerald,REP,64.4,-28.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-6,HOUSE,WI,6,,John Zarbano,DEM,38.7,Glenn Grothman,REP,61.2,-22.5,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-7,HOUSE,WI,7,,Kyle Kilbourn,DEM,36.4,Tom Tiffany,REP,63.6,-27.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WI-8,HOUSE,WI,8,,Kristin Lyerly,DEM,42.6,Tony Wied,REP,57.3,-14.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WV-1,HOUSE,WV,1,,Chris Reed,DEM,26.1,Carol Miller,REP,66.4,-40.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WV-2,HOUSE,WV,2,,Steven Wendelin,DEM,29.2,Riley Moore,REP,70.8,-41.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-HOUSE-WY-1,HOUSE,WY,1,,Kyle Cameron,DEM,23.24,Harriet Hageman,REP,70.61,-47.37,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-AZ,SEN,AZ,,,Ruben Gallego,DEM,50.06,Kari Lake,REP,47.65,2.41,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-CT,SEN,CT,,,Chris Murphy,DEM,58.58,Matthew Corey,REP,39.7,18.88,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-DE,SEN,DE,,,Lisa Blunt Rochester,DEM,56.59,Eric Hansen,REP,39.5,17.09,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-FL,SEN,FL,,,Debbie Mucarsel-Powell,DEM,42.79,Rick Scott,REP,55.57,-12.78,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-HI,SEN,HI,,,Mazie Hirono,DEM,64.61,Bob McDermott,REP,31.9,32.71,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-IN,SEN,IN,,,Valerie McCray,DEM,38.77,Jim Banks,REP,58.64,-19.87,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MA,SEN,MA,,,Elizabeth Warren,DEM,59.81,John Deaton,REP,40.0,19.81,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MD,SEN,MD,,,Angela Alsobrooks,DEM,54.64,Larry Hogan,REP,42.84,11.8,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-ME,SEN,ME,,,Angus King,IND,52.06,Demi Kouzounas,REP,34.64,17.42,X-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MI,SEN,MI,,,Elissa Slotkin,DEM,48.64,Mike Rogers,REP,48.3,0.34,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MN,SEN,MN,,,Amy Klobuchar,DEM,56.2,Royce White,REP,40.5,15.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MO,SEN,MO,,,Lucas Kunce,DEM,41.84,Josh Hawley,REP,55.57,-13.73,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MS,SEN,MS,,,Ty Pinkins,DEM,37.19,Roger Wicker,REP,62.81,-25.62,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-MT,SEN,MT,,,Jon Tester,DEM,45.5,Tim Sheehy,REP,52.64,-7.14,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-ND,SEN,ND,,,Katrina Christiansen,DEM,33.38,Kevin Cramer,REP,66.31,-32.93,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NE,SEN,NE,,,Dan Osborn,IND,46.52,Deb Fischer,REP,53.19,-6.67,X-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NE-S,SEN,NE,,S,Preston Love Jr.,DEM,37.42,Pete Ricketts ( inc. ),REP,62.58,-25.16,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NJ,SEN,NJ,,,Andy Kim,DEM,53.61,Curtis Bashaw,REP,43.99,9.62,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NM,SEN,NM,,,Martin Heinrich,DEM,55.06,Nella Domenici,REP,44.94,10.12,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NV,SEN,NV,,,Jacky Rosen,DEM,47.87,Sam Brown,REP,46.22,1.65,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-NY,SEN,NY,,,Kirsten Gillibrand,DEM,58.82,Mike Sapraicone,REP,40.52,18.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-OH,SEN,OH,,,Sherrod Brown,DEM,46.47,Bernie Moreno,REP,50.09,-3.62,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-PA,SEN,PA,,,Bob Casey Jr.,DEM,48.56,Dave McCormick,REP,48.78,-0.22,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-RI,SEN,RI,,,Sheldon Whitehouse,DEM,59.9,Patricia Morgan,REP,39.85,20.05,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-TN,SEN,TN,,,Gloria Johnson,DEM,34.16,Marsha Blackburn,REP,63.8,-29.64,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-TX,SEN,TX,,,Colin Allred,DEM,44.56,Ted Cruz,REP,53.05,-8.49,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-UT,SEN,UT,,,Caroline Gleich,DEM,31.74,John Curtis,REP,62.5,-30.76,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-VA,SEN,VA,,,Tim Kaine,DEM,54.37,Hung Cao,REP,45.44,8.93,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-VT,SEN,VT,,,Bernie Sanders,IND,63.16,Gerald Malloy,REP,32.07,31.09,X-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-WA,SEN,WA,,,Maria Cantwell,DEM,59.09,Raul Garcia,REP,40.64,18.45,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-WI,SEN,WI,,,Tammy Baldwin,DEM,49.33,Eric Hovde,REP,48.48,0.85,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-WV,SEN,WV,,,Glenn Elliott,DEM,27.76,Jim Justice,REP,68.75,-40.99,D-R,wikipedia
+2024,presidential,2024-11-05,2024-SEN-WY,SEN,WY,,,Scott Morrow,DEM,24.12,John Barrasso,REP,75.11,-50.99,D-R,wikipedia

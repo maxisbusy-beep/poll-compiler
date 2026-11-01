@@ -1,0 +1,46 @@
+2026-HOUSE-AK-1: 7 poll tables, kept Nick Begich III vs Eric Hafner vs Jim McDermott
+2026-HOUSE-VT-1: 2 poll tables, kept Becca Balint vs Gerald Malloy
+2026-HOUSE-CO-3: 2 poll tables, kept Jeff Hurd vs Dwayne Romero
+2026-HOUSE-FL-2: 5 poll tables, kept Keith Gross vs Yen Bailey
+2026-HOUSE-FL-7: 2 poll tables, kept Ryan Elijah vs Bale Dalton
+2026-HOUSE-FL-14: 2 poll tables, kept Kathy Castor vs Mike Beltran
+2026-HOUSE-FL-22: 2 poll tables, kept Pia Dandiya vs Casey Askar
+2026-HOUSE-FL-25: 4 poll tables, kept Jared Moskowitz vs Scott Singer
+2026-HOUSE-FL-27: 6 poll tables, kept María Elvira Salazar vs Eliott Rodriguez
+2026-HOUSE-ID-1: 3 poll tables, kept Russ Fulcher vs Kaylee Peterson vs Sarah Zabel
+2026-HOUSE-IA-3: 2 poll tables, kept Zach Nunn vs Sarah Trone Garriott
+2026-HOUSE-KY-6: 4 poll tables, kept Ralph Alvarado vs Zach Dembo
+2026-HOUSE-ME-2: 4 poll tables, kept Matt Dunlap vs Paul LePage
+2026-HOUSE-MI-7: 3 poll tables, kept Tom Barrett vs William Lawrence
+2026-HOUSE-MI-10: 3 poll tables, kept Mike Bouchard Jr. vs Christina Hines
+2026-HOUSE-MN-2: 3 poll tables, kept Matt Little vs Eric Pratt
+2026-HOUSE-MN-8: 2 poll tables, kept Pete Stauber vs Trina Swanson
+2026-HOUSE-MT-1: 4 poll tables, kept Aaron Flint vs Sam Forstag vs Nick Sheedy
+2026-HOUSE-NE-1: 2 poll tables, kept Mike Flood vs Chris Backemeyer
+2026-HOUSE-NJ-7: 2 poll tables, kept Tom Kean Jr. vs Rebecca Bennett
+2026-HOUSE-NC-11: 2 poll tables, kept Jennifer Balkcom vs Jamie Ager
+2026-HOUSE-SC-1: 2 poll tables, kept Jenny Costa Honeycutt vs Nancy Lacore vs Bill Reeside Jr.
+2026-HOUSE-TN-5: 2 poll tables, kept Charlie Hatcher vs Chaz Molder
+2026-HOUSE-WA-3: 3 poll tables, kept Marie Gluesenkamp Perez vs John Braun
+2026-HOUSE-WA-5: 3 poll tables, kept Michael Baumgartner vs Carmela Conroy
+2026-HOUSE-WI-6: 2 poll tables, kept Glenn Grothman vs Michael Thurow
+2026-SEN-AK: 4 poll tables, kept Dan S. Sullivan vs Mary Peltola vs Dan J. Sullivan vs Gerald Heikes
+2026-SEN-GA: 8 poll tables, kept Jon Ossoff vs Mike Collins
+2026-SEN-ID: 3 poll tables, kept Jim Risch vs Todd Achilles
+2026-SEN-IA: 7 poll tables, kept Ashley Hinson vs Josh Turek
+2026-SEN-KS: 4 poll tables, kept Roger Marshall vs Adam Hamilton vs David Graham
+2026-SEN-KY: 3 poll tables, kept Andy Barr vs Charles Booker
+2026-SEN-ME: 7 poll tables, kept Susan Collins vs Troy Jackson
+2026-SEN-MA: 3 poll tables, kept Ed Markey vs John Deaton
+2026-SEN-MI: 13 poll tables, kept Abdul El-Sayed vs Mike Rogers
+2026-SEN-MN: 2 poll tables, kept Peggy Flanagan vs Michele Tafoya
+2026-SEN-MT: 6 poll tables, kept Kurt Alme vs Alani Bankhead vs Seth Bodnar vs Kyle Austin
+2026-SEN-NE: 3 poll tables, kept Pete Ricketts vs Dan Osborn
+2026-SEN-NH: 7 poll tables, kept Chris Pappas vs John E. Sununu
+2026-SEN-NC: 4 poll tables, kept Michael Whatley vs Roy Cooper
+2026-SEN-OK: 2 poll tables, kept Kevin Hern vs N'Kiyla Jasmine Thomas
+2026-SEN-SD: 3 poll tables, kept Mike Rounds vs Brian Bengs
+2026-SEN-TX: 15 poll tables, kept Ken Paxton vs James Talarico vs Ted Brown
+2026-SEN-VA: 4 poll tables, kept Mark Warner vs Bert Mizusawa
+2026-SEN-FL-S: 4 poll tables, kept Ashley Moody vs Angie Nixon
+2026-SEN-OH-S: 2 poll tables, kept Jon Husted vs Sherrod Brown
