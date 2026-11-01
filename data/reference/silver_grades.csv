@@ -1,0 +1,522 @@
+pollster_id,sb_name,sb_id,sb_grade,sb_polls,banned,match
+1892-polling,1892 Polling,461,B/C,1,False,id
+20-20-insight,20/20 Insight,1,B/C,8,False,id
+a-and-a-research,A&A Research,2,B/C,1,False,id
+a2-insights,A2 Insights,9051,B/C,2,False,name
+abacus-associates,Abacus Associates,6,B/C,2,False,id
+abc-news-the-washington-post,The Washington Post,3,A+,98,False,id
+abt-associates,Abt Associates,7,A/B,13,False,id
+african-american-research-collaborative,African American Research Collaborative,733,B/C,1,False,id
+alabama-state-university,Alabama State University,8,B/C,4,False,id
+alaska-survey-research,Alaska Survey Research,155,A/B,16,False,id
+alloy-analytics,Alloy Analytics,734,B/C,1,False,id
+amber-integrated,Amber Integrated,556,B/C,8,False,id
+american-pulse-research-and-polling,Triton Polling & Research,497,C/D,3,False,id
+american-research-group,American Research Group,9,C,280,False,id
+american-viewpoint,American Viewpoint,10,B/C,9,False,id
+analytical-group,Analytical Group,11,B/C,1,False,id
+angus-reid-global,Angus Reid Global,13,A/B,32,False,id
+apc-research,APC Research,4,B/C,2,False,id
+arizona-state-university-morrison-institute-for-public-policy,Arizona State University,15,B/C,8,False,id
+arthur-j-finkelstein-and-associates,Arthur J. Finkelstein & Associates,16,B/C,1,False,id
+asa-marketing-group,ASA Marketing Group,5,B/C,1,False,id
+ascend-action,Ascend Action,726,C/D,6,False,id
+aspen-media-and-market-research,Aspen Media & Market Research,17,B/C,3,False,id
+atlasintel,AtlasIntel,546,A,93,False,id
+auburn-university-at-montgomery-department-of-political-science-and-public-administration,Auburn University,588,B/C,2,False,id
+axis-research,Axis Research,467,B/C,2,False,id
+aytm,AYTM,635,B/C,4,False,id
+bainbridge-media-group,Bainbridge Media Group,656,B/C,1,False,id
+baldwin-wallace-university-community-research-institute,Baldwin Wallace University,401,B/C,4,False,id
+bannon-communications-research,Bannon Communications Research,21,B/C,2,False,id
+baruch-college-survey-research,Baruch College Survey Research,22,B/C,2,False,id
+baselice-and-associates,Baselice & Associates,23,B/C,2,False,id
+basswood-research,Basswood Research,24,B/C,4,False,id
+baydoun-consulting,Baydoun Consulting,25,B/C,6,False,id
+beacon-research,Beacon Research,545,B/C,5,False,id
+beacon-research-shaw-and-co-research,Beacon Research/Shaw & Co. Research,103,A-,63,False,id
+becker-institute,Becker Institute,26,B/C,5,False,id
+behavior-research-center-rocky-mountain-poll,Behavior Research Center (Rocky Mountain Poll),27,B/C,7,False,id
+belden-russonello,Belden Russonello,28,A/B,3,False,id
+bendixen-and-amandi-international,Bendixen & Amandi International,29,B/C,2,False,id
+benenson-strategy-group,Benenson Strategy Group,30,B/C,12,False,id
+big-data-poll,Big Data Poll,251,F,6,True,name
+big-ten,Big Ten,31,B/C,10,False,id
+big-village,Big Village,37,B,107,False,id
+bigresearch,BIGresearch,19,B/C,1,False,id
+bk-strategies,BK Strategies,20,B/C,3,False,id
+bluegrass-community-and-technical-college,Bluegrass Community and Technical College,632,B/C,2,False,id
+blueprint-polling,Blueprint Polling,470,B/C,8,False,id
+blum-and-weprin-associates,Blum & Weprin Associates,32,B/C,19,False,id
+bold-decision,Bold Decision,686,B/C,1,False,id
+brandwatch-qriously,Brandwatch Qriously,610,B/C,3,False,id
+braun-research,Braun Research,33,B/C,6,False,id
+brigham-young-university-center-for-the-study-of-elections-and-democracy,Brigham Young University,727,C/D,4,False,id
+brilliant-corners-research-and-strategies,brilliant corners Research & Strategies,564,B/C,1,False,id
+brown-university-a-alfred-taubman-center-for-american-politics-and-policy,Brown University,35,C/D,14,False,id
+bsp-research-shaw-and-company-research,BSP Research/Shaw & Company Research,728,B/C,2,False,id
+bwd-global,BWD Global,527,B/C,2,False,id
+california-state-university-bakersfield,"California State University, Bakersfield",41,B/C,1,False,id
+callfire,CallFire,42,B/C,4,False,id
+canisius-college,Canisius College,43,B/C,1,False,id
+capital-survey-research-center,Capital Survey Research Center,44,B/C,13,False,id
+cardinal-point-analytics-cardinalgps,Cardinal Point Analytics (CardinalGPS),591,B/C,3,False,id
+carroll-strategies,Carroll Strategies,450,B/C,5,False,id
+cbs-news-the-new-york-times,CBS News/The New York Times,36,A,66,False,id
+ccadvertising,ccAdvertising,396,B/C,33,False,id
+center-street-pac,Center Street PAC,715,B/C,4,False,id
+central-surveys-inc,Central Surveys Inc.,46,B/C,1,False,id
+centre-college,Centre College,47,B/C,1,False,id
+change-research,Change Research,48,C+,115,False,id
+cherry-communications,Cherry Communications,49,B/C,8,False,id
+christopher-newport-university-wason-center-for-civic-leadership,Christopher Newport University,50,A/B,16,False,id
+ciruli-associates,Ciruli Associates,51,B/C,20,False,id
+citizen-data,Citizen Data,616,B/C,12,False,id
+civiqs,Civiqs,471,B,43,False,id
+cj-and-n,CJ&N,63,B/C,3,False,id
+clarity-campaign-labs,Clarity Campaign Labs,52,B/C,16,False,id
+clarus-research-group,Clarus Research Group,53,B/C,3,False,id
+clemson-university,Clemson University,54,B/C,8,False,id
+clout-research,Clout Research,55,B/C,16,False,id
+co-efficient,co/efficient,514,B,24,False,id
+colby-college,Colby College,593,B/C,6,False,id
+cole-hargrave-snodgrass-and-associates,Cole Hargrave Snodgrass & Associates,56,B/C,5,False,id
+columbus-dispatch,Columbus Dispatch,57,B/C,22,False,id
+cometrends,Cometrends,631,B/C,1,False,id
+concord-public-opinion-partners,Concord Public Opinion Partners,553,A/B,4,False,id
+constituent-dynamics-rt-strategies,Constituent Dynamics,58,B/C,7,False,id
+consumer-logic,Consumer Logic,59,B/C,2,False,id
+cooper-and-secrest,Cooper & Secrest,60,B/C,1,False,id
+cpec,CPEC,38,B/C,2,False,id
+craciun-research-group,Craciun Research Group,61,B/C,1,False,id
+crantford-research,Crantford Research,62,B/C,1,False,id
+cromer-group,Cromer Group,65,B/C,1,False,id
+crosstarget,CrossTarget,66,B/C,2,False,id
+cvoter,CVOTER,40,B/C,6,False,id
+cws-research,CWS Research,697,B/C,1,False,id
+cygnal,Cygnal,67,A,58,False,id
+dan-jones-and-associates,Dan Jones & Associates,70,B/C,40,False,id
+dane-and-associates,Dane & Associates,71,B/C,2,False,id
+dartmouth-college-nelson-a-rockefeller-center-for-public-policy-and-the-social-sciences,Dartmouth College,72,B/C,3,False,id
+data-for-progress,Data for Progress,522,C+,114,False,id
+data-orbital,Data Orbital,73,A/B,18,False,id
+data-targeting,Data Targeting,406,B/C,1,False,id
+data-west-polling,Data West Polling,74,B/C,2,False,id
+datamar-analytics,Datamar Analytics,75,B/C,8,False,id
+david-binder-research,David Binder Research,578,B/C,3,False,id
+dccc,DCCC,68,B/C,10,False,name
+dccc-targeting-and-analytics-department,DCCC,68,B/C,10,False,id
+decision-forecasting,Decision Forecasting,77,B/C,3,False,id
+desales-university-kamran-afshar-data-analytics-center,DeSales University,474,B/C,1,False,id
+detroit-free-press,Detroit Free Press,663,B/C,1,False,id
+dfm-research,DFM Research,69,B/C,10,False,id
+dhm-research,DHM Research,76,B/C,14,False,id
+diamond-state-consulting-group,Diamond State Consulting Group,78,B/C,1,False,id
+digital-research,Digital Research,64,B/C,21,False,id
+dittman-research,Dittman Research,79,A/B,10,False,id
+diversified-research-inc,Diversified Research Inc,80,B/C,1,False,id
+dixie-strategies,Dixie Strategies,81,B/C,11,False,id
+douglas-fulmer-and-associates,Douglas Fulmer & Associates,82,B/C,2,False,id
+drake-research-and-strategy-inc,"Drake Research & Strategy, Inc.",329,B/C,8,False,id
+dynamics-marketing,Dynamics Marketing,83,B/C,1,False,id
+dynata,Dynata,283,B/C,2,False,id
+east-carolina-university-center-for-survey-research,East Carolina University,523,B/C,18,False,id
+east-tennessee-state-university-applied-social-research-laboratory,East Tennessee State University,456,B/C,2,False,id
+echelon-insights,Echelon Insights,407,A-,19,False,id
+ed-renwick-loyola-university-new-orleans,Ed Renwick/Loyola University New Orleans,85,B/C,10,False,id
+edgewater-research-my-people-vote,Edgewater Research/My People Vote,530,B/C,3,False,id
+el-nuevo-dia-the-research-office,El Nuevo D√É¬≠a/The Research Office,599,B/C,4,False,id
+elon-university,Elon University,86,A/B,8,False,id
+elucd,Elucd,549,B/C,4,False,id
+elway-research,Elway Research,87,A/B,21,False,id
+emc-research,EMC Research,130,B/C,15,False,id
+emerson-college,Emerson College,88,A,320,False,id
+epic-mra,EPIC-MRA,84,B+,58,False,id
+escalent,Escalent,189,B/C,1,False,id
+ethridge-and-associates-llc,Ethridge & Associates LLC,89,B/C,6,False,id
+fabrizio-lee-and-associates,"Fabrizio, Lee & Associates",90,A/B,11,False,id
+fabrizio-lee-and-associates-impact-research,Fabrizio Lee & Associates/Impact Research,694,B/C,1,False,id
+fairleigh-dickinson-university,Fairleigh Dickinson University,92,A/B,22,False,id
+feldman-group,Feldman Group,93,B/C,2,False,id
+field-research-corp-field-poll,Field Research Corp. (Field Poll),94,A/B,25,False,id
+financial-dynamics,Financial Dynamics,95,B/C,15,False,id
+fleming-and-associates,Fleming & Associates,96,B/C,18,False,id
+florida-atlantic-university-business-and-economics-polling-initiative,Florida Atlantic University,97,B/C,9,False,id
+florida-international-university-univision,Florida International University/Univision,98,B/C,1,False,id
+fm3-research,FM3 Research,91,B/C,11,False,id
+focaldata,Focaldata,837,B/C,9,False,name
+forman-center,Forman Center,100,B/C,2,False,id
+fort-hays-state-university-docking-institute-of-public-affairs,Fort Hays State University,101,C/D,6,False,id
+forward-strategies,Forward Strategies,102,B/C,2,False,id
+frank-n-magid-associates-inc,Frank N. Magid Associates Inc.,105,B/C,5,False,id
+franklin-and-marshall-college-center-for-opinion-research,Franklin & Marshall College,106,A/B,25,False,id
+franklin-pierce-university-marlin-fitzwater-center-for-communication,Franklin Pierce University,107,B/C,17,False,id
+frederick-polls,Frederick Polls,108,B/C,8,False,id
+gallup,Gallup,112,B+,84,False,id
+gapundit-com,GaPundit.com,111,B/C,2,False,id
+garin-hart-yang-global-strategy-group,Garin-Hart-Yang/Global Strategy Group,412,B/C,1,False,id
+garin-hart-yang-research-group,Garin-Hart-Yang Research Group,113,A-,33,False,id
+gazette-communications,Gazette Communications,640,B/C,2,False,id
+gbao,GBAO,109,B/C,14,False,id
+gcr-and-associates,GCR & Associates,110,B/C,1,False,id
+gfk-group,GfK Group,115,A/B,21,False,id
+glascock-group,Glascock Group,116,B/C,2,False,id
+glengariff-group,Glengariff Group,117,A/B,16,False,id
+global-marketing-research-services,Global Marketing Research Services,621,B/C,1,False,id
+global-strategy-group,Global Strategy Group,118,B/C,26,False,id
+global-strategy-group-gbao-navigator-research,Global Strategy Group/GBAO (Navigator Research),413,B/C,4,False,id
+global-strategy-group-national-research-philadelphia-inquirer,Global Strategy Group/National Research (Philadelphia Inquirer),119,B/C,4,False,id
+glover-park-group,Glover Park Group,120,B/C,1,False,id
+gonzales-research-and-marketing-strategies-inc,Gonzales Research & Marketing Strategies Inc.,121,B/C,10,False,id
+gop-calls,GOP Calls,654,B/C,2,False,id
+gordon-s-black-corp,Gordon S. Black Corp.,123,A/B,2,False,id
+gotham-polling-and-analytics,Gotham Polling & Analytics,878,B/C,1,False,name
+gqr,Greenberg Quinlan Rosner,126,A-,62,False,id
+gqr-research-public-opinion-strategies,GQR Research/Public Opinion Strategies,222,A/B,1,False,id
+gravis-marketing,Gravis Marketing/Kaplan Strategies,124,B-,158,False,id
+great-lakes-strategies-group,Great Lakes Strategies Group,125,B/C,1,False,id
+greatblue-research,GreatBlue Research,748,B/C,2,False,id
+greenberg-quinlan-rosner-american-viewpoint,Greenberg Quinlan Rosner/American Viewpoint,127,A/B,8,False,id
+greg-smith-and-associates,Greg Smith & Associates,128,B/C,5,False,id
+grove-insight,Grove Insight,129,A/B,29,False,id
+gs-strategy-group,GS Strategy Group,478,B/C,2,False,id
+hampton-university-center-for-public-policy,Hampton University,131,B/C,4,False,id
+harper-polling,Harper Polling,132,B/C,14,False,id
+harper-polling-clarity-campaign-labs,Harper Polling/Clarity Campaign Labs,513,B/C,1,False,id
+harris-insights-and-analytics,Harris Insights & Analytics,133,B-,193,False,id
+harstad-strategic-research,Harstad Strategic Research,134,B/C,11,False,id
+hart-research-associates-public-opinion-strategies,Hart Research Associates/Public Opinion Strategies,221,A-,37,False,id
+harvard-university,Harvard University,135,A/B,1,False,id
+hays-research-group,Hays Research Group,136,B/C,9,False,id
+hellenthal-and-associates,Hellenthal & Associates,137,B/C,5,False,id
+hendrix-college,Hendrix College,138,B/C,18,False,id
+hickman-analytics,Hickman Analytics,415,B/C,1,False,id
+high-point-university-survey-research-center,High Point University,139,B/C,5,False,id
+highground-inc,HighGround Inc.,416,B/C,6,False,id
+hill-research-consultants,Hill Research Consultants,140,B/C,6,False,id
+hoffman-research-group,Hoffman Research Group,141,B/C,3,False,id
+howey-politics-depauw-university,Howey Politics/DePauw University,142,B/C,7,False,id
+hunt-research,Hunt Research,870,B/C,1,False,name
+illinois-wesleyan-university-department-of-political-science,Illinois Wesleyan University,147,B/C,3,False,id
+imge-insights,IMGE Insights,145,B/C,2,False,id
+impact-research,Impact Research,14,B/C,22,False,id
+independent-market-research,Independent Market Research,148,B/C,2,False,id
+indiana-university-public-opinion-laboratory,Indiana University,149,A/B,2,False,id
+indiana-university-purdue-university-fort-wayne-mike-downs-center-for-indiana-politics,Indiana University-Purdue University Fort Wayne (Downs Center),150,C/D,3,False,id
+insideradvantage,InsiderAdvantage,243,B+,208,False,id
+iona-university-political-science-department,Iona University,152,B/C,1,False,id
+iowa-state-university-center-for-survey-statistics-and-methodology,Iowa State University,153,B/C,3,False,id
+ipsos,Ipsos,154,B,116,False,id
+island-analytics-and-marketing-llc,"Island Analytics & Marketing, LLC",736,B/C,1,False,id
+ivr-polls,IVR Polls,146,B/C,4,False,id
+j-l-partners,J.L. Partners,619,B/C,10,False,id
+jayhawk-consulting-services,Jayhawk Consulting Services,157,C/D,2,False,id
+jeffrey-stonecash,Jeffrey Stonecash,158,B/C,1,False,id
+jim-meader-keloland-tv,Jim Meader (KELOLAND-TV),159,B/C,4,False,id
+jmc-analytics,JMC Analytics,156,B/C,13,False,id
+jmc-analytics-bold-blue-campaigns,JMC Analytics/Bold Blue Campaigns,503,B/C,5,False,id
+john-zogby-strategies,John Zogby Strategies,583,B/C,4,False,id
+jorge-benitez,Jorge Ben√É¬≠tez,600,B/C,4,False,id
+kaconsulting,KAConsulting,757,A/B,12,False,id
+keating-research,Keating Research,161,B/C,6,False,id
+keating-research-onsight-public-affairs-melanson,Keating Research/OnSight Public Affairs/Melanson,455,B/C,3,False,id
+kiaer-research,Kiaer Research,585,B/C,2,False,id
+kiley-and-company,Kiley & Company,162,B/C,5,False,id
+kimball-political-consulting,Kimball Political Consulting,163,B/C,6,False,id
+knowledge-networks,Knowledge Networks,164,A/B,4,False,id
+krc-research,KRC Research,160,A/B,22,False,id
+lake-research-partners,Lake Research Partners,165,A/B,12,False,id
+lake-research-partners-the-tarrance-group,Lake Research Partners/The Tarrance Group,114,A/B,33,False,id
+landmark-communications,Landmark Communications,166,A-,41,False,id
+landmark-communications-rosetta-stone-communications,Landmark Communications/Rosetta Stone Communications,751,B/C,11,False,id
+latino-decisions,Latino Decisions,482,B/C,2,False,id
+lauer-johnson-research,Lauer Johnson Research,167,B/C,1,False,id
+lauer-lalley-victoria,"Lauer, Lalley, Victoria",168,B/C,1,False,id
+leger,Leger,572,B/C,13,False,id
+lester-and-associates,Lester & Associates,293,B/C,1,False,id
+liberty-opinion-research,Liberty Opinion Research,169,B/C,1,False,id
+lincoln-institute,Lincoln Institute,170,B/C,2,False,id
+long-island-university-steven-s-hornstein-center-for-policy-polling-and-analysis,Long Island University,633,C/D,4,False,id
+loras-college-public-opinion-survey-center,Loras College,171,B/C,18,False,id
+los-angeles-times,Los Angeles Times,172,A/B,37,False,id
+louis-harris-and-associates,Louis Harris & Associates,173,A/B,2,False,id
+louisville-courier-journal,Louisville Courier-Journal,174,B/C,10,False,id
+lucid,Lucid,175,B/C,25,False,id
+lycoming-college-polling-institute,Lycoming College Polling Institute,176,B/C,3,False,id
+m3-strategies,M3 Strategies,838,B/C,1,False,name
+magellan-strategies,Magellan Strategies,179,B/C,18,False,id
+maine-people-s-resource-center,Maine People's Resource Center,180,B/C,14,False,id
+mainstreet-research,Florida Atlantic University/Mainstreet Research,770,B+,25,False,name
+manhattanville-college,Manhattanville College,181,B/C,3,False,id
+marbleport,MarblePort,182,B/C,2,False,id
+marist-college,Marist College,183,A-,213,False,id
+market-decisions-research,Market Decisions Research,184,B/C,4,False,id
+market-research-insight,Market Research Insight,185,B/C,27,False,id
+market-research-institute-inc,Market Research Institute Inc.,186,B/C,11,False,id
+market-shares-corp,Market Shares Corp.,187,B/C,25,False,id
+market-solutions-group,Market Solutions Group,188,B/C,4,False,id
+market-trends-pacific,Market Trends Pacific,190,B/C,1,False,id
+marketaide-services-inc,MarketAide Services Inc.,191,B/C,1,False,id
+marketing-research-institute,Marketing Research Institute,192,B/C,1,False,id
+marketing-resource-group-mrg,Marketing Resource Group (MRG),193,B/C,10,False,id
+marketing-workshop,Marketing Workshop,194,B/C,8,False,id
+marquette-university-law-school,Marquette University Law School,195,A/B,17,False,id
+marshall-marketing,Marshall Marketing,196,B/C,4,False,id
+mason-dixon-polling-and-strategy,Mason-Dixon Polling & Strategy,197,A-,446,False,id
+mason-strategies,Mason Strategies,464,B/C,1,False,id
+massie-and-associates,Massie & Associates,199,B/C,2,False,id
+massinc-polling-group,MassINC Polling Group,198,A/B,22,False,id
+master-image,Master Image,200,B/C,2,False,id
+mckeon-and-associates,McKeon & Associates,202,B/C,3,False,id
+mclaughlin-and-associates,McLaughlin & Associates,203,B/C,29,False,id
+meeting-street-insights,Meeting Street Insights,204,B/C,5,False,id
+mellman-group,Mellman Group,205,B/C,28,False,id
+mercyhurst-university-center-for-applied-politics,Mercyhurst University,422,B/C,1,False,id
+meredith-college-department-of-history-political-science-and-international-studies,Meredith College,423,B/C,6,False,id
+merrill-poll,Merrill Poll,206,B/C,2,False,id
+mfour-mobile-research,MFour Mobile Research,177,B/C,2,False,id
+miami-university,Miami Univerity,886,B/C,2,False,name
+michigan-state-university-institute-for-public-policy-and-social-research,Michigan State University,463,A/B,2,False,id
+middle-tennessee-state-university,Middle Tennessee State University,208,B/C,5,False,id
+millersville-university-center-for-politics-and-public-affairs,Millersville University,210,B/C,5,False,id
+minneapolis-star-tribune,Minneapolis Star Tribune,315,B/C,14,False,id
+minnesota-state-university-moorhead-public-affairs-institute,Minnesota State University,211,B/C,4,False,id
+missouri-state-university-center-for-social-science-and-public-policy-research,Missouri State University,212,B/C,3,False,id
+mitchell-research-and-communications,Mitchell Research & Communications,213,C,82,False,id
+momentum-analysis,Momentum Analysis,214,B/C,3,False,id
+monmouth-university-polling-institute,Monmouth University,215,A,131,False,id
+montana-state-university-billings,Montana State University Billings,216,B/C,11,False,id
+montgomery-research,Montgomery Research,877,B/C,1,False,name
+moore-information-group,Moore Information Group,217,B/C,18,False,id
+morning-consult,Morning Consult,218,C+,114,False,id
+morningside-university-col-bud-day-center-for-civic-engagement,Morningside College,536,B/C,1,False,id
+mrg-research,Merriman River Group,207,C/D,25,False,id
+msr-group,MSR Group,178,B/C,6,False,id
+muhlenberg-college-institute-of-public-opinion,Muhlenberg College,219,A-,36,False,id
+multi-quest-international,Multi-Quest International,220,B/C,4,False,id
+mwr-strategies,MWR Strategies,617,B/C,2,False,id
+myers-research-and-strategic-services,Myers Research & Strategic Services,319,B/C,2,False,id
+national-public-affairs,National Public Affairs,768,B/C,1,False,name
+national-research,National Research,225,A/B,15,False,id
+neighbor,Neighbor,226,B/C,1,False,id
+neighborhood-research-and-media,Neighborhood Research and Media,227,B/C,3,False,id
+nelson-research,Nelson Research,703,B/C,1,False,id
+new-england-college-polling-center,New England College Polling Center,228,B/C,19,False,id
+new-frontier-strategy,New Frontier Strategy,229,B/C,2,False,id
+new-mexico-state-university,New Mexico State University,230,B/C,1,False,id
+newsnation,NewsNation,696,B/C,1,False,id
+nielson-brothers-polling,Nielson Brothers Polling,231,C/D,11,False,id
+noble-predictive-insights,OH Predictive Insights,235,B+,22,False,id
+normington-petts-and-associates,"Normington, Petts & Associates",232,B/C,12,False,id
+north-star-opinion-research,North Star Opinion Research,233,A/B,13,False,id
+northern-arizona-university-social-research-laboratory,Northern Arizona University,234,B/C,4,False,id
+nreca-market-research,NRECA Market Research,223,B/C,1,False,id
+odney,Odney,524,B/C,1,False,id
+ogden-and-fry,Ogden & Fry,425,B/C,3,False,id
+ohio-state-university,Ohio State University,236,A/B,1,False,id
+ohio-university,Ohio University,237,B/C,2,False,id
+old-dominion-university,Old Dominion University,238,B/C,1,False,id
+onmessage-inc,OnMessage Inc.,239,A,32,False,id
+onpoint,OnPoint,240,B/C,6,False,id
+open-model-project,Open Model Project,629,B/C,2,False,id
+opinion-consultants,Opinion Consultants,241,B/C,2,False,id
+opinion-dynamics,Opinion Dynamics,104,A/B,34,False,id
+opinion-research-associates,Opinion Research Associates,242,B/C,14,False,id
+opinionworks,OpinionWorks,244,B/C,7,False,id
+opinium,Opinium,559,B/C,2,False,id
+orion-strategies,Orion Strategies,246,B/C,4,False,id
+pacific-market-research,Pacific Market Research,459,B/C,2,False,id
+pan-atlantic-research,Pan Atlantic Research,249,A/B,17,False,id
+park-street-strategies,Park Street Strategies,534,B/C,1,False,id
+pasquines,Pasquines,552,B/C,4,False,id
+patinkin-research-strategies,Patinkin Research Strategies,490,B/C,4,False,id
+patriot-polling,Patriot Polling,732,B,22,False,id
+penta,Penta,576,B/C,1,False,id
+personal-marketing-research,Personal Marketing Research,252,B/C,3,False,id
+pew-research-center,Pew Research Center,253,A/B,25,False,id
+phillips-academy,Phillips Academy,699,B/C,7,False,id
+point-blank-political,Point Blank Political,550,C/D,6,False,id
+polling-company-global-strategy-group,Polling Company/Global Strategy Group,255,A/B,4,False,id
+potomac-incorporated,Potomac Incorporated,256,B/C,8,False,id
+praecones-analytica,Praecones Analytica,257,B/C,5,False,id
+premise,Premise,709,B/C,1,False,id
+princeton-survey-research-associates-international,Princeton Survey Research Associates International,258,A/B,35,False,id
+probolsky-research,Probolsky Research,259,B/C,3,False,id
+psb-research,PSB Research,250,B/C,19,False,id
+psi,PSI,248,B/C,3,False,id
+ptimus-analytics,Optimus Analytics,245,B/C,17,False,id
+public-opinion-strategies,Public Opinion Strategies,260,A,80,False,id
+public-opinion-strategies-hamilton-campaigns,Public Opinion Strategies/Hamilton Campaigns (Texas Credit Union League),261,A/B,2,False,id
+public-policy-institute-of-california,Public Policy Institute of California,262,A/B,18,False,id
+public-policy-polling,Public Policy Polling,263,B+,468,False,id
+public-religion-research-institute,Public Religion Research Institute,428,A/B,1,False,id
+public-strategies-inc,Public Strategies Inc.,264,B/C,6,False,id
+purple-strategies,Purple Strategies,265,B/C,4,False,id
+quantus-insights,Quantus Insights,859,B/C,9,False,name
+quest-research-group,Quest Research Group,285,B/C,5,False,id
+quinnipiac-university,Quinnipiac University,267,B+,229,False,id
+raba-research,RABA Research,269,C/D,9,False,id
+ragnar-research-partners,Ragnar Research Partners,517,B/C,3,False,id
+rainmaker-media-group,Rainmaker Media Group,276,B/C,1,False,id
+rand-american-life-panel,RAND (American Life Panel),270,A/B,4,False,id
+rasmussen-reports,Rasmussen Reports,277,B+,797,False,id
+rbi-strategies-and-research,RBI Strategies & Research,271,B/C,4,False,id
+reconnect-research-probolsky-research,Reconnect Research/Probolsky Research,651,B/C,2,False,id
+redfield-and-wilton-strategies,Redfield & Wilton Strategies,562,B,45,False,id
+remington-research-group,Remington Research Group,279,B-,55,False,id
+repass,Repass,268,B/C,4,False,id
+research-and-polling-inc,Research & Polling Inc.,280,A+,44,False,id
+research-co,Research Co.,449,B,85,False,id
+rice-university,Rice University,286,B/C,2,False,id
+richard-day-research,Richard Day Research,287,B/C,11,False,id
+richmond-times-dispatch,Richmond Times-Dispatch,288,B/C,4,False,id
+riggs-research-services,Riggs Research Services,289,B/C,1,False,id
+riley-research-associates,Riley Research Associates,290,B/C,7,False,id
+rivercity-polling,Rivercity Polling,291,B/C,1,False,id
+rkm-research-and-communications-inc,RKM Research and Communications Inc.,272,A/B,35,False,id
+rmg-research,RMG Research,555,B,28,False,id
+rms-research,RMS Research,273,B/C,3,False,id
+roanoke-college-institute-for-policy-and-opinion-research,Roanoke College,292,B/C,23,False,id
+roi-rocket,ROI Rocket,554,B/C,3,False,id
+rossman-group,Rossman Group,294,B/C,1,False,id
+rrh-elections,RRH Elections,274,B/C,15,False,id
+rt-strategies,RT Strategies,275,B/C,45,False,id
+rutgers-university-eagleton-center-for-public-interest-polling,Rutgers University,295,B/C,19,False,id
+saint-anselm-college-survey-center,Saint Anselm College,494,A/B,14,False,id
+saint-leo-university-polling-institute,Saint Leo University Polling Institute,299,B/C,6,False,id
+schapiro-group,Schapiro Group,300,B/C,2,False,id
+schoen-cooperman-research,Schoen Cooperman Research,301,B/C,2,False,id
+scripps-howard,Scripps Howard,303,B/C,5,False,id
+sea-polling-and-strategic-design,SEA Polling & Strategic Design,302,B/C,14,False,id
+selzer-and-co,Selzer,304,B+,59,False,id
+seven-letter-insight,Seven Letter Insight,661,B/C,1,False,id
+siena-college,Siena College,305,A,67,False,id
+singularis-group,Singularis Group,306,B/C,1,False,id
+sky-research,Sky Research,665,B/C,1,False,id
+slingshot-strategies,Slingshot Strategies,451,B/C,2,False,id
+smithjohnson-opinion-research,SmithJohnson Opinion Research,367,B/C,1,False,id
+sms-research-and-marketing-services,SMS Research & Marketing Services,296,B/C,1,False,id
+socialsphere,SocialSphere,307,B/C,2,False,id
+soonerpoll-com,SoonerPoll.com,308,B/C,26,False,id
+southeastern-louisiana-university-social-science-research-center,Southeastern Louisiana University,309,B/C,8,False,id
+southern-media-and-opinion-research,Southern Media & Opinion Research,310,B/C,7,False,id
+southern-opinion-research,Southern Opinion Research,311,B/C,2,False,id
+southern-research-group,Southern Research Group,649,B/C,1,False,id
+spry-strategies,Spry Strategies,508,B/C,5,False,id
+ssrs,SSRS,297,C+,47,False,id
+st-cloud-state-university,St. Cloud State University,312,B/C,17,False,id
+st-norbert-college-strategic-research-institute,St. Norbert College,313,B/C,12,False,id
+st-pete-polls,St. Pete Polls,314,C+,31,False,id
+starboard-communications,Starboard Communications,316,B/C,4,False,id
+state-navigate,State Navigate,9050,B/C,2,False,name
+stetson-university-center-for-public-opinion-research,Stetson University,730,B/C,4,False,id
+stockton-university-william-j-hughes-center-for-public-policy,Stockton University,317,A/B,12,False,id
+strategic-national,Strategic National,318,B/C,4,False,id
+strategic-research-associates,Strategic Research Associates,462,B/C,5,False,id
+strategies-360,Strategies 360,321,B/C,9,False,id
+strategy-research,Strategy Research,322,B/C,2,False,id
+suffolk-university,Suffolk University,323,A-,112,False,id
+survation,Survation,889,B/C,2,False,name
+surveymonkey,SurveyMonkey,324,D+,268,False,id
+surveyusa,SurveyUSA,325,A,871,False,id
+susquehanna-polling-and-research-inc,Susquehanna Polling & Research Inc.,326,A-,56,False,id
+swayable,Swayable,543,C+,89,False,id
+target-insyght,Target Insyght,330,B/C,6,False,id
+targeted-persuasion,Targeted Persuasion,579,B/C,1,False,id
+targetpoint,TargetPoint,331,B/C,2,False,id
+targetsmart,TargetSmart,332,B/C,3,False,id
+targoz-market-research,Targoz Market Research,454,B-,26,False,id
+tarrance-group,Tarrance Group,333,A/B,32,False,id
+teleresearch-corporation,TeleResearch Corporation,335,B/C,1,False,id
+temple-university-institute-for-survey-research,Temple University,336,A/B,6,False,id
+the-castleton-polling-institute,Castleton University,45,B/C,3,False,id
+the-citadel,The Citadel,832,B/C,3,False,name
+the-florida-poll,The Florida Poll,99,B/C,5,False,id
+the-justice-collaborative-institute,The Justice Collaborative Institute,630,B/C,2,False,id
+the-kitchens-group,The Kitchens Group,664,B/C,1,False,id
+the-new-york-times-siena-college,The New York Times/Siena College,448,A,116,False,id
+the-political-matrix-the-listener-group,The Political Matrix/The Listener Group,677,C/D,12,False,id
+the-polling-company-inc,The Polling Company Inc.,337,B/C,7,False,id
+the-polling-company-inc-national-research-inc,The Polling Company Inc./National Research Inc.,644,B/C,1,False,id
+the-tyson-group,The Tyson Group,334,B/C,14,False,id
+the-washington-post,The Washington Post,3,A+,98,False,name
+the-washington-post-george-mason-university-schar-school-of-policy-and-government,The Washington Post/George Mason University Schar School of Policy and Government,754,B/C,1,False,id
+the-winston-group,The Winston Group,385,A/B,11,False,id
+thirty-ninth-street-strategies,Thirty-Ninth Street Strategies,460,B/C,1,False,id
+thomas-partners-strategies,Thomas Partners Strategies,452,B/C,2,False,id
+thomas-partners-strategies-ptimus,Thomas Partners Strategies/Optimus,758,B/C,2,False,id
+tipp-insights,TIPP Insights,144,A,51,False,id
+tmr-research,TMR Research,328,B/C,2,False,id
+tomahawk-strategies,Tomahawk Strategies,737,B/C,1,False,id
+torchlight-strategies,Torchlight Strategies,745,B/C,1,False,name
+trafalgar-group,Trafalgar Group,338,B,143,False,id
+trafalgar-insideradvantage,Trafalgar Group/Insider Advantage,9032,B/C,3,False,name
+triumph-campaigns,Triumph Campaigns,339,B/C,1,False,id
+tufts-university-public-opinion-lab,Tufts University,666,B/C,3,False,id
+tulchin-research,Tulchin Research,340,B/C,3,False,id
+tulsa-surveys,Tulsa Surveys,341,B/C,1,False,id
+university-of-alabama-at-birmingham,University of Alabama at Birmingham,344,B/C,2,False,id
+university-of-arizona-truedot,Truedot,880,B/C,2,False,name
+university-of-arkansas-department-of-political-science,University of Arkansas,345,A/B,10,False,id
+university-of-california-berkeley-institute-of-governmental-studies,University of California Berkeley,457,A/B,8,False,id
+university-of-cincinnati-ohio-poll,University of Cincinnati (Ohio Poll),346,B/C,39,False,id
+university-of-colorado-american-politics-research-lab,University of Colorado (Boulder),580,B/C,2,False,id
+university-of-connecticut,University of Connecticut,347,A/B,11,False,id
+university-of-florida-bob-graham-center-for-public-service,University of Florida,349,A/B,1,False,id
+university-of-georgia-school-of-public-and-international-affairs,University of Georgia,350,B/C,7,False,id
+university-of-houston-hobby-school-of-public-affairs,University of Houston,351,B/C,1,False,id
+university-of-illinois-at-chicago,University of Illinois at Chicago,352,B/C,1,False,id
+university-of-iowa-hawkeye-poll-cooperative,University of Iowa,353,B/C,3,False,id
+university-of-massachusetts-department-of-political-science,University of Massachusetts (Amherst),354,B/C,11,False,id
+university-of-massachusetts-lowell-center-for-public-opinion,University of Massachusetts Lowell,355,A-,38,False,id
+university-of-minnesota-hubert-h-humphrey-school-of-public-affairs,University of Minnesota,143,B/C,10,False,id
+university-of-nevada-las-vegas-cannon-survey-center,University of Nevada Las Vegas,356,B/C,1,False,id
+university-of-nevada-las-vegas-lee-business-school,Lee Business School (University of Nevada Las Vegas),609,B/C,5,False,id
+university-of-new-hampshire-survey-center,University of New Hampshire,357,B-,150,False,id
+university-of-new-orleans-survey-research-center,University of New Orleans,358,B/C,13,False,id
+university-of-north-carolina-school-of-journalism-and-mass-communication,University of North Carolina,359,B/C,1,False,id
+university-of-north-florida-public-opinion-research-lab,University of North Florida,360,A/B,14,False,id
+university-of-south-alabama-polling-group,University of South Alabama,361,B/C,9,False,id
+university-of-southern-california-dornsife-center-for-economic-and-social-research,University of Southern California,343,B/C,13,False,id
+university-of-tennessee,University of Tennessee,362,B/C,2,False,id
+university-of-texas-at-tyler-center-for-opinion-research,University of Texas at Tyler,458,B/C,10,False,id
+university-of-washington-center-for-survey-research,University of Washington,364,B/C,9,False,id
+university-of-wisconsin-milwaukee-institute-for-survey-and-policy-research,University of Wisconsin-Milwaukee,366,B/C,3,False,id
+university-of-wisconsin-survey-center,University of Wisconsin (Madison),365,B/C,8,False,id
+university-of-wyoming-survey-and-analysis-center,University of Wyoming,667,C/D,5,False,id
+univision-latino-decisions-north-star-opinion-research,Univision/Latino Decisions/North Star Opinion Research,516,B/C,7,False,id
+uplift-campaigns,Saguaro Strategies,298,B/C,2,False,id
+valley-research,Valley Research,368,B/C,8,False,id
+vcreek-amg,VCreek/AMG,501,B/C,1,False,id
+victoria-research-and-consulting,Victoria Research & Consulting,369,B/C,1,False,id
+victory-enterprises,Victory Enterprises,525,B/C,1,False,id
+victory-insights,Victory Insights,673,B/C,9,False,id
+victory-research,Victory Research,437,B/C,11,False,id
+virginia-commonwealth-university-l-douglas-wilder-school-of-government-and-public-affairs,Virginia Commonwealth University,370,B/C,8,False,id
+voter-consumer-research,Voter/Consumer Research,371,B/C,8,False,id
+vox-populi-communications,Vox Populi Communications,529,B/C,1,False,id
+vox-populi-polling,Vox Populi Polling,372,A/B,19,False,id
+wall-street-journal,"Fabrizio, Lee & Associates/GBAO",796,B/C,2,False,name
+war-room-logistics,War Room Logistics,374,B/C,1,False,id
+ward-research,Ward Research,375,B/C,15,False,id
+washington-college,Washington College,735,B/C,1,False,id
+wcia-tv,WCIA-TV,373,B/C,2,False,id
+we-ask-america,We Ask America,376,C,56,False,id
+west-chester-university,West Chester University,377,B/C,7,False,id
+west-virginia-research-center,West Virginia Research Center,378,B/C,2,False,id
+western-kentucky-university-social-science-research-center,Western Kentucky University,379,B/C,4,False,id
+western-new-england-university-polling-institute,Western New England University,380,A/B,11,False,id
+wick,Wick,284,B/C,16,False,id
+wick-communications,Wick Communications,381,B/C,1,False,id
+wiese-research-associates,Wiese Research Associates,382,B/C,7,False,id
+winthrop-university-center-for-public-opinion-and-policy-research,Winthrop University,386,B/C,3,False,id
+wirthlin-worldwide,Wirthlin Worldwide,387,A/B,4,False,id
+wood-communications-group,Wood Communications Group,388,B/C,1,False,id
+wpa-intelligence,WPA Intelligence,383,B/C,20,False,id
+y2-analytics,Y2 Analytics,389,B/C,8,False,id
+yankelovich-partners-inc,Yankelovich Partners Inc.,390,B/C,7,False,id
+yougov,YouGov,391,B,521,False,id
+zata3,Zata3,392,B/C,2,False,id
+zia-poll,Zia Poll,393,B/C,4,False,id
+zimmerman-and-associates-marketing-intelligence,Zimmerman & Associates/Marketing Intelligence,394,B/C,3,False,id
+zogby-analytics,Zogby Analytics,395,B-,495,False,id

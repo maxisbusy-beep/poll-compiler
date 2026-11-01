@@ -147,3 +147,4 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .livebox td.num { text-align: right; font-family: var(--num); font-size: 1.05rem; }
 .livebox .meter { height: 6px; background: var(--line); border-radius: 3px; margin: 8px 0 4px; overflow: hidden; }
 .livebox .meter span { display: block; height: 100%; background: var(--ink); opacity: .7; }
+.sbg { font-family: var(--num); font-weight: 600; color: var(--muted); white-space: nowrap; }

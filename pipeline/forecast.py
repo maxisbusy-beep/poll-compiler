@@ -176,12 +176,27 @@ def build_house(cycle, as_of, days, params, pp, polls, env_margin, nat):
     return out, info
 
 
+def silver_grades() -> dict[str, dict]:
+    """Silver Bulletin letter grades by our pollster id (display only; not used in any weight)."""
+    import csv
+    path = ROOT / "data" / "reference" / "silver_grades.csv"
+    if not path.exists():
+        return {}
+    return {r["pollster_id"]: r for r in csv.DictReader(path.open())}
+
+
 def add_pollster_names(races: dict) -> None:
     from pipeline.normalize import PollsterAliases
     names = {pid: info["name"] for pid, info in PollsterAliases().pollsters.items()}
+    grades = silver_grades()
     for r in races["races"]:
         for p in r["polls"]:
             p["name"] = names.get(p["pollster_id"], p["pollster_id"])
+            g = grades.get(p["pollster_id"])
+            if g:
+                p["sb_grade"] = g["sb_grade"]
+                if g["banned"] == "True":
+                    p["sb_banned"] = True
 
 
 def main() -> dict:

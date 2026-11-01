@@ -345,8 +345,9 @@
     const pollRows = (r.polls || []).slice(0, 25).map((p) => {
       const pol = state.pollsters[p.pollster_id];
       const name = p.name || (pol ? pol.name : p.pollster_id);
+      const grade = p.sb_grade ? ` <span class="sbg" title="Silver Bulletin grade">(${esc(p.sb_grade)}${p.sb_banned ? ", banned" : ""})</span>` : "";
       const adj = Math.abs(p.bias_correction) >= 0.05 ? `<span class="pq">counted as ${fmtMargin(p.margin, A, B)}</span>` : "";
-      return `<tr><td>${esc(name)}<span class="pq">${esc(pollsterLine(p.pollster_id))}</span></td>
+      return `<tr><td>${esc(name)}${grade}<span class="pq">${esc(pollsterLine(p.pollster_id))}</span></td>
         <td class="num">${fmtDate(p.end)}</td>
         <td class="num">${fmtMargin(p.margin_raw, A, B)}${adj}</td>
         <td class="num">${(p.weight_share * 100).toFixed(0)}%</td></tr>`;
@@ -377,7 +378,7 @@
         ${r.uncommitted ? `<dt>Note</dt><dd>${esc(r.side_a)} says he will join neither party's caucus.</dd>` : ""}
       </dl>
       ${pollRows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${pollRows}</tbody></table>
-      <p class="note">Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. A pollster that has historically leaned one way is counted with that lean taken out.</p>` : ""}`;
+      <p class="note">Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. A pollster that has historically leaned one way is counted with that lean taken out. Letter grades in brackets are Silver Bulletin's (January 2026) and are shown for reference only; they don't change any weight.</p>` : ""}`;
     document.body.classList.add("sheet-open");
     history.replaceState(null, "", location.pathname + location.search + "#" + id);
     $("close").focus();
