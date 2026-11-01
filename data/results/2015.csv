@@ -1,0 +1,5 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2015,off-year,2015-11-03,2015-GOV-KY,GOV,KY,,,Jack Conway,DEM,43.815,Matthew G. Bevin,REP,52.519,-8.704,D-R,538
+2015,off-year,2015-11-21,2015-GOV-LA-R,GOV,LA,,R,John Bel Edwards,DEM,56.115,David Vitter,REP,43.885,12.229,D-R,538
+2015,off-year,2015-11-03,2015-GOV-MS,GOV,MS,,,Robert Gray,DEM,32.385,Phil Bryant,REP,66.243,-33.858,D-R,538
+2015,off-year,2015-06-02,2015-HOUSE-MS-1-SR,HOUSE,MS,1,SR,Walter Howard Zinn,DEM,30.027,Trent Kelly,REP,69.973,-39.946,D-R,538

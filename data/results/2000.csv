@@ -1,0 +1,126 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2000,presidential,2000-11-07,2000-GOV-DE,GOV,DE,,,Ruth Minner,DEM,59.244,John Burris,REP,39.745,19.499,D-R,538
+2000,presidential,2000-11-07,2000-GOV-IN,GOV,IN,,,Frank L. O'Bannon,DEM,56.557,David McIntosh,REP,41.678,14.878,D-R,538
+2000,presidential,2000-11-07,2000-GOV-MO,GOV,MO,,,"Robert Lee Holden, Jr.",DEM,49.12,Jim Talent,REP,48.206,0.914,D-R,538
+2000,presidential,2000-11-07,2000-GOV-MT,GOV,MT,,,Mark O'Keefe,DEM,47.083,Judy Martz,REP,50.985,-3.902,D-R,538
+2000,presidential,2000-11-07,2000-GOV-NC,GOV,NC,,,Mike Easley,DEM,52.015,Richard Vinroot,REP,46.259,5.757,D-R,538
+2000,presidential,2000-11-07,2000-GOV-ND,GOV,ND,,,Heidi Heitkamp,DEM,44.968,John Hoeven,REP,55.027,-10.059,D-R,538
+2000,presidential,2000-11-07,2000-GOV-NH,GOV,NH,,,Jeanne Shaheen,DEM,48.736,Gordon Humphrey,REP,43.759,4.977,D-R,538
+2000,presidential,2000-11-07,2000-GOV-UT,GOV,UT,,,Bill Orton,DEM,42.265,Michael Leavitt,REP,55.767,-13.502,D-R,538
+2000,presidential,2000-11-07,2000-GOV-VT,GOV,VT,,,Howard Dean,DEM,50.451,Ruth Dwyer,REP,37.945,12.505,D-R,538
+2000,presidential,2000-11-07,2000-GOV-WA,GOV,WA,,,Gary Locke,DEM,58.383,John Carlson,REP,39.681,18.702,D-R,538
+2000,presidential,2000-11-07,2000-GOV-WV,GOV,WV,,,Bob Wise,DEM,50.123,Cecil Underwood,REP,47.207,2.916,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-AL-4,HOUSE,AL,4,,Marsha Guthrie Folsom,DEM,37.385,Robert Aderholt,REP,60.582,-23.197,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-AR-4,HOUSE,AR,4,,Michael Avery Ross,DEM,50.972,Jay Woodson Dickey,REP,49.028,1.945,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-CA-20,HOUSE,CA,20,,Calvin M. Dooley,DEM,52.346,Rich Rodriguez,REP,45.492,6.853,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-CA-49,HOUSE,CA,49,,Susan A. Davis,DEM,49.63,Brian P. Bilbray,REP,46.179,3.451,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-CT-2,HOUSE,CT,2,,Sam Gejdenson,DEM,49.367,Robert R. Simmons,REP,48.8,0.567,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-FL-15,HOUSE,FL,15,,Patsy Ann Kurth,DEM,39.243,David J. Weldon,REP,58.839,-19.596,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-FL-22,HOUSE,FL,22,,Elaine Bloom,DEM,49.858,E. Clay Shaw,REP,50.142,-0.284,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-FL-8,HOUSE,FL,8,,Linda Welch Chapin,DEM,49.188,Richard Keller,REP,50.793,-1.605,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,46.975,Generic Candidate,REP,47.318,-0.343,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-IL-10,HOUSE,IL,10,,Lauren Beth Gash,DEM,48.809,Mark Kirk,REP,51.191,-2.382,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-IN-9,HOUSE,IN,9,,Baron P. Hill,DEM,54.192,Michael E. Bailey,REP,43.818,10.374,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-KY-3,HOUSE,KY,3,,Eleanor Jordan,DEM,44.227,Anne Meagher Northup,REP,52.87,-8.643,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-KY-4,HOUSE,KY,4,,Kenneth R. Lucas,DEM,54.264,Don Bell,REP,43.517,10.747,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-MI-8,HOUSE,MI,8,,Dianne Byrum,DEM,48.74,Mike Rogers,REP,48.794,-0.054,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-MN-4,HOUSE,MN,4,,Betty McCollum,DEM,48.041,Linda Runbeck,REP,30.892,17.15,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-MO-2,HOUSE,MO,2,,Ted House,DEM,42.421,Todd Akin,REP,55.333,-12.912,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-MT-1,HOUSE,MT,1,,Nancy Keenan,DEM,46.276,Denny Rehberg,REP,51.5,-5.224,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-NJ-7,HOUSE,NJ,7,,Maryanne S. Connelly,DEM,45.574,Michael Ferguson,REP,51.58,-6.006,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-NV-1,HOUSE,NV,1,,Shelley Berkley,DEM,51.68,Jon C. Porter,REP,44.18,7.5,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-OH-1,HOUSE,OH,1,,John Cranley,DEM,44.608,Steve Chabot,REP,52.973,-8.366,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-OH-12,HOUSE,OH,12,,Maryellen O'Shaughnessy,DEM,43.826,Patrick J. Tiberi,REP,52.866,-9.04,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-OK-2,HOUSE,OK,2,,Brad R. Carson,DEM,54.896,Andy Ewing,REP,41.795,13.101,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-PA-4,HOUSE,PA,4,,Terry E. Van Horne,DEM,40.991,Melissa A. Hart,REP,59.009,-18.019,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-RI-1,HOUSE,RI,1,,Patrick Joseph Kennedy,DEM,66.635,Stephen Cabral,REP,33.21,33.425,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-RI-2,HOUSE,RI,2,,Jim Langevin,DEM,62.207,Robert G. Tingle,REP,14.035,48.172,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-TX-25,HOUSE,TX,25,,Kenneth E. Bentsen,DEM,60.113,Phil Sudan,REP,38.528,21.585,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-WA-1,HOUSE,WA,1,,Jay Robert Inslee,DEM,54.552,Dan McDonald,REP,42.65,11.902,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-WA-2,HOUSE,WA,2,,Rick Larsen,DEM,50.009,John Koster,REP,45.931,4.078,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-WA-8,HOUSE,WA,8,,Heidi Behrens-Benedict,DEM,35.639,Jennifer B. Dunn,REP,62.233,-26.594,D-R,538
+2000,presidential,2000-11-07,2000-HOUSE-WV-2,HOUSE,WV,2,,Jim Humphreys,DEM,45.919,Shelley Moore Capito,REP,48.489,-2.57,D-R,538
+2000,presidential,2000-11-07,2000-PRES-AK,PRES,AK,,,Al Gore,DEM,27.666,George W. Bush,REP,58.621,-30.955,D-R,538
+2000,presidential,2000-11-07,2000-PRES-AL,PRES,AL,,,Al Gore,DEM,20.783,George W. Bush,REP,28.242,-7.459,D-R,538
+2000,presidential,2000-11-07,2000-PRES-AR,PRES,AR,,,Al Gore,DEM,45.864,George W. Bush,REP,51.307,-5.443,D-R,538
+2000,presidential,2000-11-07,2000-PRES-AZ,PRES,AZ,,,Al Gore,DEM,44.735,George W. Bush,REP,51.021,-6.287,D-R,538
+2000,presidential,2000-11-07,2000-PRES-CA,PRES,CA,,,Al Gore,DEM,53.45,George W. Bush,REP,41.651,11.798,D-R,538
+2000,presidential,2000-11-07,2000-PRES-CO,PRES,CO,,,Al Gore,DEM,42.394,George W. Bush,REP,50.75,-8.357,D-R,538
+2000,presidential,2000-11-07,2000-PRES-CT,PRES,CT,,,Al Gore,DEM,55.91,George W. Bush,REP,38.444,17.466,D-R,538
+2000,presidential,2000-11-07,2000-PRES-DC,PRES,DC,,,Al Gore,DEM,85.155,George W. Bush,REP,8.952,76.203,D-R,538
+2000,presidential,2000-11-07,2000-PRES-DE,PRES,DE,,,Al Gore,DEM,54.978,George W. Bush,REP,41.916,13.061,D-R,538
+2000,presidential,2000-11-07,2000-PRES-FL,PRES,FL,,,Al Gore,DEM,48.838,George W. Bush,REP,48.847,-0.009,D-R,538
+2000,presidential,2000-11-07,2000-PRES-GA,PRES,GA,,,Al Gore,DEM,42.985,George W. Bush,REP,54.672,-11.687,D-R,538
+2000,presidential,2000-11-07,2000-PRES-HI,PRES,HI,,,Al Gore,DEM,55.792,George W. Bush,REP,37.463,18.329,D-R,538
+2000,presidential,2000-11-07,2000-PRES-IA,PRES,IA,,,Al Gore,DEM,48.536,George W. Bush,REP,48.221,0.315,D-R,538
+2000,presidential,2000-11-07,2000-PRES-ID,PRES,ID,,,Al Gore,DEM,27.638,George W. Bush,REP,67.17,-39.532,D-R,538
+2000,presidential,2000-11-07,2000-PRES-IL,PRES,IL,,,Al Gore,DEM,54.597,George W. Bush,REP,42.585,12.012,D-R,538
+2000,presidential,2000-11-07,2000-PRES-IN,PRES,IN,,,Al Gore,DEM,41.012,George W. Bush,REP,56.647,-15.635,D-R,538
+2000,presidential,2000-11-07,2000-PRES-KS,PRES,KS,,,Al Gore,DEM,37.238,George W. Bush,REP,58.042,-20.803,D-R,538
+2000,presidential,2000-11-07,2000-PRES-KY,PRES,KY,,,Al Gore,DEM,41.378,George W. Bush,REP,56.506,-15.128,D-R,538
+2000,presidential,2000-11-07,2000-PRES-LA,PRES,LA,,,Al Gore,DEM,44.875,George W. Bush,REP,52.551,-7.676,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MA,PRES,MA,,,Al Gore,DEM,59.125,George W. Bush,REP,32.132,26.993,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MD,PRES,MD,,,Al Gore,DEM,56.488,George W. Bush,REP,40.185,16.304,D-R,538
+2000,presidential,2000-11-07,2000-PRES-ME,PRES,ME,,,Al Gore,DEM,49.086,George W. Bush,REP,43.972,5.114,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MI,PRES,MI,,,Al Gore,DEM,51.28,George W. Bush,REP,46.146,5.134,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MN,PRES,MN,,,Al Gore,DEM,47.906,George W. Bush,REP,45.502,2.403,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MO,PRES,MO,,,Al Gore,DEM,47.084,George W. Bush,REP,50.423,-3.339,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MS,PRES,MS,,,Al Gore,DEM,40.698,George W. Bush,REP,57.62,-16.921,D-R,538
+2000,presidential,2000-11-07,2000-PRES-MT,PRES,MT,,,Al Gore,DEM,33.365,George W. Bush,REP,58.439,-25.074,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NC,PRES,NC,,,Al Gore,DEM,43.146,George W. Bush,REP,55.958,-12.812,D-R,538
+2000,presidential,2000-11-07,2000-PRES-ND,PRES,ND,,,Al Gore,DEM,33.055,George W. Bush,REP,60.659,-27.603,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NE,PRES,NE,,,Al Gore,DEM,33.253,George W. Bush,REP,62.245,-28.992,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NH,PRES,NH,,,Al Gore,DEM,46.803,George W. Bush,REP,48.07,-1.267,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NJ,PRES,NJ,,,Al Gore,DEM,56.126,George W. Bush,REP,40.291,15.834,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NM,PRES,NM,,,Al Gore,DEM,47.909,George W. Bush,REP,47.847,0.061,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NV,PRES,NV,,,Al Gore,DEM,45.976,George W. Bush,REP,49.522,-3.546,D-R,538
+2000,presidential,2000-11-07,2000-PRES-NY,PRES,NY,,,Al Gore,DEM,56.639,George W. Bush,REP,32.45,24.189,D-R,538
+2000,presidential,2000-11-07,2000-PRES-OH,PRES,OH,,,Al Gore,DEM,46.44,George W. Bush,REP,49.986,-3.546,D-R,538
+2000,presidential,2000-11-07,2000-PRES-OK,PRES,OK,,,Al Gore,DEM,38.427,George W. Bush,REP,60.308,-21.881,D-R,538
+2000,presidential,2000-11-07,2000-PRES-OR,PRES,OR,,,Al Gore,DEM,46.96,George W. Bush,REP,46.519,0.441,D-R,538
+2000,presidential,2000-11-07,2000-PRES-PA,PRES,PA,,,Al Gore,DEM,50.608,George W. Bush,REP,46.438,4.17,D-R,538
+2000,presidential,2000-11-07,2000-PRES-RI,PRES,RI,,,Al Gore,DEM,60.988,George W. Bush,REP,31.912,29.076,D-R,538
+2000,presidential,2000-11-07,2000-PRES-SC,PRES,SC,,,Al Gore,DEM,40.902,George W. Bush,REP,56.86,-15.959,D-R,538
+2000,presidential,2000-11-07,2000-PRES-SD,PRES,SD,,,Al Gore,DEM,37.564,George W. Bush,REP,60.297,-22.733,D-R,538
+2000,presidential,2000-11-07,2000-PRES-TN,PRES,TN,,,Al Gore,DEM,47.285,George W. Bush,REP,51.149,-3.864,D-R,538
+2000,presidential,2000-11-07,2000-PRES-TX,PRES,TX,,,Al Gore,DEM,37.982,George W. Bush,REP,59.299,-21.317,D-R,538
+2000,presidential,2000-11-07,2000-PRES-US,PRES,US,,,Al Gore,DEM,48.149,George W. Bush,REP,47.657,0.492,D-R,538
+2000,presidential,2000-11-07,2000-PRES-UT,PRES,UT,,,Al Gore,DEM,26.345,George W. Bush,REP,66.83,-40.485,D-R,538
+2000,presidential,2000-11-07,2000-PRES-VA,PRES,VA,,,Al Gore,DEM,44.436,George W. Bush,REP,52.474,-8.038,D-R,538
+2000,presidential,2000-11-07,2000-PRES-VT,PRES,VT,,,Al Gore,DEM,50.635,George W. Bush,REP,40.697,9.938,D-R,538
+2000,presidential,2000-11-07,2000-PRES-WA,PRES,WA,,,Al Gore,DEM,50.158,George W. Bush,REP,44.579,5.58,D-R,538
+2000,presidential,2000-11-07,2000-PRES-WI,PRES,WI,,,Al Gore,DEM,47.833,George W. Bush,REP,47.613,0.22,D-R,538
+2000,presidential,2000-11-07,2000-PRES-WV,PRES,WV,,,Al Gore,DEM,45.593,George W. Bush,REP,51.915,-6.323,D-R,538
+2000,presidential,2000-11-07,2000-PRES-WY,PRES,WY,,,Al Gore,DEM,28.298,George W. Bush,REP,69.223,-40.924,D-R,538
+2000,presidential,2000-11-07,2000-SEN-AZ,SEN,AZ,,,William Toel,IND,7.818,Jon Kyl,REP,79.323,-71.504,X-R,538
+2000,presidential,2000-11-07,2000-SEN-CA,SEN,CA,,,Dianne Feinstein,DEM,55.843,Tom Campbell,REP,36.587,19.256,D-R,538
+2000,presidential,2000-11-07,2000-SEN-CT,SEN,CT,,,Joseph I. Lieberman,DEM,63.214,Phil Giordano,REP,34.171,29.043,D-R,538
+2000,presidential,2000-11-07,2000-SEN-DE,SEN,DE,,,Thomas R. Carper,DEM,55.526,William V. Roth Jr.,REP,43.698,11.827,D-R,538
+2000,presidential,2000-11-07,2000-SEN-FL,SEN,FL,,,Bill Nelson,DEM,51.044,Bill McCollum,REP,46.192,4.851,D-R,538
+2000,presidential,2000-11-07,2000-SEN-HI,SEN,HI,,,Daniel K. Akaka,DEM,72.685,John Stanley Carroll,REP,24.507,48.178,D-R,538
+2000,presidential,2000-11-07,2000-SEN-IN,SEN,IN,,,David L. Johnson,DEM,31.851,Richard G. Lugar,REP,66.564,-34.713,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MA,SEN,MA,,,Edward M. Kennedy,DEM,69.111,Jack E. Robinson,REP,12.229,56.882,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MD,SEN,MD,,,Paul S. Sarbanes,DEM,63.178,Paul H. Rappaport,REP,36.734,26.444,D-R,538
+2000,presidential,2000-11-07,2000-SEN-ME,SEN,ME,,,Mark W. Lawrence,DEM,31.059,Olympia J. Snowe,REP,68.941,-37.883,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MI,SEN,MI,,,Debbie Stabenow,DEM,49.475,Spencer Abraham,REP,47.861,1.614,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MN,SEN,MN,,,Mark Dayton,DEM,48.834,Rod Grams,REP,43.293,5.542,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MO,SEN,MO,,,Mel Carnahan,DEM,50.467,John Ashcroft,REP,48.393,2.073,D-R,538
+2000,presidential,2000-11-07,2000-SEN-MT,SEN,MT,,,Brian Schweitzer,DEM,47.237,Conrad Burns,REP,50.554,-3.317,D-R,538
+2000,presidential,2000-11-07,2000-SEN-ND,SEN,ND,,,Kent Conrad,DEM,61.373,Duane Sand,REP,38.627,22.745,D-R,538
+2000,presidential,2000-11-07,2000-SEN-NE,SEN,NE,,,Ben Nelson,DEM,50.999,Don Stenberg,REP,48.816,2.183,D-R,538
+2000,presidential,2000-11-07,2000-SEN-NJ,SEN,NJ,,,Jon Stevens Corzine,DEM,50.113,Bob Franks,REP,47.096,3.017,D-R,538
+2000,presidential,2000-11-07,2000-SEN-NM,SEN,NM,,,Jeff Bingaman,DEM,61.701,Bill Redmond,REP,38.254,23.447,D-R,538
+2000,presidential,2000-11-07,2000-SEN-NV,SEN,NV,,,Ed Bernstein,DEM,39.693,John Ensign,REP,55.092,-15.398,D-R,538
+2000,presidential,2000-11-07,2000-SEN-NY,SEN,NY,,,Hillary Rodham Clinton,DEM,51.187,Rick Lazio,REP,39.148,12.038,D-R,538
+2000,presidential,2000-11-07,2000-SEN-OH,SEN,OH,,,Ted Celeste,DEM,35.854,Mike DeWine,REP,59.915,-24.061,D-R,538
+2000,presidential,2000-11-07,2000-SEN-PA,SEN,PA,,,Ron Klink,DEM,45.509,Rick Santorum,REP,52.416,-6.907,D-R,538
+2000,presidential,2000-11-07,2000-SEN-RI,SEN,RI,,,Robert A. Weygand,DEM,41.145,Lincoln Chafee,REP,56.877,-15.731,D-R,538
+2000,presidential,2000-11-07,2000-SEN-TN,SEN,TN,,,Jeff Clark,DEM,32.207,Bill Frist,REP,65.096,-32.889,D-R,538
+2000,presidential,2000-11-07,2000-SEN-TX,SEN,TX,,,Gene Kelly,DEM,32.308,Kay Bailey Hutchison,REP,65.076,-32.769,D-R,538
+2000,presidential,2000-11-07,2000-SEN-UT,SEN,UT,,,Scott N. Howell,DEM,31.515,Orrin G. Hatch,REP,65.584,-34.069,D-R,538
+2000,presidential,2000-11-07,2000-SEN-VA,SEN,VA,,,Charles S. Robb,DEM,47.68,George F. Allen,REP,52.255,-4.575,D-R,538
+2000,presidential,2000-11-07,2000-SEN-VT,SEN,VT,,,Ed Flanagan,DEM,25.425,James M. Jeffords,REP,65.557,-40.132,D-R,538
+2000,presidential,2000-11-07,2000-SEN-WA,SEN,WA,,,Maria Cantwell,DEM,48.73,Slade Gorton,REP,48.64,0.091,D-R,538
+2000,presidential,2000-11-07,2000-SEN-WI,SEN,WI,,,Herb Kohl,DEM,61.543,John Gillespie,REP,37.036,24.507,D-R,538
+2000,presidential,2000-11-07,2000-SEN-WV,SEN,WV,,,Robert C. Byrd,DEM,77.752,David T. Gallaher,REP,20.156,57.596,D-R,538
+2000,presidential,2000-11-07,2000-SEN-WY,SEN,WY,,,Mel Logan,DEM,22.038,Craig Thomas,REP,73.773,-51.734,D-R,538

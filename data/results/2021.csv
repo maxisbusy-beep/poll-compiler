@@ -1,0 +1,6 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2021,off-year,2021-11-02,2021-GOV-NJ,GOV,NJ,,,Philip Murphy,DEM,51.225,Jack M. Ciattarelli,REP,48.002,3.223,D-R,538
+2021,off-year,2021-11-02,2021-GOV-VA,GOV,VA,,,Terry R. McAuliffe,DEM,48.644,Glenn Youngkin,REP,50.574,-1.93,D-R,538
+2021,off-year,2021-06-01,2021-HOUSE-NM-1-S,HOUSE,NM,1,S,Melanie Ann Stansbury,DEM,60.363,Mark David Moores,REP,35.619,24.744,D-R,538
+2021,off-year,2021-11-02,2021-HOUSE-OH-15-S,HOUSE,OH,15,S,Allison Russo,DEM,41.698,Mike Carey,REP,58.302,-16.604,D-R,538
+2021,off-year,2021-07-27,2021-HOUSE-TX-6-SR,HOUSE,TX,6,SR,Jake Ellzey,REP,53.294,Susan Wright,REP,46.706,6.587,same-party,538

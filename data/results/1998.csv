@@ -1,0 +1,91 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+1998,midterm,1998-11-03,1998-GOV-AL,GOV,AL,,,Don Siegelman,DEM,57.811,"Forrest H. 'Fob' James, Jr.",REP,42.189,15.622,D-R,538
+1998,midterm,1998-11-03,1998-GOV-AR,GOV,AR,,,Bill Bristow,DEM,38.657,Mike Huckabee,REP,59.771,-21.114,D-R,538
+1998,midterm,1998-11-03,1998-GOV-AZ,GOV,AZ,,,Paul Johnson,DEM,35.529,Jane Hull,REP,60.945,-25.416,D-R,538
+1998,midterm,1998-11-03,1998-GOV-CA,GOV,CA,,,Gray Davis,DEM,57.968,Dan Lungren,REP,38.377,19.591,D-R,538
+1998,midterm,1998-11-03,1998-GOV-CO,GOV,CO,,,Gail Schoettler,DEM,48.419,William F. Owens,REP,49.038,-0.619,D-R,538
+1998,midterm,1998-11-03,1998-GOV-CT,GOV,CT,,,Barbara Kennelly,DEM,35.435,John Rowland,REP,62.9,-27.465,D-R,538
+1998,midterm,1998-11-03,1998-GOV-FL,GOV,FL,,,Buddy MacKay,DEM,44.724,Jeb Bush,REP,55.269,-10.545,D-R,538
+1998,midterm,1998-11-03,1998-GOV-GA,GOV,GA,,,Roy Barnes,DEM,52.492,Guy Millner,REP,44.076,8.416,D-R,538
+1998,midterm,1998-11-03,1998-GOV-HI,GOV,HI,,,Benjamin Cayetano,DEM,50.105,Linda Lingle,REP,48.816,1.289,D-R,538
+1998,midterm,1998-11-03,1998-GOV-IA,GOV,IA,,,Tom Vilsack,DEM,52.303,Jim Lightfoot,REP,46.506,5.797,D-R,538
+1998,midterm,1998-11-03,1998-GOV-IL,GOV,IL,,,Glenn Poshard,DEM,47.464,George Ryan,REP,51.034,-3.57,D-R,538
+1998,midterm,1998-11-03,1998-GOV-KS,GOV,KS,,,Tom Sawyer,DEM,22.654,William Graves,REP,73.368,-50.715,D-R,538
+1998,midterm,1998-11-03,1998-GOV-MA,GOV,MA,,,Scott Harshbarger,DEM,47.382,A. Paul Cellucci,REP,50.814,-3.432,D-R,538
+1998,midterm,1998-11-03,1998-GOV-MD,GOV,MD,,,Parris Glendening,DEM,55.142,Ellen Sauerbrey,REP,44.816,10.327,D-R,538
+1998,midterm,1998-11-03,1998-GOV-ME,GOV,ME,,,Thomas Connolly,DEM,11.996,James Longley Jr.,REP,18.935,-6.938,D-R,538
+1998,midterm,1998-11-03,1998-GOV-MI,GOV,MI,,,Geoffrey Fieger,DEM,37.778,John Engler,REP,62.205,-24.427,D-R,538
+1998,midterm,1998-11-03,1998-GOV-MN,GOV,MN,,,Hubert Humphrey III,DEM,28.082,Norm Coleman,REP,34.292,-6.21,D-R,538
+1998,midterm,1998-11-03,1998-GOV-NE,GOV,NE,,,Bill Hoppner,DEM,45.976,Mike Johanns,REP,53.905,-7.929,D-R,538
+1998,midterm,1998-11-03,1998-GOV-NH,GOV,NH,,,Jeanne Shaheen,DEM,66.084,Jay Lucas,REP,30.875,35.209,D-R,538
+1998,midterm,1998-11-03,1998-GOV-NM,GOV,NM,,,Martin Chavez,DEM,45.469,Gary Johnson,REP,54.531,-9.062,D-R,538
+1998,midterm,1998-11-03,1998-GOV-NV,GOV,NV,,,Jan Jones,DEM,41.978,Kenny Guinn,REP,51.561,-9.583,D-R,538
+1998,midterm,1998-11-03,1998-GOV-NY,GOV,NY,,,Peter Vallone,DEM,30.466,George Pataki,REP,44.591,-14.125,D-R,538
+1998,midterm,1998-11-03,1998-GOV-OH,GOV,OH,,,Lee Fisher,DEM,44.689,Bob Taft,REP,50.048,-5.359,D-R,538
+1998,midterm,1998-11-03,1998-GOV-OR,GOV,OR,,,John Kitzhaber,DEM,64.42,Bill Sizemore,REP,30.006,34.414,D-R,538
+1998,midterm,1998-11-03,1998-GOV-PA,GOV,PA,,,Ivan Itkin,DEM,31.033,Thomas Ridge,REP,57.417,-26.384,D-R,538
+1998,midterm,1998-11-03,1998-GOV-RI,GOV,RI,,,Myrth York,DEM,42.13,Lincoln Almond,REP,50.965,-8.835,D-R,538
+1998,midterm,1998-11-03,1998-GOV-SC,GOV,SC,,,James H. Hodges,DEM,53.234,David M. Beasley,REP,45.205,8.029,D-R,538
+1998,midterm,1998-11-03,1998-GOV-TX,GOV,TX,,,Garry Mauro,DEM,31.182,George W. Bush,REP,68.239,-37.057,D-R,538
+1998,midterm,1998-11-03,1998-GOV-VT,GOV,VT,,,Howard Dean,DEM,55.669,Ruth Dwyer,REP,41.136,14.533,D-R,538
+1998,midterm,1998-11-03,1998-GOV-WI,GOV,WI,,,Ed Garvey,DEM,38.699,Tommy Thompson,REP,59.664,-20.966,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-AR-2,HOUSE,AR,2,,Victor F. Snyder,DEM,57.973,Phil Wyrick,REP,42.027,15.945,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-CA-24,HOUSE,CA,24,,Brad Sherman,DEM,57.31,Randy Hoffman,REP,38.488,18.823,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-CA-36,HOUSE,CA,36,,Janice Hahn,DEM,46.572,Steven T. Kuykendall,REP,48.894,-2.322,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-CA-46,HOUSE,CA,46,,Loretta Sanchez,DEM,56.427,Robert K. Dornan,REP,39.279,17.148,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-CO-2,HOUSE,CO,2,,Mark Udall,DEM,49.88,Bob Greenlee,REP,47.445,2.434,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-CT-1,HOUSE,CT,1,,John B. Larson,DEM,58.052,Kevin James O'Connor,REP,41.404,16.648,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,47.131,Generic Candidate,REP,48.02,-0.888,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-HI-1,HOUSE,HI,1,,Neil Abercrombie,DEM,61.556,Gene Ward,REP,36.348,25.208,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-ID-1,HOUSE,ID,1,,Dan Williams,DEM,44.734,Helen Chenoweth,REP,55.266,-10.532,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-ID-2,HOUSE,ID,2,,Richard Stallings,DEM,44.69,Mike Simpson,REP,52.509,-7.819,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-IN-10,HOUSE,IN,10,,Julia M. Carson,DEM,58.343,Gary Anthony Hofmeister,REP,39.366,18.977,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-IN-9,HOUSE,IN,9,,Baron P. Hill,DEM,50.756,Jean Leising,REP,47.93,2.826,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-KS-4,HOUSE,KS,4,,Jim Lawing,DEM,38.562,Todd Tiahrt,REP,58.26,-19.698,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-KY-6,HOUSE,KY,6,,Ernesto Scorsone,DEM,45.954,Ernest Lee Fletcher,REP,53.107,-7.152,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-MA-6,HOUSE,MA,6,,John F. Tierney,DEM,54.555,Peter G. Torkildsen,REP,42.377,12.178,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-MS-4,HOUSE,MS,4,,Ronnie Shows,DEM,53.391,Delbert Hosemann,REP,44.863,8.528,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-MT-1,HOUSE,MT,1,,Dusty Deschamps,DEM,44.359,Richard A. Hill,REP,53.008,-8.649,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NC-2,HOUSE,NC,2,,Bob R. Etheridge,DEM,57.394,Dan Page,REP,41.666,15.727,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NC-4,HOUSE,NC,4,,David E. Price,DEM,57.426,Thomas H. Roberg,REP,41.558,15.868,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NC-8,HOUSE,NC,8,,Mike Taylor,DEM,48.171,Robert C. Hayes,REP,50.708,-2.537,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-ND-1,HOUSE,ND,1,,Earl Pomeroy,DEM,56.212,Kevin Cramer,REP,41.107,15.105,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NH-2,HOUSE,NH,2,,Mary Rauh,DEM,44.773,Charles Bass,REP,53.157,-8.384,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NM-3,HOUSE,NM,3,,Tom Udall,DEM,53.16,Bill Redmond,REP,43.266,9.893,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-NV-1,HOUSE,NV,1,,Shelley Berkley,DEM,49.239,Don Chairez,REP,45.654,3.585,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-OH-6,HOUSE,OH,6,,Ted Strickland,DEM,56.962,Nancy P. Hollister,REP,43.038,13.924,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-OR-1,HOUSE,OR,1,,David Wu,DEM,50.102,Molly Bordonaro,REP,47.11,2.992,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-PA-10,HOUSE,PA,10,,Patrick R. Casey,DEM,48.401,Donald L. Sherwood,REP,48.698,-0.298,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-PA-13,HOUSE,PA,13,,Joe Hoeffel,DEM,51.55,Jon David Fox,REP,46.569,4.981,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-UT-2,HOUSE,UT,2,,Lily Eskelsen,DEM,43.457,Merrill Cook,REP,52.757,-9.3,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-WA-1,HOUSE,WA,1,,Jay Robert Inslee,DEM,49.775,Richard Alan White,REP,44.116,5.659,D-R,538
+1998,midterm,1998-11-03,1998-HOUSE-WI-1,HOUSE,WI,1,,Lydia Carol Spottswood,DEM,42.73,Paul Ryan,REP,57.108,-14.378,D-R,538
+1998,midterm,1998-11-03,1998-SEN-AL,SEN,AL,,,Clayton Suddith,DEM,36.691,Richard C. Shelby,REP,63.242,-26.55,D-R,538
+1998,midterm,1998-11-03,1998-SEN-AR,SEN,AR,,,Blanche Lincoln,DEM,55.06,Fay Boozman,REP,42.217,12.843,D-R,538
+1998,midterm,1998-11-03,1998-SEN-AZ,SEN,AZ,,,Edward Ranger,DEM,27.162,John McCain,REP,68.745,-41.583,D-R,538
+1998,midterm,1998-11-03,1998-SEN-CA,SEN,CA,,,Barbara Boxer,DEM,53.057,Matt Fong,REP,43.012,10.046,D-R,538
+1998,midterm,1998-11-03,1998-SEN-CO,SEN,CO,,,Dottie Lamm,DEM,35.017,Ben Nighthorse Campbell,REP,62.489,-27.472,D-R,538
+1998,midterm,1998-11-03,1998-SEN-CT,SEN,CT,,,Christopher J. Dodd,DEM,65.146,Gary A. Franks,REP,32.368,32.778,D-R,538
+1998,midterm,1998-11-03,1998-SEN-FL,SEN,FL,,,Bob Graham,DEM,62.469,Charlie Crist,REP,37.531,24.939,D-R,538
+1998,midterm,1998-11-03,1998-SEN-GA,SEN,GA,,,Michael J. Coles,DEM,45.15,Paul Coverdell,REP,52.37,-7.22,D-R,538
+1998,midterm,1998-11-03,1998-SEN-IA,SEN,IA,,,David Osterberg,DEM,30.493,Chuck Grassley,REP,68.412,-37.918,D-R,538
+1998,midterm,1998-11-03,1998-SEN-IL,SEN,IL,,,Carol Moseley-Braun,DEM,47.444,Peter G. Fitzgerald,REP,50.347,-2.903,D-R,538
+1998,midterm,1998-11-03,1998-SEN-IN,SEN,IN,,,Evan Bayh,DEM,63.719,Paul Helmke,REP,34.793,28.925,D-R,538
+1998,midterm,1998-11-03,1998-SEN-KS,SEN,KS,,,Paul Feleciano,DEM,31.588,Sam Brownback,REP,65.266,-33.678,D-R,538
+1998,midterm,1998-11-03,1998-SEN-KY,SEN,KY,,,Scotty Baesler,DEM,49.157,Jim Bunning,REP,49.748,-0.591,D-R,538
+1998,midterm,1998-11-03,1998-SEN-MD,SEN,MD,,,Barbara A. Mikulski,DEM,70.504,Ross Z. Pierpont,REP,29.496,41.008,D-R,538
+1998,midterm,1998-11-03,1998-SEN-MO,SEN,MO,,,Jay Nixon,DEM,43.771,Christopher S. Bond,REP,52.676,-8.905,D-R,538
+1998,midterm,1998-11-03,1998-SEN-NC,SEN,NC,,,John Edwards,DEM,51.151,Lauch Faircloth,REP,47.012,4.14,D-R,538
+1998,midterm,1998-11-03,1998-SEN-NH,SEN,NH,,,George Condodemetraky,DEM,28.244,Judd Gregg,REP,67.836,-39.592,D-R,538
+1998,midterm,1998-11-03,1998-SEN-NV,SEN,NV,,,Harry Reid,DEM,47.864,John Ensign,REP,47.772,0.092,D-R,538
+1998,midterm,1998-11-03,1998-SEN-NY,SEN,NY,,,Charles E. Schumer,DEM,47.823,Alfonse M. D'Amato,REP,33.672,14.151,D-R,538
+1998,midterm,1998-11-03,1998-SEN-OH,SEN,OH,,,Mary Boyle,DEM,43.534,George V. Voinovich,REP,56.46,-12.926,D-R,538
+1998,midterm,1998-11-03,1998-SEN-OK,SEN,OK,,,Don Carroll,DEM,31.278,Don Nickles,REP,66.381,-35.103,D-R,538
+1998,midterm,1998-11-03,1998-SEN-OR,SEN,OR,,,Ron Wyden,DEM,61.054,John Lim,REP,33.795,27.259,D-R,538
+1998,midterm,1998-11-03,1998-SEN-PA,SEN,PA,,,Bill Lloyd,DEM,34.787,Arlen Specter,REP,61.342,-26.554,D-R,538
+1998,midterm,1998-11-03,1998-SEN-SC,SEN,SC,,,Ernest F. Hollings,DEM,52.698,Bob Inglis,REP,45.67,7.028,D-R,538
+1998,midterm,1998-11-03,1998-SEN-SD,SEN,SD,,,Tom Daschle,DEM,62.143,Ron Schmidt,REP,36.409,25.735,D-R,538
+1998,midterm,1998-11-03,1998-SEN-UT,SEN,UT,,,Scott Leckman,DEM,32.97,Robert F. Bennett,REP,63.982,-31.012,D-R,538
+1998,midterm,1998-11-03,1998-SEN-VT,SEN,VT,,,Patrick J. Leahy,DEM,72.215,Fred Tuttle,REP,22.45,49.765,D-R,538
+1998,midterm,1998-11-03,1998-SEN-WA,SEN,WA,,,Patty Murray,DEM,58.414,Linda Smith,REP,41.586,16.828,D-R,538
+1998,midterm,1998-11-03,1998-SEN-WI,SEN,WI,,,Russ Feingold,DEM,50.548,Mark W. Neumann,REP,48.402,2.146,D-R,538

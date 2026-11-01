@@ -1,0 +1,190 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2020,presidential,2020-11-03,2020-GOV-DE,GOV,DE,,,John C. Carney Jr.,DEM,59.456,Julianne E. Murray,REP,38.631,20.825,D-R,538
+2020,presidential,2020-11-03,2020-GOV-IN,GOV,IN,,,Woody Myers,DEM,32.052,Eric Joseph Holcomb,REP,56.507,-24.455,D-R,538
+2020,presidential,2020-11-03,2020-GOV-MO,GOV,MO,,,Nicole Galloway,DEM,40.692,Mike Parson,REP,57.106,-16.414,D-R,538
+2020,presidential,2020-11-03,2020-GOV-MT,GOV,MT,,,Mike Cooney,DEM,41.562,Greg Gianforte,REP,54.433,-12.871,D-R,538
+2020,presidential,2020-11-03,2020-GOV-NC,GOV,NC,,,Roy A. Cooper,DEM,51.516,Dan Forest,REP,47.005,4.51,D-R,538
+2020,presidential,2020-11-03,2020-GOV-ND,GOV,ND,,,Shelley Lenz,DEM,25.384,Doug Burgum,REP,65.839,-40.455,D-R,538
+2020,presidential,2020-11-03,2020-GOV-NH,GOV,NH,,,Dan Feltes,DEM,33.361,Chris Sununu,REP,65.125,-31.764,D-R,538
+2020,presidential,2020-11-03,2020-GOV-PR,GOV,PR,,,Pedro R. Pierluisi,NPP,33.24,Carlos Delgado Altieri,PPD,31.746,1.495,other,538
+2020,presidential,2020-11-03,2020-GOV-UT,GOV,UT,,,Chris Peterson,DEM,30.349,Spencer J. Cox,REP,62.977,-32.628,D-R,538
+2020,presidential,2020-11-03,2020-GOV-VT,GOV,VT,,,David Zuckerman,DEM,27.353,Phil Scott,REP,68.488,-41.134,D-R,538
+2020,presidential,2020-11-03,2020-GOV-WA,GOV,WA,,,Jay Robert Inslee,DEM,56.558,Loren Culp,REP,43.118,13.44,D-R,538
+2020,presidential,2020-11-03,2020-GOV-WV,GOV,WV,,,Ben Salango,DEM,30.83,James Justice,REP,64.769,-33.938,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-AK-1,HOUSE,AK,1,,Alyse S. Galvin,DEM,45.264,Don Young,REP,54.401,-9.137,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-AR-2,HOUSE,AR,2,,Joyce Ann Elliott,DEM,44.634,French Hill,REP,55.366,-10.732,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-AZ-6,HOUSE,AZ,6,,Hiral Tipirneni,DEM,47.827,David Schweikert,REP,52.173,-4.345,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-1,HOUSE,CA,1,,Audrey Denney,DEM,43.006,Doug LaMalfa,REP,56.994,-13.989,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-21,HOUSE,CA,21,,TJ Cox,DEM,49.553,David G. Valadao,REP,50.447,-0.894,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-22,HOUSE,CA,22,,Phil Arballo,DEM,45.774,Devin Nunes,REP,54.226,-8.452,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-25,HOUSE,CA,25,,Christy Smith,DEM,49.951,Mike Garcia,REP,50.049,-0.098,D-R,538
+2020,presidential,2020-05-12,2020-HOUSE-CA-25-S,HOUSE,CA,25,S,Christy Smith,DEM,45.141,Mike Garcia,REP,54.859,-9.717,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-39,HOUSE,CA,39,,Gilbert Cisneros,DEM,49.402,Young Kim,REP,50.598,-1.195,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-4,HOUSE,CA,4,,Brynne S. Kennedy,DEM,44.055,Tom McClintock,REP,55.945,-11.891,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-49,HOUSE,CA,49,,Mike Levin,DEM,53.13,Brian Maryott,REP,46.87,6.259,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-50,HOUSE,CA,50,,Ammar Campa-Najjar,DEM,46.047,Darrell Issa,REP,53.953,-7.906,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-CA-53,HOUSE,CA,53,,Sara Jacobs,DEM,59.501,Georgette Gómez,DEM,40.499,19.002,same-party,538
+2020,presidential,2020-11-03,2020-HOUSE-CO-3,HOUSE,CO,3,,Diane Mitsch Bush,DEM,45.216,Lauren Boebert,REP,51.392,-6.175,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-DE-1,HOUSE,DE,1,,Lisa Blunt Rochester,DEM,57.628,Lee Murphy,REP,40.222,17.406,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-13,HOUSE,FL,13,,Charlie Crist,DEM,53.039,Anna Paulina Luna,REP,46.959,6.08,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-15,HOUSE,FL,15,,Alan M. Cohn,DEM,44.615,Scott Franklin,REP,55.385,-10.77,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-16,HOUSE,FL,16,,Margaret Good,DEM,44.5,Vern Buchanan,REP,55.5,-11.001,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-18,HOUSE,FL,18,,Pamela Michele Keith,DEM,41.509,Brian Mast,REP,56.321,-14.812,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-21,HOUSE,FL,21,,Lois Frankel,DEM,59.025,Laura Loomer,REP,39.101,19.924,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-27,HOUSE,FL,27,,Donna E. Shalala,DEM,48.621,María Elvira Salazar,REP,51.357,-2.736,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-FL-4,HOUSE,FL,4,,Donna Deegan,DEM,38.9,John Rutherford,REP,61.096,-22.196,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,50.231,Generic Candidate,REP,47.267,2.965,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IA-1,HOUSE,IA,1,,Abby Finkenauer,DEM,48.65,Ashley Hinson,REP,51.245,-2.595,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IA-2,HOUSE,IA,2,,Rita R. Hart,DEM,49.91,Mariannette Miller-Meeks,REP,49.912,-0.002,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IA-3,HOUSE,IA,3,,Cindy Axne,DEM,48.935,David Young,REP,47.55,1.386,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IA-4,HOUSE,IA,4,,J.D. Scholten,DEM,37.794,Randy Feenstra,REP,61.973,-24.178,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IL-13,HOUSE,IL,13,,Betsy Dirksen Londrigan,DEM,45.537,Rodney Davis,REP,54.463,-8.926,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IL-17,HOUSE,IL,17,,Cheri Bustos,DEM,52.022,Esther Joy King,REP,47.971,4.051,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IL-3,HOUSE,IL,3,,Marie Newman,DEM,56.379,Mike Fricilone,REP,43.621,12.757,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IL-6,HOUSE,IL,6,,Sean Casten,DEM,52.817,Jeanne M. Ives,REP,45.434,7.384,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-IN-5,HOUSE,IN,5,,Christina Hale,DEM,45.943,Victoria Spartz,REP,50.024,-4.081,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-KS-1,HOUSE,KS,1,,Kali Barnett,DEM,28.84,Tracey Mann,REP,71.16,-42.319,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-KS-2,HOUSE,KS,2,,Michelle De La Isla,DEM,40.632,Jake LaTurner,REP,55.146,-14.514,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-KS-3,HOUSE,KS,3,,Sharice Davids,DEM,53.616,Amanda L. Adkins,REP,43.559,10.057,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-KS-4,HOUSE,KS,4,,Laura Lombard,DEM,36.348,Ron Estes,REP,63.652,-27.305,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-ME-1,HOUSE,ME,1,,Chellie M. Pingree,DEM,62.153,Jay T. Allen,REP,37.844,24.31,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-ME-2,HOUSE,ME,2,,Jared Forrest Golden,DEM,53.043,Dale John Crafts,REP,46.948,6.094,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-MI-3,HOUSE,MI,3,,Hillary Scholten,DEM,47.04,Peter Meijer,REP,52.96,-5.919,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-MN-1,HOUSE,MN,1,,Dan Feehan,DEM,45.516,Jim Hagedorn,REP,48.592,-3.075,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-MN-2,HOUSE,MN,2,,Angie Craig,DEM,48.181,Tyler Kistner,REP,45.924,2.257,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-MO-2,HOUSE,MO,2,,Jill Schupp,DEM,45.519,Ann Wagner,REP,51.888,-6.369,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-MT-1,HOUSE,MT,1,,Kathleen Williams,DEM,43.614,Matt Rosendale,REP,56.386,-12.773,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NC-11,HOUSE,NC,11,,Morris Durham Davis,DEM,42.344,David Madison Cawthorn,REP,54.505,-12.161,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NC-8,HOUSE,NC,8,,Patricia Timmons-Goodson,DEM,46.716,Richard Hudson,REP,53.284,-6.568,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NC-9,HOUSE,NC,9,,Cynthia Lee Wallace,DEM,44.408,Dan Bishop,REP,55.592,-11.184,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NE-2,HOUSE,NE,2,,Kara Eastman,DEM,46.209,Don Bacon,REP,50.769,-4.56,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NH-1,HOUSE,NH,1,,Chris Pappas,DEM,51.317,Matt Mowers,REP,46.213,5.103,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NH-2,HOUSE,NH,2,,Ann McLane Kuster,DEM,53.899,Steven Negron,REP,43.703,10.196,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NJ-2,HOUSE,NJ,2,,Amy Kennedy,DEM,46.169,Jeff Van Drew,REP,51.926,-5.757,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NM-1,HOUSE,NM,1,,Debra A. Haaland,DEM,58.188,Michelle Garcia Holmes,REP,41.812,16.376,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NM-2,HOUSE,NM,2,,Xochitl Torres Small,DEM,46.253,Yvette Herrell,REP,53.703,-7.449,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NM-3,HOUSE,NM,3,,Teresa Leger Fernandez,DEM,58.681,Alexis Martinez Johnson,REP,41.319,17.362,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-1,HOUSE,NY,1,,Nancy Goroff,DEM,41.899,Lee M. Zeldin,REP,49.189,-7.29,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-11,HOUSE,NY,11,,Max N. Rose,DEM,45.898,Nicole Malliotakis,REP,48.896,-2.998,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-18,HOUSE,NY,18,,Sean Patrick Maloney,DEM,50.932,Chele Farley,REP,38.316,12.616,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-22,HOUSE,NY,22,,Anthony J. Brindisi,DEM,43.455,Claudia Tenney,REP,44.829,-1.374,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-23,HOUSE,NY,23,,Tracy Mitrano,DEM,36.981,Thomas Reed,REP,51.564,-14.583,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-NY-24,HOUSE,NY,24,,Dana Balter,DEM,42.965,John Katko,REP,45.406,-2.441,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-OH-1,HOUSE,OH,1,,Kate Schroder,DEM,44.648,Steve Chabot,REP,51.795,-7.147,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-OH-10,HOUSE,OH,10,,Desiree Tims,DEM,41.643,Mike Turner,REP,58.357,-16.714,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-OH-12,HOUSE,OH,12,,Alaina Shearer,DEM,41.777,Troy Balderson,REP,55.245,-13.467,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-OK-1,HOUSE,OK,1,,Kojo Asamoa-Caesar,DEM,32.683,Kevin Hern,REP,63.701,-31.019,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-OK-5,HOUSE,OK,5,,Kendra Horn,DEM,47.938,Stephanie Bice,REP,52.062,-4.125,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-PA-1,HOUSE,PA,1,,Christina M. Finello,DEM,43.442,Brian Fitzpatrick,REP,56.558,-13.116,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-PA-10,HOUSE,PA,10,,Eugene A. DePasquale,DEM,46.688,Scott Perry,REP,53.312,-6.625,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-PA-7,HOUSE,PA,7,,Susan Wild,DEM,51.866,Lisa Scheller,REP,48.134,3.733,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-PA-8,HOUSE,PA,8,,Matt Cartwright,DEM,51.777,Jim Bognet,REP,48.223,3.555,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-PR-1,HOUSE,PR,1,,Jenniffer González,NPP,41.175,Aníbal Acevedo-Vilá,PPD,32.157,9.018,other,538
+2020,presidential,2020-11-03,2020-HOUSE-SC-1,HOUSE,SC,1,,Joe Cunningham,DEM,49.314,Nancy Mace,REP,50.582,-1.268,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-10,HOUSE,TX,10,,Mike Siegel,DEM,45.346,Michael McCaul,REP,52.481,-7.135,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-21,HOUSE,TX,21,,Wendy R. Davis,DEM,45.351,Chip Roy,REP,51.954,-6.603,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-22,HOUSE,TX,22,,Sri Kulkarni,DEM,44.602,Troy E. Nehls,REP,51.528,-6.926,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-23,HOUSE,TX,23,,Gina Ortiz Jones,DEM,46.603,Tony Gonzales,REP,50.564,-3.961,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-25,HOUSE,TX,25,,Julie Oliver,DEM,42.106,Roger Williams,REP,55.928,-13.822,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-3,HOUSE,TX,3,,Helane Seikaly,DEM,42.872,Van Taylor,REP,55.069,-12.197,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-6,HOUSE,TX,6,,Stephen Daniel,DEM,43.98,Ron Wright,REP,52.797,-8.817,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-TX-7,HOUSE,TX,7,,Lizzie Fletcher,DEM,50.785,Wesley Hunt,REP,47.451,3.335,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-UT-1,HOUSE,UT,1,,Darren Parry,DEM,30.435,Blake D. Moore,REP,69.516,-39.081,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-UT-2,HOUSE,UT,2,,Kael Weston,DEM,36.633,Chris Stewart,REP,59.001,-22.369,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-UT-3,HOUSE,UT,3,,Devin D. Thorpe,DEM,26.765,John Curtis,REP,68.725,-41.96,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-UT-4,HOUSE,UT,4,,Ben McAdams,DEM,46.697,Burgess Owens,REP,47.697,-0.999,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-VA-10,HOUSE,VA,10,,Jennifer T. Wexton,DEM,56.511,Aliscia Andrews,REP,43.372,13.139,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-VA-2,HOUSE,VA,2,,Elaine G. Luria,DEM,51.553,Scott W. Taylor,REP,45.807,5.746,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-VA-5,HOUSE,VA,5,,Bryant Cameron Webb,DEM,47.305,"Robert G. ""Bob"" Good",REP,52.443,-5.138,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-VA-7,HOUSE,VA,7,,Abigail A. Spanberger,DEM,50.82,Nicholas J. Freitas,REP,48.999,1.82,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-VT-1,HOUSE,VT,1,,Peter Welch,DEM,67.306,Miriam Berry,REP,27.007,40.299,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-WA-3,HOUSE,WA,3,,Carolyn Long,DEM,43.395,Jaime Herrera Beutler,REP,56.372,-12.977,D-R,538
+2020,presidential,2020-11-03,2020-HOUSE-WY-1,HOUSE,WY,1,,Lynnette GreyBull,DEM,24.577,Liz Cheney,REP,68.563,-43.987,D-R,538
+2020,presidential,2020-11-03,2020-PRES-AK,PRES,AK,,,Joe Biden,DEM,42.772,Donald Trump,REP,52.833,-10.061,D-R,538
+2020,presidential,2020-11-03,2020-PRES-AL,PRES,AL,,,Joe Biden,DEM,36.57,Donald Trump,REP,62.032,-25.462,D-R,538
+2020,presidential,2020-11-03,2020-PRES-AR,PRES,AR,,,Joe Biden,DEM,34.775,Donald Trump,REP,62.396,-27.621,D-R,538
+2020,presidential,2020-11-03,2020-PRES-AZ,PRES,AZ,,,Joe Biden,DEM,49.365,Donald Trump,REP,49.056,0.309,D-R,538
+2020,presidential,2020-11-03,2020-PRES-CA,PRES,CA,,,Joe Biden,DEM,63.484,Donald Trump,REP,34.321,29.163,D-R,538
+2020,presidential,2020-11-03,2020-PRES-CO,PRES,CO,,,Joe Biden,DEM,55.4,Donald Trump,REP,41.898,13.502,D-R,538
+2020,presidential,2020-11-03,2020-PRES-CT,PRES,CT,,,Joe Biden,DEM,59.261,Donald Trump,REP,39.188,20.074,D-R,538
+2020,presidential,2020-11-03,2020-PRES-DC,PRES,DC,,,Joe Biden,DEM,92.15,Donald Trump,REP,5.397,86.752,D-R,538
+2020,presidential,2020-11-03,2020-PRES-DE,PRES,DE,,,Joe Biden,DEM,58.745,Donald Trump,REP,39.777,18.969,D-R,538
+2020,presidential,2020-11-03,2020-PRES-FL,PRES,FL,,,Joe Biden,DEM,47.861,Donald Trump,REP,51.22,-3.358,D-R,538
+2020,presidential,2020-11-03,2020-PRES-GA,PRES,GA,,,Joe Biden,DEM,49.473,Donald Trump,REP,49.237,0.236,D-R,538
+2020,presidential,2020-11-03,2020-PRES-HI,PRES,HI,,,Joe Biden,DEM,63.734,Donald Trump,REP,34.269,29.465,D-R,538
+2020,presidential,2020-11-03,2020-PRES-IA,PRES,IA,,,Joe Biden,DEM,44.892,Donald Trump,REP,53.089,-8.198,D-R,538
+2020,presidential,2020-11-03,2020-PRES-ID,PRES,ID,,,Joe Biden,DEM,33.066,Donald Trump,REP,63.838,-30.771,D-R,538
+2020,presidential,2020-11-03,2020-PRES-IL,PRES,IL,,,Joe Biden,DEM,57.542,Donald Trump,REP,40.553,16.988,D-R,538
+2020,presidential,2020-11-03,2020-PRES-IN,PRES,IN,,,Joe Biden,DEM,40.962,Donald Trump,REP,57.021,-16.059,D-R,538
+2020,presidential,2020-11-03,2020-PRES-KS,PRES,KS,,,Joe Biden,DEM,41.56,Donald Trump,REP,56.213,-14.653,D-R,538
+2020,presidential,2020-11-03,2020-PRES-KY,PRES,KY,,,Joe Biden,DEM,36.152,Donald Trump,REP,62.087,-25.935,D-R,538
+2020,presidential,2020-11-03,2020-PRES-LA,PRES,LA,,,Joe Biden,DEM,39.851,Donald Trump,REP,58.461,-18.609,D-R,538
+2020,presidential,2020-11-03,2020-PRES-M1,PRES,M1,,,Joe Biden,DEM,60.115,Donald Trump,REP,37.021,23.094,D-R,538
+2020,presidential,2020-11-03,2020-PRES-M2,PRES,M2,,,Joe Biden,DEM,44.824,Donald Trump,REP,52.263,-7.439,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MA,PRES,MA,,,Joe Biden,DEM,65.6,Donald Trump,REP,32.142,33.458,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MD,PRES,MD,,,Joe Biden,DEM,65.361,Donald Trump,REP,32.15,33.21,D-R,538
+2020,presidential,2020-11-03,2020-PRES-ME,PRES,ME,,,Joe Biden,DEM,53.092,Donald Trump,REP,44.021,9.071,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MI,PRES,MI,,,Joe Biden,DEM,50.621,Donald Trump,REP,47.837,2.784,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MN,PRES,MN,,,Joe Biden,DEM,52.395,Donald Trump,REP,45.285,7.11,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MO,PRES,MO,,,Joe Biden,DEM,41.409,Donald Trump,REP,56.8,-15.391,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MS,PRES,MS,,,Joe Biden,DEM,41.058,Donald Trump,REP,57.603,-16.545,D-R,538
+2020,presidential,2020-11-03,2020-PRES-MT,PRES,MT,,,Joe Biden,DEM,40.55,Donald Trump,REP,56.919,-16.369,D-R,538
+2020,presidential,2020-11-03,2020-PRES-N2,PRES,N2,,,Joe Biden,DEM,51.953,Donald Trump,REP,45.45,6.504,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NC,PRES,NC,,,Joe Biden,DEM,48.586,Donald Trump,REP,49.934,-1.348,D-R,538
+2020,presidential,2020-11-03,2020-PRES-ND,PRES,ND,,,Joe Biden,DEM,31.757,Donald Trump,REP,65.114,-33.357,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NE,PRES,NE,,,Joe Biden,DEM,39.167,Donald Trump,REP,58.224,-19.058,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NH,PRES,NH,,,Joe Biden,DEM,52.708,Donald Trump,REP,45.356,7.353,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NJ,PRES,NJ,,,Joe Biden,DEM,57.334,Donald Trump,REP,41.397,15.938,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NM,PRES,NM,,,Joe Biden,DEM,54.289,Donald Trump,REP,43.497,10.793,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NV,PRES,NV,,,Joe Biden,DEM,50.057,Donald Trump,REP,47.666,2.391,D-R,538
+2020,presidential,2020-11-03,2020-PRES-NY,PRES,NY,,,Joe Biden,DEM,56.371,Donald Trump,REP,34.313,22.058,D-R,538
+2020,presidential,2020-11-03,2020-PRES-OH,PRES,OH,,,Joe Biden,DEM,45.239,Donald Trump,REP,53.271,-8.032,D-R,538
+2020,presidential,2020-11-03,2020-PRES-OK,PRES,OK,,,Joe Biden,DEM,32.286,Donald Trump,REP,65.373,-33.087,D-R,538
+2020,presidential,2020-11-03,2020-PRES-OR,PRES,OR,,,Joe Biden,DEM,56.453,Donald Trump,REP,40.367,16.086,D-R,538
+2020,presidential,2020-11-03,2020-PRES-PA,PRES,PA,,,Joe Biden,DEM,50.008,Donald Trump,REP,48.844,1.165,D-R,538
+2020,presidential,2020-11-03,2020-PRES-RI,PRES,RI,,,Joe Biden,DEM,59.388,Donald Trump,REP,38.613,20.775,D-R,538
+2020,presidential,2020-11-03,2020-PRES-SC,PRES,SC,,,Joe Biden,DEM,43.43,Donald Trump,REP,55.11,-11.68,D-R,538
+2020,presidential,2020-11-03,2020-PRES-SD,PRES,SD,,,Joe Biden,DEM,35.605,Donald Trump,REP,61.769,-26.164,D-R,538
+2020,presidential,2020-11-03,2020-PRES-TN,PRES,TN,,,Joe Biden,DEM,37.451,Donald Trump,REP,60.66,-23.209,D-R,538
+2020,presidential,2020-11-03,2020-PRES-TX,PRES,TX,,,Joe Biden,DEM,46.479,Donald Trump,REP,52.058,-5.579,D-R,538
+2020,presidential,2020-11-03,2020-PRES-US,PRES,US,,,Joe Biden,DEM,51.068,Donald Trump,REP,46.672,4.396,D-R,538
+2020,presidential,2020-11-03,2020-PRES-UT,PRES,UT,,,Joe Biden,DEM,37.646,Donald Trump,REP,58.13,-20.484,D-R,538
+2020,presidential,2020-11-03,2020-PRES-VA,PRES,VA,,,Joe Biden,DEM,54.11,Donald Trump,REP,43.996,10.114,D-R,538
+2020,presidential,2020-11-03,2020-PRES-VT,PRES,VT,,,Joe Biden,DEM,66.086,Donald Trump,REP,30.674,35.413,D-R,538
+2020,presidential,2020-11-03,2020-PRES-WA,PRES,WA,,,Joe Biden,DEM,57.97,Donald Trump,REP,38.767,19.203,D-R,538
+2020,presidential,2020-11-03,2020-PRES-WI,PRES,WI,,,Joe Biden,DEM,49.45,Donald Trump,REP,48.822,0.627,D-R,538
+2020,presidential,2020-11-03,2020-PRES-WV,PRES,WV,,,Joe Biden,DEM,29.695,Donald Trump,REP,68.628,-38.933,D-R,538
+2020,presidential,2020-11-03,2020-PRES-WY,PRES,WY,,,Joe Biden,DEM,26.554,Donald Trump,REP,69.936,-43.383,D-R,538
+2020,presidential,2020-11-03,2020-SEN-AK,SEN,AK,,,Al Gross,DEM,41.194,Dan Sullivan,REP,53.897,-12.703,D-R,538
+2020,presidential,2020-11-03,2020-SEN-AL,SEN,AL,,,Gordon Douglas Jones,DEM,39.737,Tommy Tuberville,REP,60.095,-20.359,D-R,538
+2020,presidential,2020-11-03,2020-SEN-AR,SEN,AR,,,Ricky Dale Harrington Jr.,LIB,33.47,Tom Cotton,REP,66.53,-33.059,X-R,538
+2020,presidential,2020-11-03,2020-SEN-AZ-S,SEN,AZ,,S,Mark Kelly,DEM,51.157,Martha McSally,REP,48.808,2.349,D-R,538
+2020,presidential,2020-11-03,2020-SEN-CO,SEN,CO,,,John Wright Hickenlooper,DEM,53.499,Cory Gardner,REP,44.178,9.321,D-R,538
+2020,presidential,2020-11-03,2020-SEN-DE,SEN,DE,,,Christopher A. Coons,DEM,59.438,Lauren E. Witzke,REP,37.898,21.541,D-R,538
+2020,presidential,2020-11-03,2020-SEN-GA,SEN,GA,,,Jon Ossoff,DEM,47.949,David A. Perdue,REP,49.728,-1.779,D-R,538
+2020,presidential,2021-01-05,2020-SEN-GA-R,SEN,GA,,R,Jon Ossoff,DEM,50.613,David A. Perdue,REP,49.387,1.225,D-R,538
+2020,presidential,2021-01-05,2020-SEN-GA-SR,SEN,GA,,SR,Raphael Warnock,DEM,51.04,Kelly Loeffler,REP,48.96,2.08,D-R,538
+2020,presidential,2020-11-03,2020-SEN-IA,SEN,IA,,,Theresa Greenfield,DEM,45.152,Joni K. Ernst,REP,51.74,-6.588,D-R,538
+2020,presidential,2020-11-03,2020-SEN-IL,SEN,IL,,,Richard J. Durbin,DEM,54.934,Mark C. Curran,REP,38.866,16.068,D-R,538
+2020,presidential,2020-11-03,2020-SEN-KS,SEN,KS,,,Barbara Goolsbee Bollier,DEM,41.786,Roger Marshall,REP,53.223,-11.437,D-R,538
+2020,presidential,2020-11-03,2020-SEN-KY,SEN,KY,,,Amy McGrath,DEM,38.231,Mitch McConnell,REP,57.765,-19.534,D-R,538
+2020,presidential,2020-11-03,2020-SEN-MA,SEN,MA,,,Edward J. Markey,DEM,66.154,Kevin J. O'Connor,REP,33.045,33.109,D-R,538
+2020,presidential,2020-11-03,2020-SEN-ME,SEN,ME,,,Sara I. Gideon,DEM,42.386,Susan M. Collins,REP,50.983,-8.597,D-R,538
+2020,presidential,2020-11-03,2020-SEN-MI,SEN,MI,,,Gary C. Peters,DEM,49.903,John James,REP,48.218,1.685,D-R,538
+2020,presidential,2020-11-03,2020-SEN-MN,SEN,MN,,,Tina Smith,DEM,48.737,Jason Lewis,REP,43.498,5.238,D-R,538
+2020,presidential,2020-11-03,2020-SEN-MS,SEN,MS,,,Mike Espy,DEM,44.129,Cindy Hyde-Smith,REP,54.105,-9.976,D-R,538
+2020,presidential,2020-11-03,2020-SEN-MT,SEN,MT,,,Steve Bullock,DEM,44.988,Steve Daines,REP,55.012,-10.024,D-R,538
+2020,presidential,2020-11-03,2020-SEN-NC,SEN,NC,,,Cal Cunningham,DEM,46.94,Thomas Roland Tillis,REP,48.687,-1.747,D-R,538
+2020,presidential,2020-11-03,2020-SEN-NE,SEN,NE,,,Chris E. Janicek,DEM,24.429,Ben Sasse,REP,62.742,-38.313,D-R,538
+2020,presidential,2020-11-03,2020-SEN-NH,SEN,NH,,,Jeanne Shaheen,DEM,56.637,Bryant Messner,REP,40.988,15.649,D-R,538
+2020,presidential,2020-11-03,2020-SEN-NJ,SEN,NJ,,,Cory A. Booker,DEM,57.228,Rikin Mehta,REP,40.921,16.308,D-R,538
+2020,presidential,2020-11-03,2020-SEN-NM,SEN,NM,,,Ben Ray Luján,DEM,51.73,Mark V. Ronchetti,REP,45.624,6.105,D-R,538
+2020,presidential,2020-11-03,2020-SEN-OK,SEN,OK,,,Abby Broyles,DEM,32.754,James M. Inhofe,REP,62.912,-30.159,D-R,538
+2020,presidential,2020-11-03,2020-SEN-OR,SEN,OR,,,Jeff Merkley,DEM,56.911,Jo Rae Perkins,REP,39.324,17.587,D-R,538
+2020,presidential,2020-11-03,2020-SEN-SC,SEN,SC,,,Jaime Harrison,DEM,44.166,Lindsey Graham,REP,54.437,-10.27,D-R,538
+2020,presidential,2020-11-03,2020-SEN-SD,SEN,SD,,,Daniel P. Ahlers,DEM,34.265,M. Michael Rounds,REP,65.735,-31.47,D-R,538
+2020,presidential,2020-11-03,2020-SEN-TN,SEN,TN,,,Marquita Bradshaw,DEM,35.161,Bill Hagerty,REP,62.198,-27.037,D-R,538
+2020,presidential,2020-11-03,2020-SEN-TX,SEN,TX,,,Mary Jennings Hegar,DEM,43.869,John Cornyn,REP,53.508,-9.639,D-R,538
+2020,presidential,2020-11-03,2020-SEN-VA,SEN,VA,,,Mark R. Warner,DEM,55.992,Daniel M. Gade,REP,43.908,12.084,D-R,538
+2020,presidential,2020-11-03,2020-SEN-WV,SEN,WV,,,Paula Jean Swearengin,DEM,27.0,Shelley Moore Capito,REP,70.284,-43.284,D-R,538
+2020,presidential,2020-11-03,2020-SEN-WY,SEN,WY,,,Merav Ben-David,DEM,26.758,Cynthia M. Lummis,REP,72.848,-46.089,D-R,538

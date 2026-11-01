@@ -7,13 +7,13 @@ Compiles public polls into **Senate and House control odds**, and grades every p
 
 ## Status
 
-**Phase 0 — skeleton.** Folder layout, placeholder page, smoke tests, and a GitHub Action that tests, builds and deploys to Pages on every push.
+**Phase 1 — historical data.** 18,250 polls and 2,180 race results (1998–2022) from the archived 538 dataset, normalized, with a 593-entry pollster alias table. Coverage: [reports/history_coverage.md](reports/history_coverage.md).
 
 | Phase | What | State |
 |---|---|---|
 | 0 | Repo, Pages, Action | ✅ |
-| 1 | 538 history + results, pollster aliases | next |
-| 2 | Pollster scoring | |
+| 1 | 538 history + results, pollster aliases | ✅ awaiting sign-off |
+| 2 | Pollster scoring | next |
 | 3 | Wikipedia scraper | |
 | 4 | Senate model + backtest | |
 | 5 | House model | |

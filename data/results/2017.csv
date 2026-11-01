@@ -1,0 +1,9 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2017,off-year,2017-11-07,2017-GOV-NJ,GOV,NJ,,,Philip Murphy,DEM,56.026,Kimberly Ann Guadagno,REP,41.891,14.135,D-R,538
+2017,off-year,2017-11-07,2017-GOV-VA,GOV,VA,,,Ralph S. Northam,DEM,53.894,Ed W. Gillespie,REP,44.977,8.917,D-R,538
+2017,off-year,2017-06-20,2017-HOUSE-GA-6-SR,HOUSE,GA,6,SR,Jon Ossoff,DEM,48.217,Karen Handel,REP,51.783,-3.566,D-R,538
+2017,off-year,2017-04-11,2017-HOUSE-KS-4-S,HOUSE,KS,4,S,James A. Thompson,DEM,46.034,Ron Estes,REP,52.241,-6.207,D-R,538
+2017,off-year,2017-05-25,2017-HOUSE-MT-1-S,HOUSE,MT,1,S,Rob Quist,DEM,44.365,Greg Gianforte,REP,49.951,-5.586,D-R,538
+2017,off-year,2017-06-20,2017-HOUSE-SC-5-S,HOUSE,SC,5,S,Archie Parnell,DEM,47.943,Ralph Norman,REP,51.039,-3.097,D-R,538
+2017,off-year,2017-11-07,2017-HOUSE-UT-3-S,HOUSE,UT,3,S,Kathie Allen,DEM,25.576,John Curtis,REP,58.02,-32.443,D-R,538
+2017,off-year,2017-12-12,2017-SEN-AL-S,SEN,AL,,S,Gordon Douglas Jones,DEM,49.966,Roy S. Moore,REP,48.34,1.626,D-R,538

@@ -1,0 +1,6 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2019,off-year,2019-11-05,2019-GOV-KY,GOV,KY,,,Andy Beshear,DEM,49.191,Matthew G. Bevin,REP,48.835,0.356,D-R,538
+2019,off-year,2019-11-16,2019-GOV-LA-R,GOV,LA,,R,John Bel Edwards,DEM,51.333,Eddie Rispone,REP,48.667,2.665,D-R,538
+2019,off-year,2019-11-05,2019-GOV-MS,GOV,MS,,,Jim Hood,DEM,46.826,Tate Reeves,REP,51.914,-5.088,D-R,538
+2019,off-year,2019-09-10,2019-HOUSE-NC-3-S,HOUSE,NC,3,S,Allen Morris Thomas,DEM,37.474,Greg Murphy,REP,61.736,-24.261,D-R,538
+2019,off-year,2019-09-10,2019-HOUSE-NC-9-S,HOUSE,NC,9,S,Daniel Kent McCready,DEM,48.705,Dan Bishop,REP,50.693,-1.988,D-R,538

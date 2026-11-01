@@ -1,0 +1,2378 @@
+# Pollster identity table (SPEC.md 3.3).
+# Every raw pollster name seen in any source must resolve to one id here,
+# or the pipeline fails and lists the unmapped names.
+# To add a spelling, append it to that pollster's `aliases`.
+# Seeded from the 538 snapshot by tools/build_aliases_from_538.py.
+pollsters:
+  1892-polling:
+    name: 1892 Polling
+    fivethirtyeight_id: 461
+    aliases: []
+  1st-tuesday-campaigns:
+    name: 1st Tuesday Campaigns
+    fivethirtyeight_id: 465
+    aliases: []
+  20-20-insight:
+    name: 20/20 Insight
+    fivethirtyeight_id: 1
+    aliases: []
+  a-and-a-research:
+    name: A&A Research
+    fivethirtyeight_id: 2
+    aliases: []
+  abacus-associates:
+    name: Abacus Associates
+    fivethirtyeight_id: 6
+    aliases: []
+  abc-news-the-washington-post:
+    name: ABC News/The Washington Post
+    fivethirtyeight_id: 3
+    aliases: []
+  abt-associates:
+    name: Abt Associates
+    fivethirtyeight_id: 7
+    aliases: []
+  activote:
+    name: ActiVote
+    fivethirtyeight_id: 721
+    aliases: []
+  adrian-gray-consulting:
+    name: Adrian Gray Consulting
+    fivethirtyeight_id: 662
+    aliases: []
+  african-american-research-collaborative:
+    name: African American Research Collaborative
+    fivethirtyeight_id: 733
+    aliases: []
+  alabama-state-university:
+    name: Alabama State University
+    fivethirtyeight_id: 8
+    aliases: []
+  alaska-survey-research:
+    name: Alaska Survey Research
+    fivethirtyeight_id: 155
+    aliases: []
+  alloy-analytics:
+    name: Alloy Analytics
+    fivethirtyeight_id: 734
+    aliases: []
+  alvarado-strategies:
+    name: Alvarado Strategies
+    fivethirtyeight_id: 710
+    aliases: []
+  amber-integrated:
+    name: Amber Integrated
+    fivethirtyeight_id: 556
+    aliases: []
+  american-pulse-research-and-polling:
+    name: American Pulse Research & Polling
+    fivethirtyeight_id: 497
+    aliases: []
+  american-research-group:
+    name: American Research Group
+    fivethirtyeight_id: 9
+    aliases: []
+  american-viewpoint:
+    name: American Viewpoint
+    fivethirtyeight_id: 10
+    aliases: []
+  analytical-group:
+    name: Analytical Group
+    fivethirtyeight_id: 11
+    aliases: []
+  angus-reid-global:
+    name: Angus Reid Global
+    fivethirtyeight_id: 13
+    aliases: []
+  ap-norc:
+    name: AP-NORC
+    fivethirtyeight_id: 397
+    aliases: []
+  apc-research:
+    name: APC Research
+    fivethirtyeight_id: 4
+    aliases: []
+  arizona-state-university-morrison-institute-for-public-policy:
+    name: Arizona State University Morrison Institute for Public Policy
+    fivethirtyeight_id: 15
+    aliases: []
+  arthur-j-finkelstein-and-associates:
+    name: Arthur J. Finkelstein & Associates
+    fivethirtyeight_id: 16
+    aliases: []
+  arw-strategies:
+    name: ARW Strategies
+    fivethirtyeight_id: 678
+    aliases: []
+  asa-marketing-group:
+    name: ASA Marketing Group
+    fivethirtyeight_id: 5
+    aliases: []
+  ascend-action:
+    name: Ascend Action
+    fivethirtyeight_id: 726
+    aliases: []
+  aspen-media-and-market-research:
+    name: Aspen Media & Market Research
+    fivethirtyeight_id: 17
+    aliases: []
+  atlasintel:
+    name: AtlasIntel
+    fivethirtyeight_id: 546
+    aliases: []
+  auburn-university-at-montgomery-department-of-political-science-and-public-administration:
+    name: Auburn University at Montgomery Department of Political Science and Public Administration
+    fivethirtyeight_id: 588
+    aliases: []
+  axis-research:
+    name: Axis Research
+    fivethirtyeight_id: 467
+    aliases: []
+  aytm:
+    name: AYTM
+    fivethirtyeight_id: 635
+    aliases: []
+  bainbridge-media-group:
+    name: Bainbridge Media Group
+    fivethirtyeight_id: 656
+    aliases: []
+  baldwin-wallace-university-community-research-institute:
+    name: Baldwin Wallace University Community Research Institute
+    fivethirtyeight_id: 401
+    aliases: []
+  ball-state-university-bowen-center-for-public-affairs:
+    name: Ball State University Bowen Center for Public Affairs
+    fivethirtyeight_id: 402
+    aliases: []
+  bannon-communications-research:
+    name: Bannon Communications Research
+    fivethirtyeight_id: 21
+    aliases: []
+  baruch-college-survey-research:
+    name: Baruch College Survey Research
+    fivethirtyeight_id: 22
+    aliases: []
+  baselice-and-associates:
+    name: Baselice & Associates
+    fivethirtyeight_id: 23
+    aliases: []
+  basswood-research:
+    name: Basswood Research
+    fivethirtyeight_id: 24
+    aliases: []
+  battleground-polling:
+    name: Battleground Polling
+    fivethirtyeight_id: 682
+    aliases: []
+  baydoun-consulting:
+    name: Baydoun Consulting
+    fivethirtyeight_id: 25
+    aliases: []
+  beacon-research:
+    name: Beacon Research
+    fivethirtyeight_id: 545
+    aliases: []
+  beacon-research-shaw-and-co-research:
+    name: Beacon Research/Shaw & Co. Research
+    fivethirtyeight_id: 103
+    aliases: []
+  becker-institute:
+    name: Becker Institute
+    fivethirtyeight_id: 26
+    aliases: []
+  behavior-research-center-rocky-mountain-poll:
+    name: Behavior Research Center (Rocky Mountain Poll)
+    fivethirtyeight_id: 27
+    aliases: []
+  belden-russonello:
+    name: Belden Russonello
+    fivethirtyeight_id: 28
+    aliases: []
+  bellwether-research-and-consulting:
+    name: Bellwether Research & Consulting
+    fivethirtyeight_id: 403
+    aliases: []
+  benchmark-research:
+    name: Benchmark Research
+    fivethirtyeight_id: 535
+    aliases: []
+  bendixen-and-amandi-international:
+    name: Bendixen & Amandi International
+    fivethirtyeight_id: 29
+    aliases: []
+  bendixen-and-amandi-international-tarrance-group:
+    name: Bendixen & Amandi International/Tarrance Group
+    fivethirtyeight_id: 801
+    aliases: []
+  benenson-strategy-group:
+    name: Benenson Strategy Group
+    fivethirtyeight_id: 30
+    aliases: []
+  benenson-strategy-group-gs-strategy-group:
+    name: Benenson Strategy Group/GS Strategy Group
+    fivethirtyeight_id: 606
+    aliases: []
+  big-ten:
+    name: Big Ten
+    fivethirtyeight_id: 31
+    aliases: []
+  big-village:
+    name: Big Village
+    fivethirtyeight_id: 37
+    aliases: []
+  bigresearch:
+    name: BIGresearch
+    fivethirtyeight_id: 19
+    aliases: []
+  bk-strategies:
+    name: BK Strategies
+    fivethirtyeight_id: 20
+    aliases: []
+  bluegrass-community-and-technical-college:
+    name: Bluegrass Community and Technical College
+    fivethirtyeight_id: 632
+    aliases: []
+  blueprint-polling:
+    name: Blueprint Polling
+    fivethirtyeight_id: 470
+    aliases: []
+  blum-and-weprin-associates:
+    name: Blum & Weprin Associates
+    fivethirtyeight_id: 32
+    aliases: []
+  bold-blue-campaigns:
+    name: Bold Blue Campaigns
+    fivethirtyeight_id: 469
+    aliases: []
+  bold-decision:
+    name: Bold Decision
+    fivethirtyeight_id: 686
+    aliases: []
+  brandwatch-qriously:
+    name: Brandwatch Qriously
+    fivethirtyeight_id: 610
+    aliases: []
+  braun-research:
+    name: Braun Research
+    fivethirtyeight_id: 33
+    aliases: []
+  breakthrough-campaigns:
+    name: Breakthrough Campaigns
+    fivethirtyeight_id: 623
+    aliases: []
+  brigham-young-university-center-for-the-study-of-elections-and-democracy:
+    name: Brigham Young University Center for the Study of Elections and Democracy
+    fivethirtyeight_id: 727
+    aliases: []
+  brilliant-corners-research-and-strategies:
+    name: brilliant corners Research & Strategies
+    fivethirtyeight_id: 564
+    aliases: []
+  brown-university-a-alfred-taubman-center-for-american-politics-and-policy:
+    name: Brown University A. Alfred Taubman Center for American Politics and Policy
+    fivethirtyeight_id: 35
+    aliases: []
+  bruno-political-consulting:
+    name: Bruno Political Consulting
+    fivethirtyeight_id: 724
+    aliases: []
+  bsp-research-shaw-and-company-research:
+    name: BSP Research/Shaw & Company Research
+    fivethirtyeight_id: 728
+    aliases: []
+  bwd-global:
+    name: BWD Global
+    fivethirtyeight_id: 527
+    aliases: []
+  california-state-university-bakersfield:
+    name: California State University, Bakersfield
+    fivethirtyeight_id: 41
+    aliases: []
+  california-state-university-sacramento:
+    name: California State University, Sacramento
+    fivethirtyeight_id: 807
+    aliases: []
+  callfire:
+    name: CallFire
+    fivethirtyeight_id: 42
+    aliases: []
+  canisius-college:
+    name: Canisius College
+    fivethirtyeight_id: 43
+    aliases: []
+  capital-survey-research-center:
+    name: Capital Survey Research Center
+    fivethirtyeight_id: 44
+    aliases: []
+  cardinal-point-analytics-cardinalgps:
+    name: Cardinal Point Analytics (CardinalGPS)
+    fivethirtyeight_id: 591
+    aliases: []
+  carroll-strategies:
+    name: Carroll Strategies
+    fivethirtyeight_id: 450
+    aliases: []
+  causeway-solutions:
+    name: Causeway Solutions
+    fivethirtyeight_id: 680
+    aliases: []
+  cbs-news:
+    name: CBS News
+    fivethirtyeight_id: 810
+    aliases: []
+  cbs-news-the-new-york-times:
+    name: CBS News/The New York Times
+    fivethirtyeight_id: 36
+    aliases: []
+  ccadvertising:
+    name: ccAdvertising
+    fivethirtyeight_id: 396
+    aliases: []
+  center-street-pac:
+    name: Center Street PAC
+    fivethirtyeight_id: 715
+    aliases: []
+  central-surveys-inc:
+    name: Central Surveys Inc.
+    fivethirtyeight_id: 46
+    aliases: []
+  centre-college:
+    name: Centre College
+    fivethirtyeight_id: 47
+    aliases: []
+  change-research:
+    name: Change Research
+    fivethirtyeight_id: 48
+    aliases: []
+  cherry-communications:
+    name: Cherry Communications
+    fivethirtyeight_id: 49
+    aliases: []
+  christopher-newport-university-wason-center-for-civic-leadership:
+    name: Christopher Newport University Wason Center for Civic Leadership
+    fivethirtyeight_id: 50
+    aliases: []
+  ciruli-associates:
+    name: Ciruli Associates
+    fivethirtyeight_id: 51
+    aliases: []
+  citizen-data:
+    name: Citizen Data
+    fivethirtyeight_id: 616
+    aliases: []
+  civiqs:
+    name: Civiqs
+    fivethirtyeight_id: 471
+    aliases: []
+  cj-and-n:
+    name: CJ&N
+    fivethirtyeight_id: 63
+    aliases: []
+  clarity-campaign-labs:
+    name: Clarity Campaign Labs
+    fivethirtyeight_id: 52
+    aliases: []
+  clarus-research-group:
+    name: Clarus Research Group
+    fivethirtyeight_id: 53
+    aliases: []
+  clearview-research:
+    name: Clearview Research
+    fivethirtyeight_id: 405
+    aliases: []
+  clemson-university:
+    name: Clemson University
+    fivethirtyeight_id: 54
+    aliases: []
+  climate-nexus:
+    name: Climate Nexus
+    fivethirtyeight_id: 506
+    aliases: []
+  clout-research:
+    name: Clout Research
+    fivethirtyeight_id: 55
+    aliases: []
+  co-efficient:
+    name: co/efficient
+    fivethirtyeight_id: 514
+    aliases: []
+  colby-college:
+    name: Colby College
+    fivethirtyeight_id: 593
+    aliases: []
+  cole-hargrave-snodgrass-and-associates:
+    name: Cole Hargrave Snodgrass & Associates
+    fivethirtyeight_id: 56
+    aliases: []
+  columbus-dispatch:
+    name: Columbus Dispatch
+    fivethirtyeight_id: 57
+    aliases: []
+  cometrends:
+    name: Cometrends
+    fivethirtyeight_id: 631
+    aliases: []
+  communication-express:
+    name: Communication Express
+    fivethirtyeight_id: 681
+    aliases: []
+  concord-public-opinion-partners:
+    name: Concord Public Opinion Partners
+    fivethirtyeight_id: 553
+    aliases: []
+  conquest-communications-group:
+    name: Conquest Communications Group
+    fivethirtyeight_id: 684
+    aliases: []
+  constituent-dynamics-rt-strategies:
+    name: Constituent Dynamics/RT Strategies
+    fivethirtyeight_id: 58
+    aliases: []
+  consumer-logic:
+    name: Consumer Logic
+    fivethirtyeight_id: 59
+    aliases: []
+  cooper-and-secrest:
+    name: Cooper & Secrest
+    fivethirtyeight_id: 60
+    aliases: []
+  cpec:
+    name: CPEC
+    fivethirtyeight_id: 38
+    aliases: []
+  craciun-research-group:
+    name: Craciun Research Group
+    fivethirtyeight_id: 61
+    aliases: []
+  crantford-research:
+    name: Crantford Research
+    fivethirtyeight_id: 62
+    aliases: []
+  cromer-group:
+    name: Cromer Group
+    fivethirtyeight_id: 65
+    aliases: []
+  crosstarget:
+    name: CrossTarget
+    fivethirtyeight_id: 66
+    aliases: []
+  cvoter:
+    name: CVOTER
+    fivethirtyeight_id: 40
+    aliases: []
+  cws-research:
+    name: CWS Research
+    fivethirtyeight_id: 697
+    aliases: []
+  cygnal:
+    name: Cygnal
+    fivethirtyeight_id: 67
+    aliases: []
+  dan-jones-and-associates:
+    name: Dan Jones & Associates
+    fivethirtyeight_id: 70
+    aliases: []
+  dane-and-associates:
+    name: Dane & Associates
+    fivethirtyeight_id: 71
+    aliases: []
+  dartmouth-college-nelson-a-rockefeller-center-for-public-policy-and-the-social-sciences:
+    name: Dartmouth College Nelson A. Rockefeller Center for Public Policy and the Social Sciences
+    fivethirtyeight_id: 72
+    aliases: []
+  data-for-progress:
+    name: Data for Progress
+    fivethirtyeight_id: 522
+    aliases: []
+  data-orbital:
+    name: Data Orbital
+    fivethirtyeight_id: 73
+    aliases: []
+  data-targeting:
+    name: Data Targeting
+    fivethirtyeight_id: 406
+    aliases: []
+  data-west-polling:
+    name: Data West Polling
+    fivethirtyeight_id: 74
+    aliases: []
+  datamar-analytics:
+    name: Datamar Analytics
+    fivethirtyeight_id: 75
+    aliases: []
+  david-binder-research:
+    name: David Binder Research
+    fivethirtyeight_id: 578
+    aliases: []
+  dccc-targeting-and-analytics-department:
+    name: DCCC Targeting and Analytics Department
+    fivethirtyeight_id: 68
+    aliases: []
+  decision-analyst:
+    name: Decision Analyst
+    fivethirtyeight_id: 765
+    aliases: []
+  decision-forecasting:
+    name: Decision Forecasting
+    fivethirtyeight_id: 77
+    aliases: []
+  denno-research:
+    name: Denno Research
+    fivethirtyeight_id: 582
+    aliases: []
+  desales-university-kamran-afshar-data-analytics-center:
+    name: DeSales University Kamran Afshar Data Analytics Center
+    fivethirtyeight_id: 474
+    aliases: []
+  detroit-free-press:
+    name: Detroit Free Press
+    fivethirtyeight_id: 663
+    aliases: []
+  dfm-research:
+    name: DFM Research
+    fivethirtyeight_id: 69
+    aliases: []
+  dhm-research:
+    name: DHM Research
+    fivethirtyeight_id: 76
+    aliases: []
+  diamond-state-consulting-group:
+    name: Diamond State Consulting Group
+    fivethirtyeight_id: 78
+    aliases: []
+  digital-research:
+    name: Digital Research
+    fivethirtyeight_id: 64
+    aliases: []
+  dittman-research:
+    name: Dittman Research
+    fivethirtyeight_id: 79
+    aliases: []
+  diversified-research-inc:
+    name: Diversified Research Inc
+    fivethirtyeight_id: 80
+    aliases: []
+  dixie-strategies:
+    name: Dixie Strategies
+    fivethirtyeight_id: 81
+    aliases: []
+  dkc-analytics:
+    name: DKC Analytics
+    fivethirtyeight_id: 592
+    aliases: []
+  douglas-fulmer-and-associates:
+    name: Douglas Fulmer & Associates
+    fivethirtyeight_id: 82
+    aliases: []
+  drake-research-and-strategy-inc:
+    name: Drake Research & Strategy, Inc.
+    fivethirtyeight_id: 329
+    aliases: []
+  dynamics-marketing:
+    name: Dynamics Marketing
+    fivethirtyeight_id: 83
+    aliases: []
+  dynata:
+    name: Dynata
+    fivethirtyeight_id: 283
+    aliases: []
+  east-carolina-university-center-for-survey-research:
+    name: East Carolina University Center for Survey Research
+    fivethirtyeight_id: 523
+    aliases: []
+  east-tennessee-state-university-applied-social-research-laboratory:
+    name: East Tennessee State University Applied Social Research Laboratory
+    fivethirtyeight_id: 456
+    aliases: []
+  echelon-insights:
+    name: Echelon Insights
+    fivethirtyeight_id: 407
+    aliases: []
+  ed-renwick-loyola-university-new-orleans:
+    name: Ed Renwick/Loyola University New Orleans
+    fivethirtyeight_id: 85
+    aliases: []
+  edgewater-research-my-people-vote:
+    name: Edgewater Research/My People Vote
+    fivethirtyeight_id: 530
+    aliases: []
+  edison-research:
+    name: Edison Research
+    fivethirtyeight_id: 739
+    aliases: []
+  el-nuevo-dia-the-research-office:
+    name: El Nuevo Día/The Research Office
+    fivethirtyeight_id: 599
+    aliases: []
+  elon-university:
+    name: Elon University
+    fivethirtyeight_id: 86
+    aliases: []
+  elucd:
+    name: Elucd
+    fivethirtyeight_id: 549
+    aliases: []
+  elway-research:
+    name: Elway Research
+    fivethirtyeight_id: 87
+    aliases: []
+  emc-research:
+    name: EMC Research
+    fivethirtyeight_id: 130
+    aliases: []
+  emerson-college:
+    name: Emerson College
+    fivethirtyeight_id: 88
+    aliases: []
+  epic-mra:
+    name: EPIC-MRA
+    fivethirtyeight_id: 84
+    aliases: []
+  escalent:
+    name: Escalent
+    fivethirtyeight_id: 189
+    aliases: []
+  ethridge-and-associates-llc:
+    name: Ethridge & Associates LLC
+    fivethirtyeight_id: 89
+    aliases: []
+  expedition-strategies:
+    name: Expedition Strategies
+    fivethirtyeight_id: 409
+    aliases: []
+  fabrizio-lee-and-associates:
+    name: Fabrizio, Lee & Associates
+    fivethirtyeight_id: 90
+    aliases: []
+  fabrizio-lee-and-associates-impact-research:
+    name: Fabrizio Lee & Associates/Impact Research
+    fivethirtyeight_id: 694
+    aliases: []
+  fabrizio-lee-and-associates-mclaughlin-and-associates:
+    name: Fabrizio, Lee & Associates/McLaughlin & Associates
+    fivethirtyeight_id: 814
+    aliases: []
+  fabrizio-ward-hart-research-associates-aarp-research:
+    name: Fabrizio Ward/Hart Research Associates/AARP Research
+    fivethirtyeight_id: 613
+    aliases: []
+  fairleigh-dickinson-university:
+    name: Fairleigh Dickinson University
+    fivethirtyeight_id: 92
+    aliases: []
+  fallon-research-and-communications:
+    name: Fallon Research & Communications
+    fivethirtyeight_id: 476
+    aliases: []
+  faucheux-strategies:
+    name: Faucheux Strategies
+    fivethirtyeight_id: 784
+    aliases: []
+  feldman-group:
+    name: Feldman Group
+    fivethirtyeight_id: 93
+    aliases: []
+  field-research-corp-field-poll:
+    name: Field Research Corp. (Field Poll)
+    fivethirtyeight_id: 94
+    aliases: []
+  financial-dynamics:
+    name: Financial Dynamics
+    fivethirtyeight_id: 95
+    aliases: []
+  fleming-and-associates:
+    name: Fleming & Associates
+    fivethirtyeight_id: 96
+    aliases: []
+  florida-atlantic-university-business-and-economics-polling-initiative:
+    name: Florida Atlantic University Business and Economics Polling Initiative
+    fivethirtyeight_id: 97
+    aliases: []
+  florida-international-university-univision:
+    name: Florida International University/Univision
+    fivethirtyeight_id: 98
+    aliases: []
+  florida-southern-college-center-for-polling-and-policy-research:
+    name: Florida Southern College Center for Polling and Policy Research
+    fivethirtyeight_id: 411
+    aliases: []
+  fm3-research:
+    name: FM3 Research
+    fivethirtyeight_id: 91
+    aliases: []
+  forensic-economic-data-consulting-inc:
+    name: Forensic Economic Data Consulting, Inc.
+    fivethirtyeight_id: 659
+    aliases: []
+  forman-center:
+    name: Forman Center
+    fivethirtyeight_id: 100
+    aliases: []
+  fort-hays-state-university-docking-institute-of-public-affairs:
+    name: Fort Hays State University Docking Institute of Public Affairs
+    fivethirtyeight_id: 101
+    aliases: []
+  forward-strategies:
+    name: Forward Strategies
+    fivethirtyeight_id: 102
+    aliases: []
+  frank-n-magid-associates-inc:
+    name: Frank N. Magid Associates Inc.
+    fivethirtyeight_id: 105
+    aliases: []
+  franklin-and-marshall-college-center-for-opinion-research:
+    name: Franklin & Marshall College Center for Opinion Research
+    fivethirtyeight_id: 106
+    aliases: []
+  franklin-pierce-university-marlin-fitzwater-center-for-communication:
+    name: Franklin Pierce University Marlin Fitzwater Center for Communication
+    fivethirtyeight_id: 107
+    aliases: []
+  frederick-polls:
+    name: Frederick Polls
+    fivethirtyeight_id: 108
+    aliases: []
+  fti-consulting:
+    name: FTI Consulting
+    fivethirtyeight_id: 812
+    aliases: []
+  gaither-international:
+    name: Gaither International
+    fivethirtyeight_id: 626
+    aliases: []
+  gallup:
+    name: Gallup
+    fivethirtyeight_id: 112
+    aliases: []
+  gannett-new-jersey:
+    name: Gannett New Jersey
+    fivethirtyeight_id: 760
+    aliases: []
+  gapundit-com:
+    name: GaPundit.com
+    fivethirtyeight_id: 111
+    aliases: []
+  garin-hart-yang-global-strategy-group:
+    name: Garin-Hart-Yang/Global Strategy Group
+    fivethirtyeight_id: 412
+    aliases: []
+  garin-hart-yang-research-group:
+    name: Garin-Hart-Yang Research Group
+    fivethirtyeight_id: 113
+    aliases: []
+  gazette-communications:
+    name: Gazette Communications
+    fivethirtyeight_id: 640
+    aliases: []
+  gbao:
+    name: GBAO
+    fivethirtyeight_id: 109
+    aliases: []
+  gcr-and-associates:
+    name: GCR & Associates
+    fivethirtyeight_id: 110
+    aliases: []
+  gfk-group:
+    name: GfK Group
+    fivethirtyeight_id: 115
+    aliases: []
+  glascock-group:
+    name: Glascock Group
+    fivethirtyeight_id: 116
+    aliases: []
+  glengariff-group:
+    name: Glengariff Group
+    fivethirtyeight_id: 117
+    aliases: []
+  global-marketing-research-services:
+    name: Global Marketing Research Services
+    fivethirtyeight_id: 621
+    aliases: []
+  global-strategy-group:
+    name: Global Strategy Group
+    fivethirtyeight_id: 118
+    aliases: []
+  global-strategy-group-gbao-navigator-research:
+    name: Global Strategy Group/GBAO (Navigator Research)
+    fivethirtyeight_id: 413
+    aliases: []
+  global-strategy-group-lester-and-associates:
+    name: Global Strategy Group/Lester & Associates
+    fivethirtyeight_id: 806
+    aliases: []
+  global-strategy-group-national-research-philadelphia-inquirer:
+    name: Global Strategy Group/National Research (Philadelphia Inquirer)
+    fivethirtyeight_id: 119
+    aliases: []
+  glover-park-group:
+    name: Glover Park Group
+    fivethirtyeight_id: 120
+    aliases: []
+  go-right-strategies:
+    name: Go Right Strategies
+    fivethirtyeight_id: 477
+    aliases: []
+  gonzales-research-and-marketing-strategies-inc:
+    name: Gonzales Research & Marketing Strategies Inc.
+    fivethirtyeight_id: 121
+    aliases: []
+  gop-calls:
+    name: GOP Calls
+    fivethirtyeight_id: 654
+    aliases: []
+  gordon-s-black-corp:
+    name: Gordon S. Black Corp.
+    fivethirtyeight_id: 123
+    aliases: []
+  goucher-college-sarah-t-hughes-center-for-politics:
+    name: Goucher College Sarah T. Hughes Center for Politics
+    fivethirtyeight_id: 414
+    aliases: []
+  gqr:
+    name: GQR
+    fivethirtyeight_id: 126
+    aliases: []
+  gqr-research-public-opinion-strategies:
+    name: GQR Research/Public Opinion Strategies
+    fivethirtyeight_id: 222
+    aliases: []
+  gravis-marketing:
+    name: Gravis Marketing
+    fivethirtyeight_id: 124
+    aliases: []
+  great-lakes-strategies-group:
+    name: Great Lakes Strategies Group
+    fivethirtyeight_id: 125
+    aliases: []
+  greatblue-research:
+    name: GreatBlue Research
+    fivethirtyeight_id: 748
+    aliases: []
+  greenberg-quinlan-rosner-american-viewpoint:
+    name: Greenberg Quinlan Rosner/American Viewpoint
+    fivethirtyeight_id: 127
+    aliases: []
+  greg-smith-and-associates:
+    name: Greg Smith & Associates
+    fivethirtyeight_id: 128
+    aliases: []
+  grove-insight:
+    name: Grove Insight
+    fivethirtyeight_id: 129
+    aliases: []
+  gs-strategy-group:
+    name: GS Strategy Group
+    fivethirtyeight_id: 478
+    aliases: []
+  hampton-university-center-for-public-policy:
+    name: Hampton University Center for Public Policy
+    fivethirtyeight_id: 131
+    aliases: []
+  harper-polling:
+    name: Harper Polling
+    fivethirtyeight_id: 132
+    aliases: []
+  harper-polling-clarity-campaign-labs:
+    name: Harper Polling/Clarity Campaign Labs
+    fivethirtyeight_id: 513
+    aliases: []
+  harris-insights-and-analytics:
+    name: Harris Insights & Analytics
+    fivethirtyeight_id: 133
+    aliases: []
+  harstad-strategic-research:
+    name: Harstad Strategic Research
+    fivethirtyeight_id: 134
+    aliases: []
+  hart-research-associates-public-opinion-strategies:
+    name: Hart Research Associates/Public Opinion Strategies
+    fivethirtyeight_id: 221
+    aliases: []
+  harvard-university:
+    name: Harvard University
+    fivethirtyeight_id: 135
+    aliases: []
+  hays-research-group:
+    name: Hays Research Group
+    fivethirtyeight_id: 136
+    aliases: []
+  hellenthal-and-associates:
+    name: Hellenthal & Associates
+    fivethirtyeight_id: 137
+    aliases: []
+  hendrix-college:
+    name: Hendrix College
+    fivethirtyeight_id: 138
+    aliases: []
+  hickman-analytics:
+    name: Hickman Analytics
+    fivethirtyeight_id: 415
+    aliases: []
+  high-point-university-survey-research-center:
+    name: High Point University Survey Research Center
+    fivethirtyeight_id: 139
+    aliases: []
+  highground-inc:
+    name: HighGround Inc.
+    fivethirtyeight_id: 416
+    aliases: []
+  hill-research-consultants:
+    name: Hill Research Consultants
+    fivethirtyeight_id: 140
+    aliases: []
+  hoffman-research-group:
+    name: Hoffman Research Group
+    fivethirtyeight_id: 141
+    aliases: []
+  howey-politics-depauw-university:
+    name: Howey Politics/DePauw University
+    fivethirtyeight_id: 142
+    aliases: []
+  icitizen:
+    name: icitizen
+    fivethirtyeight_id: 438
+    aliases: []
+  illinois-public-opinion:
+    name: Illinois Public Opinion
+    fivethirtyeight_id: 479
+    aliases: []
+  illinois-wesleyan-university-department-of-political-science:
+    name: Illinois Wesleyan University Department of Political Science
+    fivethirtyeight_id: 147
+    aliases: []
+  imge-insights:
+    name: IMGE Insights
+    fivethirtyeight_id: 145
+    aliases: []
+  impact-research:
+    name: Impact Research
+    fivethirtyeight_id: 14
+    aliases: []
+  in-lux-research:
+    name: In Lux Research
+    fivethirtyeight_id: 480
+    aliases: []
+  independent-market-research:
+    name: Independent Market Research
+    fivethirtyeight_id: 148
+    aliases: []
+  indiana-state-university-department-of-multidisciplinary-studies:
+    name: Indiana State University Department of Multidisciplinary Studies
+    fivethirtyeight_id: 658
+    aliases: []
+  indiana-university-public-opinion-laboratory:
+    name: Indiana University Public Opinion Laboratory
+    fivethirtyeight_id: 149
+    aliases: []
+  indiana-university-purdue-university-fort-wayne-mike-downs-center-for-indiana-politics:
+    name: Indiana University-Purdue University Fort Wayne Mike Downs Center for Indiana Politics
+    fivethirtyeight_id: 150
+    aliases: []
+  innovative-research-group:
+    name: Innovative Research Group
+    fivethirtyeight_id: 624
+    aliases: []
+  insideradvantage:
+    name: InsiderAdvantage
+    fivethirtyeight_id: 243
+    aliases: []
+  iona-university-political-science-department:
+    name: Iona University Political Science Department
+    fivethirtyeight_id: 152
+    aliases: []
+  iowa-state-university-center-for-survey-statistics-and-methodology:
+    name: Iowa State University Center for Survey Statistics and Methodology
+    fivethirtyeight_id: 153
+    aliases: []
+  ipsos:
+    name: Ipsos
+    fivethirtyeight_id: 154
+    aliases: []
+  island-analytics-and-marketing-llc:
+    name: Island Analytics & Marketing, LLC
+    fivethirtyeight_id: 736
+    aliases: []
+  ivr-polls:
+    name: IVR Polls
+    fivethirtyeight_id: 146
+    aliases: []
+  j-l-partners:
+    name: J.L. Partners
+    fivethirtyeight_id: 619
+    aliases: []
+  jayhawk-consulting-services:
+    name: Jayhawk Consulting Services
+    fivethirtyeight_id: 157
+    aliases: []
+  jeffrey-stonecash:
+    name: Jeffrey Stonecash
+    fivethirtyeight_id: 158
+    aliases: []
+  jim-meader-keloland-tv:
+    name: Jim Meader (KELOLAND-TV)
+    fivethirtyeight_id: 159
+    aliases: []
+  jmc-analytics:
+    name: JMC Analytics
+    fivethirtyeight_id: 156
+    aliases: []
+  jmc-analytics-bold-blue-campaigns:
+    name: JMC Analytics/Bold Blue Campaigns
+    fivethirtyeight_id: 503
+    aliases: []
+  john-zogby-strategies:
+    name: John Zogby Strategies
+    fivethirtyeight_id: 583
+    aliases: []
+  jorge-benitez:
+    name: Jorge Benítez
+    fivethirtyeight_id: 600
+    aliases: []
+  just-win-strategies:
+    name: Just Win Strategies
+    fivethirtyeight_id: 418
+    aliases: []
+  kaconsulting:
+    name: KAConsulting
+    fivethirtyeight_id: 757
+    aliases: []
+  keating-research:
+    name: Keating Research
+    fivethirtyeight_id: 161
+    aliases: []
+  keating-research-magellan-strategies:
+    name: Keating Research/Magellan Strategies
+    fivethirtyeight_id: 481
+    aliases: []
+  keating-research-onsight-public-affairs-melanson:
+    name: Keating Research/OnSight Public Affairs/Melanson
+    fivethirtyeight_id: 455
+    aliases: []
+  kff:
+    name: KFF
+    fivethirtyeight_id: 419
+    aliases: []
+  kiaer-research:
+    name: Kiaer Research
+    fivethirtyeight_id: 585
+    aliases: []
+  kiley-and-company:
+    name: Kiley & Company
+    fivethirtyeight_id: 162
+    aliases: []
+  kimball-political-consulting:
+    name: Kimball Political Consulting
+    fivethirtyeight_id: 163
+    aliases: []
+  knowledge-networks:
+    name: Knowledge Networks
+    fivethirtyeight_id: 164
+    aliases: []
+  krc-research:
+    name: KRC Research
+    fivethirtyeight_id: 160
+    aliases: []
+  lake-research-partners:
+    name: Lake Research Partners
+    fivethirtyeight_id: 165
+    aliases: []
+  lake-research-partners-ivan-moore:
+    name: Lake Research Partners/Ivan Moore
+    fivethirtyeight_id: 687
+    aliases: []
+  lake-research-partners-the-tarrance-group:
+    name: Lake Research Partners/The Tarrance Group
+    fivethirtyeight_id: 114
+    aliases: []
+  landmark-communications:
+    name: Landmark Communications
+    fivethirtyeight_id: 166
+    aliases: []
+  landmark-communications-rosetta-stone-communications:
+    name: Landmark Communications/Rosetta Stone Communications
+    fivethirtyeight_id: 751
+    aliases: []
+  latino-decisions:
+    name: Latino Decisions
+    fivethirtyeight_id: 482
+    aliases: []
+  lauer-johnson-research:
+    name: Lauer Johnson Research
+    fivethirtyeight_id: 167
+    aliases: []
+  lauer-lalley-victoria:
+    name: Lauer, Lalley, Victoria
+    fivethirtyeight_id: 168
+    aliases: []
+  leger:
+    name: Leger
+    fivethirtyeight_id: 572
+    aliases: []
+  lester-and-associates:
+    name: Lester & Associates
+    fivethirtyeight_id: 293
+    aliases: []
+  liberty-opinion-research:
+    name: Liberty Opinion Research
+    fivethirtyeight_id: 169
+    aliases: []
+  lighthouse-research:
+    name: Lighthouse Research
+    fivethirtyeight_id: 483
+    aliases: []
+  lincoln-institute:
+    name: Lincoln Institute
+    fivethirtyeight_id: 170
+    aliases: []
+  lincoln-park-strategies:
+    name: Lincoln Park Strategies
+    fivethirtyeight_id: 484
+    aliases: []
+  loc-wick:
+    name: LOC Wick
+    fivethirtyeight_id: 612
+    aliases: []
+  long-island-university-steven-s-hornstein-center-for-policy-polling-and-analysis:
+    name: Long Island University Steven S. Hornstein Center for Policy, Polling, and Analysis
+    fivethirtyeight_id: 633
+    aliases: []
+  loras-college-public-opinion-survey-center:
+    name: Loras College Public Opinion Survey Center
+    fivethirtyeight_id: 171
+    aliases: []
+  los-angeles-times:
+    name: Los Angeles Times
+    fivethirtyeight_id: 172
+    aliases: []
+  louis-harris-and-associates:
+    name: Louis Harris & Associates
+    fivethirtyeight_id: 173
+    aliases: []
+  louisville-courier-journal:
+    name: Louisville Courier-Journal
+    fivethirtyeight_id: 174
+    aliases: []
+  lucid:
+    name: Lucid
+    fivethirtyeight_id: 175
+    aliases: []
+  lycoming-college-polling-institute:
+    name: Lycoming College Polling Institute
+    fivethirtyeight_id: 176
+    aliases: []
+  magellan-strategies:
+    name: Magellan Strategies
+    fivethirtyeight_id: 179
+    aliases: []
+  maine-people-s-resource-center:
+    name: Maine People's Resource Center
+    fivethirtyeight_id: 180
+    aliases: []
+  manhattanville-college:
+    name: Manhattanville College
+    fivethirtyeight_id: 181
+    aliases: []
+  marbleport:
+    name: MarblePort
+    fivethirtyeight_id: 182
+    aliases: []
+  marist-college:
+    name: Marist College
+    fivethirtyeight_id: 183
+    aliases: []
+  mark-blankenship-enterprises:
+    name: Mark Blankenship Enterprises
+    fivethirtyeight_id: 766
+    aliases: []
+  market-decisions-research:
+    name: Market Decisions Research
+    fivethirtyeight_id: 184
+    aliases: []
+  market-research-insight:
+    name: Market Research Insight
+    fivethirtyeight_id: 185
+    aliases: []
+  market-research-institute-inc:
+    name: Market Research Institute Inc.
+    fivethirtyeight_id: 186
+    aliases: []
+  market-shares-corp:
+    name: Market Shares Corp.
+    fivethirtyeight_id: 187
+    aliases: []
+  market-solutions-group:
+    name: Market Solutions Group
+    fivethirtyeight_id: 188
+    aliases: []
+  market-trends-pacific:
+    name: Market Trends Pacific
+    fivethirtyeight_id: 190
+    aliases: []
+  marketaide-services-inc:
+    name: MarketAide Services Inc.
+    fivethirtyeight_id: 191
+    aliases: []
+  marketing-research-institute:
+    name: Marketing Research Institute
+    fivethirtyeight_id: 192
+    aliases: []
+  marketing-resource-group-mrg:
+    name: Marketing Resource Group (MRG)
+    fivethirtyeight_id: 193
+    aliases: []
+  marketing-workshop:
+    name: Marketing Workshop
+    fivethirtyeight_id: 194
+    aliases: []
+  marquette-university-law-school:
+    name: Marquette University Law School
+    fivethirtyeight_id: 195
+    aliases: []
+  marshall-marketing:
+    name: Marshall Marketing
+    fivethirtyeight_id: 196
+    aliases: []
+  mason-dixon-polling-and-strategy:
+    name: Mason-Dixon Polling & Strategy
+    fivethirtyeight_id: 197
+    aliases: []
+  mason-strategies:
+    name: Mason Strategies
+    fivethirtyeight_id: 464
+    aliases: []
+  massie-and-associates:
+    name: Massie & Associates
+    fivethirtyeight_id: 199
+    aliases: []
+  massinc-polling-group:
+    name: MassINC Polling Group
+    fivethirtyeight_id: 198
+    aliases: []
+  master-image:
+    name: Master Image
+    fivethirtyeight_id: 200
+    aliases: []
+  mckeon-and-associates:
+    name: McKeon & Associates
+    fivethirtyeight_id: 202
+    aliases: []
+  mclaughlin-and-associates:
+    name: McLaughlin & Associates
+    fivethirtyeight_id: 203
+    aliases: []
+  meeting-street-insights:
+    name: Meeting Street Insights
+    fivethirtyeight_id: 204
+    aliases: []
+  mellman-group:
+    name: Mellman Group
+    fivethirtyeight_id: 205
+    aliases: []
+  mercury-public-affairs:
+    name: Mercury Public Affairs
+    fivethirtyeight_id: 657
+    aliases: []
+  mercyhurst-university-center-for-applied-politics:
+    name: Mercyhurst University Center for Applied Politics
+    fivethirtyeight_id: 422
+    aliases: []
+  meredith-college-department-of-history-political-science-and-international-studies:
+    name: Meredith College Department of History, Political Science, and International Studies
+    fivethirtyeight_id: 423
+    aliases: []
+  merrill-poll:
+    name: Merrill Poll
+    fivethirtyeight_id: 206
+    aliases: []
+  mfour-mobile-research:
+    name: MFour Mobile Research
+    fivethirtyeight_id: 177
+    aliases: []
+  michigan-state-university-institute-for-public-policy-and-social-research:
+    name: Michigan State University Institute for Public Policy and Social Research
+    fivethirtyeight_id: 463
+    aliases: []
+  middle-tennessee-state-university:
+    name: Middle Tennessee State University
+    fivethirtyeight_id: 208
+    aliases: []
+  millersville-university-center-for-politics-and-public-affairs:
+    name: Millersville University Center for Politics and Public Affairs
+    fivethirtyeight_id: 210
+    aliases: []
+  minneapolis-star-tribune:
+    name: Minneapolis Star Tribune
+    fivethirtyeight_id: 315
+    aliases: []
+  minnesota-state-university-moorhead-public-affairs-institute:
+    name: Minnesota State University Moorhead Public Affairs Institute
+    fivethirtyeight_id: 211
+    aliases: []
+  missouri-state-university-center-for-social-science-and-public-policy-research:
+    name: Missouri State University Center for Social Science and Public Policy Research
+    fivethirtyeight_id: 212
+    aliases: []
+  mitchell-research-and-communications:
+    name: Mitchell Research & Communications
+    fivethirtyeight_id: 213
+    aliases: []
+  momentum-analysis:
+    name: Momentum Analysis
+    fivethirtyeight_id: 214
+    aliases: []
+  monmouth-university-polling-institute:
+    name: Monmouth University Polling Institute
+    fivethirtyeight_id: 215
+    aliases: []
+  montana-state-university-billings:
+    name: Montana State University Billings
+    fivethirtyeight_id: 216
+    aliases: []
+  montana-state-university-bozeman-human-ecology-learning-and-problem-solving-lab:
+    name: Montana State University Bozeman Human Ecology Learning and Problem Solving Lab
+    fivethirtyeight_id: 486
+    aliases: []
+  moore-information-group:
+    name: Moore Information Group
+    fivethirtyeight_id: 217
+    aliases: []
+  morning-consult:
+    name: Morning Consult
+    fivethirtyeight_id: 218
+    aliases: []
+  morningside-university-col-bud-day-center-for-civic-engagement:
+    name: Morningside University Col. Bud Day Center for Civic Engagement
+    fivethirtyeight_id: 536
+    aliases: []
+  mrg-research:
+    name: MRG Research
+    fivethirtyeight_id: 207
+    aliases: []
+  msr-group:
+    name: MSR Group
+    fivethirtyeight_id: 178
+    aliases: []
+  muhlenberg-college-institute-of-public-opinion:
+    name: Muhlenberg College Institute of Public Opinion
+    fivethirtyeight_id: 219
+    aliases: []
+  multi-quest-international:
+    name: Multi-Quest International
+    fivethirtyeight_id: 220
+    aliases: []
+  mwr-strategies:
+    name: MWR Strategies
+    fivethirtyeight_id: 617
+    aliases: []
+  myers-research-and-strategic-services:
+    name: Myers Research & Strategic Services
+    fivethirtyeight_id: 319
+    aliases: []
+  national-research:
+    name: National Research
+    fivethirtyeight_id: 225
+    aliases: []
+  neighbor:
+    name: Neighbor
+    fivethirtyeight_id: 226
+    aliases: []
+  neighborhood-research-and-media:
+    name: Neighborhood Research and Media
+    fivethirtyeight_id: 227
+    aliases: []
+  nelson-research:
+    name: Nelson Research
+    fivethirtyeight_id: 703
+    aliases: []
+  new-england-college-polling-center:
+    name: New England College Polling Center
+    fivethirtyeight_id: 228
+    aliases: []
+  new-frontier-strategy:
+    name: New Frontier Strategy
+    fivethirtyeight_id: 229
+    aliases: []
+  new-mexico-state-university:
+    name: New Mexico State University
+    fivethirtyeight_id: 230
+    aliases: []
+  newsnation:
+    name: NewsNation
+    fivethirtyeight_id: 696
+    aliases: []
+  nielson-brothers-polling:
+    name: Nielson Brothers Polling
+    fivethirtyeight_id: 231
+    aliases: []
+  noble-predictive-insights:
+    name: Noble Predictive Insights
+    fivethirtyeight_id: 235
+    aliases: []
+  normington-petts-and-associates:
+    name: Normington, Petts & Associates
+    fivethirtyeight_id: 232
+    aliases: []
+  north-star-opinion-research:
+    name: North Star Opinion Research
+    fivethirtyeight_id: 233
+    aliases: []
+  northern-arizona-university-social-research-laboratory:
+    name: Northern Arizona University Social Research Laboratory
+    fivethirtyeight_id: 234
+    aliases: []
+  nrcc:
+    name: NRCC
+    fivethirtyeight_id: 488
+    aliases: []
+  nreca-market-research:
+    name: NRECA Market Research
+    fivethirtyeight_id: 223
+    aliases: []
+  nrsc:
+    name: NRSC
+    fivethirtyeight_id: 695
+    aliases: []
+  nson-opinion-strategy-in-lux-research:
+    name: NSON Opinion Strategy/In Lux Research
+    fivethirtyeight_id: 804
+    aliases: []
+  odney:
+    name: Odney
+    fivethirtyeight_id: 524
+    aliases: []
+  ogden-and-fry:
+    name: Ogden & Fry
+    fivethirtyeight_id: 425
+    aliases: []
+  ohio-northern-university-institute-for-civics-and-public-policy:
+    name: Ohio Northern University Institute for Civics and Public Policy
+    fivethirtyeight_id: 731
+    aliases: []
+  ohio-state-university:
+    name: Ohio State University
+    fivethirtyeight_id: 236
+    aliases: []
+  ohio-university:
+    name: Ohio University
+    fivethirtyeight_id: 237
+    aliases: []
+  old-dominion-university:
+    name: Old Dominion University
+    fivethirtyeight_id: 238
+    aliases: []
+  onmessage-inc:
+    name: OnMessage Inc.
+    fivethirtyeight_id: 239
+    aliases: []
+  onpoint:
+    name: OnPoint
+    fivethirtyeight_id: 240
+    aliases: []
+  open-model-project:
+    name: Open Model Project
+    fivethirtyeight_id: 629
+    aliases: []
+  opinion-consultants:
+    name: Opinion Consultants
+    fivethirtyeight_id: 241
+    aliases: []
+  opinion-dynamics:
+    name: Opinion Dynamics
+    fivethirtyeight_id: 104
+    aliases: []
+  opinion-research-associates:
+    name: Opinion Research Associates
+    fivethirtyeight_id: 242
+    aliases: []
+  opinionworks:
+    name: OpinionWorks
+    fivethirtyeight_id: 244
+    aliases: []
+  opinium:
+    name: Opinium
+    fivethirtyeight_id: 559
+    aliases: []
+  orion-strategies:
+    name: Orion Strategies
+    fivethirtyeight_id: 246
+    aliases: []
+  osage-research:
+    name: Osage Research
+    fivethirtyeight_id: 720
+    aliases: []
+  pacific-market-research:
+    name: Pacific Market Research
+    fivethirtyeight_id: 459
+    aliases: []
+  pan-atlantic-research:
+    name: Pan Atlantic Research
+    fivethirtyeight_id: 249
+    aliases: []
+  park-street-strategies:
+    name: Park Street Strategies
+    fivethirtyeight_id: 534
+    aliases: []
+  pasquines:
+    name: Pasquines
+    fivethirtyeight_id: 552
+    aliases: []
+  patinkin-research-strategies:
+    name: Patinkin Research Strategies
+    fivethirtyeight_id: 490
+    aliases: []
+  patriot-polling:
+    name: Patriot Polling
+    fivethirtyeight_id: 732
+    aliases: []
+  penta:
+    name: Penta
+    fivethirtyeight_id: 576
+    aliases: []
+  personal-marketing-research:
+    name: Personal Marketing Research
+    fivethirtyeight_id: 252
+    aliases: []
+  pew-research-center:
+    name: Pew Research Center
+    fivethirtyeight_id: 253
+    aliases: []
+  phillips-academy:
+    name: Phillips Academy
+    fivethirtyeight_id: 699
+    aliases: []
+  pioneer-polling-tarrance-group:
+    name: Pioneer Polling/Tarrance Group
+    fivethirtyeight_id: 729
+    aliases: []
+  point-blank-political:
+    name: Point Blank Political
+    fivethirtyeight_id: 550
+    aliases: []
+  polling-company-global-strategy-group:
+    name: Polling Company/Global Strategy Group
+    fivethirtyeight_id: 255
+    aliases: []
+  potomac-incorporated:
+    name: Potomac Incorporated
+    fivethirtyeight_id: 256
+    aliases: []
+  praecones-analytica:
+    name: Praecones Analytica
+    fivethirtyeight_id: 257
+    aliases: []
+  premise:
+    name: Premise
+    fivethirtyeight_id: 709
+    aliases: []
+  princeton-survey-research-associates-international:
+    name: Princeton Survey Research Associates International
+    fivethirtyeight_id: 258
+    aliases: []
+  probolsky-research:
+    name: Probolsky Research
+    fivethirtyeight_id: 259
+    aliases: []
+  psb-research:
+    name: PSB Research
+    fivethirtyeight_id: 250
+    aliases: []
+  psi:
+    name: PSI
+    fivethirtyeight_id: 248
+    aliases: []
+  ptimus-analytics:
+    name: Øptimus Analytics
+    fivethirtyeight_id: 245
+    aliases: []
+  public-first:
+    name: Public First
+    fivethirtyeight_id: 628
+    aliases: []
+  public-opinion-strategies:
+    name: Public Opinion Strategies
+    fivethirtyeight_id: 260
+    aliases: []
+  public-opinion-strategies-hamilton-campaigns:
+    name: Public Opinion Strategies/Hamilton Campaigns
+    fivethirtyeight_id: 261
+    aliases: []
+  public-policy-institute-of-california:
+    name: Public Policy Institute of California
+    fivethirtyeight_id: 262
+    aliases: []
+  public-policy-polling:
+    name: Public Policy Polling
+    fivethirtyeight_id: 263
+    aliases: []
+  public-policy-polling-harper-polling:
+    name: Public Policy Polling/Harper Polling
+    fivethirtyeight_id: 647
+    aliases: []
+  public-religion-research-institute:
+    name: Public Religion Research Institute
+    fivethirtyeight_id: 428
+    aliases: []
+  public-strategies-inc:
+    name: Public Strategies Inc.
+    fivethirtyeight_id: 264
+    aliases: []
+  purple-strategies:
+    name: Purple Strategies
+    fivethirtyeight_id: 265
+    aliases: []
+  quest-research-group:
+    name: Quest Research Group
+    fivethirtyeight_id: 285
+    aliases: []
+  quinnipiac-university:
+    name: Quinnipiac University
+    fivethirtyeight_id: 267
+    aliases: []
+  raba-research:
+    name: RABA Research
+    fivethirtyeight_id: 269
+    aliases: []
+  ragnar-research-partners:
+    name: Ragnar Research Partners
+    fivethirtyeight_id: 517
+    aliases: []
+  rainmaker-media-group:
+    name: Rainmaker Media Group
+    fivethirtyeight_id: 276
+    aliases: []
+  rand-american-life-panel:
+    name: RAND (American Life Panel)
+    fivethirtyeight_id: 270
+    aliases: []
+  rasmussen-reports:
+    name: Rasmussen Reports
+    fivethirtyeight_id: 277
+    aliases: []
+  rbi-strategies-and-research:
+    name: RBI Strategies & Research
+    fivethirtyeight_id: 271
+    aliases: []
+  reconnect-research-probolsky-research:
+    name: Reconnect Research/Probolsky Research
+    fivethirtyeight_id: 651
+    aliases: []
+  reconnect-research-roanoke-college-institute-for-policy-and-opinion-research:
+    name: Reconnect Research/Roanoke College Institute for Policy and Opinion Research
+    fivethirtyeight_id: 587
+    aliases: []
+  redfield-and-wilton-strategies:
+    name: Redfield & Wilton Strategies
+    fivethirtyeight_id: 562
+    aliases: []
+  remington-research-group:
+    name: Remington Research Group
+    fivethirtyeight_id: 279
+    aliases: []
+  repass:
+    name: Repass
+    fivethirtyeight_id: 268
+    aliases: []
+  research-and-polling-inc:
+    name: Research & Polling Inc.
+    fivethirtyeight_id: 280
+    aliases: []
+  research-co:
+    name: Research Co.
+    fivethirtyeight_id: 449
+    aliases: []
+  research-consultants:
+    name: Research Consultants
+    fivethirtyeight_id: 491
+    aliases: []
+  rice-university:
+    name: Rice University
+    fivethirtyeight_id: 286
+    aliases: []
+  richard-day-research:
+    name: Richard Day Research
+    fivethirtyeight_id: 287
+    aliases: []
+  richmond-times-dispatch:
+    name: Richmond Times-Dispatch
+    fivethirtyeight_id: 288
+    aliases: []
+  riggs-research-services:
+    name: Riggs Research Services
+    fivethirtyeight_id: 289
+    aliases: []
+  riley-research-associates:
+    name: Riley Research Associates
+    fivethirtyeight_id: 290
+    aliases: []
+  rivercity-polling:
+    name: Rivercity Polling
+    fivethirtyeight_id: 291
+    aliases: []
+  rkm-research-and-communications-inc:
+    name: RKM Research and Communications Inc.
+    fivethirtyeight_id: 272
+    aliases: []
+  rmg-research:
+    name: RMG Research
+    fivethirtyeight_id: 555
+    aliases: []
+  rms-research:
+    name: RMS Research
+    fivethirtyeight_id: 273
+    aliases: []
+  roanoke-college-institute-for-policy-and-opinion-research:
+    name: Roanoke College Institute for Policy and Opinion Research
+    fivethirtyeight_id: 292
+    aliases: []
+  roi-rocket:
+    name: ROI Rocket
+    fivethirtyeight_id: 554
+    aliases: []
+  rossman-group:
+    name: Rossman Group
+    fivethirtyeight_id: 294
+    aliases: []
+  rrh-elections:
+    name: RRH Elections
+    fivethirtyeight_id: 274
+    aliases: []
+  rt-strategies:
+    name: RT Strategies
+    fivethirtyeight_id: 275
+    aliases: []
+  rutgers-university-eagleton-center-for-public-interest-polling:
+    name: Rutgers University Eagleton Center for Public Interest Polling
+    fivethirtyeight_id: 295
+    aliases: []
+  sachs-media:
+    name: Sachs Media
+    fivethirtyeight_id: 706
+    aliases: []
+  saint-anselm-college-survey-center:
+    name: Saint Anselm College Survey Center
+    fivethirtyeight_id: 494
+    aliases: []
+  saint-leo-university-polling-institute:
+    name: Saint Leo University Polling Institute
+    fivethirtyeight_id: 299
+    aliases: []
+  san-jose-state:
+    name: San Jose State
+    fivethirtyeight_id: 714
+    aliases: []
+  schapiro-group:
+    name: Schapiro Group
+    fivethirtyeight_id: 300
+    aliases: []
+  schoen-cooperman-research:
+    name: Schoen Cooperman Research
+    fivethirtyeight_id: 301
+    aliases: []
+  scott-rasmussen-rasmussen-reports:
+    name: Scott Rasmussen (Rasmussen Reports)
+    fivethirtyeight_id: 776
+    aliases: []
+  scripps-howard:
+    name: Scripps Howard
+    fivethirtyeight_id: 303
+    aliases: []
+  sea-polling-and-strategic-design:
+    name: SEA Polling & Strategic Design
+    fivethirtyeight_id: 302
+    aliases: []
+  selzer-and-co:
+    name: Selzer & Co.
+    fivethirtyeight_id: 304
+    aliases: []
+  seven-letter-insight:
+    name: Seven Letter Insight
+    fivethirtyeight_id: 661
+    aliases: []
+  sextant-strategies-and-research:
+    name: Sextant Strategies & Research
+    fivethirtyeight_id: 808
+    aliases: []
+  siena-college:
+    name: Siena College
+    fivethirtyeight_id: 305
+    aliases: []
+  silas-lee:
+    name: Silas Lee
+    fivethirtyeight_id: 668
+    aliases: []
+  singularis-group:
+    name: Singularis Group
+    fivethirtyeight_id: 306
+    aliases: []
+  sky-research:
+    name: Sky Research
+    fivethirtyeight_id: 665
+    aliases: []
+  slingshot-strategies:
+    name: Slingshot Strategies
+    fivethirtyeight_id: 451
+    aliases: []
+  smithjohnson-opinion-research:
+    name: SmithJohnson Opinion Research
+    fivethirtyeight_id: 367
+    aliases: []
+  sms-research-and-marketing-services:
+    name: SMS Research & Marketing Services
+    fivethirtyeight_id: 296
+    aliases: []
+  socialsphere:
+    name: SocialSphere
+    fivethirtyeight_id: 307
+    aliases: []
+  socioanalitica-research:
+    name: Socioanalítica Research
+    fivethirtyeight_id: 620
+    aliases: []
+  soonerpoll-com:
+    name: SoonerPoll.com
+    fivethirtyeight_id: 308
+    aliases: []
+  south-dakota-state-university-school-of-american-and-global-studies:
+    name: South Dakota State University School of American and Global Studies
+    fivethirtyeight_id: 725
+    aliases: []
+  southeastern-louisiana-university-social-science-research-center:
+    name: Southeastern Louisiana University Social Science Research Center
+    fivethirtyeight_id: 309
+    aliases: []
+  southern-illinois-university-paul-simon-public-policy-institute:
+    name: Southern Illinois University Paul Simon Public Policy Institute
+    fivethirtyeight_id: 430
+    aliases: []
+  southern-media-and-opinion-research:
+    name: Southern Media & Opinion Research
+    fivethirtyeight_id: 310
+    aliases: []
+  southern-opinion-research:
+    name: Southern Opinion Research
+    fivethirtyeight_id: 311
+    aliases: []
+  southern-research-group:
+    name: Southern Research Group
+    fivethirtyeight_id: 649
+    aliases: []
+  spry-strategies:
+    name: Spry Strategies
+    fivethirtyeight_id: 508
+    aliases: []
+  ssrs:
+    name: SSRS
+    fivethirtyeight_id: 297
+    aliases: []
+  st-cloud-state-university:
+    name: St. Cloud State University
+    fivethirtyeight_id: 312
+    aliases: []
+  st-norbert-college-strategic-research-institute:
+    name: St. Norbert College Strategic Research Institute
+    fivethirtyeight_id: 313
+    aliases: []
+  st-pete-polls:
+    name: St. Pete Polls
+    fivethirtyeight_id: 314
+    aliases: []
+  starboard-communications:
+    name: Starboard Communications
+    fivethirtyeight_id: 316
+    aliases: []
+  stetson-university-center-for-public-opinion-research:
+    name: Stetson University Center for Public Opinion Research
+    fivethirtyeight_id: 730
+    aliases: []
+  stockton-university-william-j-hughes-center-for-public-policy:
+    name: Stockton University William J. Hughes Center for Public Policy
+    fivethirtyeight_id: 317
+    aliases: []
+  strategic-national:
+    name: Strategic National
+    fivethirtyeight_id: 318
+    aliases: []
+  strategic-research-associates:
+    name: Strategic Research Associates
+    fivethirtyeight_id: 462
+    aliases: []
+  strategies-360:
+    name: Strategies 360
+    fivethirtyeight_id: 321
+    aliases: []
+  strategies-unlimited:
+    name: Strategies Unlimited
+    fivethirtyeight_id: 622
+    aliases: []
+  strategy-research:
+    name: Strategy Research
+    fivethirtyeight_id: 322
+    aliases: []
+  suffolk-university:
+    name: Suffolk University
+    fivethirtyeight_id: 323
+    aliases: []
+  surveymonkey:
+    name: SurveyMonkey
+    fivethirtyeight_id: 324
+    aliases: []
+  surveyusa:
+    name: SurveyUSA
+    fivethirtyeight_id: 325
+    aliases: []
+  susquehanna-polling-and-research-inc:
+    name: Susquehanna Polling & Research Inc.
+    fivethirtyeight_id: 326
+    aliases: []
+  swayable:
+    name: Swayable
+    fivethirtyeight_id: 543
+    aliases: []
+  target-insyght:
+    name: Target Insyght
+    fivethirtyeight_id: 330
+    aliases: []
+  targeted-persuasion:
+    name: Targeted Persuasion
+    fivethirtyeight_id: 579
+    aliases: []
+  targetpoint:
+    name: TargetPoint
+    fivethirtyeight_id: 331
+    aliases: []
+  targetsmart:
+    name: TargetSmart
+    fivethirtyeight_id: 332
+    aliases: []
+  targoz-market-research:
+    name: Targoz Market Research
+    fivethirtyeight_id: 454
+    aliases: []
+  tarrance-group:
+    name: Tarrance Group
+    fivethirtyeight_id: 333
+    aliases: []
+  teleresearch-corporation:
+    name: TeleResearch Corporation
+    fivethirtyeight_id: 335
+    aliases: []
+  temple-university-institute-for-survey-research:
+    name: Temple University Institute for Survey Research
+    fivethirtyeight_id: 336
+    aliases: []
+  texas-hispanic-policy-foundation:
+    name: Texas Hispanic Policy Foundation
+    fivethirtyeight_id: 698
+    aliases: []
+  texas-lyceum:
+    name: Texas Lyceum
+    fivethirtyeight_id: 431
+    aliases: []
+  the-castleton-polling-institute:
+    name: The Castleton Polling Institute
+    fivethirtyeight_id: 45
+    aliases: []
+  the-eppstein-group:
+    name: The Eppstein Group
+    fivethirtyeight_id: 475
+    aliases: []
+  the-florida-poll:
+    name: The Florida Poll
+    fivethirtyeight_id: 99
+    aliases: []
+  the-justice-collaborative-institute:
+    name: The Justice Collaborative Institute
+    fivethirtyeight_id: 630
+    aliases: []
+  the-kitchens-group:
+    name: The Kitchens Group
+    fivethirtyeight_id: 664
+    aliases: []
+  the-mcdonald-group:
+    name: The McDonald Group
+    fivethirtyeight_id: 655
+    aliases: []
+  the-new-york-times:
+    name: The New York Times
+    fivethirtyeight_id: 811
+    aliases: []
+  the-new-york-times-siena-college:
+    name: The New York Times/Siena College
+    fivethirtyeight_id: 448
+    aliases: []
+  the-political-matrix-the-listener-group:
+    name: The Political Matrix/The Listener Group
+    fivethirtyeight_id: 677
+    aliases: []
+  the-polling-company-inc:
+    name: The Polling Company Inc.
+    fivethirtyeight_id: 337
+    aliases: []
+  the-polling-company-inc-national-research-inc:
+    name: The Polling Company Inc./National Research Inc.
+    fivethirtyeight_id: 644
+    aliases: []
+  the-right-strategy-group:
+    name: The Right Strategy Group
+    fivethirtyeight_id: 492
+    aliases: []
+  the-tyson-group:
+    name: The Tyson Group
+    fivethirtyeight_id: 334
+    aliases: []
+  the-washington-post-george-mason-university-schar-school-of-policy-and-government:
+    name: The Washington Post/George Mason University Schar School of Policy and Government
+    fivethirtyeight_id: 754
+    aliases: []
+  the-washington-post-university-of-maryland-center-for-democracy-and-civic-engagement:
+    name: The Washington Post/University of Maryland Center for Democracy and Civic Engagement
+    fivethirtyeight_id: 755
+    aliases: []
+  the-winston-group:
+    name: The Winston Group
+    fivethirtyeight_id: 385
+    aliases: []
+  thirty-ninth-street-strategies:
+    name: Thirty-Ninth Street Strategies
+    fivethirtyeight_id: 460
+    aliases: []
+  thomas-partners-strategies:
+    name: Thomas Partners Strategies
+    fivethirtyeight_id: 452
+    aliases: []
+  thomas-partners-strategies-ptimus:
+    name: Thomas Partners Strategies/Øptimus
+    fivethirtyeight_id: 758
+    aliases: []
+  tipp-insights:
+    name: TIPP Insights
+    fivethirtyeight_id: 144
+    aliases: []
+  tmr-research:
+    name: TMR Research
+    fivethirtyeight_id: 328
+    aliases: []
+  tomahawk-strategies:
+    name: Tomahawk Strategies
+    fivethirtyeight_id: 737
+    aliases: []
+  trafalgar-group:
+    name: Trafalgar Group
+    fivethirtyeight_id: 338
+    aliases: []
+  triumph-campaigns:
+    name: Triumph Campaigns
+    fivethirtyeight_id: 339
+    aliases: []
+  tufts-university-public-opinion-lab:
+    name: Tufts University Public Opinion Lab
+    fivethirtyeight_id: 666
+    aliases: []
+  tulchin-research:
+    name: Tulchin Research
+    fivethirtyeight_id: 340
+    aliases: []
+  tulsa-surveys:
+    name: Tulsa Surveys
+    fivethirtyeight_id: 341
+    aliases: []
+  university-of-akron-ray-c-bliss-institute-of-applied-politics:
+    name: University of Akron Ray C. Bliss Institute of Applied Politics
+    fivethirtyeight_id: 432
+    aliases: []
+  university-of-alabama-at-birmingham:
+    name: University of Alabama at Birmingham
+    fivethirtyeight_id: 344
+    aliases: []
+  university-of-arkansas-department-of-political-science:
+    name: University of Arkansas Department of Political Science
+    fivethirtyeight_id: 345
+    aliases: []
+  university-of-california-berkeley-institute-of-governmental-studies:
+    name: University of California Berkeley Institute of Governmental Studies
+    fivethirtyeight_id: 457
+    aliases: []
+  university-of-cincinnati-ohio-poll:
+    name: University of Cincinnati (Ohio Poll)
+    fivethirtyeight_id: 346
+    aliases: []
+  university-of-colorado-american-politics-research-lab:
+    name: University of Colorado American Politics Research Lab
+    fivethirtyeight_id: 580
+    aliases: []
+  university-of-connecticut:
+    name: University of Connecticut
+    fivethirtyeight_id: 347
+    aliases: []
+  university-of-delaware-center-for-political-communication:
+    name: University of Delaware Center for Political Communication
+    fivethirtyeight_id: 433
+    aliases: []
+  university-of-florida-bob-graham-center-for-public-service:
+    name: University of Florida Bob Graham Center for Public Service
+    fivethirtyeight_id: 349
+    aliases: []
+  university-of-georgia-school-of-public-and-international-affairs:
+    name: University of Georgia School of Public and International Affairs
+    fivethirtyeight_id: 350
+    aliases: []
+  university-of-georgia-survey-research-center:
+    name: University of Georgia Survey Research Center
+    fivethirtyeight_id: 674
+    aliases: []
+  university-of-houston-hobby-school-of-public-affairs:
+    name: University of Houston Hobby School of Public Affairs
+    fivethirtyeight_id: 351
+    aliases: []
+  university-of-illinois-at-chicago:
+    name: University of Illinois at Chicago
+    fivethirtyeight_id: 352
+    aliases: []
+  university-of-illinois-springfield-survey-research-office:
+    name: University of Illinois Springfield Survey Research Office
+    fivethirtyeight_id: 498
+    aliases: []
+  university-of-iowa-hawkeye-poll-cooperative:
+    name: University of Iowa Hawkeye Poll Cooperative
+    fivethirtyeight_id: 353
+    aliases: []
+  university-of-massachusetts-department-of-political-science:
+    name: University of Massachusetts Department of Political Science
+    fivethirtyeight_id: 354
+    aliases: []
+  university-of-massachusetts-lowell-center-for-public-opinion:
+    name: University of Massachusetts Lowell Center for Public Opinion
+    fivethirtyeight_id: 355
+    aliases: []
+  university-of-minnesota-hubert-h-humphrey-school-of-public-affairs:
+    name: University of Minnesota Hubert H. Humphrey School of Public Affairs
+    fivethirtyeight_id: 143
+    aliases: []
+  university-of-montana-social-science-research-laboratory:
+    name: University of Montana Social Science Research Laboratory
+    fivethirtyeight_id: 499
+    aliases: []
+  university-of-nevada-department-of-political-science:
+    name: University of Nevada Department of Political Science
+    fivethirtyeight_id: 704
+    aliases: []
+  university-of-nevada-las-vegas-cannon-survey-center:
+    name: University of Nevada, Las Vegas Cannon Survey Center
+    fivethirtyeight_id: 356
+    aliases: []
+  university-of-nevada-las-vegas-lee-business-school:
+    name: University of Nevada, Las Vegas Lee Business School
+    fivethirtyeight_id: 609
+    aliases: []
+  university-of-new-hampshire-survey-center:
+    name: University of New Hampshire Survey Center
+    fivethirtyeight_id: 357
+    aliases: []
+  university-of-new-orleans-survey-research-center:
+    name: University of New Orleans Survey Research Center
+    fivethirtyeight_id: 358
+    aliases: []
+  university-of-north-carolina-school-of-journalism-and-mass-communication:
+    name: University of North Carolina School of Journalism and Mass Communication
+    fivethirtyeight_id: 359
+    aliases: []
+  university-of-north-florida-public-opinion-research-lab:
+    name: University of North Florida Public Opinion Research Lab
+    fivethirtyeight_id: 360
+    aliases: []
+  university-of-south-alabama-polling-group:
+    name: University of South Alabama Polling Group
+    fivethirtyeight_id: 361
+    aliases: []
+  university-of-southern-california-dornsife-center-for-economic-and-social-research:
+    name: University of Southern California Dornsife Center for Economic and Social Research
+    fivethirtyeight_id: 343
+    aliases: []
+  university-of-southern-california-schwarzenegger-institute-for-state-and-global-policy:
+    name: University of Southern California Schwarzenegger Institute for State and Global Policy
+    fivethirtyeight_id: 648
+    aliases: []
+  university-of-tennessee:
+    name: University of Tennessee
+    fivethirtyeight_id: 362
+    aliases: []
+  university-of-texas-at-tyler-center-for-opinion-research:
+    name: University of Texas at Tyler Center for Opinion Research
+    fivethirtyeight_id: 458
+    aliases: []
+  university-of-utah-hinckley-institute-of-politics:
+    name: University of Utah Hinckley Institute of Politics
+    fivethirtyeight_id: 500
+    aliases: []
+  university-of-washington-center-for-survey-research:
+    name: University of Washington Center for Survey Research
+    fivethirtyeight_id: 364
+    aliases: []
+  university-of-wisconsin-milwaukee-center-for-urban-initiatives-and-research:
+    name: University of Wisconsin-Milwaukee Center for Urban Initiatives and Research
+    fivethirtyeight_id: 749
+    aliases: []
+  university-of-wisconsin-milwaukee-institute-for-survey-and-policy-research:
+    name: University of Wisconsin-Milwaukee Institute for Survey and Policy Research
+    fivethirtyeight_id: 366
+    aliases: []
+  university-of-wisconsin-survey-center:
+    name: University of Wisconsin Survey Center
+    fivethirtyeight_id: 365
+    aliases: []
+  university-of-wyoming-survey-and-analysis-center:
+    name: University of Wyoming Survey & Analysis Center
+    fivethirtyeight_id: 667
+    aliases: []
+  univision-latino-decisions-north-star-opinion-research:
+    name: Univision/Latino Decisions/North Star Opinion Research
+    fivethirtyeight_id: 516
+    aliases: []
+  uplift-campaigns:
+    name: Uplift Campaigns
+    fivethirtyeight_id: 298
+    aliases: []
+  valley-research:
+    name: Valley Research
+    fivethirtyeight_id: 368
+    aliases: []
+  vcreek-amg:
+    name: VCreek/AMG
+    fivethirtyeight_id: 501
+    aliases: []
+  vi-techstack:
+    name: VI TechStack
+    fivethirtyeight_id: 722
+    aliases: []
+  victoria-research-and-consulting:
+    name: Victoria Research & Consulting
+    fivethirtyeight_id: 369
+    aliases: []
+  victory-enterprises:
+    name: Victory Enterprises
+    fivethirtyeight_id: 525
+    aliases: []
+  victory-insights:
+    name: Victory Insights
+    fivethirtyeight_id: 673
+    aliases: []
+  victory-research:
+    name: Victory Research
+    fivethirtyeight_id: 437
+    aliases: []
+  virginia-commonwealth-university-l-douglas-wilder-school-of-government-and-public-affairs:
+    name: Virginia Commonwealth University L. Douglas Wilder School of Government and Public Affairs
+    fivethirtyeight_id: 370
+    aliases: []
+  voter-consumer-research:
+    name: Voter/Consumer Research
+    fivethirtyeight_id: 371
+    aliases: []
+  vox-populi-communications:
+    name: Vox Populi Communications
+    fivethirtyeight_id: 529
+    aliases: []
+  vox-populi-polling:
+    name: Vox Populi Polling
+    fivethirtyeight_id: 372
+    aliases: []
+  war-room-logistics:
+    name: War Room Logistics
+    fivethirtyeight_id: 374
+    aliases: []
+  ward-research:
+    name: Ward Research
+    fivethirtyeight_id: 375
+    aliases: []
+  washington-college:
+    name: Washington College
+    fivethirtyeight_id: 735
+    aliases: []
+  wcia-tv:
+    name: WCIA-TV
+    fivethirtyeight_id: 373
+    aliases: []
+  we-ask-america:
+    name: We Ask America
+    fivethirtyeight_id: 376
+    aliases: []
+  west-chester-university:
+    name: West Chester University
+    fivethirtyeight_id: 377
+    aliases: []
+  west-virginia-research-center:
+    name: West Virginia Research Center
+    fivethirtyeight_id: 378
+    aliases: []
+  western-kentucky-university-social-science-research-center:
+    name: Western Kentucky University Social Science Research Center
+    fivethirtyeight_id: 379
+    aliases: []
+  western-new-england-university-polling-institute:
+    name: Western New England University Polling Institute
+    fivethirtyeight_id: 380
+    aliases: []
+  whitman-insight-strategies:
+    name: Whitman Insight Strategies
+    fivethirtyeight_id: 584
+    aliases: []
+  wick:
+    name: Wick
+    fivethirtyeight_id: 284
+    aliases: []
+  wick-communications:
+    name: Wick Communications
+    fivethirtyeight_id: 381
+    aliases: []
+  wiese-research-associates:
+    name: Wiese Research Associates
+    fivethirtyeight_id: 382
+    aliases: []
+  winthrop-university-center-for-public-opinion-and-policy-research:
+    name: Winthrop University Center for Public Opinion & Policy Research
+    fivethirtyeight_id: 386
+    aliases: []
+  wirthlin-worldwide:
+    name: Wirthlin Worldwide
+    fivethirtyeight_id: 387
+    aliases: []
+  wood-communications-group:
+    name: Wood Communications Group
+    fivethirtyeight_id: 388
+    aliases: []
+  wpa-intelligence:
+    name: WPA Intelligence
+    fivethirtyeight_id: 383
+    aliases: []
+  wt-and-s-consulting:
+    name: WT&S Consulting
+    fivethirtyeight_id: 646
+    aliases: []
+  y2-analytics:
+    name: Y2 Analytics
+    fivethirtyeight_id: 389
+    aliases: []
+  yankelovich-partners-inc:
+    name: Yankelovich Partners Inc.
+    fivethirtyeight_id: 390
+    aliases: []
+  yougov:
+    name: YouGov
+    fivethirtyeight_id: 391
+    aliases: []
+  zata3:
+    name: Zata3
+    fivethirtyeight_id: 392
+    aliases: []
+  zia-poll:
+    name: Zia Poll
+    fivethirtyeight_id: 393
+    aliases: []
+  zimmerman-and-associates-marketing-intelligence:
+    name: Zimmerman & Associates/Marketing Intelligence
+    fivethirtyeight_id: 394
+    aliases: []
+  zogby-analytics:
+    name: Zogby Analytics
+    fivethirtyeight_id: 395
+    aliases: []

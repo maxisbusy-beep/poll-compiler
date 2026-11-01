@@ -1,0 +1,6 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2009,off-year,2009-11-03,2009-GOV-NJ,GOV,NJ,,,Jon Stevens Corzine,DEM,44.879,Chris Christie,REP,48.457,-3.578,D-R,538
+2009,off-year,2009-11-03,2009-GOV-VA,GOV,VA,,,R. Creigh Deeds,DEM,41.255,Robert Francis McDonnell,REP,58.619,-17.364,D-R,538
+2009,off-year,2009-11-03,2009-HOUSE-CA-10-S,HOUSE,CA,10,S,John Garamendi,DEM,52.848,David Harmer,REP,42.832,10.016,D-R,538
+2009,off-year,2009-03-31,2009-HOUSE-NY-20-S,HOUSE,NY,20,S,Scott Murphy,DEM,43.528,James Nicholas Tedisco,REP,42.62,0.908,D-R,538
+2009,off-year,2009-11-03,2009-HOUSE-NY-23-S,HOUSE,NY,23,S,William L. Owens,DEM,43.965,Dierdre K. Scozzafava,REP,4.796,39.169,D-R,538

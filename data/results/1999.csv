@@ -1,0 +1,3 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+1999,off-year,1999-11-09,1999-GOV-KY,GOV,KY,,,Paul E. Patton,DEM,60.699,Peppy Martin,REP,22.202,38.497,D-R,538
+1999,off-year,1999-11-04,1999-GOV-MS,GOV,MS,,,Ronnie Musgrove,DEM,49.616,Michael Parker,REP,48.524,1.092,D-R,538

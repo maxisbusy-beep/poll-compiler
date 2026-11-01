@@ -1,0 +1,6 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2013,off-year,2013-11-05,2013-GOV-NJ,GOV,NJ,,,Barbara Buono,DEM,38.191,Chris Christie,REP,60.302,-22.111,D-R,538
+2013,off-year,2013-11-05,2013-GOV-VA,GOV,VA,,,Terry R. McAuliffe,DEM,47.736,Kenneth T. Cuccinelli,REP,45.217,2.518,D-R,538
+2013,off-year,2013-05-07,2013-HOUSE-SC-1-S,HOUSE,SC,1,S,Elizabeth Colbert Busch,DEM,41.874,Mark Sanford,REP,54.026,-12.152,D-R,538
+2013,off-year,2013-06-25,2013-SEN-MA-S,SEN,MA,,S,Edward J. Markey,DEM,54.8,Gabriel E. Gomez,REP,44.601,10.199,D-R,538
+2013,off-year,2013-10-16,2013-SEN-NJ-S,SEN,NJ,,S,Cory A. Booker,DEM,54.924,Steven M. Lonegan,REP,44.02,10.904,D-R,538

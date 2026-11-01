@@ -1,0 +1,170 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2016,presidential,2016-11-08,2016-GOV-DE,GOV,DE,,,John C. Carney Jr.,DEM,58.34,Colin R. J. Bonini,REP,39.187,19.153,D-R,538
+2016,presidential,2016-11-08,2016-GOV-IN,GOV,IN,,,John R. Gregg,DEM,45.423,Eric Joseph Holcomb,REP,51.375,-5.952,D-R,538
+2016,presidential,2016-11-08,2016-GOV-MO,GOV,MO,,,Chris Koster,DEM,45.57,Eric Greitens,REP,51.137,-5.567,D-R,538
+2016,presidential,2016-11-08,2016-GOV-MT,GOV,MT,,,Steve Bullock,DEM,50.246,Greg Gianforte,REP,46.355,3.891,D-R,538
+2016,presidential,2016-11-08,2016-GOV-NC,GOV,NC,,,Roy A. Cooper,DEM,49.016,Pat McCrory,REP,48.798,0.218,D-R,538
+2016,presidential,2016-11-08,2016-GOV-ND,GOV,ND,,,Marvin E. Nelson,DEM,19.392,Doug Burgum,REP,76.52,-57.128,D-R,538
+2016,presidential,2016-11-08,2016-GOV-NH,GOV,NH,,,Colin Van Ostern,DEM,46.573,Chris Sununu,REP,48.842,-2.27,D-R,538
+2016,presidential,2016-11-08,2016-GOV-OR-S,GOV,OR,,S,Kate Brown,DEM,50.617,William C. Pierce,REP,43.453,7.164,D-R,538
+2016,presidential,2016-11-08,2016-GOV-UT,GOV,UT,,,Mike Weinholtz,DEM,28.741,Gary Richard Herbert,REP,66.74,-37.999,D-R,538
+2016,presidential,2016-11-08,2016-GOV-VT,GOV,VT,,,Sue M. Minter,DEM,44.166,Phil Scott,REP,52.908,-8.742,D-R,538
+2016,presidential,2016-11-08,2016-GOV-WA,GOV,WA,,,Jay Robert Inslee,DEM,54.39,Bill Ray Bryant,REP,45.61,8.779,D-R,538
+2016,presidential,2016-11-08,2016-GOV-WV,GOV,WV,,,James Justice,DEM,49.087,William Paul Cole,REP,42.304,6.783,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-AK-1,HOUSE,AK,1,,Steve Lindbeck,DEM,36.022,Don Young,REP,50.321,-14.299,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-AZ-1,HOUSE,AZ,1,,Tom O'Halleran,DEM,50.664,Paul Babeu,REP,43.37,7.294,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-AZ-2,HOUSE,AZ,2,,Matthew G. Heinz,DEM,43.042,Martha McSally,REP,56.958,-13.917,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-10,HOUSE,CA,10,,Michael Eggman,DEM,48.3,Jeff Denham,REP,51.7,-3.401,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-17,HOUSE,CA,17,,Ro Khanna,DEM,61.009,Michael M. Honda,DEM,38.991,22.018,same-party,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-24,HOUSE,CA,24,,Salud Carbajal,DEM,53.419,Justin Donald Fareed,REP,46.581,6.838,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-25,HOUSE,CA,25,,Bryan Caforio,DEM,46.87,Stephen Knight,REP,53.13,-6.26,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-31,HOUSE,CA,31,,Pete Aguilar,DEM,56.068,Paul Chabot,REP,43.932,12.135,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-46,HOUSE,CA,46,,Lou Correa,DEM,70.02,Bao Nguyen,DEM,29.98,40.04,same-party,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-49,HOUSE,CA,49,,Doug Applegate,DEM,49.739,Darrell Issa,REP,50.261,-0.523,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-CA-7,HOUSE,CA,7,,Ami Bera,DEM,51.171,Scott Jones,REP,48.829,2.343,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-DE-1,HOUSE,DE,1,,Lisa Blunt Rochester,DEM,55.527,Hans Reigle,REP,40.964,14.563,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-10,HOUSE,FL,10,,Val Demings,DEM,64.869,Thuy Lowe,REP,35.131,29.737,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-13,HOUSE,FL,13,,Charlie Crist,DEM,51.903,David W. Jolly,REP,48.097,3.806,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-18,HOUSE,FL,18,,Randy Perkins,DEM,43.073,Brian Mast,REP,53.599,-10.526,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-26,HOUSE,FL,26,,Joe Garcia,DEM,41.168,Carlos Curbelo,REP,52.95,-11.782,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-27,HOUSE,FL,27,,Scott Fuhrman,DEM,45.106,Ileana Ros-Lehtinen,REP,54.894,-9.788,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-FL-7,HOUSE,FL,7,,Stephanie Murphy,DEM,51.474,John L. Mica,REP,48.517,2.957,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-GA-11,HOUSE,GA,11,,Don E. Wilson,DEM,32.594,Barry Loudermilk,REP,67.406,-34.812,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-GA-12,HOUSE,GA,12,,Patricia Carpenter McCracken,DEM,38.399,Rick W. Allen,REP,61.601,-23.202,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-GA-3,HOUSE,GA,3,,Angela Pendley,DEM,31.653,Drew Ferguson,REP,68.347,-36.693,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-GA-8,HOUSE,GA,8,,James Neal Harris,DEM,32.357,Austin Scott,REP,67.643,-35.286,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,47.311,Generic Candidate,REP,48.344,-1.033,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-IA-1,HOUSE,IA,1,,Monica Vernon,DEM,46.081,Rod Blum,REP,53.744,-7.663,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-IA-3,HOUSE,IA,3,,Jim Mowrer,DEM,39.715,David Young,REP,53.447,-13.732,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-ID-1,HOUSE,ID,1,,James Piotrowski,DEM,31.814,Raúl R. Labrador,REP,68.171,-36.358,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-ID-2,HOUSE,ID,2,,Jennifer Martinez,DEM,29.408,Mike Simpson,REP,62.927,-33.519,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-IL-10,HOUSE,IL,10,,Brad Schneider,DEM,52.6,Robert Dold,REP,47.391,5.21,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-IN-9,HOUSE,IN,9,,Shelli Yoder,DEM,40.461,Trey Hollingsworth,REP,54.141,-13.68,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-KS-3,HOUSE,KS,3,,Jay Sidie,DEM,40.599,Kevin Yoder,REP,51.301,-10.703,D-R,538
+2016,presidential,2016-12-10,2016-HOUSE-LA-3-R,HOUSE,LA,3,R,Clay Higgins,REP,56.107,Scott A. Angelle,REP,43.893,12.215,same-party,538
+2016,presidential,2016-12-10,2016-HOUSE-LA-4-R,HOUSE,LA,4,R,Marshall Jones,DEM,34.774,"""Mike"" Johnson",REP,65.226,-30.453,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-ME-1,HOUSE,ME,1,,Chellie M. Pingree,DEM,57.99,Mark Holbrook,REP,41.94,16.05,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-ME-2,HOUSE,ME,2,,Emily Ann Cain,DEM,45.17,Bruce Poliquin,REP,54.766,-9.596,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MI-1,HOUSE,MI,1,,Lon Johnson,DEM,40.063,Jack Bergman,REP,54.897,-14.834,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MI-8,HOUSE,MI,8,,Suzanna Shkreli,DEM,39.184,Mike Bishop,REP,56.035,-16.851,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MN-2,HOUSE,MN,2,,Angie Craig,DEM,45.157,Jason Lewis,REP,46.954,-1.796,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MN-3,HOUSE,MN,3,,Terri Bonoff,DEM,43.013,Erik Paulsen,REP,56.696,-13.683,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MN-8,HOUSE,MN,8,,Richard M. Nolan,DEM,50.171,Stewart Mills,REP,49.609,0.563,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-MT-1,HOUSE,MT,1,,Denise Juneau,DEM,40.549,Ryan K. Zinke,REP,56.192,-15.643,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NE-2,HOUSE,NE,2,,Brad Ashford,DEM,47.727,Don Bacon,REP,48.929,-1.201,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NH-1,HOUSE,NH,1,,Carol Shea-Porter,DEM,44.286,Frank C. Guinta,REP,42.946,1.34,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NH-2,HOUSE,NH,2,,Ann McLane Kuster,DEM,49.748,Jim Lawrence,REP,45.313,4.435,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NJ-2,HOUSE,NJ,2,,David H. Cole,DEM,37.22,Frank A. LoBiondo,REP,59.215,-21.995,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NJ-5,HOUSE,NJ,5,,Josh Gottheimer,DEM,51.106,Scott Garrett,REP,46.695,4.411,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NJ-7,HOUSE,NJ,7,,Peter Jacob,DEM,43.124,Leonard Lance,REP,54.084,-10.96,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NM-1,HOUSE,NM,1,,Michelle Lujan Grisham,DEM,65.147,Richard Priem,REP,34.853,30.295,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NM-2,HOUSE,NM,2,,Merrie Lee Soules,DEM,37.249,Stevan Pearce,REP,62.72,-25.471,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NM-3,HOUSE,NM,3,,Ben Ray Luján,DEM,62.417,Michael H. Romero,REP,37.583,24.834,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NV-3,HOUSE,NV,3,,Jacky Rosen,DEM,47.23,Danny Tarkanian,REP,45.962,1.268,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NV-4,HOUSE,NV,4,,Ruben J. Kihuen,DEM,48.519,Cresent Hardy,REP,44.51,4.009,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-1,HOUSE,NY,1,,Anna Throne-Holst,DEM,39.098,Lee M. Zeldin,REP,48.908,-9.81,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-19,HOUSE,NY,19,,Zephyr R. Teachout,DEM,40.946,John J. Faso,REP,44.18,-3.234,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-21,HOUSE,NY,21,,Mike Derrick,DEM,27.866,Elise M. Stefanik,REP,55.977,-28.111,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-22,HOUSE,NY,22,,Kim A. Myers,DEM,36.884,Claudia Tenney,REP,40.673,-3.789,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-24,HOUSE,NY,24,,Colleen Deacon,DEM,36.592,John Katko,REP,49.759,-13.167,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-NY-3,HOUSE,NY,3,,Thomas Suozzi,DEM,52.975,Jack M. Martins,REP,41.311,11.664,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-PA-16,HOUSE,PA,16,,Christina Marie Hartman,DEM,42.893,Lloyd K. Smucker,REP,53.755,-10.862,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-SC-5,HOUSE,SC,5,,Francis Person,DEM,38.743,Mick Mulvaney,REP,59.218,-20.475,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-SD-1,HOUSE,SD,1,,Paula Hawks,DEM,35.897,Kristi Noem,REP,64.103,-28.206,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-UT-4,HOUSE,UT,4,,Doug Owens,DEM,41.306,Mia B. Love,REP,53.756,-12.45,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-VA-10,HOUSE,VA,10,,LuAnn L. Bennett,DEM,46.918,Barbara J. Comstock,REP,52.687,-5.769,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-VA-5,HOUSE,VA,5,,Jane DeSimone Dittmar,DEM,41.58,Thomas A. Garrett,REP,58.235,-16.655,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-WI-1,HOUSE,WI,1,,Ryan A. Solen,DEM,30.206,Paul Ryan,REP,64.947,-34.741,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-WI-8,HOUSE,WI,8,,Tom Nelson,DEM,37.298,Mike Gallagher,REP,62.646,-25.348,D-R,538
+2016,presidential,2016-11-08,2016-HOUSE-WY-1,HOUSE,WY,1,,Ryan Greene,DEM,29.973,Liz Cheney,REP,62.03,-32.056,D-R,538
+2016,presidential,2016-11-08,2016-PRES-AK,PRES,AK,,,Hillary Rodham Clinton,DEM,36.551,Donald Trump,REP,51.282,-14.731,D-R,538
+2016,presidential,2016-11-08,2016-PRES-AL,PRES,AL,,,Hillary Rodham Clinton,DEM,34.358,Donald Trump,REP,62.083,-27.725,D-R,538
+2016,presidential,2016-11-08,2016-PRES-AR,PRES,AR,,,Hillary Rodham Clinton,DEM,33.653,Donald Trump,REP,60.574,-26.921,D-R,538
+2016,presidential,2016-11-08,2016-PRES-AZ,PRES,AZ,,,Hillary Rodham Clinton,DEM,45.125,Donald Trump,REP,48.67,-3.546,D-R,538
+2016,presidential,2016-11-08,2016-PRES-CA,PRES,CA,,,Hillary Rodham Clinton,DEM,61.726,Donald Trump,REP,31.617,30.109,D-R,538
+2016,presidential,2016-11-08,2016-PRES-CO,PRES,CO,,,Hillary Rodham Clinton,DEM,48.157,Donald Trump,REP,43.251,4.906,D-R,538
+2016,presidential,2016-11-08,2016-PRES-CT,PRES,CT,,,Hillary Rodham Clinton,DEM,54.566,Donald Trump,REP,40.927,13.639,D-R,538
+2016,presidential,2016-11-08,2016-PRES-DC,PRES,DC,,,Hillary Rodham Clinton,DEM,90.864,Donald Trump,REP,4.087,86.776,D-R,538
+2016,presidential,2016-11-08,2016-PRES-DE,PRES,DE,,,Hillary Rodham Clinton,DEM,53.086,Donald Trump,REP,41.713,11.373,D-R,538
+2016,presidential,2016-11-08,2016-PRES-FL,PRES,FL,,,Hillary Rodham Clinton,DEM,47.823,Donald Trump,REP,49.022,-1.199,D-R,538
+2016,presidential,2016-11-08,2016-PRES-GA,PRES,GA,,,Hillary Rodham Clinton,DEM,45.64,Donald Trump,REP,50.771,-5.131,D-R,538
+2016,presidential,2016-11-08,2016-PRES-HI,PRES,HI,,,Hillary Rodham Clinton,DEM,62.221,Donald Trump,REP,30.039,32.183,D-R,538
+2016,presidential,2016-11-08,2016-PRES-IA,PRES,IA,,,Hillary Rodham Clinton,DEM,41.753,Donald Trump,REP,51.162,-9.41,D-R,538
+2016,presidential,2016-11-08,2016-PRES-ID,PRES,ID,,,Hillary Rodham Clinton,DEM,27.492,Donald Trump,REP,59.261,-31.769,D-R,538
+2016,presidential,2016-11-08,2016-PRES-IL,PRES,IL,,,Hillary Rodham Clinton,DEM,55.825,Donald Trump,REP,38.762,17.064,D-R,538
+2016,presidential,2016-11-08,2016-PRES-IN,PRES,IN,,,Hillary Rodham Clinton,DEM,37.775,Donald Trump,REP,56.94,-19.165,D-R,538
+2016,presidential,2016-11-08,2016-PRES-KS,PRES,KS,,,Hillary Rodham Clinton,DEM,36.052,Donald Trump,REP,56.655,-20.602,D-R,538
+2016,presidential,2016-11-08,2016-PRES-KY,PRES,KY,,,Hillary Rodham Clinton,DEM,32.682,Donald Trump,REP,62.52,-29.837,D-R,538
+2016,presidential,2016-11-08,2016-PRES-LA,PRES,LA,,,Hillary Rodham Clinton,DEM,38.45,Donald Trump,REP,58.089,-19.639,D-R,538
+2016,presidential,2016-11-08,2016-PRES-M1,PRES,M1,,,Hillary Rodham Clinton,DEM,53.958,Donald Trump,REP,39.151,14.807,D-R,538
+2016,presidential,2016-11-08,2016-PRES-M2,PRES,M2,,,Hillary Rodham Clinton,DEM,40.976,Donald Trump,REP,51.265,-10.288,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MA,PRES,MA,,,Hillary Rodham Clinton,DEM,60.005,Donald Trump,REP,32.808,27.197,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MD,PRES,MD,,,Hillary Rodham Clinton,DEM,60.326,Donald Trump,REP,33.909,26.416,D-R,538
+2016,presidential,2016-11-08,2016-PRES-ME,PRES,ME,,,Hillary Rodham Clinton,DEM,47.83,Donald Trump,REP,44.87,2.96,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MI,PRES,MI,,,Hillary Rodham Clinton,DEM,47.216,Donald Trump,REP,47.439,-0.223,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MN,PRES,MN,,,Hillary Rodham Clinton,DEM,46.445,Donald Trump,REP,44.925,1.52,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MO,PRES,MO,,,Hillary Rodham Clinton,DEM,38.135,Donald Trump,REP,56.772,-18.637,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MS,PRES,MS,,,Hillary Rodham Clinton,DEM,40.115,Donald Trump,REP,57.941,-17.826,D-R,538
+2016,presidential,2016-11-08,2016-PRES-MT,PRES,MT,,,Hillary Rodham Clinton,DEM,35.746,Donald Trump,REP,56.168,-20.423,D-R,538
+2016,presidential,2016-11-08,2016-PRES-N1,PRES,N1,,,Hillary Rodham Clinton,DEM,35.462,Donald Trump,REP,56.184,-20.722,D-R,538
+2016,presidential,2016-11-08,2016-PRES-N2,PRES,N2,,,Hillary Rodham Clinton,DEM,44.923,Donald Trump,REP,47.163,-2.24,D-R,538
+2016,presidential,2016-11-08,2016-PRES-N3,PRES,N3,,,Hillary Rodham Clinton,DEM,19.734,Donald Trump,REP,73.912,-54.179,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NC,PRES,NC,,,Hillary Rodham Clinton,DEM,46.173,Donald Trump,REP,49.828,-3.655,D-R,538
+2016,presidential,2016-11-08,2016-PRES-ND,PRES,ND,,,Hillary Rodham Clinton,DEM,27.227,Donald Trump,REP,62.956,-35.729,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NE,PRES,NE,,,Hillary Rodham Clinton,DEM,33.699,Donald Trump,REP,58.747,-25.049,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NH,PRES,NH,,,Hillary Rodham Clinton,DEM,46.826,Donald Trump,REP,46.459,0.368,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NJ,PRES,NJ,,,Hillary Rodham Clinton,DEM,55.453,Donald Trump,REP,41.35,14.103,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NM,PRES,NM,,,Hillary Rodham Clinton,DEM,48.256,Donald Trump,REP,40.043,8.213,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NV,PRES,NV,,,Hillary Rodham Clinton,DEM,47.918,Donald Trump,REP,45.501,2.417,D-R,538
+2016,presidential,2016-11-08,2016-PRES-NY,PRES,NY,,,Hillary Rodham Clinton,DEM,56.722,Donald Trump,REP,32.729,23.994,D-R,538
+2016,presidential,2016-11-08,2016-PRES-OH,PRES,OH,,,Hillary Rodham Clinton,DEM,43.558,Donald Trump,REP,51.688,-8.13,D-R,538
+2016,presidential,2016-11-08,2016-PRES-OK,PRES,OK,,,Hillary Rodham Clinton,DEM,28.932,Donald Trump,REP,65.323,-36.391,D-R,538
+2016,presidential,2016-11-08,2016-PRES-OR,PRES,OR,,,Hillary Rodham Clinton,DEM,50.072,Donald Trump,REP,39.094,10.978,D-R,538
+2016,presidential,2016-11-08,2016-PRES-PA,PRES,PA,,,Hillary Rodham Clinton,DEM,47.465,Donald Trump,REP,48.183,-0.718,D-R,538
+2016,presidential,2016-11-08,2016-PRES-RI,PRES,RI,,,Hillary Rodham Clinton,DEM,54.417,Donald Trump,REP,38.886,15.531,D-R,538
+2016,presidential,2016-11-08,2016-PRES-SC,PRES,SC,,,Hillary Rodham Clinton,DEM,40.673,Donald Trump,REP,54.939,-14.266,D-R,538
+2016,presidential,2016-11-08,2016-PRES-SD,PRES,SD,,,Hillary Rodham Clinton,DEM,31.737,Donald Trump,REP,61.531,-29.793,D-R,538
+2016,presidential,2016-11-08,2016-PRES-TN,PRES,TN,,,Hillary Rodham Clinton,DEM,34.716,Donald Trump,REP,60.722,-26.006,D-R,538
+2016,presidential,2016-11-08,2016-PRES-TX,PRES,TX,,,Hillary Rodham Clinton,DEM,43.235,Donald Trump,REP,52.235,-8.999,D-R,538
+2016,presidential,2016-11-08,2016-PRES-US,PRES,US,,,Hillary Rodham Clinton,DEM,47.997,Donald Trump,REP,45.815,2.181,D-R,538
+2016,presidential,2016-11-08,2016-PRES-UT,PRES,UT,,,Hillary Rodham Clinton,DEM,27.46,Donald Trump,REP,45.538,-18.078,D-R,538
+2016,presidential,2016-11-08,2016-PRES-VA,PRES,VA,,,Hillary Rodham Clinton,DEM,49.728,Donald Trump,REP,44.407,5.321,D-R,538
+2016,presidential,2016-11-08,2016-PRES-VT,PRES,VT,,,Hillary Rodham Clinton,DEM,56.678,Donald Trump,REP,30.269,26.408,D-R,538
+2016,presidential,2016-11-08,2016-PRES-WA,PRES,WA,,,Hillary Rodham Clinton,DEM,52.539,Donald Trump,REP,36.833,15.706,D-R,538
+2016,presidential,2016-11-08,2016-PRES-WI,PRES,WI,,,Hillary Rodham Clinton,DEM,46.454,Donald Trump,REP,47.218,-0.764,D-R,538
+2016,presidential,2016-11-08,2016-PRES-WV,PRES,WV,,,Hillary Rodham Clinton,DEM,26.426,Donald Trump,REP,68.499,-42.073,D-R,538
+2016,presidential,2016-11-08,2016-PRES-WY,PRES,WY,,,Hillary Rodham Clinton,DEM,21.877,Donald Trump,REP,68.173,-46.295,D-R,538
+2016,presidential,2016-11-08,2016-SEN-AK,SEN,AK,,,Ray Metcalfe,DEM,11.623,Lisa Murkowski,REP,44.358,-32.735,D-R,538
+2016,presidential,2016-11-08,2016-SEN-AL,SEN,AL,,,Ronald Steven Crumpton,DEM,35.867,Richard C. Shelby,REP,63.959,-28.092,D-R,538
+2016,presidential,2016-11-08,2016-SEN-AR,SEN,AR,,,Conner W. Eldridge,DEM,36.171,John Boozman,REP,59.772,-23.601,D-R,538
+2016,presidential,2016-11-08,2016-SEN-AZ,SEN,AZ,,,Ann Kirkpatrick,DEM,40.749,John McCain,REP,53.71,-12.962,D-R,538
+2016,presidential,2016-11-08,2016-SEN-CA,SEN,CA,,,Kamala Harris,DEM,61.603,Loretta Sanchez,DEM,38.397,23.206,same-party,538
+2016,presidential,2016-11-08,2016-SEN-CO,SEN,CO,,,Michael Bennet,DEM,49.971,Darryl Glenn,REP,44.306,5.665,D-R,538
+2016,presidential,2016-11-08,2016-SEN-CT,SEN,CT,,,Richard Blumenthal,DEM,57.682,Dan Carter,REP,34.619,23.063,D-R,538
+2016,presidential,2016-11-08,2016-SEN-FL,SEN,FL,,,Patrick Murphy,DEM,44.315,Marco Rubio,REP,51.981,-7.666,D-R,538
+2016,presidential,2016-11-08,2016-SEN-GA,SEN,GA,,,Jim Barksdale,DEM,41.033,Johnny Isakson,REP,54.784,-13.751,D-R,538
+2016,presidential,2016-11-08,2016-SEN-HI,SEN,HI,,,Brian Schatz,DEM,73.603,John Stanley Carroll,REP,22.242,51.361,D-R,538
+2016,presidential,2016-11-08,2016-SEN-IA,SEN,IA,,,Patty Judge,DEM,35.655,Chuck Grassley,REP,60.09,-24.435,D-R,538
+2016,presidential,2016-11-08,2016-SEN-ID,SEN,ID,,,Jerry Sturgill,DEM,27.727,Mike Crapo,REP,66.135,-38.408,D-R,538
+2016,presidential,2016-11-08,2016-SEN-IL,SEN,IL,,,Tammy Duckworth,DEM,54.862,Mark Kirk,REP,39.78,15.081,D-R,538
+2016,presidential,2016-11-08,2016-SEN-IN,SEN,IN,,,Evan Bayh,DEM,42.413,Todd Young,REP,52.112,-9.7,D-R,538
+2016,presidential,2016-11-08,2016-SEN-KS,SEN,KS,,,Patrick Wiesner,DEM,32.238,Jerry Moran,REP,62.175,-29.937,D-R,538
+2016,presidential,2016-11-08,2016-SEN-KY,SEN,KY,,,Jim Gray,DEM,42.725,Rand Paul,REP,57.273,-14.549,D-R,538
+2016,presidential,2016-12-10,2016-SEN-LA-R,SEN,LA,,R,Foster L. Campbell,DEM,39.345,John Kennedy,REP,60.655,-21.309,D-R,538
+2016,presidential,2016-11-08,2016-SEN-MD,SEN,MD,,,Chris Van Hollen,DEM,60.888,Kathy Szeliga,REP,35.675,25.213,D-R,538
+2016,presidential,2016-11-08,2016-SEN-MO,SEN,MO,,,Jason Kander,DEM,46.392,Roy Blunt,REP,49.184,-2.792,D-R,538
+2016,presidential,2016-11-08,2016-SEN-NC,SEN,NC,,,Deborah K. Ross,DEM,45.366,Richard Burr,REP,51.062,-5.696,D-R,538
+2016,presidential,2016-11-08,2016-SEN-ND,SEN,ND,,,Eliot Glassheim,DEM,16.968,John Hoeven,REP,78.478,-61.51,D-R,538
+2016,presidential,2016-11-08,2016-SEN-NH,SEN,NH,,,Maggie Hassan,DEM,47.981,Kelly Ayotte,REP,47.844,0.138,D-R,538
+2016,presidential,2016-11-08,2016-SEN-NV,SEN,NV,,,Catherine Cortez Masto,DEM,47.099,Joseph J. Heck,REP,44.67,2.429,D-R,538
+2016,presidential,2016-11-08,2016-SEN-NY,SEN,NY,,,Charles E. Schumer,DEM,65.618,Wendy E. Long,REP,23.644,41.973,D-R,538
+2016,presidential,2016-11-08,2016-SEN-OH,SEN,OH,,,Ted Strickland,DEM,37.158,Rob Portman,REP,58.029,-20.871,D-R,538
+2016,presidential,2016-11-08,2016-SEN-OK,SEN,OK,,,Mike Workman,DEM,24.579,James Lankford,REP,67.739,-43.16,D-R,538
+2016,presidential,2016-11-08,2016-SEN-OR,SEN,OR,,,Ron Wyden,DEM,56.601,Mark Callahan,REP,33.348,23.253,D-R,538
+2016,presidential,2016-11-08,2016-SEN-PA,SEN,PA,,,Kathleen Alana McGinty,DEM,47.341,Patrick J. Toomey,REP,48.774,-1.432,D-R,538
+2016,presidential,2016-11-08,2016-SEN-SC,SEN,SC,,,Thomas Dixon,DEM,34.37,Tim Scott,REP,60.569,-26.2,D-R,538
+2016,presidential,2016-11-08,2016-SEN-SD,SEN,SD,,,Jay H. Williams,DEM,28.172,John R. Thune,REP,71.828,-43.656,D-R,538
+2016,presidential,2016-11-08,2016-SEN-UT,SEN,UT,,,Misty Katherine Snow,DEM,27.058,Mike Lee,REP,68.146,-41.088,D-R,538
+2016,presidential,2016-11-08,2016-SEN-VT,SEN,VT,,,Patrick J. Leahy,DEM,61.261,Scott Milne,REP,33.026,28.236,D-R,538
+2016,presidential,2016-11-08,2016-SEN-WA,SEN,WA,,,Patty Murray,DEM,59.013,Chris Vance,REP,40.987,18.026,D-R,538
+2016,presidential,2016-11-08,2016-SEN-WI,SEN,WI,,,Russ Feingold,DEM,46.811,Ron Johnson,REP,50.173,-3.362,D-R,538

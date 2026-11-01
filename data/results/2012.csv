@@ -1,0 +1,191 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2012,presidential,2012-11-06,2012-GOV-IN,GOV,IN,,,John R. Gregg,DEM,46.56,Mike Pence,REP,49.486,-2.926,D-R,538
+2012,presidential,2012-11-06,2012-GOV-MO,GOV,MO,,,Jay Nixon,DEM,54.77,David Spence,REP,42.534,12.236,D-R,538
+2012,presidential,2012-11-06,2012-GOV-MT,GOV,MT,,,Steve Bullock,DEM,48.905,Richard A. Hill,REP,47.339,1.566,D-R,538
+2012,presidential,2012-11-06,2012-GOV-NC,GOV,NC,,,Walter H. Dalton,DEM,43.229,Pat McCrory,REP,54.623,-11.394,D-R,538
+2012,presidential,2012-11-06,2012-GOV-ND,GOV,ND,,,Ryan M. Taylor,DEM,34.312,Jack Dalrymple,REP,63.095,-28.783,D-R,538
+2012,presidential,2012-11-06,2012-GOV-NH,GOV,NH,,,Maggie Hassan,DEM,54.611,Ovide Lamontagne,REP,42.518,12.093,D-R,538
+2012,presidential,2012-11-06,2012-GOV-UT,GOV,UT,,,Peter S. Cooke,DEM,27.582,Gary Richard Herbert,REP,68.413,-40.831,D-R,538
+2012,presidential,2012-11-06,2012-GOV-WA,GOV,WA,,,Jay Robert Inslee,DEM,51.539,Rob McKenna,REP,48.461,3.079,D-R,538
+2012,presidential,2012-06-05,2012-GOV-WI-S,GOV,WI,,S,Thomas M. Barrett,DEM,46.282,Scott Walker,REP,53.082,-6.8,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AR-1,HOUSE,AR,1,,Scott Ellington,DEM,39.135,Rick Crawford,REP,56.23,-17.095,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AR-2,HOUSE,AR,2,,Herb Rule,DEM,39.482,Tim Griffin,REP,55.191,-15.708,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AR-3,HOUSE,AR,3,,Rebekah J. Kennedy,GRE,16.005,Steve Womack,REP,75.905,-59.899,X-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AR-4,HOUSE,AR,4,,Harmon Jeffress,DEM,36.691,Tom Cotton,REP,59.528,-22.837,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AZ-1,HOUSE,AZ,1,,Ann Kirkpatrick,DEM,48.798,Jonathan Paton,REP,45.15,3.649,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AZ-2,HOUSE,AZ,2,,Ron Barber,DEM,50.41,Martha McSally,REP,49.57,0.84,D-R,538
+2012,presidential,2012-06-12,2012-HOUSE-AZ-8-S,HOUSE,AZ,8,S,Ron Barber,DEM,52.322,Jesse Kelly,REP,45.387,6.935,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-AZ-9,HOUSE,AZ,9,,Kyrsten Sinema,DEM,48.727,Vernon B. Parker,REP,44.629,4.098,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-10,HOUSE,CA,10,,Jose Hernandez,DEM,47.292,Jeff Denham,REP,52.708,-5.416,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-21,HOUSE,CA,21,,John S. Hernandez,DEM,42.241,David G. Valadao,REP,57.759,-15.518,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-24,HOUSE,CA,24,,Lois Capps,DEM,55.097,Abel Maldonado,REP,44.903,10.195,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-30,HOUSE,CA,30,,Brad Sherman,DEM,60.301,Howard L. Berman,DEM,39.699,20.601,same-party,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-36,HOUSE,CA,36,,Raul Ruiz,DEM,52.939,Mary Whitaker Bono Mack,REP,47.061,5.879,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-44,HOUSE,CA,44,,Janice Hahn,DEM,60.223,Laura Richardson,DEM,39.777,20.446,same-party,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-52,HOUSE,CA,52,,Scott Peters,DEM,51.181,Brian P. Bilbray,REP,48.819,2.363,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-7,HOUSE,CA,7,,Ami Bera,DEM,51.682,Dan Lungren,REP,48.318,3.363,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CA-9,HOUSE,CA,9,,Jerry McNerney,DEM,55.554,Ricky Gill,REP,44.446,11.108,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CO-3,HOUSE,CO,3,,Salvatore Pace,DEM,41.071,Scott Tipton,REP,53.36,-12.289,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CO-6,HOUSE,CO,6,,Joe Miklosi,DEM,45.766,Mike Coffman,REP,47.807,-2.042,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-CT-5,HOUSE,CT,5,,Elizabeth H. Esty,DEM,48.333,Andrew W. Roraback,REP,45.276,3.057,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-10,HOUSE,FL,10,,Val Demings,DEM,48.253,Daniel Webster,REP,51.733,-3.48,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-13,HOUSE,FL,13,,Jessica Ehrlich,DEM,42.43,Charles William Young,REP,57.57,-15.14,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-16,HOUSE,FL,16,,Keith Fitzgerald,DEM,46.388,Vern Buchanan,REP,53.612,-7.224,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-18,HOUSE,FL,18,,Patrick Murphy,DEM,50.28,Allen West,REP,49.704,0.576,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-2,HOUSE,FL,2,,Al Lawson,DEM,47.236,Steve Southerland II,REP,52.696,-5.46,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-22,HOUSE,FL,22,,Lois Frankel,DEM,54.627,Adam Hasner,REP,45.373,9.254,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-23,HOUSE,FL,23,,Debbie Wasserman Schultz,DEM,63.248,Karen Harrington,REP,35.616,27.633,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-26,HOUSE,FL,26,,Joe Garcia,DEM,53.643,David Rivera,REP,43.019,10.624,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-FL-9,HOUSE,FL,9,,Alan Grayson,DEM,62.519,William Todd Long,REP,37.481,25.037,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-GA-12,HOUSE,GA,12,,John Barrow,DEM,53.7,Lee I. Anderson,REP,46.3,7.4,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,48.479,Generic Candidate,REP,47.388,1.09,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-HI-1,HOUSE,HI,1,,Colleen W. Hanabusa,DEM,54.613,Charles K. Djou,REP,45.387,9.226,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-HI-2,HOUSE,HI,2,,Tulsi Gabbard,DEM,80.543,Kawika Crowley,REP,19.457,61.085,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IA-1,HOUSE,IA,1,,Bruce L. Braley,DEM,56.907,Benjamin M. Lange,REP,41.567,15.34,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IA-3,HOUSE,IA,3,,Leonard L. Boswell,DEM,43.592,Tom Latham,REP,52.218,-8.626,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IA-4,HOUSE,IA,4,,Christie Vilsack,DEM,44.847,Steve King,REP,52.943,-8.096,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-10,HOUSE,IL,10,,Brad Schneider,DEM,50.629,Robert Dold,REP,49.371,1.258,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-11,HOUSE,IL,11,,Bill Foster,DEM,58.565,Judy Biggert,REP,41.427,17.138,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-12,HOUSE,IL,12,,William L. Enyart,DEM,51.653,Jason Plummer,REP,42.738,8.915,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-13,HOUSE,IL,13,,David M. Gill,DEM,46.209,Rodney Davis,REP,46.549,-0.34,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-17,HOUSE,IL,17,,Cheri Bustos,DEM,53.275,Robert Schilling,REP,46.718,6.557,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-2,HOUSE,IL,2,,Jesse Louis Jackson,DEM,63.25,Brian Woodworth,REP,23.215,40.035,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-IL-8,HOUSE,IL,8,,Tammy Duckworth,DEM,54.742,Joe Walsh,REP,45.258,9.484,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-KY-6,HOUSE,KY,6,,Albert Ben Chandler,DEM,46.679,Andy Barr,REP,50.568,-3.889,D-R,538
+2012,presidential,2012-12-08,2012-HOUSE-LA-3-R,HOUSE,LA,3,R,Charles W. Boustany Jr.,REP,60.898,Jeff Landry,REP,39.102,21.797,same-party,538
+2012,presidential,2012-11-06,2012-HOUSE-MA-6,HOUSE,MA,6,,John F. Tierney,DEM,46.413,Richard R. Tisei,REP,45.302,1.111,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MD-6,HOUSE,MD,6,,John K. Delaney,DEM,58.77,Roscoe G. Bartlett,REP,37.898,20.872,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-ME-1,HOUSE,ME,1,,Chellie M. Pingree,DEM,64.792,Jonathan T.E. Courtney,REP,35.208,29.584,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-ME-2,HOUSE,ME,2,,Michael H. Michaud,DEM,58.194,Kevin L. Raye,REP,41.806,16.387,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MI-1,HOUSE,MI,1,,Gary McDowell,DEM,47.597,Dan Benishek,REP,48.139,-0.542,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MI-11,HOUSE,MI,11,,Syed Taj,DEM,44.362,Kerry L. Bentivolio,REP,50.759,-6.397,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MI-3,HOUSE,MI,3,,Steven M. Pestka,DEM,44.167,Justin Amash,REP,52.615,-8.449,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MI-6,HOUSE,MI,6,,Mike O'Brien,DEM,42.613,Fred Upton,REP,54.592,-11.98,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MI-9,HOUSE,MI,9,,Sander M. Levin,DEM,61.914,Don Volaric,REP,34.022,27.893,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MN-2,HOUSE,MN,2,,Mike Obermueller,DEM,45.847,John Kline,REP,54.007,-8.16,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MN-6,HOUSE,MN,6,,Jim Graves,DEM,49.259,Michele Bachmann,REP,50.468,-1.21,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MN-8,HOUSE,MN,8,,Richard M. Nolan,DEM,54.282,Chip Cravaack,REP,45.388,8.894,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-MT-1,HOUSE,MT,1,,Kim J. Gillan,DEM,42.719,Steve Daines,REP,53.251,-10.533,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NC-7,HOUSE,NC,7,,Mike McIntyre,DEM,50.097,David Rouzer,REP,49.903,0.194,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NC-8,HOUSE,NC,8,,Lawrence Webb Kissell,DEM,45.368,Richard Hudson,REP,53.161,-7.793,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NC-9,HOUSE,NC,9,,Jennifer Roberts,DEM,45.65,Robert Pittenger,REP,51.781,-6.131,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-ND-1,HOUSE,ND,1,,Pam Gulleson,DEM,41.701,Kevin Cramer,REP,54.893,-13.192,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NE-1,HOUSE,NE,1,,Korey L. Reiman,DEM,31.709,Jeff Fortenberry,REP,68.291,-36.581,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NE-2,HOUSE,NE,2,,John W. Ewing,DEM,49.204,Lee Terry,REP,50.796,-1.591,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NE-3,HOUSE,NE,3,,Roger Mark Sullivan,DEM,25.829,Adrian Smith,REP,74.171,-48.343,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NH-1,HOUSE,NH,1,,Carol Shea-Porter,DEM,49.75,Frank C. Guinta,REP,45.985,3.765,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NH-2,HOUSE,NH,2,,Ann McLane Kuster,DEM,50.171,Charles Bass,REP,45.341,4.831,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NJ-2,HOUSE,NJ,2,,Cassandra Shober,DEM,40.289,Frank A. LoBiondo,REP,57.66,-17.371,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NJ-3,HOUSE,NJ,3,,Shelley Adler,DEM,44.854,Jon Runyan,REP,53.716,-8.862,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NM-1,HOUSE,NM,1,,Michelle Lujan Grisham,DEM,59.061,Janice E. Arnold-Jones,REP,40.772,18.289,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NM-2,HOUSE,NM,2,,Evelyn Madrid Erhard,DEM,40.867,Stevan Pearce,REP,59.056,-18.189,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NM-3,HOUSE,NM,3,,Ben Ray Luján,DEM,63.125,Jefferson L. Byrd,REP,36.875,26.249,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NV-3,HOUSE,NV,3,,John W. Oceguera,DEM,42.867,Joseph J. Heck,REP,50.361,-7.493,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NV-4,HOUSE,NV,4,,Steven A. Horsford,DEM,50.106,Danny Tarkanian,REP,42.106,8.0,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-1,HOUSE,NY,1,,Timothy H. Bishop,DEM,45.558,Randolph Altschuler,REP,36.214,9.345,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-11,HOUSE,NY,11,,Mark S. Murphy,DEM,40.846,Michael G. Grimm,REP,42.388,-1.542,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-18,HOUSE,NY,18,,Sean Patrick Maloney,DEM,44.834,Nan Hayworth,REP,38.379,6.455,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-19,HOUSE,NY,19,,Julian Schreibman,DEM,39.33,Christopher P. Gibson,REP,40.098,-0.769,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-20,HOUSE,NY,20,,Paul D. Tonko,DEM,57.005,Bob Dieterich,REP,24.9,32.105,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-21,HOUSE,NY,21,,William L. Owens,DEM,43.855,Matthew A. Doheny,REP,38.836,5.019,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-23,HOUSE,NY,23,,Nathan I. Shinagawa,DEM,40.955,Thomas Reed,REP,42.045,-1.09,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-24,HOUSE,NY,24,,Daniel B. Maffei,DEM,44.112,Ann Marie Buerkle,REP,34.781,9.33,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-25,HOUSE,NY,25,,Louise McIntosh Slaughter,DEM,52.287,Maggie Brooks,REP,33.862,18.425,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-27,HOUSE,NY,27,,Kathy C. Hochul,DEM,42.457,Chris Collins,REP,41.62,0.836,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-NY-6,HOUSE,NY,6,,Grace Meng,DEM,57.51,Daniel J. Halloran,REP,24.604,32.907,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-OH-16,HOUSE,OH,16,,Betty Sutton,DEM,47.953,Jim Renacci,REP,52.047,-4.094,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-OH-6,HOUSE,OH,6,,Charles A. Wilson,DEM,46.749,Bill Johnson,REP,53.251,-6.503,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-OK-2,HOUSE,OK,2,,Rob Wallace,DEM,38.339,Markwayne Mullin,REP,57.34,-19.001,D-R,538
+2012,presidential,2012-01-31,2012-HOUSE-OR-1-S,HOUSE,OR,1,S,Suzanne Bonamici,DEM,53.806,Robert Y. Cornilles,REP,39.569,14.238,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-PA-12,HOUSE,PA,12,,Mark S. Critz,DEM,48.265,Keith J. Rothfus,REP,51.735,-3.471,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-PA-4,HOUSE,PA,4,,Harry Perkinson,DEM,34.424,Scott Perry,REP,59.742,-25.317,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-RI-1,HOUSE,RI,1,,David N. Cicilline,DEM,52.952,Brendan P. Doherty,REP,40.824,12.127,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-RI-2,HOUSE,RI,2,,Jim Langevin,DEM,55.72,Michael G. Riley,REP,35.116,20.605,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-SC-7,HOUSE,SC,7,,Gloria Bromell-Tinubu,DEM,41.559,Tom Rice,REP,55.512,-13.953,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-SD-1,HOUSE,SD,1,,Matt Varilek,DEM,42.55,Kristi Noem,REP,57.45,-14.899,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-TN-4,HOUSE,TN,4,,Eric Stewart,DEM,44.244,Scott DesJarlais,REP,55.756,-11.512,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-TX-23,HOUSE,TX,23,,Pete P. Gallego,DEM,50.308,Francisco R. Canseco,REP,45.557,4.751,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-UT-1,HOUSE,UT,1,,Donna M. McAleer,DEM,24.686,Rob Bishop,REP,71.473,-46.787,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-UT-2,HOUSE,UT,2,,F. Jay Seegmiller,DEM,33.465,Chris Stewart,REP,62.171,-28.706,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-UT-3,HOUSE,UT,3,,Søren D. Simonsen,DEM,23.394,Jason Chaffetz,REP,76.606,-53.212,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-UT-4,HOUSE,UT,4,,Jim Matheson,DEM,48.844,Mia B. Love,REP,48.531,0.313,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-VA-2,HOUSE,VA,2,,Paul O. Hirschbiel,DEM,46.099,E. Scott Rigell,REP,53.758,-7.659,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-WA-1,HOUSE,WA,1,,Suzan DelBene,DEM,53.936,John Koster,REP,46.064,7.872,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-WA-6,HOUSE,WA,6,,Derek Kilmer,DEM,58.998,Bill Driscoll,REP,41.002,17.996,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-WI-1,HOUSE,WI,1,,Rob T. Zerban,DEM,43.394,Paul Ryan,REP,54.902,-11.507,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-WI-7,HOUSE,WI,7,,Pat Kreitlow,DEM,43.797,Sean Duffy,REP,56.085,-12.288,D-R,538
+2012,presidential,2012-11-06,2012-HOUSE-WI-8,HOUSE,WI,8,,Jamie Wall,DEM,43.967,Reid J. Ribble,REP,55.948,-11.981,D-R,538
+2012,presidential,2012-11-06,2012-PRES-AR,PRES,AR,,,Barack Obama,DEM,36.879,Mitt Romney,REP,60.567,-23.688,D-R,538
+2012,presidential,2012-11-06,2012-PRES-AZ,PRES,AZ,,,Barack Obama,DEM,44.59,Mitt Romney,REP,53.655,-9.065,D-R,538
+2012,presidential,2012-11-06,2012-PRES-CA,PRES,CA,,,Barack Obama,DEM,60.239,Mitt Romney,REP,37.12,23.119,D-R,538
+2012,presidential,2012-11-06,2012-PRES-CO,PRES,CO,,,Barack Obama,DEM,51.492,Mitt Romney,REP,46.127,5.365,D-R,538
+2012,presidential,2012-11-06,2012-PRES-CT,PRES,CT,,,Barack Obama,DEM,58.057,Mitt Romney,REP,40.725,17.331,D-R,538
+2012,presidential,2012-11-06,2012-PRES-DC,PRES,DC,,,Barack Obama,DEM,90.913,Mitt Romney,REP,7.278,83.635,D-R,538
+2012,presidential,2012-11-06,2012-PRES-FL,PRES,FL,,,Barack Obama,DEM,50.008,Mitt Romney,REP,49.131,0.877,D-R,538
+2012,presidential,2012-11-06,2012-PRES-GA,PRES,GA,,,Barack Obama,DEM,45.482,Mitt Romney,REP,53.299,-7.817,D-R,538
+2012,presidential,2012-11-06,2012-PRES-HI,PRES,HI,,,Barack Obama,DEM,70.545,Mitt Romney,REP,27.839,42.706,D-R,538
+2012,presidential,2012-11-06,2012-PRES-IA,PRES,IA,,,Barack Obama,DEM,51.988,Mitt Romney,REP,46.178,5.81,D-R,538
+2012,presidential,2012-11-06,2012-PRES-ID,PRES,ID,,,Barack Obama,DEM,32.622,Mitt Romney,REP,64.53,-31.907,D-R,538
+2012,presidential,2012-11-06,2012-PRES-IL,PRES,IL,,,Barack Obama,DEM,57.602,Mitt Romney,REP,40.733,16.869,D-R,538
+2012,presidential,2012-11-06,2012-PRES-IN,PRES,IN,,,Barack Obama,DEM,43.927,Mitt Romney,REP,54.126,-10.198,D-R,538
+2012,presidential,2012-11-06,2012-PRES-KY,PRES,KY,,,Barack Obama,DEM,37.801,Mitt Romney,REP,60.493,-22.692,D-R,538
+2012,presidential,2012-11-06,2012-PRES-LA,PRES,LA,,,Barack Obama,DEM,40.577,Mitt Romney,REP,57.785,-17.207,D-R,538
+2012,presidential,2012-11-06,2012-PRES-M1,PRES,M1,,,Barack Obama,DEM,59.568,Mitt Romney,REP,38.176,21.393,D-R,538
+2012,presidential,2012-11-06,2012-PRES-M2,PRES,M2,,,Barack Obama,DEM,52.94,Mitt Romney,REP,44.379,8.561,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MA,PRES,MA,,,Barack Obama,DEM,60.338,Mitt Romney,REP,37.319,23.019,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MD,PRES,MD,,,Barack Obama,DEM,61.974,Mitt Romney,REP,35.898,26.076,D-R,538
+2012,presidential,2012-11-06,2012-PRES-ME,PRES,ME,,,Barack Obama,DEM,56.27,Mitt Romney,REP,40.982,15.288,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MI,PRES,MI,,,Barack Obama,DEM,54.208,Mitt Romney,REP,44.711,9.497,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MN,PRES,MN,,,Barack Obama,DEM,52.652,Mitt Romney,REP,44.958,7.694,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MO,PRES,MO,,,Barack Obama,DEM,44.383,Mitt Romney,REP,53.764,-9.38,D-R,538
+2012,presidential,2012-11-06,2012-PRES-MT,PRES,MT,,,Barack Obama,DEM,41.698,Mitt Romney,REP,55.352,-13.653,D-R,538
+2012,presidential,2012-11-06,2012-PRES-N2,PRES,N2,,,Barack Obama,DEM,45.698,Mitt Romney,REP,52.854,-7.156,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NC,PRES,NC,,,Barack Obama,DEM,48.351,Mitt Romney,REP,50.393,-2.042,D-R,538
+2012,presidential,2012-11-06,2012-PRES-ND,PRES,ND,,,Barack Obama,DEM,38.697,Mitt Romney,REP,58.316,-19.618,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NE,PRES,NE,,,Barack Obama,DEM,38.027,Mitt Romney,REP,59.803,-21.776,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NH,PRES,NH,,,Barack Obama,DEM,51.98,Mitt Romney,REP,46.404,5.576,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NJ,PRES,NJ,,,Barack Obama,DEM,58.342,Mitt Romney,REP,40.624,17.719,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NM,PRES,NM,,,Barack Obama,DEM,52.993,Mitt Romney,REP,42.843,10.149,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NV,PRES,NV,,,Barack Obama,DEM,52.356,Mitt Romney,REP,45.675,6.681,D-R,538
+2012,presidential,2012-11-06,2012-PRES-NY,PRES,NY,,,Barack Obama,DEM,60.761,Mitt Romney,REP,31.242,29.519,D-R,538
+2012,presidential,2012-11-06,2012-PRES-OH,PRES,OH,,,Barack Obama,DEM,50.667,Mitt Romney,REP,47.688,2.978,D-R,538
+2012,presidential,2012-11-06,2012-PRES-OK,PRES,OK,,,Barack Obama,DEM,33.228,Mitt Romney,REP,66.772,-33.545,D-R,538
+2012,presidential,2012-11-06,2012-PRES-OR,PRES,OR,,,Barack Obama,DEM,54.239,Mitt Romney,REP,42.15,12.089,D-R,538
+2012,presidential,2012-11-06,2012-PRES-PA,PRES,PA,,,Barack Obama,DEM,51.972,Mitt Romney,REP,46.587,5.385,D-R,538
+2012,presidential,2012-11-06,2012-PRES-RI,PRES,RI,,,Barack Obama,DEM,62.507,Mitt Romney,REP,35.135,27.373,D-R,538
+2012,presidential,2012-11-06,2012-PRES-SD,PRES,SD,,,Barack Obama,DEM,39.866,Mitt Romney,REP,57.889,-18.023,D-R,538
+2012,presidential,2012-11-06,2012-PRES-TN,PRES,TN,,,Barack Obama,DEM,39.076,Mitt Romney,REP,59.479,-20.403,D-R,538
+2012,presidential,2012-11-06,2012-PRES-TX,PRES,TX,,,Barack Obama,DEM,41.383,Mitt Romney,REP,57.167,-15.784,D-R,538
+2012,presidential,2012-11-06,2012-PRES-US,PRES,US,,,Barack Obama,DEM,50.909,Mitt Romney,REP,46.974,3.935,D-R,538
+2012,presidential,2012-11-06,2012-PRES-UT,PRES,UT,,,Barack Obama,DEM,24.75,Mitt Romney,REP,72.791,-48.041,D-R,538
+2012,presidential,2012-11-06,2012-PRES-VA,PRES,VA,,,Barack Obama,DEM,51.156,Mitt Romney,REP,47.283,3.873,D-R,538
+2012,presidential,2012-11-06,2012-PRES-WA,PRES,WA,,,Barack Obama,DEM,56.163,Mitt Romney,REP,41.295,14.869,D-R,538
+2012,presidential,2012-11-06,2012-PRES-WI,PRES,WI,,,Barack Obama,DEM,52.776,Mitt Romney,REP,45.938,6.838,D-R,538
+2012,presidential,2012-11-06,2012-SEN-AZ,SEN,AZ,,,Richard Carmona,DEM,46.204,Jeff Flake,REP,49.231,-3.027,D-R,538
+2012,presidential,2012-11-06,2012-SEN-CA,SEN,CA,,,Dianne Feinstein,DEM,62.524,Elizabeth Emken,REP,37.476,25.049,D-R,538
+2012,presidential,2012-11-06,2012-SEN-CT,SEN,CT,,,Christopher Murphy,DEM,52.454,Linda McMahon,REP,39.991,12.463,D-R,538
+2012,presidential,2012-11-06,2012-SEN-FL,SEN,FL,,,Bill Nelson,DEM,55.232,Connie Mack,REP,42.226,13.006,D-R,538
+2012,presidential,2012-11-06,2012-SEN-HI,SEN,HI,,,Mazie Hirono,DEM,62.602,Linda Lingle,REP,37.398,25.203,D-R,538
+2012,presidential,2012-11-06,2012-SEN-IN,SEN,IN,,,Joe Donnelly,DEM,50.044,Richard Mourdock,REP,44.28,5.764,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MA,SEN,MA,,,Elizabeth Warren,DEM,53.274,Scott Brown,REP,45.79,7.484,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MD,SEN,MD,,,Benjamin L. Cardin,DEM,55.978,Daniel J. Bongino,REP,26.328,29.649,D-R,538
+2012,presidential,2012-11-06,2012-SEN-ME,SEN,ME,,,Cynthia Dill,DEM,13.26,Charlie Summers,REP,30.745,-17.485,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MI,SEN,MI,,,Debbie Stabenow,DEM,58.798,Pete Hoekstra,REP,37.984,20.814,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MN,SEN,MN,,,Amy Klobuchar,DEM,65.229,Kurt Patrick Bills,REP,30.528,34.701,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MO,SEN,MO,,,Claire McCaskill,DEM,54.814,Todd Akin,REP,39.114,15.701,D-R,538
+2012,presidential,2012-11-06,2012-SEN-MT,SEN,MT,,,Jon Tester,DEM,48.578,Denny Rehberg,REP,44.86,3.718,D-R,538
+2012,presidential,2012-11-06,2012-SEN-ND,SEN,ND,,,Heidi Heitkamp,DEM,50.238,Rick Berg,REP,49.324,0.914,D-R,538
+2012,presidential,2012-11-06,2012-SEN-NE,SEN,NE,,,Bob Kerrey,DEM,42.226,Deb Fischer,REP,57.774,-15.549,D-R,538
+2012,presidential,2012-11-06,2012-SEN-NJ,SEN,NJ,,,Robert Menendez,DEM,58.865,Joe Kyrillos,REP,39.374,19.491,D-R,538
+2012,presidential,2012-11-06,2012-SEN-NM,SEN,NM,,,Martin Heinrich,DEM,51.008,Heather A. Wilson,REP,45.278,5.731,D-R,538
+2012,presidential,2012-11-06,2012-SEN-NV,SEN,NV,,,Shelley Berkley,DEM,44.706,Dean Heller,REP,45.866,-1.16,D-R,538
+2012,presidential,2012-11-06,2012-SEN-NY,SEN,NY,,,Kirsten E. Gillibrand,DEM,62.109,Wendy E. Long,REP,21.283,40.825,D-R,538
+2012,presidential,2012-11-06,2012-SEN-OH,SEN,OH,,,Sherrod Brown,DEM,50.701,Josh Mandel,REP,44.7,6.001,D-R,538
+2012,presidential,2012-11-06,2012-SEN-PA,SEN,PA,,,Robert P. Casey Jr.,DEM,53.69,Tom Smith,REP,44.588,9.102,D-R,538
+2012,presidential,2012-11-06,2012-SEN-RI,SEN,RI,,,Sheldon Whitehouse,DEM,64.811,Barry Hinckley,REP,34.966,29.846,D-R,538
+2012,presidential,2012-11-06,2012-SEN-TN,SEN,TN,,,Mark E. Clayton,DEM,30.407,Bob Corker,REP,64.892,-34.485,D-R,538
+2012,presidential,2012-11-06,2012-SEN-TX,SEN,TX,,,Paul Sadler,DEM,40.623,Ted Cruz,REP,56.456,-15.833,D-R,538
+2012,presidential,2012-11-06,2012-SEN-UT,SEN,UT,,,Scott N. Howell,DEM,29.98,Orrin G. Hatch,REP,65.31,-35.33,D-R,538
+2012,presidential,2012-11-06,2012-SEN-VA,SEN,VA,,,Tim Kaine,DEM,52.866,George F. Allen,REP,46.961,5.905,D-R,538
+2012,presidential,2012-11-06,2012-SEN-WA,SEN,WA,,,Maria Cantwell,DEM,60.451,Michael Baumgartner,REP,39.549,20.902,D-R,538
+2012,presidential,2012-11-06,2012-SEN-WI,SEN,WI,,,Tammy Baldwin,DEM,51.409,Tommy Thompson,REP,45.86,5.549,D-R,538

@@ -1,0 +1,8 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2011,off-year,2011-11-08,2011-GOV-KY,GOV,KY,,,Steve Beshear,DEM,55.722,David L. Williams,REP,35.292,20.43,D-R,538
+2011,off-year,2011-11-08,2011-GOV-MS,GOV,MS,,,Johnny L. DuPree,DEM,39.018,Phil Bryant,REP,60.982,-21.963,D-R,538
+2011,off-year,2011-10-04,2011-GOV-WV-S,GOV,WV,,S,Earl Ray Tomblin,DEM,49.555,Bill Maloney,REP,47.049,2.506,D-R,538
+2011,off-year,2011-07-12,2011-HOUSE-CA-36-S,HOUSE,CA,36,S,Janice Hahn,DEM,54.891,Craig Huey,REP,45.109,9.782,D-R,538
+2011,off-year,2011-09-13,2011-HOUSE-NV-2-S,HOUSE,NV,2,S,Kate Marshall,DEM,36.072,Mark E. Amodei,REP,57.924,-21.852,D-R,538
+2011,off-year,2011-05-24,2011-HOUSE-NY-26-S,HOUSE,NY,26,S,Kathy C. Hochul,DEM,42.68,Jane L. Corwin,REP,32.083,10.597,D-R,538
+2011,off-year,2011-09-13,2011-HOUSE-NY-9-S,HOUSE,NY,9,S,David I. Weprin,DEM,43.924,Bob Turner,REP,45.666,-1.742,D-R,538

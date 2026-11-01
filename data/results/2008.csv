@@ -1,0 +1,196 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2008,presidential,2008-11-04,2008-GOV-DE,GOV,DE,,,Jack Markell,DEM,67.525,William S. Lee,REP,32.05,35.475,D-R,538
+2008,presidential,2008-11-04,2008-GOV-IN,GOV,IN,,,Jill Long Thompson,DEM,40.036,"Mitchell Daniels, Jr.",REP,57.841,-17.806,D-R,538
+2008,presidential,2008-11-04,2008-GOV-MO,GOV,MO,,,Jay Nixon,DEM,58.4,Kenny Hulshof,REP,39.488,18.912,D-R,538
+2008,presidential,2008-11-04,2008-GOV-MT,GOV,MT,,,Brian Schweitzer,DEM,65.471,Roy Brown,REP,32.516,32.955,D-R,538
+2008,presidential,2008-11-04,2008-GOV-NC,GOV,NC,,,Bev Perdue,DEM,50.275,Pat McCrory,REP,46.877,3.397,D-R,538
+2008,presidential,2008-11-04,2008-GOV-ND,GOV,ND,,,Tim Mathern,DEM,23.529,John Hoeven,REP,74.442,-50.914,D-R,538
+2008,presidential,2008-11-04,2008-GOV-NH,GOV,NH,,,John Lynch,DEM,70.181,Joe Kenney,REP,27.624,42.557,D-R,538
+2008,presidential,2008-11-04,2008-GOV-PR,GOV,PR,,,Luis Guillermo Fortuño,PNP,53.062,Aníbal Acevedo-Vilá,PPD,41.43,11.631,other,538
+2008,presidential,2008-11-04,2008-GOV-UT,GOV,UT,,,Bob Springmeyer,DEM,19.725,"Jon M. Huntsman, Jr.",REP,77.634,-57.909,D-R,538
+2008,presidential,2008-11-04,2008-GOV-VT,GOV,VT,,,Gaye Symington,DEM,21.792,Jim Douglas,REP,53.432,-31.64,D-R,538
+2008,presidential,2008-11-04,2008-GOV-WA,GOV,WA,,,Christine Gregoire,DEM,53.24,Dino Rossi,REP,46.76,6.481,D-R,538
+2008,presidential,2008-11-04,2008-GOV-WV,GOV,WV,,,"Joe Manchin, III",DEM,69.807,Russ Weeks,REP,25.732,44.076,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-AK-1,HOUSE,AK,1,,Ethan Berkowitz,DEM,44.975,Don Young,REP,50.142,-5.167,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-AL-2,HOUSE,AL,2,,Bobby N. Bright,DEM,50.233,Jay Love,REP,49.611,0.623,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-AL-5,HOUSE,AL,5,,Rolf Parker Griffith,DEM,51.524,Wayne Parker,REP,47.941,3.583,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-AZ-3,HOUSE,AZ,3,,Bob Lord,DEM,42.07,John B. Shadegg,REP,54.077,-12.008,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CA-11,HOUSE,CA,11,,Jerry McNerney,DEM,55.273,Dean Andal,REP,44.723,10.549,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CA-4,HOUSE,CA,4,,Charles Duane Brown,DEM,49.757,Tom McClintock,REP,50.243,-0.487,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CA-50,HOUSE,CA,50,,Nicholas Leibham,DEM,45.178,Brian P. Bilbray,REP,50.24,-5.061,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CO-4,HOUSE,CO,4,,Betsy Markey,DEM,56.197,Marilyn N. Musgrave,REP,43.803,12.394,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CT-2,HOUSE,CT,2,,Joe Courtney,DEM,61.597,Sean P. Sullivan,REP,32.372,29.225,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-CT-4,HOUSE,CT,4,,Jim Himes,DEM,48.367,Christopher H. Shays,REP,47.56,0.807,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-DE-1,HOUSE,DE,1,,Karen M. Hartley-Nagle,DEM,37.99,Michael N. Castle,REP,61.08,-23.09,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-10,HOUSE,FL,10,,Bob Hackworth,DEM,39.317,Charles William Young,REP,60.68,-21.363,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-13,HOUSE,FL,13,,Christine L. Jennings,DEM,37.491,Vern Buchanan,REP,55.539,-18.048,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-16,HOUSE,FL,16,,Tim Mahoney,DEM,39.907,Thomas J. Rooney,REP,60.093,-20.187,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-18,HOUSE,FL,18,,Annette Taddeo,DEM,42.13,Ileana Ros-Lehtinen,REP,57.87,-15.739,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-21,HOUSE,FL,21,,Raul L. Martinez,DEM,42.099,Lincoln Diaz-Balart,REP,57.901,-15.802,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-24,HOUSE,FL,24,,Suzanne M. Kosmas,DEM,57.201,Tom Feeney,REP,41.114,16.087,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-25,HOUSE,FL,25,,Joe Garcia,DEM,46.946,Mario Diaz-Balart,REP,53.054,-6.109,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-8,HOUSE,FL,8,,Alan Grayson,DEM,52.011,Richard Keller,REP,47.989,4.021,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-FL-9,HOUSE,FL,9,,Bill Mitchell,DEM,36.267,Gus Michael Bilirakis,REP,62.171,-25.904,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-GA-8,HOUSE,GA,8,,James Marshall,DEM,57.244,Richard N. Goddard,REP,42.756,14.487,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,52.93,Generic Candidate,REP,42.38,10.55,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-IA-4,HOUSE,IA,4,,Becky Greenwald,DEM,39.433,Tom Latham,REP,60.567,-21.134,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-ID-1,HOUSE,ID,1,,Walt Minnick,DEM,50.606,William T. Sali,REP,49.394,1.212,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-ID-2,HOUSE,ID,2,,Deborah Holmes,DEM,28.897,Mike Simpson,REP,70.892,-41.995,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-IL-10,HOUSE,IL,10,,Daniel J. Seals,DEM,47.441,Mark Kirk,REP,52.559,-5.118,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-IL-11,HOUSE,IL,11,,Deborah Halvorson,DEM,58.4,Marty Ozinga,REP,34.479,23.921,D-R,538
+2008,presidential,2008-03-08,2008-HOUSE-IL-14-S,HOUSE,IL,14,S,Bill Foster,DEM,52.528,James D. Oberweis,REP,47.472,5.056,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-IN-3,HOUSE,IN,3,,Michael A. Montagano,DEM,39.702,Mark Edward Souder,REP,55.039,-15.337,D-R,538
+2008,presidential,2008-03-11,2008-HOUSE-IN-7-S,HOUSE,IN,7,S,André D. Carson,DEM,54.001,Jonathan R. Elrod,REP,43.073,10.928,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-IN-9,HOUSE,IN,9,,Baron P. Hill,DEM,57.769,Mike Sodrel,REP,38.409,19.36,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-KS-3,HOUSE,KS,3,,Dennis Moore,DEM,56.44,Nick Jordan,REP,39.656,16.785,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-KS-4,HOUSE,KS,4,,Donald Betts,DEM,32.382,Todd Tiahrt,REP,63.41,-31.028,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-KY-2,HOUSE,KY,2,,David E. Boswell,DEM,47.427,S. Brett Guthrie,REP,52.573,-5.146,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-KY-3,HOUSE,KY,3,,John Yarmuth,DEM,59.365,Anne Meagher Northup,REP,40.635,18.731,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-KY-4,HOUSE,KY,4,,Michael Kelley,DEM,36.966,Geoff Davis,REP,63.034,-26.067,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-LA-1,HOUSE,LA,1,,Jim Harlan,DEM,34.318,Steve Scalise,REP,65.682,-31.363,D-R,538
+2008,presidential,2008-12-06,2008-HOUSE-LA-4,HOUSE,LA,4,,Paul J. Carmouche,DEM,47.694,John Fleming,REP,48.072,-0.378,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-LA-6,HOUSE,LA,6,,Donald J. Cazayoux,DEM,40.294,Bill Cassidy,REP,48.119,-7.825,D-R,538
+2008,presidential,2008-05-03,2008-HOUSE-LA-6-S,HOUSE,LA,6,S,Donald J. Cazayoux,DEM,49.203,Woody Jenkins,REP,46.275,2.927,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MD-1,HOUSE,MD,1,,Frank M. Kratovil,DEM,49.119,Andy Harris,REP,48.328,0.791,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-ME-1,HOUSE,ME,1,,Chellie M. Pingree,DEM,54.899,Charlie Summers,REP,45.101,9.798,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-ME-2,HOUSE,ME,2,,Michael H. Michaud,DEM,67.435,John N. Frary,REP,32.565,34.871,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MI-7,HOUSE,MI,7,,Mark Schauer,DEM,48.781,Tim Walberg,REP,46.475,2.306,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MI-9,HOUSE,MI,9,,Gary C. Peters,DEM,52.082,Joseph K. Knollenberg,REP,42.628,9.454,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MN-1,HOUSE,MN,1,,Tim Walz,DEM,62.501,Brian J. Davis,REP,32.928,29.573,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MN-3,HOUSE,MN,3,,Ashwin Madia,DEM,40.852,Erik Paulsen,REP,48.477,-7.625,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MN-6,HOUSE,MN,6,,Elwyn Tinklenberg,DEM,43.433,Michele Bachmann,REP,46.406,-2.973,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MO-6,HOUSE,MO,6,,Kay Waldo Barnes,DEM,36.86,Sam Graves,REP,59.427,-22.568,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MO-9,HOUSE,MO,9,,Judy Baker,DEM,47.488,Blaine Luetkemeyer,REP,49.995,-2.507,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MS-1,HOUSE,MS,1,,Travis W. Childers,DEM,54.471,Greg Davis,REP,43.885,10.586,D-R,538
+2008,presidential,2008-05-13,2008-HOUSE-MS-1-SR,HOUSE,MS,1,SR,Travis W. Childers,DEM,53.781,Greg Davis,REP,46.219,7.562,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-MT-1,HOUSE,MT,1,,John B. Driscoll,DEM,32.425,Denny Rehberg,REP,64.144,-31.72,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NC-8,HOUSE,NC,8,,Lawrence Webb Kissell,DEM,55.382,Robert C. Hayes,REP,44.618,10.764,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-ND-1,HOUSE,ND,1,,Earl Pomeroy,DEM,61.974,Duane Sand,REP,38.026,23.948,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NE-2,HOUSE,NE,2,,James D. Esch,DEM,48.073,Lee Terry,REP,51.927,-3.853,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NH-1,HOUSE,NH,1,,Carol Shea-Porter,DEM,51.76,Jeb E. Bradley,REP,45.864,5.896,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NH-2,HOUSE,NH,2,,Paul W. Hodes,DEM,56.442,Jennifer M. Horn,REP,41.424,15.018,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NJ-2,HOUSE,NJ,2,,David Kurkowski,DEM,39.086,Frank A. LoBiondo,REP,59.057,-19.971,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NJ-3,HOUSE,NJ,3,,John H. Adler,DEM,52.076,Christopher Myers,REP,47.924,4.153,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NJ-7,HOUSE,NJ,7,,Linda Stender,DEM,42.221,Leonard Lance,REP,50.219,-7.998,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NM-1,HOUSE,NM,1,,Martin Heinrich,DEM,55.654,Darren White,REP,44.346,11.309,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NM-2,HOUSE,NM,2,,Harry Teague,DEM,55.958,Edward R. Tinsley,REP,44.042,11.916,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NM-3,HOUSE,NM,3,,Ben Ray Luján,DEM,56.741,Daniel K. East,REP,30.472,26.27,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NV-2,HOUSE,NV,2,,Jill Talbot Derby,DEM,41.438,Dean Heller,REP,51.824,-10.386,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NV-3,HOUSE,NV,3,,Dina Titus,DEM,47.429,Jon C. Porter,REP,42.291,5.138,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NY-25,HOUSE,NY,25,,Daniel B. Maffei,DEM,46.027,Dale A. Sweetland,REP,33.104,12.924,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NY-26,HOUSE,NY,26,,Alice Kryzan,DEM,33.91,Christopher John Lee,REP,38.622,-4.712,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-NY-29,HOUSE,NY,29,,Eric J. Massa,DEM,42.801,John R. Kuhl,REP,37.793,5.008,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OH-1,HOUSE,OH,1,,Steven L. Driehaus,DEM,52.467,Steve Chabot,REP,47.482,4.986,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OH-15,HOUSE,OH,15,,Mary Jo Kilroy,DEM,45.94,Steve Stivers,REP,45.179,0.761,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OH-16,HOUSE,OH,16,,John A. Boccieri,DEM,55.363,Kirk J. Schuring,REP,44.637,10.726,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OH-2,HOUSE,OH,2,,Victoria Wells Wulsin,DEM,37.456,Jean Schmidt,REP,44.831,-7.375,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OH-7,HOUSE,OH,7,,Sharen Swartz Neuhardt,DEM,41.785,Steven Austria,REP,58.215,-16.431,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-OR-5,HOUSE,OR,5,,Kurt Schrader,DEM,54.255,Mike Erickson,REP,38.335,15.92,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-PA-10,HOUSE,PA,10,,Christopher P. Carney,DEM,56.332,Christopher Hackett,REP,43.668,12.663,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-PA-11,HOUSE,PA,11,,Paul E. Kanjorski,DEM,51.627,Lou Barletta,REP,48.373,3.255,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-PA-12,HOUSE,PA,12,,John P. Murtha,DEM,57.852,William Russell,REP,42.148,15.704,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-PA-3,HOUSE,PA,3,,Kathy Dahlkemper,DEM,51.246,Philip English,REP,48.754,2.491,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-PA-4,HOUSE,PA,4,,Jason Altmire,DEM,55.858,Melissa A. Hart,REP,44.142,11.716,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-SC-1,HOUSE,SC,1,,Linda Ketner,DEM,47.889,Henry E. Brown,REP,51.931,-4.041,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-TX-22,HOUSE,TX,22,,Nicholas V. Lampson,DEM,45.36,Pete Olson,REP,52.427,-7.067,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-TX-7,HOUSE,TX,7,,Michael Peter Skelly,DEM,42.361,John Abney Culberson,REP,55.901,-13.54,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-UT-1,HOUSE,UT,1,,Morgan E. Bowen,DEM,30.473,Rob Bishop,REP,64.855,-34.382,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-UT-2,HOUSE,UT,2,,Jim Matheson,DEM,63.351,Bill Dew,REP,34.474,28.876,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-UT-3,HOUSE,UT,3,,Bennion L. Spencer,DEM,28.283,Jason Chaffetz,REP,65.61,-37.327,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-VA-2,HOUSE,VA,2,,Glenn C. Nye,DEM,52.402,Thelma D. Drake,REP,47.462,4.939,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-VA-5,HOUSE,VA,5,,Tom S. Perriello,DEM,50.086,Virgil H. Goode,REP,49.857,0.229,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-WA-4,HOUSE,WA,4,,George B. Fearing,DEM,36.912,Doc Hastings,REP,63.088,-26.176,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-WA-8,HOUSE,WA,8,,Darcy Burner,DEM,47.216,David G. Reichert,REP,52.784,-5.569,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-WI-8,HOUSE,WI,8,,Steven L. Kagen,DEM,53.998,John G. Gard,REP,45.901,8.097,D-R,538
+2008,presidential,2008-11-04,2008-HOUSE-WY-1,HOUSE,WY,1,,Gary Trauner,DEM,42.807,Cynthia M. Lummis,REP,52.625,-9.818,D-R,538
+2008,presidential,2008-11-04,2008-PRES-AK,PRES,AK,,,Barack Obama,DEM,37.889,John McCain,REP,59.425,-21.535,D-R,538
+2008,presidential,2008-11-04,2008-PRES-AL,PRES,AL,,,Barack Obama,DEM,38.74,John McCain,REP,60.317,-21.576,D-R,538
+2008,presidential,2008-11-04,2008-PRES-AR,PRES,AR,,,Barack Obama,DEM,38.865,John McCain,REP,58.716,-19.851,D-R,538
+2008,presidential,2008-11-04,2008-PRES-AZ,PRES,AZ,,,Barack Obama,DEM,45.115,John McCain,REP,53.635,-8.52,D-R,538
+2008,presidential,2008-11-04,2008-PRES-CA,PRES,CA,,,Barack Obama,DEM,61.013,John McCain,REP,36.955,24.058,D-R,538
+2008,presidential,2008-11-04,2008-PRES-CO,PRES,CO,,,Barack Obama,DEM,53.66,John McCain,REP,44.708,8.953,D-R,538
+2008,presidential,2008-11-04,2008-PRES-CT,PRES,CT,,,Barack Obama,DEM,60.589,John McCain,REP,38.221,22.367,D-R,538
+2008,presidential,2008-11-04,2008-PRES-DC,PRES,DC,,,Barack Obama,DEM,92.457,John McCain,REP,6.533,85.925,D-R,538
+2008,presidential,2008-11-04,2008-PRES-DE,PRES,DE,,,Barack Obama,DEM,61.943,John McCain,REP,36.947,24.996,D-R,538
+2008,presidential,2008-11-04,2008-PRES-FL,PRES,FL,,,Barack Obama,DEM,51.033,John McCain,REP,48.215,2.818,D-R,538
+2008,presidential,2008-11-04,2008-PRES-GA,PRES,GA,,,Barack Obama,DEM,46.99,John McCain,REP,52.205,-5.214,D-R,538
+2008,presidential,2008-11-04,2008-PRES-HI,PRES,HI,,,Barack Obama,DEM,71.846,John McCain,REP,26.582,45.264,D-R,538
+2008,presidential,2008-11-04,2008-PRES-IA,PRES,IA,,,Barack Obama,DEM,53.928,John McCain,REP,44.393,9.535,D-R,538
+2008,presidential,2008-11-04,2008-PRES-ID,PRES,ID,,,Barack Obama,DEM,36.091,John McCain,REP,61.517,-25.426,D-R,538
+2008,presidential,2008-11-04,2008-PRES-IL,PRES,IL,,,Barack Obama,DEM,61.918,John McCain,REP,36.781,25.137,D-R,538
+2008,presidential,2008-11-04,2008-PRES-IN,PRES,IN,,,Barack Obama,DEM,49.946,John McCain,REP,48.914,1.032,D-R,538
+2008,presidential,2008-11-04,2008-PRES-KS,PRES,KS,,,Barack Obama,DEM,41.652,John McCain,REP,56.612,-14.96,D-R,538
+2008,presidential,2008-11-04,2008-PRES-KY,PRES,KY,,,Barack Obama,DEM,41.168,John McCain,REP,57.399,-16.231,D-R,538
+2008,presidential,2008-11-04,2008-PRES-LA,PRES,LA,,,Barack Obama,DEM,39.933,John McCain,REP,58.563,-18.63,D-R,538
+2008,presidential,2008-11-04,2008-PRES-M1,PRES,M1,,,Barack Obama,DEM,60.513,John McCain,REP,37.694,22.819,D-R,538
+2008,presidential,2008-11-04,2008-PRES-M2,PRES,M2,,,Barack Obama,DEM,54.607,John McCain,REP,43.353,11.253,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MA,PRES,MA,,,Barack Obama,DEM,61.363,John McCain,REP,35.735,25.628,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MD,PRES,MD,,,Barack Obama,DEM,61.919,John McCain,REP,36.475,25.445,D-R,538
+2008,presidential,2008-11-04,2008-PRES-ME,PRES,ME,,,Barack Obama,DEM,57.706,John McCain,REP,40.384,17.322,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MI,PRES,MI,,,Barack Obama,DEM,57.431,John McCain,REP,40.958,16.473,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MN,PRES,MN,,,Barack Obama,DEM,54.06,John McCain,REP,43.823,10.237,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MO,PRES,MO,,,Barack Obama,DEM,49.293,John McCain,REP,49.426,-0.133,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MS,PRES,MS,,,Barack Obama,DEM,43.002,John McCain,REP,56.176,-13.175,D-R,538
+2008,presidential,2008-11-04,2008-PRES-MT,PRES,MT,,,Barack Obama,DEM,47.25,John McCain,REP,49.513,-2.263,D-R,538
+2008,presidential,2008-11-04,2008-PRES-N2,PRES,N2,,,Barack Obama,DEM,49.966,John McCain,REP,48.753,1.213,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NC,PRES,NC,,,Barack Obama,DEM,49.704,John McCain,REP,49.376,0.329,D-R,538
+2008,presidential,2008-11-04,2008-PRES-ND,PRES,ND,,,Barack Obama,DEM,44.621,John McCain,REP,53.25,-8.63,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NE,PRES,NE,,,Barack Obama,DEM,41.598,John McCain,REP,56.532,-14.934,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NH,PRES,NH,,,Barack Obama,DEM,54.127,John McCain,REP,44.521,9.605,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NJ,PRES,NJ,,,Barack Obama,DEM,57.272,John McCain,REP,41.704,15.568,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NM,PRES,NM,,,Barack Obama,DEM,56.907,John McCain,REP,41.779,15.128,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NV,PRES,NV,,,Barack Obama,DEM,55.147,John McCain,REP,42.654,12.493,D-R,538
+2008,presidential,2008-11-04,2008-PRES-NY,PRES,NY,,,Barack Obama,DEM,60.129,John McCain,REP,31.303,28.826,D-R,538
+2008,presidential,2008-11-04,2008-PRES-OH,PRES,OH,,,Barack Obama,DEM,51.504,John McCain,REP,46.911,4.594,D-R,538
+2008,presidential,2008-11-04,2008-PRES-OK,PRES,OK,,,Barack Obama,DEM,34.355,John McCain,REP,65.645,-31.29,D-R,538
+2008,presidential,2008-11-04,2008-PRES-OR,PRES,OR,,,Barack Obama,DEM,56.749,John McCain,REP,40.401,16.348,D-R,538
+2008,presidential,2008-11-04,2008-PRES-PA,PRES,PA,,,Barack Obama,DEM,54.486,John McCain,REP,44.167,10.318,D-R,538
+2008,presidential,2008-11-04,2008-PRES-RI,PRES,RI,,,Barack Obama,DEM,62.87,John McCain,REP,35.061,27.809,D-R,538
+2008,presidential,2008-11-04,2008-PRES-SC,PRES,SC,,,Barack Obama,DEM,44.897,John McCain,REP,53.874,-8.977,D-R,538
+2008,presidential,2008-11-04,2008-PRES-SD,PRES,SD,,,Barack Obama,DEM,44.747,John McCain,REP,53.159,-8.412,D-R,538
+2008,presidential,2008-11-04,2008-PRES-TN,PRES,TN,,,Barack Obama,DEM,41.829,John McCain,REP,56.897,-15.068,D-R,538
+2008,presidential,2008-11-04,2008-PRES-TX,PRES,TX,,,Barack Obama,DEM,43.683,John McCain,REP,55.452,-11.769,D-R,538
+2008,presidential,2008-11-04,2008-PRES-US,PRES,US,,,Barack Obama,DEM,52.76,John McCain,REP,45.36,7.4,D-R,538
+2008,presidential,2008-11-04,2008-PRES-UT,PRES,UT,,,Barack Obama,DEM,34.406,John McCain,REP,62.584,-28.178,D-R,538
+2008,presidential,2008-11-04,2008-PRES-VA,PRES,VA,,,Barack Obama,DEM,52.629,John McCain,REP,46.331,6.299,D-R,538
+2008,presidential,2008-11-04,2008-PRES-VT,PRES,VT,,,Barack Obama,DEM,67.456,John McCain,REP,30.449,37.006,D-R,538
+2008,presidential,2008-11-04,2008-PRES-WA,PRES,WA,,,Barack Obama,DEM,57.653,John McCain,REP,40.476,17.177,D-R,538
+2008,presidential,2008-11-04,2008-PRES-WI,PRES,WI,,,Barack Obama,DEM,56.218,John McCain,REP,42.314,13.904,D-R,538
+2008,presidential,2008-11-04,2008-PRES-WV,PRES,WV,,,Barack Obama,DEM,42.59,John McCain,REP,55.71,-13.121,D-R,538
+2008,presidential,2008-11-04,2008-PRES-WY,PRES,WY,,,Barack Obama,DEM,32.541,John McCain,REP,64.776,-32.235,D-R,538
+2008,presidential,2008-11-04,2008-SEN-AK,SEN,AK,,,Mark Begich,DEM,47.767,Ted Stevens,REP,46.523,1.244,D-R,538
+2008,presidential,2008-11-04,2008-SEN-AL,SEN,AL,,,Vivian Davis Figures,DEM,36.52,Jeff Sessions,REP,63.362,-26.842,D-R,538
+2008,presidential,2008-11-04,2008-SEN-AR,SEN,AR,,,Mark L. Pryor,DEM,79.533,Rebekah J. Kennedy,GRE,20.467,59.066,other,538
+2008,presidential,2008-11-04,2008-SEN-CO,SEN,CO,,,Mark Udall,DEM,52.796,Bob Schaffer,REP,42.492,10.304,D-R,538
+2008,presidential,2008-11-04,2008-SEN-DE,SEN,DE,,,Joe Biden,DEM,64.687,Christine O'Donnell,REP,35.313,29.373,D-R,538
+2008,presidential,2008-11-04,2008-SEN-GA,SEN,GA,,,Jim Martin,DEM,46.833,Saxby Chambliss,REP,49.756,-2.924,D-R,538
+2008,presidential,2008-12-02,2008-SEN-GA-R,SEN,GA,,R,Jim Martin,DEM,42.56,Saxby Chambliss,REP,57.44,-14.879,D-R,538
+2008,presidential,2008-11-04,2008-SEN-IA,SEN,IA,,,Tom Harkin,DEM,62.656,Christopher Reed,REP,37.261,25.395,D-R,538
+2008,presidential,2008-11-04,2008-SEN-ID,SEN,ID,,,Larry LaRocco,DEM,34.105,James E. Risch,REP,57.654,-23.549,D-R,538
+2008,presidential,2008-11-04,2008-SEN-IL,SEN,IL,,,Richard J. Durbin,DEM,67.841,Steve Sauerberg,REP,28.53,39.311,D-R,538
+2008,presidential,2008-11-04,2008-SEN-KS,SEN,KS,,,Jim Slattery,DEM,36.458,Pat Roberts,REP,60.058,-23.6,D-R,538
+2008,presidential,2008-11-04,2008-SEN-KY,SEN,KY,,,Bruce Lunsford,DEM,47.034,Mitch McConnell,REP,52.966,-5.931,D-R,538
+2008,presidential,2008-11-04,2008-SEN-LA,SEN,LA,,,Mary L. Landrieu,DEM,52.11,John Kennedy,REP,45.723,6.386,D-R,538
+2008,presidential,2008-11-04,2008-SEN-MA,SEN,MA,,,John Kerry,DEM,63.551,Jeffrey K. Beatty,REP,29.844,33.707,D-R,538
+2008,presidential,2008-11-04,2008-SEN-ME,SEN,ME,,,Thomas H. Allen,DEM,38.583,Susan M. Collins,REP,61.331,-22.748,D-R,538
+2008,presidential,2008-11-04,2008-SEN-MI,SEN,MI,,,Carl Levin,DEM,62.665,Jacob W. Hoogendyk Jr.,REP,33.846,28.819,D-R,538
+2008,presidential,2008-11-04,2008-SEN-MN,SEN,MN,,,Al Franken,DEM,41.994,Norm Coleman,REP,41.983,0.011,D-R,538
+2008,presidential,2008-11-04,2008-SEN-MS,SEN,MS,,,Erik R. Fleming,DEM,38.565,Thad Cochran,REP,61.435,-22.87,D-R,538
+2008,presidential,2008-11-04,2008-SEN-MS-S,SEN,MS,,S,Ronnie Musgrove,NPA,45.04,Roger F. Wicker,REP,54.96,-9.919,X-R,538
+2008,presidential,2008-11-04,2008-SEN-MT,SEN,MT,,,Max Baucus,DEM,72.916,Bob Kelleher,REP,27.084,45.832,D-R,538
+2008,presidential,2008-11-04,2008-SEN-NC,SEN,NC,,,Kay R. Hagan,DEM,52.653,Elizabeth H. Dole,REP,44.184,8.469,D-R,538
+2008,presidential,2008-11-04,2008-SEN-NE,SEN,NE,,,Scott Kleeb,DEM,40.057,Mike Johanns,REP,57.52,-17.463,D-R,538
+2008,presidential,2008-11-04,2008-SEN-NH,SEN,NH,,,Jeanne Shaheen,DEM,51.59,John E. Sununu,REP,45.252,6.338,D-R,538
+2008,presidential,2008-11-04,2008-SEN-NJ,SEN,NJ,,,Frank R. Lautenberg,DEM,56.03,Dick Zimmer,REP,41.954,14.076,D-R,538
+2008,presidential,2008-11-04,2008-SEN-NM,SEN,NM,,,Tom Udall,DEM,61.328,Stevan Pearce,REP,38.672,22.656,D-R,538
+2008,presidential,2008-11-04,2008-SEN-OK,SEN,OK,,,Andrew Rice,DEM,39.184,James M. Inhofe,REP,56.68,-17.496,D-R,538
+2008,presidential,2008-11-04,2008-SEN-OR,SEN,OR,,,Jeff Merkley,DEM,48.905,Gordon H. Smith,REP,45.553,3.351,D-R,538
+2008,presidential,2008-11-04,2008-SEN-RI,SEN,RI,,,Jack Reed,DEM,73.071,Robert G. Tingle,REP,26.475,46.596,D-R,538
+2008,presidential,2008-11-04,2008-SEN-SC,SEN,SC,,,Bob Conley,DEM,42.247,Lindsey Graham,REP,57.525,-15.278,D-R,538
+2008,presidential,2008-11-04,2008-SEN-SD,SEN,SD,,,Tim Johnson,DEM,62.492,Joel D. Dykstra,REP,37.508,24.983,D-R,538
+2008,presidential,2008-11-04,2008-SEN-TN,SEN,TN,,,Robert D. Tuke,DEM,31.644,Lamar Alexander,REP,65.144,-33.5,D-R,538
+2008,presidential,2008-11-04,2008-SEN-TX,SEN,TX,,,Rick Noriega,DEM,42.838,John Cornyn,REP,54.821,-11.983,D-R,538
+2008,presidential,2008-11-04,2008-SEN-VA,SEN,VA,,,Mark R. Warner,DEM,65.033,James S. Gilmore III,REP,33.729,31.304,D-R,538
+2008,presidential,2008-11-04,2008-SEN-WV,SEN,WV,,,"John D. Rockefeller, IV",DEM,63.727,Jay Wolfe,REP,36.256,27.471,D-R,538
+2008,presidential,2008-11-04,2008-SEN-WY,SEN,WY,,,Christopher Rothfuss,DEM,24.258,Michael B. Enzi,REP,75.635,-51.377,D-R,538
+2008,presidential,2008-11-04,2008-SEN-WY-S,SEN,WY,,S,Nicholas H. Carter,DEM,26.528,John Barrasso,REP,73.355,-46.827,D-R,538

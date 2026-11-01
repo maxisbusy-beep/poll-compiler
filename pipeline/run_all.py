@@ -1,4 +1,4 @@
-"""Pipeline entry point. Phase 0: writes a status file so the site has data to read.
+"""Pipeline entry point. Writes a status file so the site has data to read.
 
 Later phases replace this with fetch -> parse -> score -> model (SPEC.md section 2).
 """
@@ -14,9 +14,9 @@ SITE_DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 def build_status(now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
     return {
-        "phase": 0,
+        "phase": 1,
         "updated_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "message": "Skeleton only. No polls loaded yet.",
+        "message": "Historical data loaded (538, 1998-2022). No forecast yet.",
     }
 
 

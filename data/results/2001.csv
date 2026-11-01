@@ -1,0 +1,3 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2001,off-year,2001-11-06,2001-GOV-NJ,GOV,NJ,,,James E. McGreevey,DEM,56.433,Bret Schundler,REP,41.675,14.758,D-R,538
+2001,off-year,2001-11-06,2001-GOV-VA,GOV,VA,,,Mark R. Warner,DEM,52.163,Mark Lawrence Earley,REP,47.025,5.138,D-R,538

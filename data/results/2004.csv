@@ -1,0 +1,145 @@
+cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2004,presidential,2004-11-02,2004-GOV-DE,GOV,DE,,,Ruth Minner,DEM,50.869,William S. Lee,REP,45.786,5.083,D-R,538
+2004,presidential,2004-11-02,2004-GOV-IN,GOV,IN,,,Joseph Kernan,DEM,45.493,"Mitchell Daniels, Jr.",REP,53.213,-7.72,D-R,538
+2004,presidential,2004-11-02,2004-GOV-MO,GOV,MO,,,Claire McCaskill,DEM,47.854,Matt Blunt,REP,50.832,-2.978,D-R,538
+2004,presidential,2004-11-02,2004-GOV-MT,GOV,MT,,,Brian Schweitzer,DEM,50.436,Bob Brown,REP,46.019,4.416,D-R,538
+2004,presidential,2004-11-02,2004-GOV-NC,GOV,NC,,,Mike Easley,DEM,55.616,Patrick J. Ballantine,REP,42.878,12.738,D-R,538
+2004,presidential,2004-11-02,2004-GOV-ND,GOV,ND,,,Joseph A Satrom,DEM,27.393,John Hoeven,REP,71.254,-43.862,D-R,538
+2004,presidential,2004-11-02,2004-GOV-NH,GOV,NH,,,John Lynch,DEM,51.018,Craig Benson,REP,48.871,2.147,D-R,538
+2004,presidential,2004-11-02,2004-GOV-UT,GOV,UT,,,"Scott M. Matheson, Jr.",DEM,41.345,"Jon M. Huntsman, Jr.",REP,57.741,-16.395,D-R,538
+2004,presidential,2004-11-02,2004-GOV-WA,GOV,WA,,,Christine Gregoire,DEM,48.873,Dino Rossi,REP,48.868,0.005,D-R,538
+2004,presidential,2004-11-02,2004-GOV-WV,GOV,WV,,,"Joe Manchin, III",DEM,63.506,Monty Warner,REP,34.003,29.503,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-AR-2,HOUSE,AR,2,,Victor F. Snyder,DEM,58.169,Marvin Parks,REP,41.829,16.34,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-AZ-1,HOUSE,AZ,1,,Paul Babbitt,DEM,36.225,Richard Renzi,REP,58.541,-22.316,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-CO-3,HOUSE,CO,3,,John T. Salazar,DEM,50.552,Greg Walcher,REP,46.559,3.993,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-CO-4,HOUSE,CO,4,,Stanley T. Matsunaka,DEM,44.782,Marilyn N. Musgrave,REP,51.049,-6.267,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-CO-7,HOUSE,CO,7,,David J. Thomas,DEM,42.793,Bob Beauprez,REP,54.718,-11.925,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-CT-2,HOUSE,CT,2,,Jim Sullivan,DEM,45.766,Robert R. Simmons,REP,54.192,-8.427,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-CT-4,HOUSE,CT,4,,Diane Farrell,DEM,47.565,Christopher H. Shays,REP,52.434,-4.869,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-DE-1,HOUSE,DE,1,,Paul Donnelly,DEM,29.692,Michael N. Castle,REP,69.086,-39.394,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-FL-13,HOUSE,FL,13,,Jan Schneider,DEM,44.699,Katherine Harris,REP,55.301,-10.602,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-GA-3,HOUSE,GA,3,,James Marshall,DEM,62.883,Calder B. Clay,REP,37.117,25.766,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-GEN,HOUSE-GEN,US,,,Generic Candidate,DEM,46.627,Generic Candidate,REP,49.199,-2.572,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-IL-11,HOUSE,IL,11,,Tari Renner,DEM,41.329,Gerald C. Weller,REP,58.671,-17.343,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-IL-8,HOUSE,IL,8,,Melissa Bean,DEM,51.7,Philip Crane,REP,48.3,3.399,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-KS-3,HOUSE,KS,3,,Dennis Moore,DEM,54.819,Kris W. Kobach,REP,43.35,11.47,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-KS-4,HOUSE,KS,4,,Michael Kinard,DEM,31.074,Todd Tiahrt,REP,66.11,-35.035,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-KY-3,HOUSE,KY,3,,Tony Miller,DEM,37.799,Anne Meagher Northup,REP,60.257,-22.458,D-R,538
+2004,presidential,2004-02-17,2004-HOUSE-KY-6-S,HOUSE,KY,6,S,Albert Ben Chandler,DEM,55.158,Alice Forgy Kerr,REP,42.907,12.251,D-R,538
+2004,presidential,2004-12-04,2004-HOUSE-LA-3-R,HOUSE,LA,3,R,Charlie Melancon,DEM,50.248,William Tauzin,REP,49.752,0.496,D-R,538
+2004,presidential,2004-12-04,2004-HOUSE-LA-7-R,HOUSE,LA,7,R,Willie L. Mount,DEM,45.039,Charles W. Boustany Jr.,REP,54.961,-9.921,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-ME-1,HOUSE,ME,1,,Thomas H. Allen,DEM,59.736,Charlie Summers,REP,40.264,19.473,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-ME-2,HOUSE,ME,2,,Michael H. Michaud,DEM,58.032,Brian N. Hamel,REP,39.468,18.564,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-MN-6,HOUSE,MN,6,,Patty Wetterling,DEM,45.943,Mark R. Kennedy,REP,53.992,-8.048,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-MO-5,HOUSE,MO,5,,"Emanuel Cleaver, II",DEM,55.192,Jeanne Patterson,REP,42.123,13.069,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-MT-1,HOUSE,MT,1,,Tracy Velazquez,DEM,32.777,Denny Rehberg,REP,64.398,-31.621,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NC-11,HOUSE,NC,11,,Patricia R. Keever,DEM,45.098,Charles H. Taylor,REP,54.902,-9.805,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-ND-1,HOUSE,ND,1,,Earl Pomeroy,DEM,59.563,Duane Sand,REP,40.437,19.126,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NE-1,HOUSE,NE,1,,Matt Connealy,DEM,42.996,Jeff Fortenberry,REP,54.233,-11.237,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NE-2,HOUSE,NE,2,,Nancy P. Thompson,DEM,36.151,Lee Terry,REP,61.101,-24.95,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NE-3,HOUSE,NE,3,,Donna J. Anderson,DEM,10.568,Thomas William Osborne,REP,87.453,-76.885,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NH-1,HOUSE,NH,1,,Justin Nadeau,DEM,36.56,Jeb E. Bradley,REP,63.344,-26.783,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NH-2,HOUSE,NH,2,,Paul W. Hodes,DEM,38.173,Charles Bass,REP,58.255,-20.082,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NM-1,HOUSE,NM,1,,Richard M. Romero,DEM,45.529,Heather A. Wilson,REP,54.4,-8.871,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NM-2,HOUSE,NM,2,,Gary K. King,DEM,39.804,Stevan Pearce,REP,60.196,-20.391,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NM-3,HOUSE,NM,3,,Tom Udall,DEM,68.678,Gregory M. Tucker,REP,31.322,37.356,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NV-3,HOUSE,NV,3,,Tom Gallagher,DEM,40.402,Jon C. Porter,REP,54.458,-14.056,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NY-13,HOUSE,NY,13,,Frank J. Barbaro,DEM,33.126,Vito J. Fossella,REP,47.139,-14.013,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-NY-27,HOUSE,NY,27,,Brian Higgins,DEM,42.465,Nancy A. Naples,REP,41.8,0.665,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-OK-1,HOUSE,OK,1,,Doug Dodd,DEM,37.542,John A. Sullivan,REP,60.188,-22.646,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-PA-13,HOUSE,PA,13,,Allyson Y. Schwartz,DEM,55.745,Melissa Brown,REP,41.284,14.461,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-PA-15,HOUSE,PA,15,,Joe Driscoll,DEM,39.379,Charles W. Dent,REP,58.61,-19.231,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-PA-17,HOUSE,PA,17,,Thomas Timothy Holden,DEM,59.089,Scott G. Paterno,REP,38.93,20.159,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-SD-1,HOUSE,SD,1,,Stephanie Herseth Sandlin,DEM,53.364,Larry Diedrich,REP,45.915,7.45,D-R,538
+2004,presidential,2004-06-01,2004-HOUSE-SD-1-S,HOUSE,SD,1,S,Stephanie Herseth Sandlin,DEM,50.574,Larry Diedrich,REP,49.426,1.148,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-TX-1,HOUSE,TX,1,,Max A. Sandlin,DEM,37.682,Louie Gohmert,REP,61.473,-23.791,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-TX-17,HOUSE,TX,17,,Thomas Edwards,DEM,51.199,Arlene Reid Wohlgemuth,REP,47.416,3.783,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-TX-19,HOUSE,TX,19,,Charles W. Stenholm,DEM,40.054,Randy Neugebauer,REP,58.437,-18.383,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-TX-2,HOUSE,TX,2,,Nicholas V. Lampson,DEM,42.913,Ted Poe,REP,55.528,-12.615,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-TX-32,HOUSE,TX,32,,Jonas Frost,DEM,44.023,Pete Sessions,REP,54.322,-10.299,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-UT-1,HOUSE,UT,1,,Steven Thompson,DEM,29.13,Rob Bishop,REP,67.905,-38.776,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-UT-2,HOUSE,UT,2,,Jim Matheson,DEM,54.757,John Swallow,REP,43.214,11.543,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-UT-3,HOUSE,UT,3,,Beau Babka,DEM,32.517,Chris Cannon,REP,63.39,-30.873,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-WA-5,HOUSE,WA,5,,Donald K. Barbieri,DEM,40.319,Cathy McMorris Rodgers,REP,59.681,-19.362,D-R,538
+2004,presidential,2004-11-02,2004-HOUSE-WA-8,HOUSE,WA,8,,Dave Ross,DEM,46.701,David G. Reichert,REP,51.5,-4.799,D-R,538
+2004,presidential,2004-11-02,2004-PRES-AK,PRES,AK,,,John Kerry,DEM,35.517,George W. Bush,REP,61.065,-25.548,D-R,538
+2004,presidential,2004-11-02,2004-PRES-AL,PRES,AL,,,John Kerry,DEM,36.844,George W. Bush,REP,62.461,-25.616,D-R,538
+2004,presidential,2004-11-02,2004-PRES-AR,PRES,AR,,,John Kerry,DEM,44.548,George W. Bush,REP,54.306,-9.758,D-R,538
+2004,presidential,2004-11-02,2004-PRES-AZ,PRES,AZ,,,John Kerry,DEM,44.397,George W. Bush,REP,54.869,-10.473,D-R,538
+2004,presidential,2004-11-02,2004-PRES-CA,PRES,CA,,,John Kerry,DEM,54.303,George W. Bush,REP,44.356,9.947,D-R,538
+2004,presidential,2004-11-02,2004-PRES-CO,PRES,CO,,,John Kerry,DEM,47.038,George W. Bush,REP,51.711,-4.673,D-R,538
+2004,presidential,2004-11-02,2004-PRES-CT,PRES,CT,,,John Kerry,DEM,54.314,George W. Bush,REP,43.947,10.366,D-R,538
+2004,presidential,2004-11-02,2004-PRES-DC,PRES,DC,,,John Kerry,DEM,89.184,George W. Bush,REP,9.34,79.844,D-R,538
+2004,presidential,2004-11-02,2004-PRES-DE,PRES,DE,,,John Kerry,DEM,53.347,George W. Bush,REP,45.753,7.594,D-R,538
+2004,presidential,2004-11-02,2004-PRES-FL,PRES,FL,,,John Kerry,DEM,47.091,George W. Bush,REP,52.098,-5.006,D-R,538
+2004,presidential,2004-11-02,2004-PRES-GA,PRES,GA,,,John Kerry,DEM,41.375,George W. Bush,REP,57.975,-16.6,D-R,538
+2004,presidential,2004-11-02,2004-PRES-HI,PRES,HI,,,John Kerry,DEM,54.01,George W. Bush,REP,45.265,8.745,D-R,538
+2004,presidential,2004-11-02,2004-PRES-IA,PRES,IA,,,John Kerry,DEM,49.233,George W. Bush,REP,49.901,-0.668,D-R,538
+2004,presidential,2004-11-02,2004-PRES-ID,PRES,ID,,,John Kerry,DEM,30.261,George W. Bush,REP,68.383,-38.122,D-R,538
+2004,presidential,2004-11-02,2004-PRES-IL,PRES,IL,,,John Kerry,DEM,54.823,George W. Bush,REP,44.479,10.345,D-R,538
+2004,presidential,2004-11-02,2004-PRES-IN,PRES,IN,,,John Kerry,DEM,39.263,George W. Bush,REP,59.945,-20.682,D-R,538
+2004,presidential,2004-11-02,2004-PRES-KS,PRES,KS,,,John Kerry,DEM,36.623,George W. Bush,REP,62.004,-25.381,D-R,538
+2004,presidential,2004-11-02,2004-PRES-KY,PRES,KY,,,John Kerry,DEM,39.687,George W. Bush,REP,59.55,-19.862,D-R,538
+2004,presidential,2004-11-02,2004-PRES-LA,PRES,LA,,,John Kerry,DEM,42.216,George W. Bush,REP,56.722,-14.506,D-R,538
+2004,presidential,2004-11-02,2004-PRES-M1,PRES,M1,,,John Kerry,DEM,55.075,George W. Bush,REP,43.139,11.935,D-R,538
+2004,presidential,2004-11-02,2004-PRES-M2,PRES,M2,,,John Kerry,DEM,51.953,George W. Bush,REP,46.127,5.826,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MA,PRES,MA,,,John Kerry,DEM,61.617,George W. Bush,REP,36.588,25.028,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MD,PRES,MD,,,John Kerry,DEM,55.914,George W. Bush,REP,42.934,12.98,D-R,538
+2004,presidential,2004-11-02,2004-PRES-ME,PRES,ME,,,John Kerry,DEM,53.573,George W. Bush,REP,44.576,8.996,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MI,PRES,MI,,,John Kerry,DEM,51.231,George W. Bush,REP,47.812,3.419,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MN,PRES,MN,,,John Kerry,DEM,51.09,George W. Bush,REP,47.614,3.476,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MO,PRES,MO,,,John Kerry,DEM,46.1,George W. Bush,REP,53.296,-7.196,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MS,PRES,MS,,,John Kerry,DEM,39.76,George W. Bush,REP,59.453,-19.693,D-R,538
+2004,presidential,2004-11-02,2004-PRES-MT,PRES,MT,,,John Kerry,DEM,38.564,George W. Bush,REP,59.067,-20.503,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NC,PRES,NC,,,John Kerry,DEM,43.583,George W. Bush,REP,56.017,-12.434,D-R,538
+2004,presidential,2004-11-02,2004-PRES-ND,PRES,ND,,,John Kerry,DEM,35.499,George W. Bush,REP,62.861,-27.363,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NE,PRES,NE,,,John Kerry,DEM,32.682,George W. Bush,REP,65.899,-33.216,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NH,PRES,NH,,,John Kerry,DEM,50.242,George W. Bush,REP,48.874,1.368,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NJ,PRES,NJ,,,John Kerry,DEM,52.923,George W. Bush,REP,46.239,6.685,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NM,PRES,NM,,,John Kerry,DEM,49.047,George W. Bush,REP,49.838,-0.792,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NV,PRES,NV,,,John Kerry,DEM,47.878,George W. Bush,REP,50.47,-2.592,D-R,538
+2004,presidential,2004-11-02,2004-PRES-NY,PRES,NY,,,John Kerry,DEM,56.131,George W. Bush,REP,37.687,18.444,D-R,538
+2004,presidential,2004-11-02,2004-PRES-OH,PRES,OH,,,John Kerry,DEM,48.707,George W. Bush,REP,50.814,-2.107,D-R,538
+2004,presidential,2004-11-02,2004-PRES-OK,PRES,OK,,,John Kerry,DEM,34.43,George W. Bush,REP,65.57,-31.141,D-R,538
+2004,presidential,2004-11-02,2004-PRES-OR,PRES,OR,,,John Kerry,DEM,51.349,George W. Bush,REP,47.193,4.156,D-R,538
+2004,presidential,2004-11-02,2004-PRES-PA,PRES,PA,,,John Kerry,DEM,50.924,George W. Bush,REP,48.424,2.5,D-R,538
+2004,presidential,2004-11-02,2004-PRES-RI,PRES,RI,,,John Kerry,DEM,59.423,George W. Bush,REP,38.671,20.752,D-R,538
+2004,presidential,2004-11-02,2004-PRES-SC,PRES,SC,,,John Kerry,DEM,40.903,George W. Bush,REP,57.981,-17.078,D-R,538
+2004,presidential,2004-11-02,2004-PRES-SD,PRES,SD,,,John Kerry,DEM,38.444,George W. Bush,REP,59.911,-21.467,D-R,538
+2004,presidential,2004-11-02,2004-PRES-TN,PRES,TN,,,John Kerry,DEM,42.525,George W. Bush,REP,56.799,-14.274,D-R,538
+2004,presidential,2004-11-02,2004-PRES-TX,PRES,TX,,,John Kerry,DEM,38.224,George W. Bush,REP,61.086,-22.862,D-R,538
+2004,presidential,2004-11-02,2004-PRES-US,PRES,US,,,John Kerry,DEM,48.13,George W. Bush,REP,50.573,-2.444,D-R,538
+2004,presidential,2004-11-02,2004-PRES-UT,PRES,UT,,,John Kerry,DEM,25.996,George W. Bush,REP,71.536,-45.54,D-R,538
+2004,presidential,2004-11-02,2004-PRES-VA,PRES,VA,,,John Kerry,DEM,45.484,George W. Bush,REP,53.682,-8.198,D-R,538
+2004,presidential,2004-11-02,2004-PRES-VT,PRES,VT,,,John Kerry,DEM,58.937,George W. Bush,REP,38.801,20.136,D-R,538
+2004,presidential,2004-11-02,2004-PRES-WA,PRES,WA,,,John Kerry,DEM,52.821,George W. Bush,REP,45.64,7.181,D-R,538
+2004,presidential,2004-11-02,2004-PRES-WI,PRES,WI,,,John Kerry,DEM,49.7,George W. Bush,REP,49.32,0.38,D-R,538
+2004,presidential,2004-11-02,2004-PRES-WV,PRES,WV,,,John Kerry,DEM,43.2,George W. Bush,REP,56.064,-12.864,D-R,538
+2004,presidential,2004-11-02,2004-PRES-WY,PRES,WY,,,John Kerry,DEM,29.075,George W. Bush,REP,68.862,-39.787,D-R,538
+2004,presidential,2004-11-02,2004-SEN-AK,SEN,AK,,,Tony Knowles,DEM,45.546,Lisa Murkowski,REP,48.578,-3.032,D-R,538
+2004,presidential,2004-11-02,2004-SEN-AR,SEN,AR,,,Blanche Lincoln,DEM,55.898,Jim Holt,REP,44.07,11.828,D-R,538
+2004,presidential,2004-11-02,2004-SEN-CA,SEN,CA,,,Barbara Boxer,DEM,57.708,Bill Jones,REP,37.798,19.91,D-R,538
+2004,presidential,2004-11-02,2004-SEN-CO,SEN,CO,,,Ken Salazar,DEM,51.303,Pete Coors,REP,46.533,4.77,D-R,538
+2004,presidential,2004-11-02,2004-SEN-CT,SEN,CT,,,Christopher J. Dodd,DEM,66.353,Jack C. Orchulli,REP,32.129,34.224,D-R,538
+2004,presidential,2004-11-02,2004-SEN-FL,SEN,FL,,,Betty Castor,DEM,48.321,Mel Martinez,REP,49.434,-1.113,D-R,538
+2004,presidential,2004-11-02,2004-SEN-GA,SEN,GA,,,Denise Majette,DEM,39.978,Johnny Isakson,REP,57.877,-17.899,D-R,538
+2004,presidential,2004-11-02,2004-SEN-IA,SEN,IA,,,Art Small,DEM,27.877,Chuck Grassley,REP,70.184,-42.307,D-R,538
+2004,presidential,2004-11-02,2004-SEN-IL,SEN,IL,,,Barack Obama,DEM,69.969,Alan Keyes,REP,27.048,42.92,D-R,538
+2004,presidential,2004-11-02,2004-SEN-IN,SEN,IN,,,Evan Bayh,DEM,61.649,Marvin Bailey Scott,REP,37.225,24.424,D-R,538
+2004,presidential,2004-11-02,2004-SEN-KS,SEN,KS,,,Lee Jones,DEM,27.487,Sam Brownback,REP,69.163,-41.676,D-R,538
+2004,presidential,2004-11-02,2004-SEN-KY,SEN,KY,,,Daniel Mongiardo,DEM,49.343,Jim Bunning,REP,50.657,-1.314,D-R,538
+2004,presidential,2004-11-02,2004-SEN-MD,SEN,MD,,,Barbara A. Mikulski,DEM,64.803,E. J. Pipkin,REP,33.724,31.079,D-R,538
+2004,presidential,2004-11-02,2004-SEN-MO,SEN,MO,,,Nancy Farmer,DEM,42.797,Christopher S. Bond,REP,56.093,-13.295,D-R,538
+2004,presidential,2004-11-02,2004-SEN-NC,SEN,NC,,,Erskine Bowles,DEM,47.019,Richard Burr,REP,51.596,-4.577,D-R,538
+2004,presidential,2004-11-02,2004-SEN-ND,SEN,ND,,,Byron L. Dorgan,DEM,68.28,Mike Liffrig,REP,31.72,36.56,D-R,538
+2004,presidential,2004-11-02,2004-SEN-NH,SEN,NH,,,Doris R. Haddock,DEM,33.717,Judd Gregg,REP,66.178,-32.461,D-R,538
+2004,presidential,2004-11-02,2004-SEN-NV,SEN,NV,,,Harry Reid,DEM,61.082,Richard Ziser,REP,35.138,25.944,D-R,538
+2004,presidential,2004-11-02,2004-SEN-NY,SEN,NY,,,Charles E. Schumer,DEM,58.875,Howard Mills,REP,21.819,37.056,D-R,538
+2004,presidential,2004-11-02,2004-SEN-OH,SEN,OH,,,Eric D. Fingerhut,DEM,36.145,George V. Voinovich,REP,63.849,-27.704,D-R,538
+2004,presidential,2004-11-02,2004-SEN-OK,SEN,OK,,,Brad R. Carson,DEM,41.245,Tom Coburn,REP,52.765,-11.52,D-R,538
+2004,presidential,2004-11-02,2004-SEN-PA,SEN,PA,,,Joe Hoeffel,DEM,41.987,Arlen Specter,REP,52.618,-10.63,D-R,538
+2004,presidential,2004-11-02,2004-SEN-SC,SEN,SC,,,Inez Tenenbaum,DEM,44.101,Jim DeMint,REP,53.666,-9.566,D-R,538
+2004,presidential,2004-11-02,2004-SEN-SD,SEN,SD,,,Tom Daschle,DEM,49.424,John R. Thune,REP,50.576,-1.152,D-R,538
+2004,presidential,2004-11-02,2004-SEN-UT,SEN,UT,,,R. Paul Van Dam,DEM,28.403,Robert F. Bennett,REP,68.731,-40.328,D-R,538
+2004,presidential,2004-11-02,2004-SEN-WA,SEN,WA,,,Patty Murray,DEM,54.98,George R. Nethercutt,REP,42.736,12.244,D-R,538
+2004,presidential,2004-11-02,2004-SEN-WI,SEN,WI,,,Russ Feingold,DEM,55.35,Tim Michels,REP,44.112,11.239,D-R,538
