@@ -1,0 +1,14 @@
+# House model settings (Phase 5).
+#
+# redistricted: states that drew new congressional maps after 2024. Their Cook PVI
+#   table (2024 lines) no longer matches the districts, so unless the state's
+#   2026 page publishes a 2026 PVI table, the district lean comes from the
+#   expert ratings on each district's page instead.
+# incumbency_edge: points of margin for a sitting member running again
+#   (an assumption, not backtested yet).
+# lean_sigma: typical miss of the lean-only estimate, in points of margin
+#   (an assumption, not backtested yet).
+redistricted: [CA, MO, NC, OH, TX, UT]
+incumbency_edge: 3.0
+lean_sigma: 8.0
+control: 218

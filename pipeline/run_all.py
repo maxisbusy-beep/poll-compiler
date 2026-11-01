@@ -14,9 +14,9 @@ SITE_DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 def build_status(now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
     return {
-        "phase": 4,
+        "phase": 5,
         "updated_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "message": "Senate forecast live (polls + partisan lean, backtested 2004-2024). House forecast comes in Phase 5.",
+        "message": "Senate and House forecasts live.",
     }
 
 

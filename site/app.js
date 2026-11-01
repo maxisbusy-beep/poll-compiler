@@ -19,7 +19,8 @@
   const fmtDate = (iso) => new Date(iso + "T12:00:00").toLocaleDateString([], { month: "short", day: "numeric" });
   const letter = (party) => ({ DEM: "D", REP: "R", IND: "I", LIB: "L", GRN: "G" }[party] || party[0]);
 
-  const state = { forecast: null, races: [], pollsters: {}, topo: null, selected: null, chamber: "senate" };
+  const state = { forecast: null, allRaces: [], pollsters: {}, topo: null, selected: null, chamber: "senate",
+                  showAll: false, houseLayout: null };
 
   function category(r) {
     const pFav = Math.max(r.p_a, 1 - r.p_a);
@@ -37,25 +38,31 @@
   }
 
   // ---- scoreboard ----------------------------------------------------------
+  const races = () => state.allRaces.filter((r) => r.chamber === state.chamber);
+
   function renderBoard() {
-    const f = state.forecast, s = f.senate;
+    const f = state.forecast, house = state.chamber === "house";
+    const s = house ? f.house : f.senate;
+    const total = house ? 435 : 100;
+    const notUp = house ? { dem: 0, rep: 0 } : s.not_up;
+    const need = house ? s.need : s.dem_needs;
     $("pd").textContent = fmtPct(s.p_dem_control);
     $("pr").textContent = fmtPct(s.p_rep_control);
     $("wd").textContent = "Democrats win control";
     $("wr").textContent = "Republicans win control";
-    $("mid").innerHTML = `<strong>${s.dem_needs}</strong>seats for a<br>Democratic majority`;
+    $("mid").innerHTML = `<strong>${need}</strong>seats for a<br>Democratic majority`;
 
     const counts = Object.fromEntries(RATINGS.map(([k]) => [k, 0]));
-    state.races.forEach((r) => counts[category(r)]++);
-    const segs = [["safe-d", s.not_up.dem, "Not up (D)"],
+    races().forEach((r) => counts[category(r)]++);
+    const segs = [["safe-d", notUp.dem, "Not up (D)"],
       ...RATINGS.filter(([k]) => k !== "ind").map(([k, l]) => [k, counts[k], l]),
-      ["ind", counts.ind, "Independent"], ["safe-r", s.not_up.rep, "Not up (R)"]];
+      ["ind", counts.ind, "Independent"], ["safe-r", notUp.rep, "Not up (R)"]];
     const bar = $("bar");
     bar.innerHTML = "";
     segs.forEach(([k, n, label], i) => {
       if (!n) return;
       const sp = document.createElement("span");
-      sp.style.width = n + "%";
+      sp.style.width = (100 * n / total) + "%";
       sp.style.background = `var(--${k})`;
       if (i === 0 || i === segs.length - 1) sp.style.opacity = ".55";
       sp.title = `${label}: ${n}`;
@@ -63,15 +70,16 @@
     });
     const mark = document.createElement("i");
     mark.className = "mark";
-    mark.style.left = "calc(50% - 1px)";
+    mark.style.left = `calc(${(100 * (need - 0.5) / total).toFixed(2)}% - 1px)`;
     bar.appendChild(mark);
-    const dFav = s.not_up.dem + counts["safe-d"] + counts["likely-d"] + counts["lean-d"];
-    const rFav = s.not_up.rep + counts["safe-r"] + counts["likely-r"] + counts["lean-r"];
+    const dFav = notUp.dem + counts["safe-d"] + counts["likely-d"] + counts["lean-d"];
+    const rFav = notUp.rep + counts["safe-r"] + counts["likely-r"] + counts["lean-r"];
     $("bl").textContent = `D ${dFav} incl. lean`;
     $("bm").textContent = `${counts.toss} toss-up${counts.toss === 1 ? "" : "s"}`;
     $("br").textContent = `R ${rFav} incl. lean`;
     bar.setAttribute("aria-label", `Democrats ${dFav} seats including leaning races, Republicans ${rFav}, ${counts.toss} toss-ups`);
     let extra = `Most likely Democratic seats: ${s.dem_seats_median} (80% range ${s.dem_seats_p10}–${s.dem_seats_p90}).`;
+    if (house) extra += ` ${s.races_with_polls} districts have polls; the rest use partisan lean and incumbency.`;
     if (s.p_uncommitted_decides >= 0.005)
       extra += ` ${fmtPct(s.p_uncommitted_decides)} chance an independent who joins neither party holds the balance.`;
     $("extra").textContent = extra;
@@ -101,8 +109,9 @@
   }
 
   function renderMap() {
+    if (state.chamber === "house") return renderHouseMap();
     const byState = {};
-    state.races.forEach((r) => (byState[r.state] = byState[r.state] || []).push(r));
+    races().forEach((r) => (byState[r.state] = byState[r.state] || []).push(r));
     const geo = topojson.feature(state.topo, state.topo.objects.states);
     const NS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(NS, "svg");
@@ -165,20 +174,112 @@
       + `<span><i style="background:var(--none)"></i>No race</span>`;
   }
 
+  // ---- House tile map: one square per district, grown around each state's centre ----
+  function houseLayout() {
+    if (state.houseLayout) return state.houseLayout;
+    const geo = topojson.feature(state.topo, state.topo.objects.states);
+    const C = 21;                                   // cell size in map units
+    const cols = Math.ceil(975 / C) + 2, rows = Math.ceil(610 / C) + 2;
+    const centre = {};
+    for (const f of geo.features) {
+      const st = FIPS[f.id];
+      if (st) centre[st] = labelPoint(f.geometry).pt.map((v) => v / C);
+    }
+    centre.AK = [4, 23]; centre.HI = [12, 26];     // inset states, kept clear of the mainland
+    const byState = {};
+    races().forEach((r) => (byState[r.state] = byState[r.state] || []).push(r));
+    const taken = new Set(), cells = {};
+    const key = (x, y) => x + "," + y;
+    const order = Object.keys(byState).sort((a, b) => byState[b].length - byState[a].length);
+    for (const st of order) {
+      const [cx, cy] = centre[st];
+      const n = byState[st].length, region = [];
+      const d2 = (x, y) => (x + 0.5 - cx) ** 2 + (y + 0.5 - cy) ** 2;
+      while (region.length < n) {
+        let best = null, bd = Infinity;
+        const tryCell = (x, y) => {
+          if (x < 0 || y < 0 || x >= cols || y >= rows || taken.has(key(x, y))) return;
+          const d = d2(x, y);
+          if (d < bd) { bd = d; best = [x, y]; }
+        };
+        if (region.length) region.forEach(([x, y]) => { tryCell(x + 1, y); tryCell(x - 1, y); tryCell(x, y + 1); tryCell(x, y - 1); });
+        if (!best) for (let x = 0; x < cols; x++) for (let y = 0; y < rows; y++) tryCell(x, y);
+        region.push(best); taken.add(key(...best));
+      }
+      region.sort((a, b) => a[1] - b[1] || a[0] - b[0]);
+      const ds = byState[st].slice().sort((a, b) => +a.district - +b.district);
+      ds.forEach((r, i) => (cells[r.race_id] = region[i]));
+      cells["label:" + st] = [region.reduce((t, c) => t + c[0], 0) / n, region.reduce((t, c) => t + c[1], 0) / n];
+    }
+    state.houseLayout = { C, cells, states: order };
+    return state.houseLayout;
+  }
+
+  function renderHouseMap() {
+    const { C, cells, states } = houseLayout();
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${C * 48} ${C * 31}`);
+    for (const r of races()) {
+      const c = cells[r.race_id];
+      if (!c) continue;
+      const cat = category(r);
+      const p = document.createElementNS(NS, "path");
+      p.setAttribute("d", `M${c[0] * C + 1} ${c[1] * C + 1}h${C - 2}v${C - 2}h${-(C - 2)}z`);
+      p.setAttribute("fill", `var(--${cat})`);
+      p.dataset.race = r.race_id;
+      p.setAttribute("tabindex", "0");
+      p.setAttribute("role", "button");
+      p.setAttribute("aria-label", `${raceLabel(r)}: ${RATINGS.find(([k]) => k === cat)[1]}`);
+      p.addEventListener("click", () => openRace(r.race_id));
+      p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openRace(r.race_id); } });
+      svg.appendChild(p);
+    }
+    for (const st of states) {
+      const [x, y] = cells["label:" + st];
+      const t = document.createElementNS(NS, "text");
+      t.setAttribute("x", x * C + C / 2); t.setAttribute("y", y * C + C / 2 + 6);
+      t.setAttribute("text-anchor", "middle");
+      t.classList.add("tile-label");
+      t.textContent = st;
+      svg.appendChild(t);
+    }
+    $("map").innerHTML = "";
+    $("map").appendChild(svg);
+    $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
+      + `<span>One square per district</span>`;
+  }
+
+  const ordinal = (n) => { const t = ["th", "st", "nd", "rd"], v = n % 100; return n + (t[(v - 20) % 10] || t[v] || t[0]); };
+  function raceLabel(r) {
+    if (r.chamber === "house") {
+      const atLarge = state.allRaces.filter((x) => x.chamber === "house" && x.state === r.state).length === 1;
+      return `${NAMES[r.state]} ${atLarge ? "at-large" : ordinal(+r.district)} district`;
+    }
+    return `${NAMES[r.state]} Senate${r.race_id.endsWith("-S") ? " (special)" : ""}`;
+  }
+  const shortLabel = (r) => r.chamber === "house" ? `${r.state}-${r.district}` : r.state;
+
   // ---- list ----------------------------------------------------------------
   function renderList() {
-    $("races").innerHTML = state.races.map((r) => {
+    const house = state.chamber === "house";
+    const list = house ? races().slice().sort((a, b) => Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5)).slice(0, state.showAll ? 435 : 40) : races();
+    $("list-title").textContent = house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
+    $("races").innerHTML = list.map((r) => {
       const cat = category(r);
       const fav = r.p_a >= 0.5;
       const pFav = Math.max(r.p_a, 1 - r.p_a);
       const favName = fav ? r.side_a : r.side_b;
       return `<li><button data-race="${esc(r.race_id)}">
-        <span class="chip" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${r.state}</span>
+        <span class="chip" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${shortLabel(r)}</span>
         <span class="names"><span class="a">${esc(r.side_a)} (${letter(r.side_a_party)})</span><span class="b">${esc(r.side_b)} (${letter(r.side_b_party)})</span></span>
         <span class="odds">${fmtPct(pFav)}<small>${esc(favName.split(" ").slice(-1)[0])} · ${fmtMargin(r.margin, letter(r.side_a_party), letter(r.side_b_party))}</small></span>
       </button></li>`;
     }).join("");
-    $("races").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
+    if (house && !state.showAll) $("races").innerHTML += `<li><button class="more" id="show-all">Show all 435 districts</button></li>`;
+    $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
+    const more = $("show-all");
+    if (more) more.addEventListener("click", () => { state.showAll = true; renderList(); });
   }
 
   // ---- race sheet ----------------------------------------------------------
@@ -194,13 +295,13 @@
   }
 
   function openRace(id) {
-    const r = state.races.find((x) => x.race_id === id);
+    const r = state.allRaces.find((x) => x.race_id === id);
     if (!r) return;
     state.selected = id;
     document.querySelectorAll(".map path.sel").forEach((p) => p.classList.remove("sel"));
-    document.querySelectorAll(`.map path[data-state="${r.state}"]`).forEach((p) => p.classList.add("sel"));
-    const special = r.race_id.endsWith("-S") ? " (special)" : "";
-    $("sheet-title").textContent = `${NAMES[r.state]} Senate${special}`;
+    const sel = r.chamber === "house" ? `.map path[data-race="${r.race_id}"]` : `.map path[data-state="${r.state}"]`;
+    document.querySelectorAll(sel).forEach((p) => p.classList.add("sel"));
+    $("sheet-title").textContent = raceLabel(r);
     const A = letter(r.side_a_party), B = letter(r.side_b_party);
     const pollRows = (r.polls || []).slice(0, 25).map((p) => {
       const pol = state.pollsters[p.pollster_id];
@@ -220,7 +321,8 @@
       <dl class="facts">
         <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
         ${r.poll_average != null ? `<dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, latest ${fmtDate(r.last_poll)}</dd>` : `<dt>Polls</dt><dd>None published. Forecast is from partisan lean only.</dd>`}
-        ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} (state's 2024 result moved by the national mood)</dd>` : ""}
+        ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} ${r.chamber === "house" ? leanNote(r) : "(state's 2024 result moved by the national mood)"}</dd>` : ""}
+        ${r.basis === "unopposed" ? `<dt>Note</dt><dd>No major-party opponent on the ballot.</dd>` : ""}
         ${r.uncommitted ? `<dt>Note</dt><dd>${esc(r.side_a)} says he will join neither party's caucus.</dd>` : ""}
       </dl>
       ${pollRows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${pollRows}</tbody></table>
@@ -228,6 +330,14 @@
     document.body.classList.add("sheet-open");
     history.replaceState(null, "", "#" + id);
     $("close").focus();
+  }
+  function leanNote(r) {
+    const src = { "PVI": "from the district's Cook PVI and the national mood",
+      "2026 PVI": "from the district's 2026 PVI and the national mood",
+      "expert ratings (new map)": "from expert ratings, because this state redrew its map",
+      "expert ratings": "from expert ratings" }[r.lean_source] || "";
+    const inc = r.incumbent_party ? `; includes an edge for the ${r.incumbent_party === "DEM" ? "Democratic" : "Republican"} incumbent` : "";
+    return `(${src}${r.lean_source && r.lean_source.startsWith("expert") ? "" : inc})`;
   }
   function closeRace() {
     document.body.classList.remove("sheet-open");
@@ -244,24 +354,29 @@
       $("tab-senate").setAttribute("aria-selected", String(which === "senate"));
       $("tab-house").setAttribute("aria-selected", String(which === "house"));
     };
-    $("tab-house").addEventListener("click", () => {
-      setTab("house");
-      $("map").innerHTML = `<p class="note">House forecast and district map are being added before Election Day.</p>`;
-    });
-    $("tab-senate").addEventListener("click", () => { setTab("senate"); renderMap(); });
+    const show = (which) => {
+      state.chamber = which; setTab(which); closeRace();
+      renderBoard(); renderMap(); renderList();
+    };
+    $("tab-house").addEventListener("click", () => show("house"));
+    $("tab-senate").addEventListener("click", () => show("senate"));
     try {
       const [f, races, pollsters, topo] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
         getJSON("https://cdn.jsdelivr.net/npm/us-atlas@3/states-albers-10m.json"),
       ]);
       state.forecast = f;
-      state.races = races.races.filter((r) => r.chamber === "senate");
+      state.allRaces = races.races;
       pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
       state.topo = topo;
       const t = new Date(f.generated_utc);
       $("updated").textContent = `Updated ${t.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
       renderBoard(); renderMap(); renderList();
-      if (location.hash.length > 1) openRace(decodeURIComponent(location.hash.slice(1)));
+      if (location.hash.length > 1) {
+        const id = decodeURIComponent(location.hash.slice(1));
+        if (id.includes("-HOUSE-")) show("house");
+        openRace(id);
+      }
     } catch (e) {
       $("map").innerHTML = `<p class="note">Couldn't load the forecast (${esc(e.message)}). Reload the page to try again.</p>`;
     }

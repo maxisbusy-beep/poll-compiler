@@ -282,3 +282,28 @@ def rating(p: float) -> str:
         return "Toss-up"
     label = "Lean" if x < 0.8 else "Likely" if x < 0.95 else "Safe"
     return f"{label} {side}"
+
+
+def simulate_house(races: list[RaceForecast], national_sd: float, need: int = 218,
+                   n_sims: int = 10000, seed: int = 2027) -> dict:
+    """Seats won by Democrats (and any non-Republican winner) across all districts."""
+    rng = random.Random(seed)
+    seats = []
+    for _ in range(n_sims):
+        nat = rng.gauss(0, national_sd)
+        d = 0
+        for rc in races:
+            m = rc.mu + nat + rng.gauss(0, rc.sd_race)
+            party = rc.side_a_party if m > 0 else rc.side_b_party
+            if party not in ("REP",):
+                d += 1
+        seats.append(d)
+    seats.sort()
+    hist = defaultdict(int)
+    for x in seats:
+        hist[x] += 1
+    q = lambda f: seats[min(int(f * n_sims), n_sims - 1)]  # noqa: E731
+    p_dem = sum(1 for x in seats if x >= need) / n_sims
+    return {"n_sims": n_sims, "p_dem_control": p_dem, "p_rep_control": 1 - p_dem,
+            "dem_seats_median": q(0.5), "dem_seats_p10": q(0.1), "dem_seats_p90": q(0.9),
+            "dem_seats_hist": dict(sorted(hist.items())), "need": need, "seats": len(races)}
