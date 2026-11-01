@@ -84,6 +84,7 @@
   const races = () => state.allRaces.filter((r) => r.chamber === state.chamber);
 
   function renderBoard() {
+    setMood();
     const f = state.forecast, house = state.chamber === "house", gov = state.chamber === "governor";
     const s = house ? f.house : gov ? f.governor : f.senate;
     const total = house ? 435 : gov ? 50 : 100;
@@ -702,26 +703,91 @@
     if (state.view === "pollsters") renderPollsters();
     else if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
   }
+  // Every punch: a random move, a quip, a combo count and a little damage that heals.
+  // The first punch also refreshes the data; more punches while it loads just add to the combo.
+  const QUIPS = [
+    "Ow!", "Not the face!", "I'm just the messenger!", "Margin of error, pal.",
+    "That was outside the margin of error!", "I'm {p}% sure that hurt.", "Correlated error!",
+    "Likely voter screen: you.", "Recency-weighted ouch.", "My pollster grade just dropped.",
+    "Undecided on whether that hurt.", "Regression to the mean, please.", "Statistically significant ouch.",
+    "It's a toss-up, like my face.", "Bayes would never.", "Weighting that punch at 0.3×.",
+    "Ask me again in 6 hours.", "Herding? I'm being punched!",
+  ];
+  const MOVES = ["spin", "jelly", "bounce", "flip", "knock"];
+
   function setupPunch() {
-    const face = $("face"), img = face.querySelector("img"), pow = face.querySelector(".pow");
-    let busy = false;
+    const face = $("face"), body = face.querySelector(".face-body"), pow = face.querySelector(".pow");
+    const comboEl = face.querySelector(".combo"), bubble = face.querySelector(".bubble");
+    const replay = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
+    let busy = false, combo = 0, comboTimer = null, damage = 0, lastMove = "", lastQuip = -1, koUntil = 0, bubbleTimer = null;
+
+    const showDamage = () => {
+      face.dataset.damage = damage >= 9 ? "3" : damage >= 6 ? "2" : damage >= 3 ? "1" : "0";
+    };
+    setInterval(() => { if (damage > 0) { damage--; showDamage(); } }, 6000);   // heals in about a minute
+
+    const say = (text, ms = 1600) => {
+      bubble.textContent = text;
+      replay(bubble, "show");
+      clearTimeout(bubbleTimer);
+      bubbleTimer = setTimeout(() => bubble.classList.remove("show"), ms);
+    };
+    const quip = () => {
+      let i;
+      do { i = Math.floor(Math.random() * QUIPS.length); } while (i === lastQuip);
+      lastQuip = i;
+      const f = state.forecast, s = f && (state.chamber === "house" ? f.house : state.chamber === "governor" ? f.governor : f.senate);
+      const p = s ? Math.round(100 * Math.max(s.p_dem_control, s.p_rep_control)) : 72;
+      return QUIPS[i].replace("{p}", Math.min(p, 99));
+    };
+
     face.addEventListener("click", async () => {
-      pow.classList.remove("hit"); void pow.offsetWidth; pow.classList.add("hit");
+      if (Date.now() < koUntil) return;                 // he's down, give him a second
+      replay(pow, "hit");
+      damage = Math.min(damage + 1, 12); showDamage();
+      combo++;
+      clearTimeout(comboTimer);
+      comboTimer = setTimeout(() => { combo = 0; comboEl.classList.remove("show"); }, 900);
+      if (combo >= 10) {
+        combo = 0;
+        comboEl.textContent = "K.O.!";
+        replay(comboEl, "show");
+        body.className = "face-body";
+        replay(body, "ko");
+        koUntil = Date.now() + 2200;
+        say("I'll be back in 2028…", 2200);
+        setTimeout(() => body.classList.remove("ko"), 2200);
+      } else {
+        if (combo >= 2) { comboEl.textContent = `${combo} HIT COMBO!`; replay(comboEl, "show"); }
+        let m;
+        do { m = MOVES[Math.floor(Math.random() * MOVES.length)]; } while (m === lastMove);
+        lastMove = m;
+        body.className = "face-body";
+        replay(body, "m-" + m);
+        if (combo === 1 || Math.random() < 0.5) say(quip());
+      }
       if (busy) return;
       busy = true;
       face.setAttribute("aria-busy", "true");
-      img.classList.add("spinning");
-      const minSpin = new Promise((r) => setTimeout(r, 1000));
-      let failed = false;
-      try { await Promise.all([refreshData(), minSpin]); }
-      catch (e) { failed = true; await minSpin; }
-      // stop at the end of a full turn so the face lands upright
-      await new Promise((r) => img.addEventListener("animationiteration", r, { once: true }));
-      img.classList.remove("spinning");
+      const was = $("updated").textContent;
+      $("updated").textContent = "Refreshing…";
+      try { await refreshData(); }
+      catch (e) { $("updated").textContent = "Couldn't refresh. Punch again to retry."; }
+      if ($("updated").textContent === "Refreshing…") $("updated").textContent = was;
       face.removeAttribute("aria-busy");
       busy = false;
-      if (failed) $("updated").textContent = "Couldn't refresh. Punch again to retry.";
     });
+    setMood();
+  }
+
+  // Idle mood from the odds on screen: smug when lopsided, nervous when close, calm otherwise.
+  function setMood() {
+    const f = state.forecast, face = $("face");
+    if (!f || !face) return;
+    const s = state.chamber === "house" ? f.house : state.chamber === "governor" ? f.governor : f.senate;
+    if (!s) return;
+    const top = Math.max(s.p_dem_control, s.p_rep_control);
+    face.dataset.mood = top >= 0.85 ? "smug" : top < 0.62 ? "nervous" : "calm";
   }
 
   // ---- pollsters -----------------------------------------------------------

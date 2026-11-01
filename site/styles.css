@@ -245,3 +245,79 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 }
 .livehead { font-weight: 700; font-size: 1rem; margin-bottom: 6px; }
 .extra .leaders { display: block; color: var(--ink); font-size: .95rem; margin-bottom: 4px; }
+
+/* ---- the punchable face ---- */
+.face { overflow: visible; }
+.face-mood, .face-body { position: relative; display: block; width: 100%; height: 100%; }
+.face-body img { filter: drop-shadow(0 3px 6px rgba(0,0,0,.45)); }
+.face:active .face-body img { transform: none; }
+
+/* moves, one per punch */
+.face-body.m-spin   { animation: mv-spin 1s linear; }                 /* 3 turns a second */
+.face-body.m-jelly  { animation: mv-jelly .8s ease; }
+.face-body.m-bounce { animation: mv-bounce .8s cubic-bezier(.3,.6,.4,1); }
+.face-body.m-flip   { animation: mv-flip .9s ease-in-out; }
+.face-body.m-knock  { animation: mv-knock 1.1s ease-in-out; }
+.face-body.ko       { animation: mv-ko 2.2s ease forwards; }
+@keyframes mv-spin { to { transform: rotate(1080deg); } }
+@keyframes mv-jelly {
+  0% { transform: scale(1,1); } 20% { transform: scale(1.25,.75); } 40% { transform: scale(.8,1.2); }
+  60% { transform: scale(1.12,.9); } 80% { transform: scale(.96,1.04); } 100% { transform: scale(1,1); } }
+@keyframes mv-bounce {
+  0% { transform: translateY(0); } 30% { transform: translateY(-38px) rotate(-8deg); } 55% { transform: translateY(0) scale(1.1,.9); }
+  70% { transform: translateY(-12px); } 85% { transform: translateY(0) scale(1.04,.96); } 100% { transform: none; } }
+@keyframes mv-flip { 0% { transform: none; } 35%, 65% { transform: rotate(180deg) scale(.95); } 100% { transform: rotate(360deg); } }
+@keyframes mv-knock {
+  0% { transform: none; opacity: 1; } 30% { transform: translateX(240px) rotate(70deg); opacity: 0; }
+  31% { transform: translateX(-240px) rotate(-40deg); opacity: 0; } 70% { transform: translateX(10px) rotate(4deg); opacity: 1; }
+  100% { transform: none; } }
+@keyframes mv-ko {
+  0% { transform: none; } 15% { transform: rotate(100deg) translate(14px, -6px); } 25% { transform: rotate(90deg) translate(18px, 0); }
+  80% { transform: rotate(90deg) translate(18px, 0); } 92% { transform: rotate(-8deg) translateY(-6px); } 100% { transform: none; } }
+
+/* idle mood from the odds on screen */
+.face[data-mood="calm"] .face-mood { animation: md-calm 5s ease-in-out infinite; }
+.face[data-mood="smug"] .face-mood { animation: md-smug 4s ease-in-out infinite; }
+.face[data-mood="nervous"] .face-mood { animation: md-nervous 3s linear infinite; }
+@keyframes md-calm { 50% { transform: translateY(-3px); } }
+@keyframes md-smug { 0%, 100% { transform: rotate(0); } 40%, 60% { transform: rotate(-9deg) translateY(-2px); } }
+@keyframes md-nervous {
+  0%, 84%, 100% { transform: none; } 86% { transform: translateX(-3px) rotate(-2deg); } 88% { transform: translateX(3px) rotate(2deg); }
+  90% { transform: translateX(-3px); } 92% { transform: translateX(3px); } 94% { transform: translateX(-1px); } }
+@media (prefers-reduced-motion: reduce) { .face .face-mood { animation: none !important; } }
+
+/* damage that heals: bruise, band-aids, circling stars */
+.bruise, .bandaid, .stars { position: absolute; pointer-events: none; opacity: 0; transition: opacity .5s; }
+.bruise { left: 38%; top: 32%; width: 26%; height: 20%; border-radius: 50%;
+          background: radial-gradient(circle, rgba(110,40,140,.75) 0%, rgba(80,30,120,.45) 45%, transparent 72%); mix-blend-mode: multiply; }
+.bandaid { width: 34%; height: 11%; border-radius: 6px;
+           background: #e9c39b repeating-linear-gradient(90deg, transparent 0 38%, #d6a77a 38% 62%, transparent 62% 100%);
+           box-shadow: 0 1px 2px rgba(0,0,0,.35); }
+.bandaid::after { content: ""; position: absolute; left: 38%; right: 38%; top: 20%; bottom: 20%;
+                  background: radial-gradient(circle, #c9935f 1px, transparent 1.5px) 0 0 / 4px 4px; }
+.bandaid.b1 { left: 30%; top: 13%; transform: rotate(-22deg); }
+.bandaid.b2 { left: 60%; top: 60%; transform: rotate(28deg); }
+.stars { left: 0; right: 0; top: -14px; height: 20px; }
+.stars i { position: absolute; left: 50%; top: 0; font-style: normal; color: #ffd23f; font-size: 15px;
+           text-shadow: 0 0 2px #1a1300; animation: orbit 1.4s linear infinite; }
+.stars i:nth-child(2) { animation-delay: -.47s; } .stars i:nth-child(3) { animation-delay: -.93s; }
+@keyframes orbit { from { transform: rotate(0) translateX(30px) rotate(0) scaleY(.5); } to { transform: rotate(360deg) translateX(30px) rotate(-360deg) scaleY(.5); } }
+.face[data-damage="1"] .bruise, .face[data-damage="2"] .bruise, .face[data-damage="3"] .bruise { opacity: 1; }
+.face[data-damage="2"] .b1, .face[data-damage="3"] .b1, .face[data-damage="2"] .stars, .face[data-damage="3"] .stars { opacity: 1; }
+.face[data-damage="3"] .b2 { opacity: 1; }
+
+/* combo counter and speech bubble */
+.combo { position: absolute; right: 88%; top: -4px; white-space: nowrap; pointer-events: none; opacity: 0;
+         font-family: var(--num); font-weight: 700; font-size: 1.25rem; color: #ffd23f; letter-spacing: .03em;
+         -webkit-text-stroke: 1px #1a1300; text-shadow: 2px 2px 0 #1a1300; transform: rotate(-8deg); z-index: 3; }
+.combo.show { animation: combo .9s ease-out; }
+@keyframes combo { 0% { opacity: 0; transform: rotate(-8deg) scale(.5); } 15% { opacity: 1; transform: rotate(-8deg) scale(1.2); }
+                   30% { transform: rotate(-8deg) scale(1); } 75% { opacity: 1; } 100% { opacity: 0; } }
+.bubble { position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%) scale(.8); z-index: 6;
+          background: #fff; color: #141a2e; font: 600 .82rem/1.25 var(--text); padding: 6px 10px; border-radius: 12px;
+          width: max-content; max-width: 210px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,.35);
+          opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s; }
+.bubble::before { content: ""; position: absolute; top: -6px; left: 50%; margin-left: -6px;
+                  border: 6px solid transparent; border-top: 0; border-bottom-color: #fff; }
+.bubble.show { opacity: 1; transform: translateX(-50%) scale(1); }
+.banner { overflow-x: clip; }   /* a knocked-out face mustn't make the page scroll sideways */
