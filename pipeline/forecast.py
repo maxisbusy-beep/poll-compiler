@@ -120,10 +120,14 @@ def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, di
             "poll_average": None if r.poll_avg is None else round(r.poll_avg, 2),
             "lean_prior": None if r.prior is None else round(r.prior, 2),
             "lean_source": r.lean_source, "incumbent_party": r.incumbent_party,
+            "redrawn_2026": r.state in REDRAWN, "map_note": REDRAWN.get(r.state),
             "basis": r.basis, "n_polls": r.n_polls, "n_eff": round(r.n_eff, 1),
             "last_poll": r.last_poll, "polls": r.contributions[:30]}
            for r in house_races]}
     return forecast, racejs
+
+
+REDRAWN = (house_mod.load_config().get("redrawn_2026") or {})
 
 
 def build_house(cycle, as_of, days, params, pp, polls, env_margin, nat):

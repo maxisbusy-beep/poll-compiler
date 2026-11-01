@@ -14,3 +14,18 @@ redistricted: [AL, CA, FL, LA, NC, OH, TN, TX, UT]
 incumbency_edge: 3.0
 lean_sigma: 8.0
 control: 218
+
+# Maps redrawn mid-decade and used in 2026 (asterisk next to the seat; note in the district sheet).
+# Rule (owner decision 2026-11-01): every district in a state whose congressional map was replaced
+# for 2026 outside the normal post-census cycle. Blocked maps (Missouri, Virginia) don't count.
+# Source: Ballotpedia, "Redistricting ahead of the 2026 elections".
+redrawn_2026:
+  AL: "Alabama's 2023 map drawn by the Republican-majority legislature, reinstated for 2026 after the Supreme Court lifted a lower-court block (June 2, 2026)."
+  CA: "New map passed by the Democratic-majority legislature and approved by voters (Proposition 50, Nov. 4, 2025)."
+  FL: "New map passed by the Republican-majority legislature and signed by Gov. Ron DeSantis (R), May 4, 2026."
+  LA: "New map passed by the Republican-majority legislature and signed by Gov. Jeff Landry (R), May 29, 2026, after the Supreme Court ruled the previous map an unconstitutional racial gerrymander."
+  NC: "New map passed by the Republican-majority legislature, Oct. 22, 2025."
+  OH: "New map approved unanimously by the Ohio Redistricting Commission, Oct. 31, 2025, under the state's 2018 redistricting amendment."
+  TN: "New map passed by the Republican-majority legislature and signed by Gov. Bill Lee (R), May 7, 2026."
+  TX: "New map passed by the Republican-majority legislature and signed by Gov. Greg Abbott (R), Aug. 29, 2025; the Supreme Court allowed its use in 2026."
+  UT: "Map chosen by a state court from plaintiffs' proposals after the legislature's map was struck down (Nov. 10, 2025)."
