@@ -176,3 +176,5 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .mapframe svg.zoomed { touch-action: none; cursor: grab; }
 .zoombar .zbtns { margin-left: auto; display: flex; gap: 6px; }
 .zoombar .zbtns button { margin-left: 0; min-width: 34px; font-weight: 700; }
+.zoombar .zhint { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.zoombar .zbtns button { padding: 4px 8px; white-space: nowrap; }

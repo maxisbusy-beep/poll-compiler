@@ -313,8 +313,8 @@
     $("map").innerHTML = "";
     const bar = document.createElement("div");
     bar.className = "zoombar";
-    bar.innerHTML = (zoom ? `<strong>${NAMES[ST_ABBR[zoom]]}</strong><span>Tap a district for details</span>`
-                          : `<span>Pinch to zoom, or tap a state</span>`)
+    bar.innerHTML = (zoom ? `<strong>${NAMES[ST_ABBR[zoom]]}</strong><span class="zhint">Tap a district</span>`
+                          : `<span class="zhint">Pinch to zoom or tap a state</span>`)
       + `<span class="zbtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button>`
       + (zoom ? `<button id="unzoom">Whole map</button>` : "") + `</span>`;
     $("map").appendChild(bar);
