@@ -160,3 +160,13 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .races li button { grid-template-columns: auto 1fr auto; }
 .chip { width: auto; min-width: 40px; padding: 0 6px; white-space: nowrap; }
 .house-list .chip { min-width: 64px; font-size: .95rem; }
+/* the leader is bold and bright; the other candidate is quiet */
+.names > span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.names .lead { font-weight: 700; color: var(--ink); }
+.names .trail { font-weight: 400; color: var(--muted); }
+.names.even > span { color: var(--ink); font-weight: 400; }
+.duel .n { color: var(--muted); }
+.duel .lead .n { font-weight: 700; color: var(--ink); }
+.duel .trail .p { opacity: .75; }
+.livebox tr.lead td { font-weight: 700; }
+.livebox tr.trail td { color: var(--muted); }

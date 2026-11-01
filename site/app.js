@@ -24,6 +24,26 @@
                   live: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null };
 
   const liveRes = (r) => (state.live ? state.live[r.race_id] : null);
+  // Who is ahead: "a", "b", or null for a dead heat. Once votes are counted, the vote
+  // leader (or the called winner); before that, the forecast favorite. 50/50 shows no leader.
+  function leaderSide(r) {
+    const lr = liveRes(r);
+    if (lr && lr.total > 0 && lr.candidates && lr.candidates.length) {
+      const cs = lr.candidates;
+      const top = (lr.called && cs.find((c) => c.winner)) || cs[0];
+      if (!(lr.called) && cs[1] && cs[0].votes === cs[1].votes) return null;
+      const last = (n) => String(n).trim().split(/\s+/).slice(-1)[0].toLowerCase();
+      const t = last(top.name);
+      if (last(r.side_a) === t) return "a";
+      if (last(r.side_b) === t) return "b";
+      if (r.side_a_party !== r.side_b_party) {
+        if (top.party === r.side_a_party) return "a";
+        if (top.party === r.side_b_party) return "b";
+      }
+    }
+    if (Math.round(r.p_a * 100) === 50) return null;
+    return r.p_a > 0.5 ? "a" : "b";
+  }
   function category(r) {
     const lr = liveRes(r);
     if (lr && lr.called) {
@@ -326,7 +346,8 @@
       const pFav = Math.max(r.p_a, 1 - r.p_a);
       const favName = fav ? r.side_a : r.side_b;
       const lr = liveRes(r);
-      let right = `${fmtPct(pFav)}<small>${esc(favName.split(" ").slice(-1)[0])} · ${fmtMargin(r.margin, letter(r.side_a_party), letter(r.side_b_party))}</small>`;
+      const tossName = Math.round(r.p_a * 100) === 50 ? "Toss-up" : esc(favName.split(" ").slice(-1)[0]);
+      let right = `${fmtPct(pFav)}<small>${tossName} · ${fmtMargin(r.margin, letter(r.side_a_party), letter(r.side_b_party))}</small>`;
       if (lr && lr.total > 0) {
         const [c1, c2] = lr.candidates;
         const m = c2 ? ((c1.pct || 0) - (c2.pct || 0)) : 100;
@@ -335,9 +356,13 @@
         const tag = lr.called ? `<span class="won ${lr.winner_party === "DEM" ? "d" : lr.winner_party === "REP" ? "r" : "i"}">Won</span> ` : "";
         right = `${tag}${lead}<small>${lr.called ? "Called" : counted}</small>`;
       }
+      const lead = leaderSide(r);
+      const nameA = `${esc(r.side_a)} (${letter(r.side_a_party)})`, nameB = `${esc(r.side_b)} (${letter(r.side_b_party)})`;
+      const top = `<span class="${lead ? "lead" : ""}">${lead === "b" ? nameB : nameA}</span>`;
+      const bottom = `<span class="${lead ? "trail" : ""}">${lead === "b" ? nameA : nameB}</span>`;
       return `<li><button data-race="${esc(r.race_id)}">
         <span class="chip" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${shortLabel(r)}</span>
-        <span class="names"><span class="a">${esc(r.side_a)} (${letter(r.side_a_party)})</span><span class="b">${esc(r.side_b)} (${letter(r.side_b_party)})</span></span>
+        <span class="names${lead ? "" : " even"}">${top}${bottom}</span>
         <span class="odds">${right}</span>
       </button></li>`;
     }).join("");
@@ -385,22 +410,25 @@
     }).join("");
     const pa = r.p_a;
     const lr = liveRes(r);
+    const lead = leaderSide(r);
     let liveBox = "";
     if (lr && lr.total > 0) {
       const share = lr.expected ? Math.min(100, 100 * lr.total / lr.expected) : null;
       liveBox = `<div class="livebox">
-        <table>${lr.candidates.slice(0, 4).map((c) => `<tr><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
+        <table>${lr.candidates.slice(0, 4).map((c, i) => `<tr class="${i === 0 && lead ? "lead" : "trail"}"><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
           <td class="num">${c.votes.toLocaleString()}</td><td class="num">${c.pct != null ? c.pct.toFixed(1) + "%" : ""}</td></tr>`).join("")}</table>
         ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
         <div class="note">${lr.total.toLocaleString()} votes counted${share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
         ${lr.called ? "Called, per Wikipedia." : "Not called yet."} Wikipedia last edited ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
       </div>`;
     }
+    const colour = (L) => (L === "D" ? "dem" : L === "R" ? "rep" : "ind");
+    const sideA = { name: r.side_a, L: A, p: pa, cls: lead === "a" ? "lead" : lead ? "trail" : "" };
+    const sideB = { name: r.side_b, L: B, p: 1 - pa, cls: lead === "b" ? "lead" : lead ? "trail" : "" };
+    const [first, second] = lead === "b" ? [sideB, sideA] : [sideA, sideB];
+    const duel = [first, second].map((x, i) => `<div class="${i ? "r " : ""}${x.cls}"><div class="n">${esc(x.name)} (${x.L})</div><div class="p" style="color:var(--${colour(x.L)})">${fmtPct(x.p)}</div></div>`).join("");
     $("sheet-body").innerHTML = liveBox + `
-      <div class="duel">
-        <div><div class="n">${esc(r.side_a)} (${A})</div><div class="p" style="color:var(--${A === "D" ? "dem" : A === "R" ? "rep" : "ind"})">${fmtPct(pa)}</div></div>
-        <div class="r"><div class="n">${esc(r.side_b)} (${B})</div><div class="p" style="color:var(--${B === "R" ? "rep" : "dem"})">${fmtPct(1 - pa)}</div></div>
-      </div>
+      <div class="duel">${duel}</div>
       <dl class="facts">
         <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
         ${r.poll_average != null ? `<dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, latest ${fmtDate(r.last_poll)}</dd>` : `<dt>Polls</dt><dd>None published. Forecast is from partisan lean only.</dd>`}
