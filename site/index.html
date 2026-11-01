@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>poll-compiler</title>
-<meta name="description" content="2026 Senate and House odds compiled from public polls, with every pollster graded on its track record.">
+<title>Maximum Likelihood</title>
+<meta name="description" content="2026 Senate, House and governor odds compiled from public polls, with every pollster graded on its track record.">
 <meta name="theme-color" content="#0f1526">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,18 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="top">
-    <div class="brand">poll-compiler</div>
+  <header class="banner">
+    <div class="title-row">
+      <span class="w l">Maximum</span>
+      <button class="face" id="face" type="button" aria-label="Punch my face to refresh">
+        <img src="face.webp?v=__BUILD__" alt="" width="90" height="90">
+        <span class="pow" aria-hidden="true">POW!</span>
+      </button>
+      <span class="w r">Likelihood</span>
+    </div>
+    <div class="hint">punch my face to refresh</div>
     <div class="updated" id="updated"></div>
-  </div>
+  </header>
 
   <div class="tabs" role="tablist">
     <button role="tab" id="tab-senate" aria-selected="true">Senate</button>

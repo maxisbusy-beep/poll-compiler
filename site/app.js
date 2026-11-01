@@ -591,8 +591,50 @@
     state.poller.start();
   }
 
+  // ---- punch to refresh ------------------------------------------------------
+  // Re-fetches the forecast (and, on election night, checks Wikipedia right away) without
+  // reloading the page, so the tab, zoom and any open race stay put. The face spins
+  // 3 times a second until the new data is in, at least one second, and stops square.
+  function showUpdated() {
+    const t = new Date(state.forecast.generated_utc);
+    $("updated").textContent = `Updated ${t.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
+  }
+  async function refreshData() {
+    const [f, rs, pollsters] = await Promise.all([
+      getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json")]);
+    state.forecast = f;
+    state.allRaces = rs.races;
+    pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
+    if (state.poller) await state.poller.now();
+    showUpdated();
+    renderBoard(); renderMap(); renderList();
+    if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
+  }
+  function setupPunch() {
+    const face = $("face"), img = face.querySelector("img"), pow = face.querySelector(".pow");
+    let busy = false;
+    face.addEventListener("click", async () => {
+      pow.classList.remove("hit"); void pow.offsetWidth; pow.classList.add("hit");
+      if (busy) return;
+      busy = true;
+      face.setAttribute("aria-busy", "true");
+      img.classList.add("spinning");
+      const minSpin = new Promise((r) => setTimeout(r, 1000));
+      let failed = false;
+      try { await Promise.all([refreshData(), minSpin]); }
+      catch (e) { failed = true; await minSpin; }
+      // stop at the end of a full turn so the face lands upright
+      await new Promise((r) => img.addEventListener("animationiteration", r, { once: true }));
+      img.classList.remove("spinning");
+      face.removeAttribute("aria-busy");
+      busy = false;
+      if (failed) $("updated").textContent = "Couldn't refresh. Punch again to retry.";
+    });
+  }
+
   // ---- boot ----------------------------------------------------------------
   async function boot() {
+    setupPunch();
     $("close").addEventListener("click", closeRace);
     $("sheet-bg").addEventListener("click", closeRace);
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeRace(); });
@@ -617,8 +659,7 @@
       state.allRaces = races.races;
       pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
       state.topo = topo;
-      const t = new Date(f.generated_utc);
-      $("updated").textContent = `Updated ${t.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
+      showUpdated();
       renderBoard(); renderMap(); renderList();
       startLive(f.election_date).catch((e) => { state.liveError = e.message; renderLiveBar(); });
       if (location.hash.length > 1) {
