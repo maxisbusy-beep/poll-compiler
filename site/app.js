@@ -716,7 +716,7 @@
     const more = $("pv-more");
     if (more) more.addEventListener("click", () => { pv.all = true; renderPollsters(); });
     $("pv-list").querySelectorAll("button[data-pollster]").forEach((b) => b.addEventListener("click", () => openPollster(b.dataset.pollster)));
-    $("pv-foot").textContent = `${total} pollsters shown. Pollsters with fewer than ${min} graded races in this period are hidden; search to find them. `
+    $("pv-foot").textContent = `${total} pollster${total === 1 ? "" : "s"} shown. Pollsters with fewer than ${min} graded races in this period are hidden; search to find them. `
       + `"Best record" ranks by how much each pollster's polls count in our averages: how much closer to the result it has been than other polls of the same races, `
       + `trusted more the more races it has. Letter grades in brackets are Silver Bulletin's (January 2026), for reference.`;
   }
