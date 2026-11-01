@@ -36,6 +36,9 @@ jobs:
       - name: Run pipeline
         run: python -m pipeline.run_all
 
+      - name: Stamp asset versions (so phones never keep an old app.js)
+        run: sed -i "s/__BUILD__/${GITHUB_SHA::7}/g" site/index.html
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
