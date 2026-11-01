@@ -20,7 +20,7 @@
   const letter = (party) => ({ DEM: "D", REP: "R", IND: "I", LIB: "L", GRN: "G" }[party] || party[0]);
 
   const state = { forecast: null, allRaces: [], pollsters: {}, topo: null, selected: null, chamber: "senate",
-                  showAll: false, houseLayout: null,
+                  showAll: false, houseTopo: null, houseGeo: null, houseZoom: null,
                   live: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null };
 
   const liveRes = (r) => (state.live ? state.live[r.race_id] : null);
@@ -201,81 +201,106 @@
       + (state.live ? `<span>Bright = called (✓). Faded = not called yet, shown by forecast.</span>` : "");
   }
 
-  // ---- House tile map: one square per district, grown around each state's centre ----
-  function houseLayout() {
-    if (state.houseLayout) return state.houseLayout;
-    const geo = topojson.feature(state.topo, state.topo.objects.states);
-    const C = 21;                                   // cell size in map units
-    const cols = Math.ceil(975 / C) + 2, rows = Math.ceil(610 / C) + 2;
-    const centre = {};
-    for (const f of geo.features) {
-      const st = FIPS[f.id];
-      if (st) centre[st] = labelPoint(f.geometry).pt.map((v) => v / C);
-    }
-    centre.AK = [4, 23]; centre.HI = [12, 26];     // inset states, kept clear of the mainland
+  // ---- House map: real district boundaries (Census, simplified) ------------------
+  // Phones can't tap tiny city districts on a national map, so the first tap on a
+  // state zooms to it; inside a state, a tap opens the district.
+  const ST_ABBR = Object.fromEntries(Object.entries(FIPS).map(([f, a]) => [f, a]));
+
+  function houseGeo() {
+    if (state.houseGeo) return state.houseGeo;
+    const topo = state.houseTopo;
+    const districts = topojson.feature(topo, topo.objects.districts).features;
+    const states = topojson.feature(topo, topo.objects.states).features;
+    const bbox = (geoms) => {
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      const walk = (c) => { if (typeof c[0] === "number") { x0 = Math.min(x0, c[0]); x1 = Math.max(x1, c[0]); y0 = Math.min(y0, c[1]); y1 = Math.max(y1, c[1]); } else c.forEach(walk); };
+      geoms.forEach((g) => walk(g.geometry.coordinates));
+      return [x0, y0, x1, y1];
+    };
+    const all = bbox(districts);
+    const W = 1000, k = W / (all[2] - all[0]), H = (all[3] - all[1]) * k;
+    const P = (c) => [(c[0] - all[0]) * k, (all[3] - c[1]) * k];           // projected metres -> SVG, y flipped
+    const path = (geom) => {
+      const polys = geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates;
+      return polys.map((poly) => poly.map((ring) => "M" + ring.map((c) => P(c).map((v) => v.toFixed(1)).join(",")).join("L") + "Z").join("")).join("");
+    };
+    const box = (geoms) => { const b = bbox(geoms); const a = P([b[0], b[3]]), z = P([b[2], b[1]]); return [a[0], a[1], z[0] - a[0], z[1] - a[1]]; };
     const byState = {};
-    races().forEach((r) => (byState[r.state] = byState[r.state] || []).push(r));
-    const taken = new Set(), cells = {};
-    const key = (x, y) => x + "," + y;
-    const order = Object.keys(byState).sort((a, b) => byState[b].length - byState[a].length);
-    for (const st of order) {
-      const [cx, cy] = centre[st];
-      const n = byState[st].length, region = [];
-      const d2 = (x, y) => (x + 0.5 - cx) ** 2 + (y + 0.5 - cy) ** 2;
-      while (region.length < n) {
-        let best = null, bd = Infinity;
-        const tryCell = (x, y) => {
-          if (x < 0 || y < 0 || x >= cols || y >= rows || taken.has(key(x, y))) return;
-          const d = d2(x, y);
-          if (d < bd) { bd = d; best = [x, y]; }
-        };
-        if (region.length) region.forEach(([x, y]) => { tryCell(x + 1, y); tryCell(x - 1, y); tryCell(x, y + 1); tryCell(x, y - 1); });
-        if (!best) for (let x = 0; x < cols; x++) for (let y = 0; y < rows; y++) tryCell(x, y);
-        region.push(best); taken.add(key(...best));
-      }
-      region.sort((a, b) => a[1] - b[1] || a[0] - b[0]);
-      const ds = byState[st].slice().sort((a, b) => +a.district - +b.district);
-      ds.forEach((r, i) => (cells[r.race_id] = region[i]));
-      cells["label:" + st] = [region.reduce((t, c) => t + c[0], 0) / n, region.reduce((t, c) => t + c[1], 0) / n];
-    }
-    state.houseLayout = { C, cells, states: order };
-    return state.houseLayout;
+    districts.forEach((f) => (byState[f.properties.st] = byState[f.properties.st] || []).push(f));
+    state.houseGeo = {
+      W, H,
+      districts: districts.map((f) => {
+        const st = ST_ABBR[f.properties.st], cd = parseInt(f.properties.cd, 10) || 1;
+        return { st, fips: f.properties.st, race_id: `${state.forecast.cycle}-HOUSE-${st}-${cd}`, d: path(f.geometry) };
+      }),
+      states: states.map((f) => ({ fips: f.properties.st, d: path(f.geometry) })),
+      stateBox: Object.fromEntries(Object.entries(byState).map(([fips, fs]) => [fips, box(fs)])),
+    };
+    return state.houseGeo;
   }
 
-  function renderHouseMap() {
-    const { C, cells, states } = houseLayout();
+  async function renderHouseMap() {
+    if (!state.houseTopo) {
+      $("map").innerHTML = `<p class="note">Loading district map…</p>`;
+      try { state.houseTopo = await getJSON("data/house_map.json"); }
+      catch (e) { $("map").innerHTML = `<p class="note">Couldn't load the district map. Reload to try again.</p>`; return; }
+      if (state.chamber !== "house") return;
+    }
+    const g = houseGeo();
+    const byId = Object.fromEntries(races().map((r) => [r.race_id, r]));
     const NS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("viewBox", `0 0 ${C * 48} ${C * 31}`);
-    for (const r of races()) {
-      const c = cells[r.race_id];
-      if (!c) continue;
-      const cat = category(r);
+    const zoom = state.houseZoom;
+    let vb = [0, 0, g.W, g.H];
+    if (zoom && g.stateBox[zoom]) {
+      const [x, y, w, h] = g.stateBox[zoom];
+      const pad = Math.max(w, h) * 0.06, aspect = g.W / g.H;
+      let W2 = w + 2 * pad, H2 = h + 2 * pad;
+      if (W2 / H2 < aspect) W2 = H2 * aspect; else H2 = W2 / aspect;
+      vb = [x + w / 2 - W2 / 2, y + h / 2 - H2 / 2, W2, H2];
+    }
+    svg.setAttribute("viewBox", vb.map((v) => v.toFixed(1)).join(" "));
+    for (const dist of g.districts) {
+      const r = byId[dist.race_id];
+      const cat = r ? category(r) : "none";
       const p = document.createElementNS(NS, "path");
-      p.setAttribute("d", `M${c[0] * C + 1} ${c[1] * C + 1}h${C - 2}v${C - 2}h${-(C - 2)}z`);
+      p.setAttribute("d", dist.d);
       p.setAttribute("fill", `var(--${cat})`);
-      if (state.live && !(liveRes(r) || {}).called) p.style.opacity = ".4";
-      p.dataset.race = r.race_id;
-      p.setAttribute("tabindex", "0");
-      p.setAttribute("role", "button");
-      p.setAttribute("aria-label", `${raceLabel(r)}: ${RATINGS.find(([k]) => k === cat)[1]}`);
-      p.addEventListener("click", () => openRace(r.race_id));
-      p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openRace(r.race_id); } });
+      p.setAttribute("class", "district");
+      if (state.live && r && !(liveRes(r) || {}).called) p.style.opacity = ".4";
+      if (zoom && dist.fips !== zoom) p.style.opacity = ".25";
+      p.dataset.race = dist.race_id;
+      if (r) {
+        p.setAttribute("tabindex", "0");
+        p.setAttribute("role", "button");
+        p.setAttribute("aria-label", `${raceLabel(r)}: ${RATINGS.find(([k]) => k === cat)[1]}`);
+        const act = () => {
+          const single = g.districts.filter((x) => x.fips === dist.fips).length === 1;
+          if (state.houseZoom === dist.fips || single) openRace(r.race_id);
+          else { state.houseZoom = dist.fips; renderHouseMap(); }
+        };
+        p.addEventListener("click", act);
+        p.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(); } });
+      }
       svg.appendChild(p);
     }
-    for (const st of states) {
-      const [x, y] = cells["label:" + st];
-      const t = document.createElementNS(NS, "text");
-      t.setAttribute("x", x * C + C / 2); t.setAttribute("y", y * C + C / 2 + 6);
-      t.setAttribute("text-anchor", "middle");
-      t.classList.add("tile-label");
-      t.textContent = st;
-      svg.appendChild(t);
+    for (const st of g.states) {
+      const p = document.createElementNS(NS, "path");
+      p.setAttribute("d", st.d);
+      p.setAttribute("class", "state-line");
+      svg.appendChild(p);
     }
     $("map").innerHTML = "";
+    if (zoom) {
+      const bar = document.createElement("div");
+      bar.className = "zoombar";
+      bar.innerHTML = `<strong>${NAMES[ST_ABBR[zoom]]}</strong><span>Tap a district for details</span><button id="unzoom">Whole map</button>`;
+      $("map").appendChild(bar);
+      bar.querySelector("#unzoom").addEventListener("click", () => { state.houseZoom = null; renderHouseMap(); });
+    }
     $("map").appendChild(svg);
     $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
-      + `<span>One square per district</span>`
+      + `<span>${zoom ? "" : "Tap a state to zoom in. "}District lines: Census, 2026 maps.</span>`
       + (state.live ? `<span>Bright = called. Faded = not called yet, shown by forecast.</span>` : "");
   }
 
@@ -338,6 +363,10 @@
     if (!r) return;
     state.selected = id;
     document.querySelectorAll(".map path.sel").forEach((p) => p.classList.remove("sel"));
+    if (r.chamber === "house" && state.houseGeo) {
+      const fips = Object.keys(FIPS).find((f) => FIPS[f] === r.state);
+      if (state.houseZoom !== fips) { state.houseZoom = fips; renderHouseMap(); }
+    }
     const sel = r.chamber === "house" ? `.map path[data-race="${r.race_id}"]` : `.map path[data-state="${r.state}"]`;
     document.querySelectorAll(sel).forEach((p) => p.classList.add("sel"));
     $("sheet-title").textContent = raceLabel(r);
@@ -447,7 +476,7 @@
       $("tab-house").setAttribute("aria-selected", String(which === "house"));
     };
     const show = (which) => {
-      state.chamber = which; setTab(which); closeRace();
+      state.chamber = which; setTab(which); closeRace(); state.houseZoom = null;
       renderBoard(); renderMap(); renderList();
     };
     $("tab-house").addEventListener("click", () => show("house"));

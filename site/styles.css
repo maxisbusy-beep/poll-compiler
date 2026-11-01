@@ -73,7 +73,7 @@ button { font: inherit; color: inherit; }
 /* ---- map ------------------------------------------------------------------ */
 .map { margin: 18px -4px 6px; }
 .map svg { width: 100%; height: auto; display: block; }
-.map path { stroke: var(--bg); stroke-width: 1.2; cursor: pointer; transition: opacity .15s; }
+.map path { vector-effect: non-scaling-stroke; stroke: var(--bg); stroke-width: 1.2; cursor: pointer; transition: opacity .15s; }
 .map path.none { cursor: default; }
 .map path.sel { stroke: var(--ink); stroke-width: 2.4; }
 .map path:not(.none):hover { opacity: .85; }
@@ -148,3 +148,10 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .livebox .meter { height: 6px; background: var(--line); border-radius: 3px; margin: 8px 0 4px; overflow: hidden; }
 .livebox .meter span { display: block; height: 100%; background: var(--ink); opacity: .7; }
 .sbg { font-family: var(--num); font-weight: 600; color: var(--muted); white-space: nowrap; }
+.map path.state-line { fill: none; stroke: var(--bg); pointer-events: none; }
+.zoombar { display: flex; align-items: center; gap: 10px; margin: 0 4px 8px; font-size: .85rem; color: var(--muted); }
+.zoombar strong { color: var(--ink); font-size: 1rem; }
+.zoombar button { margin-left: auto; border: 1px solid var(--line); background: var(--panel-2); border-radius: 7px; padding: 4px 10px; cursor: pointer; }
+.map path.district { stroke-width: .5; }
+.map path.state-line { stroke-width: 1.6; }
+.map path.district.sel { stroke: var(--ink); stroke-width: 2.4; }
