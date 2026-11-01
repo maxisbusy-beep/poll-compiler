@@ -562,6 +562,20 @@
     return now >= start && now < start + 10 * 86400000 ? "on" : null;
   }
 
+  // A page left open before results start switches itself to live at 23:00 Berlin on
+  // election night, no reload needed. Checked once a minute so a sleeping phone catches up.
+  function scheduleLiveStart(electionDate) {
+    if (state.liveMode || new URLSearchParams(location.search).get("live") === "0") return;
+    const timer = setInterval(() => {
+      if (state.liveMode) return clearInterval(timer);
+      if (liveModeFromURL(electionDate)) {
+        clearInterval(timer);
+        startLive(electionDate).then(() => { renderBoard(); renderMap(); renderList(); })
+          .catch((e) => { state.liveError = e.message; renderLiveBar(); });
+      }
+    }, 60000);
+  }
+
   function renderLiveBar() {
     const el = $("livebar");
     if (!state.liveMode) { el.hidden = true; return; }
@@ -662,6 +676,7 @@
       showUpdated();
       renderBoard(); renderMap(); renderList();
       startLive(f.election_date).catch((e) => { state.liveError = e.message; renderLiveBar(); });
+      scheduleLiveStart(f.election_date);
       if (location.hash.length > 1) {
         const id = decodeURIComponent(location.hash.slice(1));
         if (id.includes("-HOUSE-")) show("house");
