@@ -1647,7 +1647,11 @@ pollsters:
   rasmussen-reports:
     name: Rasmussen Reports
     fivethirtyeight_id: 277
-    aliases: []
+    merged_fivethirtyeight_ids:
+    - 776
+    note: Merged by owner decision 2026-11-01 (same firm; 538 split it in 2013).
+    aliases:
+    - Scott Rasmussen (Rasmussen Reports)
   rbi-strategies-and-research:
     name: RBI Strategies & Research
     fivethirtyeight_id: 271
@@ -1767,10 +1771,6 @@ pollsters:
   schoen-cooperman-research:
     name: Schoen Cooperman Research
     fivethirtyeight_id: 301
-    aliases: []
-  scott-rasmussen-rasmussen-reports:
-    name: Scott Rasmussen (Rasmussen Reports)
-    fivethirtyeight_id: 776
     aliases: []
   scripps-howard:
     name: Scripps Howard

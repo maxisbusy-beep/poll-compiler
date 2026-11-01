@@ -7,14 +7,14 @@ Compiles public polls into **Senate and House control odds**, and grades every p
 
 ## Status
 
-**Phase 1 — historical data.** 18,250 polls and 2,180 race results (1998–2022) from the archived 538 dataset, normalized, with a 593-entry pollster alias table. Coverage: [reports/history_coverage.md](reports/history_coverage.md).
+**Phase 2 — pollster scoring.** 468 pollsters graded on 6,685 final polls across 1,802 races (1998–2022): win-call %, average error, bias and excess error, for the last same-type cycle, the last two cycles and all time. Report: [reports/pollster_scores.md](reports/pollster_scores.md). Data coverage: [reports/history_coverage.md](reports/history_coverage.md).
 
 | Phase | What | State |
 |---|---|---|
 | 0 | Repo, Pages, Action | ✅ |
-| 1 | 538 history + results, pollster aliases | ✅ awaiting sign-off |
-| 2 | Pollster scoring | next |
-| 3 | Wikipedia scraper | |
+| 1 | 538 history + results, pollster aliases | ✅ |
+| 2 | Pollster scoring | ✅ awaiting sign-off |
+| 3 | Wikipedia scraper | next |
 | 4 | Senate model + backtest | |
 | 5 | House model | |
 | 6 | UI | |

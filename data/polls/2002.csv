@@ -112,7 +112,7 @@ cycle,cycle_type,election_date,race_id,race_type,state,district,special,pollster
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,surveyusa,SurveyUSA,,,IVR,,,2002-10-22,14,535,,Rod Blagojevich,DEM,52.0,Jim Ryan,REP,40.0,,,12.0,D-R,538,poll_id=54694;question_id=88230
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,krc-research,KRC Research,,,Live Phone,,,2002-10-23,13,400,,Rod Blagojevich,DEM,50.0,Jim Ryan,REP,38.0,,,12.0,D-R,538,poll_id=54692;question_id=88228
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,market-shares-corp,Market Shares Corp.,,,Live Phone,,,2002-10-26,10,701,,Rod Blagojevich,DEM,47.0,Jim Ryan,REP,37.0,,,10.0,D-R,538,poll_id=25515;question_id=88231
-2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,scott-rasmussen-rasmussen-reports,Scott Rasmussen (Rasmussen Reports),,,IVR,,,2002-10-26,10,600,,Rod Blagojevich,DEM,51.0,Jim Ryan,REP,36.0,,,15.0,D-R,538,poll_id=54696;question_id=88232
+2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,rasmussen-reports,Scott Rasmussen (Rasmussen Reports),,,IVR,,,2002-10-26,10,600,,Rod Blagojevich,DEM,51.0,Jim Ryan,REP,36.0,,,15.0,D-R,538,poll_id=54696;question_id=88232
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,escalent,Escalent,,R,Live Phone,,,2002-10-28,8,400,,Rod Blagojevich,DEM,45.0,Jim Ryan,REP,39.0,,,6.0,D-R,538,poll_id=54698;question_id=88234
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,garin-hart-yang-research-group,Garin-Hart-Yang Research Group,,D,Live Phone,,,2002-10-28,8,606,,Rod Blagojevich,DEM,52.0,Jim Ryan,REP,36.0,,,16.0,D-R,538,poll_id=54697;question_id=88233
 2002,midterm,2002-11-05,2002-GOV-IL,GOV,IL,,,surveyusa,SurveyUSA,,,IVR,,,2002-10-29,7,535,,Rod Blagojevich,DEM,53.0,Jim Ryan,REP,39.0,,,14.0,D-R,538,poll_id=54700;question_id=88236

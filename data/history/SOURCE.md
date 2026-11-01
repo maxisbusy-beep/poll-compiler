@@ -20,3 +20,12 @@ already includes each race's actual result (`cand1_actual`, `cand2_actual`).
 
 Column definitions: see the pollster-ratings README in the 538 repo.
 This file is a frozen snapshot. Do not edit it; all cleaning happens in `pipeline/load_538_history.py`.
+
+---
+
+# 538 published pollster ratings (comparison only)
+
+- File: `538_pollster_ratings.csv`
+- Source: https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/pollster-ratings-combined.csv
+- Downloaded: 2026-11-01 · License: CC BY 4.0 (FiveThirtyEight / ABC News)
+- Used only by `pipeline/report_pollsters.py` to sanity-check our own scores. Not used by the model.

@@ -38,7 +38,10 @@ def main() -> None:
     existing = {}
     if OUT.exists():
         existing = (yaml.safe_load(OUT.read_text()) or {}).get("pollsters", {})
-    by_538 = {str(v.get("fivethirtyeight_id")): k for k, v in existing.items()}
+    by_538 = {}
+    for k, v in existing.items():
+        for i in [v.get("fivethirtyeight_id"), *v.get("merged_fivethirtyeight_ids", [])]:
+            by_538[str(i)] = k
 
     names = {}
     for r in csv.DictReader(SNAPSHOT.open()):
@@ -56,6 +59,7 @@ def main() -> None:
         pollsters[slug] = {"name": name, "fivethirtyeight_id": int(rid), "aliases": []}
 
     pollsters = dict(sorted(pollsters.items()))
+    # NOTE: rewriting drops YAML comments; keep decisions in field values, not comments.
     OUT.write_text(HEADER + yaml.safe_dump({"pollsters": pollsters}, sort_keys=False,
                                            allow_unicode=True, width=120))
     print(f"{len(pollsters)} pollsters -> {OUT.relative_to(ROOT)}")

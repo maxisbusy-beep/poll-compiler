@@ -1,0 +1,12 @@
+# Pollster scoring settings (SPEC.md section 4).
+# Values marked "tuned in Phase 4" are placeholders until the backtest sets them.
+
+target_cycle: 2026          # the election the site is forecasting; windows look back from here
+final_window_days: 21       # a poll counts only if it ends within this many days of the election
+                            # (538 history uses median field date; Wikipedia polls use end date)
+race_types: [SEN, HOUSE, HOUSE-GEN, GOV, PRES]   # owner decision 2026-11-01: grade on all types
+min_n_display: 5            # fewer scored races than this in a window -> show "—"
+
+model:
+  shrink_k: 10              # shrunk = raw * n / (n + k)        (tuned in Phase 4)
+  quality_scale_s: 3.0      # weight = exp(-shrunk_excess / s)  (tuned in Phase 4)
