@@ -170,3 +170,9 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .duel .trail .p { opacity: .75; }
 .livebox tr.lead td { font-weight: 700; }
 .livebox tr.trail td { color: var(--muted); }
+/* the House map zooms on its own; the page never does */
+.mapframe { overflow: hidden; border-radius: 6px; }
+.mapframe svg { touch-action: pan-x pan-y; user-select: none; -webkit-user-select: none; }
+.mapframe svg.zoomed { touch-action: none; cursor: grab; }
+.zoombar .zbtns { margin-left: auto; display: flex; gap: 6px; }
+.zoombar .zbtns button { margin-left: 0; min-width: 34px; font-weight: 700; }

@@ -279,7 +279,7 @@
       if (W2 / H2 < aspect) W2 = H2 * aspect; else H2 = W2 / aspect;
       vb = [x + w / 2 - W2 / 2, y + h / 2 - H2 / 2, W2, H2];
     }
-    svg.setAttribute("viewBox", vb.map((v) => v.toFixed(1)).join(" "));
+    const base = vb.slice();
     for (const dist of g.districts) {
       const r = byId[dist.race_id];
       const cat = r ? category(r) : "none";
@@ -311,17 +311,101 @@
       svg.appendChild(p);
     }
     $("map").innerHTML = "";
-    if (zoom) {
-      const bar = document.createElement("div");
-      bar.className = "zoombar";
-      bar.innerHTML = `<strong>${NAMES[ST_ABBR[zoom]]}</strong><span>Tap a district for details</span><button id="unzoom">Whole map</button>`;
-      $("map").appendChild(bar);
-      bar.querySelector("#unzoom").addEventListener("click", () => { state.houseZoom = null; renderHouseMap(); });
-    }
-    $("map").appendChild(svg);
+    const bar = document.createElement("div");
+    bar.className = "zoombar";
+    bar.innerHTML = (zoom ? `<strong>${NAMES[ST_ABBR[zoom]]}</strong><span>Tap a district for details</span>`
+                          : `<span>Pinch to zoom, or tap a state</span>`)
+      + `<span class="zbtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button>`
+      + (zoom ? `<button id="unzoom">Whole map</button>` : "") + `</span>`;
+    $("map").appendChild(bar);
+    if (zoom) bar.querySelector("#unzoom").addEventListener("click", () => { state.houseZoom = null; state.houseView = null; renderHouseMap(); });
+    const wrap = document.createElement("div");
+    wrap.className = "mapframe";
+    wrap.appendChild(svg);
+    $("map").appendChild(wrap);
+    const pz = panZoom(svg, base, [0, 0, g.W, g.H], zoom || "us");
+    bar.querySelector("#zin").addEventListener("click", () => pz.zoomBy(1.6));
+    bar.querySelector("#zout").addEventListener("click", () => pz.zoomBy(1 / 1.6));
     $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
       + `<span>${zoom ? "" : "Tap a state to zoom in. "}District lines: Census, 2026 maps.</span>`
       + (state.live ? `<span>Bright = called. Faded = not called yet, shown by forecast.</span>` : "");
+  }
+
+  // Pinch / drag / wheel zoom inside the map only. The page itself never zooms:
+  // the map sets touch-action so the browser leaves two-finger gestures to us.
+  // One finger scrolls the page unless the map is zoomed in, then it pans the map.
+  function panZoom(svg, base, full, key) {
+    const aspect = base[3] / base[2];
+    const ext = [Math.min(full[0], base[0]), Math.min(full[1], base[1]),
+                 Math.max(full[0] + full[2], base[0] + base[2]), Math.max(full[1] + full[3], base[1] + base[3])];
+    let vb = state.houseViewKey === key && state.houseView ? state.houseView.slice() : base.slice();
+    const zoomed = () => vb[2] < base[2] * 0.98;
+    function apply() {
+      const minW = base[2] / 12;
+      vb[2] = Math.min(Math.max(vb[2], minW), base[2]); vb[3] = vb[2] * aspect;
+      if (!zoomed()) { vb = base.slice(); }
+      else {
+        vb[0] = Math.min(Math.max(vb[0], ext[0]), ext[2] - vb[2]);
+        vb[1] = Math.min(Math.max(vb[1], ext[1]), ext[3] - vb[3]);
+      }
+      svg.setAttribute("viewBox", vb.map((v) => v.toFixed(1)).join(" "));
+      svg.classList.toggle("zoomed", zoomed());
+      state.houseView = vb.slice(); state.houseViewKey = key;
+    }
+    function zoomAt(f, cx, cy) {
+      const r = svg.getBoundingClientRect();
+      const fx = (cx - r.left) / r.width, fy = (cy - r.top) / r.height;
+      const px = vb[0] + fx * vb[2], py = vb[1] + fy * vb[3];
+      vb[2] /= f; vb[3] = vb[2] * aspect;
+      vb[0] = px - fx * vb[2]; vb[1] = py - fy * vb[3];
+    }
+    function panBy(dx, dy) {
+      const r = svg.getBoundingClientRect();
+      vb[0] -= dx * vb[2] / r.width; vb[1] -= dy * vb[3] / r.height;
+    }
+    let moved = 0, prev = null;
+    const pts = (e) => [...e.touches].map((t) => [t.clientX, t.clientY]);
+    const mid = (a) => [(a[0][0] + a[1][0]) / 2, (a[0][1] + a[1][1]) / 2];
+    const dist = (a) => Math.hypot(a[0][0] - a[1][0], a[0][1] - a[1][1]);
+    svg.addEventListener("touchstart", (e) => { if (e.touches.length === 1) moved = 0; prev = pts(e); }, { passive: true });
+    svg.addEventListener("touchmove", (e) => {
+      const cur = pts(e);
+      if (cur.length >= 2 && prev && prev.length >= 2) {
+        e.preventDefault();
+        const m0 = mid(prev), m1 = mid(cur);
+        zoomAt(dist(cur) / Math.max(dist(prev), 1), m1[0], m1[1]);
+        panBy(m1[0] - m0[0], m1[1] - m0[1]);
+        moved += 10; apply();
+      } else if (cur.length === 1 && prev && prev.length === 1 && zoomed()) {
+        e.preventDefault();
+        const dx = cur[0][0] - prev[0][0], dy = cur[0][1] - prev[0][1];
+        moved += Math.abs(dx) + Math.abs(dy);
+        panBy(dx, dy); apply();
+      }
+      prev = cur;
+    }, { passive: false });
+    svg.addEventListener("touchend", (e) => { prev = pts(e); }, { passive: true });
+    // mouse: drag to pan when zoomed, wheel to zoom
+    let drag = null;
+    svg.addEventListener("pointerdown", (e) => {
+      if (e.pointerType === "mouse" && zoomed()) { drag = [e.clientX, e.clientY]; moved = 0; }
+    });
+    svg.addEventListener("pointermove", (e) => {
+      if (!drag || !(e.buttons & 1)) { drag = null; return; }
+      const dx = e.clientX - drag[0], dy = e.clientY - drag[1];
+      moved += Math.abs(dx) + Math.abs(dy); drag = [e.clientX, e.clientY]; panBy(dx, dy); apply();
+    });
+    svg.addEventListener("pointerup", () => { drag = null; });
+    svg.addEventListener("wheel", (e) => {
+      if (!e.ctrlKey) return;   // plain wheel scrolls the page; trackpad pinch (ctrl+wheel) zooms the map
+      e.preventDefault(); zoomAt(Math.exp(-e.deltaY * 0.002), e.clientX, e.clientY); apply();
+    }, { passive: false });
+    // a drag or pinch is not a tap: don't open a district after one
+    svg.addEventListener("click", (e) => { if (moved > 8) { e.stopPropagation(); e.preventDefault(); } moved = 0; }, true);
+    apply();
+    return {
+      zoomBy(f) { const r = svg.getBoundingClientRect(); zoomAt(f, r.left + r.width / 2, r.top + r.height / 2); apply(); },
+    };
   }
 
   const ordinal = (n) => { const t = ["th", "st", "nd", "rd"], v = n % 100; return n + (t[(v - 20) % 10] || t[v] || t[0]); };
