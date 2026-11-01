@@ -18,7 +18,7 @@
 2026-GOV-RI: 6 poll tables, kept Helena Foulkes vs Aaron Guckian vs Ken Block
 2026-GOV-TN: 2 poll tables, kept Marsha Blackburn vs Jerri Green vs David Hatley
 2026-GOV-TX: 2 poll tables, kept Greg Abbott vs Gina Hinojosa vs Pat Dixon
-2026-HOUSE-AK-1: 7 poll tables, kept Nick Begich III vs Eric Hafner vs Jim McDermott
+2026-HOUSE-AK-1: 7 poll tables, kept Nick Begich III vs Bill Hill vs Eric Hafner vs Jim McDermott
 2026-HOUSE-VT-1: 2 poll tables, kept Becca Balint vs Gerald Malloy
 2026-HOUSE-CO-3: 2 poll tables, kept Jeff Hurd vs Dwayne Romero
 2026-HOUSE-FL-2: 5 poll tables, kept Keith Gross vs Yen Bailey
