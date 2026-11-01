@@ -716,7 +716,7 @@
   const MOVES = ["spin", "jelly", "bounce", "flip", "knock"];
 
   function setupPunch() {
-    const face = $("face"), body = face.querySelector(".face-body"), pow = face.querySelector(".pow");
+    const face = $("face"), body = face.querySelector(".face-body");
     const comboEl = face.querySelector(".combo"), bubble = face.querySelector(".bubble");
     const replay = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
     let busy = false, combo = 0, comboTimer = null, damage = 0, lastMove = "", lastQuip = -1, koUntil = 0, bubbleTimer = null;
@@ -743,7 +743,6 @@
 
     face.addEventListener("click", async () => {
       if (Date.now() < koUntil) return;                 // he's down, give him a second
-      replay(pow, "hit");
       damage = Math.min(damage + 1, 12); showDamage();
       combo++;
       clearTimeout(comboTimer);
