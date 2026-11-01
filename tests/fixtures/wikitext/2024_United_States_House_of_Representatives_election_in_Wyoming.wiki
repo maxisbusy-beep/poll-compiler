@@ -1,0 +1,479 @@
+{{Short description|none}}
+{{Use American English|date=October 2025}}
+{{Use mdy dates|date=January 2025}}
+{{for|related races|2024 United States House of Representatives elections}}
+{{Distinguish|2024 Wyoming House of Representatives election}}
+{{Infobox election
+| election_name = 2024 United States House of Representatives election in Wyoming’s at-large district
+| country = Wyoming
+| type = presidential
+| ongoing = no
+| previous_election = 2022 United States House of Representatives election in Wyoming
+| previous_year = 2022
+| election_date = November 5, 2024
+| next_election = 2026 United States House of Representatives election in Wyoming
+| next_year = 2026
+| turnout = 
+| 1blank = First<br>round
+| 2blank = [[Instant-runoff voting|Maximum<br>round]]
+| image_size = x150px
+| image1 = Official-harriet-hageman-wy00 (cropped).jpg
+| nominee1 = '''[[Harriet Hageman]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''184,680'''
+| percentage1 = '''70.61%'''
+| 1data1 = 
+| 2data1 = 
+| image2 = 3x4.svg
+| nominee2 = Kyle Cameron
+| party2 = Democratic Party (United States)
+| popular_vote2 = 60,778
+| percentage2 = 23.24%
+| 1data2 = 
+| 2data2 = 
+| map_image = {{switcher
+|[[File:2024 United States House of Representatives election in Wyoming results map by county.svg|250px]]
+|County results 
+|[[File:2024 United States House of Representatives election in Wyoming by precinct.svg|250px]]
+|Precinct results 
+}}
+| map_caption = '''Hageman:''' {{legend0|#FFB2B2|40–50%}} {{legend0|#E27F7F|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#D72F30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}<br>'''Cameron:''' {{legend0|#A5B0FF|40–50%}} {{legend0|#7996E2|50–60%}} {{legend0|#6674DE|60–70%}} {{legend0|#584CDE|70–80%}}<br>'''Tie:''' {{legend0|#AE8BB1|50%}} {{legend0|#808080|No data}}
+| title = U.S. Representative
+| before_election = [[Harriet Hageman]]
+| before_party = Republican Party (United States)
+| after_election = [[Harriet Hageman]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsWY}}
+The '''2024 United States House of Representatives election in Wyoming''' was held on November 5, 2024, to elect the [[United States House of Representatives|U.S. representative]] for {{ushr|WY|AL}}. The election coincided with [[2024 United States House of Representatives elections|other elections]] to the House of Representatives, [[2024 United States Senate elections|elections]] to the [[United States Senate]], and various [[2024 United States elections|state and local elections]].<ref>{{Cite web |title=United States House of Representatives election in Wyoming, 2024 |url=https://ballotpedia.org/United_States_House_of_Representatives_election_in_Wyoming,_2024 |access-date=2024-02-22 |website=Ballotpedia |language=en}}</ref> The primary elections took place on August 20, 2024.
+
+== Republican primary ==
+=== Candidates ===
+==== Nominee ====
+* [[Harriet Hageman]], incumbent U.S. representative<ref>{{Cite web |last=Woodward |first=Chris |date=January 6, 2024 |title=Representative Harriet Hageman running for second term in Congress |url=https://www.washingtonexaminer.com/news/representative-harriet-hageman-running-for-second-term-in-congress |access-date=2024-01-06 |work=[[The Washington Examiner]]}}</ref>
+
+==== Eliminated in primary ====
+* Steven Helling, attorney and Democratic candidate for U.S. House in [[2022 United States House of Representatives election in Wyoming|2022]]<ref name=":0">{{Cite web |date=2024-05-31 |title=Wyoming's Primary Election Is Set: 167 Candidates In 72 Contested Races |url=https://cowboystatedaily.com/2024/05/31/wyomings-primary-election-is-set-167-candidates-in-72-contested-races/ |access-date=2024-06-01 |website=cowboystatedaily.com |language=en}}</ref>
+
+=== Endorsements ===
+{{Endorsements box|title=Harriet Hageman|width=50em|list=;Organizations
+*[[AIPAC]]<ref name="AIPACENDORSE">{{Cite web |title=- AIPAC Political Portal |url=https://candidates.aipacpac.org/page/featured |access-date=2024-05-13 |website=candidates.aipacpac.org}}</ref>}}
+
+=== Results ===
+[[File:2024 United States House of Representatives Republican primary election in Wyoming results map by county.svg|thumb|250px|Results by county:
+{{collapsible list
+| title = {{legend|#E27F7F|Hageman}}|{{legend|#E27F7F|50–60%}}|{{legend|#D72F30|70–80%}}|{{legend|#C21B18|80–90%}}|{{legend|#A80000|>90%}}
+}}
+]]
+{{Election box begin no change|title=Republican primary results}}
+{{Election box winning candidate with party link no change|party=Republican Party (United States)|candidate=[[Harriet Hageman]] (incumbent)|votes=82,783|percentage=80.7}}
+{{Election box candidate with party link no change|party=Republican Party (United States)|candidate=Steven Helling|votes=19,743|percentage=19.3}}
+{{Election box total no change|votes=102,526|percentage=100.0}}{{Election box end}}
+
+== Democratic primary ==
+=== Candidates ===
+==== Nominee ====
+* Kyle Cameron, program manager at the [[Wyoming Department of Health]]<ref name=":0" />
+
+=== Results ===
+{{Election box begin no change|title=Democratic primary results}}
+{{Election box winning candidate with party link no change|party=Democratic Party (United States)|candidate=Kyle Cameron|votes=10,047|percentage=100.0}}
+{{Election box total no change|votes=10,047|percentage=100.0}}{{Election box end}}
+
+== General election ==
+
+=== Predictions ===
+{| class="wikitable" style="text-align:center"
+!Source
+!Ranking
+!As of
+|-
+| align="left" |[[The Cook Political Report]]<ref name="Cook PR">{{cite web |title=2022 House Race Ratings |url=https://cookpolitical.com/ratings/house-race-ratings |url-status=live |archive-url=https://web.archive.org/web/20211102124529/https://cookpolitical.com/ratings/house-race-ratings |archive-date=November 2, 2021 |access-date=October 1, 2021 |website=The Cook Political Report}}</ref>
+|{{USRaceRating|Solid|R}}
+|May 24, 2024
+|-
+| align="left" |[[Inside Elections]]<ref name="IE">{{cite web |title=House Ratings |url=http://insideelections.com/ratings/house |url-status=live |archive-url=https://web.archive.org/web/20210114095121/http://insideelections.com/ratings/house |archive-date=January 14, 2021 |access-date=October 4, 2021 |publisher=The Rothenberg Political Report}}</ref>
+| {{USRaceRating|Solid|R}}
+|May 9, 2024
+|-
+| align="left" |[[Sabato's Crystal Ball]]<ref name="Sabato's Crystal Ball">{{cite web |date=October 5, 2021 |title=2022 House Ratings |url=https://centerforpolitics.org/crystalball/2022-house/ |url-status=live |archive-url=https://web.archive.org/web/20211117002413/https://centerforpolitics.org/crystalball/2022-house/ |archive-date=November 17, 2021 |access-date=October 5, 2021 |website=Sabato's Crystal Ball}}</ref>
+|{{USRaceRating|Safe|R}}
+|May 3, 2024
+|-
+| align="left" |[[Elections Daily]]<ref>{{Cite web |date=2024-05-31 |title=Election Ratings |url=https://elections-daily.com/election-ratings/ |access-date=2024-06-01 |website=Elections Daily |language=en-US}}</ref>
+|{{USRaceRating|Solid|R}}
+|March 22, 2024
+|-
+| align="left" |[[CNalysis]]<ref>{{Cite web |title='24 House Forecast |url=https://projects.cnalysis.com/23-24/house |access-date=2024-06-01 |website=projects.cnalysis.com}}</ref>
+|{{USRaceRating|Safe|R}}
+|March 27, 2024
+|}
+
+=== Debate ===
+{| class="wikitable" style="text-align:center;"
+|+ 2024 United States House of Representatives election in Wyoming debate
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col"| <small>[[Republican Party (US)|Republican]]</small>
+! scope="col"| <small>[[Democratic Party (US)|Democratic]]</small>
+! scope="col"| <small>[[Libertarian Party (US)|Libertarian]]</small>
+! scope="col"| <small>[[Constitution Party (US)|Constitution]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br/>{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small>
+! scope="col" style="background:{{party color|Republican Party (US)}}"|
+! scope="col" style="background:{{party color|Democratic Party (US)}}"|
+! scope="col" style="background:{{party color|Libertarian Party (US)}}"|
+! scope="col" style="background:{{party color|Constitution Party (US)}}"|
+|-
+! scope="col" | [[Harriet Hageman]]
+! scope="col" | Kyle Cameron
+! scope="col" | Richard Brubaker
+! scope="col" | Jeffrey Haggit
+|-
+!1
+| style="white-space:nowrap;" | Oct. 17, 2024
+| style="white-space:nowrap;" | [[Central Wyoming College]]<br>[[Wyoming PBS]]
+| style="white-space:nowrap;" | Steve Peck
+| style="white-space:nowrap;" | [https://www.youtube.com/watch?v=ziNp9RL66Vs&t=308s YouTube]
+| {{D-A|'''A'''}}
+| {{Yes|'''P'''}}
+| {{Yes|'''P'''}}
+| {{Yes|'''P'''}}
+|}
+
+=== Results ===
+{{Election box begin|title=2024 Wyoming's at-large congressional district election<ref name=Results>{{Cite news|url=https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_Candidates_Summary.pdf |archive-url=https://web.archive.org/web/20260710221528/https://sos.wyo.gov/Elections/Docs/2024/Results/General/2024_General_Statewide_Candidates_Summary.pdf |archive-date=July 10, 2026 |url-status=live|title=Statewide Candidates Summary|last=Gray|first=Chuck|author-link=Chuck Gray (Wyoming politician)|date=November 13, 2024|work=[[Secretary of State of Wyoming]]|access-date=August 29, 2026}}</ref>}}
+{{Election box winning candidate with party link|party=Republican Party (United States)|candidate=[[Harriet Hageman]] (incumbent)|votes=184,680|percentage=70.61%|change=+2.43}}
+{{Election box candidate with party link|party=Democratic Party (United States)|candidate=Kyle Cameron|votes=60,778|percentage=23.24%|change=-1.13}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Richard Brubaker|votes=9,223|percentage=3.53%|change=+0.73}}
+{{Election box candidate with party link|party=Constitution Party (United States) |candidate=Jeffrey Haggit|votes=5,362|percentage=2.05%|change=-0.27}}
+{{Election box write-in with party link|votes=1,505|percentage=0.58%|change=–1.75}}
+{{Election box total|votes=261,548|percentage=100.00%|change=N/A}}
+{{Election box hold with party link no swing
+  | winner = Republican Party (United States)
+}}
+{{Election box end}}
+
+====By county====
+{| width="60%"  class="wikitable sortable" style="text-align:center"
+|-
+! rowspan="2"| County<ref name=Results/>
+! style="text-align:center;" colspan="2"| Harriet Hageman<br />Republican
+! style="text-align:center;" colspan="2"| Kyle Cameron<br />Democratic
+! style="text-align:center;" colspan="2"| Various candidates<br />Other parties
+! style="text-align:center;" colspan="2"| Margin
+! rowspan="2" style="text-align:center;"| Total votes cast
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Albany County, Wyoming|Albany]]
+| {{party shading/Republican}}| 8,559
+| {{party shading/Republican}}| 49.35%
+| {{party shading/Democratic}}| 7,674
+| {{party shading/Democratic}}| 44.25%
+| {{party shading/Others}}| 1,109
+| {{party shading/Others}}| 6.39%
+| {{party shading/Republican}}| 885
+| {{party shading/Republican}}| 5.10%
+| {{party shading/Republican}}| 17,342
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Big Horn County, Wyoming|Big Horn]]
+| {{party shading/Republican}}| 4,644
+| {{party shading/Republican}}| 82.49%
+| {{party shading/Democratic}}| 647
+| {{party shading/Democratic}}| 11.49%
+| {{party shading/Others}}| 339
+| {{party shading/Others}}| 6.02%
+| {{party shading/Republican}}| 3,997
+| {{party shading/Republican}}| 70.99%
+| {{party shading/Republican}}| 5,630
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Campbell County, Wyoming|Campbell]]
+| {{party shading/Republican}}| 15,058
+| {{party shading/Republican}}| 85.28%
+| {{party shading/Democratic}}| 1,700
+| {{party shading/Democratic}}| 9.63%
+| {{party shading/Others}}| 900
+| {{party shading/Others}}| 5.10%
+| {{party shading/Republican}}| 13,358
+| {{party shading/Republican}}| 75.65%
+| {{party shading/Republican}}| 17,658
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Carbon County, Wyoming|Carbon]]
+| {{party shading/Republican}}| 4,703
+| {{party shading/Republican}}| 75.85%
+| {{party shading/Democratic}}| 1,088
+| {{party shading/Democratic}}| 17.55%
+| {{party shading/Others}}| 409
+| {{party shading/Others}}| 6.60%
+| {{party shading/Republican}}| 3,615
+| {{party shading/Republican}}| 58.31%
+| {{party shading/Republican}}| 6,200
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Converse County, Wyoming|Converse]]
+| {{party shading/Republican}}| 5,436
+| {{party shading/Republican}}| 82.90%
+| {{party shading/Democratic}}| 691
+| {{party shading/Democratic}}| 10.54%
+| {{party shading/Others}}| 430
+| {{party shading/Others}}| 6.56%
+| {{party shading/Republican}}| 4,745
+| {{party shading/Republican}}| 72.37%
+| {{party shading/Republican}}| 6,557
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Crook County, Wyoming|Crook]]
+| {{party shading/Republican}}| 3,689
+| {{party shading/Republican}}| 86.98%
+| {{party shading/Democratic}}| 357
+| {{party shading/Democratic}}| 8.42%
+| {{party shading/Others}}| 195
+| {{party shading/Others}}| 4.60%
+| {{party shading/Republican}}| 3,332
+| {{party shading/Republican}}| 78.57%
+| {{party shading/Republican}}| 4,241
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Fremont County, Wyoming|Fremont]]
+| {{party shading/Republican}}| 11,258
+| {{party shading/Republican}}| 67.56%
+| {{party shading/Democratic}}| 4,369
+| {{party shading/Democratic}}| 26.22%
+| {{party shading/Others}}| 1,037
+| {{party shading/Others}}| 6.22%
+| {{party shading/Republican}}| 6,889
+| {{party shading/Republican}}| 41.34%
+| {{party shading/Republican}}| 16,664
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Goshen County, Wyoming|Goshen]]
+| {{party shading/Republican}}| 4,876
+| {{party shading/Republican}}| 80.13%
+| {{party shading/Democratic}}| 938
+| {{party shading/Democratic}}| 15.41%
+| {{party shading/Others}}| 271
+| {{party shading/Others}}| 4.45%
+| {{party shading/Republican}}| 3,938
+| {{party shading/Republican}}| 64.72%
+| {{party shading/Republican}}| 6,085
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Hot Springs County, Wyoming|Hot Springs]]
+| {{party shading/Republican}}| 2,022
+| {{party shading/Republican}}| 78.95%
+| {{party shading/Democratic}}| 400
+| {{party shading/Democratic}}| 15.62%
+| {{party shading/Others}}| 139
+| {{party shading/Others}}| 5.43%
+| {{party shading/Republican}}| 1,622
+| {{party shading/Republican}}| 63.33%
+| {{party shading/Republican}}| 2,561
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Johnson County, Wyoming|Johnson]]
+| {{party shading/Republican}}| 3,835
+| {{party shading/Republican}}| 80.10%
+| {{party shading/Democratic}}| 714
+| {{party shading/Democratic}}| 14.91%
+| {{party shading/Others}}| 239
+| {{party shading/Others}}| 4.99%
+| {{party shading/Republican}}| 3,121
+| {{party shading/Republican}}| 65.18%
+| {{party shading/Republican}}| 4,788
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Laramie County, Wyoming|Laramie]]
+| {{party shading/Republican}}| 27,090
+| {{party shading/Republican}}| 63.14%
+| {{party shading/Democratic}}| 12,893
+| {{party shading/Democratic}}| 30.05%
+| {{party shading/Others}}| 2,924
+| {{party shading/Others}}| 6.81%
+| {{party shading/Republican}}| 14,197
+| {{party shading/Republican}}| 33.09%
+| {{party shading/Republican}}| 42,907
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Lincoln County, Wyoming|Lincoln]]
+| {{party shading/Republican}}| 8,712
+| {{party shading/Republican}}| 82.20%
+| {{party shading/Democratic}}| 1,365
+| {{party shading/Democratic}}| 12.88%
+| {{party shading/Others}}| 522
+| {{party shading/Others}}| 4.92%
+| {{party shading/Republican}}| 7,347
+| {{party shading/Republican}}| 69.32%
+| {{party shading/Republican}}| 10,599
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Natrona County, Wyoming|Natrona]]
+| {{party shading/Republican}}| 23,396
+| {{party shading/Republican}}| 71.66%
+| {{party shading/Democratic}}| 7,090
+| {{party shading/Democratic}}| 21.72%
+| {{party shading/Others}}| 2,164
+| {{party shading/Others}}| 6.63%
+| {{party shading/Republican}}| 16,306
+| {{party shading/Republican}}| 49.94%
+| {{party shading/Republican}}| 32,650
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Niobrara County, Wyoming|Niobrara]]
+| {{party shading/Republican}}| 1,080
+| {{party shading/Republican}}| 89.18%
+| {{party shading/Democratic}}| 79
+| {{party shading/Democratic}}| 6.52%
+| {{party shading/Others}}| 52
+| {{party shading/Others}}| 4.29%
+| {{party shading/Republican}}| 1,001
+| {{party shading/Republican}}| 82.66%
+| {{party shading/Republican}}| 1,211
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Park County, Wyoming|Park]]
+| {{party shading/Republican}}| 12,620
+| {{party shading/Republican}}| 78.03%
+| {{party shading/Democratic}}| 2,677
+| {{party shading/Democratic}}| 16.55%
+| {{party shading/Others}}| 877
+| {{party shading/Others}}| 5.42%
+| {{party shading/Republican}}| 9,943
+| {{party shading/Republican}}| 61.48%
+| {{party shading/Republican}}| 16,174
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Platte County, Wyoming|Platte]]
+| {{party shading/Republican}}| 3,783
+| {{party shading/Republican}}| 80.66%
+| {{party shading/Democratic}}| 682
+| {{party shading/Democratic}}| 14.54%
+| {{party shading/Others}}| 225
+| {{party shading/Others}}| 4.80%
+| {{party shading/Republican}}| 3,101
+| {{party shading/Republican}}| 66.12%
+| {{party shading/Republican}}| 4,690
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Sheridan County, Wyoming|Sheridan]]
+| {{party shading/Republican}}| 11,647
+| {{party shading/Republican}}| 73.00%
+| {{party shading/Democratic}}| 3,380
+| {{party shading/Democratic}}| 21.18%
+| {{party shading/Others}}| 928
+| {{party shading/Others}}| 5.82%
+| {{party shading/Republican}}| 8,267
+| {{party shading/Republican}}| 51.81%
+| {{party shading/Republican}}| 15,955
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Sublette County, Wyoming|Sublette]]
+| {{party shading/Republican}}| 3,770
+| {{party shading/Republican}}| 78.56%
+| {{party shading/Democratic}}| 748
+| {{party shading/Democratic}}| 15.59%
+| {{party shading/Others}}| 281
+| {{party shading/Others}}| 5.86%
+| {{party shading/Republican}}| 3,022
+| {{party shading/Republican}}| 62.97%
+| {{party shading/Republican}}| 4,799
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Sweetwater County, Wyoming|Sweetwater]]
+| {{party shading/Republican}}| 11,588
+| {{party shading/Republican}}| 72.08%
+| {{party shading/Democratic}}| 3,196
+| {{party shading/Democratic}}| 19.88%
+| {{party shading/Others}}| 1,292
+| {{party shading/Others}}| 8.04%
+| {{party shading/Republican}}| 8,392
+| {{party shading/Republican}}| 52.20%
+| {{party shading/Republican}}| 16,076
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Teton County, Wyoming|Teton]]
+| {{party shading/Republican}}| 4,148
+| {{party shading/Republican}}| 32.42%
+| {{party shading/Democratic}}| 7,919
+| {{party shading/Democratic}}| 61.90%
+| {{party shading/Others}}| 727
+| {{party shading/Others}}| 5.68%
+| {{party shading/Democratic}}| -3,771
+| {{party shading/Democratic}}| -29.47%
+| {{party shading/Democratic}}| 12,794
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Uinta County, Wyoming|Uinta]]
+| {{party shading/Republican}}| 6,811
+| {{party shading/Republican}}| 77.76%
+| {{party shading/Democratic}}| 1,314
+| {{party shading/Democratic}}| 15.00%
+| {{party shading/Others}}| 634
+| {{party shading/Others}}| 7.24%
+| {{party shading/Republican}}| 5,497
+| {{party shading/Republican}}| 62.76%
+| {{party shading/Republican}}| 8,759
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Washakie County, Wyoming|Washakie]]
+| {{party shading/Republican}}| 3,047
+| {{party shading/Republican}}| 80.12%
+| {{party shading/Democratic}}| 548
+| {{party shading/Democratic}}| 14.41%
+| {{party shading/Others}}| 208
+| {{party shading/Others}}| 5.47%
+| {{party shading/Republican}}| 2,499
+| {{party shading/Republican}}| 65.71%
+| {{party shading/Republican}}| 3,803
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Weston County, Wyoming|Weston]]
+| {{party shading/Republican}}| 2,908
+| {{party shading/Republican}}| 85.40%
+| {{party shading/Democratic}}| 309
+| {{party shading/Democratic}}| 9.07%
+| {{party shading/Others}}| 188
+| {{party shading/Others}}| 5.52%
+| {{party shading/Republican}}| 2,599
+| {{party shading/Republican}}| 76.33%
+| {{party shading/Republican}}| 3,405
+|- style="text-align:center;"
+!Totals!!184,680!!70.61%!!60,778!!23.24%!!16,090!!6.15%!!123,902!!47.37%!!261,548
+|}
+
+====Counties that flipped from Democratic to Republican====
+* [[Albany County, Wyoming|Albany]] (largest municipality: [[Laramie, Wyoming|Laramie]])
+
+{{align|right|{{Switcher
+|[[File:County swing in the 2024 Wyoming House election.svg|250px]]|Swing by county
+|[[File:County trend in the 2024 Wyoming House election.svg|250px]]|Trend relative to the state by county
+{{collapsible list | title = Legend
+|{{legend|#d40000|Republican — >15%}}
+|{{legend|#ff0000|Republican — +12.5−15%}}
+|{{legend|#ff2a2a|Republican — +10−12.5%}}
+|{{legend|#ff5555|Republican — +7.5−10%}}
+|{{legend|#ff8080|Republican — +5−7.5%}}
+|{{legend|#ffaaaa|Republican — +2.5−5%}}
+|{{legend|#ffd5d5|Republican — +0−2.5%}}
+|{{legend|#d5f6ff|Democratic — +0−2.5%}}
+|{{legend|#aaeeff|Democratic — +2.5−5%}}
+|{{legend|#77e3ff|Democratic — +5−7.5%}}
+|{{legend|#4bdbff|Democratic — +7.5-10%}}
+|{{legend|#09ceff|Democratic — +10−12.5%}}
+|{{legend|#00bdec|Democratic — +12.5−15%}}
+|{{legend|#00a1c8|Democratic — >15%}}}}|
+[[File:Wyoming County Flips 2012.svg|250px]]|County flips<br>{{collapsible list| title = Legend| {{col-start}}
+{{col-2}}
+'''Democratic'''
+{{legend|#92c5de|Hold}}
+{{col-2}}
+'''Republican'''
+{{legend|#f48882|Hold}}
+{{legend|#ca0120|Flip}}
+{{col-end}}}}}}}}
+
+== References ==
+{{Reflist}}
+
+==External links==
+*[https://www.cameronforwyoming.net/ Kyle Cameron (D)]
+*[https://www.hagemanforwyoming.com/ Harriet Hageman (R)]
+*[https://haggitforhouse.com/ Jeffrey Haggit (C)]
+
+{{2024 United States elections}}
+
+[[Category:2024 elections in Wyoming|United States House of Representatives]]
+[[Category:2024 United States House of Representatives elections|Wyoming]]
+[[Category:United States House of Representatives elections in Wyoming]]

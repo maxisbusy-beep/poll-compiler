@@ -1,0 +1,1720 @@
+{{Short description|none}}
+{{Use American English|date=January 2026}}
+{{Use mdy dates|date=July 2021}}
+{{distinguish|2024 Nebraska Senate election}}
+{{for-multi|related races|2024 United States Senate elections|the simultaneous Class II special election to complete [[Ben Sasse]]'s unexpired term held in parallel|2024 United States Senate special election in Nebraska}}
+{{Infobox election
+| election_name = 2024 United States Senate election in Nebraska
+| country = Nebraska
+| type = presidential
+| ongoing = no
+| previous_election = 2018 United States Senate election in Nebraska
+| previous_year = 2018
+| next_election = 2030 United States Senate election in Nebraska
+| next_year = ''2030''
+| election_date = November 5, 2024
+| image1 = Sen. Deb Fischer (R-NE), official portrait, 118th United States Congress (cropped).jpg
+| nominee1 = '''[[Deb Fischer]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''499,124'''
+| percentage1 = '''53.19%'''
+| image2 = Osborn Headshot 1 (cropped).jpg
+| nominee2 = [[Dan Osborn]]
+| party2 = Independent politician
+| popular_vote2 = 436,493
+| percentage2 = 46.52%
+| map_image = {{switcher 
+| [[File:2024 United States Senate election in Nebraska results map by county.svg|300px]]
+| County results
+| [[File:2024 United States Senate election in Nebraska results map by congressional district.svg|300px|]]
+| Congressional district results 
+| [[File:2024 United States Senate Election in Nebraska by Precinct.svg|300px|]]
+| Precinct results
+| default=1}}
+| map_size = 300px
+| map_caption = '''Fischer:''' {{legend0|#E27F7F|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#D72F30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}}<br />'''Osborn:''' {{legend0|#BDBDBD|50–60%}} {{legend0|#969696|60–70%}} {{legend0|#737373|70–80%}} {{legend0|#555555|80–90%}} {{legend0|#4A4A4A|>90%}}
+| title = U.S. senator
+| before_election = [[Deb Fischer]]
+| before_party = Republican Party (United States)
+| after_election = [[Deb Fischer]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsNE}}
+
+The '''2024 United States Senate election in Nebraska''' was held on November 5, 2024, to elect a member of the [[United States Senate]] to represent the [[Nebraska|state of Nebraska]].<ref>{{Cite web |title=United States Senate elections, 2024 |url=https://ballotpedia.org/United_States_Senate_elections,_2024 |access-date=2022-07-12 |website=Ballotpedia |language=en}}</ref> [[Republican Party (United States)|Republican]] incumbent [[Deb Fischer]] was re-elected to a third term, defeating [[Independent politician|independent]] union leader [[Dan Osborn]].<ref>{{cite news |title=Nebraska U.S. Senate Election Results 2024: Deb Fischer Wins |url=https://www.nytimes.com/interactive/2024/11/05/us/elections/results-nebraska-us-senate.html |access-date=November 7, 2024 |work=The New York Times |date=November 5, 2024}}</ref> This was the first time [[1954 United States Senate elections|since 1954]] when both of Nebraska's U.S. Senate seats were concurrently up for election due to a [[2024 United States Senate special election in Nebraska|special election for Nebraska's other Senate seat]].
+
+Traditionally a [[Red states and blue states|safe Republican seat]], the race in Nebraska was described as unusually competitive and was also potentially important for determining partisan control of the Senate after the 2024 election cycle.<ref>{{Cite news |last=Faris |first=David |date=2024-09-03 |title=Could Nebraska Cost Republicans the Senate? |url=https://slate.com/news-and-politics/2024/09/nebraska-senate-osborn-fischer-democrats-red-states.html |access-date=2024-09-05 |work=Slate |language=en-US |issn=1091-2339}}</ref>
+
+Despite her win, Fischer's overall performance was the worst an incumbent Republican performed in a Nebraska Senate race since [[1970 United States Senate election in Nebraska|1970]]. Osborn's performance was the best for an independent candidate in a Nebraska Senate race, even outperforming [[George W. Norris]], who won as an independent in [[1936 United States Senate election in Nebraska|1936]] in a three way race. His performance was also the best for any challenger in a Republican-held seat in the 2024 election cycle. Osborn won four counties, of which in the [[2024 United States presidential election in Nebraska|concurrent presidential race]] two voted for [[Donald Trump]] (Thurston and Sarpy) and two voted for [[Kamala Harris]] (Douglas and Lancaster), and Fischer won all other 89 counties.
+
+==Republican primary==
+===Candidates===
+====Nominee====
+* [[Deb Fischer]], incumbent U.S. senator (2013–present)<ref>{{cite news |url=https://ruralradio.com/krvn/news/sen-deb-fischer-officially-announces-run-for-a-third-term/ |work=[[KRVN (AM)|KRVN]] |date=28 June 2023 |access-date=28 June 2023 |title=Sen. Deb Fischer officially announces run for a third term}}</ref>
+====Eliminated in primary====
+* Arron Kowalski, cattle farmer and perennial candidate<ref name="NE2024">{{cite news |title=Nebraska Statewide Candidate List |url=https://sos.nebraska.gov/elections/information-candidates |publisher=Nebraska Secretary of State |date=January 5, 2024}}</ref>
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of April 24, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Deb Fischer (R)
+|$5,694,779
+|$3,512,236
+|$2,694,160
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC" /></small>
+|}
+
+=== Results ===
+[[File:2024 United States Senate Republican primary election in Nebraska results map by county.svg|thumb|300px|Primary results by county
+{{collapsible list
+|title={{legend|#E27F7F|Fischer}}
+|{{legend|#D75D5D|60–70%}}
+|{{legend|#D72F30|70–80%}}
+|{{legend|#C21B18|80–90%}}
+}}]]
+
+{{Election box begin no change  
+| title = Republican primary results<ref name="primary results">{{cite book|last1=Evnen|first1=Robert B.|title=The Nebraska Board of State Canvassers, Official Report, Primary Election, May 14, 2024|date=2024|url=https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20Primary%20Canvass%20Book.pdf}}</ref>
+}}  
+{{Election box winning candidate with party link no change  
+| candidate = [[Deb Fischer]] (incumbent)
+| party = Republican Party (United States)  
+| votes = 174,820  
+| percentage = 79.76%  
+}}  
+{{Election box candidate with party link no change  
+| candidate = Arron Kowalski  
+| party = Republican Party (United States)  
+| votes = 44,334  
+| percentage = 20.24%  
+}}  
+{{Election box total no change  
+| votes = 219,154  
+| percentage = 100.00%  
+}}  
+{{Election box end}}
+
+==Democratic primary==
+Due to Dan Osborn's independent candidacy, the [[Nebraska Democratic Party]] had originally not intended to field a candidate, planning to endorse Osborn on May 18. However, on May 15, Osborn stated that he would not accept the help of any political party.<ref name="Spurns">{{cite web|url=https://nebraskaexaminer.com/2024/05/15/dan-osborn-spurns-democrats-other-parties-whose-help-he-sought-in-senate-race/|title=Dan Osborn spurns Democrats, other parties whose help he sought in Senate race|last=Sanderford|first=Aaron|date=May 15, 2024|access-date=May 15, 2024|website=[[States Newsroom|Nebraska Examiner]]}}</ref> This led to a condemnation by state party chair [[Jane Kleeb]], who said that Osborn had previously promised to work with them in exchange for them not running a candidate. Due to Osborn's announcement taking place the day after the state's primary, Kleeb announced that they would be looking for a write-in candidate to run under the party banner in November.<ref>{{cite web|url=https://nebraskademocrats.org/blog/nebraska-democratic-party-statement-on-dan-osborn/|title=Nebraska Democratic Party Statement on Dan Osborn|date=May 15, 2024|access-date=May 15, 2024}}</ref> However, they ultimately decided not to run a write-in candidate.<ref name=":0">{{Cite news |last=Sanderford |first=Aaron |date=September 4, 2024 |title=Legal Marijuana Now Party won't offer a nominee for Nebraska's U.S. Senate ballot |url=https://nebraskaexaminer.com/2024/09/04/legal-marijuana-now-party-wont-offer-a-nominee-for-nebraskas-u-s-senate-ballot/ |access-date=September 4, 2024 |work=[[Nebraska Examiner]]}}</ref>
+
+==Independent==
+===Declared===
+*[[Dan Osborn]], mechanic and former president of [[Bakery, Confectionery, Tobacco Workers and Grain Millers International Union]] Local 50G<ref>{{cite news |work=[[Nebraska Examiner]] |access-date=September 21, 2023 |date=September 21, 2023 |last=Hammel |first=Paul |url=https://nebraskaexaminer.com/briefs/omaha-steamfitter-union-leader-dan-osborn-to-challenge-incumbent-u-s-sen-deb-fischer/ |title=Omaha steamfitter/union leader Dan Osborn to challenge incumbent U.S. Sen. Deb. Fischer}}</ref>
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of April 24, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Independent}}|Dan Osborn (I)
+|$812,114
+|$427,220
+|$384,894
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC" /></small>
+|}
+
+==Legal Marijuana NOW primary==
+The [[Nebraska Legal Marijuana NOW Party|Legal Marijuana NOW]] primary attracted controversy, with one candidate, Kerry Eddy, admitting that she supported independent [[Dan Osborn]]. Eddy, who was a registered Democrat until March 2024, feared that the Legal Marijuana NOW Party's nominee could [[Spoiler effect|pull votes away from Osborn]], who supports legalizing marijuana. Eddy was recruited to run by political blogger Julia Schleck, who had outlined a plan to run a candidate who would "sweep the [Legal Marijuana NOW] primary and then take their name off the ballot and endorse Osborn, throwing their votes his way." Eddy denied that her intention was to drop out of the race after securing the nomination, though she said she would consider it.<ref name = daring/>
+
+Party chair Mark Elworth Jr. denounced Eddy's plan as "shenangians." The party instead supported Ken Peterson, who had been recruited to run by Elworth. Peterson alleged that supporters of Osborn had repeatedly urged him to drop out of the race. Osborn's campaign denied having any involvement in the Legal Marijuana NOW primary, though a pro-Osborn super PAC spent over $30,000 supporting Eddy's campaign.<ref name = daring>{{cite news |access-date=May 14, 2024 |title=In the Nebraska marijuana party's Senate primary, 'a daring plan' angers loyalists |author=Wegley, Andrew |date=May 12, 2024 |work=[[Lincoln Journal Star]] |url=https://journalstar.com/news/state-regional/government-politics/in-the-nebraska-marijuana-partys-senate-primary-a-daring-plan-angers-loyalists/article_87aa6d96-0e11-11ef-8828-47a8e9f41ecb.html}}</ref>
+
+===Withdrew after nomination===
+*Kerry Eddy, administrative coordinator ''(endorsed Osborn)''<ref name = leaves>{{cite news |work=[[Nebraska Examiner]] |access-date=August 1, 2024 |url=https://nebraskaexaminer.com/2024/07/30/kerry-eddy-leaves-nebraskas-u-s-senate-race-endorses-osborn-over-fischer/ |date=July 30, 2024 |author=Sanderford, Aaron |title=Kerry Eddy leaves Nebraska's U.S. Senate race, endorses Osborn over Fischer}}</ref>
+
+===Lost nomination===
+*Ken Peterson, compost facility attendant<ref name=NE2024/>
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of April 24, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Legal Marijuana Now}}|Kerry Eddy (LMN)
+|$16,384
+|$922
+|$15,462
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC" /></small>
+|}
+
+===Results===
+{{Election box begin no change  
+| title = Legal Marijuana NOW Party primary results<ref name="primary results"/>
+}}  
+{{Election box winning candidate with party link no change  
+| candidate = Kerry Eddy  
+| party = Nebraska Legal Marijuana NOW Party  
+| votes = 743  
+| percentage = 70.83%  
+}}  
+{{Election box candidate with party link no change  
+| candidate = Kenneth Peterson  
+| party = Nebraska Legal Marijuana NOW Party  
+| votes = 306  
+| percentage = 29.17%  
+}}  
+{{Election box total no change  
+| votes = 1,049  
+| percentage = 100.00%  
+}}  
+{{Election box end}}
+
+===Aftermath===
+After Kerry Eddy won the May primary by a wide margin, she said she was still evaluating whether or not to drop out of the race. Complicating Eddy's plan was that if she rejected the Legal Marijuana NOW Party's nomination, the party could simply name a replacement nominee. Mark Elworth Jr. pledged to seek the party's nomination for Senate if Eddy dropped out.<ref>{{cite news |access-date=May 15, 2024 |author=Wegley, Andrew |date=May 15, 2024 |title=Nebraska marijuana party candidate tied to Dan Osborn wins primary, mulls future |work=[[Lincoln Journal Star]] |url=https://journalstar.com/news/state-regional/government-politics/elections/nebraska-marijuana-party-candidate-tied-to-dan-osborn-wins-primary-mulls-future/article_1bc7bc56-1270-11ef-b2e0-a7c15e87f719.html}}</ref> It was also suggested that Elworth could use the party's ballot line to nominate a Democrat.<ref name="Spurns"/>
+
+Eddy dropped out of the race on July 30 and endorsed Osborn, though she maintained that this had not been her intention from the start. The party had until September 3 to name a replacement nominee.<ref name = leaves/> On August 14, the party held a convention to determine whether or not a new nominee should be named and who that nominee would be. Supporters of Eddy and Osborn were barred from participating in the convention. In response, Eddy's campaign treasurer sent a letter to party leadership arguing that they had broken the law and that if they tried to name a replacement nominee, a lawsuit could be filed.<ref name=":0" />
+
+The party ultimately did not put forward a candidate. Elworth said the party did not have the resources to fight a lawsuit and that "we don’t want to deal with it." Unnamed members of the party alleged that Osborn and Eddy's supporters had taken it over in order to ensure it would not place a candidate on the ballot. Elworth called Osborn "dishonest" and said he would be voting for incumbent [[Deb Fischer]], who opposes legalizing marijuana.<ref name=":0" />
+
+==Libertarian Party==
+In March 2024, independent candidate [[Dan Osborn]] sought the support of the [[Nebraska Libertarian Party]]. However, he decided against this, instead running as an independent without any party's support.<ref name="Spurns"/>
+
+===Declined===
+*[[Dan Osborn]], mechanic and former president of [[Bakery, Confectionery, Tobacco Workers and Grain Millers International Union]] Local 50G ''(running as an independent)''<ref name="Spurns"/>
+
+== General election ==
+===Predictions===
+{| class="wikitable" style="text-align:center"
+!Source
+!Ranking
+!As of
+|-
+| align=left | [[The Cook Political Report]]<ref>{{Cite web |title=2024 Senate Race ratings |url=https://www.cookpolitical.com/ratings/senate-race-ratings |website=Cook Political Report |language=en}}</ref>
+| {{USRaceRating|Lean|R}}
+|October 21, 2024
+|-
+| align=left | [[Inside Elections]]<ref name="Inside Elections">{{cite web  |title=Senate Ratings |url=https://www.insideelections.com/ratings/senate |publisher=[[Inside Elections]]}}</ref>
+| {{USRaceRating|Lean|R}}
+|October 18, 2024
+|-
+| align=left | [[Sabato's Crystal Ball]]<ref name="Sabato's Crystal Ball">{{cite web |title=2024 Senate |url=https://centerforpolitics.org/crystalball/2024-senate/ |publisher=[[Sabato's Crystal Ball]]}}</ref>
+| {{USRaceRating|Lean|R}}
+|September 25, 2024
+|-
+| align=left | [[Decision Desk HQ]]/[[The Hill (newspaper)|The Hill]]<ref>{{Cite web |url=https://elections2024.thehill.com/predictions/senate/ |title=2024 Senate prediction map |website=elections2024.thehill.com |publisher=[[The Hill (newspaper)|The Hill]] }}</ref>
+| {{USRaceRating|Likely|R}}
+|October 30, 2024
+|-
+| align=left | [[Elections Daily]]<ref>{{Cite web |date=2023-08-01 |title=Election Ratings |url=https://elections-daily.com/election-ratings/ |website=Elections Daily |language=en-US}}</ref>
+| {{USRaceRating|Likely|R}}
+|November 4, 2024
+|-
+| align=left | [[CNalysis]]<ref>{{Cite web |title='24 Senate Forecast |url=https://projects.cnalysis.com/23-24/senate |website=CNalysis |language=en-US}}</ref>
+| {{USRaceRating|Tilt|R}}
+|November 4, 2024
+|-
+| align=left | [[RealClearPolitics]]<ref>{{Cite web |title=Battle for the Senate 2024 |url=https://www.realclearpolling.com/maps/senate/2024/toss-up |website=[[RealClearPolitics]] |language=en-US |access-date=August 28, 2024 |archive-url=https://web.archive.org/web/20250502173837/https://www.realclearpolling.com/maps/senate/2024/toss-up |archive-date=May 2, 2025 |url-status=dead}}</ref>
+| {{USRaceRating|Lean|R}}
+|October 15, 2024
+|- 
+| align="left" | [[Split Ticket (website)|Split Ticket]]<ref>{{cite web |title=2024 Senate Forecast |url=https://split-ticket.org/senate-2024-ratings/ |website=Split Ticket |date=May 25, 2023 |access-date=23 October 2024}}</ref> 
+| {{USRaceRating|Lean|R|}} 
+|October 29, 2024 
+|-
+| align="left" | [[FiveThirtyEight|538]]<ref>{{cite web |title=2024 Election Forecast |url=https://projects.fivethirtyeight.com/2024-election-forecast/senate/ |archive-url=https://web.archive.org/web/20241101082245/https://projects.fivethirtyeight.com/2024-election-forecast/senate/ |url-status=dead |archive-date=November 1, 2024 |website=FiveThirtyEight |access-date=23 October 2024}}</ref> 
+| {{USRaceRating|Likely|R|}} 
+|October 23, 2024
+|}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of October 16, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Deb Fischer (R)
+|$7,993,392
+|$7,922,195
+|$582,814
+|-
+|{{party shading/Independent}}|Dan Osborn (I)
+|$7,962,610
+|$6,827,048
+|$1,135,561
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC">{{cite web |title=2024 Election United States Senate - Nebraska |url=https://www.fec.gov/data/elections/senate/NE/2024/|website=fec.gov |publisher=[[Federal Election Commission]] |access-date=August 5, 2024}}</ref></small>
+|}
+
+===Endorsements===
+{{Endorsements box
+| title = Deb Fischer (R)
+| list =
+'''U.S. executive branch officials'''
+*[[Kellyanne Conway]], former senior [[counselor to the president]] (2017–2020)<ref name="conway">{{Cite web |last=World-Herald |first=Martha Stoddard Omaha |date=2023-09-21 |title=Former Trump adviser Conway endorses Nebraska's Fischer |url=https://starherald.com/news/state-regional/government-politics/former-trump-adviser-conway-endorses-nebraskas-fischer/article_65b0012e-9408-5c61-82ac-971db6891b63.html |archive-url=https://web.archive.org/web/20230922191018/https://starherald.com/news/state-regional/government-politics/former-trump-adviser-conway-endorses-nebraskas-fischer/article_65b0012e-9408-5c61-82ac-971db6891b63.html |archive-date=2023-09-22 |url-status=live |access-date=2023-09-22 |website=Star-Herald |language=en}}</ref>
+*[[Donald Trump]], [[List of presidents of the United States|45th]] [[president of the United States]] (2017–2021)<ref>{{cite web|url=https://nebraskaexaminer.com/briefs/fischer-gets-trump-endorsement-in-race-against-osborn/|title=Fischer gets Trump's endorsement in race against Osborn|date=September 11, 2024|access-date=October 31, 2024|website=[[Nebraska Examiner]]|last=Sanderford|first=Aaron}}</ref>
+
+'''U.S. senators'''
+*[[Pete Ricketts]], [[U.S. senator]] from [[Nebraska]] (2023–present)<ref name="conway" />
+
+'''U.S. representatives'''
+*[[Lee Terry]], former [[U.S. representative]] for [[Nebraska's 2nd congressional district|NE-02]] (1999–2015)<ref name="Marans 10/16">{{cite web|url=https://www.huffpost.com/entry/deb-fischer-endorsements-voter-fraud_n_671014b5e4b0907fa507e02d|title=Nebraska Sen. Deb Fischer Touts Endorsement Of Man Convicted Of Voter Fraud, Other Disreputable Republicans|date=October 16, 2024|access-date=October 31, 2024|last=Marans|first=Daniel|website=[[HuffPost]]}}</ref>
+
+'''State executive officials'''
+*[[Lavon Heidemann]], former [[lieutenant governor of Nebraska]] (2013–2014)<ref name="Marans 10/16"/>
+*[[Dave Heineman]], former [[governor of Nebraska]] (2005–2015)<ref name="conway" />
+*[[Kay Orr]], former [[governor of Nebraska]] (1987–1991)<ref name="conway" />
+*[[Jim Pillen]], [[governor of Nebraska]] (2023–present)<ref name="conway" />
+
+'''State legislators'''
+*[[Mike Groene]], former [[Nebraska Legislature|state senator]] for the 42nd district (2015–2022)<ref name="Marans 10/16"/>
+*[[Steve Halloran]], [[Nebraska Legislature|state senator]] for the 33rd district (2017–2025)<ref name="Marans 10/16"/>
+*[[Bill Kintner]], former [[Nebraska Legislature|state senator]] for the 2nd district (2013–2017)<ref name="Marans 10/16"/>
+
+'''Individuals'''
+*[[Charles Herbster]], [[agribusiness]] executive and candidate for [[Governor of Nebraska|governor]] in [[2014 Nebraska gubernatorial election#Republican primary|2014]] and [[2022 Nebraska gubernatorial election#Republican primary|2022]]<ref name="Marans 10/16"/>
+
+'''Organizations'''
+*[[American Israel Public Affairs Committee]] (AIPAC)<ref name=aipac>{{Cite web |url=https://candidates.aipacpac.org/page/featured/ |title=Support Pro-Israel Candidates |access-date=2023-04-07 |website=[[AIPAC]] PAC}}</ref>
+*[[Maggie's List]]<ref>{{Cite web |title=The Messenger: A PAC Dedicated to Electing GOP Women Issues First Wave of 2024 Endorsements (Exclusive) |url=http://maggieslist.org/press/the-messenger-a-pac-dedicated-to-electing-gop-women-issues-first-wave-of-2024-endorsements-exclusive |access-date=2023-06-25 |website=maggieslist.org |date=June 15, 2023 }}</ref>
+*[[National Rifle Association Political Victory Fund]]<ref name="NRANBendorse">{{Cite web |last=NRA-PVF |title=NRA-PVF {{!}} Grades {{!}} Nebraska |url=https://www.nrapvf.org/grades/nebraska |access-date=2024-05-06 |website=NRA-PVF |language=en}}</ref>
+*[[American Farm Bureau Federation|Nebraska Farm Bureau]]<ref>{{Cite web |date=2024-02-18 |title=U.S. Sen. Fischer Earns Nebraska Farm Bureau Endorsement |url=https://ruralradio.com/ktic/news/u-s-sen-fischer-earns-nebraska-farm-bureau-endorsement/ |access-date=2024-02-18 |website=KTIC 840 AM/98.3 FM/98.7 FM |language=en-US}}</ref>
+*[[United States Chamber of Commerce|U.S. Chamber of Commerce]]<ref>{{Cite web|url=https://www.uschamber.com/improving-government/elections/u-s-chamber-endorses-sen-deb-fischer-for-u-s-senate-in-nebraska|title=U.S. Chamber Endorses Sen. Deb Fischer for U.S. Senate in Nebraska|website=U.S. Chamber of Commerce|date=May 10, 2024}}</ref>
+'''Labor unions'''
+*[[Omaha Police Department|Omaha Police Officers]] Association<ref name="nebraskaafl">{{Cite web |title=Dan Osborn says he has the signatures needed to reach Nebraska's fall ballot as a U.S. Senate candidate |url=https://nebraskaexaminer.com/briefs/dan-osborn-says-he-has-the-signatures-needed-to-reach-nebraskas-fall-ballot-as-a-u-s-senate-candidate/ |access-date=2024-03-28 |website=Nebraska Examiner |date=March 28, 2024 |language=en-US}}</ref>
+}}
+
+{{Endorsements box
+| title = Dan Osborn (I)
+| list =
+'''State legislators'''
+*[[Adrian Boafo]], [[Maryland House of Delegates|Maryland state delegate]] from the [[Maryland Legislative District 23|23rd district]] (2023–present)<ref name="DunnBoafo" />
+
+'''Individuals '''
+*[[Harry Dunn (police officer)|Harry Dunn]], former [[U.S. Capitol Police]] officer<ref name="DunnBoafo">{{cite news |last1=Kurtz |first1=Josh |title=Harry Dunn, Md. delegate joined forces with their PACs for a final election push |url=https://marylandmatters.org/briefs/harry-dunn-md-delegate-joined-forces-with-their-pacs-for-a-final-election-push/ |access-date=November 8, 2024 |work=Maryland Matters |date=November 7, 2024}}</ref>
+*[[Julia Louis-Dreyfus]], actress and comedian<ref>{{Cite web|last=Altimari|first=Daniela|title=Happening in Plains sight: A competitive Nebraska Senate race|url=https://rollcall.com/2024/10/16/happening-in-plains-sight-a-competitive-nebraska-senate-race/|website=Roll Call|date=October 16, 2024|access-date=October 28, 2024}}</ref>
+
+'''Labor unions'''
+*[[Bakery, Confectionery, Tobacco Workers and Grain Millers International Union]] Local 50G<ref name = BR13mar24>{{cite web |last = Early |first = Steve |title = Dan Osborn Challenges Nebraska's Political Establishment with a Blue-Collar Agenda |publisher = Barn Raising Media |date = March 13, 2024 |url = https://barnraisingmedia.com/dan-osborn-nebraska-senate-labor-right-to-repair-working-class-agenda/ |accessdate = March 13, 2024}}</ref>
+*[[Communications Workers of America]]<ref name=NPML/>
+*[[International Union of Elevator Constructors]] Local 28<ref name = BR13mar24/> 
+*[[AFL-CIO|Nebraska AFL-CIO]]<ref name=NPML>{{Cite web|last=Beach|first=Brian|url=https://nebraskapublicmedia.org/en/news/news-articles/fischer-osborn-tout-labor-endorsements-in-us-senate-campaigns/|title=Fischer, Osborn tout labor endorsements in U.S. Senate campaigns|website=Nebraska Public Media|date=September 3, 2024|access-date=October 28, 2024}}</ref>
+*[[Office and Professional Employees International Union]]<ref name = BR13mar24/>
+*3 [[United Association]] locals{{efn|Plumbers Local 16, Sprinkler Fitters Local 699, and Steamfitters Local 664}}<ref name = BR13mar24/>
+*[[United Auto Workers]]<ref name=NPML/>
+
+'''Political parties'''
+*[[Forward Party (United States)|Forward Party]]<ref>{{Cite web|url=https://home.forwardparty.com/osbornforsenate|accessdate = October 22, 2024 | title=Dan Osborn at Forward Party }}</ref>
+*[[Reform Party of the United States of America|Reform Party]]<ref>{{cite web |last = Evans|first = Jordan Willow |title = Reform Party Endorses Dan Osborn for Nebraska Senate Race |publisher = Independent Political Report |date = September 13, 2024 |url = https://independentpoliticalreport.com/2024/09/reform-party-endorses-dan-osborn-for-nebraska-senate-race/|accessdate = October 1, 2024}}</ref>
+}}
+
+===Polling===
+'''Aggregate polls'''<br />
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll<br />aggregation
+!Dates<br />administered
+!Dates<br />updated
+! style="width:100px;" | Deb<br />Fischer (R)
+! style="width:100px;" | Dan<br />Osborn (I)
+! Undecided<br />{{Efn|Calculated by taking the difference of 100% and all other candidates combined.|name=|group=}}
+!Margin
+|-
+|[[FiveThirtyEight|538]]<ref>[https://web.archive.org/web/20240924142119/https://projects.fivethirtyeight.com/polls/senate/2024/nebraska/general/ 538]</ref>
+|through October 31, 2024
+|November 1, 2024
+|{{party shading/Republican}}|'''46.6%'''
+|44.2%
+|9.2%
+|{{party shading/Republican}}|'''Fischer +2.4'''
+|-
+|[[TheHill]]/[[DDHQ]]<ref>{{Cite web|url=https://elections2024.thehill.com/nebraska/nebraska-senate-fischer-osborn/|title=Nebraska Senate polls - The Hill and DDHQ|website=The Hill}}</ref>
+|through October 31, 2024
+|November 1, 2024
+|{{party shading/Republican}}|'''48.3%'''
+|47.0%
+|4.7%
+|{{party shading/Republican}}|'''Fischer +1.3'''
+|-
+|Race to the WH<ref>{{Cite web|url=https://www.racetothewh.com/senate/24|title=Final Forecast - Senate Election|website=Race to the WH}}</ref>
+|through October 28, 2024
+|October 30, 2024
+|{{party shading/Republican}}|'''47.0%'''
+|46.0%
+|7.0%
+|{{party shading/Republican}}|'''Fischer +1.0'''
+|-
+| colspan="3" |'''Average'''
+|{{party shading/Republican}}|'''47.3%'''
+|45.7%
+|6.7%
+|{{party shading/Republican}}|'''Fischer +1.6'''
+|}
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign="bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />of error
+! style="width:100px;" | Deb<br />Fischer (R)
+! style="width:100px;" | Dan<br />Osborn (I)
+! Undecided
+|-
+| style="text-align:left;"|[[Change Research]] (D)<ref>{{Cite web|url=https://big.assets.huffingtonpost.com/athena/files/2024/10/31/6723e908e4b01f6919d981f7.pdf|title=Change Research (D)}}</ref>{{efn-ua|name=Osborn}}
+|October 30–31, 2024
+|600 (LV)
+|±&nbsp;4.3% 
+|'''47%'''
+|'''47%'''
+|5%
+|-
+| style="text-align:left;" |[[Torchlight Strategies]] (R)<ref>{{Deprecated archive|url=https://archive.today/20241101145559/https://journalstar.com/news/state-regional/government-politics/elections/exclusive-nebraska-sen-deb-fischer-leads-dan-osborn-by-7-5-points-in-new-poll/article_3bdba74e-9855-11ef-85d1-5f988623658c.html|title=Torchlight Strategies (R)}}</ref>{{Efn-ua|name=Fischer}}
+|October 25–28, 2024
+|605 (LV)
+|±&nbsp;3.9%
+|{{party shading/Republican}}|'''51%'''
+|44%
+|5%
+|-
+| style="text-align:left;" |[[Economist]]/[[YouGov]]<ref>{{Cite web|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/economist_20241028_nebraska.pdf|title=Economist/YouGov}}</ref>
+|October 21–28, 2024
+|1,202 (LV)
+|±&nbsp;3.5%
+|{{party shading/Republican}}|'''50%'''
+|43%
+|7%{{efn|"Someone else" with 2%}}
+|-
+|rowspan="2" style="text-align:left;"|[[NYT]]/[[Siena College]]<ref>{{Cite web|url=https://www.nytimes.com/interactive/2024/10/28/us/elections/times-siena-nebraska-poll-crosstabs.html|title=Cross-Tabs: October 2024 Times/Siena Polls of the Likely Electorate in Nebraska and Nebraska's 2nd C.D.|work=The New York Times |date=October 28, 2024|via=NYTimes.com}}</ref>
+|rowspan="2"|October 23–26, 2024
+|1,194 (LV)
+|±&nbsp;3.2%
+|{{party shading/Republican}}|'''48%'''
+|46%
+|5%
+|-
+|1,194 (RV)
+|±&nbsp;3.1%
+|46%
+|{{party shading/Independent}}|'''47%'''
+|6%
+|-
+| style="text-align:left;" |[[Change Research]] (D)<ref>{{Cite web|url=https://www.dropsitenews.com/p/new-poll-has-an-independent-populist|title=New poll has an independent populist upending the Senate with a Nebraska upset|first=Ryan|last=Grim|date=October 23, 2024|website=www.dropsitenews.com}}</ref>{{Efn-ua|name=Osborn}}
+|October 18–21, 2024
+|815 (LV)
+|–
+|46%
+|{{party shading/Independent}}|'''48%'''
+|6%
+|-
+| style="text-align:left;" |[[Torchlight Strategies]] (R)<ref>[https://thehill.com/homenews/campaign/4938892-deb-fischer-dan-osborn-nebraska-senate-race-internal-survey/ Torchlight Strategies (R)]</ref>{{Efn-ua|name=Fischer}}
+|October 12–15, 2024
+|625 (LV)
+|±&nbsp;3.9%
+|{{party shading/Republican}}|'''51%'''
+|45%
+|4%
+|-
+| style="text-align:left;" |[[SurveyUSA]]<ref>{{Cite web|url=https://www.surveyusa.com/client/PollReport.aspx?g=ea77aa76-6f1a-4dc4-a604-ed8047f4b1df|title=SurveyUSA Election Poll #27353|website=www.surveyusa.com}}</ref>{{Efn-ua|name=Osborn}}
+|October 9–12, 2024
+|563 (LV)
+|±&nbsp;4.7%
+|44%
+|{{party shading/Independent}}|'''50%'''
+|6%
+|-
+| style="text-align:left;" |[[Torchlight Strategies]] (R)<ref>{{Cite web|url=https://punchbowl.news/debfischerpoll_pbn/|title=Sen. Deb Fischer poll from October 2024 - Punchbowl News |work=Punchbowl News }}</ref>{{efn-ua|name=Fischer}}
+|October 5–8, 2024
+|800 (LV)
+|±&nbsp;4.0%
+|{{party shading/Republican}}|'''48%'''
+|42%
+|10%
+|-
+| style="text-align:left;" |[[Change Research]] (D)<ref>{{Cite web|url=https://drive.google.com/file/d/1L65fj6WFZoUqsNdzV6NGg9lcLNAb413S/view?pli=1&usp=embed_facebook|title=NE US Senate Poll Results - October 9, 2024.pdf|website=Google Docs}}</ref>{{efn-ua|name=Osborn}}
+|October 3–8, 2024
+|895 (LV)
+|±&nbsp;3.5%
+|43%
+|{{party shading/Independent}}|'''46%'''
+|11%
+|-
+| style="text-align:left;" |[[Impact Research]] (D)<ref>{{Cite web|url=https://pbs.twimg.com/media/GZZirHaWUAACJlF?format=jpg&name=large|title=Impact Research (D)}}</ref>{{efn-ua|name=Osborn|Poll sponsored by Osborn's campaign}}
+|October 1–3, 2024
+|600 (LV)
+|±&nbsp;4.0%
+|46%
+|{{party shading/Independent}}|'''48%'''
+|6%
+|-
+| style="text-align:left;" |[[The Bullfinch Group]]<ref>{{Cite web|url=https://cdn.prod.website-files.com/65fc824cf835683ce2d3549b/66fd9df743427501291ac1f0_Independent%20Center-Nebraska-Oct2024.pdf|title=The Bullfinch Group}}</ref>{{Efn-ua|Poll sponsored by Independent Center, a centrist advocacy group}}
+|September 27 – October 1, 2024
+|400 (LV)
+|±&nbsp;4.9%
+|42%
+|{{party shading/Independent}}|'''47%'''
+|10%
+|-
+| style="text-align:left;" |[[SurveyUSA]]<ref>{{Cite web|url=https://www.surveyusa.com/client/PollReport.aspx?g=a2cca672-f0d1-45ca-be33-b1cdcc8324e1|title=SurveyUSA Election Poll #27302|website=www.surveyusa.com}}</ref>{{Efn-ua|name=Osborn}}
+|September 20–23, 2024
+|558 (LV)
+|±&nbsp;4.8%
+|44%
+|{{party shading/Independent}}|'''45%'''
+|11%
+|-
+| style="text-align:left;" |[[Global Strategy Group]] (D)<ref name="Global Strategy Group D">[https://web.archive.org/web/20240922105122/https://projects.fivethirtyeight.com/polls/20240920_NE_GSG.pdf Global Strategy Group (D)]</ref>{{efn-ua|Poll sponsored by Retire Career Politicians PAC, which supports Osborn|name=Retire}}
+|August 26–29, 2024
+|600 (LV)
+|–
+|{{party shading/Republican}}|'''43%'''
+|42%
+|15%
+|-
+| style="text-align:left;" |[[SurveyUSA]]<ref>{{Cite web|url=https://www.surveyusa.com/client/PollReport.aspx?g=7618aaff-69f6-46c3-8084-632fdc8f5b6a|title=SurveyUSA Mkt Research Study #27256|website=www.surveyusa.com}}</ref>{{efn-ua|Poll sponsored by [[Split Ticket (website)|Split Ticket]]}}
+|August 23–27, 2024
+|1,293 (RV)
+|±&nbsp;3.6%
+|{{party shading/Republican}}|'''39%'''
+|38%
+|23%
+|-
+| style="text-align:left;" |[[YouGov]]<ref>{{Cite web|url=https://nebraskapublicmedia.org/documents/362/YouGov_Memo.pdf|title=YouGov}}</ref>{{Efn-ua|name=Osborn}}
+|July 31 – August 12, 2024
+|500 (RV)
+|±&nbsp;5.2%
+|{{party shading/Republican}}|'''43%'''
+|41%
+|16%
+|-
+|style="text-align:left|[[Red Wave Strategy Group]]/[[Impact Research|<br />Impact Research]]<ref>{{Cite web|url=https://www.ketv.com/article/osborn-fischer-campaign-polls-show-drastically-different-results-in-senate-race/61670148|title=Osborn, Fischer campaign polls show drastically different results in Senate race|first=Aaron|last=Hegarty|date=July 23, 2024|website=KETV}}</ref>{{Efn-ua|name=Osborn}}
+|July 8–11, 2024
+|500 (RV)
+|–
+|'''42%'''
+|'''42%'''
+|16%
+|-
+|style="text-align:left|[[Global Strategy Group]] (D)<ref name="Global Strategy Group D"/>{{efn-ua|Poll sponsored by Retire Career Politicians PAC, which supports Osborn|name=Retire}}
+|June 3–5, 2024
+|600 (LV)
+|–
+|{{party shading/Republican}}|'''49%'''
+|36%
+|15%
+|-
+| style="text-align:left;" |[[Public Policy Polling]] (D)<ref>[https://web.archive.org/web/20240506213256/https://projects.fivethirtyeight.com/polls/20240506_NE_PPP.pdf Public Policy Polling (D)]</ref>{{efn-ua|name=Osborn}}
+|April 24–25, 2024
+|737 (RV)
+|±&nbsp;3.6%
+|{{party shading/Republican}}|'''37%'''
+|33%
+|30%
+|-
+| style="text-align:left;" |[[Change Research]] (D)<ref>[https://nebraskarailroaders.org/2023/11/18/updates/ Change Research (D)]</ref>{{efn-ua|Poll sponsored by Nebraska Railroaders for Public Safety, which supports Osborn|name="NRPS"}}
+|November 13–16, 2023
+|1,048 (LV)
+|±&nbsp;3.1%
+|38%
+|{{party shading/Independent}}|'''40%'''
+|22%
+|}
+
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''Deb Fischer vs. Dan Osborn vs. Kerry Eddy'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign="bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />of error
+! style="width:100px;" | Deb<br />Fischer (R)
+! style="width:100px;" | Dan<br />Osborn (I)
+! style="width:100px;" | Kerry<br />Eddy (LMN)
+! Undecided
+|-
+|style="text-align:left|[[Torchlight Strategies]] (R)<ref>{{Cite web|url=https://nebraskaexaminer.com/2024/07/19/fischer-trump-lead-statewide-in-fischers-new-nebraska-poll/|title=Fischer, Trump lead statewide in Fischer's new Nebraska poll • Nebraska Examiner|first=Aaron|last=Sanderford|date=July 19, 2024}}</ref>{{Efn-ua|Poll sponsored by Fischer's campaign|name=Fischer}}
+|July 8–11, 2024
+|698 (LV)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''50%'''
+|24%
+|9%
+|17%
+|}
+{{hidden end}}
+
+=== Results ===
+{{Election box begin
+ | title      = 2024 United States Senate election in Nebraska<ref name=Results>{{cite book|last1=Evnen|first1=Robert B.|title=The Nebraska Board of State Canvassers, Official Report, General Election, November 5, 2024|date=2024|url=https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20General%20Canvass%20Book.pdf}}</ref>
+}}
+{{Election box winning candidate with party link
+ | party      = Republican Party (United States)
+ | candidate  = [[Deb Fischer]] (incumbent)
+ | votes      = 499,124
+ | percentage = 53.19%
+ | change     = -4.50%
+}}
+{{Election box candidate with party link
+ | party      = Independent (politician)
+ | candidate  = [[Dan Osborn]]
+ | votes      = 436,493
+ | percentage = 46.52%
+ | change     = —
+}}
+{{Election box write-in with party link
+ | votes      = 2,719
+ | percentage = 0.29%
+ | change     = —
+}}
+{{Election box majority
+ | votes      = 62,631
+ | percentage = 6.67%
+ | change     = -12.39%
+}}
+{{Election box total
+ | votes      = 938,336
+ |percentage = 100.00%
+ | change     = 
+}}
+{{Election box hold with party link no swing
+ | winner = Republican Party (United States)
+ | loser = Independent (politician)
+}}
+{{Election box end}}
+
+==== Results by county ====
+{| class="wikitable sortable" width="60%"
+|+2024 United States Senate Election in Nebraska<ref name=Results/>
+! rowspan="2" |County
+! colspan="2" |Deb Fischer
+Republican
+! colspan="2" |Dan Osborn
+Independent
+! colspan="2" |Write-in
+Various
+! colspan="2" |Margin
+! rowspan="2" |Total
+|-
+! data-sort-type="number" style="text-align:center;" |#
+! data-sort-type="number" style="text-align:center;" |%
+! data-sort-type="number" style="text-align:center;" |#
+! data-sort-type="number" style="text-align:center;" |%
+! data-sort-type="number" style="text-align:center;" |#
+! data-sort-type="number" style="text-align:center;" |%
+! data-sort-type="number" style="text-align:center;" |#
+! data-sort-type="number" style="text-align:center;" |%
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Adams County, Nebraska|Adams]]
+|{{party shading/Republican}}|8,869
+|{{party shading/Republican}}|62.25%
+|{{party shading/Independent}}|5,336
+|{{party shading/Independent}}|37.45%
+|{{party shading/Others}}|42
+|{{party shading/Others}}|0.29%
+|{{party shading/Republican}}|3,533
+|{{party shading/Republican}}|24.80%
+|{{party shading/Republican}}|14,247
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Antelope County, Nebraska|Antelope]]
+|{{party shading/Republican}}|2,580
+|{{party shading/Republican}}|75.66%
+|{{party shading/Independent}}|829
+|{{party shading/Independent}}|24.31%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.03%
+|{{party shading/Republican}}|1,751
+|{{party shading/Republican}}|51.35%
+|{{party shading/Republican}}|3,410
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Arthur County, Nebraska|Arthur]]
+|{{party shading/Republican}}|234
+|{{party shading/Republican}}|83.57%
+|{{party shading/Independent}}|46
+|{{party shading/Independent}}|16.43%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|188
+|{{party shading/Republican}}|67.14%
+|{{party shading/Republican}}|280
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Banner County, Nebraska|Banner]]
+|{{party shading/Republican}}|310
+|{{party shading/Republican}}|80.73%
+|{{party shading/Independent}}|74
+|{{party shading/Independent}}|19.27%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|236
+|{{party shading/Republican}}|61.46%
+|{{party shading/Republican}}|384
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Blaine County, Nebraska|Blaine]]
+|{{party shading/Republican}}|227
+|{{party shading/Republican}}|77.74%
+|{{party shading/Independent}}|64
+|{{party shading/Independent}}|21.92%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.34%
+|{{party shading/Republican}}|163
+|{{party shading/Republican}}|55.82%
+|{{party shading/Republican}}|292
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Boone County, Nebraska|Boone]]
+|{{party shading/Republican}}|2,274
+|{{party shading/Republican}}|75.67%
+|{{party shading/Independent}}|727
+|{{party shading/Independent}}|24.19%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.13%
+|{{party shading/Republican}}|1,547
+|{{party shading/Republican}}|51.48%
+|{{party shading/Republican}}|3,005
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Box Butte County, Nebraska|Box Butte]]
+|{{party shading/Republican}}|3,198
+|{{party shading/Republican}}|65.79%
+|{{party shading/Independent}}|1,642
+|{{party shading/Independent}}|33.78%
+|{{party shading/Others}}|21
+|{{party shading/Others}}|0.43%
+|{{party shading/Republican}}|1,556
+|{{party shading/Republican}}|32.01%
+|{{party shading/Republican}}|4,861
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Boyd County, Nebraska|Boyd]]
+|{{party shading/Republican}}|948
+|{{party shading/Republican}}|89.35%
+|{{party shading/Independent}}|113
+|{{party shading/Independent}}|10.65%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|835
+|{{party shading/Republican}}|78.70%
+|{{party shading/Republican}}|1,061
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Brown County, Nebraska|Brown]]
+|{{party shading/Republican}}|1,243
+|{{party shading/Republican}}|76.30%
+|{{party shading/Independent}}|382
+|{{party shading/Independent}}|23.45%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.25%
+|{{party shading/Republican}}|861
+|{{party shading/Republican}}|52.85%
+|{{party shading/Republican}}|1,629
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Buffalo County, Nebraska|Buffalo]]
+|{{party shading/Republican}}|15,147
+|{{party shading/Republican}}|64.10%
+|{{party shading/Independent}}|8,423
+|{{party shading/Independent}}|35.64%
+|{{party shading/Others}}|61
+|{{party shading/Others}}|0.26%
+|{{party shading/Republican}}|6,724
+|{{party shading/Republican}}|28.46%
+|{{party shading/Republican}}|23,631
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Burt County, Nebraska|Burt]]
+|{{party shading/Republican}}|2,185
+|{{party shading/Republican}}|60.71%
+|{{party shading/Independent}}|1,410
+|{{party shading/Independent}}|39.18%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.11%
+|{{party shading/Republican}}|775
+|{{party shading/Republican}}|21.53%
+|{{party shading/Republican}}|3,599
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Butler County, Nebraska|Butler]]
+|{{party shading/Republican}}|3,222
+|{{party shading/Republican}}|71.02%
+|{{party shading/Independent}}|1,297
+|{{party shading/Independent}}|28.59%
+|{{party shading/Others}}|18
+|{{party shading/Others}}|0.40%
+|{{party shading/Republican}}|1,925
+|{{party shading/Republican}}|42.43%
+|{{party shading/Republican}}|4,537
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Cass County, Nebraska|Cass]]
+|{{party shading/Republican}}|9,051
+|{{party shading/Republican}}|58.25%
+|{{party shading/Independent}}|6,457
+|{{party shading/Independent}}|41.56%
+|{{party shading/Others}}|30
+|{{party shading/Others}}|0.19%
+|{{party shading/Republican}}|2,594
+|{{party shading/Republican}}|16.69%
+|{{party shading/Republican}}|15,538
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Cedar County, Nebraska|Cedar]]
+|{{party shading/Republican}}|3,693
+|{{party shading/Republican}}|75.65%
+|{{party shading/Independent}}|1,179
+|{{party shading/Independent}}|24.15%
+|{{party shading/Others}}|10
+|{{party shading/Others}}|0.20%
+|{{party shading/Republican}}|2,514
+|{{party shading/Republican}}|51.50%
+|{{party shading/Republican}}|4,882
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Chase County, Nebraska|Chase]]
+|{{party shading/Republican}}|1,485
+|{{party shading/Republican}}|80.31%
+|{{party shading/Independent}}|364
+|{{party shading/Independent}}|19.69%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|1,121
+|{{party shading/Republican}}|60.62%
+|{{party shading/Republican}}|1,849
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Cherry County, Nebraska|Cherry]]
+|{{party shading/Republican}}|2,336
+|{{party shading/Republican}}|78.10%
+|{{party shading/Independent}}|641
+|{{party shading/Independent}}|21.43%
+|{{party shading/Others}}|14
+|{{party shading/Others}}|0.47%
+|{{party shading/Republican}}|1,695
+|{{party shading/Republican}}|56.67%
+|{{party shading/Republican}}|2,991
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Cheyenne County, Nebraska|Cheyenne]]
+|{{party shading/Republican}}|3,176
+|{{party shading/Republican}}|71.10%
+|{{party shading/Independent}}|1,280
+|{{party shading/Independent}}|28.65%
+|{{party shading/Others}}|11
+|{{party shading/Others}}|0.25%
+|{{party shading/Republican}}|996
+|{{party shading/Republican}}|42.45%
+|{{party shading/Republican}}|4,467
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Clay County, Nebraska|Clay]]
+|{{party shading/Republican}}|2,397
+|{{party shading/Republican}}|73.19%
+|{{party shading/Independent}}|870
+|{{party shading/Independent}}|26.56%
+|{{party shading/Others}}|8
+|{{party shading/Others}}|0.24%
+|{{party shading/Republican}}|1,527
+|{{party shading/Republican}}|46.63%
+|{{party shading/Republican}}|3,275
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Colfax County, Nebraska|Colfax]]
+|{{party shading/Republican}}|2,296
+|{{party shading/Republican}}|66.21%
+|{{party shading/Independent}}|1,161
+|{{party shading/Independent}}|33.48%
+|{{party shading/Others}}|11
+|{{party shading/Others}}|0.32%
+|{{party shading/Republican}}|1,135
+|{{party shading/Republican}}|32.73%
+|{{party shading/Republican}}|3,468
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Cuming County, Nebraska|Cuming]]
+|{{party shading/Republican}}|3,145
+|{{party shading/Republican}}|71.32%
+|{{party shading/Independent}}|1,258
+|{{party shading/Independent}}|28.53%
+|{{party shading/Others}}|7
+|{{party shading/Others}}|0.16%
+|{{party shading/Republican}}|1,887
+|{{party shading/Republican}}|42.79%
+|{{party shading/Republican}}|4,410
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Custer County, Nebraska|Custer]]
+|{{party shading/Republican}}|4,409
+|{{party shading/Republican}}|75.17%
+|{{party shading/Independent}}|1,447
+|{{party shading/Independent}}|24.67%
+|{{party shading/Others}}|9
+|{{party shading/Others}}|0.15%
+|{{party shading/Republican}}|2,962
+|{{party shading/Republican}}|50.50%
+|{{party shading/Republican}}|5,865
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dakota County, Nebraska|Dakota]]
+|{{party shading/Republican}}|3,082
+|{{party shading/Republican}}|51.56%
+|{{party shading/Independent}}|2,872
+|{{party shading/Independent}}|48.05%
+|{{party shading/Others}}|23
+|{{party shading/Others}}|0.38%
+|{{party shading/Republican}}|210
+|{{party shading/Republican}}|3.51%
+|{{party shading/Republican}}|5,977
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dawes County, Nebraska|Dawes]]
+|{{party shading/Republican}}|2,501
+|{{party shading/Republican}}|65.16%
+|{{party shading/Independent}}|1,333
+|{{party shading/Independent}}|34.73%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.10%
+|{{party shading/Republican}}|1,168
+|{{party shading/Republican}}|30.43%
+|{{party shading/Republican}}|3,838
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dawson County, Nebraska|Dawson]]
+|{{party shading/Republican}}|5,556
+|{{party shading/Republican}}|65.88%
+|{{party shading/Independent}}|2,859
+|{{party shading/Independent}}|33.90%
+|{{party shading/Others}}|19
+|{{party shading/Others}}|0.23%
+|{{party shading/Republican}}|2,697
+|{{party shading/Republican}}|31.98%
+|{{party shading/Republican}}|8,434
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Deuel County, Nebraska|Deuel]]
+|{{party shading/Republican}}|724
+|{{party shading/Republican}}|72.26%
+|{{party shading/Independent}}|276
+|{{party shading/Independent}}|27.54%
+|{{party shading/Others}}|2
+|{{party shading/Others}}|0.20%
+|{{party shading/Republican}}|448
+|{{party shading/Republican}}|44.72%
+|{{party shading/Republican}}|1,002
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dixon County, Nebraska|Dixon]]
+|{{party shading/Republican}}|1,973
+|{{party shading/Republican}}|69.25%
+|{{party shading/Independent}}|872
+|{{party shading/Independent}}|30.61%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.14%
+|{{party shading/Republican}}|1,101
+|{{party shading/Republican}}|38.64%
+|{{party shading/Republican}}|2,849
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dodge County, Nebraska|Dodge]]
+|{{party shading/Republican}}|9,108
+|{{party shading/Republican}}|55.90%
+|{{party shading/Independent}}|7,137
+|{{party shading/Independent}}|43.80%
+|{{party shading/Others}}|49
+|{{party shading/Others}}|0.30%
+|{{party shading/Republican}}|1,971
+|{{party shading/Republican}}|12.10%
+|{{party shading/Republican}}|16,294
+|- style="text-align:center;"
+|{{party shading/Independent}}|[[Douglas County, Nebraska|Douglas]]
+|{{party shading/Republican}}|111,211
+|{{party shading/Republican}}|41.25%
+|{{party shading/Independent}}|157,317
+|{{party shading/Independent}}|58.35%
+|{{party shading/Others}}|1,082
+|{{party shading/Others}}|0.40%
+|{{party shading/Independent}}| -46,106
+|{{party shading/Independent}}| -17.10%
+|{{party shading/Independent}}|269,610
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Dundy County, Nebraska|Dundy]]
+|{{party shading/Republican}}|722
+|{{party shading/Republican}}|78.99%
+|{{party shading/Independent}}|192
+|{{party shading/Independent}}|21.01%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|530
+|{{party shading/Republican}}|57.98%
+|{{party shading/Republican}}|914
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Fillmore County, Nebraska|Fillmore]]
+|{{party shading/Republican}}|2,017
+|{{party shading/Republican}}|67.14%
+|{{party shading/Independent}}|985
+|{{party shading/Independent}}|32.79%
+|{{party shading/Others}}|2
+|{{party shading/Others}}|0.07%
+|{{party shading/Republican}}|1,032
+|{{party shading/Republican}}|34.35%
+|{{party shading/Republican}}|3,004
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Franklin County, Nebraska|Franklin]]
+|{{party shading/Republican}}|1,204
+|{{party shading/Republican}}|75.72%
+|{{party shading/Independent}}|381
+|{{party shading/Independent}}|23.96%
+|{{party shading/Others}}|5
+|{{party shading/Others}}|0.31%
+|{{party shading/Republican}}|823
+|{{party shading/Republican}}|51.76%
+|{{party shading/Republican}}|1,590
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Frontier County, Nebraska|Frontier]]
+|{{party shading/Republican}}|1,055
+|{{party shading/Republican}}|75.68%
+|{{party shading/Independent}}|336
+|{{party shading/Independent}}|24.10%
+|{{party shading/Others}}|3
+|{{party shading/Others}}|0.22%
+|{{party shading/Republican}}|719
+|{{party shading/Republican}}|51.58%
+|{{party shading/Republican}}|1,394
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Furnas County, Nebraska|Furnas]]
+|{{party shading/Republican}}|1,784
+|{{party shading/Republican}}|74.09%
+|{{party shading/Independent}}|619
+|{{party shading/Independent}}|25.71%
+|{{party shading/Others}}|5
+|{{party shading/Others}}|0.21%
+|{{party shading/Republican}}|1,165
+|{{party shading/Republican}}|48.38%
+|{{party shading/Republican}}|2,408
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Gage County, Nebraska|Gage]]
+|{{party shading/Republican}}|6,262
+|{{party shading/Republican}}|57.49%
+|{{party shading/Independent}}|4,601
+|{{party shading/Independent}}|42.24%
+|{{party shading/Others}}|30
+|{{party shading/Others}}|0.28%
+|{{party shading/Republican}}|1,661
+|{{party shading/Republican}}|15.25%
+|{{party shading/Republican}}|10,893
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Garden County, Nebraska|Garden]]
+|{{party shading/Republican}}|831
+|{{party shading/Republican}}|75.07%
+|{{party shading/Independent}}|273
+|{{party shading/Independent}}|24.66%
+|{{party shading/Others}}|3
+|{{party shading/Others}}|0.27%
+|{{party shading/Republican}}|558
+|{{party shading/Republican}}|50.41%
+|{{party shading/Republican}}|1,107
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Garfield County, Nebraska|Garfield]]
+|{{party shading/Republican}}|791
+|{{party shading/Republican}}|79.18%
+|{{party shading/Independent}}|204
+|{{party shading/Independent}}|20.42%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.40%
+|{{party shading/Republican}}|587
+|{{party shading/Republican}}|58.76%
+|{{party shading/Republican}}|999
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Gosper County, Nebraska|Gosper]]
+|{{party shading/Republican}}|854
+|{{party shading/Republican}}|75.91%
+|{{party shading/Independent}}|270
+|{{party shading/Independent}}|24.00%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.09%
+|{{party shading/Republican}}|584
+|{{party shading/Republican}}|51.91%
+|{{party shading/Republican}}|1,125
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Grant County, Nebraska|Grant]]
+|{{party shading/Republican}}|322
+|{{party shading/Republican}}|89.44%
+|{{party shading/Independent}}|37
+|{{party shading/Independent}}|10.28%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.28%
+|{{party shading/Republican}}|285
+|{{party shading/Republican}}|79.16%
+|{{party shading/Republican}}|360
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Greeley County, Nebraska|Greeley]]
+|{{party shading/Republican}}|909
+|{{party shading/Republican}}|74.39%
+|{{party shading/Independent}}|310
+|{{party shading/Independent}}|25.37%
+|{{party shading/Others}}|3
+|{{party shading/Others}}|0.25%
+|{{party shading/Republican}}|599
+|{{party shading/Republican}}|49.02%
+|{{party shading/Republican}}|1,222
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Hall County, Nebraska|Hall]]
+|{{party shading/Republican}}|13,335
+|{{party shading/Republican}}|58.95%
+|{{party shading/Independent}}|9,225
+|{{party shading/Independent}}|40.78%
+|{{party shading/Others}}|61
+|{{party shading/Others}}|0.27%
+|{{party shading/Republican}}|4,110
+|{{party shading/Republican}}|18.17%
+|{{party shading/Republican}}|22,621
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Hamilton County, Nebraska|Hamilton]]
+|{{party shading/Republican}}|4,004
+|{{party shading/Republican}}|72.51%
+|{{party shading/Independent}}|1,505
+|{{party shading/Independent}}|27.25%
+|{{party shading/Others}}|13
+|{{party shading/Others}}|0.24%
+|{{party shading/Republican}}|2,499
+|{{party shading/Republican}}|45.26%
+|{{party shading/Republican}}|5,522
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Harlan County, Nebraska|Harlan]]
+|{{party shading/Republican}}|1,368
+|{{party shading/Republican}}|76.25%
+|{{party shading/Independent}}|420
+|{{party shading/Independent}}|23.41%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.33%
+|{{party shading/Republican}}|948
+|{{party shading/Republican}}|52.84%
+|{{party shading/Republican}}|1,794
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Hayes County, Nebraska|Hayes]]
+|{{party shading/Republican}}|434
+|{{party shading/Republican}}|88.39%
+|{{party shading/Independent}}|57
+|{{party shading/Independent}}|11.61%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|377
+|{{party shading/Republican}}|76.78%
+|{{party shading/Republican}}|491
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Hitchcock County, Nebraska|Hitchcock]]
+|{{party shading/Republican}}|1,069
+|{{party shading/Republican}}|75.18%
+|{{party shading/Independent}}|351
+|{{party shading/Independent}}|24.68%
+|{{party shading/Others}}|2
+|{{party shading/Others}}|0.14%
+|{{party shading/Republican}}|718
+|{{party shading/Republican}}|50.50%
+|{{party shading/Republican}}|1,422
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Holt County, Nebraska|Holt]]
+|{{party shading/Republican}}|4,074
+|{{party shading/Republican}}|75.49%
+|{{party shading/Independent}}|1,306
+|{{party shading/Independent}}|24.20%
+|{{party shading/Others}}|17
+|{{party shading/Others}}|0.31%
+|{{party shading/Republican}}|2,768
+|{{party shading/Republican}}|51.29%
+|{{party shading/Republican}}|5,397
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Hooker County, Nebraska|Hooker]]
+|{{party shading/Republican}}|323
+|{{party shading/Republican}}|76.36%
+|{{party shading/Independent}}|99
+|{{party shading/Independent}}|23.40%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.24%
+|{{party shading/Republican}}|224
+|{{party shading/Republican}}|52.96%
+|{{party shading/Republican}}|423
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Howard County, Nebraska|Howard]]
+|{{party shading/Republican}}|2,489
+|{{party shading/Republican}}|70.87%
+|{{party shading/Independent}}|1,016
+|{{party shading/Independent}}|28.93%
+|{{party shading/Others}}|7
+|{{party shading/Others}}|0.20%
+|{{party shading/Republican}}|1,473
+|{{party shading/Republican}}|41.94%
+|{{party shading/Republican}}|3,512
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Jefferson County, Nebraska|Jefferson]]
+|{{party shading/Republican}}|2,252
+|{{party shading/Republican}}|62.23%
+|{{party shading/Independent}}|1,365
+|{{party shading/Independent}}|37.72%
+|{{party shading/Others}}|2
+|{{party shading/Others}}|0.06%
+|{{party shading/Republican}}|887
+|{{party shading/Republican}}|24.51%
+|{{party shading/Republican}}|3,619
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Johnson County, Nebraska|Johnson]]
+|{{party shading/Republican}}|1,219
+|{{party shading/Republican}}|57.10%
+|{{party shading/Independent}}|912
+|{{party shading/Independent}}|42.72%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|0.19%
+|{{party shading/Republican}}|307
+|{{party shading/Republican}}|14.38%
+|{{party shading/Republican}}|2,135
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Kearney County, Nebraska|Kearney]]
+|{{party shading/Republican}}|2,595
+|{{party shading/Republican}}|71.82%
+|{{party shading/Independent}}|1,004
+|{{party shading/Independent}}|27.79%
+|{{party shading/Others}}|14
+|{{party shading/Others}}|0.39%
+|{{party shading/Republican}}|1,591
+|{{party shading/Republican}}|44.03%
+|{{party shading/Republican}}|3,613
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Keith County, Nebraska|Keith]]
+|{{party shading/Republican}}|2,963
+|{{party shading/Republican}}|71.31%
+|{{party shading/Independent}}|1,185
+|{{party shading/Independent}}|28.52%
+|{{party shading/Others}}|7
+|{{party shading/Others}}|0.17%
+|{{party shading/Republican}}|1,778
+|{{party shading/Republican}}|42.79%
+|{{party shading/Republican}}|4,155
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Keya Paha County, Nebraska|Keya Paha]]
+|{{party shading/Republican}}|450
+|{{party shading/Republican}}|83.33%
+|{{party shading/Independent}}|85
+|{{party shading/Independent}}|15.74%
+|{{party shading/Others}}|5
+|{{party shading/Others}}|0.93%
+|{{party shading/Republican}}|365
+|{{party shading/Republican}}|67.59%
+|{{party shading/Republican}}|540
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Kimball County, Nebraska|Kimball]]
+|{{party shading/Republican}}|1,206
+|{{party shading/Republican}}|71.49%
+|{{party shading/Independent}}|476
+|{{party shading/Independent}}|28.22%
+|{{party shading/Others}}|5
+|{{party shading/Others}}|0.30%
+|{{party shading/Republican}}|730
+|{{party shading/Republican}}|43.27%
+|{{party shading/Republican}}|1,687
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Knox County, Nebraska|Knox]]
+|{{party shading/Republican}}|3,225
+|{{party shading/Republican}}|73.41%
+|{{party shading/Independent}}|1,160
+|{{party shading/Independent}}|26.41%
+|{{party shading/Others}}|8
+|{{party shading/Others}}|0.18%
+|{{party shading/Republican}}|2,065
+|{{party shading/Republican}}|47.00%
+|{{party shading/Republican}}|4,393
+|- style="text-align:center;"
+|{{party shading/Independent}}|[[Lancaster County, Nebraska|Lancaster]]
+|{{party shading/Republican}}|65,295
+|{{party shading/Republican}}|41.57%
+|{{party shading/Independent}}|91,356
+|{{party shading/Independent}}|58.16%
+|{{party shading/Others}}|417
+|{{party shading/Others}}|0.27%
+|{{party shading/Independent}}| -26,061
+|{{party shading/Independent}}| -16.59%
+|{{party shading/Independent}}|157,068
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Lincoln County, Nebraska|Lincoln]]
+|{{party shading/Republican}}|10,646
+|{{party shading/Republican}}|65.09%
+|{{party shading/Independent}}|5,658
+|{{party shading/Independent}}|34.59%
+|{{party shading/Others}}|53
+|{{party shading/Others}}|0.32%
+|{{party shading/Republican}}|4,988
+|{{party shading/Republican}}|30.50%
+|{{party shading/Republican}}|16,357
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Logan County, Nebraska|Logan]]
+|{{party shading/Republican}}|357
+|{{party shading/Republican}}|80.95%
+|{{party shading/Independent}}|82
+|{{party shading/Independent}}|18.59%
+|{{party shading/Others}}|2
+|{{party shading/Others}}|0.45%
+|{{party shading/Republican}}|275
+|{{party shading/Republican}}|62.36%
+|{{party shading/Republican}}|441
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Loup County, Nebraska|Loup]]
+|{{party shading/Republican}}|339
+|{{party shading/Republican}}|78.65%
+|{{party shading/Independent}}|92
+|{{party shading/Independent}}|21.35%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|247
+|{{party shading/Republican}}|57.30%
+|{{party shading/Republican}}|431
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Madison County, Nebraska|Madison]]
+|{{party shading/Republican}}|10,523
+|{{party shading/Republican}}|67.72%
+|{{party shading/Independent}}|4,997
+|{{party shading/Independent}}|32.16%
+|{{party shading/Others}}|20
+|{{party shading/Others}}|0.13%
+|{{party shading/Republican}}|5,526
+|{{party shading/Republican}}|35.56%
+|{{party shading/Republican}}|15,540
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[McPherson County, Nebraska|McPherson]]
+|{{party shading/Republican}}|237
+|{{party shading/Republican}}|84.95%
+|{{party shading/Independent}}|42
+|{{party shading/Independent}}|15.05%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|195
+|{{party shading/Republican}}|69.90%
+|{{party shading/Republican}}|279
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Merrick County, Nebraska|Merrick]]
+|{{party shading/Republican}}|3,226
+|{{party shading/Republican}}|74.40%
+|{{party shading/Independent}}|1,090
+|{{party shading/Independent}}|25.14%
+|{{party shading/Others}}|20
+|{{party shading/Others}}|0.46%
+|{{party shading/Republican}}|2,136
+|{{party shading/Republican}}|49.26%
+|{{party shading/Republican}}|4,336
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Morrill County, Nebraska|Morrill]]
+|{{party shading/Republican}}|1,730
+|{{party shading/Republican}}|72.84%
+|{{party shading/Independent}}|640
+|{{party shading/Independent}}|26.95%
+|{{party shading/Others}}|5
+|{{party shading/Others}}|0.21%
+|{{party shading/Republican}}|1,090
+|{{party shading/Republican}}|45.89%
+|{{party shading/Republican}}|2,375
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Nance County, Nebraska|Nance]]
+|{{party shading/Republican}}|1,244
+|{{party shading/Republican}}|68.35%
+|{{party shading/Independent}}|575
+|{{party shading/Independent}}|31.59%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.05%
+|{{party shading/Republican}}|669
+|{{party shading/Republican}}|36.76%
+|{{party shading/Republican}}|1,820
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Nemaha County, Nebraska|Nemaha]]
+|{{party shading/Republican}}|2,014
+|{{party shading/Republican}}|59.55%
+|{{party shading/Independent}}|1,361
+|{{party shading/Independent}}|40.24%
+|{{party shading/Others}}|7
+|{{party shading/Others}}|0.21%
+|{{party shading/Republican}}|653
+|{{party shading/Republican}}|19.31%
+|{{party shading/Republican}}|3,382
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Nuckolls County, Nebraska|Nuckolls]]
+|{{party shading/Republican}}|1,566
+|{{party shading/Republican}}|70.38%
+|{{party shading/Independent}}|651
+|{{party shading/Independent}}|29.26%
+|{{party shading/Others}}|8
+|{{party shading/Others}}|0.36%
+|{{party shading/Republican}}|915
+|{{party shading/Republican}}|41.12%
+|{{party shading/Republican}}|2,225
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Otoe County, Nebraska|Otoe]]
+|{{party shading/Republican}}|4,720
+|{{party shading/Republican}}|58.05%
+|{{party shading/Independent}}|3,398
+|{{party shading/Independent}}|41.79%
+|{{party shading/Others}}|13
+|{{party shading/Others}}|0.16%
+|{{party shading/Republican}}|1,322
+|{{party shading/Republican}}|16.26%
+|{{party shading/Republican}}|8,131
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Pawnee County, Nebraska|Pawnee]]
+|{{party shading/Republican}}|896
+|{{party shading/Republican}}|65.45%
+|{{party shading/Independent}}|472
+|{{party shading/Independent}}|34.48%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.07%
+|{{party shading/Republican}}|424
+|{{party shading/Republican}}|30.97%
+|{{party shading/Republican}}|1,369
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Perkins County, Nebraska|Perkins]]
+|{{party shading/Republican}}|1,088
+|{{party shading/Republican}}|76.24%
+|{{party shading/Independent}}|338
+|{{party shading/Independent}}|23.69%
+|{{party shading/Others}}|1
+|{{party shading/Others}}|0.07%
+|{{party shading/Republican}}|750
+|{{party shading/Republican}}|52.55%
+|{{party shading/Republican}}|1,427
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Phelps County, Nebraska|Phelps]]
+|{{party shading/Republican}}|3,787
+|{{party shading/Republican}}|76.35%
+|{{party shading/Independent}}|1,152
+|{{party shading/Independent}}|23.23%
+|{{party shading/Others}}|21
+|{{party shading/Others}}|0.42%
+|{{party shading/Republican}}|2,635
+|{{party shading/Republican}}|53.12%
+|{{party shading/Republican}}|4,960
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Pierce County, Nebraska|Pierce]]
+|{{party shading/Republican}}|2,917
+|{{party shading/Republican}}|75.14%
+|{{party shading/Independent}}|953
+|{{party shading/Independent}}|24.55%
+|{{party shading/Others}}|12
+|{{party shading/Others}}|0.31%
+|{{party shading/Republican}}|1,964
+|{{party shading/Republican}}|50.59%
+|{{party shading/Republican}}|3,882
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Platte County, Nebraska|Platte]]
+|{{party shading/Republican}}|10,994
+|{{party shading/Republican}}|70.36%
+|{{party shading/Independent}}|4,601
+|{{party shading/Independent}}|29.45%
+|{{party shading/Others}}|30
+|{{party shading/Others}}|0.19%
+|{{party shading/Republican}}|6,393
+|{{party shading/Republican}}|40.91%
+|{{party shading/Republican}}|15,625
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Polk County, Nebraska|Polk]]
+|{{party shading/Republican}}|2,048
+|{{party shading/Republican}}|72.29%
+|{{party shading/Independent}}|779
+|{{party shading/Independent}}|27.50%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.21%
+|{{party shading/Republican}}|1,269
+|{{party shading/Republican}}|44.79%
+|{{party shading/Republican}}|2,833
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Red Willow County, Nebraska|Red Willow]]
+|{{party shading/Republican}}|4,537
+|{{party shading/Republican}}|86.09%
+|{{party shading/Independent}}|727
+|{{party shading/Independent}}|13.80%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.11%
+|{{party shading/Republican}}|3,810
+|{{party shading/Republican}}|72.29%
+|{{party shading/Republican}}|5,270
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Richardson County, Nebraska|Richardson]]
+|{{party shading/Republican}}|2,336
+|{{party shading/Republican}}|60.44%
+|{{party shading/Independent}}|1,516
+|{{party shading/Independent}}|39.22%
+|{{party shading/Others}}|13
+|{{party shading/Others}}|0.34%
+|{{party shading/Republican}}|820
+|{{party shading/Republican}}|21.22%
+|{{party shading/Republican}}|3,865
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Rock County, Nebraska|Rock]]
+|{{party shading/Republican}}|669
+|{{party shading/Republican}}|81.09%
+|{{party shading/Independent}}|156
+|{{party shading/Independent}}|18.91%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|513
+|{{party shading/Republican}}|62.18%
+|{{party shading/Republican}}|825
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Saline County, Nebraska|Saline]]
+|{{party shading/Republican}}|3,020
+|{{party shading/Republican}}|53.65%
+|{{party shading/Independent}}|2,593
+|{{party shading/Independent}}|46.07%
+|{{party shading/Others}}|16
+|{{party shading/Others}}|0.28%
+|{{party shading/Republican}}|427
+|{{party shading/Republican}}|7.58%
+|{{party shading/Republican}}|5,629
+|- style="text-align:center;"
+|{{party shading/Independent}}|[[Sarpy County, Nebraska|Sarpy]]
+|{{party shading/Republican}}|49,448
+|{{party shading/Republican}}|49.69%
+|{{party shading/Independent}}|49,817
+|{{party shading/Independent}}|50.06%
+|{{party shading/Others}}|241
+|{{party shading/Others}}|0.24%
+|{{party shading/Independent}}| -369
+|{{party shading/Independent}}| -0.37%
+|{{party shading/Independent}}|99,506
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Saunders County, Nebraska|Saunders]]
+|{{party shading/Republican}}|8,499
+|{{party shading/Republican}}|63.12%
+|{{party shading/Independent}}|4,941
+|{{party shading/Independent}}|36.70%
+|{{party shading/Others}}|24
+|{{party shading/Others}}|0.18%
+|{{party shading/Republican}}|3,558
+|{{party shading/Republican}}|26.42%
+|{{party shading/Republican}}|13,464
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Scotts Bluff County, Nebraska|Scotts Bluff]]
+|{{party shading/Republican}}|9,407
+|{{party shading/Republican}}|62.81%
+|{{party shading/Independent}}|5,528
+|{{party shading/Independent}}|36.91%
+|{{party shading/Others}}|41
+|{{party shading/Others}}|0.27%
+|{{party shading/Republican}}|3,879
+|{{party shading/Republican}}|25.90%
+|{{party shading/Republican}}|14,976
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Seward County, Nebraska|Seward]]
+|{{party shading/Republican}}|5,855
+|{{party shading/Republican}}|63.74%
+|{{party shading/Independent}}|3,310
+|{{party shading/Independent}}|36.03%
+|{{party shading/Others}}|21
+|{{party shading/Others}}|0.23%
+|{{party shading/Republican}}|2,545
+|{{party shading/Republican}}|27.71%
+|{{party shading/Republican}}|9,186
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Sheridan County, Nebraska|Sheridan]]
+|{{party shading/Republican}}|1,889
+|{{party shading/Republican}}|76.73%
+|{{party shading/Independent}}|567
+|{{party shading/Independent}}|23.03%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.24%
+|{{party shading/Republican}}|1,322
+|{{party shading/Republican}}|53.70%
+|{{party shading/Republican}}|2,462
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Sherman County, Nebraska|Sherman]]
+|{{party shading/Republican}}|1,134
+|{{party shading/Republican}}|68.03%
+|{{party shading/Independent}}|526
+|{{party shading/Independent}}|31.55%
+|{{party shading/Others}}|7
+|{{party shading/Others}}|0.42%
+|{{party shading/Republican}}|608
+|{{party shading/Republican}}|36.48%
+|{{party shading/Republican}}|1,667
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Sioux County, Nebraska|Sioux]]
+|{{party shading/Republican}}|531
+|{{party shading/Republican}}|79.02%
+|{{party shading/Independent}}|141
+|{{party shading/Independent}}|20.98%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|390
+|{{party shading/Republican}}|58.04%
+|{{party shading/Republican}}|672
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Stanton County, Nebraska|Stanton]]
+|{{party shading/Republican}}|2,235
+|{{party shading/Republican}}|73.84%
+|{{party shading/Independent}}|789
+|{{party shading/Independent}}|26.07%
+|{{party shading/Others}}|3
+|{{party shading/Others}}|0.10%
+|{{party shading/Republican}}|1,446
+|{{party shading/Republican}}|47.77%
+|{{party shading/Republican}}|3,027
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Thayer County, Nebraska|Thayer]]
+|{{party shading/Republican}}|2,013
+|{{party shading/Republican}}|70.43%
+|{{party shading/Independent}}|839
+|{{party shading/Independent}}|29.36%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.21%
+|{{party shading/Republican}}|1,174
+|{{party shading/Republican}}|41.07%
+|{{party shading/Republican}}|2,858
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Thomas County, Nebraska|Thomas]]
+|{{party shading/Republican}}|300
+|{{party shading/Republican}}|77.92%
+|{{party shading/Independent}}|81
+|{{party shading/Independent}}|21.04%
+|{{party shading/Others}}|4
+|{{party shading/Others}}|1.04%
+|{{party shading/Republican}}|219
+|{{party shading/Republican}}|56.88%
+|{{party shading/Republican}}|385
+|- style="text-align:center;"
+|{{party shading/Independent}}|[[Thurston County, Nebraska|Thurston]]
+|{{party shading/Republican}}|951
+|{{party shading/Republican}}|46.55%
+|{{party shading/Independent}}|1,092
+|{{party shading/Independent}}|53.45%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Independent}}| -141
+|{{party shading/Independent}}| -6.90%
+|{{party shading/Independent}}|2,043
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Valley County, Nebraska|Valley]]
+|{{party shading/Republican}}|1,657
+|{{party shading/Republican}}|72.58%
+|{{party shading/Independent}}|620
+|{{party shading/Independent}}|27.16%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.26%
+|{{party shading/Republican}}|1,037
+|{{party shading/Republican}}|45.42%
+|{{party shading/Republican}}|2,283
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Washington County, Nebraska|Washington]]
+|{{party shading/Republican}}|7,815
+|{{party shading/Republican}}|62.71%
+|{{party shading/Independent}}|4,621
+|{{party shading/Independent}}|37.08%
+|{{party shading/Others}}|27
+|{{party shading/Others}}|0.22%
+|{{party shading/Republican}}|3,194
+|{{party shading/Republican}}|25.63%
+|{{party shading/Republican}}|12,463
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Wayne County, Nebraska|Wayne]]
+|{{party shading/Republican}}|2,588
+|{{party shading/Republican}}|63.63%
+|{{party shading/Independent}}|1,469
+|{{party shading/Independent}}|36.12%
+|{{party shading/Others}}|10
+|{{party shading/Others}}|0.25%
+|{{party shading/Republican}}|1,119
+|{{party shading/Republican}}|27.51%
+|{{party shading/Republican}}|4,067
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Webster County, Nebraska|Webster]]
+|{{party shading/Republican}}|1,284
+|{{party shading/Republican}}|73.88%
+|{{party shading/Independent}}|448
+|{{party shading/Independent}}|25.78%
+|{{party shading/Others}}|6
+|{{party shading/Others}}|0.35%
+|{{party shading/Republican}}|836
+|{{party shading/Republican}}|48.10%
+|{{party shading/Republican}}|1,738
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[Wheeler County, Nebraska|Wheeler]]
+|{{party shading/Republican}}|378
+|{{party shading/Republican}}|79.75%
+|{{party shading/Independent}}|96
+|{{party shading/Independent}}|20.25%
+|{{party shading/Others}}|0
+|{{party shading/Others}}|0.00%
+|{{party shading/Republican}}|282
+|{{party shading/Republican}}|59.50%
+|{{party shading/Republican}}|474
+|- style="text-align:center;"
+|{{party shading/Republican}}|[[York County, Nebraska|York]]
+|{{party shading/Republican}}|4,614
+|{{party shading/Republican}}|66.20%
+|{{party shading/Independent}}|2,339
+|{{party shading/Independent}}|33.56%
+|{{party shading/Others}}|17
+|{{party shading/Others}}|0.24%
+|{{party shading/Republican}}|2,275
+|{{party shading/Republican}}|32.64%
+|{{party shading/Republican}}|6,970
+|-
+!Totals
+!499,124
+!53.19%
+!436,493
+!46.52%
+!2,719
+!0.29%
+!62,631
+!6.67%
+!938,336
+|}
+;Counties that flipped from Republican to Independent
+*[[Thurston County, Nebraska|Thurston]] (largest village: [[Pender, Nebraska|Pender]])
+*[[Sarpy County, Nebraska|Sarpy]] (largest city: [[Bellevue, Nebraska|Bellevue]])
+
+;Counties that flipped from Democratic to Independent
+*[[Douglas County, Nebraska|Douglas]] (largest city: [[Omaha, Nebraska|Omaha]])
+*[[Lancaster County, Nebraska|Lancaster]] (largest city: [[Lincoln, Nebraska|Lincoln]])
+
+[[File:Shows changes in how counties voted between the 2018 and 2024 Senate elections in NE.svg|thumb|300px|County Flips: {{col-begin}}
+{{col-2}}
+ '''Independent'''
+{{legend|#696969|Flip}}
+{{col-2}}
+ '''Republican'''
+{{legend|#f48882|Hold}}
+{{col-end}}]]
+
+====By congressional district====
+Despite losing the state, Osborn won two of three congressional districts, which both elected Republicans.<ref>{{Cite web|url=https://davesredistricting.org/maps|title=DRA 2020|website=Daves Redistricting}}</ref>
+{|class=wikitable
+! District
+! Fischer
+! Osborn
+! Representative
+|- align=center
+! {{party shading/Independent}}|{{ushr|Nebraska|1|1st}}
+| 49%
+| '''51%'''
+| {{party shading/Republican}}|[[Mike Flood (politician)|Mike Flood]]
+|- align=center
+! {{party shading/Independent}}|{{ushr|Nebraska|2|2nd}}
+| 44%
+| '''56%'''
+| {{party shading/Republican}}|[[Don Bacon]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Nebraska|3|3rd}}
+| '''67%'''
+| 33%
+| {{party shading/Republican}}|[[Adrian Smith (politician)|Adrian Smith]]
+|}
+
+== See also ==
+*[[2024 United States Senate elections]]
+*[[2024 Nebraska elections]]
+*[[List of third-party and independent candidacies in United States Senate elections]]
+**[[2014 United States Senate election in Kansas]]
+**[[2020 United States Senate election in Alaska]]
+**[[2022 United States Senate election in Utah]]
+
+==Notes==
+{{notelist}}
+'''Partisan clients'''<br />
+{{notelist-ua}}
+
+==References==
+{{Reflist}}
+
+==External links==
+'''Official campaign websites'''
+*[https://www.debfornebraska.com/ Deb Fischer (R)]
+*[https://osbornforsenate.com/ Dan Osborn (I)]
+
+{{2024 United States elections}}
+{{Notable third-party performances in United States elections}}
+
+[[Category:United States Senate elections in Nebraska|2024]]
+[[Category:2024 United States Senate elections|Nebraska]]
+[[Category:2024 elections in Nebraska|United States Senate]]

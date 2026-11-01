@@ -1,0 +1,2821 @@
+{{Short description|none}}
+{{Main|2024 United States Senate elections}}
+{{Distinguish|2024 Pennsylvania Senate election}}
+{{Use mdy dates|date=November 2024}}
+{{Use American English|date=March 2023}}
+{{Infobox election
+| election_name = 2024 United States Senate election in Pennsylvania
+| country = Pennsylvania
+| type = presidential
+| ongoing = no
+| previous_election = 2018 United States Senate election in Pennsylvania
+| previous_year = 2018
+| next_election = 2030 United States Senate election in Pennsylvania
+| next_year = ''2030''
+| election_date = November 5, 2024
+| image1 = File:McCormick Portrait (HR) (cropped).jpg
+| nominee1 = '''[[Dave McCormick]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''3,399,295'''
+| percentage1 = '''48.78%'''
+| image2 = Bob Casey Jr. official photo (cropped).jpg
+| nominee2 = [[Bob Casey Jr.]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 3,384,180
+| percentage2 = 48.56%
+| map_image = {{switcher |[[File:2024 United States Senate election in Pennsylvania results map by county.svg|260px]] |County results|[[File:2024 United States Senate election in Pennsylvania results map by congressional district.svg|260px]] |Congressional district results
+|[[File:2024 United States Senate election in Pennsylvania results map by precinct.svg|260px]]
+|Precinct results}}
+| map_caption = '''McCormick:''' {{legend0|#FFB2B2|40–50%}} {{legend0|#E27F7F|50–60%}} {{legend0|#D75D5D|60–70%}} {{legend0|#D72F30|70–80%}} {{legend0|#C21B18|80–90%}} {{legend0|#A80000|>90%}} <br /> '''Casey:''' {{legend0|#A5B0FF|40–50%}} {{legend0|#7996E2|50–60%}} {{legend0|#6674DE|60–70%}} {{legend0|#584CDE|70–80%}} {{legend0|#3933E5|80–90%}} {{legend0|#0D0596|>90%}} <br /> '''Tie:''' {{legend0|#D2B1D9|40–50%}}
+| title = U.S. Senator
+| before_election = [[Bob Casey Jr.]]
+| before_party = Democratic Party (United States)
+| after_election = [[Dave McCormick]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsPA}}
+The '''2024 United States Senate election in Pennsylvania''' was held on November 5, 2024, to elect a member of the [[United States Senate]] to represent the state of [[Pennsylvania]]. [[Republican Party (United States)|Republican]] businessman [[Dave McCormick]] won his first term in office, defeating [[Democratic Party (United States)|Democratic]] three-term incumbent [[Bob Casey Jr.]] in what was considered a major [[Upset (competition)|upset]].<ref name="Katie Glueck-2024">{{Cite news |last=Glueck |first=Katie |date=2024-11-21 |title=David McCormick Defeats Senator Bob Casey in Pennsylvania |url=https://www.nytimes.com/2024/11/21/us/politics/bob-casey-david-mccormick-pennsylvania-senate.html |access-date=2026-03-16 |work=The New York Times |language=en-US |issn=0362-4331}}</ref> Most predictions gave Casey a slight advantage, and he led in most polls. Along with [[Sherrod Brown]] in [[2024 United States Senate election in Ohio|Ohio]] and [[Jon Tester]] in [[2024 United States Senate election in Montana|Montana]], Casey was one of three incumbent senators to lose re-election in 2024, all of whom were Democrats first elected in [[2006 United States Senate elections|2006]].<ref>{{Cite news|url=https://www.washingtonpost.com/politics/2024/12/14/bob-casey-trump-pennsylvania/|title=Why Bob Casey couldn't overcome the 'Trump wave' in Pennsylvania|date=December 14, 2024|newspaper=The Washington Post|quote=The three-term senator lost amid Trump's grip on rural voters and sagging turnout around metropolitan areas like Philadelphia.|first1=Paul|last1=Kane|access-date=December 14, 2024}}</ref>
+ 
+The primary election took place on April 23, 2024.<ref>{{Cite web |title=2024 State Primary Election Dates |url=https://www.ncsl.org/elections-and-campaigns/2024-state-primary-election-dates |access-date=2023-05-13 |website=www.ncsl.org |archive-date=August 17, 2023 |archive-url=https://web.archive.org/web/20230817074608/https://www.ncsl.org/elections-and-campaigns/2024-state-primary-election-dates |url-status=live }}</ref> The election was considered essential for Democrats' chances to retain their majority in 2024.<ref>{{Cite web |last=Pathe |first=Simone |date=2024-07-20 |title=The 10 Senate seats most likely to flip in 2024 {{!}} CNN Politics |url=https://www.cnn.com/2024/07/20/politics/senate-race-rankings-july-2024 |access-date=2026-03-16 |website=CNN |language=en}}</ref> The [[Associated Press]] and [[Fox News]] declared McCormick the winner on November 7,<ref>{{Cite web |last=Levy |first=Marc |date=2024-11-07 |title=Republican David McCormick flips pivotal Pennsylvania Senate seat, ousts Bob Casey |url=https://apnews.com/article/pennsylvania-senate-2024-election-david-mccormick-casey-866a8712dea0b52b5d8d6b4844968b53 |access-date=2026-03-16 |website=AP News |language=en}}</ref> while [[Decision Desk HQ]] called the race for McCormick on November 14.<ref>{{cite web |title=2024 Pennsylvania US Senate |url=https://votes.decisiondeskhq.com/races/2024-11-05/pennsylvania-us-senate-general-election |website=DDHQ Votes |access-date=May 7, 2026 |date=November 14, 2024}}</ref> [[CNN]], [[NBC]], [[American Broadcasting Company|ABC]], and [[CBS]] all called the race for McCormick on November 21; Casey conceded the race later that day,<ref name="Emily Rose Grassi-2024">{{Cite web |last=Levy |first=Marc |date=2024-11-21 |title=Democrat Bob Casey concedes to Republican David McCormick in Pennsylvania Senate contest |url=https://apnews.com/article/casey-mccormick-pennsylvania-senate-71f58415fb1e1fd7f00ef617808a7c4c |access-date=2026-03-16 |website=AP News |language=en}}</ref> halted a recount and confirmed the result.<ref>{{cite news |work=CNN Politics |title=Senate race in Pennsylvania heads to a recount |date=November 13, 2024 |access-date=November 14, 2024 |archive-date=November 14, 2024 |url-status=live |archive-url=https://archive.today/20241114054613/https://edition.cnn.com/2024/11/13/politics/pennsylvania-senate-race-heads-to-a-recount/index.html |first1=Ethan |last1=Cohen |last2=Hudspeth Blackburn |first2=Piper |first3=Morgan |last3=Rimmer |last4=Pathe |first4=Simone |last5=Krieg |first5=Gregory |url=https://edition.cnn.com/2024/11/13/politics/pennsylvania-senate-race-heads-to-a-recount/index.html}}</ref>
+
+This was Pennsylvania's closest US Senate election since the passage of the [[Seventeenth Amendment to the United States Constitution|Seventeenth Amendment]], as well as the closest Senate election of the 2024 cycle. McCormick was the only Republican challenger to win in a state flipped by Trump in the [[2024 United States presidential election|2024 presidential election]]. The other three Republican Senate gains were in states Trump had won in all three of his runs. With Democrats flipping the other Senate seat [[2022 United States Senate election in Pennsylvania|two years earlier]], this was the first time since the [[2012 United States Senate election in Indiana|2012 Senate election in Indiana]] where the opposite party flipped a seat after losing one in the previous cycle.
+
+This was Casey's first general election loss of his political career, and the second counting Casey's primary election loss in [[2002 Pennsylvania gubernatorial election|2002]]. This election made Pennsylvania one of several states to have a younger [[senior senator]] ([[John Fetterman]]) and an older [[junior senator]] (McCormick). McCormick was sworn in on January 3, 2025.
+
+{{toclimit|3}}
+
+== Background ==
+Pennsylvania is considered to be a [[Red states and blue states|purple]] state at the federal level, especially since in the [[2020 United States presidential election in Pennsylvania|2020 presidential election]], [[Joe Biden]] carried Pennsylvania by about 1.2 percentage points. Democrats had controlled both U.S. Senate seats, the governorship, a majority of its [[United States House of Representatives|U.S. House]] [[Pennsylvania's congressional delegations|delegation]], and the [[Pennsylvania House of Representatives]]. The last time Republicans won a [[U.S. Senate]] seat in Pennsylvania was in [[2016 United States Senate election in Pennsylvania|2016]].<ref>{{Cite web |title=Pennsylvania 2020 presidential election results |url=https://www.cnn.com/election/2020/results/state/pennsylvania/president |access-date=March 19, 2023 |website=[[CNN]] |language=en |archive-date=October 8, 2024 |archive-url=https://web.archive.org/web/20241008060734/https://www.cnn.com/election/2020/results/state/pennsylvania/president |url-status=live }}</ref><ref>{{Cite web |title=Pennsylvania Governor Midterm Election Results and Maps 2022 |url=https://www.cnn.com/election/2022/results/pennsylvania/governor |access-date=March 19, 2023 |website=[[CNN]] |language=en |archive-date=October 7, 2024 |archive-url=https://web.archive.org/web/20241007104826/https://www.cnn.com/election/2022/results/pennsylvania/governor |url-status=live }}</ref><ref>{{Cite web |last=Narea |first=Nicole |date=February 8, 2023 |title=Democrats in Pennsylvania just won the 2022 midterms. Again. |url=https://www.vox.com/policy-and-politics/2023/2/8/23591602/pennsylvania-house-democrats-win-special-election-majority |access-date=March 19, 2023 |website=[[Vox (website)|Vox]] |language=en |archive-date=September 29, 2023 |archive-url=https://web.archive.org/web/20230929040528/https://www.vox.com/policy-and-politics/2023/2/8/23591602/pennsylvania-house-democrats-win-special-election-majority |url-status=live }}</ref><ref>{{Cite web |title=United States Senate election in Pennsylvania, 2016 |url=https://ballotpedia.org/United_States_Senate_election_in_Pennsylvania,_2016 |access-date=March 19, 2023 |website=[[Ballotpedia]] |language=en}}</ref>
+
+Senator Bob Casey Jr. was first elected in the blue wave of [[2006 United States Senate election in Pennsylvania|2006]], defeating then-incumbent Senator [[Rick Santorum]] by about 17 percentage points. He was re-elected in [[2012 United States Senate election in Pennsylvania|2012]] by 9 percentage points (when he ran ahead of Obama by almost 4 points) and in the blue wave of [[2018 United States Senate election in Pennsylvania|2018]] by 13 percentage points.<ref>{{Cite web |title=Pennsylvania Senate 2006 Race |url=https://www.opensecrets.org/races/summary?cycle=2006&id=PAS2 |access-date=March 19, 2023 |website=[[OpenSecrets]] |language=en |archive-date=September 27, 2023 |archive-url=https://web.archive.org/web/20230927025427/https://www.opensecrets.org/races/summary?cycle=2006&id=PAS2 |url-status=live }}</ref><ref>{{Cite news |title=Pennsylvania |language=en-US |work=[[The New York Times]] |url=https://www.nytimes.com/elections/2012/results/states/pennsylvania.html |access-date=March 19, 2023 |issn=0362-4331 |archive-date=October 9, 2024 |archive-url=https://web.archive.org/web/20241009182606/https://www.nytimes.com/elections/2012/results/states/pennsylvania.html |url-status=live }}</ref><ref>{{Cite web |title=Pennsylvania Senate Election Results 2018: Live Midterm Map by County & Analysis |url=https://www.politico.com/election-results/2018/pennsylvania/senate/ |access-date=March 19, 2023 |website=[[Politico]] |date=November 7, 2018 |language=en |archive-date=September 11, 2024 |archive-url=https://web.archive.org/web/20240911021016/https://www.politico.com/election-results/2018/pennsylvania/senate/ |url-status=live }}</ref> Given these three decisive victories, Casey's fourth term appeared inevitable for much of the race. However, tightening polls in the final weeks indicated a closer contest, even as Casey was largely considered the favorite to win.<ref>{{Cite web |last=Hudson |first=Lee |title=Bob Casey running for Senate reelection |url=https://www.politico.com/news/2023/04/10/bob-casey-senate-reelection-00091186 |access-date=April 19, 2023 |website=[[Politico]] |date=April 10, 2023 |language=en |archive-date=June 30, 2023 |archive-url=https://web.archive.org/web/20230630230709/https://www.politico.com/news/2023/04/10/bob-casey-senate-reelection-00091186 |url-status=live }}</ref>
+
+==Democratic primary==
+===Candidates===
+====Nominee====
+* [[Bob Casey Jr.]], incumbent U.S. senator (2007–2025)<ref>{{Cite web |last=Wright |first=David |date=April 10, 2023 |title=Pennsylvania Sen. Bob Casey will run for reelection, boosting Democrats' Senate outlook for 2024 |url=https://www.cnn.com/2023/04/10/politics/bob-casey-pennsylvania-reelection/index.html |access-date=April 10, 2023 |website=[[CNN]] |language=en |archive-date=April 10, 2023 |archive-url=https://web.archive.org/web/20230410121029/https://www.cnn.com/2023/04/10/politics/bob-casey-pennsylvania-reelection/index.html |url-status=live }}</ref>
+
+====Disqualified====
+* William Parker, app developer<ref name=wtae>{{cite news |title=Two more candidates file papers to run for U.S. Senate in Pennsylvania |url=https://www.wtae.com/article/pennsylvania-senate-candidates-william-parker-brandi-tomasetti/46916967 |access-date=23 February 2024 |work=[[WTAE-TV]] |author=[[The Associated Press]] |date=February 22, 2024 |archive-date=March 1, 2024 |archive-url=https://web.archive.org/web/20240301105157/https://www.wtae.com/article/pennsylvania-senate-candidates-william-parker-brandi-tomasetti/46916967 |url-status=live }}</ref><ref>{{cite news |last1=Cole |first1=John |title=Pennsylvania GOP U.S. Senate candidate McCormick endorses Trump for president |url=https://penncapital-star.com/campaigns-elections/pennsylvania-gop-u-s-senate-candidate-mccormick-endorses-trump-for-president/ |access-date=7 March 2024 |work=[[Pennsylvania-Capital Star]] |date=March 6, 2024 |quote=Casey will be the only Democrat on the primary ballot for U.S. Senate after a successful objection against William Parker's nomination petitions removed him from the ballot.}}</ref>
+
+=== Endorsements ===
+{{Endorsements box
+|title = Bob Casey Jr.
+|colwidth = 60
+|list=
+'''Executive officials'''
+* [[Patrick Murphy (Pennsylvania politician)|Patrick Murphy]], Acting Secretary of the Army (2016), former U.S. representative for {{ushr|PA|8|PA-8}} (2007–2011)<ref name="vets" />
+
+'''U.S. senators'''
+* [[John Fetterman]], [[U.S. senator]] from [[Pennsylvania]] (2023–present)<ref name=postgaz>{{Cite web |url=https://www.post-gazette.com/news/politics-state/2023/04/30/bob-casey-2024-reelection-campaign/stories/202304280091 |title=Sen. Bob Casey is starting his 2024 Senate campaign with a big head start |last=Kail |first=Benjamin |website=[[Pittsburgh Post-Gazette]] |date=April 30, 2023 |access-date=May 1, 2023 |language=en-US}}</ref>
+* [[Mark Kelly]], U.S. senator from [[Arizona]] (2020–present)<ref>{{cite web | url=https://www.politico.com/live-updates/2024/01/30/congress/senate-mark-kelly-battleground-2024-democrats-00138442 | title=Mark Kelly isn't on the 2024 ballot. He's traveling the country for Dems anyway | website=[[Politico]] | date=January 30, 2024 }}</ref>
+'''U.S. representatives'''
+* [[Chris Carney]], {{ushr|PA|10|PA-10}} (2007–2011)<ref name="vets" />
+* [[Chris Deluzio]], {{ushr|PA|17|PA-17}} (2023–present)<ref name=postgaz />
+* [[Chrissy Houlahan]], {{ushr|PA|6|PA-6}} (2019–present)<ref name="vets">{{Cite web |last=Lyons |first=Kim |date=July 26, 2023|title=Casey campaign gets a boost from Pennsylvania veterans' coalition |url=https://www.penncapital-star.com/campaigns-elections/casey-campaign-gets-a-boost-from-pennsylvania-veterans-coalition/ |access-date=2023-08-02 |website=[[Pennsylvania Capital-Star]] |language=en-US}}</ref>
+* [[Conor Lamb]], {{ushr|PA|17|PA-17}} (2018–2023)<ref name="vets" />
+'''Statewide officials'''
+* [[Josh Shapiro]], [[Governor of Pennsylvania]] (2023–present)<ref name=postgaz />
+* [[Gretchen Whitmer]], [[Governor of Michigan]] (2019-present)<ref>{{Cite web |author=A. O. L. Staff |date=2024-05-17 |title=Whitmer's Fight Like Hell PAC releases initial Senate endorsements |url=https://www.aol.com/news/whitmer-fight-hell-pac-releases-140720296.html |access-date=2024-06-14 |website=www.aol.com |language=en-US}}</ref>
+'''Individuals'''
+* [[Harry Dunn (police officer)|Harry Dunn]], former [[U.S. Capitol Police]] officer<ref>{{cite news |last1=Kurtz |first1=Josh |title=Dunn's new PAC backs 10 Democratic Senate candidates, including Alsobrooks |url=https://marylandmatters.org/briefs/dunns-new-pac-backs-10-democratic-senate-candidates-including-alsobrooks/ |website=Maryland Matters |publisher=Maryland Matters |access-date=2024-07-11 |date=2024-07-10}}</ref>
+* [[Cristina Tzintzún Ramirez]], labor organizer and president of [[NextGen America]] PAC (2021–present)<ref name=nextgen>{{Cite web |url=https://nextgenpac.org/press/nextgen-pac-endorses-senator-bob-casey-ahead-of-2024-elections/ |website=[[NextGen America]] PAC |title=NextGen PAC Endorses Senator Bob Casey Ahead of 2024 Elections |date=May 10, 2023 |access-date=May 10, 2023 |language=en-US}}</ref>
+'''Political parties'''
+* [[Pennsylvania Democratic Party]]<ref>{{cite web|last=Prose|first=J. D.|url=https://www.pennlive.com/news/2023/12/pa-dems-make-2024-statewide-endorsements-but-attorney-generals-race-remains-open.html|title=Pa. Democrats make 2024 endorsements, but attorney general's race remains open|work=[[The Patriot-News]]|date=December 16, 2023|access-date=December 16, 2023|archive-date=December 17, 2023|archive-url=https://web.archive.org/web/20231217003120/https://www.pennlive.com/news/2023/12/pa-dems-make-2024-statewide-endorsements-but-attorney-generals-race-remains-open.html|url-status=live}}</ref>
+'''Organizations'''
+* [[American Israel Public Affairs Committee]] (AIPAC)<ref name=aipac>{{Cite web |url=https://candidates.aipacpac.org/page/featured/ |title=Support Pro-Israel Candidates |access-date=2023-11-21 |website=[[AIPAC]] PAC |archive-date=August 27, 2023 |archive-url=https://web.archive.org/web/20230827171509/https://candidates.aipacpac.org/page/featured/ |url-status=live }}</ref>
+* [[CASA de Maryland|CASA in Action]]<ref>{{cite press release |title=CASA in Action Announces 2024 General Election Endorsements for Pennsylvania Races |url=https://casainaction.org/pressroom/casa-in-action-announces-2024-general-election-endorsements-for-pennsylvania-races/ |access-date=September 1, 2024 |work=CASA in Action |date=August 20, 2024 |archive-date=September 1, 2024 |archive-url=https://web.archive.org/web/20240901140948/https://casainaction.org/pressroom/casa-in-action-announces-2024-general-election-endorsements-for-pennsylvania-races/ |url-status=live }}</ref>
+* [[Council for a Livable World]]<ref>{{Cite web |title=Senate Candidates |url=https://livableworld.org/meet-the-candidates/senate-candidates/ |access-date=2024-01-26 |website=Council for a Livable World |language=en-US |archive-date=September 6, 2023 |archive-url=https://web.archive.org/web/20230906192255/https://livableworld.org/meet-the-candidates/senate-candidates/ |url-status=live }}</ref>
+* [[Democratic Majority for Israel]]<ref name="DMFI 5/20">{{cite news |last1=Fernandez |first1=Madison |title=Pro-Israel group boosts Democrats in battleground races |url=https://www.politico.com/live-updates/2024/05/20/congress/pro-israel-groups-dem-battleground-endorsements-00158859 |access-date=May 20, 2024 |work=[[Politico]] |date=May 20, 2024}}</ref>
+* [[End Citizens United]]<ref name="ecu">{{Cite web |date=2023-06-26 |title=End Citizens United // Let America Vote Endorses Senator Bob Casey for Reelection |url=https://endcitizensunited.org/latest-news/press-releases/endorses-senator-casey/ |access-date=2023-06-26 |website=End Citizens United {{!}} We the People, Not "We the Wealthy" |language=en-US}}</ref>
+* [[Feminist Majority Foundation|Feminist Majority PAC]]<ref name="femmajorityendorse">{{Cite web |title=2024 – Feminist Majority PAC |url=https://feministmajoritypac.org/endorsements/2024/ |access-date=2024-02-09 |website=feministmajoritypac.org |archive-date=April 11, 2023 |archive-url=https://web.archive.org/web/20230411181903/https://feministmajoritypac.org/endorsements/2024/ |url-status=live }}</ref>
+* [[Giffords]]<ref name="gif">{{Cite web |date=2023-11-14 |title=GIFFORDS PAC Endorses Bob Casey for Reelection to the US Senate |url=https://giffords.org/press-release/2023/11/giffords-pac-endorses-bob-casey-for-reelection-to-the-us-senate/ |access-date=2023-10-15 |website=Giffords |language=en-US |archive-date=November 16, 2023 |archive-url=https://web.archive.org/web/20231116000952/https://giffords.org/press-release/2023/11/giffords-pac-endorses-bob-casey-for-reelection-to-the-us-senate/ |url-status=live }}</ref>
+* [[Harvard University|Harvard]] [[College Democrats of America|College Democrats]]<ref>{{Cite web |title=Presenting the official Spring 2024 Harvard Dems Endorsement Results! Congratulations to all who were endorsed! 🫶🏻✨ |url=https://www.instagram.com/p/C3ECqUUOqnn/?ig_rid=6c03b0cb-4019-45dc-83b5-8586e9ce8802&img_index=1 |access-date=2024-02-08 |website=www.instagram.com |archive-date=April 10, 2024 |archive-url=https://web.archive.org/web/20240410011735/https://www.instagram.com/p/C3ECqUUOqnn/?ig_rid=6c03b0cb-4019-45dc-83b5-8586e9ce8802&img_index=1 |url-status=live }}</ref>
+* [[Human Rights Campaign]]<ref>{{cite web |title=Human Rights Campaign Endorses Pennsylvania Sen. Bob Casey for Reelection |url=https://www.hrc.org/press-releases/human-rights-campaign-endorses-pennsylvania-sen-bob-casey-for-reelection |website=Human Rights Campaign |access-date=August 14, 2024 |date=14 August 2024}}</ref>
+* [[Humane Society Legislative Fund]]<ref name="HSLF">{{Cite web |title=2024 Endorsements |url=https://elections.hslf.org/ |access-date=2024-02-16 |website=2024 Endorsements |language=en |archive-date=January 21, 2024 |archive-url=https://web.archive.org/web/20240121055351/https://elections.hslf.org/ |url-status=live }}</ref>
+* [[Jewish Democratic Council of America]]<ref>{{Cite web |title=JDCA Announces First Round of 2024 Senate Endorsements |url=https://jewishdems.org/press_release/jdca-announces-first-round-of-2024-senate-endorsements-five-incumbents-in-competitive-races/ |access-date=2023-08-25 |website=Jewish Democratic Council of America |language=en-US}}</ref>
+* [[Joint Action Committee for Political Affairs]]<ref name="JACPA">{{Cite web |title=Meet JAC's 2024 Candidates {{!}} Joint Action Committee for Political Affairs |url=https://jacpac.org/story/23/06/28/meet-jacs-2024-candidates |archive-url=https://web.archive.org/web/20230901165858/https://jacpac.org/story/23/06/28/meet-jacs-2024-candidates |archive-date=2023-09-01 |access-date=2023-09-01 |website=jacpac.org}}</ref>
+* [[League of Conservation Voters]]<ref>{{Cite web |title=LCV Action Fund Announces First Round of Congressional Endorsements |url=https://www.lcv.org/media-center/lcv-action-fund-announces-first-round-of-congressional-endorsements/ |access-date=2023-07-27 |website=League of Conservation Voters |language=en-US |archive-date=July 27, 2023 |archive-url=https://web.archive.org/web/20230727144449/https://www.lcv.org/media-center/lcv-action-fund-announces-first-round-of-congressional-endorsements/ |url-status=live }}</ref>
+* [[National Committee to Preserve Social Security and Medicare]]<ref>{{cite press release |title=National Social Security Advocacy Group Endorses Senator Bob Casey for Re-Election |url=https://www.ncpssm.org/documents/news-releases/national-social-security-advocacy-group-endorses-senator-bob-casey-for-re-election/ |access-date=April 12, 2024 |work=National Committee to Preserve Social Security and Medicare |date=April 12, 2024}}</ref>
+* [[Natural Resources Defense Council]]<ref>{{Cite web |last=Dison |first=Denis |date=2023-09-20 |title=NRDC Action Fund Endorses 51 House, Senate Incumbents |url=https://www.nrdcactionfund.org/news/nrdc-action-fund-endorses-51-house-senate-incumbents/ |access-date=2023-09-20 |website=NRDC Action Fund |language=en-US |archive-date=September 20, 2023 |archive-url=https://web.archive.org/web/20230920211701/https://www.nrdcactionfund.org/news/nrdc-action-fund-endorses-51-house-senate-incumbents/ |url-status=live }}</ref>
+* [[NextGen America]] PAC<ref name=nextgen />
+* [[Peace Action]]<ref>{{Cite web |title=Meet Our 2024 Candidates |url=https://www.peaceaction.org/2024endorsements/ |access-date=2023-08-24 |website=Peace Action |language=en-EN |archive-date=July 14, 2023 |archive-url=https://web.archive.org/web/20230714142450/https://www.peaceaction.org/2024endorsements/ |url-status=live }}</ref>
+* [[Pennsylvania State Education Association]]<ref name="PSEA">{{cite web |title=PSEA recommends U.S. Sen. Bob Casey for reelection |url=https://www.psea.org/news--events/newsstand/press-center/news-release---january-18-2024/ |website=Pennsylvania State Education Association |access-date=2024-04-03 |date=2024-01-18}}</ref>
+* [[People for the American Way]]<ref>{{cite press release |title=People For Endorses Seven New and Incumbent Senate Candidates in "Defend the Senate" Campaign |url=https://www.peoplefor.org/people-american-way-endorses-seven-new-and-incumbent-senate-candidates-defend-senate-campaign |access-date=July 29, 2024 |work=People for the American Way |date=July 29, 2024}}</ref>
+* [[Swing Left]]<ref>{{Cite web |title=Make a high-impact donation—without all the usual drama. |url=https://swingleft.org/funds?funds_experiments=%257B%2522header-content%2522%253A%2522B%2522%252C%2522value-prop-graphic-placement%2522%253A%2522below%2522%257D |website=[[Swing Left]]}}</ref>
+
+'''Labor unions'''
+* [[Actors' Equity Association]]<ref>{{cite web |title=Actors' Equity Association Endorses Bob Casey for United States Senate |url=https://www.actorsequity.org/news/PR/BobCaseyEndorsement2024/ |website=www.actorsequity.org |publisher=Actors' Equity Association |access-date=2024-09-11 |date=2024-08-08 |archive-date=September 11, 2024 |archive-url=https://web.archive.org/web/20240911140212/https://www.actorsequity.org/news/PR/BobCaseyEndorsement2024/ |url-status=live }}</ref>
+* [[American Federation of State, County and Municipal Employees|AFSCME]] Council 13<ref name="AFSCME">{{cite web |last1=Kauffman |first1=William |title=PRESS RELEASE: AFSCME Council 13 members unanimously endorse Senator Bob Casey |url=https://www.afscme13.org/news/press-release-afscme-council-13-members-unanimously-endorse-senator-bob-casey/ |website=Council 13 AFSCME |access-date=2024-04-03 |date=2024-03-14}}</ref>
+* [[Association of Flight Attendants]]<ref name="adacwaendorse">{{Cite web |title=AFA Endorsed Candidates for 2024 Election |url=https://www.afacwa.org/afa_endorsed_candidates_for_2024_election |access-date=2024-04-29 |website=Association of Flight Attendants-CWA |language=en |archive-date=February 23, 2024 |archive-url=https://web.archive.org/web/20240223001726/https://www.afacwa.org/afa_endorsed_candidates_for_2024_election |url-status=live }}</ref>
+* [[National Education Association]]<ref name="NEAV">{{Cite web |title=Our Recommended Candidates |url=https://educationvotes.nea.org/our-recommended-candidates/ |access-date=2023-11-20 |website=Education Votes |language=en-US |archive-date=December 4, 2022 |archive-url=https://web.archive.org/web/20221204053302/https://educationvotes.nea.org/our-recommended-candidates/ |url-status=live }}</ref>
+* [[Pennsylvania AFL–CIO]]<ref>{{Cite web |last=Lyons |first=Kim |title=Casey picks up PA AFL-CIO endorsement |url=https://www.penncapital-star.com/blog/casey-picks-up-pa-afl-cio-endorsement/ |access-date=2023-12-14 |website=Pennsylvania Capital-Star |language=en-US}}</ref>
+* [[United Mine Workers of America]]<ref>{{Cite web |title=United Mine Workers endorses Casey for re-election in Pennsylvania |url=https://umwa.org/news-media/press/united-mine-workers-endorses-casey-for-re-election-in-pennsylvania/ |archive-url=https://web.archive.org/web/20230930181417/https://umwa.org/news-media/press/united-mine-workers-endorses-casey-for-re-election-in-pennsylvania/ |archive-date=2023-09-30 |access-date=2023-09-30 |website=UMWA}}</ref>
+* [[United Steelworkers]]<ref>{{Cite web |date=2023-09-20 |title=USW Endorses Bob Casey for Reelection to U.S. Senate |url=https://m.usw.org/news/media-center/releases/2023/usw-endorses-bob-casey-for-reelection-to-u-s-senate |archive-url=https://web.archive.org/web/20230920235128/https://m.usw.org/news/media-center/releases/2023/usw-endorses-bob-casey-for-reelection-to-u-s-senate |archive-date=2023-09-20 |access-date=2023-09-20 |website=United Steelworkers |language=en}}</ref>
+'''Newspapers'''
+* [[Philadelphia Gay News]]<ref>{{Cite web |last=Staff |first=P. G. N. |date=2024-04-10 |title=PGN Editorial Endorsements: Primary 2024 |url=https://epgn.com/2024/04/10/pgn-editorial-endorsements-primary-2024/ |access-date=2024-04-24 |website=Philadelphia Gay News |language=en-US}}</ref>
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of April 15, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Democratic}}|Bob Casey Jr. (D)
+|$23,790,263
+|$12,391,802
+|$11,886,480
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC" /></small>
+|}
+
+=== Results ===
+{{Election box begin no change|title=Democratic primary results<ref name="prim1">{{cite web|title=2024 Presidential Primary Official Results - United States Senator|url=https://www.electionreturns.pa.gov/_ENR/Home/OfficeResults?OfficeID=2&ElectionID=105&ElectionType=P&IsActive=0|publisher=Pennsylvania Department of State|access-date=May 4, 2024|archive-date=September 17, 2024|archive-url=https://web.archive.org/web/20240917033054/https://www.electionreturns.pa.gov/_ENR/Home/OfficeResults?OfficeID=2&ElectionID=105&ElectionType=P&IsActive=0|url-status=live}}</ref>}}
+{{Election box winning candidate with party link no change|party=Democratic Party (United States)|candidate=[[Bob Casey Jr.]] (incumbent)|votes=1,024,545|percentage=100.00%}}
+{{Election box total no change|votes=1,024,545|percentage=100.00%}}
+{{Election box end}}
+
+==Republican primary==
+===Candidates===
+====Nominee====
+* [[Dave McCormick]], former [[Under Secretary of the Treasury for International Affairs|U.S. Under Secretary of the Treasury for International Affairs]] (2007–2009), former CEO of [[Bridgewater Associates]] (2020–2022), and candidate for U.S. Senate in [[2022 United States Senate election in Pennsylvania|2022]]<ref>{{cite news |work=[[Fox News]] |access-date=September 21, 2023 |date=September 21, 2023 |url=https://www.foxnews.com/politics/republican-dave-mccormick-launches-bid-vulnerable-senate-seat-battleground-state |last=Steinhauser |first=Paul |title=Republican Dave McCormick launches bid for vulnerable Senate seat in battleground state |archive-date=September 21, 2023 |archive-url=https://web.archive.org/web/20230921224127/https://www.foxnews.com/politics/republican-dave-mccormick-launches-bid-vulnerable-senate-seat-battleground-state |url-status=live }}</ref>
+
+====Withdrawn====
+* Brandi Tomasetti, former [[Conestoga Township, Lancaster County, Pennsylvania|Conestoga Township]] treasurer and secretary ''(ran as a write-in candidate)''<ref>{{cite news |last1=Cole |first1=John |title=Three candidates for Pennsylvania's U.S. Senate seat remain on ballot following petition challenges |url=https://penncapital-star.com/election-2024/three-candidates-for-pennsylvanias-u-s-senate-seat-remain-on-ballot-following-petition-challenges/ |access-date=2024-03-09 |work=[[Pennsylvania Capital-Star]] |date=2024-03-08 |archive-date=March 9, 2024 |archive-url=https://web.archive.org/web/20240309150543/https://penncapital-star.com/election-2024/three-candidates-for-pennsylvanias-u-s-senate-seat-remain-on-ballot-following-petition-challenges/ |url-status=live }}</ref>
+
+====Disqualified====
+* Joseph Vodvarka, spring manufacturer and perennial candidate<ref>{{cite news |last1=Cole |first1=John |title=Casey vs McCormick general election matchup appears set after petition challenges |url=https://penncapital-star.com/campaigns-elections/casey-vs-mccormick-general-election-matchup-appears-set-after-petition-challenges/ |access-date=2024-03-12 |work=Pennsylvania-Capital Star |date=2024-03-11 |archive-date=March 12, 2024 |archive-url=https://web.archive.org/web/20240312154554/https://penncapital-star.com/campaigns-elections/casey-vs-mccormick-general-election-matchup-appears-set-after-petition-challenges/ |url-status=live }}</ref>
+
+====Declined====
+* [[Kathy Barnette]], political commentator, nominee for {{ushr|PA|4}} in [[2020 United States House of Representatives elections in Pennsylvania#District 4|2020]], and candidate for U.S. Senate in [[2022 United States Senate election in Pennsylvania|2022]]<ref>{{Cite web |last1=Lippman |first1=Daniel |last2=Otterbein |first2=Holly |date=March 15, 2023 |title=MAGA favorite Kathy Barnette says she won't run again for Senate |url=https://www.politico.com/news/2023/03/15/kathy-barnette-no-senate-run-00087179 |access-date=March 16, 2023 |website=[[POLITICO]] |language=en |archive-date=March 15, 2023 |archive-url=https://web.archive.org/web/20230315203734/https://www.politico.com/news/2023/03/15/kathy-barnette-no-senate-run-00087179 |url-status=live }}</ref>
+* [[Stacy Garrity]], [[Pennsylvania State Treasurer]] (2021–present)<ref name = liked>{{cite news |url=https://www.politico.com/news/2023/05/25/gop-worries-bob-casey-cycle-00098952 |date=2023-05-25 |title=A well-liked incumbent stands in the way of Republicans retaking the Pennsylvania Senate seat}}</ref> ''([[2024 Pennsylvania State Treasurer election|running for re-election]])''<ref>{{cite news |work=ABC News |access-date=September 23, 2023 |date=September 15, 2023 |last1=Cruz |first1=Abby |title=Republican who narrowly lost to Dr. Oz expected to run again for Senate |last2=McDuffie |first2=Will |url=https://abcnews.go.com/Politics/pennsylvanias-key-senate-race-dave-mccormick-urged-run/story?id=103196618 |archive-date=September 23, 2023 |archive-url=https://web.archive.org/web/20230923035257/https://abcnews.go.com/Politics/pennsylvanias-key-senate-race-dave-mccormick-urged-run/story?id=103196618 |url-status=live }}</ref>
+* [[Doug Mastriano]], [[Pennsylvania State Senate|state senator]] for [[Pennsylvania Senate, District 33|SD-33]] (2019–present) and nominee for [[Governor of Pennsylvania]] in [[2022 Pennsylvania gubernatorial election|2022]]<ref>{{cite news |url=https://thehill.com/homenews/senate/4021653-doug-mastriano-decides-against-launching-senate-bid/ |title=Doug Mastriano decides against launching Senate bid |first=Al |last=Weaver |work=[[The Hill (newspaper)|The Hill]] |date=May 25, 2023}}</ref> ''(endorsed McCormick)''<ref name=":0">{{Cite web |last1=Smith |first1=Allan |last2=Bowman |first2=Bridget |date=2023-09-21 |title=Republican Dave McCormick jumps into the critical Pennsylvania Senate race |url=https://www.nbcnews.com/politics/republican-dave-mccormick-pennsylvania-senate-race-bob-casey-rcna105832 |access-date=2023-09-22 |website=[[NBC News]] |language=en}}</ref>
+
+=== Endorsements ===
+{{Endorsements box
+|title = Dave McCormick
+|colwidth = 60
+|list =
+'''Executive Branch officials'''
+* [[George W. Bush]], 43rd [[President of the United States]] (2001–2009)<ref name="Bush">{{cite web |title=Dave McCormick April 2024 Event in Texas with George W. Bush |url=https://documented.net/swamp-dollars/dave-mccormick-april-2024-event-in-texas-with-george-w-bush/ |website=Documented |access-date=9 April 2024 |date=April 9, 2024 |archive-date=April 22, 2024 |archive-url=https://web.archive.org/web/20240422231031/https://documented.net/swamp-dollars/dave-mccormick-april-2024-event-in-texas-with-george-w-bush |url-status=live }}</ref>
+* [[Karl Rove]], former White House Deputy Chief of Staff for Policy (2005–2007)<ref name="Bush"/>
+* [[Donald Trump]], 45th [[President of the United States]] (2017–2021) and [[Donald Trump 2024 presidential campaign|Republican presidential candidate]]<ref>{{cite news |newspaper=[[The Washington Post]] |access-date=April 13, 2024 |url=https://www.washingtonpost.com/politics/2024/04/13/trump-mccormick-pennsylvania-senate/ |date=April 13, 2024 |last=LeVine |first=Marianne |title=Trump endorses a Pennsylvania U.S. Senate candidate he once condemned |archive-date=April 14, 2024 |archive-url=https://web.archive.org/web/20240414131029/https://www.washingtonpost.com/politics/2024/04/13/trump-mccormick-pennsylvania-senate/ |url-status=live }}</ref>
+
+'''Federal officials'''
+* [[John Bolton]], former [[United States National Security Advisor|National Security Advisor]] (2018–2019) and former [[United States Ambassador to the United Nations|Ambassador to the United Nations]] (2005–2006)<ref name="Bolton">{{cite web |title=Ambassador John Bolton Endorses Dave McCormick for Senate in Pennsylvania |url=https://www.boltonpac.com/2024/04/ambassador-john-bolton-endorses-dave-mccormick-for-senate-in-pennsylvania/ |website=John Bolton PAC |access-date=2024-04-03 |date=2024-04-03}}</ref>
+* [[Dina Powell]], former [[Deputy National Security Advisor]] for Strategy (2017–2018) ''(his wife)''<ref>{{Cite web |url=https://www.goerie.com/story/news/politics/elections/2023/09/21/who-is-david-mccormick-us-senate-candidate-pa/70843118007/ |title=Who is David McCormick? Here are 5 things to know about Bob Casey's possible GOP opponent |website=[[Erie Times-News]] |last=Siwy |first=Bruce |date=2023-09-21 |access-date=2023-10-01 |language=en-US |archive-date=October 2, 2023 |archive-url=https://web.archive.org/web/20231002113646/https://www.goerie.com/story/news/politics/elections/2023/09/21/who-is-david-mccormick-us-senate-candidate-pa/70843118007/ |url-status=live }}</ref>
+
+'''State cabinet officials'''
+* [[Robert Gleason (politician)|Robert Gleason]], former [[Pennsylvania Secretary of the Commonwealth]] (1985–1987)<ref name=usreps />
+
+'''U.S senators'''
+* [[Pat Toomey]], [[U.S. senator]] from [[Pennsylvania]] (2011–2023)<ref>{{Cite web |url=https://www.inquirer.com/politics/clout/dave-mccormick-senate-genos-steaks-pennsylvania-20240403.html |title=Steak in the race: Dave McCormick visits Geno's with former Sen. Pat Toomey |last1=Terruso |first1=Julia |access-date=2024-04-17 |date=2024-04-03 |language=en-US |website=[[The Philadelphia Inquirer]] |archive-date=April 7, 2024 |archive-url=https://web.archive.org/web/20240407133400/https://www.inquirer.com/politics/clout/dave-mccormick-senate-genos-steaks-pennsylvania-20240403.html |url-status=live }}</ref>
+* [[Rick Santorum]], [[U.S. senator]] from [[Pennsylvania]] (1995–2007)<ref>{{Cite web |url=https://www.citizensvoice.com/news/mccormick-allies-blast-casey-during-back-mountain-campaign-stop/article_50a88462-12a2-5932-95e8-8be4239ea021.html |title=McCormick, allies blast Casey during Back Mountain campaign stop |last1=Kalinowski |first1=Bob |access-date=April 17, 2024 |date=April 4, 2024 |language=en-US |website=[[The Citizens' Voice]] |archive-date=April 6, 2024 |archive-url=https://web.archive.org/web/20240406155644/https://www.citizensvoice.com/news/mccormick-allies-blast-casey-during-back-mountain-campaign-stop/article_50a88462-12a2-5932-95e8-8be4239ea021.html |url-status=live }}</ref>
+* [[Marsha Blackburn]], [[U.S. senator]] from [[Tennessee]] (2019–present)<ref>{{Cite web |url=https://www.legistorm.com/stormfeed/view_rss/2295103/member/129/title/senator-marsha-blackburn-endorses-dave-mccormick-for-senate.html |last=Newhouse |first=Savannah |date=September 27, 2023 |access-date=October 1, 2023 |language=en-US |website=[[LegiStorm]] |title=Senator Marsha Blackburn Endorses Dave McCormick for Senate}}</ref>
+* [[Steve Daines]], [[U.S. senator]] from [[Montana]] (2015–present)<ref>{{Cite web |last=Mutnick |first=Ally |date=2023-09-21 |title=This GOP hopeful got on Trump's bad side last year. Now he might decide control of the Senate. |url=https://www.politico.com/news/2023/09/21/mccormick-pennsylvania-senate-race-00117545 |archive-url=https://web.archive.org/web/20230922151645/https://www.politico.com/news/2023/09/21/mccormick-pennsylvania-senate-race-00117545 |archive-date=September 22, 2023 |access-date=September 22, 2023 |website=[[Politico]] |language=en}}</ref>
+* [[Mitch McConnell]], [[U.S. senator]] from [[Kentucky]] (1985–present) and [[Senate Minority Leader]] (2007–2015, 2021–2025)<ref>{{cite web |url=https://about.bgov.com/news/mccormicks-second-senate-try-hinges-on-fitting-a-changed-gop/ |title=McCormick's Second Senate Try Hinges on Fitting a Changed GOP |date=May 24, 2023 |last=Tamari |first=Jonathan |website=[[Bloomberg News|Bloomberg]] Government |access-date=October 1, 2023 |archive-date=October 26, 2023 |archive-url=https://web.archive.org/web/20231026084002/https://about.bgov.com/news/mccormicks-second-senate-try-hinges-on-fitting-a-changed-gop/ |url-status=live }}</ref>
+
+'''U.S. representatives'''
+* [[Brian Fitzpatrick (American politician)|Brian Fitzpatrick]], {{ushr|PA|1|PA-1}} (2017–present)<ref name=usreps>{{Cite web |url=https://www.post-gazette.com/news/politics-local/2023/09/28/rob-mercuri-chris-deluzio-john-fetterman-david-mccormick/stories/202309280098 |title=A top conservative group picked a candidate in the GOP primary to take on Chris Deluzio |last1=Salant |first1=Jonathan D. |last2=Kail |first2=Benjamin |access-date=October 1, 2023 |date=September 28, 2023 |language=en-US |website=[[Pittsburgh Post-Gazette]] |archive-date=October 2, 2023 |archive-url=https://web.archive.org/web/20231002092235/https://www.post-gazette.com/news/politics-local/2023/09/28/rob-mercuri-chris-deluzio-john-fetterman-david-mccormick/stories/202309280098 |url-status=live }}</ref>
+* [[Jim Jordan]], {{ushr|OH|4|OH-4}} (2007–present)<ref name="Jordan">{{cite web |last1=Eberwein |first1=Richard |title=David McCormick's campaign won't say if he would support Duckworth's bill to protect IVF |url=https://heartlandsignal.com/2024/03/07/david-mccormicks-campaign-wont-say-if-he-would-support-duckworths-bill-to-protect-ivf/ |website=Heartland Signal |access-date=2024-04-03 |date=2024-03-07 |archive-date=April 3, 2024 |archive-url=https://web.archive.org/web/20240403201006/https://heartlandsignal.com/2024/03/07/david-mccormicks-campaign-wont-say-if-he-would-support-duckworths-bill-to-protect-ivf/ |url-status=live }}</ref>
+* [[John Joyce (American politician)|John Joyce]], {{ushr|PA|13|PA-13}} (2019–present)<ref name=usreps />
+* [[Mike Kelly (Pennsylvania politician)|Mike Kelly]], {{ushr|PA|16|PA-16}} (2011–present)<ref name=usreps />
+* [[Dan Meuser]], {{ushr|PA|9|PA-9}} (2019–present)<ref name=usreps />
+* [[Scott Perry]], {{ushr|PA|10|PA-10}} (2013–present)<ref name=usreps />
+* [[Guy Reschenthaler]], {{ushr|PA|14|PA-14}} (2019–present)<ref name=usreps />
+* [[Lloyd Smucker]], {{ushr|PA|11|PA-11}} (2017–present)<ref name=usreps />
+* [[Glenn Thompson (politician)|Glenn Thompson]], {{ushr|PA|15|PA-15}} (2009–present)<ref name=usreps />
+
+'''State senators'''
+* [[Ryan Aument]], [[Pennsylvania State Senate|state senator]] for [[Pennsylvania Senate, District 36|SD-36]] (2015–2024)<ref>{{Cite web |url=https://lancasteronline.com/news/politics/state-sen-ryan-aument-would-endorse-dave-mccormick-s-u-s-senate-run/article_40f9124a-57d6-11ee-aa27-5f1635d35ba8.html |title=State Sen. Ryan Aument would endorse Dave McCormick's U.S. Senate run |website=[[LNP (newspaper)|LNP Lancaster Online]] |date=September 21, 2023 |last=White |first=Jaxon |access-date=October 1, 2023 |language=en-US}}</ref>
+* [[Doug Mastriano]], [[Pennsylvania State Senate|state senator]] for [[Pennsylvania Senate, District 33|SD-33]] (2019–present) and [[2022 Pennsylvania gubernatorial election|2022 GOP nominee for Governor]]<ref name=":0" />
+
+'''Local officials'''
+* Sam DeMarco, at-large [[Allegheny County]] councilor (2016–present) and chair of the Allegheny County Republican Party (2018–present)<ref name="blowback">{{Cite web |last=Levy |first=Marc |date=December 8, 2022 |title=Trump blowback could carry less bite in 2024 for some in GOP |url=https://apnews.com/article/2022-midterm-elections-politics-pennsylvania-donald-trump-china-government-61fbbac33ccd718005c472481ed4425c |access-date=January 19, 2023 |website=[[Associated Press]] |language=en |archive-date=January 29, 2023 |archive-url=https://web.archive.org/web/20230129181655/https://apnews.com/article/2022-midterm-elections-politics-pennsylvania-donald-trump-china-government-61fbbac33ccd718005c472481ed4425c |url-status=live }}</ref>
+
+'''Party officials'''
+* Andrew Reilly, [[Republican National Committee]]man from Pennsylvania (2020–present)<ref name=usreps />
+* [[Christine Toretti]], [[Republican National Committee]]woman from Pennsylvania (1997–2025)<ref name=usreps />
+
+'''Organizations'''
+* [[Americans for Prosperity]]<ref>{{Cite web |last=Seidel |first=Emily |date=July 19, 2023 |title=Americans for Prosperity Action Announces First Wave of Endorsements in 2024 U.S. Senate Races |url=https://afpaction.com/americans-for-prosperity-action-announces-first-wave-of-endorsements-in-2024-u-s-senate-races/ |access-date=July 19, 2023 |website=AFP Action |language=en-US |archive-date=February 24, 2024 |archive-url=https://web.archive.org/web/20240224102947/https://afpaction.com/americans-for-prosperity-action-announces-first-wave-of-endorsements-in-2024-u-s-senate-races/ |url-status=live }}</ref>
+* [[Conservative Political Action Conference]]<ref name="CPAC">{{Cite web |title=CPAC Endorses David McCormick for U.S. Senate in Pennsylvania |url=https://www.digital.cpac.org/us/statements/10-18-2023/cpac-endorses-david-mccormick-for-us-senate-in-pennsylvania |website=CPAC |access-date=October 18, 2023 |archive-date=October 18, 2023 |archive-url=https://web.archive.org/web/20231018231147/https://www.digital.cpac.org/us/statements/10-18-2023/cpac-endorses-david-mccormick-for-us-senate-in-pennsylvania |url-status=live }}</ref>
+* [[Log Cabin Republicans]]<ref name="LCR">{{cite web |title=2024 ENDORSED CANDIDATES |url=https://logcabin.org/2024-endorsed-candidates/ |website=Log Cabin Republicans |access-date=2024-04-03}}</ref>
+* Pennsylvania Federation and [[The Pennsylvania State University|Penn State]] [[College Republicans]]<ref>{{Cite web |url=https://twitter.com/PACRfederation/status/1708483056414151116?s=20 |title=PAFCR Endorses @DaveMcCormickPA in Crucial Race for United States Senate |website=[[Twitter]] |access-date=October 2, 2023 |date=October 1, 2023 |author=Pennsylvania Federation of College Republicans (@PACRFederation)}}</ref><ref>{{Cite web |url=https://twitter.com/PennStateGOP/status/1708497839117213852?s=20 |website=Twitter |access-date=October 1, 2023 |title=Penn State College Republicans Endorse Dave McCormick for United States Senate |date=October 1, 2023 |language=en-US |author=Penn State College Republicans (@PennStateGOP) |archive-date=October 25, 2023 |archive-url=https://web.archive.org/web/20231025193217/https://twitter.com/PennStateGOP/status/1708497839117213852?s=20 |url-status=live }}</ref>
+* [[Republican Jewish Coalition]]<ref>{{Cite web |title=RJC Endorses Pennsylvania US Senate Candidate Dave McCormick |url=https://www.rjchq.org/rjc_endorses_pennsylvania_us_senate_candidate_dave_mccormick |access-date=2024-02-16 |website=Republican Jewish Coalition |language=en |archive-date=February 16, 2024 |archive-url=https://web.archive.org/web/20240216161724/https://www.rjchq.org/rjc_endorses_pennsylvania_us_senate_candidate_dave_mccormick |url-status=live }}</ref>
+'''Political parties '''
+* [[Pennsylvania Republican Party]]<ref>{{Cite web |last=Mastrull |first=Diane |date=2023-09-30 |title=David McCormick secures Pa. GOP endorsement in his Senate run |url=https://www.inquirer.com/politics/pennsylvania/david-mccormick-pa-republicans-endorsement-senate-election-20230930.html |access-date=2023-09-30 |website=[[The Philadelphia Inquirer]] |language=en}}</ref>
+'''Individuals '''
+* [[Kenneth C. Griffin]], businessman<ref name=fundraiser>{{Cite web |url=https://www.bloomberg.com/news/articles/2023-12-14/griffin-schwab-to-host-fundraiser-for-mccormick-senate-bid |title=Ken Griffin, Charles Schwab to Host Fundraiser for David McCormick's Senate Bid |last1=Lai |first1= Stephanie |access-date=April 17, 2024 |date=December 14, 2023 |language=en-US |website=[[Bloomberg News|Bloomberg]]}}</ref>
+* [[Paul Tudor Jones]], philanthropist<ref name = fundraiser/>
+* [[Matt Schlapp]], chair of the [[American Conservative Union]] (2014–present)<ref name="CPAC" />
+* [[Charles R. Schwab]], investor<ref name = fundraiser/>
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of April 15, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}| Dave McCormick (R)
+|$11,052,879
+|$4,660,701
+|$6,399,998
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC" /></small>
+|}
+
+===Polling===
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />of error
+! style="width:70px;"| Kathy<br />Barnette
+! style="width:70px;"| Doug<br />Mastriano
+! style="width:70px;"| David<br />McCormick
+! Undecided
+|-
+|style="text-align:left;" rowspan="2"|[[Public Policy Polling]] (D)<ref>[https://www.publicpolicypolling.com/wp-content/uploads/2023/03/PennsylvaniaRepublicanPoll31323.pdf Public Policy Polling (D)]</ref>
+|rowspan="2"|March 9–10, 2023
+|rowspan="2"|616 (LV)
+|–
+|11%
+|{{party shading/Republican}}|'''39%'''
+|21%
+|29%
+|-
+|–
+|–
+|{{party shading/Republican}}|'''42%'''
+|28%
+|29%
+|-
+|}
+{{hidden end}}
+
+=== Results ===
+{{Election box begin no change|title=Republican primary results<ref name="prim1"/>}}
+{{Election box winning candidate with party link no change|party=Republican Party (United States)|candidate=[[Dave McCormick]]|votes=878,320|percentage=100.00%}}
+{{Election box total no change|votes=878,320|percentage=100.00%}}
+{{Election box end}}
+
+==Third parties==
+===Libertarian convention===
+====Nominee====
+* John Thomas, educator<ref name=jthomas>{{Cite news |first1=Jacob |last1=Deemer |title=Armstrong County Man Launches U.S. Senate Campaign |url=https://www.exploreclarion.com/politics/2024/04/11/armstrong-county-man-launches-u-s-senate-campaign-813167/ |access-date=April 14, 2024 |publisher=exploreClarion |date=April 11, 2024 |archive-date=April 12, 2024 |archive-url=https://web.archive.org/web/20240412132454/https://www.exploreclarion.com/politics/2024/04/11/armstrong-county-man-launches-u-s-senate-campaign-813167/ |url-status=live }}</ref>
+
+====Eliminated at convention====
+* Erik Gerhardt, carpenter, nominee for U.S. Senate in [[2022 United States Senate election in Pennsylvania|2022]], and candidate for president in [[2020 Libertarian Party presidential primaries|2020]]<ref name=LPPA>{{Cite web |title=Nominations for Statewide Offices |url=https://www.facebook.com/LibertarianPartyOfPennsylvania/videos/1397538487625282 |access-date=April 14, 2024 |publisher=[[Libertarian Party of Pennsylvania]] |date=March 2, 2024}}</ref>
+
+===Green Party===
+====Nominee====
+* Leila Hazou, shop owner<ref name=3p />
+
+===Constitution Party===
+====Nominee====
+* Bernard Selker, truck driver<ref name=3p>{{cite news |title=Third-party candidates file to run for president, US Senate in Pennsylvania |url=https://www.pennlive.com/politics/2024/08/third-party-candidates-file-to-run-for-president-us-senate-in-pennsylvania.html |access-date=2024-08-02 |work=PennLIVE Patriot-News |agency=The Associated Press |date=2024-08-01 |archive-date=August 2, 2024 |archive-url=https://web.archive.org/web/20240802130106/https://www.pennlive.com/politics/2024/08/third-party-candidates-file-to-run-for-president-us-senate-in-pennsylvania.html |url-status=live }}</ref>
+
+===American Solidarity Party===
+====Disqualified====
+* Erik Messina<ref>{{Cite web |title=PA Voter Services |url=https://www.pavoterservices.pa.gov/ElectionInfo/CandidateInfo.aspx?ID=22264 |access-date=2024-08-02 |website=www.pavoterservices.pa.gov |archive-date=August 2, 2024 |archive-url=https://web.archive.org/web/20240802165845/https://www.pavoterservices.pa.gov/ElectionInfo/CandidateInfo.aspx?ID=22264 |url-status=live }}</ref>
+
+== General election ==
+===Predictions===
+{| class="wikitable" style="text-align:center"
+!Source
+!Ranking
+!As of
+|-
+| align=left | ''[[The Cook Political Report]]''<ref>{{Cite web |title=2024 Senate Race ratings |url=https://www.cookpolitical.com/ratings/senate-race-ratings |access-date=January 25, 2023 |website=Cook Political Report |language=en |archive-date=November 30, 2018 |archive-url=https://web.archive.org/web/20181130110636/https://www.cookpolitical.com/ratings/senate-race-ratings |url-status=live }}</ref>
+| {{USRaceRating|Tossup}}
+|October 21, 2024
+|-
+| align=left | ''[[Inside Elections]]''<ref name="Inside Elections">{{cite web |date=January 6, 2023 |access-date=January 10, 2023 |title=Senate Ratings |url=https://www.insideelections.com/ratings/senate |publisher=[[Inside Elections]] |archive-date=January 20, 2021 |archive-url=https://web.archive.org/web/20210120132206/http://www.insideelections.com/ratings |url-status=live }}</ref>
+| {{USRaceRating|Tilt|D}}
+|November 9, 2023
+|-
+| align=left | ''[[Sabato's Crystal Ball]]''<ref name="Sabato's Crystal Ball">{{cite web |date=January 24, 2023 |access-date=February 13, 2023 |title=2024 Senate |url=https://centerforpolitics.org/crystalball/2024-senate/ |publisher=[[Sabato's Crystal Ball]] |archive-date=January 26, 2023 |archive-url=https://web.archive.org/web/20230126173101/https://centerforpolitics.org/crystalball/2024-senate/ |url-status=live }}</ref>
+| {{USRaceRating|Lean|D}}
+|June 13, 2024
+|-
+| align=left | [[Decision Desk HQ]]/''[[The Hill (newspaper)|The Hill]]''<ref>{{Cite web |url=https://elections2024.thehill.com/predictions/senate/ |title=2024 Senate prediction map |date=June 8, 2024 |website=elections2024.thehill.com/ |publisher=[[The Hill (newspaper)|The Hill]] |access-date=June 8, 2024 |archive-date=March 12, 2024 |archive-url=https://web.archive.org/web/20240312062321/https://elections2024.thehill.com/predictions/senate/ |url-status=live }}</ref>
+| {{USRaceRating|Tossup}}
+|June 8, 2024
+|-
+| align=left | [[Elections Daily]]<ref>{{Cite web |date=2023-08-01 |title=Election Ratings |url=https://elections-daily.com/election-ratings/ |access-date=2023-08-02 |website=Elections Daily |language=en-US |archive-date=November 3, 2023 |archive-url=https://web.archive.org/web/20231103130721/https://elections-daily.com/election-ratings/ |url-status=live }}</ref>
+| {{USRaceRating|Lean|D}}
+|October 24, 2024
+|-
+| align=left | ''[[CNalysis]]''<ref>{{Cite web |title='24 Senate Forecast |url=https://projects.cnalysis.com/23-24/senate |access-date=2023-11-21 |website=CNalysis |language=en-US |archive-date=March 2, 2024 |archive-url=https://web.archive.org/web/20240302125237/https://projects.cnalysis.com/23-24/senate |url-status=live }}</ref>
+| {{USRaceRating|Lean|D}}
+|November 21, 2023
+|-
+| align=left | [[RealClearPolitics]]<ref>{{Cite web |title=Battle for the Senate 2024 |url=https://www.realclearpolling.com/maps/senate/2024/toss-up |access-date=2024-08-05 |website=[[RealClearPolitics]] |language=en-US |archive-date=August 13, 2024 |archive-url=https://web.archive.org/web/20240813110814/https://www.realclearpolling.com/maps/senate/2024/toss-up |url-status=live }}</ref>
+| {{USRaceRating|Tossup}}
+|August 5, 2024
+|-
+| align="left" | [[Split Ticket (website)|Split Ticket]]<ref>{{cite web |title=2024 Senate Forecast |url=https://split-ticket.org/senate-2024-ratings/ |website=Split Ticket |date=2023-05-25 |access-date=2024-10-23 |archive-date=October 9, 2024 |archive-url=https://web.archive.org/web/20241009113240/https://split-ticket.org/senate-2024-ratings/ |url-status=live }}</ref>
+| {{USRaceRating|Lean|D|}}
+|October 23, 2024
+|-
+| align="left" | ''[[FiveThirtyEight|538]]''<ref>{{cite web |title=2024 Election Forecast |url=https://projects.fivethirtyeight.com/2024-election-forecast/senate/ |website=FiveThirtyEight |date=2024-06-11 |access-date=2024-10-23 |archive-date=November 3, 2024 |archive-url=https://web.archive.org/web/20241103203854/https://projects.fivethirtyeight.com/2024-election-forecast/senate/ |url-status=dead }}</ref>
+| {{USRaceRating|Lean|D|}}
+|October 28, 2024
+|}
+
+===Post-primary endorsements===
+{{Endorsements box
+| title = Bob Casey Jr. (D)
+| list =
+'''Executive branch officials'''
+* [[Joe Biden]], 46th [[President of the United States]] (2021–2025), 47th [[Vice President of the United States]] (2009–2017)<ref>{{cite news | title=Biden to campaign with Sen. Bob Casey in Philadelphia area Tuesday night | url=https://www.cbsnews.com/philadelphia/news/joe-biden-bob-casey-campaign-montgomery-county-pennsylvania/ | work=[[CBS News]] | date=October 8, 2024 | last=Fay | first=Laura | access-date=October 9, 2024 | archive-date=October 9, 2024 | archive-url=https://web.archive.org/web/20241009020000/https://www.cbsnews.com/philadelphia/news/joe-biden-bob-casey-campaign-montgomery-county-pennsylvania/ | url-status=live }}</ref>
+* [[Kamala Harris]], 49th [[Vice President of the United States]] (2021–2025)<ref>{{cite web |title=Remarks by Vice President Harris at a Campaign Event |url=https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2024/09/13/remarks-by-vice-president-harris-at-a-campaign-event-wilkes-barre-pa/ |publisher=The White House |date=2024-09-14 |access-date=2024-10-09 |archive-date=October 8, 2024 |archive-url=https://web.archive.org/web/20241008140906/https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/09/13/remarks-by-vice-president-harris-at-a-campaign-event-wilkes-barre-pa/ |url-status=live }}</ref>
+* [[Barack Obama]], 44th President of the United States (2009–2017)<ref>{{cite web |last1=Colson-Price |first1=Patrick |title=Former president Obama campaigns for Kamala Harris, Tim Walz, Sen. Bob Casey in Pittsburgh |url=https://www.usatoday.com/videos/news/politics/elections/2024/10/10/barack-obama-campaigns-for-harris-walz-in-pennsylvania/75620141007/ |website=[[USA Today]] |access-date=October 15, 2024 |date=October 10, 2024}}</ref>
+}}
+{{Endorsements box
+|title = Dave McCormick (R)
+|list =
+'''Former U.S. executive officials'''
+* [[Nikki Haley]], [[List of ambassadors of the United States to the United Nations|United States Ambassador to the United Nations]] (2017–2018) and [[Governor of South Carolina]] (2011–2017)<ref>{{cite news |last= Suter |first=Tara |title=Nikki Haley tells Pennsylvania voters: 'Take the emotion out' of vote |url=https://thehill.com/homenews/campaign/4963720-nikki-haley-emotion-voters-pennsylvania/ |access-date=November 3, 2024 |work=[[The Hill (newspaper)|The Hill]] |date=October 31, 2024 |language=en}}</ref>
+'''U.S. Senators'''
+* [[John Thune]], [[Senate Minority Whip]] (2021–2025) from [[South Dakota]] (2005–present)<ref>{{cite news |last= Mutnick |first=Ally |title=John Thune doles out the money as he runs for Senate GOP leader |url=https://www.politico.com/live-updates/2024/10/15/2024-elections-live-coverage-updates-analysis/john-thune-super-pac-donations-00183824 |access-date=October 17, 2024 |work=[[Politico]] |date=October 15, 2024 |language=en}}</ref>
+'''Individuals '''
+* [[Elon Musk]], CEO of [[Tesla, Inc.|Tesla]] and [[SpaceX]]<ref>{{Cite web|url=https://penncapital-star.com/election-2024/mccormick-joins-musk-at-pittsburgh-area-town-hall/|title=McCormick joins Musk at Pittsburgh-area town hall|first=Jason|last=Phox|website=[[Pennsylvania Capital-Star]]|access-date=October 21, 2024|date=October 20, 2024}}</ref>
+*[[Ben Shapiro]], editor emeritus of ''[[The Daily Wire]]''<ref>{{cite web|url=https://www.politico.com/news/2024/09/02/ben-shapiro-gop-fundraiser-00176942?nid=0000014f-1646-d88f-a1cf-5f46b7bd0000&nlid=630318&nname=playbook&nrid=0000014e-f0f2-dd93-ad7f-f8f7d7c80003|title=Ben Shapiro loves trolling liberals. Republicans are putting that to use.|last=Isenstadt|first=Alex|date=September 2, 2024|access-date=November 9, 2025|website=[[Politico]]}}</ref>
+}}
+{{Endorsements box
+|title = John Thomas (L)
+|list =
+'''Individuals '''
+* Ben Zeisloft, Christian conservative commentator for ''[[The Daily Wire]]''<ref>{{Cite tweet |user=BenZeisloft |number= 1853429705161969851 |title= I am an evangelical voter in Pennsylvania. Donald Trump could have had my vote had he not started to support most kinds of abortion and vowed to fund IVF with my tax dollars. I am casting my vote for @DustyDeevers as President and for @BradleyWPierce as Vice President. I know that both men fear the Lord and would establish justice if they were elected. I voted for some Republicans in state and local races, some third-party candidates like @JohnThomasPA who have vowed to protect the preborn, and wrote in qualified Christian men when there were no other options. None of this was necessary. I would have voted for Donald Trump or any other Republican candidate who vowed to protect the preborn and end mass child sacrifice in our nation. If the Republican Party wants evangelical votes, they cannot shirk evangelical policy priorities, and most importantly they cannot shirk their duty to obey and honor the Triune God and govern in their offices with justice and righteousness. I will not reward betrayal with my vote.}}</ref>
+* Bill Cox, Pennsylvania state director for [[Robert F. Kennedy Jr.]]'s [[Robert F. Kennedy Jr. 2024 presidential campaign|presidential campaign]]<ref>{{cite web |title= Libertarian US Senate candidate receives crucial endorsement |url= https://www.leadertimes.com/news/release-libertarian-us-senate-candidate-receives-crucial-endorsement/article_06028d9c-7b75-11ef-98d6-573ec1700467.html |access-date= October 10, 2024 |website=[[Leader Times]] |date= October 3, 2024}}</ref>
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of October 16, 2024
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Democratic}}|Bob Casey (D)
+|$52,879,737
+|$50,545,793
+|$2,821,961
+|-
+|{{party shading/Republican}}|Dave McCormick (R)
+|$27,698,652{{efn|$4,263,800 of this total was self-funded by McCormick}}
+|$26,030,736
+|$1,675,736
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC">{{cite web |title=2024 Election United States Senate - Pennsylvania |url=https://www.fec.gov/data/elections/senate/PA/2024/ |website=fec.gov |publisher=[[Federal Election Commission]] |access-date=July 19, 2024 |archive-date=July 18, 2024 |archive-url=https://web.archive.org/web/20240718172741/https://www.fec.gov/data/elections/senate/PA/2024/ |url-status=live }}</ref></small>
+|}
+
+===Debates===
+{| class="wikitable" style="text-align:center;"
+|+ 2024 Pennsylvania U.S. Senate election debates
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col"| <small>[[Democratic Party (US)|Democratic]]</small>
+! scope="col"| <small>[[Republican Party (US)|Republican]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br />{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small>
+! scope="col" style="background:{{party color|Democratic Party (US)}}"|
+! scope="col" style="background:{{party color|Republican Party (US)}}"|
+|-
+! scope="col" | Casey
+! scope="col" | McCormick
+|-
+!1
+| style="white-space:nowrap;" | October 3, 2024
+| style="white-space:nowrap;" | [[WHTM-TV]]
+| style="white-space:nowrap;" | Dennis Owens
+| style="white-space:nowrap;" | [https://www.youtube.com/watch?v=KriHWsJV5AU YouTube]
+| {{Yes|'''P'''}}
+| {{Yes|'''P'''}}
+|-
+!2
+| style="white-space:nowrap;" | October 15, 2024
+| style="white-space:nowrap;" | [[WPVI-TV]]
+| style="white-space:nowrap;" | <small>Matt O'Donnell, Sharrie Williams, Ilia Garcia</small>
+| style="white-space:nowrap;" | [https://www.c-span.org/video/?539016-1/pennsylvania-us-senate-debate C-SPAN]
+| {{Yes|'''P'''}}
+| {{Yes|'''P'''}}
+|}
+
+===Polling===
+'''Aggregate polls'''<br />
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll<br />aggregation
+!Dates<br />administered
+!Dates<br />updated
+! style="width:100px;"| Bob<br />Casey Jr. (D)
+! style="width:100px;"| Dave<br />McCormick (R)
+! Undecided<br />{{Efn|Calculated by taking the difference of 100% and all other candidates combined.|name=|group=}}
+!Margin
+|-
+|[[FiveThirtyEight|538]]<ref>{{#invoke:cite|web|url=https://projects.fivethirtyeight.com/polls/senate/2024/pennsylvania/general|title=Who's ahead in the Pennsylvania Senate general election?|website=FiveThirtyEight|access-date=January 23, 2025}}</ref>
+|through November 4, 2024
+|November 4, 2024
+|{{party shading/Democratic}}|'''48.2%'''
+|45.4%
+|6.4%
+|{{party shading/Democratic}}|'''Casey +2.8%'''
+|-
+|[[RealClearPolitics]]<ref>{{#invoke:cite|web|url=https://www.realclearpolling.com/polls/senate/general/2024/pennsylvania/mccormick-vs-casey|title=2024 Pennsylvania Senate - McCormick vs. Casey|website=RealClearPolling|access-date=January 23, 2025}}</ref>
+|October 21 – November 4, 2024
+|November 4, 2024
+|{{party shading/Democratic}}|'''48.1%'''
+|46.3%
+|5.6%
+|{{party shading/Democratic}}|'''Casey +1.8%'''
+|-
+|[[270toWin]]<ref>{{#invoke:cite|web|url=https://www.270towin.com/2024-senate-polls/pennsylvania|title=2024 Polls: Pennsylvania Senate|website=270toWin|access-date=January 23, 2025}}</ref>
+|October 24 – November 4, 2024
+|November 4, 2024
+|{{party shading/Democratic}}|'''48.4%'''
+|45.9%
+|5.7%
+|{{party shading/Democratic}}|'''Casey +2.5%'''
+|-
+|[[TheHill]]/[[DDHQ]]<ref>{{#invoke:cite|web|url=https://elections2024.thehill.com/pennsylvania/pennsylvania-senate-mccormick-casey/|title=Pennsylvania Senate polls, McCormick vs. Casey|website=The Hill|access-date=January 23, 2025}}</ref>
+|through November 4, 2024
+|November 4, 2024
+|{{party shading/Democratic}}|'''48.6%'''
+|46.6%
+|4.8%
+|{{party shading/Democratic}}|'''Casey +2.0%'''
+|-
+| colspan="3" |'''Average'''
+|{{party shading/Democratic}}|'''48.3%'''
+|46.1%
+|5.6%
+|{{party shading/Democratic}}|'''Casey +2.2%'''
+|}
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Bob<br />Casey Jr. (D)
+! style="width:100px;"| Dave<br />McCormick (R)
+! Other
+! Undecided
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/616d82d3-e782-4d6e-b690-9eed1523fe75.pdf#page=148|title=Atlas Poll - US Key States - November 4, 2024|website=AtlasIntel|date=November 4, 2024}}</ref>
+|November 3–4, 2024
+|1,840 (LV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''49%'''
+|47%
+|2%
+|2%
+|-
+|style="text-align:left;"|Survation<ref>{{#invoke:cite|web|url=https://www.survation.com/harris-narrowly-ahead-in-pennsylvania/|title=Harris Narrowly Ahead in Pennsylvania. Early Vote Dynamics Help At the Margin|first1=Jack|last1=Peacock|first2=Damian|last2=Lowe|website=Survation|date=November 4, 2024}}</ref>
+|November 1–4, 2024
+|929 (LV)
+|–
+|{{party shading/Democratic}}|'''49%'''
+|42%
+|3%{{efn|Thomas (L) and Hazou (G) with 1%; "Refused" with 1%}}
+|6%
+|-
+|style="text-align:left;"|Research Co.<ref>{{#invoke:cite|web|url=https://researchco.ca/wp-content/uploads/2024/11/Tables_USStates_04Nov2024.pdf#page=9|title=Polls conducted by Research Co. in the United States - November 4, 2024|website=Research Co.|date=November 4, 2024}}</ref>
+|November 2–3, 2024
+|450 (LV)
+|±&nbsp;4.6%
+|{{party shading/Democratic}}|'''48%'''
+|46%
+|2%{{efn|"Some other candidate" with 2%}}
+|4%
+|-
+|style="text-align:left;"|Patriot Polling (R)<ref>{{#invoke:cite|web|url=https://patriotpolling.com/our-polls/f/final-2024-presidential-poll|title=Final 2024 Presidential Poll|first=Lucca|last=Ruggieri|website=Patriot Polling|date=November 3, 2024}}</ref>
+|November 1–3, 2024
+|903 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''50%'''
+|49%
+|–
+|–
+|-
+|style="text-align:left;"|[[The Trafalgar Group]] (R)<ref>{{#invoke:cite|web|url=https://www.thetrafalgargroup.org/wp-content/uploads/2024/11/PA-24-General-1103-Poll-Report.pdf|title=Pennsylvania General Presidential Survey - November 2024|website=The Trafalgar Group|date=November 3, 2024}}</ref>
+|November 1–3, 2024
+|1,089 (LV)
+|±&nbsp;2.9%
+|46%
+|{{party shading/Republican}}|'''47%'''
+|–
+|7%
+|-
+|style="text-align:left;"|InsiderAdvantage (R)<ref>{{#invoke:cite|web|url=https://insideradvantage.com/insideradvantage-surveys-az-mi-wi-pa-nc/|title=InsiderAdvantage Surveys: AZ, MI, WI, PA, NC|website=InsiderAdvantage|date=November 3, 2024}}</ref>
+|November 1–2, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''48%'''
+|47%
+|2%
+|3%
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/f41e83be-de61-4d59-9c46-f5f91cbf00fa.pdf#page=99|title=Atlas Poll - US Swing States - November 2, 2024|website=AtlasIntel|date=November 2, 2024}}</ref>
+|November 1–2, 2024
+|2,049 (LV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''49%'''
+|47%
+|3%{{Efn|name=AtI3}}
+|2%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/november-2024-final-swing-state-polls-too-close-to-call-election-for-president/|title=November 2024 Final Swing State Polls: Too-Close-To-Call Election for President|website=Emerson College Polling|date=November 4, 2024}}</ref>{{Efn-ua|name=Hill}}
+|October 30 – November 2, 2024
+|1,000 (LV)
+|±&nbsp;3.0%
+|'''47%'''
+|'''47%'''
+|–
+|6%
+|-
+|style="text-align:left;" rowspan="2"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|news|url=https://www.nytimes.com/interactive/2024/11/03/us/elections/times-siena-pennsylvania-poll-crosstabs.html|title=Toplines: October 2024 Times/Inquirer/Siena Poll of Registered Voters in Pennsylvania|website=The New York Times|date=November 3, 2024}}</ref>{{efn-ua|name=PI|}}
+|rowspan="2"|October 29 – November 2, 2024
+|1,527 (LV)
+|±&nbsp;2.9%
+|{{party shading/Democratic}}|'''50%'''
+|45%
+|–
+|4%
+|-
+|1,527 (RV)
+|±&nbsp;2.8%
+|{{party shading/Democratic}}|'''50%'''
+|45%
+|–
+|6%
+|-
+|style="text-align:left;" rowspan="2"|[[Mainstreet Research]]/[[Florida Atlantic University|FAU]]<ref>{{#invoke:cite|web|url=https://www.faupolling.com/wp-content/uploads/2024/11/Mainstreet_PA_Oct_2024_Public.pdf|title=Mainstreet Research Survey - Pennsylvania|website=FAU Polling|date=November 4, 2024}}</ref>
+|rowspan="2"|October 25 – November 2, 2024
+|699 (LV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''49%'''
+|44%
+|1%{{efn|"Another candidate" with 1%}}
+|6%
+|-
+|726 (RV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''48%'''
+|43%
+|2%{{efn|"Another candidate" with 2%}}
+|7%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult">{{#invoke:cite|web|url=https://pro.morningconsult.com/trackers/2024-election-state-polls|title=Tracking the 2024 Election: State by State|first1=Cameron|last1=Easley|first2=Eli|last2=Yokley|website=Morning Consult|date=September 9, 2024}}</ref>
+|October 23 – November 1, 2024
+|1,538 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''46%'''
+|43%
+|–
+|11%
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/ff8a5b86-e293-44f4-8162-166002248f55.pdf|title=Atlas Poll - US Swing States - October 31, 2024|website=AtlasIntel|date=October 31, 2024}}</ref>
+| data-sort-value="2024-10-29" |October 30–31, 2024
+|1,738 (LV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''49%'''
+|46%
+|3%{{Efn|name=AtI3|"Other" with 2%; "Blank/Null/Won't vote" with 1%}}
+|2%
+|-
+|style="text-align:left;"|OnMessage (R)<ref>{{#invoke:cite|news|url=https://x.com/NYCSamKay/status/1852415641007075796|title=OnMessage Senate Polling|website=X|date=November 1, 2024}}</ref>
+|October 29–31, 2024
+|800 (LV)
+|–
+|'''46%'''
+|'''46%'''
+|–
+|8%
+|-
+|style="text-align:left;"|[[Data for Progress]] (D)<ref>{{#invoke:cite|web|url=https://www.dataforprogress.org/blog/2024/11/1/final-data-for-progress-swing-state-polls|title=Final Data for Progress Swing State Polls Show Harris and Trump in Close Race: Harris Ahead by 2 in PA and NV, 1 in GA; Trump Up by 1 in AZ|website=Data for Progress|date=November 1, 2024}}</ref>
+|October 25–31, 2024
+|908 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|45%
+|2%{{efn|name=SU1}}
+|4%
+|-
+|style="text-align:left;" rowspan="2"|[[YouGov]]<ref>{{#invoke:cite|web|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/Times_SAY24_20241101.pdf#page=332|title=The Times / SAY Poll: October 25-31, 2024|website=YouGov|date=November 1, 2024}}</ref>{{efn-ua|name=times}}
+|rowspan="2"|October 25–31, 2024
+|947 (LV)
+|rowspan="2"|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''50%'''
+|44%
+|–
+|6%
+|-
+|982 (RV)
+|{{party shading/Democratic}}|'''50%'''
+|43%
+|–
+|6%
+|-
+|style="text-align:left;"|ActiVote<ref>{{#invoke:cite|web|url=https://www.activote.net/mccormick-closing-in-on-casey-in-pennsylvania/|title=McCormick Closing in on Casey in Pennsylvania|first=Victor|last=Allis|website=ActiVote|date=November 1, 2024}}</ref>
+|October 14–31, 2024
+|400 (LV)
+|±&nbsp;4.9%
+|{{party shading/Democratic}}|'''50.5%'''
+|49.5%
+|–
+|–
+|-
+|style="text-align:left;"|[[Muhlenberg College]]<ref>{{#invoke:cite|web|url=https://www.muhlenberg.edu/media/contentassets/pdf/about/polling/PA_Elec_Oct24_Report_Final.pdf|title=Muhlenberg College/Morning Call Pennsylvania Presidential Election Survey - October 2024|website=Muhlenberg College|date=November 3, 2024}}</ref>{{Efn-ua|name=MCall}}
+|October 27–30, 2024
+|460 (LV)
+|±&nbsp;6.0%
+|{{party shading/Democratic}}|'''49%'''
+|46%
+|3%
+|1%
+|-
+|style="text-align:left;"|[[Suffolk University Political Research Center|Suffolk University]]<ref>{{#invoke:cite|web|url=https://www.usatoday.com/story/news/politics/elections/2024/11/01/pennsylvania-poll-harris-trump/75939000007/|title=Exclusive poll: Harris, Trump tied in Pennsylvania as election day approaches|first1=Cybele|last1=Mayes-Osterman|first2=Karissa|last2=Waddick|website=USA Today|date=November 1, 2024}}</ref>{{efn-ua|name=USA}}
+|October 27–30, 2024
+|500 (LV)
+|±&nbsp;4.4%
+|{{party shading/Democratic}}|'''49%'''
+|46%
+|2%{{Efn|name=SU1|Thomas (L) and Hazou (G) with 1%}}
+|2%
+|-
+|style="text-align:left;" rowspan="2"|[[Marist Poll|Marist College]]<ref>{{#invoke:cite|web|url=https://maristpoll.marist.edu/polls/marist-pennsylvania-poll-u-s-presidential-contest-in-pennsylvania-november-2024/|title=Marist Pennsylvania Poll: U.S. Presidential Contest in Pennsylvania, November 2024|website=Marist Poll|date=November 1, 2024}}</ref>
+|rowspan="2"|October 27–30, 2024
+|1,400 (LV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''50%'''
+|48%
+|1%{{efn|name=MP1|"Another party's candidate" with 1%}}
+|1%
+|-
+|1,558 (RV)
+|±&nbsp;3.2%
+|{{party shading/Democratic}}|'''50%'''
+|48%
+|1%{{efn|name=MP1}}
+|1%
+|-
+|style="text-align:left;"|Echelon Insights<ref>{{#invoke:cite|web|url=https://echeloninsights.com/in-the-news/oct2024-pa-poll/|title=Trump leads Harris by a five-point margin in Pennsylvania — 51-46 Topline|website=Echelon Insights|date=October 31, 2024}}</ref>
+|October 27–30, 2024
+|600 (LV)
+|±&nbsp;4.5%
+|44%
+|{{party shading/Republican}}|'''47%'''
+|3%{{Efn|Hazou (G) with 2%; Thomas (L) with 1%}}
+|5%
+|-
+|style="text-align:left;"rowspan="2"|[[The Washington Post]]<ref>{{#invoke:cite|news|url=https://www.washingtonpost.com/politics/2024/11/01/harris-trump-pennsylvania-post-poll/|title=Harris and Trump nearly even in Pennsylvania in campaign's final days, Post poll finds|first1=Scott|last1=Clement|first2=Emily|last2=Guskin|first3=Dan|last3=Balz|newspaper=The Washington Post|date=November 1, 2024}}</ref>
+|rowspan="2"|October 26–30, 2024
+|1,204 (LV)
+|rowspan="2"|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''49%'''
+|46%
+|2%{{Efn|"Someone else" with 1%; "Would not vote" with 1%}}
+|3%
+|-
+|1,204 (RV)
+|{{party shading/Democratic}}|'''49%'''
+|45%
+|3%{{Efn|"Someone else" with 1%; "Would not vote" with 2%}}
+|3%
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/12bd169b-6db5-44be-9429-90f44ba0d845.pdf|title=Atlas Poll - US Swing States - October 29, 2024|website=AtlasIntel|date=October 29, 2024}}</ref>
+|October 25–29, 2024
+|1,229 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|47%
+|3%{{Efn|name=AtI3}}
+|2%
+|-
+|style="text-align:left;" rowspan="2"|[[Fox News]]<ref>{{#invoke:cite|web|url=https://static.foxnews.com/foxnews.com/content/uploads/2024/10/fox_october-24-28-2024_pennsylvania_topline_october-30-release.pdf|title=Pennsylvania - Oct 2024 - Topline for Oct 30 release|website=Fox News|date=October 30, 2024}}</ref>
+|rowspan="2"|October 24–28, 2024
+|1,057 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''50%'''
+|48%
+|–
+|1%
+|-
+|1,310 (RV)
+|±&nbsp;2.5%
+|{{party shading/Democratic}}|'''51%'''
+|46%
+|1%
+|2%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/images/polling/pa/pa10302024_pece24.pdf|title=Pennsylvania 2024: In Tight Presidential Race, Trump Gets Boost From Men, U.S. Senate Race Tightens, Quinnipiac University Pennsylvania Poll Finds; Reps And Dems Agree: 2024 Presidential Election Is Single Most Important Of Their Lifetimes|website=Quinnipiac University Poll|date=October 30, 2024}}</ref>
+|October 24–28, 2024
+|2,186 (LV)
+|±&nbsp;2.1%
+|{{party shading/Democratic}}|'''50%'''
+|47%
+|2%{{Efn|"Refused" with 2%}}
+|1%
+|-
+|style="text-align:left;"|[[Monmouth University]]<ref>{{#invoke:cite|web|url=https://www.monmouth.edu/polling-institute/documents/monmouthpoll_pa_103024.pdf/|title=PENNSYLVANIA: IT'S REALLY, REALLY CLOSE|first=Patrick|last=Murray|website=Monmouth University|date=October 30, 2024}}</ref>
+|October 24–28, 2024
+|824 (RV)
+|±&nbsp;3.8%
+|{{party shading/Democratic}}|'''45%'''
+|44%
+|–
+|12%
+|-
+|style="text-align:left;"|[[CNN]]/SSRS<ref>{{#invoke:cite|web|url=https://s3.documentcloud.org/documents/25260111/cnn-polls-in-michigan-pennsylvania-and-wisconsin.pdf|title=CNN Polls in Michigan, Pennsylvania, and Wisconsin|work=CNN|date=October 30, 2024}}</ref>
+|October 23–28, 2024
+|819 (LV)
+|±&nbsp;4.7%
+|{{party shading/Democratic}}|'''48%'''
+|45%
+|6%{{Efn|"Other" with 4%; "Neither" with 2%}}
+|1%
+|-
+|style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.cbsnews.com/news/pennsylvania-senate-race-casey-leads-mccormick/|title=CBS News poll finds Democrat Casey narrowly leading in Senate race in Pennsylvania|first=Kabir|last=Khanna|website=CBS News|date=October 30, 2024}}</ref>
+|October 22–28, 2024
+|1,249 (LV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''48%'''
+|42%
+|3%{{efn|"Someone else" with 3%}}
+|7%
+|-
+|style="text-align:left;"|InsiderAdvantage (R)<ref>{{#invoke:cite|web|url=https://insideradvantage.com/insideradvantage-pennsylvania-survey-trump-leads-by-one-point-casey-jr-and-mccormick-tied-in-senate-contest/|title=InsiderAdvantage Pennsylvania Survey: Trump Leads by One Point; Casey Jr. and McCormick Tied in Senate Contest|website=InsiderAdvantage|date=October 27, 2024}}</ref>
+|October 26–27, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|'''47%'''
+|'''47%'''
+|2%{{Efn|name=O2}}
+|4%
+|-
+|style="text-align:left;"|North Star Opinion Research (R)<ref>{{#invoke:cite|web|url=https://cdn.amgreatness.com/app/uploads/2024/10/PA-October-Toplines.pdf|title=SURVEY OF PENNSYLVANIA LIKELY VOTERS|website=American Greatness|date=October 28, 2024}}</ref>{{efn-ua|name=AmGr}}
+|October 22–26, 2024
+|600 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''45%'''
+|42%
+|5%{{efn|Thomas (L) with 2%; Hazou (G) and Selker (C) with 1%; "Other" with 1%}}
+|9%
+|-
+|style="text-align:left;"|[[UMass Lowell]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.uml.edu/docs/2024-Oct31-PA-Topline_tcm18-392293.pdf|title=UMass Lowell / YouGov - Survey of Pennsylvania Likely Voters|date=October 31, 2024|website=University of Massachusetts Lowell}}</ref>
+|October 16–23, 2024
+|800 (LV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''48%'''
+|42%
+|3%{{Efn|Thomas with 2%; "Another candidate" with 1%}}
+|7%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/october-2024-pennsylvania-poll-trump-49-harris-48/|title=October 2024 Pennsylvania Poll: Trump 49%, Harris 48%|website=Emerson College Polling|date=October 24, 2024}}</ref>{{Efn-ua|name=RCPA|Poll sponsored by RealClearPennsylvania}}
+|October 21–22, 2024
+|860 (LV)
+|±&nbsp;3.3%
+|{{party shading/Democratic}}|'''47%'''
+|46%
+|2%{{efn|"Someone else" with 2%}}
+|6%
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://mcusercontent.com/fadb7f1420fadfe09cc9d0f9c/files/a54b534a-f99a-9018-aae9-ae8a1b683189/PAStatewide_Toplines_LaTorre_Oct2024.01.pdf|title=PA Statewide Omnibus Poll ~ Voter Attitude Survey|work=Susquehanna Polling and Research|date=October 30, 2024}}</ref>
+|October 18–22, 2024
+|500 (LV)
+|±&nbsp;4.4%
+|{{Party shading/Democratic}}|'''49%'''
+|46%
+|2%{{efn|"Refuse" with 2%}}
+|4%
+|-
+|style="text-align:left;" rowspan="2"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|news|url=https://www.fandmpoll.org/franklin-marshall-poll-release-october-2024/|title=Franklin & Marshall Poll Release: October 2024|first=Berwood|last=Yost|website=Franklin & Marshall College Poll|date=October 24, 2024}}</ref>
+|rowspan="2"|October 9–20, 2024
+|583 (LV)
+|±&nbsp;5.0%
+|{{party shading/Democratic}}|'''49%'''
+|48%
+|–
+|3%
+|-
+|794 (RV)
+|±&nbsp;4.3%
+|{{party shading/Democratic}}|'''48%'''
+|41%
+|5%{{Efn|"Other" (Thomas (L), Hazou (G) & Selker (C)) with 5%}}
+|6%
+|-
+|style="text-align:left;"|[[The Trafalgar Group]] (R)<ref>{{#invoke:cite|web|url=https://www.thetrafalgargroup.org/wp-content/uploads/2024/10/PA-24-General-1020-Poll-Report.pdf|title=Pennsylvania General Presidential Survey - October 2024|website=The Trafalgar Group|date=October 20, 2024}}</ref>
+|October 17–19, 2024
+|1,084 (LV)
+|±&nbsp;2.9%
+|'''47%'''
+|'''47%'''
+|–
+|6%
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/023fa4e7-4d28-4903-b4cd-57241a0f5e08.pdf|title=Atlas Poll - US Swing States - October 2024|website=AtlasIntel|date=October 19, 2024}}</ref>
+|October 12–17, 2024
+|2,048 (LV)
+|±&nbsp;2.0%
+|47%
+|{{party shading/Republican}}|'''48%'''
+|2%{{Efn|"Blank/Null/Won't vote" with 1%; "Other" with 1%}}
+|3%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://www.thebullfinchgroup.com/post/your-election-guide-for-the-midrust-battlegrounds|title=Your Election Guide for the Midrust Battlegrounds|website=The Bullfinch Group|date=October 18, 2024}}</ref>
+|October 11–17, 2024
+|600 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''50%'''
+|43%
+|–
+|8%
+|-
+|style="text-align:left;" rowspan="2"|[[YouGov]]<ref>{{#invoke:cite|web|url=https://s10294.pcdn.co/wp-content/uploads/2024/10/PA_CMC-Rose-State-Poll-Fact-Sheet_RFR.pdf|title=Presidential Race Remains Close with Wide Partisan Divide on Confidence in Vote Count|first1=J. Andrew|last1=Sinclair|first2=Kenneth P.|last2=Miller|work=Claremont McKenna College Rose Institute of State and Local Government|date=October 30, 2024}}</ref>{{efn-ua|name=CMC|Poll sponsored by [[Rose Institute of State and Local Government]]}}
+|rowspan="2"|October 7–17, 2024
+|1,043 (LV)
+|±&nbsp;3.44%
+|{{party shading/Democratic}}|'''50%'''
+|42%
+|–
+|8%
+|-
+|1,062 (RV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''49%'''
+|42%
+|–
+|9%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult"/>
+|October 6–15, 2024
+|1,395 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|41%
+|–
+|10%
+|-
+|style="text-align:left;" rowspan="2"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|news|url=https://www.nytimes.com/2024/10/12/us/politics/times-siena-arizona-pennsylvania-polls.html|title=Trump Leads in Arizona as Harris Holds an Edge in Pennsylvania, New Polls Show|first1= Michael|last1=Bender|first2=Ruth|last2=Igielnik|website=The New York Times |date=October 12, 2024}}</ref>{{efn-ua|name=PI|}}
+|rowspan="2"|October 7–10, 2024
+|857 (LV)
+|±&nbsp;3.8%
+|{{party shading/Democratic}}|'''48%'''
+|44%
+|–
+|8%
+|-
+|857 (RV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''48%'''
+|43%
+|–
+|9%
+|-
+|style="text-align:left;"|American Pulse Research & Polling<ref>{{#invoke:cite|web|url=https://projects.fivethirtyeight.com/polls/20241015_PA_AmericanPulse.pdf|title=Top Line Results - Survey of Pennsylvania Likely Voters|date=October 15, 2024|work=American Pulse Research & Polling}}</ref>
+|October 2–10, 2024
+|1,193 (LV)
+|±&nbsp;2.8%
+|{{party shading/Democratic}}|'''48%'''
+|45%
+|2%{{Efn|"Another candidate" with 2%}}
+|5%
+|-
+|style="text-align:left;" rowspan="2"|TIPP Insights (R)<ref>{{#invoke:cite|news|url=https://amgreatness.com/2024/10/10/trump-leads-in-pennsylvania-dave-mccormick-charges/|title=Trump Leads in Pennsylvania, Dave McCormick Charges|website=American Greatness|date=October 10, 2024}}</ref>{{efn-ua|name=AmGr|Poll sponsored by American Greatness}}
+|rowspan="2"|October 7–9, 2024
+|803 (LV)
+|rowspan="2"|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''47%'''
+|43%
+|1%{{efn|"Other" with 1%}}
+|9%
+|-
+|1,079 (RV)
+|{{party shading/Democratic}}|'''48%'''
+|40%
+|1%{{efn|"Other" with 1%}}
+|12%
+|-
+|style="text-align:left;"|[[UMass Lowell]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.uml.edu/docs/2024-October-PA-Topline_tcm18-391827.pdf|title=UMass Lowell / YouGov - Survey of Pennsylvania Likely Voters|date=October 17, 2024|website=University of Massachusetts Lowell}}</ref>
+|October 2–9, 2024
+|800 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''48%'''
+|39%
+|3%{{Efn|name=HTC|Hazou (G) and Thomas (L) with 1%; "Another candidate" with 1%}}
+|10%
+|-
+|style="text-align:left;"|InsiderAdvantage (R)<ref>{{#invoke:cite|web|url=https://insideradvantage.com/insideradvantage-pennsylvania-survey-trump-leads-by-two-points/|title=InsiderAdvantage Pennsylvania Survey: Trump Leads by Two Points|website=InsiderAdvantage|date=October 8, 2024}}</ref>
+|October 7–8, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''47%'''
+|45%
+|2%{{Efn|name=O2|"Other" with 2%}}
+|6%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/october-2024-state-polls-mixed-movement-across-swing-states-shows-dead-heat/|title=October 2024 State Polls: Mixed Movement Across Swing States Shows Dead Heat|website=Emerson College Polling|date=October 10, 2024}}</ref>{{Efn-ua|name=Hill}}
+|October 5–8, 2024
+|1,000 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''48%'''
+|46%
+|–
+|6%
+|-
+|style="text-align:left;"|Research Co.<ref>{{#invoke:cite|web|url=https://researchco.ca/wp-content/uploads/2024/10/Release_USStates_08Oct2024.pdf|title=Michigan, Pennsylvania and Wisconsin Lean Blue in 2024 Race|first=Mario|last=Canseco|website=Research Co.|date=October 8, 2024}}</ref>
+|October 5–7, 2024
+|450 (LV)
+|±&nbsp;4.6%
+|{{party shading/Democratic}}|'''47%'''
+|44%
+|1%{{efn|"Some other candidate" with 1%}}
+|8%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/poll-release?releaseid=3913|title=Swing State Poll 2024: Pennsylvania, Michigan, Wisconsin: Blue Wall Shows Cracks As Race Tightens, Quinnipiac University Poll Finds; U.S. Senate Races: Michigan Moves To Toss-Up, Dems Lead In PA & WI|website=Quinnipiac University Poll|date=October 9, 2024}}</ref>
+|October 3–7, 2024
+|1,412 (LV)
+|±&nbsp;2.6%
+|{{party shading/Democratic}}|'''51%'''
+|43%
+|2%{{Efn|"Someone else" with 1%; "Refused" with 1%}}
+|5%
+|-
+|style="text-align:left;"|ActiVote<ref>{{#invoke:cite|web|url=https://www.activote.net/caseys-lead-reduced-in-pennsylvania/|title=Casey's Lead Reduced in Pennsylvania|first=Victor|last=Allis|website=ActiVote|date=October 8, 2024}}</ref>
+|September 6 – October 7, 2024
+|400 (LV)
+|±&nbsp;4.9%
+|{{party shading/Democratic}}|'''53%'''
+|47%
+|–
+|–
+|-
+|style="text-align:left;"|OnMessage (R)<ref>{{#invoke:cite|web|url=https://cdn.sentinelactionfund.com/production/assets/surveys/2024/SAF-PA-Statewide-Survey-Memo.pdf|title=SAF PA Statewide Survey Memo|first=Jessica|last=Anderson|website=Sentinel Action Fund|date=October 3, 2024}}</ref>{{efn|name=SAF|Poll sponsored by Sentinel Action Fund}}
+|September 28–29, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''45%'''
+|44%
+|5%{{efn|"Other" with 5%}}
+|7%
+|-
+|style="text-align:left;"|Patriot Polling (R)<ref>{{#invoke:cite|web|url=https://patriotpolling.com/our-polls/f/trump-and-casey-lead-narrowly-in-pennsylvania|title=Trump and Casey lead narrowly in Pennsylvania|website=Patriot Polling|date=September 30, 2024}}</ref>
+|September 27–29, 2024
+|816 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''51%'''
+|48%
+|–
+|–
+|-
+|rowspan="2" style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://www.commonwealthfoundation.org/wp-content/uploads/2024/10/Common-Ground-Q3-2024-Toplines.pdf|title=Common Ground in the Commonwealth Poll|website=Commonwealth Foundation|date=October 8, 2024}}</ref>{{Efn-ua|name=CommonwealthFoundation|Poll sponsored by the Commonwealth Foundation}}
+|rowspan="2"|September 26–29, 2024
+|rowspan="2"|800 (LV)
+|rowspan="2"|±&nbsp;3.46%
+|{{party shading/Democratic}}|'''48%'''
+|39%
+|12%{{efn|"None of the Above" with 9%; "Other" with 3%}}
+|–
+|-
+|{{party shading/Democratic}}|'''52%'''
+|42%
+|6%{{Efn|Thomas (L) with 3%, Hazou (G) with 2%, and Selker (C) with 1%}}
+|–
+|-
+|style="text-align:left;"|[[The Trafalgar Group]] (R)<ref>{{#invoke:cite|web|url=https://www.thetrafalgargroup.org/wp-content/uploads/2024/09/PA-24-General-0929-Poll-Report.pdf|title=Pennsylvania General Presidential Survey - September 2024|website=The Trafalgar Group|date=September 29, 2024}}</ref>
+|September 26–29, 2024
+|1,090 (LV)
+|±&nbsp;2.9%
+|{{party shading/Democratic}}|'''47%'''
+|46%
+|–
+|7%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/september-2024-pennsylvania-poll-trump-48-harris-48/|title=September 2024 Pennsylvania Poll: Trump 48%, Harris 48%|website=Emerson College Polling|date=October 1, 2024}}</ref>{{efn-ua|name=RCPA}}
+|September 27–28, 2024
+|1,000 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''47%'''
+|45%
+|–
+|8%
+|-
+|style="text-align:left;"|[[AtlasIntel]]<ref>{{#invoke:cite|web|url=https://cdn.atlasintel.org/9e0da6ea-7e9c-498c-89e3-511bd7344cd0.pdf|title=Atlas Poll - US Swing States - September 2024|website=AtlasIntel|date=September 28, 2024}}</ref>
+|September 20–25, 2024
+|1,775 (LV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''47%'''
+|45%
+|1%{{Efn|"Blank/Null/Won't vote" with 1%; "Other" with <1%}}
+|6%
+|-
+|rowspan="2" style="text-align:left;"|BSG (R)/[[Global Strategy Group|GS Strategy Group]] (D)<ref>{{#invoke:cite|web|url=https://www.cookpolitical.com/analysis/survey-research/2024-swing-state-project/swing-state-polling-finds-deadlocked-presidential|title=Swing State Polling Finds Deadlocked Presidential Contest, 'Blue Wall' Senate Races Tighten|first1=Amy|last1=Walter|first2=Jessica|last2=Taylor|date=October 2, 2024|website=Cook Political Report}}</ref>{{Efn-ua|name=CPR}}
+|rowspan="2"|September 19–25, 2024
+|rowspan="2"|474 (LV)
+|rowspan="2"|–
+|{{party shading/Democratic}}|'''48%'''
+|42%
+|3%{{efn|"Someone else" with 1%; "Would not vote" with 2%}}
+|6%
+|-
+|{{party shading/Democratic}}|'''52%'''
+|45%
+|–
+|3%
+|-
+|style="text-align:left;" rowspan="2"|[[Fox News]]<ref>{{#invoke:cite|web|url=https://static.foxnews.com/foxnews.com/content/uploads/2024/09/Fox_September-20-24-2024_Pennsylvania_Topline_September-27-Release.pdf|title=Pennsylvania - Sep 2024 - Topline for release Sep 27|website=Fox News|date=September 27, 2024}}</ref>
+|rowspan="2"|September 20–24, 2024
+|775 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''53%'''
+|44%
+|1%{{efn|name=WV1|"Wouldn't vote" with 1%}}
+|2%
+|-
+|1,021 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''53%'''
+|44%
+|1%{{efn|name=WV1}}
+|2%
+|-
+|style="text-align:left;"|Fabrizio Ward (R)/Impact Research (D)<ref>{{#invoke:cite|web|url=https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/pennsylvania-older-voter-survey-2024-report-september.doi.10.26419-2fres.00813.040.pdf|title=Pennsylvania Voter Survey, September 2024|website=AARP|date=October 1, 2024}}</ref>{{Efn-ua|name=AARP}}
+|September 17–24, 2024
+|816 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|45%
+|–
+|6%
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://mcusercontent.com/fadb7f1420fadfe09cc9d0f9c/files/a5dbf8d6-8ad8-c97f-7e78-5c75cbd98c8f/Toplines_PAStatewide_Omnibus_SP_amp_R_LaTorre_Sept2024.pdf|title=PA Statewide Topline Results Fall 2024 SP&R Omnibus Poll|work=Susquehanna Polling and Research|date=September 25, 2024}}</ref>
+|September 16–22, 2024
+|700 (LV)
+|±&nbsp;3.7%
+|{{Party shading/Democratic}}|'''48%'''
+|40%
+|1%{{efn|"Other" with 1%}}
+|11%
+|-
+|style="text-align:left;"|RMG Research<ref>{{#invoke:cite|web|url=https://napolitaninstitute.org/wp-content/uploads/2024/09/GCM24-PA09-Mini-Crosstabs-Pres.pdf|title=PENNSYLVANIA: Harris 49% Trump 49%|website=[[Napolitan Institute]]|date=September 25, 2024}}</ref>{{Efn-ua|Poll sponsored by the Napolitan Institute}}
+|September 18–20, 2024
+|783 (LV)
+|±&nbsp;3.5%
+|{{Party shading/Democratic}}|'''50%'''
+|44%
+|1%{{efn|name=WV1}}
+|5%
+|-
+|style="text-align:left;"|Remington Research Group (R)<ref>{{#invoke:cite|web| url=https://www.afpm.org/sites/default/files/issue_resources/Sept24_RemingtonStatePollsEVMandate.pdf|title= Polling data on Biden-Harris gas car ban and EV mandate policies|website=American Fuel & Petrochemical Manufacturers |date=October 1, 2024}}</ref>{{Efn-ua|name=AFPM}}
+|September 16–20, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''49%'''
+|45%
+|–
+|7%
+|-
+|style="text-align:left;"|[[Muhlenberg College]]<ref>{{#invoke:cite|web|url=https://www.muhlenberg.edu/media/contentassets/pdf/about/polling/PA_Elec_Sep24_FinalVersion.pdf|title=Muhlenberg College/Morning Call Pennsylvania Presidential Election Survey - September 2024|website=Muhlenberg College|date=September 25, 2024}}</ref>{{Efn-ua|name=MCall|Poll sponsored by ''[[The Morning Call]]''}}
+| data-sort-value="2024-09-25" |September 16–19, 2024
+|450 (LV)
+|±&nbsp;6.0%
+|{{party shading/Democratic}}|'''48%'''
+|43%
+|5%
+|4%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-16-19-september-2024/|title=Latest US Swing States Voting Intention (16 – 19 September 2024)|website=Redfield & Wilton Strategies|date=September 23, 2024}}</ref>{{Efn-ua|name=telegraph|Poll sponsored by ''[[The Daily Telegraph]]''}}
+| data-sort-value="2024-09-23" |September 16–19, 2024
+|1,086 (LV)
+|±&nbsp;2.8%
+|{{party shading/Democratic}}|'''47%'''
+|41%
+|2%{{Efn|Thomas (L), "Wouldn't vote if these are the candidates" with 1%}}
+|10%
+|-
+|style="text-align:left;"|[[UMass Lowell]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.uml.edu/docs/PA-topline-sept-2024_tcm18-389947.pdf|title=Survey of Pennsylvania Likely Voters|website=University of Massachusetts Lowell|date=September 26, 2024}}</ref>
+| data-sort-value="2024-09-26" |September 11–19, 2024
+|800 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''47%'''
+|38%
+|3%{{Efn|name=HTC}}
+|13%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/september-2024-swing-state-polls-trump-and-harris-locked-in-tight-presidential-race/|title=September 2024 Swing State Polls: Trump and Harris Locked in Tight Presidential Race|website=Emerson College Polling|date=September 19, 2024}}</ref>{{Efn-ua|name=Hill}}
+|September 15–18, 2024
+|880 (LV)
+|±&nbsp;3.2%
+|{{party shading/Democratic}}|'''47%'''
+|42%
+|–
+|11%
+|-
+|style="text-align:left;"|[[MassINC|MassINC Polling Group]]<ref>{{#invoke:cite|web|url=https://www.spotlightpa.org/news/2024/09/kamala-harris-donald-trump-pennsylvania-poll-results-economy-jobs/|title=Democrats Kamala Harris, Bob Casey lead Donald Trump, Dave McCormick in new Pennsylvania poll|first=Sarah|last=Hughes|website=SpotlightPA|date=September 20, 2024}}</ref>{{efn-ua|name=SP|Poll sponsored by ''[[Spotlight PA]]''}}
+|September 12–18, 2024
+|800 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''49%'''
+|42%
+|2%{{efn|"Another candidate" and "Would not vote for senate" each with 1%; "Prefer not to say" with <1%}}
+|6%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult"/>
+|September 9–18, 2024
+|1,756 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|40%
+|–
+|11%
+|-
+|style="text-align:left;" rowspan="2"|[[Marist Poll|Marist College]]<ref>{{#invoke:cite|web|url=https://maristpoll.marist.edu/polls/marist-pennsylvania-poll-u-s-presidential-contest-pennsylvania-september-2024/|title=U.S. Presidential Contest: Pennsylvania, September 2024|website=Marist Poll|date=September 19, 2024}}</ref>
+|rowspan="2"|September 12–17, 2024
+|1,663 (RV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''52%'''
+|46%
+|1%{{efn|name=MP1}}
+|1%
+|-
+|1,476 (LV)
+|±&nbsp;3.2%
+|{{party shading/Democratic}}|'''52%'''
+|47%
+|–
+|1%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/images/polling/mi/mi09182024_swmf64.pdf|title=Swing State Poll 2024: Pennsylvania, Michigan, Wisconsin: Harris Ahead In 2 Key Battleground States, 3rd State Up For Grabs, Quinnipiac University Poll Finds; U.S. Senate Races: Democrats Have Leads In All 3 States|website=Quinnipiac University Poll|date=September 18, 2024}}</ref>
+|September 12–16, 2024
+|1,331 (LV)
+|±&nbsp;2.7%
+|{{party shading/Democratic}}|'''52%'''
+|43%
+|1%{{Efn|"Refused" with 1%}}
+|3%
+|-
+|style="text-align:left;" rowspan="2"|[[The Washington Post]]<ref>{{#invoke:cite|news|url=https://www.washingtonpost.com/politics/2024/09/19/polling-harris-trump-pennsylvania-debate/|title=Harris and Trump essentially tied in Pennsylvania, Post poll finds|first1=Dan|last1=Balz|first2=Scott|last2=Clement|first3=Emily|last3=Guskin|newspaper=The Washington Post|date=September 19, 2024}}</ref>
+|rowspan="2"|September 12–16, 2024
+|rowspan="2"|1,003 (LV)
+|rowspan="2"|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''47%'''
+|46%
+|7%{{Efn|"No opinion/Skipped" with 4%; Thomas (L), Hazou (G), and "Would not vote" each with 1%}}
+|–
+|-
+|'''48%'''
+|'''48%'''
+|5%{{Efn|"No opinion/Skipped" with 3%; "Would not vote" each with 2%}}
+|–
+|-
+|style="text-align:left;" rowspan="2"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|news|url=https://www.nytimes.com/interactive/2024/09/19/us/politics/times-siena-inquirer-poll-pennsylvania-toplines.html|title=Toplines: September 2024 Inquirer/Times/Siena Poll of Pennsylvania Registered Voters|website=The New York Times |date=September 19, 2024}}</ref>{{efn-ua|name=PI|}}
+|rowspan="2"|September 11–16, 2024
+|1,082 (RV)
+|±&nbsp;4.1%
+|{{party shading/Democratic}}|'''48%'''
+|39%
+|–
+|13%
+|-
+|1,082 (LV)
+|±&nbsp;4.3%
+|{{party shading/Democratic}}|'''49%'''
+|40%
+|–
+|11%
+|-
+|style="text-align:left;"|InsiderAdvantage (R)<ref>{{#invoke:cite|web|url=https://insideradvantage.com/pennsylvania-survey-trump-leads-50-48-casey-ahead-of-mccormick-by-four-points/|title=Pennsylvania Survey: Trump Leads 50%-48; Casey Ahead of McCormick by Four Points|website=InsiderAdvantage|date=September 16, 2024}}</ref>
+|September 14–15, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''49%'''
+|44%
+|2%{{Efn|name=O2}}
+|5%
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|news|url=https://www.fandmpoll.org/franklin-marshall-poll-release-september-2024/|title=Franklin & Marshall Poll Release: September 2024|first=Berwood|last=Yost|website=Franklin & Marshall College Poll|date=September 19, 2024}}</ref>
+|September 4–15, 2024
+|890 (RV)
+|±&nbsp;4.1%
+|{{party shading/Democratic}}|'''48%'''
+|40%
+|3%{{efn|"Other" with 3%}}
+|10%
+|-
+|style="text-align:left;"|[[Suffolk University Political Research Center|Suffolk University]]<ref>{{#invoke:cite|web|url=https://www.usatoday.com/story/news/politics/elections/2024/09/16/harris-trump-pennsylvania-poll/75236006007/|title=Harris leads Trump in Pennsylvania — and two bellwether PA counties — exclusive poll finds|first1=Joey|last1=Garrison|first2=Michael|last2=Collins|website=USA Today|date=September 16, 2024}}</ref>{{efn-ua|name=USA|Poll sponsored by ''[[USA Today]]''}}
+|September 11–14, 2024
+|500 (LV)
+|±&nbsp;4.4%
+|{{party shading/Democratic}}|'''47%'''
+|43%
+|2%{{Efn|Thomas (L) with 1%; Selker (C) with 1%; Hazou (G) with <1%}}
+|8%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-6-9-september-2024/|title=Latest US Swing States Voting Intention (6 – 9 September 2024)|website=Redfield & Wilton Strategies|date=September 10, 2024}}</ref>{{Efn-ua|name=telegraph}}
+|September 6–9, 2024
+|801 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''44%'''
+|36%
+|5%{{Efn| "Won't vote if these are the candidates" with 4%; Thomas (L) with 1%}}
+|14%
+|-
+|style="text-align:left;"|[[Morning Consult]]<ref name="Morning Consult"/>
+|August 30 – September 8, 2024
+|1,910 (LV)
+|±&nbsp;2.0%
+|{{party shading/Democratic}}|'''49%'''
+|40%
+|–
+|11%
+|-
+|style="text-align:left;"|co/efficient (R)<ref>{{#invoke:cite|web|url=https://coefficient.org/ivf-pa/|title=Pennsylvania IVF Poll Results|website=co/efficient|date=September 6, 2024}}</ref>
+|September 4–6, 2024
+|889 (LV)
+|±&nbsp;3.29%
+|{{party shading/Democratic}}|'''45%'''
+|36%
+|–
+|19%
+|-
+|style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.cbsnews.com/news/michigan-pennsylvania-wisconsin-senate-poll/|title=CBS News poll for 2024 Senate races shows Democrats lead in Michigan, Pennsylvania and Wisconsin|first=Kabir|last=Khanna|website=CBS News|date=September 9, 2024}}</ref>
+|September 3–6, 2024
+|1,076 (LV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''48%'''
+|41%
+|3%{{efn|"Someone else" with 3%}}
+|8%
+|-
+|style="text-align:left;"|[[YouGov]]<ref>{{#invoke:cite|web|url=https://d3nkl3psvxxpe9.cloudfront.net/documents/Times_SAY24_20240904_state_poll_results_XTElWNX.pdf#page=158|title=The Times / SAY Poll: Pennsylvania|website=YouGov|date=September 5, 2024}}</ref>{{efn-ua|name=times}}
+|August 23 – September 3, 2024
+|1,000 (RV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''52%'''
+|41%
+|–
+|8%
+|-
+|style="text-align:left;"|[[The Trafalgar Group]] (R)<ref>{{#invoke:cite|web|url=https://www.thetrafalgargroup.org/wp-content/uploads/2024/08/PA-24-General-0830-Poll-Report.pdf|title=Pennsylvania Statewide Presidential Survey - August 2024|website=The Trafalgar Group|date=August 31, 2024}}</ref>
+|August 28–30, 2024
+|1,082 (LV)
+|±&nbsp;2.9%
+|{{party shading/Democratic}}|'''46%'''
+|45%
+|–
+|8%
+|-
+|style="text-align:left;"|[[CNN]]/SRSS<ref>{{#invoke:cite|web|url=https://www.cnn.com/2024/09/04/politics/cnn-polls-battleground-states/index.html|title=CNN polls across six battlegrounds find Georgia and Pennsylvania are key toss-ups|first1=Jennifer|last1=Agiesta|first2=Ariel|last2=Edwards-Levy|first3=Edward|last3=Wu|website=CNN|date=September 4, 2024}}</ref>
+|August 23–29, 2024
+|789 (LV)
+|±&nbsp;4.7%
+|'''46%'''
+|'''46%'''
+|7%{{efn|"Other" with 4%; "Neither" with 3%}}
+|1%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-25-28-august-2024/|title=Latest US Swing States Voting Intention (25 – 28 August 2024)|website=Redfield & Wilton Strategies|date=August 30, 2024}}</ref>{{Efn-ua|name=telegraph}}
+|August 25–28, 2024
+|1,071 (LV)
+|±&nbsp;2.8%
+|{{party shading/Democratic}}|'''44%'''
+|38%
+|4%{{Efn|Thomas (L) with 1%; Hazou (G) with 1%; "Other" with 1%; "Won't vote if these are the candidates" with 1%}}
+|14%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/august-2024-swing-state-polls-toss-up-presidential-election-in-swing-states/|title=August 2024 Swing State Polls: Toss-up Presidential Election in Swing States|website=Emerson College Polling|date=August 29, 2024}}</ref>{{Efn-ua|name=Hill}}
+| data-sort-value="2024-08-29" |August 25–28, 2024
+|950 (LV)
+|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''48%'''
+|44%
+|–
+|8%
+|-
+|style="text-align:left;"|ActiVote<ref>{{#invoke:cite|web|url=https://www.activote.net/casey-has-significantly-lead-in-pennsylvania/|title=Casey Has Significantly Lead in Pennsylvania|website=ActiVote|first=Victor|last=Allis|date=August 23, 2024}}</ref>
+| data-sort-value="2024-08-26" |August 3–23, 2024
+|400 (LV)
+|±&nbsp;4.9%
+|{{party shading/Democratic}}|'''55%'''
+|45%
+|–
+|–
+|-
+|style="text-align:left;"|Fabrizio Ward (R)<ref>{{#invoke:cite|web|url=https://pinpointpolicyinstitute.org/wp-content/uploads/2024/08/Blue-Wall-States-Survey-Slides.pdf|title=Blue Wall Survey – August 2024|website=Pinpoint Policy Institute|date=August 29, 2024}}</ref>{{Efn-ua|Poll sponsored by the Pinpoint Policy Institute}}
+|August 19–21, 2024
+|400 (LV)
+|±&nbsp;4.9%
+|{{party shading/Democratic}}|'''46%'''
+|43%
+|–
+|11%
+|-
+|rowspan=2; style="text-align:left;"|Cygnal (R)<ref>{{#invoke:cite|web|url=https://www.cygn.al/wp-content/uploads/2024/08/Cygnal-PA-Statewide-Deck-Public-AUG24.pdf|title=Survey of Likely General Election Voters Pennsylvania Statewide|date=August 16, 2024|website=Cygnal}}</ref>
+|rowspan="2"|August 14–15, 2024
+|rowspan="2"|800 (LV)
+|rowspan="2"|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''46%'''
+|42%
+|–
+|12%
+|-
+|{{party shading/Democratic}}|'''42%'''
+|38%
+|7%{{efn|Thomas (L) with 3%; Hazou (G) with 2%; Messina (AS) and Selker (C) with 1%}}
+|13%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-12-15-august-2024/|title=Latest US Swing States Voting Intention (12 – 15 August 2024)|date=August 19, 2024}}</ref>{{Efn-ua|name=telegraph}}
+| data-sort-value="2024-08-19" |August 12–15, 2024
+|825 (LV)
+|±&nbsp;3.2%
+|{{party shading/Democratic}}|'''44%'''
+|36%
+|1%{{Efn|Leila Hazou (G) with 1%, John Thomas (L), "Other (Another Third Party/Write-In)", and Marty Selker (C) with 0%}}
+|17%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/pennsylvania-2024-poll-trump-49-harris-48/|title=Pennsylvania 2024 Poll: Trump 49%, Harris 48%|date=August 16, 2024|website=Emerson College Polling}}</ref>
+|August 13–14, 2024
+|1,000 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''48%'''
+|44%
+|–
+|8%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/images/polling/pa/pa08142024_ppuf30.pdf|title=Pennsylvania 2024: Harris Has Slight Edge Over Trump In Tight Race, Gets Boost From Women, Quinnipiac University Pennsylvania Poll Finds; Senate Race: Casey Up 8 Points Over McCormick|date=August 14, 2024|website=Quinnipiac University Poll}}</ref>
+|August 8–12, 2024
+|1,738 (LV)
+|±&nbsp;2.4%
+|{{party shading/Democratic}}|'''52%'''
+|44%
+|1%{{Efn|"Refused" with 1%}}
+|3%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://cdn.prod.website-files.com/65fc824cf835683ce2d3549b/66ba4069b73a13894a56414d_Independent%20Center%20-%20Battleground%20States%20Poll%202024.pdf|title=Independent Center - Battleground States Poll 2024|date=August 12, 2024|website=The Independent Center}}</ref>{{Efn-ua|name=IC|Poll sponsored by the Independent Center}}
+|August 8–11, 2024
+|500 (RV)
+|±&nbsp;4.38%
+|{{party shading/Democratic}}|'''51%'''
+|39%
+|–
+|10%
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|news|url=https://s3.documentcloud.org/documents/25042734/fm-august-poll.pdf|title=Franklin & Marshall College Poll: August 2024|first=Berwood|last=Yost|website=Franklin & Marshall College Poll|date=August 15, 2024}}</ref>
+| data-sort-value="2024-08-15" |July 31 – August 11, 2024
+|920 (RV)
+|±&nbsp;3.8%
+|{{party shading/Democratic}}|'''48%'''
+|36%
+|3%{{efn|"Some other candidate" with 3%}}
+|13%
+|-
+|rowspan=2; style="text-align:left;"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|news|url=https://www.nytimes.com/interactive/2024/08/10/us/elections/times-siena-poll-pennsylvania-toplines.html|title= Toplines: August 2024 Times/Siena Poll of Registered Voters in Pennsylvania|work=The New York Times |date=August 10, 2024|via=NYTimes.com}}</ref>
+|rowspan=2;|August 6–9, 2024
+|693 (RV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''50%'''
+|36%
+|–
+|14%
+|-
+|693 (LV)
+|±&nbsp;4.2%
+|{{party shading/Democratic}}|'''51%'''
+|37%
+|–
+|11%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-31-july-3-august-2024/|title=Latest US Swing States Voting Intention (31 July – 3 August 2024)|date=August 6, 2024}}</ref>{{Efn-ua|name=telegraph}}
+| data-sort-value="2024-08-06" |July 31 – August 3, 2024
+|743 (LV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''45%'''
+|40%
+|2%{{Efn|John Thomas (L) and "Other (Another Third Party/Write-In)" with 1%; Leila Hazou (G) and Marty Selker (C) with 0%}}
+|12%
+|-
+|style="text-align:left;"|BSG (R)/[[Global Strategy Group|GS Strategy Group]] (D)<ref>{{#invoke:cite|web|url=https://www.cookpolitical.com/analysis/survey-research/2024-swing-state-project/democrats-maintain-edge-new-senate-polls-nevada|title=Democrats Maintain Edge in New Senate Polls, As Nevada Moves Back to Lean Democrat |first=Jessica|last=Taylor|date=August 15, 2024|website=[[Cook Political Report]]}}</ref>{{Efn-ua|name=CPR|Poll sponsored by [[The Cook Political Report]]}}
+| data-sort-value="2024-08-15" |July 26 – August 2, 2024
+|411 (LV)
+|–
+|{{party shading/Democratic}}|'''53%'''
+|40%
+|–
+|7%
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://www.realclearpolitics.com/docs/2024/Susquehanna_Statewide_July_28_2024.pdf|title=PA Statewide Topline Results Summer 2024 SP&R Omnibus Poll|website=[[RealClearPolitics]]|date=July 30, 2024}}</ref>
+| data-sort-value="2024-07-28" |July 22–28, 2024
+|600 (LV)
+|±&nbsp;4.0%
+|{{Party shading/Democratic}}|'''47%'''
+|42%
+|–
+|11%
+|-
+|style="text-align:left;"|[[Fox News]]<ref>{{#invoke:cite|web|url=https://static.foxnews.com/foxnews.com/content/uploads/2024/07/Fox_July-22-24-2024_Pennsylvania_Topline_July-26-Release.pdf|title=Pennsylvania - July 2024 topline for release|website=Fox News|date=July 26, 2024}}</ref>
+|July 22–24, 2024
+|1,034 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''55%'''
+|42%
+|–
+|1%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-22-24-july-2024/|title=Latest US Swing States Voting Intention (22-24 July 2024)|date=July 25, 2024}}</ref>{{Efn-ua|name=telegraph}}
+| data-sort-value="2024-07-26" |July 22–24, 2024
+|851 (LV)
+|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''46%'''
+|39%
+|4%{{Efn|John Thomas (L) with 2%; Leila Hazou (G) with 1%; Marty Selker (C) with 0%; "Other (Another Third Party/Write-In)" with 1%}}
+|11%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/july-2024-swing-state-polls-harris-trails-trump-in-arizona-georgia-michigan-pennsylvania-tied-in-wisconsin/|title=July 2024 Swing State Polls: Harris Trails Trump in Arizona, Georgia, Michigan, Pennsylvania, Tied in Wisconsin|date=July 25, 2024|website=Emerson College Polling}}</ref>{{Efn-ua|Poll sponsored by ''[[The Hill (newspaper)|The Hill]]'' and [[Nexstar]]}}
+| data-sort-value="2024-07-25" |July 22–23, 2024
+|850 (RV)
+|±&nbsp;3.3%
+|{{party shading/Democratic}}|'''48%'''
+|44%
+|–
+|8%
+|-
+|style="text-align:left;"|SoCal Strategies (R)<ref>{{#invoke:cite|web|url=https://drive.google.com/file/d/1BTopd55Mr-uiOfZ_0booFKcstbNry-Ku/view|title=On Point Politics/SoCal Research Keystone State Survey|website=Google Docs|date=July 21, 2024}}</ref>{{Efn-ua|Poll sponsored by On Point Politics}}
+| data-sort-value="2024-07-22" |July 20–21, 2024
+|500 (LV)
+|±&nbsp;4.4%
+|{{party shading/Democratic}}|'''50%'''
+|40%
+|–
+|10%
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref>{{#invoke:cite|web|url=https://www.politico.com/f/?id=00000190-c7b2-d90b-a5fc-d7bf7a790000|title=New MI & PA surveys show Democrats have multiple paths to win|website=[[Politico]]|date=July 18, 2024}}</ref>{{Efn-ua|Poll sponsored by Clean and Prosperous America PAC, a group that supports Democrats.}}
+| data-sort-value="2024-07-19" |July 17–18, 2024
+|624 (RV)
+|±&nbsp;3.8%
+|{{party shading/Democratic}}|'''50%'''
+|39%
+|–
+|11%
+|-
+|style="text-align:left;"|Redfield & Wilton Strategies<ref>{{#invoke:cite|web|url=https://redfieldandwiltonstrategies.com/latest-us-swing-states-voting-intention-16-18-july-2024/|title=Latest US Swing States Voting Intention (16-18 July 2024)|website=Redfield & Wilton Strategies|date=July 21, 2024}}</ref>{{Efn-ua|name=telegraph}}
+| data-sort-value="2024-07-22" |July 16–18, 2024
+|688 (LV)
+|–
+|{{party shading/Democratic}}|'''44%'''
+|37%
+|3%{{Efn|Leila Hazou (G), John Thomas (L), and Marty Selker (C) with 1%}}
+|15%
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref>{{#invoke:cite|web|url=https://drive.google.com/file/d/1yS9Jqk2ZupZxw3VGK5UPDrG8AC4G7X06/view|title=PAF Swing State Poll Democrats v Trump|website=Google Docs|date=July 12, 2024}}</ref>{{Efn-ua|Poll sponsored by the Progress Action Fund, which is a sponsor of the Democratic Party.}}
+| data-sort-value="2024-07-22" |July 11–12, 2024
+|537 (RV)
+|–
+|{{party shading/Democratic}}|'''47%'''
+|44%
+|–
+|9%
+|-
+|rowspan=2; style="text-align:left;"|[[YouGov]]<ref>{{#invoke:cite|web|url=https://ygo-assets-websites-editorial-emea.yougov.net/documents/Times_SAY24_20240712_state_poll_results.pdf#page=169|title=The Times / SAY Poll: Pennsylvania|website=YouGov|date=July 15, 2024}}</ref>{{Efn-ua|name=times|Poll conducted for ''[[The Times]]'', [[Stanford University]], [[Arizona State University]], and [[Yale University]]}}
+| rowspan=2; data-sort-value="2024-07-15" |July 4–12, 2024
+|1,000 (RV)
+|±&nbsp;3.4%
+|{{party shading/Democratic}}|'''50%'''
+|38%
+|1%
+|11%
+|-
+|889 (LV)
+|–
+|{{party shading/Democratic}}|'''51%'''
+|39%
+|1%
+|9%
+|-
+|rowspan=2; style="text-align:left;"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|web|url=https://www.nytimes.com/interactive/2024/07/15/us/elections/times-siena-poll-pennsylvania-toplines.html|title=Toplines: July 2024 Times/Siena Poll of Registered Voters in Pennsylvania|website=The New York Times|date=July 15, 2024}}</ref>
+| rowspan=2; data-sort-value="2024-07-16" |July 9–11, 2024
+|872 (RV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''50%'''
+|39%
+|–
+|10%
+|-
+|872 (LV)
+|±&nbsp;3.8%
+|{{party shading/Democratic}}|'''50%'''
+|42%
+|–
+|8%
+|-
+|style="text-align:left;"|Expedition Strategies<ref>{{#invoke:cite|web|url=https://www.progressivepolicy.org/wp-content/uploads/2024/07/PPI-National-Healthcare-Poll-July-2024-Toplines-vFIN.pdf|title=Progressive Policy Institute - Nationwide Healthcare Poll|website=Progressive Policy Institute|date=July 30, 2024}}</ref>{{Efn-ua|name=PPI|Poll Sponsored by Progressive Policy Institute}}
+| data-sort-value="2024-10-21" |June 24 – July 8, 2024
+|284 (LV)
+|–
+|{{party shading/Democratic}}|'''48%'''
+|45%
+|–
+|7%
+|-
+|style="text-align:left;"|Remington Research Group (R)<ref>{{#invoke:cite|web|url=https://www.afpm.org/sites/default/files/issue_resources/AFPM%208%20States%20Survey%20Memo-FINAL.pdf|title=Voter Sentiment on Gas Car Ban and EV Mandate Policies Nationally and in Key States|website=American Fuel and Petrochemical Manufacturers|date=July 8, 2024}}</ref>{{Efn-ua|name=AFPM|Poll sponsored by American Fuel & Petrochemical Manufacturers, a group that supports Republicans.}}
+| data-sort-value="2024-06-20" |June 29 – July 1, 2024
+|673 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''49%'''
+|48%
+|–
+|4%
+|-
+|style="text-align:left;"|Cygnal (R)<ref>{{#invoke:cite|web|url=https://www.cygn.al/pennsylvania-poll-first-fielded-straddling-the-debate-trump-with-strong-lead-and-mccormick-within-striking-distance-of-casey/|title=Pennsylvania Poll: First Fielded Straddling the Debate – Trump with Strong Lead and McCormick within Striking Distance of Casey|first=Ryan|last=Shucard|date=July 1, 2024|website=Cygnal}}</ref>
+| data-sort-value="2024-06-20" |June 27–28, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''46%'''
+|42%
+|–
+|12%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://www.commonwealthfoundation.org/2024/07/02/survey-support-bipartisanship-pa-budget-process/|title=New Survey Shows Overwhelming Support for Bipartisanship in Pa. Budget Process|website=Commonwealth Foundation|date=July 1, 2024}}</ref>{{Efn-ua|name=CG}}
+| data-sort-value="2024-07-03" |June 14–19, 2024
+|800 (RV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''48%'''
+|36%
+|–
+|16%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/june-2024-state-polls-trump-maintains-edge-over-biden/|title=June 2024 State Polls: Trump Maintains Edge over Biden|date=June 20, 2024|website=Emerson College Polling}}</ref>{{Efn-ua|name=Hill|Poll sponsored by ''[[The Hill (newspaper)|The Hill]]''}}
+| data-sort-value="2024-06-20" |June 13–18, 2024
+|1,000 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''47%'''
+|41%
+|–
+|12%
+|-
+|style="text-align:left;"|[[Marist Poll|Marist College]]<ref>{{#invoke:cite|web|url=https://maristpoll.marist.edu/polls/the-2024-elections-in-pennsylvania/|title=The 2024 Elections in Pennsylvania - Trump Edges Biden by 2 Percentage Points in Pennsylvania, Casey Bests McCormick for U.S. Senate|website=Marist Poll|date=June 12, 2024}}</ref>
+| data-sort-value="2024-06-12" |June 3–6, 2024
+|1,181 (RV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''52%'''
+|46%
+|–
+|2%
+|-
+|style="text-align:left;" rowspan="2"|[[Mainstreet Research]]/[[Florida Atlantic University|FAU]]<ref>{{#invoke:cite|web|url=https://www.faupolling.com/wp-content/uploads/2024/06/mainstreet_PA_June_2024_Public.pdf|title=Mainstreet Research Survey - Pennsylvania|website=FAU Polling|date=June 4, 2024}}</ref>
+|rowspan="2"|May 30–31, 2024
+|1,012 (RV)
+|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''48%'''
+|40%
+|5%
+|7%
+|-
+|923 (LV)
+|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''49%'''
+|42%
+|3%
+|6%
+|-
+|style="text-align:left;"|KAConsulting (R)<ref>{{#invoke:cite|web|url=https://vaportechnology.org/wp-content/uploads/2024/07/PA-Banners.pdf|title=Vapor Technology Association Pennsylvania Crosstabs|website=Vapor Technology Association|date=July 8, 2024}}</ref>{{efn-ua|name=VTA|Poll conducted for Vapor Technology Association}}
+| data-sort-value="2024-07-08" |May 15–19, 2024
+|600 (RV)
+|–
+|{{party shading/Democratic}}|'''47%'''
+|37%
+|4%{{efn|"Would not vote" with 3%; "Someone else" with 1%}}
+|12%
+|-
+|style="text-align:left;"|BSG (R)/[[Global Strategy Group|GS Strategy Group]] (D)<ref>{{#invoke:cite|web|url=https://www.cookpolitical.com/survey-research/2024-swing-state-project/why-senate-democrats-are-running-strong-even|title=Why Senate Democrats Are Running Strong, Even as Biden Is Struggling|first=Amy|last=Walter|website=Cook Political Report|date=May 31, 2024}}</ref>{{efn-ua|name=CPR}}
+| data-sort-value="2024-05-23" |May 6–13, 2024
+|730 (LV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''49%'''
+|41%
+|–
+|10%
+|-
+|style="text-align:left;" rowspan="2"|[[New York Times]]/[[Siena College]]<ref>{{#invoke:cite|web|url=https://www.nytimes.com/interactive/2024/05/13/us/elections/times-siena-poll-pennsylvania-crosstabs.html|title=Cross-Tabs: May 2024 Times/Inquirer/Siena Poll of Pennsylvania
+|website=The New York Times |date=May 13, 2024|via=NYTimes.com}}</ref>{{efn-ua|name=PI|Poll sponsored by ''[[The Philadelphia Inquirer]]''}}
+|rowspan="2"|April 28 – May 9, 2024
+|1,023 (RV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''46%'''
+|41%
+|–
+|13%
+|-
+|1,023 (LV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''46%'''
+|44%
+|–
+|10%
+|-
+|style="text-align:left;"|Fabrizio Ward (R)/Impact Research (D)<ref>{{#invoke:cite|web|url=https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/pennsylvania-older-voter-survey-2024-report.doi.10.26419-2fres.00813.001.pdf|title=Pennsylvania Voter Survey|website=AARP|date=May 7, 2024}}</ref>{{Efn-ua|name=AARP|Poll commissioned by [[AARP]]}}
+| data-sort-value="2024-05-07" |April 24–30, 2024
+|1,398 (LV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''48%'''
+|44%
+|–
+|8%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/trump-holds-edge-over-biden-in-seven-key-swing-state-polls/|title=Trump Holds Edge Over Biden in Seven Key Swing State Polls|date=April 30, 2024|website=Emerson College Polling}}</ref>{{efn-ua|name=Hill}}
+|April 25–29, 2024
+|1,000 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''46%'''
+|42%
+|–
+|12%
+|-
+|style="text-align:left;"|[[CBS News]]/[[YouGov]]<ref>{{#invoke:cite|web|url=https://www.cbsnews.com/news/democrats-2024-senate-races-pennsylvania-wisconsin-cbs-news-poll/|title=Democrats start out ahead in Pennsylvania, Wisconsin 2024 Senate races — CBS News Battleground Tracker poll|first=Kabir|last=Khanna|website=CBS News|date=May 1, 2024}}</ref>
+|April 19–25, 2024
+|1,306 (LV)
+|±&nbsp;3.1%
+|{{party shading/Democratic}}|'''46%'''
+|39%
+|–
+|15%
+|-
+|style="text-align:left;"|[[Muhlenberg College]]<ref>{{#invoke:cite|web|url=https://www.muhlenberg.edu/media/contentassets/pdf/about/polling/surveys/pennsylvania/FINAL_PA_ELEC_2024_APRIL_REPORT%20(1).pdf|title=Pennsylvania Presidential Election Survey April 2024 Key Findings|website=Muhlenberg College|date=May 7, 2024}}</ref>
+| data-sort-value="2024-05-07" |April 15–25, 2024
+|417 (RV)
+|±&nbsp;6.0%
+|{{party shading/Democratic}}|'''45%'''
+|41%
+|5%
+|9%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://independentcenter.org/wp-content/uploads/2024/04/Independent-Center-Target-State-Poll-2024-Pennsylvania.pdf|title=2024 Target State Survey of Registered Voters|website=The Independent Center|date=April 19, 2024|archive-date=April 20, 2024|archive-url=https://web.archive.org/web/20240420021003/https://www.independentcenter.org/wp-content/uploads/2024/04/Independent-Center-Target-State-Poll-2024-Pennsylvania.pdf|url-status=dead}}</ref>{{Efn-ua|name=IC}}
+| data-sort-value="2024-04-19" |March 29 – April 3, 2024
+|600 (RV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''45%'''
+|38%
+|9%
+|8%
+|-
+|style="text-align:left;"|National Public Affairs<ref>{{#invoke:cite|web|url=https://www.politicspa.com/poll-2-in-5-undecided-on-casey-vs-mccormick/133607/|title=Poll: 2 in 5 Undecided on Casey vs. McCormick|first=Steve|last=Ulrich|website=PoliticsPA|date=April 9, 2024}}</ref>
+|March 2024
+|759 (LV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''32%'''
+|28%
+|–
+|{{party shading/Undecided}}|'''40%'''
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|web|url=https://www.fandmpoll.org/franklin-marshall-poll-release-april-2024/|title=Franklin & Marshall Poll Release - April 2024|first=Berwood|last=Yost|website=Franklin & Marshall College|date=April 4, 2024}}</ref>
+|March 20–31, 2024
+|431 (RV)
+|±&nbsp;5.7%
+|{{party shading/Democratic}}|'''46%'''
+|39%
+|–
+|15%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://www.commonwealthfoundation.org/wp-content/uploads/2024/04/Common-Ground-in-the-Commonwealth-Q1-2024-Survey-Analysis-Updated.pdf|title=Common Ground in the Commonwealth Q1 2024 Survey|website=Commonwealth Foundation|date=April 9, 2024}}</ref>{{Efn-ua|name=CG}}
+| data-sort-value="2024-04-09" |March 22–26, 2024
+|800 (RV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''47%'''
+|30%
+|8%
+|15%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/pennsylvania-2024-poll-trump-47-biden-43/|title=Pennsylvania 2024 Poll: Trump 47%, Biden 43%|date=March 14, 2024|website=Emerson College Polling}}</ref>
+|March 10–13, 2024
+|1,000 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''52%'''
+|48%
+|–
+|–
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://www.realclearpolitics.com/docs/2024/Toplines-PAStatewide-Omnibus-March2024-Public.pdf|title=PA Statewide Omnibus March 2024|website=[[RealClearPolitics]]|date=March 25, 2024}}</ref>
+| data-sort-value="2024-03-25" |February 27 – March 7, 2024
+|450 (LV)
+|±&nbsp;4.6%
+|{{party shading/Democratic}}|'''48%'''
+|42%
+|–
+|10%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/pennsylvania-2024-poll-trump-at-45-biden-at-43/|title=Pennsylvania 2024 Poll: Trump at 45%, Biden at 43%|date=February 20, 2024|website=Emerson College Polling}}</ref>
+|February 14–16, 2024
+|1,000 (RV)
+|±&nbsp;3.0%
+|{{party shading/Democratic}}|'''49%'''
+|39%
+|–
+|13%
+|-
+|style="text-align:left;"|Chism Strategies<ref>{{#invoke:cite|web|url=https://chismstrategies.com/would-a-taylor-swift-endorsement-help-biden/|title=Would a Taylor Swift endorsement help Biden?|first=Brannon|last=Miller|website=Chism Strategies|date=February 9, 2024}}</ref>
+| data-sort-value="2024-02-09" |February 6–8, 2024
+|500 (RV)
+|±&nbsp;5.0%
+|{{party shading/Democratic}}|'''38%'''
+|37%
+|–
+|25%
+|-
+
+|style="text-align:left;"|[[Public Opinion Strategies]] (R)<ref>{{#invoke:cite|web|url=https://www.politicspa.com/memo-mccormick-down-to-casey-but-far-from-out/132043/|title=Memo: McCormick Down to Casey But Far From Out|first=Steve|last=Ulrich|website=[[Politics PA]]|date=February 29, 2024}}</ref>{{Efn-ua|Poll sponsored by McCormick's campaign|name=CF}}
+|January 22–25, 2024
+|800 (LV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''47%'''
+|40%
+|–
+|12%
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|web|url=https://www.fandmpoll.org/content/files/2024/01/KEYFEB24_TOPLINE-2.pdf|title=Franklin & Marshall College Poll: February 2024|first=Berwood|last=Yost|website=Franklin & Marshall College Poll|date=February 1, 2024}}</ref>
+|January 17–28, 2024
+|1,006 (RV)
+|±&nbsp;3.6%
+|{{party shading/Democratic}}|'''47%'''
+|35%
+|4%
+|14%
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://www.realclearpolitics.com/docs/2024/Topllines-PAStatewide-Public-Jan2024.pdf|title=New Pennsylvania Poll: Biden Widens Lead Over Trump in Hypothetical POTUS Match Up; GOP D. McCormick Within Striking Distance of Casey, Jr., in Pa's critical US Senate Race|website=[[RealClearPolitics]]|date=January 23, 2024}}</ref>
+|January 15–21, 2024
+|745 (LV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''46%'''
+|42%
+|3%
+|9%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/images/polling/pa/pa01102024_pidf24.pdf|title=PA 2024 Elections: Biden On Upside Of Too-Close-To-Call Race, Quinnipiac University Pennsylvania Poll Finds; Casey Opens Up Double-Digit Lead In Senate Race|website=Quinnipiac University|date=January 10, 2024}}</ref>
+|January 4–8, 2024
+|1,680 (RV)
+|±&nbsp;2.4%
+|{{party shading/Democratic}}|'''53%'''
+|43%
+|1%{{Efn|name=WV1}}
+|2%
+|-
+|style="text-align:left;"|The Bullfinch Group<ref>{{#invoke:cite|web|url=https://www.commonwealthfoundation.org/wp-content/uploads/2023/12/Common-Ground-Q4-2023-Toplines.pdf|title=Common Ground in the Commonwealth Poll|website=Commonwealth Foundation|date=December 19, 2023}}</ref>{{efn-ua|name=CG|Poll sponsored by the [[Commonwealth Foundation for Public Policy Alternatives|Commonwealth Foundation]], a conservative think tank}}
+|December 8–12, 2023
+|800 (RV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''42%'''
+|27%
+|13%{{Efn|"None of the above" with 8%; "Other" with 5%}}
+|20%
+|-
+|style="text-align:left;"|[[Change Research]] (D)<ref>{{#invoke:cite|web|url=https://futuremajority.org/wp-content/uploads/FM-NV-PA-NY-CDs-Report.pdf|title=Pulse of the Nation Report - Analysis of Voter Attitudes in Nevada, Pennsylvania, and Competitive New York Congressional Districts|website=Future Majority|date=January 8, 2024}}</ref>{{efn-ua|name=CM|Poll sponsored by Future Majority, a partisan sponsor for the Democratic Party.}}
+|December 3–7, 2023
+|2,532 (RV)
+|±&nbsp;3.5%
+|{{party shading/Democratic}}|'''44%'''
+|41%
+|0%
+|15%
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref>{{#invoke:cite|web|url=https://www.fandmpoll.org/franklin-marshall-poll-release-october-2023/|title=Franklin & Marshall Poll Release: October 2023|first=Berwood|last=Yost|date=October 26, 2023|website=Franklin & Marshall College Poll}}</ref>
+|October 11–22, 2023
+|873 (RV)
+|±&nbsp;4.1%
+|{{party shading/Democratic}}|'''46%'''
+|39%
+|4%
+|12%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{#invoke:cite|web|url=https://emersoncollegepolling.com/pennsylvania-2024-poll-young-voters-hesitant-to-support-biden-but-stick-with-sen-casey/|title=Pennsylvania 2024 Poll: Young Voters Hesitant to Support Biden but Stick With Sen. Casey|date=October 11, 2023|website=Emerson College Polling}}</ref>
+|October 1–4, 2023
+|430 (RV)
+|±&nbsp;4.7%
+|{{party shading/Democratic}}|'''41%'''
+|33%
+|8%
+|18%
+|-
+|style="text-align:left;"|[[Quinnipiac University Polling Institute|Quinnipiac University]]<ref>{{#invoke:cite|web|url=https://poll.qu.edu/images/polling/pa/pa10042023_pthi25.pdf|title=PA 2024 Elections: Casey Leads McCormick In U.S. Senate Race, Quinnipiac University Pennsylvania Poll Finds; Race For The White House: Biden vs. Trump Matchup Barely Budges|website=Quinnipiac University|date=October 4, 2023}}</ref>
+|September 28 – October 2, 2023
+|1,725 (RV)
+|±&nbsp;2.4%
+|{{party shading/Democratic}}|'''50%'''
+|44%
+|2%{{Efn|"Someone else" & "Wouldn't vote" with 1%}}
+|4%
+|-
+|style="text-align:left;"|[[Susquehanna Polling & Research]] (R)<ref>{{#invoke:cite|web|url=https://www.realclearpolitics.com/docs/2023/Toplines-PUBLIC-PAStatewide-SPR-May2023.pdf|title=Pennsylvania Statewide Voter Attitude Survey|website=RealClearPolitics|date=May 10, 2023}}</ref>
+|May 2–8, 2023
+|700 (LV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''53%'''
+|41%
+|1%
+|5%
+|-
+|style="text-align:left;"|Cygnal (R)<ref name="Cygnal R">{{#invoke:cite|web|url=https://www.politico.com/news/2023/05/15/democrats-republicans-senate-primary-races-00096740|title=Dems' great hope to hold the Senate: GOP primary implosions|first1=Burgess|last1=Everett|first2=Holly|last2=Otterbein|website=Politico|date=May 15, 2023}}</ref>
+|April 12–13, 2023
+|600 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''46%'''
+|41%
+|0%
+|13%
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref name="Franklin & Marshall College">{{#invoke:cite|web|url=https://www.fandmpoll.org/franklin-marshall-college-poll-april-2023/|title=Franklin & Marshall Poll Release April 2023|first=Berwood|last=Yost|date=April 13, 2023|website=Franklin & Marshall College Poll}}</ref>
+|March 27 – April 7, 2023
+|643 (RV)
+|±&nbsp;6.6%
+|{{party shading/Democratic}}|'''42%'''
+|35%
+|–
+|23%
+|-
+|}
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''Bob Casey Jr. vs. Doug Mastriano'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Bob<br />Casey Jr. (D)
+! style="width:100px;"| Doug<br />Mastriano (R)
+! Undecided
+|-
+|style="text-align:left;"|[[Franklin & Marshall College]]<ref name="Franklin & Marshall College"/>
+|March 27 – April 7, 2023
+|643 (RV)
+|±&nbsp;3.7%
+|{{party shading/Democratic}}|'''47%'''
+|31%
+|22%
+|-
+|style="text-align:left;"|Cygnal (R)<ref name="Cygnal R"/>
+|April 12–13, 2023
+|600 (LV)
+|±&nbsp;4.0%
+|{{party shading/Democratic}}|'''49%'''
+|39%
+|12%
+|}
+{{hidden end}}
+
+=== Results ===
+{{Election box begin|title=2024 United States Senate election in Pennsylvania<ref>{{cite news |title=2024 Presidential Election (Official Returns) |website=Commonwealth of Pennsylvania |date=November 5, 2024 |access-date=December 5, 2024 |url=https://www.electionreturns.pa.gov/General/SummaryResults?ElectionID=105&ElectionType=G&IsActive=1}}</ref><ref>{{cite web |title=WRITE-IN VOTES FROM THE NOVEMBER 5, 2024 GENERAL ELECTION |url=https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/voting-and-elections/running-for-office/2024/2024%20write-in%20votes%20for%20website%20final.pdf |website=PA Department of State}}</ref>}}
+{{Election box winning candidate with party link|party=Republican Party (United States)|candidate=[[Dave McCormick]]|votes=3,399,295|percentage=48.78%|change=+6.18%}}
+{{Election box candidate with party link|party=Democratic Party (United States)|candidate=[[Bob Casey Jr.]] (incumbent)|votes=3,384,180|percentage=48.56%|change=−7.16%}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=John Thomas|votes=89,653|percentage=1.29%|change=+0.27%}}
+{{Election box candidate with party link|party=Green Party (US)|candidate=Leila Hazou|votes=66,388|percentage=0.95%|change=+0.33%}}
+{{Election box candidate with party link|party=Constitution Party (US)|candidate=Marty Selker|votes=23,621|percentage=0.34%|change=N/A}}
+{{Election box write-in with party link|votes=5,598|percentage=0.08%|change=+0.05%}}
+{{Election box total|votes=6,968,735|percentage=100.0%}}
+{{Election box gain with party link no swing|winner=Republican Party (United States)|loser=Democratic Party (United States)}}
+{{Election box end}}
+
+====Results by county====
+{| width="60%"  class="wikitable sortable" style="text-align:center"
+|-
+! rowspan="2"| County<ref>{{cite news |title=2024 Senate Election (Official Returns) |website=Commonwealth of Pennsylvania by county |date=November 5, 2024 |access-date=December 5, 2024 |url=https://www.nbcnews.com/politics/2024-elections/pennsylvania-senate-results}}</ref>
+! style="text-align:center;" colspan="2"| Dave McCormick<br />Republican
+! style="text-align:center;" colspan="2"| Bob Casey Jr.<br />Democratic
+! style="text-align:center;" colspan="2"| Various candidates<br />Other parties
+! style="text-align:center;" colspan="2"| Margin
+! rowspan="2" style="text-align:center;"| Total votes cast
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Adams County, Pennsylvania|Adams]]
+| {{party shading/Republican}}| '''38,505'''
+| {{party shading/Republican}}|'''63.88%'''
+| {{party shading/Democratic}}| 19,947
+| {{party shading/Democratic}}| 33.09%
+| {{party shading/Others}}| 1,824
+| {{party shading/Others}}| 3.03%
+| {{party shading/Republican}}| 18,556
+| {{party shading/Republican}}| 30.79%
+| {{party shading/Republican}}| 60,276
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Allegheny County, Pennsylvania|Allegheny]]
+| {{party shading/Republican}}|272,861
+| {{party shading/Republican}}|38.11%
+| {{party shading/Democratic}}| '''425,280'''
+| {{party shading/Democratic}}| '''59.40%'''
+| {{party shading/Others}}| 17,781
+| {{party shading/Others}}| 2.48%
+| {{party shading/Democratic}}| -152,419
+| {{party shading/Democratic}}| -21.29%
+| {{party shading/Democratic}}| 715,922
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Armstrong County, Pennsylvania|Armstrong]]
+| {{party shading/Republican}}|'''26,653'''
+| {{party shading/Republican}}|'''72.14%'''
+| {{party shading/Democratic}}| 9,136
+| {{party shading/Democratic}}| 24.73%
+| {{party shading/Others}}| 1,155
+| {{party shading/Others}}| 3.13%
+| {{party shading/Republican}}| 17,517
+| {{party shading/Republican}}| 47.42%
+| {{party shading/Republican}}| 36,944
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Beaver County, Pennsylvania|Beaver]]
+| {{party shading/Republican}}| '''53,593'''
+| {{party shading/Republican}}| '''56.56%'''
+| {{party shading/Democratic}}| 38,529
+| {{party shading/Democratic}}| 40.66%
+| {{party shading/Others}}| 2,635
+| {{party shading/Others}}| 2.78%
+| {{party shading/Republican}}| 15,064
+| {{party shading/Republican}}| 15.90%
+| {{party shading/Republican}}| 94,757
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Bedford County, Pennsylvania|Bedford]]
+| {{party shading/Republican}}| '''22,855'''
+| {{party shading/Republican}}| '''81.50%'''
+| {{party shading/Democratic}}| 4,624
+| {{party shading/Democratic}}| 16.49%
+| {{party shading/Others}}|564
+| {{party shading/Others}}|2.01%
+| {{party shading/Republican}}| 18,231
+| {{party shading/Republican}}| 65.01%
+| {{party shading/Republican}}| 28,043
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Berks County, Pennsylvania|Berks]]
+| {{party shading/Republican}}| '''108,058'''
+| {{party shading/Republican}}| '''53.06%'''
+| {{party shading/Democratic}}| 89,063
+| {{party shading/Democratic}}| 43.74%
+| {{party shading/Others}}| 6,521
+| {{party shading/Others}}| 3.20%
+| {{party shading/Republican}}| 18,995
+| {{party shading/Republican}}| 9.33%
+| {{party shading/Republican}}| 203,642
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Blair County, Pennsylvania|Blair]]
+| {{party shading/Republican}}| '''44,741'''
+| {{party shading/Republican}}| '''69.13%'''
+| {{party shading/Democratic}}| 18,445
+| {{party shading/Democratic}}| 28.50%
+| {{party shading/Others}}| 1,537
+| {{party shading/Others}}| 2.37%
+| {{party shading/Republican}}| 26,296
+| {{party shading/Republican}}| 40.63%
+| {{party shading/Republican}}| 64,723
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Bradford County, Pennsylvania|Bradford]]
+| {{party shading/Republican}}| '''22,099'''
+| {{party shading/Republican}}| '''71.50%'''
+| {{party shading/Democratic}}| 8,007
+| {{party shading/Democratic}}| 25.90%
+| {{party shading/Others}}| 804
+| {{party shading/Others}}| 2.60%
+| {{party shading/Republican}}| 14,092
+| {{party shading/Republican}}| 45.59%
+| {{party shading/Republican}}| 30,910
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Bucks County, Pennsylvania|Bucks]]
+| {{party shading/Republican}}| 194,203
+| {{party shading/Republican}}| 48.57%
+| {{party shading/Democratic}}| '''196,444'''
+| {{party shading/Democratic}}| '''49.13%'''
+| {{party shading/Others}}| 9,186
+| {{party shading/Others}}| 2.30%
+| {{party shading/Democratic}}| −2,241
+| {{party shading/Democratic}}| -0.56%
+| {{party shading/Democratic}}| 399,833
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Butler County, Pennsylvania|Butler]]
+| {{party shading/Republican}}| '''77,328'''
+| {{party shading/Republican}}| '''63.93%'''
+| {{party shading/Democratic}}| 40,973
+| {{party shading/Democratic}}| 33.87%
+| {{party shading/Others}}| 2,666
+| {{party shading/Others}}| 2.20%
+| {{party shading/Republican}}| 36,355
+| {{party shading/Republican}}| 30.05%
+| {{party shading/Republican}}| 120,967
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Cambria County, Pennsylvania|Cambria]]
+| {{party shading/Republican}}| '''46,482'''
+| {{party shading/Republican}}| '''65.47%'''
+| {{party shading/Democratic}}| 22,887
+| {{party shading/Democratic}}| 32.24%
+| {{party shading/Others}}| 1,635
+| {{party shading/Others}}| 2.30%
+| {{party shading/Republican}}| 23,595
+| {{party shading/Republican}}| 33.23%
+| {{party shading/Republican}}| 71,004
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Cameron County, Pennsylvania|Cameron]]
+| {{party shading/Republican}}| '''1,558'''
+| {{party shading/Republican}}| '''70.37%'''
+| {{party shading/Democratic}}| 580
+| {{party shading/Democratic}}| 26.20%
+| {{party shading/Others}}| 76
+| {{party shading/Others}}| 3.43%
+| {{party shading/Republican}}| 978
+| {{party shading/Republican}}| 44.17%
+| {{party shading/Republican}}| 2,214
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Carbon County, Pennsylvania|Carbon]]
+| {{party shading/Republican}}| '''22,603 '''
+| {{party shading/Republican}}| '''64.45%'''
+| {{party shading/Democratic}}| 11,570
+| {{party shading/Democratic}}| 32.99%
+| {{party shading/Others}}| 898
+| {{party shading/Others}}| 2.56%
+| {{party shading/Republican}}| 11,033
+| {{party shading/Republican}}| 31.46%
+| {{party shading/Republican}}| 35,071
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Centre County, Pennsylvania|Centre]]
+| {{party shading/Republican}}| 38,054
+| {{party shading/Republican}}| 47.32%
+| {{party shading/Democratic}}| '''40,382 '''
+| {{party shading/Democratic}}| '''50.22% '''
+| {{party shading/Others}}| 1,979
+| {{party shading/Others}}| 2.46%
+| {{party shading/Democratic}}| -2,328
+| {{party shading/Democratic}}| -2.89%
+| {{party shading/Democratic}}| 80,415
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Chester County, Pennsylvania|Chester]]
+| {{party shading/Republican}}| 138,271
+| {{party shading/Republican}}| 42.60%
+| {{party shading/Democratic}}| ''' 178,765 '''
+| {{party shading/Democratic}}| ''' 55.07% '''
+| {{party shading/Others}}| 7,551
+| {{party shading/Others}}| 2.33%
+| {{party shading/Democratic}}| -40,494
+| {{party shading/Democratic}}| −12.65%
+| {{party shading/Democratic}}| 324,587
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Clarion County, Pennsylvania|Clarion]]
+| {{party shading/Republican}}| ''' 14,179 '''
+| {{party shading/Republican}}| ''' 72.06% '''
+| {{party shading/Democratic}}| 4,683
+| {{party shading/Democratic}}| 23.80%
+| {{party shading/Others}}| 815
+| {{party shading/Others}}| 4.14%
+| {{party shading/Republican}}| 9,496
+| {{party shading/Republican}}| 48.26%
+| {{party shading/Republican}}| 19,677
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Clearfield County, Pennsylvania|Clearfield]]
+| {{party shading/Republican}}| ''' 29,063 '''
+| {{party shading/Republican}}| ''' 72.27% '''
+| {{party shading/Democratic}}| 10,111
+| {{party shading/Democratic}}| 25.14%
+| {{party shading/Others}}| 1,038
+| {{party shading/Others}}| 2.58%
+| {{party shading/Republican}}| 18,952
+| {{party shading/Republican}}| 47.13%
+| {{party shading/Republican}}| 40,212
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Clinton County, Pennsylvania|Clinton]]
+| {{party shading/Republican}}| ''' 12,250 '''
+| {{party shading/Republican}}| ''' 66.40% '''
+| {{party shading/Democratic}}| 5,722
+| {{party shading/Democratic}}| 31.02%
+| {{party shading/Others}}| 476
+| {{party shading/Others}}| 2.58%
+| {{party shading/Republican}}| 6,528
+| {{party shading/Republican}}| 35.38%
+| {{party shading/Republican}}| 18,448
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Columbia County, Pennsylvania|Columbia]]
+| {{party shading/Republican}}| ''' 20,617 '''
+| {{party shading/Republican}}| ''' 63.63% '''
+| {{party shading/Democratic}}| 10,969
+| {{party shading/Democratic}}| 33.85%
+| {{party shading/Others}}| 814
+| {{party shading/Others}}| 2.51%
+| {{party shading/Republican}}| 9,648
+| {{party shading/Republican}}| 29.78%
+| {{party shading/Republican}}| 32,400
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Crawford County, Pennsylvania|Crawford]]
+| {{party shading/Republican}}| ''' 28,234 '''
+| {{party shading/Republican}}| ''' 63.10% '''
+| {{party shading/Democratic}}| 13,370
+| {{party shading/Democratic}}| 31.30%
+| {{party shading/Others}}| 1,110
+| {{party shading/Others}}| 2.60%
+| {{party shading/Republican}}| 14,864
+| {{party shading/Republican}}| 31.80%
+| {{party shading/Republican}}| 42,714
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Cumberland County, Pennsylvania|Cumberland]]
+| {{party shading/Republican}}| ''' 78,178 '''
+| {{party shading/Republican}}| ''' 53.04% '''
+| {{party shading/Democratic}}| 64,713
+| {{party shading/Democratic}}| 43.90%
+| {{party shading/Others}}| 4,512
+| {{party shading/Others}}| 3.06%
+| {{party shading/Republican}}| 13,465
+| {{party shading/Republican}}| 9.14%
+| {{party shading/Republican}}| 147,403
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Dauphin County, Pennsylvania|Dauphin]]
+| {{party shading/Republican}}| 66,949
+| {{party shading/Republican}}| 44.95%
+| {{party shading/Democratic}}| ''' 77,022 '''
+| {{party shading/Democratic}}| ''' 51.71% '''
+| {{party shading/Others}}| 4,985
+| {{party shading/Others}}| 3.34%
+| {{party shading/Democratic}}| −10,073
+| {{party shading/Democratic}}| -6.76%
+| {{party shading/Democratic}}| 148,956
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Delaware County, Pennsylvania|Delaware]]
+| {{party shading/Republican}}| 121,482
+| {{party shading/Republican}}| 37.21%
+| {{party shading/Democratic}}| ''' 197,424 '''
+| {{party shading/Democratic}}| ''' 60.48% '''
+| {{party shading/Others}}| 7,551
+| {{party shading/Others}}| 2.31%
+| {{party shading/Democratic}}| −75,942
+| {{party shading/Democratic}}| -23.26%
+| {{party shading/Democratic}}| 326,457
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Elk County, Pennsylvania|Elk]]
+| {{party shading/Republican}}| ''' 11,939 '''
+| {{party shading/Republican}}| ''' 69.75% '''
+| {{party shading/Democratic}}| 4,679
+| {{party shading/Democratic}}| 28.33%
+| {{party shading/Others}}| 499
+| {{party shading/Others}}| 2.92%
+| {{party shading/Republican}}| 7,260
+| {{party shading/Republican}}| 42.42%
+| {{party shading/Republican}}| 17,117
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Erie County, Pennsylvania|Erie]]
+| {{party shading/Republican}}| 65,603
+| {{party shading/Republican}}| 47.94%
+| {{party shading/Democratic}}| ''' 67,868 '''
+| {{party shading/Democratic}}| ''' 49.60% '''
+| {{party shading/Others}}| 3,371
+| {{party shading/Others}}| 2.46%
+| {{party shading/Democratic}}| −2,265
+| {{party shading/Democratic}}| -1.66%
+| {{party shading/Democratic}}| 136,842
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Fayette County, Pennsylvania|Fayette]]
+| {{party shading/Republican}}| ''' 40,804 '''
+| {{party shading/Republican}}| ''' 64.82% '''
+| {{party shading/Democratic}}| 20,752
+| {{party shading/Democratic}}| 32.97%
+| {{party shading/Others}}| 1,389
+| {{party shading/Others}}| 2.21%
+| {{party shading/Republican}}| 20,052
+| {{party shading/Republican}}| 31.86%
+| {{party shading/Republican}}| 62,945
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Forest County, Pennsylvania|Forest]]
+| {{party shading/Republican}}| ''' 1,808 '''
+| {{party shading/Republican}}| ''' 68.25% '''
+| {{party shading/Democratic}}| 741
+| {{party shading/Democratic}}| 27.97%
+| {{party shading/Others}}| 100
+| {{party shading/Others}}| 3.78%
+| {{party shading/Republican}}| 1,067
+| {{party shading/Republican}}| 40.28%
+| {{party shading/Republican}}| 2,649
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Franklin County, Pennsylvania|Franklin]]
+| {{party shading/Republican}}| ''' 57,217 '''
+| {{party shading/Republican}}| ''' 68.84% '''
+| {{party shading/Democratic}}| 23,591
+| {{party shading/Democratic}}| 28.38%
+| {{party shading/Others}}| 2,313
+| {{party shading/Others}}| 2.78%
+| {{party shading/Republican}}| 33,626
+| {{party shading/Republican}}| 40.46%
+| {{party shading/Republican}}| 83,121
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Fulton County, Pennsylvania|Fulton]]
+| {{party shading/Republican}}| ''' 6,773 '''
+| {{party shading/Republican}}| ''' 83.45% '''
+| {{party shading/Democratic}}| 1,197
+| {{party shading/Democratic}}| 14.75%
+| {{party shading/Others}}| 146
+| {{party shading/Others}}| 1.80%
+| {{party shading/Republican}}| 5,576
+| {{party shading/Republican}}| 68.70%
+| {{party shading/Republican}}| 8,116
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Greene County, Pennsylvania|Greene]]
+| {{party shading/Republican}}| ''' 11,643 '''
+| {{party shading/Republican}}| ''' 67.91% '''
+| {{party shading/Democratic}}| 5,075
+| {{party shading/Democratic}}| 29.60%
+| {{party shading/Others}}| 427
+| {{party shading/Others}}| 2.49%
+| {{party shading/Republican}}| 6,568
+| {{party shading/Republican}}| 38.31%
+| {{party shading/Republican}}| 17,145
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Huntingdon County, Pennsylvania|Huntingdon]]
+| {{party shading/Republican}}| ''' 16,910 '''
+| {{party shading/Republican}}| ''' 74.43% '''
+| {{party shading/Democratic}}| 5,582
+| {{party shading/Democratic}}| 24.24%
+| {{party shading/Others}}| 986
+| {{party shading/Others}}| 4.28%
+| {{party shading/Republican}}| 11,328
+| {{party shading/Republican}}| 49.19%
+| {{party shading/Republican}}| 23,028
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Indiana County, Pennsylvania|Indiana]]
+| {{party shading/Republican}}| ''' 27,881 '''
+| {{party shading/Republican}}| ''' 66.28% '''
+| {{party shading/Democratic}}| 13,181
+| {{party shading/Democratic}}| 31.33%
+| {{party shading/Others}}| 1,006
+| {{party shading/Others}}| 2.39%
+| {{party shading/Republican}}| 14,700
+| {{party shading/Republican}}| 34.94%
+| {{party shading/Republican}}| 42,068
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Jefferson County, Pennsylvania|Jefferson]]
+| {{party shading/Republican}}| ''' 17,618 '''
+| {{party shading/Republican}}| ''' 76.34% '''
+| {{party shading/Democratic}}| 4,834
+| {{party shading/Democratic}}| 20.95%
+| {{party shading/Others}}| 626
+| {{party shading/Others}}| 2.71%
+| {{party shading/Republican}}| 12,784
+| {{party shading/Republican}}| 55.39%
+| {{party shading/Republican}}| 23,078
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Juniata County, Pennsylvania|Juniata]]
+| {{party shading/Republican}}| ''' 9,252 '''
+| {{party shading/Republican}}| ''' 76.82% '''
+| {{party shading/Democratic}}| 2,478
+| {{party shading/Democratic}}| 20.58%
+| {{party shading/Others}}| 313
+| {{party shading/Others}}| 2.60%
+| {{party shading/Republican}}| 6,774
+| {{party shading/Republican}}| 56.25%
+| {{party shading/Republican}}| 12,043
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Lackawanna County, Pennsylvania|Lackawanna]]
+| {{party shading/Republican}}| 51,944
+| {{party shading/Republican}}| 44.82%
+| {{party shading/Democratic}}| ''' 61,653 '''
+| {{party shading/Democratic}}| ''' 53.20% '''
+| {{party shading/Others}}| 2,289
+| {{party shading/Others}}| 1.98%
+| {{party shading/Democratic}}| −9,709
+| {{party shading/Democratic}}| −8.38%
+| {{party shading/Democratic}}| 115,886
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Lancaster County, Pennsylvania|Lancaster]]
+| {{party shading/Republican}}| ''' 162,105 '''
+| {{party shading/Republican}}| ''' 56.22% '''
+| {{party shading/Democratic}}| 118,580
+| {{party shading/Democratic}}| 41.12%
+| {{party shading/Others}}| 7,668
+| {{party shading/Others}}| 2.66%
+| {{party shading/Republican}}| 43,525
+| {{party shading/Republican}}| 15.10%
+| {{party shading/Republican}}| 288,353
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Lawrence County, Pennsylvania|Lawrence]]
+| {{party shading/Republican}}| ''' 29,405 '''
+| {{party shading/Republican}}| ''' 62.84% '''
+| {{party shading/Democratic}}| 16,176
+| {{party shading/Democratic}}| 34.57%
+| {{party shading/Others}}| 1,211
+| {{party shading/Others}}| 2.59%
+| {{party shading/Republican}}| 13,229
+| {{party shading/Republican}}| 28.27%
+| {{party shading/Republican}}| 46,792
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Lebanon County, Pennsylvania|Lebanon]]
+| {{party shading/Republican}}| ''' 46,172 '''
+| {{party shading/Republican}}| ''' 63.13% '''
+| {{party shading/Democratic}}| 24,745
+| {{party shading/Democratic}}| 33.83%
+| {{party shading/Others}}| 2,222
+| {{party shading/Others}}| 3.04%
+| {{party shading/Republican}}| 21,427
+| {{party shading/Republican}}| 29.30%
+| {{party shading/Republican}}| 73,139
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Lehigh County, Pennsylvania|Lehigh]]
+| {{party shading/Republican}}| 87,147
+| {{party shading/Republican}}| 46.46%
+| {{party shading/Democratic}}| ''' 94,875 '''
+| {{party shading/Democratic}}| ''' 50.58% '''
+| {{party shading/Others}}| 5,562
+| {{party shading/Others}}| 2.96%
+| {{party shading/Democratic}}| −7,728
+| {{party shading/Democratic}}| −4.12%
+| {{party shading/Democratic}}| 187,584
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Luzerne County, Pennsylvania|Luzerne]]
+| {{party shading/Republican}}| ''' 87,048 '''
+| {{party shading/Republican}}| ''' 56.17% '''
+| {{party shading/Democratic}}| 64,495
+| {{party shading/Democratic}}| 41.61%
+| {{party shading/Others}}| 3,442
+| {{party shading/Others}}| 2.22%
+| {{party shading/Republican}}| 22,553
+| {{party shading/Republican}}| 14.55%
+| {{party shading/Republican}}| 154,985
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Lycoming County, Pennsylvania|Lycoming]]
+| {{party shading/Republican}}| ''' 40,672 '''
+| {{party shading/Republican}}| ''' 68.36% '''
+| {{party shading/Democratic}}| 17,354
+| {{party shading/Democratic}}| 29.17%
+| {{party shading/Others}}| 1,472
+| {{party shading/Others}}| 2.47%
+| {{party shading/Republican}}| 23,318
+| {{party shading/Republican}}| 39.19%
+| {{party shading/Republican}}| 59,498
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[McKean County, Pennsylvania|McKean]]
+| {{party shading/Republican}}| ''' 13,799 '''
+| {{party shading/Republican}}| ''' 70.51% '''
+| {{party shading/Democratic}}| 5,231
+| {{party shading/Democratic}}| 26.73%
+| {{party shading/Others}}| 541
+| {{party shading/Others}}| 2.47%
+| {{party shading/Republican}}| 8,568
+| {{party shading/Republican}}| 43.78%
+| {{party shading/Republican}}| 19,571
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Mercer County, Pennsylvania|Mercer]]
+| {{party shading/Republican}}| ''' 36,468 '''
+| {{party shading/Republican}}| ''' 62.78% '''
+| {{party shading/Democratic}}| 20,302
+| {{party shading/Democratic}}| 34.95%
+| {{party shading/Others}}| 1,318
+| {{party shading/Others}}| 2.27%
+| {{party shading/Republican}}| 16,166
+| {{party shading/Republican}}| 27.83%
+| {{party shading/Republican}}| 58,088
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Mifflin County, Pennsylvania|Mifflin]]
+| {{party shading/Republican}}| ''' 16,413 '''
+| {{party shading/Republican}}| ''' 74.79% '''
+| {{party shading/Democratic}}| 4,991
+| {{party shading/Democratic}}| 22.74%
+| {{party shading/Others}}| 542
+| {{party shading/Others}}| 2.47%
+| {{party shading/Republican}}| 11,422
+| {{party shading/Republican}}| 52.05%
+| {{party shading/Republican}}| 21,946
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Monroe County, Pennsylvania|Monroe]]
+| {{party shading/Republican}}| 40,884
+| {{party shading/Republican}}| 48.07%
+| {{party shading/Democratic}}| ''' 41,712 '''
+| {{party shading/Democratic}}| ''' 49.04% '''
+| {{party shading/Others}}| 2,455
+| {{party shading/Others}}| 2.89%
+| {{party shading/Democratic}}| −828
+| {{party shading/Democratic}}| -0.97%
+| {{party shading/Democratic}}| 85,051
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Montgomery County, Pennsylvania|Montgomery]]
+| {{party shading/Republican}}| 196,422
+| {{party shading/Republican}}| 37.78%
+| {{party shading/Democratic}}| ''' 311,859 '''
+| {{party shading/Democratic}}| ''' 59.98% '''
+| {{party shading/Others}}| 11,687
+| {{party shading/Others}}| 2.25%
+| {{party shading/Democratic}}| −115,437
+| {{party shading/Democratic}}| −22.20%
+| {{party shading/Democratic}}| 519,968
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Montour County, Pennsylvania|Montour]]
+| {{party shading/Republican}}| ''' 5,847 '''
+| {{party shading/Republican}}| ''' 59.06% '''
+| {{party shading/Democratic}}| 3,813
+| {{party shading/Democratic}}| 38.52%
+| {{party shading/Others}}| 240
+| {{party shading/Others}}| 2.42%
+| {{party shading/Republican}}| 2,034
+| {{party shading/Republican}}| 20.54%
+| {{party shading/Republican}}| 9,900
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Northampton County, Pennsylvania|Northampton]]
+| {{party shading/Republican}}| ''' 85,787 '''
+| {{party shading/Republican}}| ''' 49.13% '''
+| {{party shading/Democratic}}| 84,762
+| {{party shading/Democratic}}| 48.54%
+| {{party shading/Others}}| 4,066
+| {{party shading/Others}}| 2.33%
+| {{party shading/Republican}}| 1,025
+| {{party shading/Republican}}| 0.59%
+| {{party shading/Republican}}| 174,615
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Northumberland County, Pennsylvania|Northumberland]]
+| {{party shading/Republican}}| ''' 28,706 '''
+| {{party shading/Republican}}| ''' 66.31% '''
+| {{party shading/Democratic}}| 13,432
+| {{party shading/Democratic}}| 31.03%
+| {{party shading/Others}}| 1,156
+| {{party shading/Others}}| 2.66%
+| {{party shading/Republican}}| 15,274
+| {{party shading/Republican}}| 35.28%
+| {{party shading/Republican}}| 43,294
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Perry County, Pennsylvania|Perry]]
+| {{party shading/Republican}}| ''' 18,355 '''
+| {{party shading/Republican}}| ''' 71.48% '''
+| {{party shading/Democratic}}| 6,470
+| {{party shading/Democratic}}| 25.19%
+| {{party shading/Others}}| 855
+| {{party shading/Others}}| 3.33%
+| {{party shading/Republican}}| 11,885
+| {{party shading/Republican}}| 46.28%
+| {{party shading/Republican}}| 25,680
+|- style="text-align:center;"
+| {{party shading/Democratic}}| [[Philadelphia County, Pennsylvania|Philadelphia]]
+| {{party shading/Republican}}| 129,098
+| {{party shading/Republican}}| 18.70%
+| {{party shading/Democratic}}| ''' 541,567 '''
+| {{party shading/Democratic}}| ''' 78.45% '''
+| {{party shading/Others}}| 19,651
+| {{party shading/Others}}| 2.85%
+| {{party shading/Democratic}}| −412,469
+| {{party shading/Democratic}}| -59.75%
+| {{party shading/Democratic}}| 690,316 
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Pike County, Pennsylvania|Pike]]
+| {{party shading/Republican}}| ''' 20,869 '''
+| {{party shading/Republican}}| ''' 60.30% '''
+| {{party shading/Democratic}}| 6,470
+| {{party shading/Democratic}}| 37.30%
+| {{party shading/Others}}| 831
+| {{party shading/Others}}| 2.40%
+| {{party shading/Republican}}| 7,960
+| {{party shading/Republican}}| 23.00%
+| {{party shading/Republican}}| 34,609
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Potter County, Pennsylvania|Potter]]
+| {{party shading/Republican}}| ''' 7,109 '''
+| {{party shading/Republican}}| ''' 78.51% '''
+| {{party shading/Democratic}}| 1,695
+| {{party shading/Democratic}}| 18.72%
+| {{party shading/Others}}| 251
+| {{party shading/Others}}| 2.77%
+| {{party shading/Republican}}| 5,414
+| {{party shading/Republican}}| 59.79%
+| {{party shading/Republican}}| 9,055
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Schuylkill County, Pennsylvania|Schuylkill]]
+| {{party shading/Republican}}|'''48,553'''
+| {{party shading/Republican}}|'''66.66%'''
+| {{party shading/Democratic}}| 22,224
+| {{party shading/Democratic}}| 30.51%
+| {{party shading/Others}}| 2,063
+| {{party shading/Others}}| 2.83%
+| {{party shading/Republican}}| 26,329
+| {{party shading/Republican}}| 36.15%
+| {{party shading/Republican}}| 72,840
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Snyder County, Pennsylvania|Snyder]]
+| {{party shading/Republican}}|'''14,211'''
+| {{party shading/Republican}}|'''71.24%'''
+| {{party shading/Democratic}}| 5,309
+| {{party shading/Democratic}}| 26.62%
+| {{party shading/Others}}| 427
+| {{party shading/Others}}| 2.14%
+| {{party shading/Republican}}| 8,902
+| {{party shading/Republican}}| 44.63%
+| {{party shading/Republican}}| 19,947
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Somerset County, Pennsylvania|Somerset]]
+| {{party shading/Republican}}|'''30,667'''
+| {{party shading/Republican}}|'''75.14%'''
+| {{party shading/Democratic}}| 9,059
+| {{party shading/Democratic}}| 22.20%
+| {{party shading/Others}}| 1,090
+| {{party shading/Others}}| 2.66%
+| {{party shading/Republican}}| 21,608
+| {{party shading/Republican}}| 52.94%
+| {{party shading/Republican}}| 40,816 
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Sullivan County, Pennsylvania|Sullivan]]
+| {{party shading/Republican}}|'''2,612'''
+| {{party shading/Republican}}|'''70.31%'''
+| {{party shading/Democratic}}| 1,021
+| {{party shading/Democratic}}| 27.48%
+| {{party shading/Others}}| 82
+| {{party shading/Others}}| 2.21%
+| {{party shading/Republican}}| 1,591
+| {{party shading/Republican}}| 43.83%
+| {{party shading/Republican}}| 3,715  
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Susquehanna County, Pennsylvania|Susquehanna]]
+| {{party shading/Republican}}|'''15,545'''
+| {{party shading/Republican}}|'''69.97%'''
+| {{party shading/Democratic}}| 6,129
+| {{party shading/Democratic}}| 27.59%
+| {{party shading/Others}}| 542
+| {{party shading/Others}}| 2.44%
+| {{party shading/Republican}}| 6,671
+| {{party shading/Republican}}| 42.38%
+| {{party shading/Republican}}| 22,216 
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Tioga County, Pennsylvania|Tioga]]
+| {{party shading/Republican}}|'''15,778'''
+| {{party shading/Republican}}|'''73.62%'''
+| {{party shading/Democratic}}| 5,066
+| {{party shading/Democratic}}| 23.64%
+| {{party shading/Others}}| 588
+| {{party shading/Others}}| 2.74%
+| {{party shading/Republican}}| 10,712
+| {{party shading/Republican}}| 49.98%
+| {{party shading/Republican}}| 21,432  
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Union County, Pennsylvania|Union]]
+| {{party shading/Republican}}|'''12,747'''
+| {{party shading/Republican}}|'''60.49%'''
+| {{party shading/Democratic}}| 7,872
+| {{party shading/Democratic}}| 37.36%
+| {{party shading/Others}}| 453
+| {{party shading/Others}}| 2.15%
+| {{party shading/Republican}}| 4,875
+| {{party shading/Republican}}| 23.13%
+| {{party shading/Republican}}| 21,072
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Venango County, Pennsylvania|Venango]]
+| {{party shading/Republican}}|'''17,825'''
+| {{party shading/Republican}}|'''66.93%'''
+| {{party shading/Democratic}}| 7,902
+| {{party shading/Democratic}}| 29.67%
+| {{party shading/Others}}| 904
+| {{party shading/Others}}| 3.39%
+| {{party shading/Republican}}| 9,923
+| {{party shading/Republican}}| 37.26%
+| {{party shading/Republican}}| 26,631
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Warren County, Pennsylvania|Warren]]
+| {{party shading/Republican}}|'''13,655'''
+| {{party shading/Republican}}|'''66.07%'''
+| {{party shading/Democratic}}| 6,415
+| {{party shading/Democratic}}| 31.04%
+| {{party shading/Others}}| 597
+| {{party shading/Others}}| 2.89%
+| {{party shading/Republican}}| 7,240
+| {{party shading/Republican}}| 35.03%
+| {{party shading/Republican}}| 20,667
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Washington County, Pennsylvania|Washington]]
+| {{party shading/Republican}}|'''71,798'''
+| {{party shading/Republican}}|'''59.61%'''
+| {{party shading/Democratic}}| 45,926
+| {{party shading/Democratic}}| 38.13%
+| {{party shading/Others}}| 2,717
+| {{party shading/Others}}| 2.56%
+| {{party shading/Republican}}| 25,872
+| {{party shading/Republican}}| 21.48%
+| {{party shading/Republican}}| 120,441
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Wayne County, Pennsylvania|Wayne]]
+| {{party shading/Republican}}|'''19,331'''
+| {{party shading/Republican}}|'''65.90%'''
+| {{party shading/Democratic}}| 9,385
+| {{party shading/Democratic}}| 31.99%
+| {{party shading/Others}}| 619
+| {{party shading/Others}}| 2.11%
+| {{party shading/Republican}}| 9,946
+| {{party shading/Republican}}| 33.91%
+| {{party shading/Republican}}| 29,335
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Westmoreland County, Pennsylvania|Westmoreland]]
+| {{party shading/Republican}}|'''128,040'''
+| {{party shading/Republican}}|'''62.28%'''
+| {{party shading/Democratic}}| 75,926
+| {{party shading/Democratic}}| 36.38%
+| {{party shading/Others}}| 4,893
+| {{party shading/Others}}| 2.34%
+| {{party shading/Republican}}| 52,036
+| {{party shading/Republican}}| 24.90%
+| {{party shading/Republican}}| 208,937
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[Wyoming County, Pennsylvania|Wyoming]]
+| {{party shading/Republican}}|'''9,919'''
+| {{party shading/Republican}}|'''66.04%'''
+| {{party shading/Democratic}}| 4,750
+| {{party shading/Democratic}}| 31.63%
+| {{party shading/Others}}| 350
+| {{party shading/Others}}| 2.33%
+| {{party shading/Republican}}| 5,169
+| {{party shading/Republican}}| 35.41%
+| {{party shading/Republican}}| 15,019
+|- style="text-align:center;"
+| {{party shading/Republican}}| [[York County, Pennsylvania|York]]
+| {{party shading/Republican}}|'''148,098'''
+| {{party shading/Republican}}|'''59.73%'''
+| {{party shading/Democratic}}| 91,779
+| {{party shading/Democratic}}| 37.02%
+| {{party shading/Others}}| 8,051
+| {{party shading/Others}}| 3.25%
+| {{party shading/Republican}}| 56,319
+| {{party shading/Republican}}| 22.71%
+| {{party shading/Republican}}| 247,928
+|- style="text-align:center;"
+!Totals!! 3,399,295 !! 48.82% !! 3,384,180 !! 48.60% !! 179,662 !! 2.58% !! 15,115 !! 0.22% !!6,963,137
+|}
+
+'''Counties that flipped from Democratic to Republican'''
+* [[Beaver County, Pennsylvania|Beaver]] (largest municipality: [[Aliquippa, Pennsylvania|Aliquippa]])
+* [[Berks County, Pennsylvania|Berks]] (largest municipality: [[Reading, Pennsylvania|Reading]])
+* [[Northampton County, Pennsylvania|Northampton]] (largest municipality: [[Bethlehem, Pennsylvania|Bethlehem]])
+
+{{align|right|{{Switcher
+|[[File:Pennsylvania counties 2018-2024 senate shift.svg|300px]]|Shift by county
+|[[File:Pennsylvania counties 2018-2024 senate trend.svg|300px]]|Trend by county
+{{collapsible list | title = Legend
+|{{legend|#d40000|Republican — >15%}}
+|{{legend|#ff0000|Republican — +12.5−15%}}
+|{{legend|#ff2a2a|Republican — +10−12.5%}}
+|{{legend|#ff5555|Republican — +7.5−10%}}
+|{{legend|#ff8080|Republican — +5−7.5%}}
+|{{legend|#ffaaaa|Republican — +2.5−5%}}
+|{{legend|#ffd5d5|Republican — +0−2.5%}}
+|{{legend|#d5f6ff|Democratic — +0−2.5%}}
+|{{legend|#aaeeff|Democratic — +2.5−5%}}
+|{{legend|#77e3ff|Democratic — +5−7.5%}}
+|{{legend|#4bdbff|Democratic — +7.5-10%}}
+|{{legend|#09ceff|Democratic — +10−12.5%}}}}|
+[[File:Shows changes in how counties voted between the 2018 and 2024 PA Senate elections.svg|300px]]|County flips<br>{{collapsible list| title = Legend| {{col-start}}
+{{col-2}}
+'''Democratic'''
+{{legend|#92c5de|Hold}}
+{{col-2}}
+'''Republican'''
+{{legend|#f48882|Hold}}
+{{legend|#ca0120|Flip}}
+{{col-end}}}}}}}}
+
+====By congressional district====
+McCormick won nine of 17 congressional districts, with the remaining eight going to Casey, including one that elected a Republican.<ref>https://davesredistricting.org/maps#viewmap::b0a94d77-5d99-41c5-bc01-5859a6e1f3e6</ref>
+{| class="wikitable sortable"
+
+! District
+! Casey Jr.
+! McCormick
+! Representative
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|1|1st}}
+|'''49.3%'''
+|48.4%
+| {{party shading/Republican}}|[[Brian Fitzpatrick (American politician)|Brian Fitzpatrick]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|2|2nd}}
+|'''67.9%'''
+|29.3%
+| {{party shading/Democratic}}|[[Brendan Boyle]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|3|3rd}}
+|'''86.7%'''
+|10.4%
+| {{party shading/Democratic}}|[[Dwight Evans (politician)|Dwight Evans]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|4|4th}}
+|'''56.8%'''
+|40.8%
+| {{party shading/Democratic}}|[[Madeleine Dean]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|5|5th}}
+|'''62.9%'''
+|34.8%
+| {{party shading/Democratic}}|[[Mary Gay Scanlon]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|6|6th}}
+|'''54.0%'''
+|43.5%
+| {{party shading/Democratic}}|[[Chrissy Houlahan]]
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Pennsylvania|7|7th}}
+| rowspan=2|47.8%
+| rowspan=2|'''49.5%'''
+| {{party shading/Democratic}}|[[Susan Wild]] ([[118th United States Congress|118th Congress]])
+|- align=center
+| {{party shading/Republican}}|[[Ryan Mackenzie]] ([[119th United States Congress|119th Congress]])
+|- align=center
+! rowspan=2 {{party shading/Republican}}|{{ushr|Pennsylvania|8|8th}}
+| rowspan=2|46.6%
+| rowspan=2|'''51.1%'''
+| {{party shading/Democratic}}|[[Matt Cartwright]] ([[118th United States Congress|118th Congress]])
+|- align=center
+| {{party shading/Republican}}|[[Rob Bresnahan]] ([[119th United States Congress|119th Congress]])
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|9|9th}}
+|31.3%
+|'''66.0%'''
+| {{party shading/Republican}}|[[Dan Meuser]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|10|10th}}
+|46.3%
+|'''50.5%'''
+| {{party shading/Republican}}|[[Scott Perry]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|11|11th}}
+|38.6%
+|'''58.5%'''
+| {{party shading/Republican}}|[[Lloyd Smucker]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|12|12th}}
+|'''59.1%'''
+|38.3%
+| {{party shading/Democratic}}|[[Summer Lee]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|13|13th}}
+|27.8%
+|'''69.6%'''
+| {{party shading/Republican}}|[[John Joyce (American politician)|John Joyce]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|14|14th}}
+|34.3%
+|'''63.3%'''
+| {{party shading/Republican}}|[[Guy Reschenthaler]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|15|15th}}
+|31.2%
+|'''66.1%'''
+| {{party shading/Republican}}|[[Glenn Thompson (politician)|Glenn Thompson]]
+|- align=center
+! {{party shading/Republican}}|{{ushr|Pennsylvania|16|16th}}
+|38.9%
+|'''58.7%'''
+| {{party shading/Republican}}|[[Mike Kelly (Pennsylvania politician)|Mike Kelly]]
+|- align=center
+! {{party shading/Democratic}}|{{ushr|Pennsylvania|17|17th}}
+|'''52.3%'''
+|45.4%
+| {{party shading/Democratic}}|[[Chris Deluzio]]
+|}
+
+== Analysis ==
+In Pennsylvania, a statewide [[Election recount|recount]] is triggered under state law if the margin falls within 0.5% of the total vote. Preliminary results for the election reached this threshold on November 13, 2024, with McCormick at 48.9% leading Casey's 48.6%, as outstanding ballots continued to be counted across the state. [[Secretary of the Commonwealth of Pennsylvania|Secretary of the Commonwealth]] [[Al Schmidt]] officially ordered the recount later that evening, with Casey declining to concede.<ref>{{cite news |title=Recount triggered in Pennsylvania Senate race as McCormick heads to D.C., Casey declines to concede |first=Dan |last=Snyder |work=[[CBS News]] |date=November 13, 2024 |access-date=November 13, 2024 |url=https://www.cbsnews.com/philadelphia/news/pennsylvania-senate-casey-mccormick-recount/}}</ref> The deadline for the counties to begin their recounts is on November 20, the third Wednesday after the election according to state law, however, counties can start their recounts as early as November 18, with all counties required to submit their results to the [[Pennsylvania Department of State|Department of State]] by noon on November 26 as the results must be reported by the Secretary of the Commonwealth by noon on November 27.<ref>{{cite news |title=Pennsylvania's Senate race is going to a recount. How will it work? |first1=Katie |last1=Bernard |first2=Jonathan |last2=Lai |work=[[The Philadelphia Inquirer]] |date=November 14, 2024 |access-date=November 14, 2024 |url=https://www.inquirer.com/politics/election/pennsylvania-senate-recount-casey-mccormick-20241114.html}}</ref> Additionally, the counties must use different machines for the recount than were used on Election Day.<ref>{{cite web |title=Recount starts in Pennsylvania US Senate race between Casey, McCormick |url=https://www.wgal.com/article/pennsylvania-us-senate-race-casey-vs-mccormick-recount-update/62936018 |website=[[WGAL]] |access-date=18 November 2024}}</ref>
+
+On Monday, November 18, following a series of challenges and disputes, the Pennsylvania Supreme Court directed all of the state's county election officials not to count certain mail-in ballots which  arrived on time yet lacked a correct handwritten date on the return envelope.<ref>{{cite web |last1=Lo Wang |first1=Hansi |title=Pennsylvania's high court sides with Republicans on misdated mail ballots |url=https://www.npr.org/2024/11/18/nx-s1-5195524/pennsylvania-election-ballots-senate-recount |website=[[NPR]] |date=November 18, 2024 |access-date=19 November 2024}}</ref><ref>{{cite web |last1=LEVY |first1=MARC |title=Pennsylvania's high court orders counties not to count disputed ballots in US Senate race |url=https://apnews.com/article/casey-mccormick-pennsylvania-senate-court-recount-b6c9ee8faac20d6272a54900e2d570e7 |website=[[Associated Press|AP]] |date=November 18, 2024 |access-date=19 November 2024}}</ref>
+
+The last instance of a statewide recount being held was for the [[2022 United States Senate election in Pennsylvania#Republican primary|2022 Republican primary]] for Pennsylvania's Class 3 Senate seat, of which McCormick was also a candidate. Conversely to his stance in the 2024 general election, he unsuccessfully sued to have undated mail-in ballots counted. After completion of the recount he would concede to [[Mehmet Oz]], with the final results expanding Oz's margin by 49 votes.<ref>{{cite news |title=Elections 101: Everything you need to know about election recounts in Pennsylvania |first=Carter |last=Walker |work=[[Spotlight PA]] |date=June 13, 2024 |access-date=November 14, 2024 |url=https://www.spotlightpa.org/news/2024/06/pennsylvania-election-recounts-explainer-donald-trump-joe-biden/}}</ref>
+
+McCormick benefitted from the presence of former President Donald Trump on the ballot, who carried the state over Vice President Harris by just over 120,000 votes (for a margin of roughly 1.7%) in the concurrent presidential election. Indeed, McCormick cleared 60% in most counties in the state’s less-populated interior and even 70% in many. Unlike in Ohio and Montana, however, McCormick had to seek support beyond the Trump base as he was running in a swing state. Casey and Trump both won Bucks, Erie, and Monroe Counties. McCormick campaigned with [[Nikki Haley]] in the suburbs of Pittsburgh and [[Philadelphia Main Line|Philadelphia]], aiming to appeal to voters uneasy about Trump by positioning himself as a more establishment candidate. Casey aired ads in late October to highlight his votes with the Trump administration, while McCormick tied Casey to Harris, highlighting his votes with the Biden administration. 
+
+However, both candidates received fewer votes than their respective parties’ presidential candidates in the concurrent [[2024 United States presidential election in Pennsylvania|2024 presidential election]]. Senator McCormick received about 144,000 fewer votes than President Trump, while Senator Casey received almost 39,000 fewer votes than Vice President Harris. Although, McCormick overperformed Trump's margins in the Philadelphia suburban counties of Chester, Delaware, and Montgomery.<ref>{{Cite web |date=2024-10-31 |title=David McCormick campaigns with Nikki Haley in Senate-race push for moderate voters in Western Pa. |url=https://www.wesa.fm/politics-government/2024-10-31/david-mccormick-campaigns-with-nikki-haley-in-senate-race-push-for-moderate-voters-in-western-pa |access-date=2024-12-02 |website=90.5 WESA |language=en}}</ref><ref>{{Cite web |last=Walsh |first=Sean Collins |date=2024-11-09 |title=Trump, messaging, and money: How Dave McCormick unseated Bob Casey in Pennsylvania's Senate race |url=https://www.inquirer.com/politics/philadelphia/how-dave-mccormick-won-us-senate-race-20241109.html |access-date=2024-12-02 |website=www.inquirer.com |language=en}}</ref><ref>{{Cite web |last=Walsh |first=Sean Collins |date=2024-11-09 |title=Haley campaigns for McCormick in Philly and Pittsburgh suburbs |url=https://penncapital-star.com/campaigns-elections/pennsylvania-nikki-haley-campaigns-for-mccormick-in-philly-and-pittsburgh-suburbs/ |access-date=2024-12-02 |website=www.penncapital-star.com |language=en}}</ref>
+
+==Notes==
+{{notelist}}
+'''Partisan clients'''<br />
+{{notelist-ua}}
+
+==References==
+{{Reflist}}
+
+==External links==
+* [https://www.pavoterservices.pa.gov/ElectionInfo/electioninfo.aspx/ Official candidates list - Pennsylvania Department of State]
+'''Official campaign websites'''
+* [https://www.bobcasey.com/ Bob Casey Jr. (D)]
+* [https://www.davemccormickpa.com/ Dave McCormick (R)]
+* [https://www.leilaforsenate.com/ Leila Hazou (G)]
+* [https://branditomasetti.com/ Brandi Tomasetti (WI)]
+* [https://www.martyselkerforsenate.com/ Marty Selker (C)]
+
+{{2024 United States elections}}
+
+[[Category:2024 United States Senate elections|Pennsylvania]]
+[[Category:2024 elections in Pennsylvania|United States Senate]]
+[[Category:United States Senate elections in Pennsylvania]]
