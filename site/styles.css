@@ -286,33 +286,16 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
   90% { transform: translateX(-3px); } 92% { transform: translateX(3px); } 94% { transform: translateX(-1px); } }
 @media (prefers-reduced-motion: reduce) { .face .face-mood { animation: none !important; } }
 
-/* damage that heals: bruise, band-aids, circling stars */
-.bruise, .bandaid, .stars { position: absolute; pointer-events: none; opacity: 0; transition: opacity .5s; }
-.bruise { left: 38%; top: 32%; width: 26%; height: 20%; border-radius: 50%;
-          background: radial-gradient(circle, rgba(110,40,140,.75) 0%, rgba(80,30,120,.45) 45%, transparent 72%); mix-blend-mode: multiply; }
-.bandaid { width: 34%; height: 11%; border-radius: 6px;
-           background: #e9c39b repeating-linear-gradient(90deg, transparent 0 38%, #d6a77a 38% 62%, transparent 62% 100%);
-           box-shadow: 0 1px 2px rgba(0,0,0,.35); }
-.bandaid::after { content: ""; position: absolute; left: 38%; right: 38%; top: 20%; bottom: 20%;
-                  background: radial-gradient(circle, #c9935f 1px, transparent 1.5px) 0 0 / 4px 4px; }
-.bandaid.b1 { left: 30%; top: 13%; transform: rotate(-22deg); }
-.bandaid.b2 { left: 60%; top: 60%; transform: rotate(28deg); }
-.stars { left: 0; right: 0; top: -14px; height: 20px; }
-.stars i { position: absolute; left: 50%; top: 0; font-style: normal; color: #ffd23f; font-size: 15px;
-           text-shadow: 0 0 2px #1a1300; animation: orbit 1.4s linear infinite; }
-.stars i:nth-child(2) { animation-delay: -.47s; } .stars i:nth-child(3) { animation-delay: -.93s; }
-@keyframes orbit { from { transform: rotate(0) translateX(30px) rotate(0) scaleY(.5); } to { transform: rotate(360deg) translateX(30px) rotate(-360deg) scaleY(.5); } }
-.face[data-damage="1"] .bruise, .face[data-damage="2"] .bruise, .face[data-damage="3"] .bruise { opacity: 1; }
-.face[data-damage="2"] .b1, .face[data-damage="3"] .b1, .face[data-damage="2"] .stars, .face[data-damage="3"] .stars { opacity: 1; }
-.face[data-damage="3"] .b2 { opacity: 1; }
-
-/* combo counter and speech bubble */
-.combo { position: absolute; right: 88%; top: -4px; white-space: nowrap; pointer-events: none; opacity: 0;
-         font-family: var(--num); font-weight: 700; font-size: 1.25rem; color: #ffd23f; letter-spacing: .03em;
-         -webkit-text-stroke: 1px #1a1300; text-shadow: 2px 2px 0 #1a1300; transform: rotate(-8deg); z-index: 3; }
-.combo.show { animation: combo .9s ease-out; }
-@keyframes combo { 0% { opacity: 0; transform: rotate(-8deg) scale(.5); } 15% { opacity: 1; transform: rotate(-8deg) scale(1.2); }
-                   30% { transform: rotate(-8deg) scale(1); } 75% { opacity: 1; } 100% { opacity: 0; } }
+/* looks toward whoever gained since your last visit (or the favorite): the photo glances right */
+.face-mood img { transition: transform .35s ease; }
+.face[data-look="d"] .face-mood img { transform: scaleX(-1); }
+/* sweat when the count is close to the line on election night */
+.sweat { position: absolute; right: 8%; top: 18%; width: 9px; height: 13px; opacity: 0; pointer-events: none;
+         background: #8fd3ff; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; box-shadow: inset -2px -2px 0 rgba(0,0,0,.15); }
+.face[data-look="d"] .sweat { right: auto; left: 8%; }
+.face[data-mood="sweat"] .sweat { opacity: 1; animation: drip 1.6s ease-in infinite; }
+.face[data-mood="sweat"] .face-mood { animation: md-nervous 2s linear infinite; }
+@keyframes drip { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translateY(26px); opacity: 0; } }
 .bubble { position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%) scale(.8); z-index: 6;
           background: #fff; color: #141a2e; font: 600 .82rem/1.25 var(--text); padding: 6px 10px; border-radius: 12px;
           width: max-content; max-width: 210px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,.35);

@@ -84,7 +84,6 @@
   const races = () => state.allRaces.filter((r) => r.chamber === state.chamber);
 
   function renderBoard() {
-    setMood();
     const f = state.forecast, house = state.chamber === "house", gov = state.chamber === "governor";
     const s = house ? f.house : gov ? f.governor : f.senate;
     const total = house ? 435 : gov ? 50 : 100;
@@ -99,6 +98,8 @@
     }
     $("pd").textContent = fmtPct(pD);
     $("pr").textContent = fmtPct(pR);
+    const side = (state.newsSide || {})[state.chamber];
+    faceForTab(pD, pR, !state.live && side ? { side } : null);
     const win = gov ? "hold most governorships" : "win control";
     $("wd").textContent = state.live ? "Democrats, with called races locked in" : `Democrats ${win}`;
     $("wr").textContent = state.live ? "Republicans, with called races locked in" : `Republicans ${win}`;
@@ -145,6 +146,7 @@
       const counting = rs.filter((x) => !x.called && x.total > 0).length;
       const h = Live.ifLeadersHold(races(), state.live, { notUp, uncommitted: house || gov ? [] : (s.uncommitted_races || []), partyOnly: gov });
       $("bm").textContent += ` · ${counting} counting`;
+      faceLive(state.chamber, h, need, cd, cr, notUp);
       state.leadersLine = `If every current leader wins: Democrats ${h.dem}, Republicans ${h.rep}${h.other ? `, other ${h.other}` : ""}.`;
       extra = `Called: ${cd} D, ${cr} R${ci ? `, ${ci} other` : ""}. Still counting: ${counting}. `
         + `The odds lock in a race only once it's called; leaders can change as late ballots come in. Races with no votes yet count for the forecast favorite.`;
@@ -648,13 +650,14 @@
   }
 
   // Test only (?live=2024&partial=1): turn final 2024 results into a mid-count night. About a
-  // third of races stay called; the rest show 20-90% of their votes with no call.
+  // third of races stay called; the rest show 20-90% of their votes with no call, and each
+  // "Refresh now" calls a few more, so the narrator can be tested.
   function partialCount(results) {
     const out = {};
     for (const [rid, r] of Object.entries(results)) {
       let h = 0;
       for (const ch of rid) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-      if (h % 3 === 0) { out[rid] = r; continue; }
+      if (h % 3 === 0 || (h % 11) < (state.liveSteps || 0) - 1) { out[rid] = r; continue; }   // each refresh calls a few more
       const f = 0.2 + (h % 71) / 100;
       out[rid] = { ...r, called: false, winner_party: null, total: Math.round(r.total * f),
                    candidates: r.candidates.map((c) => ({ ...c, winner: false, votes: Math.round(c.votes * f) })) };
@@ -673,10 +676,12 @@
     state.live = {};
     renderLiveBar();
     const chamberOf = (rid) => (rid.includes("-HOUSE-") ? "house" : rid.includes("-GOV-") ? "governor" : "senate");
-    state.poller = Live.poller(table, ({ results, checked, error }) => {
+    state.poller = Live.poller(table, ({ results, checked, error, partial }) => {
+      if (!partial) state.liveSteps = (state.liveSteps || 0) + 1;
       state.live = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
       state.liveChecked = checked; state.liveError = error || null;
       renderLiveBar(); renderBoard(); renderMap(); renderList();
+      narrate();
       if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
     }, { want: (rid) => chamberOf(rid) === state.chamber });   // only the tab on screen: saves phone data
     state.poller.start();
@@ -703,8 +708,9 @@
     if (state.view === "pollsters") renderPollsters();
     else if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
   }
-  // Every punch: a random move, a quip, a combo count and a little damage that heals.
-  // The first punch also refreshes the data; more punches while it loads just add to the combo.
+  // ---- the face: mascot that carries information --------------------------------
+  // Looks toward whoever gained since your last visit (or the favorite), tells you what
+  // changed, narrates election night, and refreshes the data when punched.
   const QUIPS = [
     "Ow!", "Not the face!", "I'm just the messenger!", "Margin of error, pal.",
     "That was outside the margin of error!", "I'm {p}% sure that hurt.", "Correlated error!",
@@ -713,58 +719,164 @@
     "It's a toss-up, like my face.", "Bayes would never.", "Weighting that punch at 0.3×.",
     "Ask me again in 6 hours.", "Herding? I'm being punched!",
   ];
+  const CALL_QUIPS = ["I'm shocked. I'm not shocked.", "Called it. Well, Wikipedia did.", "The model nods knowingly.",
+    "Write that down.", "Somewhere a pollster exhales.", "Another one."];
   const MOVES = ["spin", "jelly", "bounce", "flip", "knock"];
+  const CH_NAME = { senate: "Senate", house: "House", governor: "Governors" };
+  const pick = (a) => a[Math.floor(Math.random() * a.length)];
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode: no memory */ } },
+  };
+
+  const Face = {
+    el: null, body: null, bubble: null, timer: null, lockUntil: 0,
+    init() {
+      this.el = $("face"); this.body = this.el.querySelector(".face-body"); this.bubble = this.el.querySelector(".bubble");
+    },
+    // priority messages (news) hold the bubble; punch quips don't talk over them
+    say(text, ms = 1800, important = false) {
+      if (!this.el) return;
+      if (!important && Date.now() < this.lockUntil) return;
+      if (important) this.lockUntil = Date.now() + ms;
+      this.bubble.textContent = text;
+      this.bubble.classList.remove("show"); void this.bubble.offsetWidth; this.bubble.classList.add("show");
+      clearTimeout(this.timer);
+      this.timer = setTimeout(() => this.bubble.classList.remove("show"), ms);
+    },
+    move(m) {
+      this.body.className = "face-body"; void this.body.offsetWidth; this.body.classList.add("m-" + m);
+    },
+    look(side) { if (this.el) this.el.dataset.look = side; },          // "d" = left (blue), "r" = right (red)
+    mood(m) { if (this.el) this.el.dataset.mood = m; },
+  };
+
+  // what the viewer saw last time, per tab: control odds and every race's odds
+  const SNAP_KEY = "ml-last-visit";
+  let prevSnap = null;
+  function snapshot() {
+    const f = state.forecast, ch = {};
+    for (const c of ["senate", "house", "governor"]) if (f[c]) ch[c] = f[c].p_dem_control;
+    const races = {};
+    state.allRaces.forEach((r) => (races[r.race_id] = r.p_a));
+    return { gen: f.generated_utc, seen: Date.now(), ch, races };
+  }
+  function sinceWhen(ms) {
+    const d = new Date(ms), now = new Date();
+    const days = Math.round((now - d) / 86400000);
+    if (days < 1 && d.getDate() === now.getDate()) return "earlier today";
+    if (days <= 1) return "yesterday";
+    if (days < 7) return d.toLocaleDateString([], { weekday: "long" }).replace(/^/, "");
+    return d.toLocaleDateString([], { month: "short", day: "numeric" });
+  }
+  // compare this tab with the last visit; returns {text, side} or null
+  function changeNote(ch) {
+    const f = state.forecast, s = f[ch];
+    if (!s) return null;
+    const pD = s.p_dem_control, lead = pD >= 0.5 ? "Democrats" : "Republicans", pLead = Math.max(pD, 1 - pD);
+    if (!prevSnap) return { text: `Hi! I'm ${fmtPct(pLead)} sure ${lead} win the ${CH_NAME[ch]}${ch === "governor" ? " majority" : ""}. Punch me to refresh.`, side: pD >= 0.5 ? "d" : "r" };
+    if (prevSnap.gen === f.generated_utc)
+      return { text: `Same numbers as your last visit. New polls arrive every 6 hours.`, side: null };
+    const before = prevSnap.ch[ch];
+    const when = sinceWhen(prevSnap.seen);
+    let mover = null;
+    state.allRaces.filter((r) => r.chamber === ch).forEach((r) => {
+      const was = prevSnap.races[r.race_id];
+      if (was == null) return;
+      const d = r.p_a - was;
+      if (!mover || Math.abs(d) > Math.abs(mover.d)) mover = { r, d };
+    });
+    const moverTxt = mover && Math.abs(mover.d) >= 0.03
+      ? ` Biggest mover: ${raceShort(mover.r)}, ${mover.d > 0 === (mover.r.side_a_party === "DEM") ? "toward D" : "toward R"} ${Math.round(Math.abs(mover.d) * 100)} pts.` : "";
+    if (before == null || Math.abs(pD - before) < 0.01)
+      return { text: `${CH_NAME[ch]}: no real change since ${when}.${moverTxt || " Go to bed."}`, side: null };
+    return { text: `${CH_NAME[ch]}: Democrats ${fmtPct(before)} → ${fmtPct(pD)} since ${when}.${moverTxt}`, side: pD > before ? "d" : "r" };
+  }
+  const raceShort = (r) => r.chamber === "house" ? `${r.state}-${r.district}` : `${NAMES[r.state]}${r.chamber === "governor" ? " governor" : ""}`;
+
+  // which way to look and how to feel, for the tab on screen
+  function faceForTab(pD, pR, news) {
+    const side = news && news.side ? news.side : pD >= pR ? "d" : "r";
+    Face.look(side);
+    const top = Math.max(pD, pR);
+    Face.mood(top >= 0.85 ? "smug" : top < 0.62 ? "nervous" : "calm");
+  }
+
+  function greet() {
+    prevSnap = store.get(SNAP_KEY);
+    state.newsSide = {};
+    for (const c of ["senate", "house", "governor"]) { const x = changeNote(c); if (x && x.side && prevSnap) state.newsSide[c] = x.side; }
+    const n = changeNote(state.chamber);
+    if (n) { setTimeout(() => Face.say(n.text, 6500, true), 700); }
+    const s = state.forecast[state.chamber];
+    if (s) faceForTab(s.p_dem_control, s.p_rep_control, n);
+    store.set(SNAP_KEY, snapshot());
+  }
+  function onTab(ch) {
+    if (state.live) return;               // on election night the narrator talks about calls instead
+    const n = changeNote(ch);
+    if (n && prevSnap) Face.say(n.text, 5500, true);
+  }
+
+  // election night: announce new calls, sweat when it's close, celebrate control
+  // A race is announced only if we saw it uncalled first, so opening the page at 2 a.m.
+  // (or switching tabs) doesn't read out every call made so far.
+  const narr = { known: {}, controlSaid: {} };
+  function narrate() {
+    const res = state.live || {}, fresh = [];
+    for (const [k, v] of Object.entries(res)) {
+      if (k in narr.known && !narr.known[k] && v.called) fresh.push(k);
+      narr.known[k] = !!v.called;
+    }
+    const here = fresh.map((k) => state.allRaces.find((r) => r.race_id === k)).filter((r) => r && r.chamber === state.chamber);
+    if (here.length === 1) {
+      const r = here[0], lr = res[r.race_id], w = lr.candidates.find((c) => c.winner) || lr.candidates[0];
+      Face.say(`Called: ${raceShort(r)} for ${w.name} (${letter(w.party)}). ${pick(CALL_QUIPS)}`, 6000, true);
+      Face.move(w.party === "DEM" || w.party === "REP" ? "bounce" : "jelly");
+    } else if (here.length > 1) {
+      Face.say(`${here.length} new calls: ${here.slice(0, 5).map(raceShort).join(", ")}${here.length > 5 ? "…" : ""}. ${pick(CALL_QUIPS)}`, 6500, true);
+      Face.move("spin");
+    }
+  }
+  // called from renderBoard with the numbers on screen
+  function faceLive(ch, h, need, cd, cr, notUp) {
+    const lockedD = notUp.dem + cd, lockedR = notUp.rep + cr;
+    const key = ch + (lockedD >= need ? "D" : lockedR >= need ? "R" : "");
+    if (key.length > ch.length && !narr.controlSaid[key]) {
+      narr.controlSaid[key] = true;
+      const who = lockedD >= need ? "Democrats" : "Republicans";
+      const what = ch === "governor" ? "a majority of governorships" : `the ${CH_NAME[ch]}`;
+      Face.say(`${who} have won ${what}, per Wikipedia's calls. The model would like a word.`, 9000, true);
+      Face.move("spin");
+      Face.look(lockedD >= need ? "d" : "r");
+      Face.mood("smug");
+      return;
+    }
+    if (h) {
+      const close = Math.abs(h.dem - need) <= 2 || Math.abs(h.rep - need) <= 2;
+      if (close) Face.mood("sweat");
+      Face.look(h.dem >= h.rep ? "d" : "r");
+    }
+  }
 
   function setupPunch() {
-    const face = $("face"), body = face.querySelector(".face-body");
-    const comboEl = face.querySelector(".combo"), bubble = face.querySelector(".bubble");
-    const replay = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
-    let busy = false, combo = 0, comboTimer = null, damage = 0, lastMove = "", lastQuip = -1, koUntil = 0, bubbleTimer = null;
-
-    const showDamage = () => {
-      face.dataset.damage = damage >= 9 ? "3" : damage >= 6 ? "2" : damage >= 3 ? "1" : "0";
-    };
-    setInterval(() => { if (damage > 0) { damage--; showDamage(); } }, 6000);   // heals in about a minute
-
-    const say = (text, ms = 1600) => {
-      bubble.textContent = text;
-      replay(bubble, "show");
-      clearTimeout(bubbleTimer);
-      bubbleTimer = setTimeout(() => bubble.classList.remove("show"), ms);
-    };
+    Face.init();
+    const face = Face.el;
+    let busy = false, lastMove = "", lastQuip = -1;
     const quip = () => {
       let i;
       do { i = Math.floor(Math.random() * QUIPS.length); } while (i === lastQuip);
       lastQuip = i;
-      const f = state.forecast, s = f && (state.chamber === "house" ? f.house : state.chamber === "governor" ? f.governor : f.senate);
+      const f = state.forecast, s = f && f[state.chamber];
       const p = s ? Math.round(100 * Math.max(s.p_dem_control, s.p_rep_control)) : 72;
       return QUIPS[i].replace("{p}", Math.min(p, 99));
     };
-
     face.addEventListener("click", async () => {
-      if (Date.now() < koUntil) return;                 // he's down, give him a second
-      damage = Math.min(damage + 1, 12); showDamage();
-      combo++;
-      clearTimeout(comboTimer);
-      comboTimer = setTimeout(() => { combo = 0; comboEl.classList.remove("show"); }, 900);
-      if (combo >= 10) {
-        combo = 0;
-        comboEl.textContent = "K.O.!";
-        replay(comboEl, "show");
-        body.className = "face-body";
-        replay(body, "ko");
-        koUntil = Date.now() + 2200;
-        say("I'll be back in 2028…", 2200);
-        setTimeout(() => body.classList.remove("ko"), 2200);
-      } else {
-        if (combo >= 2) { comboEl.textContent = `${combo} HIT COMBO!`; replay(comboEl, "show"); }
-        let m;
-        do { m = MOVES[Math.floor(Math.random() * MOVES.length)]; } while (m === lastMove);
-        lastMove = m;
-        body.className = "face-body";
-        replay(body, "m-" + m);
-        if (combo === 1 || Math.random() < 0.5) say(quip());
-      }
+      let m;
+      do { m = pick(MOVES); } while (m === lastMove);
+      lastMove = m;
+      Face.move(m);
+      Face.say(quip());
       if (busy) return;
       busy = true;
       face.setAttribute("aria-busy", "true");
@@ -776,17 +888,6 @@
       face.removeAttribute("aria-busy");
       busy = false;
     });
-    setMood();
-  }
-
-  // Idle mood from the odds on screen: smug when lopsided, nervous when close, calm otherwise.
-  function setMood() {
-    const f = state.forecast, face = $("face");
-    if (!f || !face) return;
-    const s = state.chamber === "house" ? f.house : state.chamber === "governor" ? f.governor : f.senate;
-    if (!s) return;
-    const top = Math.max(s.p_dem_control, s.p_rep_control);
-    face.dataset.mood = top >= 0.85 ? "smug" : top < 0.62 ? "nervous" : "calm";
   }
 
   // ---- pollsters -----------------------------------------------------------
@@ -931,6 +1032,7 @@
       state.chamber = which; state.houseZoom = null;
       renderBoard(); renderMap(); renderList();
       if (changed && state.poller) state.poller.now();   // bring the new tab's results up to date now
+      if (changed) onTab(which);
     };
     $("tab-pollsters").addEventListener("click", () => show("pollsters"));
     $("pv-search").addEventListener("input", (e) => { state.pv.q = e.target.value; renderPollsters(); });
@@ -954,6 +1056,7 @@
 
       showUpdated();
       renderBoard(); renderMap(); renderList();
+      if (!liveModeFromURL(f.election_date)) greet();
       startLive(f.election_date).catch((e) => { state.liveError = e.message; renderLiveBar(); });
       scheduleLiveStart(f.election_date);
       if (location.hash.length > 1) {
