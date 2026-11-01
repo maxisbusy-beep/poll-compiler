@@ -117,6 +117,7 @@ def discover(cycle: int) -> dict:
         "generic_ballot": generic,
         "governor": governor,
         "president": president,
+        "reference": ["Cook Partisan Voting Index"],   # district lean (PVI) for the House model
         "extra": extra,  # manual additions, same keys as above
     }
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -162,7 +163,7 @@ def fetch(cycle: int) -> dict:
     src = yaml.safe_load((SOURCES_DIR / f"{cycle}.yaml").read_text())
     extra = src.get("extra") or {}
     groups = {g: list(dict.fromkeys((src.get(g) or []) + (extra.get(g) or [])))
-              for g in ("senate", "house_states", "generic_ballot", "governor", "president")}
+              for g in ("senate", "house_states", "generic_ballot", "governor", "president", "reference")}
     out_dir = RAW_DIR / str(cycle)
     out_dir.mkdir(parents=True, exist_ok=True)
     index, failures = [], []
