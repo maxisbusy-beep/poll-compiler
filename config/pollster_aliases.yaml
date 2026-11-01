@@ -121,6 +121,10 @@ pollsters:
     name: Applecart
     aliases: []
     source: wikipedia
+  arc-insights:
+    name: Arc Insights
+    aliases: []
+    source: wikipedia
   arizona-state-university-morrison-institute-for-public-policy:
     name: Arizona State University Morrison Institute for Public Policy
     fivethirtyeight_id: 15
@@ -332,7 +336,8 @@ pollsters:
     aliases: []
   bsg-global-strategy-group:
     name: BSG / Global Strategy Group
-    aliases: []
+    aliases:
+    - Cook Political Report / BSG / GS Strategy Group
     source: wikipedia
   bsp-research-shaw-and-company-research:
     name: BSP Research/Shaw & Company Research
@@ -746,7 +751,8 @@ pollsters:
     - Cascade PBS / Elway Research
   embold-research:
     name: Embold Research
-    aliases: []
+    aliases:
+    - Embold Research / MinnPost
     source: wikipedia
   emc-research:
     name: EMC Research
@@ -757,6 +763,7 @@ pollsters:
     fivethirtyeight_id: 88
     aliases:
     - Emerson College / WPRI-TV
+    - Emerson College / Inside California Elections
   epic-mra:
     name: EPIC-MRA
     fivethirtyeight_id: 84
@@ -844,6 +851,10 @@ pollsters:
     name: FM3 Research
     fivethirtyeight_id: 91
     aliases: []
+  focaldata:
+    name: Focaldata
+    aliases: []
+    source: wikipedia
   forensic-economic-data-consulting-inc:
     name: Forensic Economic Data Consulting, Inc.
     fivethirtyeight_id: 659
@@ -855,7 +866,8 @@ pollsters:
   fort-hays-state-university-docking-institute-of-public-affairs:
     name: Fort Hays State University Docking Institute of Public Affairs
     fivethirtyeight_id: 101
-    aliases: []
+    aliases:
+    - Fort Hays State University
   forward-strategies:
     name: Forward Strategies
     fivethirtyeight_id: 102
@@ -942,7 +954,8 @@ pollsters:
   global-strategy-group-gbao-navigator-research:
     name: Global Strategy Group/GBAO (Navigator Research)
     fivethirtyeight_id: 413
-    aliases: []
+    aliases:
+    - Navigator Research
   global-strategy-group-lester-and-associates:
     name: Global Strategy Group/Lester & Associates
     fivethirtyeight_id: 806
@@ -951,6 +964,10 @@ pollsters:
     name: Global Strategy Group/National Research (Philadelphia Inquirer)
     fivethirtyeight_id: 119
     aliases: []
+  global-strategy-group-north-star:
+    name: Global Strategy Group / North Star Opinion Research
+    aliases: []
+    source: wikipedia
   glover-park-group:
     name: Glover Park Group
     fivethirtyeight_id: 120
@@ -1062,10 +1079,12 @@ pollsters:
   harris-insights-and-analytics:
     name: Harris Insights & Analytics
     fivethirtyeight_id: 133
-    aliases: []
+    aliases:
+    - Harvard / Harris
   harrisx:
     name: HarrisX
-    aliases: []
+    aliases:
+    - Forbes / HarrisX
     source: wikipedia
   harstad-strategic-research:
     name: Harstad Strategic Research
@@ -1079,7 +1098,8 @@ pollsters:
   hart-research-associates-public-opinion-strategies:
     name: Hart Research Associates/Public Opinion Strategies
     fivethirtyeight_id: 221
-    aliases: []
+    aliases:
+    - NBC News
   harvard-university:
     name: Harvard University
     fivethirtyeight_id: 135
@@ -1108,12 +1128,10 @@ pollsters:
   highground-inc:
     name: HighGround Inc.
     fivethirtyeight_id: 416
-    aliases: []
-  highground-public-affairs:
-    name: HighGround Public Affairs
     aliases:
     - HighGround, Inc.
-    source: wikipedia
+    - HighGround Public Affairs
+    - HighGround
   hill-research-consultants:
     name: Hill Research Consultants
     fivethirtyeight_id: 140
@@ -1121,11 +1139,16 @@ pollsters:
   hoffman-research-group:
     name: Hoffman Research Group
     fivethirtyeight_id: 141
-    aliases: []
+    aliases:
+    - Hoffman Research
   howey-politics-depauw-university:
     name: Howey Politics/DePauw University
     fivethirtyeight_id: 142
     aliases: []
+  hunt-research:
+    name: Hunt Research
+    aliases: []
+    source: wikipedia
   icitizen:
     name: icitizen
     fivethirtyeight_id: 438
@@ -1211,7 +1234,8 @@ pollsters:
   j-l-partners:
     name: J.L. Partners
     fivethirtyeight_id: 619
-    aliases: []
+    aliases:
+    - JL Partners
   jayhawk-consulting-services:
     name: Jayhawk Consulting Services
     fivethirtyeight_id: 157
@@ -1403,6 +1427,7 @@ pollsters:
     aliases:
     - Mainstreet Research / FAU
     - Florida Atlantic University / Mainstreet Research
+    - Mainstreet Research / Florida Atlantic University
     source: wikipedia
   manhattan-institute:
     name: Manhattan Institute
@@ -1421,6 +1446,8 @@ pollsters:
     fivethirtyeight_id: 183
     aliases:
     - Marist University
+    - NPR / PBS News / Marist College
+    - NPR / PBS
   mark-blankenship-enterprises:
     name: Mark Blankenship Enterprises
     fivethirtyeight_id: 766
@@ -1607,7 +1634,8 @@ pollsters:
   morning-consult:
     name: Morning Consult
     fivethirtyeight_id: 218
-    aliases: []
+    aliases:
+    - Bloomberg / Morning Consult
   morningside-university-col-bud-day-center-for-civic-engagement:
     name: Morningside University Col. Bud Day Center for Civic Engagement
     fivethirtyeight_id: 536
@@ -1629,6 +1657,7 @@ pollsters:
     fivethirtyeight_id: 219
     aliases:
     - Muhlenberg College
+    - Muhlenberg College / Morning Call
   multi-quest-international:
     name: Multi-Quest International
     fivethirtyeight_id: 220
@@ -1806,6 +1835,10 @@ pollsters:
     name: Osage Research
     fivethirtyeight_id: 720
     aliases: []
+  outward-intelligence:
+    name: Outward Intelligence
+    aliases: []
+    source: wikipedia
   overton-insights:
     name: Overton Insights
     aliases: []
@@ -1891,6 +1924,7 @@ pollsters:
     fivethirtyeight_id: 257
     aliases:
     - NHJournal / Praecones Analytica
+    - Praecones Analytica / NHJournal
   premise:
     name: Premise
     fivethirtyeight_id: 709
@@ -1978,7 +2012,8 @@ pollsters:
   quinnipiac-university:
     name: Quinnipiac University
     fivethirtyeight_id: 267
-    aliases: []
+    aliases:
+    - Quinnipiac
   raba-research:
     name: RABA Research
     fivethirtyeight_id: 269
@@ -2045,7 +2080,8 @@ pollsters:
     aliases: []
   research-america:
     name: Research America
-    aliases: []
+    aliases:
+    - Research America Inc.
     source: wikipedia
   research-and-polling-inc:
     name: Research & Polling Inc.
@@ -2062,6 +2098,10 @@ pollsters:
     aliases: []
   resonance-media:
     name: Resonance Media
+    aliases: []
+    source: wikipedia
+  revere-solutions-providence:
+    name: Revere Solutions / Providence
     aliases: []
     source: wikipedia
   rice-university:
@@ -2105,6 +2145,10 @@ pollsters:
     fivethirtyeight_id: 292
     aliases:
     - Roanoke College
+  rodriguez-gudelunas-strategies:
+    name: Rodriguez Gudelunas Strategies
+    aliases: []
+    source: wikipedia
   roi-rocket:
     name: ROI Rocket
     fivethirtyeight_id: 554
@@ -2232,7 +2276,8 @@ pollsters:
   soonerpoll-com:
     name: SoonerPoll.com
     fivethirtyeight_id: 308
-    aliases: []
+    aliases:
+    - SoonerPoll
   south-dakota-state-university-school-of-american-and-global-studies:
     name: South Dakota State University School of American and Global Studies
     fivethirtyeight_id: 725
@@ -2336,7 +2381,8 @@ pollsters:
   suffolk-university:
     name: Suffolk University
     fivethirtyeight_id: 323
-    aliases: []
+    aliases:
+    - Suffolk University / USA Today
   survation:
     name: Survation
     aliases: []
@@ -2351,6 +2397,7 @@ pollsters:
     aliases:
     - KSTP / SurveyUSA
     - KTSP / SurveyUSA
+    - High Point University / SurveyUSA
   susquehanna-polling-and-research-inc:
     name: Susquehanna Polling & Research Inc.
     fivethirtyeight_id: 326
@@ -2387,6 +2434,7 @@ pollsters:
     fivethirtyeight_id: 333
     aliases:
     - The Tarrance Group
+    - The Terrance Group
   tavern-research:
     name: Tavern Research
     aliases: []
@@ -2469,6 +2517,7 @@ pollsters:
     - New York Times / Portland Press Herald / Siena University
     - The New York Times / The Philadelphia Inquirer / Siena University
     - The New York Times / Siena University
+    - The New York Times / Siena College / The Philadelphia Inquirer
   the-political-matrix-the-listener-group:
     name: The Political Matrix/The Listener Group
     fivethirtyeight_id: 677
@@ -2495,6 +2544,7 @@ pollsters:
     name: The Washington Post
     aliases:
     - The Washington Post / SSPG
+    - Washington Post
     source: wikipedia
   the-washington-post-george-mason-university-schar-school-of-policy-and-government:
     name: The Washington Post/George Mason University Schar School of Policy and Government
@@ -2502,6 +2552,7 @@ pollsters:
     aliases:
     - Washington Post / Schar School
     - The Washington Post / George Mason University
+    - The Washington Post / Schar School
   the-washington-post-university-of-maryland-center-for-democracy-and-civic-engagement:
     name: The Washington Post/University of Maryland Center for Democracy and Civic Engagement
     fivethirtyeight_id: 755
@@ -2525,7 +2576,8 @@ pollsters:
   tipp-insights:
     name: TIPP Insights
     fivethirtyeight_id: 144
-    aliases: []
+    aliases:
+    - I&I / TIPP
   tmr-research:
     name: TMR Research
     fivethirtyeight_id: 328
@@ -2543,6 +2595,10 @@ pollsters:
     fivethirtyeight_id: 338
     aliases:
     - The Trafalgar Group
+  trafalgar-insideradvantage:
+    name: Trafalgar Group / InsiderAdvantage
+    aliases: []
+    source: wikipedia
   triumph-campaigns:
     name: Triumph Campaigns
     fivethirtyeight_id: 339
@@ -2590,6 +2646,7 @@ pollsters:
     - UC Berkeley
     - Berkeley IGS
     - UC Berkeley Citrin Center / TrueDot / Politico
+    - UC Berkeley IGS
   university-of-cincinnati-ohio-poll:
     name: University of Cincinnati (Ohio Poll)
     fivethirtyeight_id: 346
@@ -2735,7 +2792,8 @@ pollsters:
   university-of-wyoming-survey-and-analysis-center:
     name: University of Wyoming Survey & Analysis Center
     fivethirtyeight_id: 667
-    aliases: []
+    aliases:
+    - University of Wyoming
   univision-latino-decisions-north-star-opinion-research:
     name: Univision/Latino Decisions/North Star Opinion Research
     fivethirtyeight_id: 516
@@ -2826,6 +2884,11 @@ pollsters:
     name: Vox Populi Polling
     fivethirtyeight_id: 372
     aliases: []
+  wall-street-journal:
+    name: The Wall Street Journal
+    aliases:
+    - Wall Street Journal
+    source: wikipedia
   war-room-logistics:
     name: War Room Logistics
     fivethirtyeight_id: 374
@@ -2873,7 +2936,8 @@ pollsters:
   wick:
     name: Wick
     fivethirtyeight_id: 284
-    aliases: []
+    aliases:
+    - Wick Insights
   wick-communications:
     name: Wick Communications
     fivethirtyeight_id: 381
@@ -2885,7 +2949,8 @@ pollsters:
   winthrop-university-center-for-public-opinion-and-policy-research:
     name: Winthrop University Center for Public Opinion & Policy Research
     fivethirtyeight_id: 386
-    aliases: []
+    aliases:
+    - Winthrop University
   wirthlin-worldwide:
     name: Wirthlin Worldwide
     fivethirtyeight_id: 387
@@ -2941,6 +3006,11 @@ pollsters:
     - CBS / YouGov
     - Wesleyan University / YouGov
     - Texas Southern University / YouGov
+    - CES / YouGov
+    - The Economist / YouGov
+    - Rose Institute / YouGov
+    - Institute for Global Affairs / YouGov
+    - Center for Working Class Politics / YouGov
   z-to-a-research:
     name: Z to A Research
     aliases: []

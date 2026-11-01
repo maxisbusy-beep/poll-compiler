@@ -1,0 +1,19 @@
+# Written by `python -m pipeline.backtest`. Do not edit by hand; rerun the backtest.
+half_life_days: 14
+shrink_k: 10
+quality_scale_s: 3.0
+use_bias_correction: true
+population_weight:
+  LV: 1.0
+  RV: 0.7
+  A: 0.3
+  ? ''
+  : 0.85
+default_sample: 600
+sigma:
+  a: 3.5
+  b: 10
+  c: 0.2
+national_sd: 2.61
+lean_sigma: 15.3
+prior_weight: 0.5

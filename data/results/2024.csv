@@ -381,7 +381,7 @@ cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_n
 2024,presidential,2024-11-05,2024-PRES-CO,PRES,CO,,,Kamala Harris Tim Walz,DEM,54.13,Donald Trump JD Vance,REP,43.14,10.99,D-R,wikipedia
 2024,presidential,2024-11-05,2024-PRES-CT,PRES,CT,,,Kamala Harris Tim Walz,DEM,56.4,Donald Trump JD Vance,REP,41.89,14.51,D-R,wikipedia
 2024,presidential,2024-11-05,2024-PRES-DE,PRES,DE,,,Kamala Harris Tim Walz,DEM,56.49,Donald Trump JD Vance,REP,41.79,14.7,D-R,wikipedia
-2024,presidential,2024-11-05,2024-PRES-FL,PRES,FL,,,Registered electors,OTH,100.0,Donald Trump JD Vance,REP,56.09,43.91,X-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-FL,PRES,FL,,,Kamala Harris Tim Walz,DEM,42.99,Donald Trump JD Vance,REP,56.09,-13.1,D-R,wikipedia
 2024,presidential,2024-11-05,2024-PRES-GA,PRES,GA,,,Kamala Harris Tim Walz,DEM,48.53,Donald Trump JD Vance,REP,50.73,-2.2,D-R,wikipedia
 2024,presidential,2024-11-05,2024-PRES-HI,PRES,HI,,,Kamala Harris Tim Walz,DEM,60.59,Donald Trump JD Vance,REP,37.48,23.11,D-R,wikipedia
 2024,presidential,2024-11-05,2024-PRES-IA,PRES,IA,,,Kamala Harris Tim Walz,DEM,42.52,Donald Trump JD Vance,REP,55.73,-13.21,D-R,wikipedia

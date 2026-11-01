@@ -28,5 +28,85 @@
 2024-SEN-WV: 5 poll tables, kept Glenn Elliott vs Jim Justice
 2024-SEN-WI: 2 poll tables, kept Tammy Baldwin vs Eric Hovde
 2024-SEN-CA: 3 poll tables, kept Adam Schiff vs Steve Garvey
+2024-PRES-AL: 3 poll tables, kept Donald Trump vs Joe Biden
+2024-PRES-AK: 6 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-AZ: 23 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-AR: 5 poll tables, kept Donald J. Trump vs Kamala Harris vs Robert F. Kennedy Jr. vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-CA: 10 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-CO: 6 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-CT: 4 poll tables, kept Kamala Harris vs Donald Trump vs Robert Kennedy Jr.
+2024-PRES-DE: 5 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-FL: 15 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-GA: 16 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-HI: 4 poll tables, kept Joe Biden vs Donald Trump
+2024-PRES-ID: 3 poll tables, kept Donald J. Trump vs Joe Biden
+2024-PRES-IL: 6 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-IN: 5 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-IA: 9 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-KS: 5 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-KY: 3 poll tables, kept Donald Trump vs Joe Biden
+2024-PRES-LA: 5 poll tables, kept Donald Trump vs Joe Biden
+2024-PRES-ME: 15 poll tables, kept Kamala Harris vs Donald Trump vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-MD: 8 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MA: 8 poll tables, kept Kamala Harris vs Donald Trump vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-MI: 24 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MN: 11 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MS: 4 poll tables, kept Donald Trump vs Joe Biden
+2024-PRES-MO: 6 poll tables, kept Donald J. Trump vs Kamala Harris
+2024-PRES-MT: 10 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-NE: 14 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-NV: 14 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NH: 20 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NJ: 6 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NM: 9 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NY: 8 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NC: 18 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-ND: 2 poll tables, kept Donald Trump vs Chase Oliver
+2024-PRES-OH: 17 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-OK: 6 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-OR: 6 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-PA: 24 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-RI: 10 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-SC: 9 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-SD: 5 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-TN: 8 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-TX: 17 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-UT: 7 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-VT: 5 poll tables, kept Kamala Harris vs Donald Trump vs Robert Kennedy Jr vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-VA: 13 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-WV: 5 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-WI: 19 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-WY: 4 poll tables, kept Donald Trump vs Kamala Harris
 2024-GOV-WA: 2 poll tables, kept Bob Ferguson vs Dave Reichert
 2024-GOV-WV: 2 poll tables, kept Patrick Morrisey vs Steve Williams
+2024-PRES-US: 75 poll tables, kept Kamala Harris vs Donald Trump vs Robert F. Kennedy Jr. vs Cornel West vs Jill Stein
+2024-PRES-AK: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-AZ: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-DE: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-FL: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-GA: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-IA: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-ME: 2 poll tables, kept Kamala Harris vs Donald Trump vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-MD: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MA: 2 poll tables, kept Kamala Harris vs Donald Trump vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-MI: 5 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MN: 3 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-MO: 2 poll tables, kept Donald J. Trump vs Kamala Harris
+2024-PRES-MT: 4 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-NE: 6 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-NV: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NH: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NM: 4 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NY: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-NC: 4 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-OH: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-PA: 3 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-RI: 4 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-SC: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-TN: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-TX: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-UT: 2 poll tables, kept Donald Trump vs Kamala Harris
+2024-PRES-VT: 2 poll tables, kept Kamala Harris vs Donald Trump vs Robert Kennedy Jr vs Cornel West vs Jill Stein vs Chase Oliver
+2024-PRES-VA: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-WA: 2 poll tables, kept Kamala Harris vs Donald Trump
+2024-PRES-WI: 5 poll tables, kept Kamala Harris vs Donald Trump

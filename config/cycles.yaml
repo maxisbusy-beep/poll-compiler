@@ -1,7 +1,38 @@
-# Per-cycle facts (SPEC.md section 2). Senate seat counts are added in Phase 4.
+# Per-cycle facts (SPEC.md sections 2 and 5.3).
+#
+# senate.not_up: seats NOT on the ballot that cycle, by caucus. Independents who
+#   caucus with Democrats (King, Sanders, Sinema before 2025) count as dem.
+# senate.dem_needs: seats Democrats need for control. 51, or 50 when the Vice
+#   President who takes office with the new Congress is a Democrat.
+#   Republicans control otherwise, except when an independent who caucuses with
+#   neither party holds the balance (see `uncommitted`).
+# senate.uncommitted: race ids whose non-Republican side, if it wins, joins
+#   neither caucus (e.g. Dan Osborn, NE). Shown separately in the forecast.
+
+2014:
+  election_date: 2014-11-04
+  senate: {not_up: {dem: 34, rep: 30}, dem_needs: 50}   # VP Biden (D)
+2016:
+  election_date: 2016-11-08
+  senate: {not_up: {dem: 36, rep: 30}, dem_needs: 51}   # VP Pence (R)
+2018:
+  election_date: 2018-11-06
+  senate: {not_up: {dem: 23, rep: 42}, dem_needs: 51}   # VP Pence (R)
+2020:
+  election_date: 2020-11-03
+  senate: {not_up: {dem: 35, rep: 30}, dem_needs: 50}   # VP Harris (D)
 2022:
   election_date: 2022-11-08
+  senate: {not_up: {dem: 36, rep: 29}, dem_needs: 50}   # VP Harris (D)
 2024:
   election_date: 2024-11-05
+  senate: {not_up: {dem: 28, rep: 38}, dem_needs: 51}   # VP Vance (R)
 2026:
   election_date: 2026-11-03
+  senate:
+    not_up: {dem: 34, rep: 31}
+    dem_needs: 51                                         # VP Vance (R)
+    uncommitted: [2026-SEN-NE]                            # Dan Osborn (I)
+  lean:                                                    # for races with no polls
+    pres_cycle: 2024
+    pres_national_margin: -1.5                            # Harris - Trump, 2024 national vote

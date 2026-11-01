@@ -338,7 +338,7 @@ def read_result(table: Tag) -> list[tuple[str, str, float]] | None:
     for r in data:
         name = re.sub(r"\s*\((incumbent|write-in)\)", "", clean(r[ci]), flags=re.I)
         pct = parse_pct(r[pi])
-        if not name or pct is None or re.match(r"total|majority|plurality|turnout|write", name, re.I):
+        if not name or pct is None or re.match(r"total|majority|plurality|turnout|write|registered|eligible|blank|invalid|rejected|spoiled|over ?votes|under ?votes", name, re.I):
             continue
         ptxt = clean(r[pa]).lower() if pa is not None else ""
         lines.setdefault(name, []).append((ptxt, pct))

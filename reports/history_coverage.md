@@ -1,6 +1,6 @@
 # Historical data coverage
 
-- Polls: **20,256** · Races with a result: **2,577** · Pollsters: **654**
+- Polls: **21,864** · Races with a result: **2,637** · Pollsters: **682**
 - Cycles: 1998–2026
 - Polls within 21 days of the election are the ones eligible for pollster scoring.
 
@@ -33,14 +33,14 @@
 | 2020 | presidential | 495 (270) / 33 | 194 (78) / 88 | 71 (26) / 1 | 92 (43) / 12 | 1183 (592) / 55 | 210 |
 | 2021 | off-year | — | 4 (3) / 3 | — | 44 (25) / 2 | — | 28 |
 | 2022 | midterm | 419 (218) / 31 | 134 (53) / 75 | 149 (55) / 1 | 438 (221) / 34 | — | 178 |
-| 2024 | presidential | 886 (269) / 34 | 239 (54) / 363 | — | — | — | 159 |
-| 2026 | midterm | 564 (126) / 0 | 317 (70) / 0 | — | — | — | 152 |
+| 2024 | presidential | 886 (269) / 34 | 239 (54) / 363 | — | 161 (41) / 11 | 934 (320) / 49 | 196 |
+| 2026 | midterm | 564 (126) / 0 | 317 (70) / 0 | — | 513 (125) / 0 | — | 193 |
 
 Cell format: all polls (polls within 21 days) / races.
 
 ## Matchups
 
-- D-R: 2530 races
+- D-R: 2590 races
 - X-R: 21 races
 - same-party: 17 races
 - other: 9 races
@@ -49,18 +49,18 @@ Cell format: all polls (polls within 21 days) / races.
 
 | Pollster | Polls ≤21d | Cycles |
 |---|---|---|
-| surveyusa | 706 | 1998–2026 (23) |
-| rasmussen-reports | 649 | 2000–2026 (19) |
-| yougov | 508 | 2004–2026 (14) |
+| surveyusa | 715 | 1998–2026 (23) |
+| rasmussen-reports | 662 | 2000–2026 (19) |
+| yougov | 543 | 2004–2026 (14) |
 | zogby-analytics | 402 | 1998–2014 (12) |
-| mason-dixon-polling-and-strategy | 380 | 1998–2026 (21) |
-| public-policy-polling | 345 | 2008–2026 (13) |
+| mason-dixon-polling-and-strategy | 381 | 1998–2026 (21) |
+| public-policy-polling | 349 | 2008–2026 (13) |
+| emerson-college | 273 | 2013–2026 (10) |
 | surveymonkey | 259 | 2016–2020 (4) |
-| emerson-college | 247 | 2013–2026 (10) |
 | harris-insights-and-analytics | 184 | 1998–2020 (8) |
-| quinnipiac-university | 177 | 1998–2024 (19) |
+| quinnipiac-university | 181 | 1998–2026 (20) |
 | ipsos | 175 | 2002–2022 (12) |
-| marist-college | 137 | 1998–2026 (16) |
+| marist-college | 148 | 1998–2026 (16) |
+| university-of-new-hampshire-survey-center | 130 | 2000–2024 (14) |
 | gravis-marketing | 128 | 2012–2020 (7) |
-| university-of-new-hampshire-survey-center | 125 | 2000–2024 (14) |
-| trafalgar-group | 113 | 2016–2026 (9) |
+| trafalgar-group | 127 | 2016–2026 (9) |

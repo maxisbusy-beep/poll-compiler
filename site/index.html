@@ -34,6 +34,8 @@
   .split { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 10px; background: var(--line); }
   .split span:first-child { background: var(--dem); }
   .split span:last-child { background: var(--rep); }
+  .big .d { color: var(--dem); } .big .r { color: var(--rep); }
+  .sub2 { margin-top: 8px; font-size: .8rem; color: var(--muted); }
   .note { margin-top: 16px; font-size: .9rem; color: var(--muted); }
   footer { margin-top: 32px; font-size: .8rem; color: var(--muted); }
 </style>
@@ -44,10 +46,11 @@
   <p class="sub">Senate and House odds from public polls, with every pollster graded on its record.</p>
 
   <div class="grid">
-    <section class="card">
+    <section class="card" id="senate">
       <div class="label">Senate</div>
       <div class="big">—</div>
       <div class="split"><span style="width:50%"></span><span style="width:50%"></span></div>
+      <div class="sub2"></div>
     </section>
     <section class="card">
       <div class="label">House</div>
@@ -58,7 +61,7 @@
 
   <p class="note" id="status">Loading status…</p>
 
-  <footer>Historical data loaded. Forecast arrives in later phases — see SPEC.md in the repo.</footer>
+  <footer>Senate odds are live. House odds and the full race and pollster pages come in later phases — see SPEC.md in the repo.</footer>
 </main>
 <script>
   fetch("data/status.json", { cache: "no-store" })
@@ -70,6 +73,19 @@
     .catch(() => {
       document.getElementById("status").textContent = "No data yet.";
     });
+  fetch("data/forecast.json", { cache: "no-store" })
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(f => {
+      const s = f.senate, el = document.getElementById("senate");
+      const d = Math.round(s.p_dem_control * 100), r = Math.round(s.p_rep_control * 100);
+      el.querySelector(".big").innerHTML = `<span class="d">D ${d}%</span> · <span class="r">R ${r}%</span>`;
+      const spans = el.querySelectorAll(".split span");
+      spans[0].style.width = d + "%"; spans[1].style.width = (100 - d) + "%";
+      let note = `Dem seats ${s.dem_seats_median} (80%: ${s.dem_seats_p10}–${s.dem_seats_p90}) · ${s.races_with_polls}/${s.races_up} races polled`;
+      if (s.p_uncommitted_decides > 0.005) note += ` · ${Math.round(s.p_uncommitted_decides * 100)}% an independent decides`;
+      el.querySelector(".sub2").textContent = note;
+    })
+    .catch(() => {});
 </script>
 </body>
 </html>
