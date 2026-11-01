@@ -55,4 +55,16 @@ t("Live odds lock in called races", () => {
   assert.strictEqual(none.p_dem, 0);
 });
 
+t("Finds the general-election Results section, not the primary one", () => {
+  const S = (level, line, index) => ({ level: String(level), line, index: String(index) });
+  const secs = [S(2, "Statewide polling", 1), S(2, "District 3", 2), S(3, "Polling", 3), S(3, "Results", 4),
+    S(3, "General election", 5), S(4, "Polling", 6), S(3, "Results", 7), S(4, "By county", 8), S(2, "District 4", 9),
+    S(3, "Republican primary", 10), S(4, "Results", 11), S(3, "General election", 12), S(4, "Results", 13)];
+  assert.strictEqual(Live.resultSection(secs, "3"), "7");
+  assert.strictEqual(Live.resultSection(secs, "4"), "13");
+  assert.strictEqual(Live.resultSection(secs, "9"), null);
+  const sen = [S(2, "Democratic primary", 1), S(3, "Results", 2), S(2, "General election", 3), S(3, "Polling", 4), S(3, "Results", 5)];
+  assert.strictEqual(Live.resultSection(sen, null), "5");
+});
+
 console.log(`${n} passed`);

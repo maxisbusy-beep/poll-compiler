@@ -152,14 +152,39 @@
     return out;
   }
 
-  async function fetchPage(title) {
-    const d = await wikiJSON({ action: "parse", page: title, prop: "text", redirects: "1",
-                               disableeditsection: "1", disabletoc: "1" });
+  async function fetchSection(title, index) {
+    const d = await wikiJSON({ action: "parse", page: title, prop: "text", section: String(index),
+                               redirects: "1", disableeditsection: "1", disabletoc: "1" });
     return new DOMParser().parseFromString(d.parse.text, "text/html");
   }
 
+  const strip = (h) => String(h).replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+
+  /** Index of the general-election "Results" section for a district (or the whole page).
+      Same rule as the table parser: after the first "General election" heading, skipping
+      anything under a primary or runoff heading. Downloading just that section keeps each
+      check small (whole state pages run to several megabytes). */
+  function resultSection(sections, district) {
+    let subs = sections;
+    if (district) {
+      const i = sections.findIndex((s) => s.level === "2" && (strip(s.line).match(/^District (\d+)\b/) || [])[1] == +district);
+      if (i < 0) return null;
+      const j = sections.findIndex((s, k) => k > i && s.level === "2");
+      subs = sections.slice(i + 1, j < 0 ? undefined : j);
+    }
+    const g = subs.findIndex((s) => /general election/i.test(strip(s.line)));
+    const after = g >= 0 ? subs.slice(g) : subs;
+    let parentSkip = false;
+    for (const s of after) {
+      const line = strip(s.line);
+      if (+s.level <= 3) parentSkip = SKIP.test(line);
+      if (/^results?$/i.test(line) && !parentSkip) return s.index;
+    }
+    return null;
+  }
+
   /** Poll Wikipedia; only pages whose revision changed are downloaded again. */
-  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 4 } = {}) {
+  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 8 } = {}) {
     const seen = {}, results = {}, pageTime = {};
     const pages = [...new Set(Object.values(liveTable.races).map((r) => r.page).filter(Boolean))];
     let timer = null, running = false;
@@ -169,19 +194,31 @@
       try {
         const revs = await revisions(pages);
         const changed = pages.filter((t) => revs[t] && revs[t].revid !== seen[t]);
+        // one job per race: the small "Results" section of its page
+        const jobs = [];
         for (let i = 0; i < changed.length; i += concurrency) {
           await Promise.all(changed.slice(i, i + concurrency).map(async (t) => {
-            try {
-              const doc = await fetchPage(t);
-              for (const [rid, info] of Object.entries(liveTable.races)) {
-                if (info.page !== t) continue;
-                const r = parseRace(doc, info.single_district ? null : info.district);
-                if (r) results[rid] = { ...r, expected: info.expected_votes, page: t, edited: revs[t].ts };
-              }
-              seen[t] = revs[t].revid;
-              pageTime[t] = revs[t].ts;
-            } catch (e) { /* one bad page should not stop the rest */ }
+            let sections;
+            try { sections = (await wikiJSON({ action: "parse", page: t, prop: "sections", redirects: "1" })).parse.sections; }
+            catch (e) { return; }
+            for (const [rid, info] of Object.entries(liveTable.races)) {
+              if (info.page !== t) continue;
+              const idx = resultSection(sections, info.single_district ? null : info.district);
+              if (idx != null) jobs.push({ rid, info, t, idx });
+            }
+            seen[t] = revs[t].revid;
+            pageTime[t] = revs[t].ts;
           }));
+        }
+        for (let i = 0; i < jobs.length; i += concurrency) {
+          await Promise.all(jobs.slice(i, i + concurrency).map(async ({ rid, info, t, idx }) => {
+            try {
+              const doc = await fetchSection(t, idx);
+              const r = parseRace(doc, null);
+              if (r) results[rid] = { ...r, expected: info.expected_votes, page: t, edited: revs[t].ts };
+            } catch (e) { /* one bad section should not stop the rest */ }
+          }));
+          if (i % (concurrency * 10) === 0) onUpdate({ results, checked: new Date(), partial: true });
         }
         onUpdate({ results, checked: new Date(), changed: changed.length });
       } catch (e) {
@@ -229,5 +266,5 @@
              median: seats[Math.floor(nSims / 2)], p10: seats[Math.floor(nSims * 0.1)], p90: seats[Math.floor(nSims * 0.9)] };
   }
 
-  return { blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, poller, liveOdds, revisions };
+  return { blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, resultSection, poller, liveOdds, revisions };
 });
