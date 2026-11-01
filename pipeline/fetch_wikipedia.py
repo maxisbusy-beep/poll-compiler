@@ -97,6 +97,9 @@ def discover(cycle: int) -> dict:
         pres_hub = f"{y} United States presidential election"
         pres_re = re.compile(rf"^{y} United States presidential election in [A-Z][\w .]+$")
         president = sorted({t for t in page_links(pres_hub) if pres_re.match(t)})
+        # most presidential polls live on two big list pages, not the state pages
+        president += [f"Statewide opinion polling for the {y} United States presidential election",
+                      f"Nationwide opinion polling for the {y} United States presidential election"]
     generic = [house_hub]
     for t in search_titles(f'intitle:"{y}" intitle:"opinion polling" House of Representatives'):
         if y in t and "House" in t and t not in generic:
@@ -131,6 +134,8 @@ def reduce_html(html: str) -> str:
     """Keep headings and tables only, in page order. Drops nav boxes and references."""
     soup = BeautifulSoup(html, "lxml")
     keep = []
+    for st in soup.find_all(["style", "script"]):
+        st.decompose()
     for el in soup.find_all(["h2", "h3", "h4", "h5", "table"]):
         if el.name == "table":
             if el.find_parent("table") is not None:

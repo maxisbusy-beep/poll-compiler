@@ -60,6 +60,10 @@ pollsters:
     name: African American Research Collaborative
     fivethirtyeight_id: 733
     aliases: []
+  aif-center:
+    name: AIF Center
+    aliases: []
+    source: wikipedia
   alabama-state-university:
     name: Alabama State University
     fivethirtyeight_id: 8
@@ -120,7 +124,8 @@ pollsters:
   arizona-state-university-morrison-institute-for-public-policy:
     name: Arizona State University Morrison Institute for Public Policy
     fivethirtyeight_id: 15
-    aliases: []
+    aliases:
+    - Arizona State University
   arthur-j-finkelstein-and-associates:
     name: Arthur J. Finkelstein & Associates
     fivethirtyeight_id: 16
@@ -325,10 +330,15 @@ pollsters:
     name: Bruno Political Consulting
     fivethirtyeight_id: 724
     aliases: []
+  bsg-global-strategy-group:
+    name: BSG / Global Strategy Group
+    aliases: []
+    source: wikipedia
   bsp-research-shaw-and-company-research:
     name: BSP Research/Shaw & Company Research
     fivethirtyeight_id: 728
-    aliases: []
+    aliases:
+    - BSP Research
   bullfinch-group:
     name: The Bullfinch Group
     aliases:
@@ -383,6 +393,11 @@ pollsters:
     name: ccAdvertising
     fivethirtyeight_id: 396
     aliases: []
+  center-for-excellence-in-polling:
+    name: Center for Excellence in Polling
+    aliases:
+    - CEPP
+    source: wikipedia
   center-street-pac:
     name: Center Street PAC
     fivethirtyeight_id: 715
@@ -532,6 +547,10 @@ pollsters:
     name: Crosby for Congress
     aliases: []
     source: wikipedia
+  cross-timbers-poll:
+    name: Cross Timbers Poll
+    aliases: []
+    source: wikipedia
   crosstarget:
     name: CrossTarget
     fivethirtyeight_id: 66
@@ -549,6 +568,7 @@ pollsters:
     fivethirtyeight_id: 67
     aliases:
     - Cygnal / Beacon Research
+    - Beacon Research / Cygnal
   dan-jones-and-associates:
     name: Dan Jones & Associates
     fivethirtyeight_id: 70
@@ -636,6 +656,10 @@ pollsters:
     name: Diamond State Consulting Group
     fivethirtyeight_id: 78
     aliases: []
+  differentiator-data:
+    name: Differentiator Data
+    aliases: []
+    source: wikipedia
   digital-research:
     name: Digital Research
     fivethirtyeight_id: 64
@@ -690,6 +714,7 @@ pollsters:
     fivethirtyeight_id: 407
     aliases:
     - Echleon Insights
+    - Echelon Insights / Tusk Strategies
   ed-renwick-loyola-university-new-orleans:
     name: Ed Renwick/Loyola University New Orleans
     fivethirtyeight_id: 85
@@ -736,6 +761,10 @@ pollsters:
     name: EPIC-MRA
     fivethirtyeight_id: 84
     aliases: []
+  equis-research:
+    name: Equis Research
+    aliases: []
+    source: wikipedia
   escalent:
     name: Escalent
     fivethirtyeight_id: 189
@@ -947,6 +976,10 @@ pollsters:
     name: Gotham Polling & Analytics
     aliases: []
     source: wikipedia
+  gotv-polling:
+    name: GOTV Polling
+    aliases: []
+    source: wikipedia
   goucher-college-sarah-t-hughes-center-for-politics:
     name: Goucher College Sarah T. Hughes Center for Politics
     fivethirtyeight_id: 414
@@ -1078,7 +1111,8 @@ pollsters:
     aliases: []
   highground-public-affairs:
     name: HighGround Public Affairs
-    aliases: []
+    aliases:
+    - HighGround, Inc.
     source: wikipedia
   hill-research-consultants:
     name: Hill Research Consultants
@@ -1125,6 +1159,10 @@ pollsters:
     name: Independent Market Research
     fivethirtyeight_id: 148
     aliases: []
+  independent-voter-project:
+    name: Independent Voter Project
+    aliases: []
+    source: wikipedia
   indiana-state-university-department-of-multidisciplinary-studies:
     name: Indiana State University Department of Multidisciplinary Studies
     fivethirtyeight_id: 658
@@ -1348,6 +1386,10 @@ pollsters:
     name: M3 Strategies
     aliases: []
     source: wikipedia
+  mad-global-strategy:
+    name: MAD Global Strategy
+    aliases: []
+    source: wikipedia
   magellan-strategies:
     name: Magellan Strategies
     fivethirtyeight_id: 179
@@ -1360,6 +1402,7 @@ pollsters:
     name: Mainstreet Research
     aliases:
     - Mainstreet Research / FAU
+    - Florida Atlantic University / Mainstreet Research
     source: wikipedia
   manhattan-institute:
     name: Manhattan Institute
@@ -1486,7 +1529,8 @@ pollsters:
   meredith-college-department-of-history-political-science-and-international-studies:
     name: Meredith College Department of History, Political Science, and International Studies
     fivethirtyeight_id: 423
-    aliases: []
+    aliases:
+    - Meredith College
   merrill-poll:
     name: Merrill Poll
     fivethirtyeight_id: 206
@@ -1568,6 +1612,10 @@ pollsters:
     name: Morningside University Col. Bud Day Center for Civic Engagement
     fivethirtyeight_id: 536
     aliases: []
+  moxie-strategies:
+    name: Moxie Strategies
+    aliases: []
+    source: wikipedia
   mrg-research:
     name: MRG Research
     fivethirtyeight_id: 207
@@ -1635,6 +1683,10 @@ pollsters:
     name: NewsNation
     fivethirtyeight_id: 696
     aliases: []
+  nextgen-polling:
+    name: NextGen Polling
+    aliases: []
+    source: wikipedia
   nexus-strategies-strategic-partners-solutions:
     name: Nexus Strategies / Strategic Partners Solutions
     aliases: []
@@ -1786,6 +1838,10 @@ pollsters:
     name: Peak Insights
     aliases: []
     source: wikipedia
+  pennlive:
+    name: PennLive
+    aliases: []
+    source: wikipedia
   penta:
     name: Penta
     fivethirtyeight_id: 576
@@ -1806,10 +1862,18 @@ pollsters:
     name: Pioneer Polling/Tarrance Group
     fivethirtyeight_id: 729
     aliases: []
+  platform-communications:
+    name: Platform Communications
+    aliases: []
+    source: wikipedia
   point-blank-political:
     name: Point Blank Political
     fivethirtyeight_id: 550
     aliases: []
+  polity-research-consulting:
+    name: Polity Research Consulting
+    aliases: []
+    source: wikipedia
   pollfinity-research:
     name: Pollfinity Research
     aliases: []
@@ -1871,7 +1935,8 @@ pollsters:
   public-policy-institute-of-california:
     name: Public Policy Institute of California
     fivethirtyeight_id: 262
-    aliases: []
+    aliases:
+    - PPIC
   public-policy-polling:
     name: Public Policy Polling
     fivethirtyeight_id: 263
@@ -1947,6 +2012,7 @@ pollsters:
     aliases:
     - ReconMR / Siena University
     - Texas A&M University / ReconMR / Siena University
+    - Texas A&M University / ReconMR
     source: wikipedia
   reconnect-research-probolsky-research:
     name: Reconnect Research/Probolsky Research
@@ -1958,7 +2024,8 @@ pollsters:
     aliases: []
   red-oak-strategies:
     name: Red Oak Strategies
-    aliases: []
+    aliases:
+    - Red Oak Strategic
     source: wikipedia
   redbox-research:
     name: RedBox Research
@@ -1993,6 +2060,10 @@ pollsters:
     name: Research Consultants
     fivethirtyeight_id: 491
     aliases: []
+  resonance-media:
+    name: Resonance Media
+    aliases: []
+    source: wikipedia
   rice-university:
     name: Rice University
     fivethirtyeight_id: 286
@@ -2061,6 +2132,11 @@ pollsters:
     name: Sachs Media
     fivethirtyeight_id: 706
     aliases: []
+  sacred-heart-university:
+    name: Sacred Heart University
+    aliases:
+    - Sacred Heart University / WFSB / CT Insider
+    source: wikipedia
   saint-anselm-college-survey-center:
     name: Saint Anselm College Survey Center
     fivethirtyeight_id: 494
@@ -2208,6 +2284,14 @@ pollsters:
     name: Starboard Communications
     fivethirtyeight_id: 316
     aliases: []
+  state-navigate:
+    name: State Navigate
+    aliases: []
+    source: wikipedia
+  stealth-analytics:
+    name: Stealth Analytics
+    aliases: []
+    source: wikipedia
   stetson-university-center-for-public-opinion-research:
     name: Stetson University Center for Public Opinion Research
     fivethirtyeight_id: 730
@@ -2382,6 +2466,9 @@ pollsters:
     - NYT / Siena College
     - The New York Times / Siena College
     - New York Times / The Philadelphia Inquirer / Siena University
+    - New York Times / Portland Press Herald / Siena University
+    - The New York Times / The Philadelphia Inquirer / Siena University
+    - The New York Times / Siena University
   the-political-matrix-the-listener-group:
     name: The Political Matrix/The Listener Group
     fivethirtyeight_id: 677
@@ -2501,6 +2588,8 @@ pollsters:
     fivethirtyeight_id: 457
     aliases:
     - UC Berkeley
+    - Berkeley IGS
+    - UC Berkeley Citrin Center / TrueDot / Politico
   university-of-cincinnati-ohio-poll:
     name: University of Cincinnati (Ohio Poll)
     fivethirtyeight_id: 346
@@ -2525,7 +2614,8 @@ pollsters:
   university-of-georgia-school-of-public-and-international-affairs:
     name: University of Georgia School of Public and International Affairs
     fivethirtyeight_id: 350
-    aliases: []
+    aliases:
+    - University of Georgia
   university-of-georgia-survey-research-center:
     name: University of Georgia Survey Research Center
     fivethirtyeight_id: 674
@@ -2711,6 +2801,10 @@ pollsters:
     fivethirtyeight_id: 370
     aliases:
     - Virginia Commonwealth University
+  vote-txt:
+    name: Vote TXT
+    aliases: []
+    source: wikipedia
   votenexus:
     name: VoteNexus Research
     aliases:
@@ -2844,6 +2938,9 @@ pollsters:
     - University of Houston / YouGov
     - YouGov / Saint Louis University
     - YouGov Blue
+    - CBS / YouGov
+    - Wesleyan University / YouGov
+    - Texas Southern University / YouGov
   z-to-a-research:
     name: Z to A Research
     aliases: []

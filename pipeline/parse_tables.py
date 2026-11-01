@@ -119,12 +119,21 @@ def split_pollster(text: str) -> tuple[str, str]:
     return t, ",".join(dict.fromkeys(marks))
 
 
+PARTY_WORD = {"Democratic": "DEM", "Republican": "REP", "Independent": "IND",
+              "Libertarian": "LIB", "Green": "GRN"}
+
+
 def candidate_column(text: str) -> tuple[str, str] | None:
-    """'Bob Casey Jr. (D)' -> ('Bob Casey Jr.', 'DEM')."""
-    m = re.match(r"^(.*?)\s*\(([A-Z][A-Za-z-]{0,4})\)$", clean(text))
-    if not m or m.group(2) not in PARTY_LETTER:
-        return None
-    return m.group(1).strip(), PARTY_LETTER[m.group(2)]
+    """'Bob Casey Jr. (D)' -> ('Bob Casey Jr.', 'DEM');
+    'Donald Trump Republican' -> ('Donald Trump', 'REP') (presidential list pages)."""
+    t = clean(re.sub(r"\.mw-parser-output[^}]*\}", "", text))
+    m = re.match(r"^(.*?)\s*\(([A-Z][A-Za-z-]{0,4})\)$", t)
+    if m and m.group(2) in PARTY_LETTER:
+        return m.group(1).strip(), PARTY_LETTER[m.group(2)]
+    m = re.match(r"^(.+?)\s+(Democratic|Republican|Independent|Libertarian|Green)$", t)
+    if m and len(m.group(1).split()) >= 2:
+        return m.group(1).strip(), PARTY_WORD[m.group(2)]
+    return None
 
 
 # ---- table grid -------------------------------------------------------------
@@ -239,6 +248,8 @@ class PollTable:
 
 
 def read_poll_table(table: Tag) -> PollTable | None:
+    for st in table.find_all(["style", "script"]):
+        st.decompose()
     header, data = grid(table)
     if not header or not header[0].lower().startswith("poll source"):
         return None
@@ -283,7 +294,8 @@ def pick_main(tables: list[PollTable], ibox: str) -> PollTable | None:
         main = sorted(t.cands, key=lambda c: c[2] not in ("DEM", "REP"))[:2]
         surnames = [c[1].split()[-1].lower().strip(".") for c in main]
         in_box = all(s and s in ibox for s in surnames)
-        return (in_box, t.latest, len(t.rows))
+        # prefer the head-to-head over versions with extra candidates when equally recent
+        return (in_box, t.latest, -len(t.cands), len(t.rows))
     return max(tables, key=score) if tables else None
 
 
@@ -369,6 +381,17 @@ def races_on_page(title: str, cycle: int, blocks: list[Block]) -> list[Race]:
             return []
         kind = "S" if m.group(2) else ""
         return [Race(make_race_id(cycle, "GOV", st, "", kind), "GOV", st, "", kind, blocks)]
+    if title == f"Statewide opinion polling for the {cycle} United States presidential election":
+        by_state: dict[str, list[Block]] = {}
+        for b in blocks:
+            st = STATES.get(b.headings.get("h2", ""))
+            sub = " ".join(b.headings.get(h, "") for h in ("h3", "h4")).lower()
+            if st and "congressional district" not in sub:
+                by_state.setdefault(st, []).append(b)
+        return [Race(make_race_id(cycle, "PRES", st), "PRES", st, "", "", bs)
+                for st, bs in by_state.items()]
+    if title == f"Nationwide opinion polling for the {cycle} United States presidential election":
+        return [Race(make_race_id(cycle, "PRES", "US"), "PRES", "US", "", "", blocks)]
     m = re.match(rf"^{cycle} United States presidential election in (.+)$", title)
     if m:
         st = STATES.get(m.group(1))
@@ -451,4 +474,12 @@ def parse_cycle(cycle: int) -> tuple[list[dict], list[dict], list[str]]:
         results += r
         notes += n
     polls = [p for p in polls if p["days_to_election"] >= 0]
-    return polls, results, notes
+    # the same poll can appear on a race page and on a list page: keep one
+    seen, unique = set(), []
+    for p in polls:
+        key = (p["race_id"], p["pollster_raw"], p["end_date"], p["side_a_pct"], p["side_b_pct"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(p)
+    results = list({r["race_id"]: r for r in results}.values())
+    return unique, results, notes

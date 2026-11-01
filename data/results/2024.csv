@@ -1,4 +1,15 @@
 cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_name,side_a_party,side_a_actual,side_b_name,side_b_party,side_b_actual,margin_actual,matchup,source
+2024,presidential,2024-11-05,2024-GOV-DE,GOV,DE,,,Matt Meyer,DEM,56.07,Mike Ramone,REP,43.93,12.14,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-IN,GOV,IN,,,Jennifer McCormick Terry Goodin,DEM,41.11,Mike Braun Micah Beckwith,REP,54.38,-13.27,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-MO,GOV,MO,,,Crystal Quade,DEM,38.72,Mike Kehoe,REP,59.14,-20.42,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-MT,GOV,MT,,,Ryan Busse Raph Graybill,DEM,38.62,Greg Gianforte Kristen Juras,REP,58.86,-20.24,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-NC,GOV,NC,,,Josh Stein,DEM,54.9,Mark Robinson,REP,40.08,14.82,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-ND,GOV,ND,,,Merrill Piepkorn Patrick Hart,DEM,25.98,Kelly Armstrong Michelle Strinden,REP,68.26,-42.28,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-NH,GOV,NH,,,Joyce Craig,DEM,44.27,Kelly Ayotte,REP,53.61,-9.34,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-UT,GOV,UT,,,Brian King Rebekah Cummings,DEM,28.46,Spencer Cox Deidre Henderson,REP,52.89,-24.43,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-VT,GOV,VT,,,Esther Charlestin,DEM,21.83,Phil Scott,REP,73.43,-51.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-WA,GOV,WA,,,Bob Ferguson,DEM,55.51,Dave Reichert,REP,44.28,11.23,D-R,wikipedia
+2024,presidential,2024-11-05,2024-GOV-WV,GOV,WV,,,Steve Williams,DEM,31.58,Patrick Morrisey,REP,61.99,-30.41,D-R,wikipedia
 2024,presidential,2024-11-05,2024-HOUSE-AL-1,HOUSE,AL,1,,Tom Holmes,DEM,21.5,Barry Moore,REP,78.4,-56.9,D-R,wikipedia
 2024,presidential,2024-11-05,2024-HOUSE-AL-2,HOUSE,AL,2,,Shomari Figures,DEM,54.6,Caroleene Dobson,REP,45.4,9.2,D-R,wikipedia
 2024,presidential,2024-11-05,2024-HOUSE-AL-6,HOUSE,AL,6,,Elizabeth Anderson,DEM,29.6,Gary Palmer,REP,70.3,-40.7,D-R,wikipedia
@@ -362,6 +373,55 @@ cycle,cycle_type,election_date,race_id,race_type,state,district,special,side_a_n
 2024,presidential,2024-11-05,2024-HOUSE-WV-1,HOUSE,WV,1,,Chris Reed,DEM,26.1,Carol Miller,REP,66.4,-40.3,D-R,wikipedia
 2024,presidential,2024-11-05,2024-HOUSE-WV-2,HOUSE,WV,2,,Steven Wendelin,DEM,29.2,Riley Moore,REP,70.8,-41.6,D-R,wikipedia
 2024,presidential,2024-11-05,2024-HOUSE-WY-1,HOUSE,WY,1,,Kyle Cameron,DEM,23.24,Harriet Hageman,REP,70.61,-47.37,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-AK,PRES,AK,,,Kamala Harris Tim Walz,DEM,41.41,Donald Trump JD Vance,REP,54.54,-13.13,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-AL,PRES,AL,,,Kamala Harris Tim Walz,DEM,34.1,Donald Trump JD Vance,REP,64.57,-30.47,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-AR,PRES,AR,,,Kamala Harris Tim Walz,DEM,33.56,Donald Trump JD Vance,REP,64.2,-30.64,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-AZ,PRES,AZ,,,Kamala Harris Tim Walz,DEM,46.69,Donald Trump JD Vance,REP,52.22,-5.53,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-CA,PRES,CA,,,Kamala Harris Tim Walz,DEM,58.47,Donald Trump JD Vance,REP,38.33,20.14,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-CO,PRES,CO,,,Kamala Harris Tim Walz,DEM,54.13,Donald Trump JD Vance,REP,43.14,10.99,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-CT,PRES,CT,,,Kamala Harris Tim Walz,DEM,56.4,Donald Trump JD Vance,REP,41.89,14.51,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-DE,PRES,DE,,,Kamala Harris Tim Walz,DEM,56.49,Donald Trump JD Vance,REP,41.79,14.7,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-FL,PRES,FL,,,Registered electors,OTH,100.0,Donald Trump JD Vance,REP,56.09,43.91,X-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-GA,PRES,GA,,,Kamala Harris Tim Walz,DEM,48.53,Donald Trump JD Vance,REP,50.73,-2.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-HI,PRES,HI,,,Kamala Harris Tim Walz,DEM,60.59,Donald Trump JD Vance,REP,37.48,23.11,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-IA,PRES,IA,,,Kamala Harris Tim Walz,DEM,42.52,Donald Trump JD Vance,REP,55.73,-13.21,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-ID,PRES,ID,,,Kamala Harris Tim Walz,DEM,30.38,Donald Trump JD Vance,REP,66.87,-36.49,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-IL,PRES,IL,,,Kamala Harris Tim Walz,DEM,54.37,Donald Trump JD Vance,REP,43.47,10.9,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-IN,PRES,IN,,,Kamala Harris Tim Walz,DEM,39.62,Donald Trump JD Vance,REP,58.58,-18.96,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-KS,PRES,KS,,,Kamala Harris Tim Walz,DEM,41.04,Donald Trump JD Vance,REP,57.16,-16.12,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-KY,PRES,KY,,,Kamala Harris Tim Walz,DEM,33.94,Donald Trump JD Vance,REP,64.47,-30.53,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-LA,PRES,LA,,,Kamala Harris Tim Walz,DEM,38.21,Donald Trump JD Vance,REP,60.22,-22.01,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MA,PRES,MA,,,Kamala Harris Tim Walz,DEM,61.22,Donald Trump JD Vance,REP,36.02,25.2,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MD,PRES,MD,,,Kamala Harris Tim Walz,DEM,62.62,Donald Trump JD Vance,REP,34.08,28.54,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-ME,PRES,ME,,,Kamala Harris Tim Walz,DEM,52.4,Donald Trump JD Vance,REP,45.46,6.94,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MI,PRES,MI,,,Kamala Harris Tim Walz,DEM,48.31,Donald Trump JD Vance,REP,49.73,-1.42,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MN,PRES,MN,,,Kamala Harris Tim Walz,DEM,50.92,Donald Trump JD Vance,REP,46.68,4.24,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MO,PRES,MO,,,Kamala Harris Tim Walz,DEM,40.08,Donald Trump JD Vance,REP,58.49,-18.41,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MS,PRES,MS,,,Kamala Harris Tim Walz,DEM,38.0,Donald Trump JD Vance,REP,60.89,-22.89,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-MT,PRES,MT,,,Kamala Harris Tim Walz,DEM,38.46,Donald Trump JD Vance,REP,58.39,-19.93,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NC,PRES,NC,,,Kamala Harris Tim Walz,DEM,47.65,Donald Trump JD Vance,REP,50.86,-3.21,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-ND,PRES,ND,,,Kamala Harris Tim Walz,DEM,30.51,Donald Trump JD Vance,REP,66.96,-36.45,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NE,PRES,NE,,,Kamala Harris Tim Walz,DEM,38.86,Donald Trump JD Vance,REP,59.32,-20.46,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NH,PRES,NH,,,Kamala Harris Tim Walz,DEM,50.65,Donald Trump JD Vance,REP,47.87,2.78,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NJ,PRES,NJ,,,Kamala Harris Tim Walz,DEM,51.97,Donald Trump JD Vance,REP,46.06,5.91,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NM,PRES,NM,,,Kamala Harris Tim Walz,DEM,51.85,Donald Trump JD Vance,REP,45.85,6.0,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NV,PRES,NV,,,Kamala Harris Tim Walz,DEM,47.49,Donald Trump JD Vance,REP,50.59,-3.1,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-NY,PRES,NY,,,Kamala Harris Tim Walz,DEM,55.91,Donald Trump JD Vance,REP,43.31,12.6,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-OH,PRES,OH,,,Kamala Harris Tim Walz,DEM,43.93,Donald Trump JD Vance,REP,55.14,-11.21,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-OK,PRES,OK,,,Kamala Harris Tim Walz,DEM,31.9,Donald Trump JD Vance,REP,66.16,-34.26,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-OR,PRES,OR,,,Kamala Harris Tim Walz,DEM,55.27,Donald Trump JD Vance,REP,40.97,14.3,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-PA,PRES,PA,,,Kamala Harris Tim Walz,DEM,48.66,Donald Trump JD Vance,REP,50.37,-1.71,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-RI,PRES,RI,,,Kamala Harris Tim Walz,DEM,55.54,Donald Trump JD Vance,REP,41.76,13.78,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-SC,PRES,SC,,,Kamala Harris Tim Walz,DEM,40.36,Donald Trump JD Vance,REP,58.23,-17.87,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-SD,PRES,SD,,,Kamala Harris Tim Walz,DEM,34.24,Donald Trump JD Vance,REP,63.43,-29.19,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-TN,PRES,TN,,,Kamala Harris Tim Walz,DEM,34.47,Donald Trump JD Vance,REP,64.19,-29.72,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-TX,PRES,TX,,,Kamala Harris Tim Walz,DEM,42.46,Donald Trump JD Vance,REP,56.14,-13.68,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-UT,PRES,UT,,,Kamala Harris Tim Walz,DEM,37.79,Donald Trump JD Vance,REP,59.38,-21.59,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-VA,PRES,VA,,,Kamala Harris Tim Walz,DEM,51.83,Donald Trump JD Vance,REP,46.05,5.78,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-VT,PRES,VT,,,Kamala Harris Tim Walz,DEM,63.83,Donald Trump JD Vance,REP,32.32,31.51,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-WI,PRES,WI,,,Kamala Harris Tim Walz,DEM,48.74,Donald Trump JD Vance,REP,49.6,-0.86,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-WV,PRES,WV,,,Kamala Harris Tim Walz,DEM,28.1,Donald Trump JD Vance,REP,69.97,-41.87,D-R,wikipedia
+2024,presidential,2024-11-05,2024-PRES-WY,PRES,WY,,,Kamala Harris Tim Walz,DEM,25.84,Donald Trump JD Vance,REP,71.6,-45.76,D-R,wikipedia
 2024,presidential,2024-11-05,2024-SEN-AZ,SEN,AZ,,,Ruben Gallego,DEM,50.06,Kari Lake,REP,47.65,2.41,D-R,wikipedia
 2024,presidential,2024-11-05,2024-SEN-CA,SEN,CA,,,Adam Schiff,DEM,58.75,Steve Garvey,REP,41.25,17.5,D-R,wikipedia
 2024,presidential,2024-11-05,2024-SEN-CT,SEN,CT,,,Chris Murphy,DEM,58.58,Matthew Corey,REP,39.7,18.88,D-R,wikipedia
