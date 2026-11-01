@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>poll-compiler</title>
+<meta name="description" content="Compiles public polls into Senate and House odds, and grades pollsters on their track record.">
+<style>
+  :root {
+    --bg: #f6f5f1; --card: #ffffff; --ink: #1b1b1f; --muted: #6b6b74;
+    --line: #e3e1da; --dem: #2f5fd0; --rep: #c8372d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214; --card: #1c1c20; --ink: #ececf0; --muted: #9a9aa5;
+      --line: #2c2c33; --dem: #6f95ff; --rep: #ff6f62;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 16px;
+  }
+  .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .big { font-size: 1.9rem; font-weight: 700; margin-top: 6px; }
+  .split { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 10px; background: var(--line); }
+  .split span:first-child { background: var(--dem); }
+  .split span:last-child { background: var(--rep); }
+  .note { margin-top: 16px; font-size: .9rem; color: var(--muted); }
+  footer { margin-top: 32px; font-size: .8rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>poll-compiler</h1>
+  <p class="sub">Senate and House odds from public polls, with every pollster graded on its record.</p>
+
+  <div class="grid">
+    <section class="card">
+      <div class="label">Senate</div>
+      <div class="big">—</div>
+      <div class="split"><span style="width:50%"></span><span style="width:50%"></span></div>
+    </section>
+    <section class="card">
+      <div class="label">House</div>
+      <div class="big">—</div>
+      <div class="split"><span style="width:50%"></span><span style="width:50%"></span></div>
+    </section>
+  </div>
+
+  <p class="note" id="status">Loading status…</p>
+
+  <footer>Phase 0 skeleton. Forecast arrives in later phases — see SPEC.md in the repo.</footer>
+</main>
+<script>
+  fetch("data/status.json", { cache: "no-store" })
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(s => {
+      document.getElementById("status").textContent =
+        `Phase ${s.phase} · ${s.message} · Updated ${s.updated_utc.replace("T", " ").replace("Z", " UTC")}`;
+    })
+    .catch(() => {
+      document.getElementById("status").textContent = "No data yet.";
+    });
+</script>
+</body>
+</html>
