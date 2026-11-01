@@ -33,6 +33,11 @@
     not_up: {dem: 34, rep: 31}
     dem_needs: 51                                         # VP Vance (R)
     uncommitted: [2026-SEN-NE]                            # Dan Osborn (I)
+  governor:
+    # 14 governors not on the 2026 ballot, by party of the sitting governor:
+    # D: DE, KY, NJ, NC, VA, WA; R: IN, LA, MS, MO, MT, ND, UT, WV
+    not_up: {dem: 6, rep: 8}
+    majority: 26                                          # of 50 governorships
   lean:                                                    # for races with no polls
     pres_cycle: 2024
     pres_national_margin: -1.5                            # Harris - Trump, 2024 national vote

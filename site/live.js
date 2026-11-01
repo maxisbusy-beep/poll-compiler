@@ -342,7 +342,8 @@
 
   // ---- live odds: called races locked, the rest from the pre-election forecast ----------
   function liveOdds(races, results, opts) {
-    const { nationalSd, nSims = 4000, notUp = { dem: 0, rep: 0 }, demNeeds, repNeeds, uncommitted = [] } = opts;
+    // partyOnly: only a Democrat counts for D (governors: an independent winner counts for neither side)
+    const { nationalSd, nSims = 4000, notUp = { dem: 0, rep: 0 }, demNeeds, repNeeds, uncommitted = [], partyOnly = false } = opts;
     let seed = 12345;
     const rand = () => { seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; };
     const gauss = () => { let u = 0, v = 0; while (!u) u = rand(); v = rand(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
@@ -362,6 +363,7 @@
         else { aWins = x.r.margin + nat + gauss() * x.sdRace > 0; party = aWins ? x.r.side_a_party : x.r.side_b_party; }
         if (party === "REP") rr++;
         else if (aWins && x.unc) u++;
+        else if (partyOnly && party !== "DEM") u++;
         else d++;
       }
       seats.push(d);

@@ -1,0 +1,7 @@
+# Written by `python -m pipeline.backtest_governor`. Do not edit by hand.
+prior_weight: 0.0
+sigma:
+  a: 3.0
+  b: 10
+  c: 0.2
+lean_sigma: 20.76

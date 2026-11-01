@@ -38,29 +38,24 @@ def senate_race_ids(cycle: int) -> list[str]:
     return sorted(set(ids))
 
 
-def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, dict]:
-    cycle = cycle or load_scoring_config()["target_cycle"]
-    cycles = load_cycles()
-    ccfg = cycles[cycle]
-    eday = ccfg["election_date"]
-    as_of = min(as_of or date.today(), eday)
-    days = (eday - as_of).days
-    params = load_params()
+def governor_race_ids(cycle: int) -> list[str]:
+    src = yaml.safe_load((ROOT / "config" / "sources" / f"{cycle}.yaml").read_text())
+    ids = []
+    for t in src.get("governor") or []:
+        m = re.match(rf"^{cycle} (.+) gubernatorial election$", t)
+        if m and m.group(1) in STATES:
+            ids.append(f"{cycle}-GOV-{STATES[m.group(1)]}")
+    return sorted(set(ids))
 
-    polls = load_all_polls()
-    results = load_all_results()
-    pp = pollster_params(cycle, params["shrink_k"], params["quality_scale_s"], polls, results)
+
+def statewide_races(race_type, ids, cycle, as_of, days, params, pp, polls, results, env_margin, nat, nat_override):
+    """Senate or governor races: poll average blended with the state's partisan lean."""
     by_race = defaultdict(list)
     for p in polls:
-        if int(p["cycle"]) == cycle and p["race_type"] == "SEN":
+        if int(p["cycle"]) == cycle and p["race_type"] == race_type:
             by_race[p["race_id"]].append(p)
-
-    env = generic_ballot(cycle)
-    env_margin = env["margin"] if env else None
-    nat = params["national_sd"]
     races = []
-    nat_override = (ccfg.get("lean") or {}).get("pres_national_margin")
-    for rid in sorted(set(senate_race_ids(cycle)) | set(by_race)):
+    for rid in sorted(set(ids) | set(by_race)):
         state = rid.split("-")[2]
         ps = by_race.get(rid, [])
         avg = race_average(ps, as_of, params, pp) if ps else None
@@ -84,7 +79,61 @@ def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, di
                               split_sd(sd, nat), win_prob(mu, sd), 0, 0.0, "", "lean")
             rf.poll_avg, rf.prior = None, prior
         races.append(rf)
+    return races
 
+
+def simulate_governors(races, gcfg: dict, national_sd: float, n_sims: int = 10000, seed: int = 2028) -> dict:
+    """Governorships held after the election. Only a Democrat counts for D and only a
+    Republican for R; an independent winner counts for neither."""
+    import random
+    rng = random.Random(seed)
+    nu, need = gcfg["not_up"], gcfg["majority"]
+    seats, out = [], {"dem": 0, "rep": 0, "neither": 0}
+    for _ in range(n_sims):
+        nat = rng.gauss(0, national_sd)
+        d, r = nu["dem"], nu["rep"]
+        for rc in races:
+            m = rc.mu + nat + rng.gauss(0, rc.sd_race)
+            party = rc.side_a_party if m > 0 else rc.side_b_party
+            d += party == "DEM"
+            r += party == "REP"
+        seats.append(d)
+        out["dem" if d >= need else "rep" if r >= need else "neither"] += 1
+    seats.sort()
+    hist = defaultdict(int)
+    for x in seats:
+        hist[x] += 1
+    q = lambda f: seats[min(int(f * n_sims), n_sims - 1)]  # noqa: E731
+    return {"n_sims": n_sims, "p_dem_control": out["dem"] / n_sims, "p_rep_control": out["rep"] / n_sims,
+            "p_neither": out["neither"] / n_sims, "majority": need, "not_up": nu,
+            "dem_seats_median": q(0.5), "dem_seats_p10": q(0.1), "dem_seats_p90": q(0.9),
+            "dem_seats_hist": dict(sorted(hist.items()))}
+
+
+def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, dict]:
+    cycle = cycle or load_scoring_config()["target_cycle"]
+    cycles = load_cycles()
+    ccfg = cycles[cycle]
+    eday = ccfg["election_date"]
+    as_of = min(as_of or date.today(), eday)
+    days = (eday - as_of).days
+    params = load_params()
+
+    polls = load_all_polls()
+    results = load_all_results()
+    pp = pollster_params(cycle, params["shrink_k"], params["quality_scale_s"], polls, results)
+    env = generic_ballot(cycle)
+    env_margin = env["margin"] if env else None
+    nat = params["national_sd"]
+    nat_override = (ccfg.get("lean") or {}).get("pres_national_margin")
+    races = statewide_races("SEN", senate_race_ids(cycle), cycle, as_of, days, params, pp, polls,
+                            results, env_margin, nat, nat_override)
+    gp = ROOT / "config" / "params_governor.yaml"
+    gparams = {**params, **(yaml.safe_load(gp.read_text()) if gp.exists() else {})}
+    gov_races = statewide_races("GOV", governor_race_ids(cycle), cycle, as_of, days, gparams, pp, polls,
+                                results, env_margin, nat, nat_override)
+    gcfg = ccfg.get("governor")
+    gsim = simulate_governors(gov_races, gcfg, nat) if gcfg else None
     sim = simulate_senate(races, ccfg["senate"], nat)
     house_races, house_info = build_house(cycle, as_of, days, params, pp, polls, env_margin, nat)
     hsim = simulate_house(house_races, nat, house_info["control"])
@@ -96,6 +145,9 @@ def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, di
         "senate": {**sim, "races_up": len(races), "not_up": ccfg["senate"]["not_up"],
                    "uncommitted_races": ccfg["senate"].get("uncommitted", []),
                    "races_with_polls": sum(1 for r in races if r.basis == "polls")},
+        "governor": None if gsim is None else {**gsim, "races_up": len(gov_races),
+                     "prior_weight": gparams["prior_weight"], "lean_sigma": gparams["lean_sigma"],
+                     "races_with_polls": sum(1 for r in gov_races if r.basis == "polls")},
         "house": {**hsim, "races_with_polls": sum(1 for r in house_races if r.basis == "polls"),
                   "lean_sources": house_info["sources"], "assumptions": house_info["assumptions"]},
     }
@@ -112,6 +164,15 @@ def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, di
          "basis": r.basis, "n_polls": r.n_polls, "n_eff": round(r.n_eff, 1),
          "last_poll": r.last_poll, "polls": r.contributions[:60]}
         for r in sorted(races, key=lambda r: abs(r.p_a - 0.5))]
+        + [{"race_id": r.race_id, "chamber": "governor", "state": r.state,
+            "side_a": r.side_a, "side_a_party": r.side_a_party,
+            "side_b": r.side_b, "side_b_party": r.side_b_party, "matchup": r.matchup,
+            "margin": round(r.mu, 2), "sd": round(r.sd_total, 2), "p_a": round(r.p_a, 4),
+            "poll_average": None if r.poll_avg is None else round(r.poll_avg, 2),
+            "lean_prior": None if r.prior is None else round(r.prior, 2),
+            "basis": r.basis, "n_polls": r.n_polls, "n_eff": round(r.n_eff, 1),
+            "last_poll": r.last_poll, "polls": r.contributions[:60]}
+           for r in sorted(gov_races, key=lambda r: abs(r.p_a - 0.5))]
         + [{"race_id": r.race_id, "chamber": "house", "state": r.state,
             "district": r.race_id.split("-")[3],
             "side_a": r.side_a, "side_a_party": r.side_a_party,
@@ -214,6 +275,9 @@ def main() -> dict:
             "p_uncommitted": round(s["p_uncommitted_decides"], 3),
             "dem_seats": (s["dem_seats_p10"], s["dem_seats_median"], s["dem_seats_p90"]),
             "races": s["races_up"], "with_polls": s["races_with_polls"],
+            "gov": None if not forecast.get("governor") else (round(forecast["governor"]["p_dem_control"], 3),
+                    round(forecast["governor"]["p_rep_control"], 3), forecast["governor"]["dem_seats_median"],
+                    forecast["governor"]["races_up"], forecast["governor"]["races_with_polls"]),
             "house_p_dem": round(forecast["house"]["p_dem_control"], 3),
             "house_seats": (forecast["house"]["dem_seats_p10"], forecast["house"]["dem_seats_median"],
                             forecast["house"]["dem_seats_p90"]),

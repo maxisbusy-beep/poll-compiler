@@ -68,23 +68,25 @@
   const races = () => state.allRaces.filter((r) => r.chamber === state.chamber);
 
   function renderBoard() {
-    const f = state.forecast, house = state.chamber === "house";
-    const s = house ? f.house : f.senate;
-    const total = house ? 435 : 100;
+    const f = state.forecast, house = state.chamber === "house", gov = state.chamber === "governor";
+    const s = house ? f.house : gov ? f.governor : f.senate;
+    const total = house ? 435 : gov ? 50 : 100;
     const notUp = house ? { dem: 0, rep: 0 } : s.not_up;
-    const need = house ? s.need : s.dem_needs;
+    const need = house ? s.need : gov ? s.majority : s.dem_needs;
     let pD = s.p_dem_control, pR = s.p_rep_control, lo = null;
     if (state.live) {
       lo = Live.liveOdds(races(), state.live, {
-        nationalSd: f.national_sd || 2.65, notUp, demNeeds: need, repNeeds: house ? need : s.rep_needs,
-        uncommitted: house ? [] : (s.uncommitted_races || []) });
+        nationalSd: f.national_sd || 2.65, notUp, demNeeds: need, repNeeds: house || gov ? need : s.rep_needs,
+        uncommitted: house || gov ? [] : (s.uncommitted_races || []), partyOnly: gov });
       pD = lo.p_dem; pR = lo.p_rep;
     }
     $("pd").textContent = fmtPct(pD);
     $("pr").textContent = fmtPct(pR);
-    $("wd").textContent = state.live ? "Democrats, with called races locked in" : "Democrats win control";
-    $("wr").textContent = state.live ? "Republicans, with called races locked in" : "Republicans win control";
-    $("mid").innerHTML = `<strong>${need}</strong>seats for a<br>Democratic majority`;
+    const win = gov ? "hold most governorships" : "win control";
+    $("wd").textContent = state.live ? "Democrats, with called races locked in" : `Democrats ${win}`;
+    $("wr").textContent = state.live ? "Republicans, with called races locked in" : `Republicans ${win}`;
+    $("mid").innerHTML = gov ? `<strong>${need}</strong>of 50 governors<br>for a majority`
+                             : `<strong>${need}</strong>seats for a<br>Democratic majority`;
 
     const counts = Object.fromEntries(RATINGS.map(([k]) => [k, 0]));
     races().forEach((r) => counts[category(r)]++);
@@ -109,10 +111,11 @@
     const dFav = notUp.dem + counts["safe-d"] + counts["likely-d"] + counts["lean-d"];
     const rFav = notUp.rep + counts["safe-r"] + counts["likely-r"] + counts["lean-r"];
     $("bl").textContent = `D ${dFav} incl. lean`;
+    // governors: 14 states don't vote this year; their governors sit at the ends of the bar
     $("bm").textContent = `${counts.toss} toss-up${counts.toss === 1 ? "" : "s"}`;
     $("br").textContent = `R ${rFav} incl. lean`;
     bar.setAttribute("aria-label", `Democrats ${dFav} seats including leaning races, Republicans ${rFav}, ${counts.toss} toss-ups`);
-    let extra = `Most likely Democratic seats: ${lo ? lo.median : s.dem_seats_median} (80% range ${lo ? lo.p10 : s.dem_seats_p10}–${lo ? lo.p90 : s.dem_seats_p90}).`;
+    let extra = `Most likely Democratic ${gov ? "governorships" : "seats"}: ${lo ? lo.median : s.dem_seats_median} (80% range ${lo ? lo.p10 : s.dem_seats_p10}–${lo ? lo.p90 : s.dem_seats_p90}).`;
     if (state.live) {
       const rs = races().map(liveRes).filter(Boolean);
       const cd = rs.filter((x) => x.called && x.winner_party === "DEM").length;
@@ -123,7 +126,12 @@
         + " Races not yet called use the pre-election forecast, since early counts can lean either way.";
     }
     if (house) extra += ` ${s.races_with_polls} districts have polls; the rest use partisan lean and incumbency.`;
-    if (s.p_uncommitted_decides >= 0.005)
+    if (gov) {
+      extra += ` ${s.races_up} governor races this year; ${notUp.dem + notUp.rep} states don't vote (shown faded at the ends of the bar).`;
+      const pn = state.live ? lo.p_und : s.p_neither;
+      if (pn >= 0.005) extra += ` ${fmtPct(pn)} chance neither party reaches ${need} (a 25–25 split, or an independent wins).`;
+    }
+    if (!gov && s.p_uncommitted_decides >= 0.005)
       extra += ` ${fmtPct(s.p_uncommitted_decides)} chance an independent who joins neither party holds the balance.`;
     $("extra").textContent = extra;
   }
@@ -217,7 +225,7 @@
     $("map").innerHTML = "";
     $("map").appendChild(svg);
     $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
-      + `<span><i style="background:var(--none)"></i>No race</span>`
+      + `<span><i style="background:var(--none)"></i>No race this year</span>`
       + (state.live ? `<span>Bright = called (✓). Faded = not called yet, shown by forecast.</span>` : "");
   }
 
@@ -414,6 +422,7 @@
       const atLarge = state.allRaces.filter((x) => x.chamber === "house" && x.state === r.state).length === 1;
       return `${NAMES[r.state]} ${atLarge ? "at-large" : ordinal(+r.district)} district`;
     }
+    if (r.chamber === "governor") return `${NAMES[r.state]} governor`;
     return `${NAMES[r.state]} Senate${r.race_id.endsWith("-S") ? " (special)" : ""}`;
   }
   const shortLabel = (r) => r.chamber === "house" ? `${r.state}-${r.district}${r.redrawn_2026 ? "*" : ""}` : r.state;
@@ -516,7 +525,7 @@
       <dl class="facts">
         <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
         ${r.poll_average != null ? `<dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, latest ${fmtDate(r.last_poll)}</dd>` : `<dt>Polls</dt><dd>None published. Forecast is from partisan lean only.</dd>`}
-        ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} ${r.chamber === "house" ? leanNote(r) : "(state's 2024 result moved by the national mood)"}</dd>` : ""}
+        ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} ${r.chamber === "house" ? leanNote(r) : r.chamber === "governor" && r.basis === "polls" ? "(state's 2024 result moved by the national mood; shown for reference only: in past governor races, mixing it in made forecasts worse, because governors often run far from their state's presidential lean)" : "(state's 2024 result moved by the national mood)"}</dd>` : ""}
         ${r.basis === "unopposed" ? `<dt>Note</dt><dd>No major-party opponent on the ballot.</dd>` : ""}
         ${r.redrawn_2026 ? `<dt>New map*</dt><dd>${esc(r.map_note)}</dd>` : ""}
         ${r.uncommitted ? `<dt>Note</dt><dd>${esc(r.side_a)} says he will join neither party's caucus.</dd>` : ""}
@@ -589,6 +598,7 @@
     const setTab = (which) => {
       $("tab-senate").setAttribute("aria-selected", String(which === "senate"));
       $("tab-house").setAttribute("aria-selected", String(which === "house"));
+      $("tab-governor").setAttribute("aria-selected", String(which === "governor"));
     };
     const show = (which) => {
       state.chamber = which; setTab(which); closeRace(); state.houseZoom = null;
@@ -596,6 +606,7 @@
     };
     $("tab-house").addEventListener("click", () => show("house"));
     $("tab-senate").addEventListener("click", () => show("senate"));
+    $("tab-governor").addEventListener("click", () => show("governor"));
     try {
       const [f, races, pollsters, topo] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
@@ -612,6 +623,7 @@
       if (location.hash.length > 1) {
         const id = decodeURIComponent(location.hash.slice(1));
         if (id.includes("-HOUSE-")) show("house");
+        else if (id.includes("-GOV-")) show("governor");
         openRace(id);
       }
     } catch (e) {

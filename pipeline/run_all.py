@@ -16,7 +16,7 @@ def build_status(now: datetime | None = None) -> dict:
     return {
         "phase": 5,
         "updated_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "message": "Senate and House forecasts live.",
+        "message": "Senate, House and governor forecasts live.",
     }
 
 

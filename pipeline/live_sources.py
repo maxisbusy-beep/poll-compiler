@@ -83,10 +83,20 @@ def build(cycle: int) -> dict:
         if m and m.group(1) in STATES:
             title_by_state_house[STATES[m.group(1)]] = t
 
+    title_by_state_gov = {}
+    for t in src.get("governor", []):
+        m = re.match(rf"^{cycle} (.+) gubernatorial election$", t)
+        if m and m.group(1) in STATES:
+            title_by_state_gov[STATES[m.group(1)]] = t
+
     out = {}
     for r in races:
         st = r["state"]
-        if r["chamber"] == "senate":
+        if r["chamber"] == "governor":
+            pres = t24.get(f"2024-PRES-{st}")
+            out[r["race_id"]] = {"page": title_by_state_gov.get(st), "district": None,
+                                 "expected_votes": round(pres * TURNOUT_RATIO) if pres else None}
+        elif r["chamber"] == "senate":
             key = st + ("-S" if r["race_id"].endswith("-S") else "")
             pres = t24.get(f"2024-PRES-{st}")
             out[r["race_id"]] = {"page": title_by_state_sen.get(key), "district": None,
