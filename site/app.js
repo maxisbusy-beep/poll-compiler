@@ -521,6 +521,7 @@
     const [first, second] = lead === "b" ? [sideB, sideA] : [sideA, sideB];
     const duel = [first, second].map((x, i) => `<div class="${i ? "r " : ""}${x.cls}"><div class="n">${esc(x.name)} (${x.L})</div><div class="p" style="color:var(--${colour(x.L)})">${fmtPct(x.p)}</div></div>`).join("");
     $("sheet-body").innerHTML = liveBox + `
+      ${lr && lr.total > 0 ? `<div class="note">Pre-election forecast, chance of winning:</div>` : ""}
       <div class="duel">${duel}</div>
       <dl class="facts">
         <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
