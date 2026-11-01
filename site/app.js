@@ -318,6 +318,7 @@
   function renderList() {
     const house = state.chamber === "house";
     const list = house ? races().slice().sort((a, b) => Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5)).slice(0, state.showAll ? 435 : 40) : races();
+    $("races").classList.toggle("house-list", house);
     $("list-title").textContent = house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
     $("races").innerHTML = list.map((r) => {
       const cat = category(r);
