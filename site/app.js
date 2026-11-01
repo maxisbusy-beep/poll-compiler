@@ -144,22 +144,23 @@
       const counting = rs.filter((x) => !x.called && x.total > 0).length;
       const h = Live.ifLeadersHold(races(), state.live, { notUp, uncommitted: house || gov ? [] : (s.uncommitted_races || []), partyOnly: gov });
       $("bm").textContent += ` · ${counting} counting`;
-      extra = `If every current leader wins: Democrats ${h.dem}, Republicans ${h.rep}${h.other ? `, other ${h.other}` : ""}`
-        + ` (races with no votes yet go to the forecast favorite). That's a count, not a forecast: the odds above only lock in races once they're called, since counts can swing as late ballots come in. `
-        + `Called so far: ${cd} D, ${cr} R${ci ? `, ${ci} other` : ""}; still counting in ${counting}. ` + extra;
+      state.leadersLine = `If every current leader wins: Democrats ${h.dem}, Republicans ${h.rep}${h.other ? `, other ${h.other}` : ""}.`;
+      extra = `Called: ${cd} D, ${cr} R${ci ? `, ${ci} other` : ""}. Still counting: ${counting}. `
+        + `The odds lock in a race only once it's called; leaders can change as late ballots come in. Races with no votes yet count for the forecast favorite.`;
     }
-    if (house) extra += ` ${s.races_with_polls} districts have polls; the rest go by how the district usually votes, plus incumbency.`;
+    if (house && !state.live) extra += ` ${s.races_with_polls} districts have polls; the rest go by how the district usually votes, plus incumbency.`;
     if (gov) {
-      extra += ` ${s.races_up} states elect a governor this year.`;
+      if (!state.live) extra += ` ${s.races_up} states elect a governor this year.`;
       const pn = state.live ? lo.p_und : s.p_neither;
       if (pn >= 0.005) extra += ` ${fmtPct(pn)} chance neither party reaches ${need} (a 25–25 split, or an independent wins).`;
     }
-    if (!gov && s.p_uncommitted_decides >= 0.005) {
+    const pUnc = state.live ? lo.p_und : s.p_uncommitted_decides;
+    if (!gov && !house && pUnc >= 0.005) {
       const u = races().find((r) => (s.uncommitted_races || []).includes(r.race_id));
       const who = u ? (u.side_a_party === "REP" ? u.side_b : u.side_a) : "an independent";
-      extra += ` ${fmtPct(s.p_uncommitted_decides)} chance control comes down to ${who}, an independent who says he'll join neither party.`;
+      extra += ` ${fmtPct(pUnc)} chance control comes down to ${who}, an independent who says he'll join neither party.`;
     }
-    $("extra").textContent = extra;
+    $("extra").innerHTML = (state.live && state.leadersLine ? `<strong class="leaders">${esc(state.leadersLine)}</strong>` : "") + esc(extra);
   }
 
   // ---- map -----------------------------------------------------------------
