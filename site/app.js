@@ -833,16 +833,18 @@
     $("tab-senate").addEventListener("click", () => show("senate"));
     $("tab-governor").addEventListener("click", () => show("governor"));
     try {
-      const [f, races, pollsters, topo] = await Promise.all([
+      const [f, races, pollsters, topo, pagesTable] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
         getJSON("vendor/states-albers-10m.json").catch(() => null),   // no map is better than no page
+        getJSON("data/live.json").catch(() => null),                   // Wikipedia page for each race
       ]);
+      state.pages = pagesTable ? pagesTable.races : {};
       state.forecast = f;
       state.allRaces = races.races;
       pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
       state.pollsterMeta = pollsters;
       state.topo = topo;
-      getJSON("data/live.json").then((t) => { state.pages = t.races; }).catch(() => {});
+
       showUpdated();
       renderBoard(); renderMap(); renderList();
       startLive(f.election_date).catch((e) => { state.liveError = e.message; renderLiveBar(); });
