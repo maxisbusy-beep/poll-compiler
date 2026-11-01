@@ -1,14 +1,18 @@
-name: Test, build and deploy
+name: Refresh, test, build and deploy
 
-# Phase 0: runs on every push to main and on the manual "Run workflow" button.
-# The daily schedule (SPEC.md section 7) is added in Phase 7.
+# Runs on every push to main, every 6 hours (new polls), and on the manual button.
+# Scheduled runs first pull the latest Wikipedia poll pages for the current cycle,
+# commit them, then rebuild the forecast. If anything fails, nothing is committed
+# and the site keeps the last good forecast.
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,10 +21,45 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test-and-build:
+  refresh:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch the current cycle's Wikipedia pages
+        run: python -m pipeline.fetch_wikipedia fetch --cycle 2026
+
+      - name: Add any new pollster names (marked as new; listed in the run log)
+        run: python tools/add_wikipedia_aliases.py --create-rest
+
+      - name: Parse polls
+        run: python -m pipeline.load_wikipedia --cycle 2026
+
+      - name: Commit new data
+        run: |
+          git config user.name "poll-compiler bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/2026 data/polls/2026.csv config/pollster_aliases.yaml reports/parse_notes_2026.txt
+          if git diff --cached --quiet; then echo "No new polls"; exit 0; fi
+          git commit -m "Poll refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+  test-and-build:
+    needs: refresh
+    if: always() && (needs.refresh.result == 'success' || needs.refresh.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -44,7 +83,7 @@ jobs:
         run: python -m pipeline.run_all
 
       - name: Stamp asset versions (so phones never keep an old app.js)
-        run: sed -i "s/__BUILD__/${GITHUB_SHA::7}/g" site/index.html
+        run: sed -i "s/__BUILD__/$(git rev-parse --short HEAD)-${GITHUB_RUN_NUMBER}/g" site/index.html
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
