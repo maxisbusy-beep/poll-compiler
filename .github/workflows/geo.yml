@@ -38,7 +38,10 @@ jobs:
           done
           curl -sSLf -o cd119.zip https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_cd119_500k.zip
           unzip -o -q cd119.zip -d cd119
-          ls cd120 | head; ls cd119
+          # state outlines clipped to the shoreline, to trim districts that extend into lakes and sea
+          curl -sSLf -o states.zip https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip
+          unzip -o -q states.zip -d states
+          ls cd120 | head; ls cd119 states
       - name: Simplify and merge
         env:
           USE_119: ${{ inputs.use_119 }}
@@ -60,7 +63,8 @@ jobs:
           else
             mapshaper -i "$F120" -each "$EXPR120" -filter "$FILTER" -o merged.shp
           fi
-          mapshaper -i merged.shp \
+          mapshaper -i merged.shp -clip states/cb_2024_us_state_500k.shp -o clipped.shp
+          mapshaper -i clipped.shp \
             -proj albersusa \
             -simplify 4% keep-shapes \
             -filter-slivers min-area=2km2 \
