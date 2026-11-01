@@ -2,90 +2,58 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>poll-compiler</title>
-<meta name="description" content="Compiles public polls into Senate and House odds, and grades pollsters on their track record.">
-<style>
-  :root {
-    --bg: #f6f5f1; --card: #ffffff; --ink: #1b1b1f; --muted: #6b6b74;
-    --line: #e3e1da; --dem: #2f5fd0; --rep: #c8372d;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #121214; --card: #1c1c20; --ink: #ececf0; --muted: #9a9aa5;
-      --line: #2c2c33; --dem: #6f95ff; --rep: #ff6f62;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--ink);
-    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  }
-  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
-  .sub { color: var(--muted); margin: 0 0 24px; }
-  .grid { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
-  .card {
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 14px; padding: 16px;
-  }
-  .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-  .big { font-size: 1.9rem; font-weight: 700; margin-top: 6px; }
-  .split { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 10px; background: var(--line); }
-  .split span:first-child { background: var(--dem); }
-  .split span:last-child { background: var(--rep); }
-  .big .d { color: var(--dem); } .big .r { color: var(--rep); }
-  .sub2 { margin-top: 8px; font-size: .8rem; color: var(--muted); }
-  .note { margin-top: 16px; font-size: .9rem; color: var(--muted); }
-  footer { margin-top: 32px; font-size: .8rem; color: var(--muted); }
-</style>
+<meta name="description" content="2026 Senate and House odds compiled from public polls, with every pollster graded on its track record.">
+<meta name="theme-color" content="#0f1526">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main>
-  <h1>poll-compiler</h1>
-  <p class="sub">Senate and House odds from public polls, with every pollster graded on its record.</p>
-
-  <div class="grid">
-    <section class="card" id="senate">
-      <div class="label">Senate</div>
-      <div class="big">—</div>
-      <div class="split"><span style="width:50%"></span><span style="width:50%"></span></div>
-      <div class="sub2"></div>
-    </section>
-    <section class="card">
-      <div class="label">House</div>
-      <div class="big">—</div>
-      <div class="split"><span style="width:50%"></span><span style="width:50%"></span></div>
-    </section>
+<div class="wrap">
+  <div class="top">
+    <div class="brand">poll-compiler</div>
+    <div class="updated" id="updated"></div>
   </div>
 
-  <p class="note" id="status">Loading status…</p>
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tab-senate" aria-selected="true">Senate</button>
+    <button role="tab" id="tab-house" aria-selected="false">House</button>
+  </div>
 
-  <footer>Senate odds are live. House odds and the full race and pollster pages come in later phases — see SPEC.md in the repo.</footer>
-</main>
-<script>
-  fetch("data/status.json", { cache: "no-store" })
-    .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(s => {
-      document.getElementById("status").textContent =
-        `Phase ${s.phase} · ${s.message} · Updated ${s.updated_utc.replace("T", " ").replace("Z", " UTC")}`;
-    })
-    .catch(() => {
-      document.getElementById("status").textContent = "No data yet.";
-    });
-  fetch("data/forecast.json", { cache: "no-store" })
-    .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(f => {
-      const s = f.senate, el = document.getElementById("senate");
-      const d = Math.round(s.p_dem_control * 100), r = Math.round(s.p_rep_control * 100);
-      el.querySelector(".big").innerHTML = `<span class="d">D ${d}%</span> · <span class="r">R ${r}%</span>`;
-      const spans = el.querySelectorAll(".split span");
-      spans[0].style.width = d + "%"; spans[1].style.width = (100 - d) + "%";
-      let note = `Dem seats ${s.dem_seats_median} (80%: ${s.dem_seats_p10}–${s.dem_seats_p90}) · ${s.races_with_polls}/${s.races_up} races polled`;
-      if (s.p_uncommitted_decides > 0.005) note += ` · ${Math.round(s.p_uncommitted_decides * 100)}% an independent decides`;
-      el.querySelector(".sub2").textContent = note;
-    })
-    .catch(() => {});
-</script>
+  <section aria-label="Chance of control">
+    <div class="board">
+      <div class="side d"><div class="pct" id="pd">–</div><div class="who" id="wd">Democrats</div></div>
+      <div class="mid" id="mid"></div>
+      <div class="side r"><div class="pct" id="pr">–</div><div class="who" id="wr">Republicans</div></div>
+    </div>
+    <div class="bar" id="bar" role="img"></div>
+    <div class="bar-legend"><span id="bl"></span><span id="bm"></span><span id="br"></span></div>
+    <div class="extra" id="extra"></div>
+  </section>
+
+  <div class="map" id="map" aria-label="Map of races"></div>
+  <div class="key" id="key"></div>
+
+  <h2 id="list-title">Races, closest first</h2>
+  <ul class="races" id="races"></ul>
+
+  <footer>
+    Odds from public polls compiled from Wikipedia (CC BY-SA) and archived FiveThirtyEight data (CC BY 4.0),
+    each poll weighted by recency, sample, voter screen and the pollster's record, blended with partisan lean.
+    <span id="status"></span>
+  </footer>
+</div>
+
+<div class="sheet-bg" id="sheet-bg"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <header><h3 id="sheet-title"></h3><button class="close" id="close">Close</button></header>
+  <div id="sheet-body"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
