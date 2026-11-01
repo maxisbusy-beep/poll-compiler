@@ -149,6 +149,7 @@
       const p = document.createElementNS(NS, "path");
       p.setAttribute("d", geoPath(f.geometry));
       p.setAttribute("fill", `var(--${cat})`);
+      if (state.live && races && !(liveRes(races[0]) || {}).called) p.style.opacity = ".4";
       p.dataset.state = st;
       if (!races) p.classList.add("none");
       else {
@@ -166,7 +167,8 @@
       const t = document.createElementNS(NS, "text");
       t.setAttribute("x", pt[0]); t.setAttribute("y", pt[1] + 5); t.setAttribute("text-anchor", "middle");
       if (!DARK_TEXT.has(cat)) t.classList.add("light");
-      t.textContent = st;
+      const called = state.live && (liveRes(byState[st][0]) || {}).called;
+      t.textContent = called ? "✓" + st : st;
       svg.appendChild(t);
     }
     CALLOUTS.forEach((st, i) => {
@@ -177,6 +179,7 @@
       rect.setAttribute("d", `M922 ${y}h66v36h-66z`);
       const cat = races ? category(races[0]) : "none";
       rect.setAttribute("fill", `var(--${cat})`);
+      if (state.live && races && !(liveRes(races[0]) || {}).called) rect.style.opacity = ".4";
       if (!races) rect.classList.add("none");
       else {
         rect.setAttribute("tabindex", "0");
@@ -187,14 +190,15 @@
       const t = document.createElementNS(NS, "text");
       t.setAttribute("x", 955); t.setAttribute("y", y + 27); t.setAttribute("text-anchor", "middle");
       if (!DARK_TEXT.has(cat)) t.classList.add("light");
-      t.textContent = st;
+      t.textContent = state.live && races && (liveRes(races[0]) || {}).called ? "✓" + st : st;
       g.append(rect, t);
       svg.appendChild(g);
     });
     $("map").innerHTML = "";
     $("map").appendChild(svg);
     $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
-      + `<span><i style="background:var(--none)"></i>No race</span>`;
+      + `<span><i style="background:var(--none)"></i>No race</span>`
+      + (state.live ? `<span>Bright = called (✓). Faded = not called yet, shown by forecast.</span>` : "");
   }
 
   // ---- House tile map: one square per district, grown around each state's centre ----
@@ -250,6 +254,7 @@
       const p = document.createElementNS(NS, "path");
       p.setAttribute("d", `M${c[0] * C + 1} ${c[1] * C + 1}h${C - 2}v${C - 2}h${-(C - 2)}z`);
       p.setAttribute("fill", `var(--${cat})`);
+      if (state.live && !(liveRes(r) || {}).called) p.style.opacity = ".4";
       p.dataset.race = r.race_id;
       p.setAttribute("tabindex", "0");
       p.setAttribute("role", "button");
@@ -270,7 +275,8 @@
     $("map").innerHTML = "";
     $("map").appendChild(svg);
     $("key").innerHTML = RATINGS.map(([k, l]) => `<span><i style="background:var(--${k})"></i>${l}</span>`).join("")
-      + `<span>One square per district</span>`;
+      + `<span>One square per district</span>`
+      + (state.live ? `<span>Bright = called. Faded = not called yet, shown by forecast.</span>` : "");
   }
 
   const ordinal = (n) => { const t = ["th", "st", "nd", "rd"], v = n % 100; return n + (t[(v - 20) % 10] || t[v] || t[0]); };
