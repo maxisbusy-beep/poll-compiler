@@ -202,3 +202,34 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .zoombar .zbtns button { margin-left: 0; min-width: 34px; font-weight: 700; }
 .zoombar .zhint { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .zoombar .zbtns button { padding: 4px 8px; white-space: nowrap; }
+
+/* ---- design pass, Nov 1 ---- */
+[hidden] { display: none !important; }          /* the live bar stayed visible as an empty box */
+:root { --none: #3a4256; }                        /* "no race" states readable against the dark page */
+@media (prefers-color-scheme: light) { :root { --none: #dde1ea; } }
+.map path.none { stroke: var(--bg); }
+
+/* pollsters */
+.pv-title { margin: 6px 0 4px; font-size: 1.15rem; }
+.pv-intro { color: var(--muted); font-size: .86rem; margin: 0 0 12px; }
+.seg { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 3px; }
+.seg button { flex: 1; border: 0; background: transparent; border-radius: 8px; padding: 6px 2px; cursor: pointer;
+              color: var(--muted); font-weight: 600; font-size: .85rem; line-height: 1.2; }
+.seg button small { display: block; font-weight: 400; font-size: .7rem; }
+.seg button[aria-pressed="true"] { background: var(--panel-2); color: var(--ink); }
+.pv-tools { display: flex; gap: 8px; margin: 12px 0 8px; }
+.pv-tools input, .pv-tools select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line);
+                                    border-radius: 8px; padding: 8px 10px; min-width: 0; }
+.pv-tools input { flex: 1; }
+.pv-check { display: flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--muted); margin-bottom: 10px; }
+.pv-head, .races li button.pv-row { display: grid; grid-template-columns: 1fr 52px 48px 52px; gap: 6px; align-items: center; }
+.pv-head { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 0 2px 6px; line-height: 1.15; }
+.pv-head span:not(:first-child) { text-align: right; }
+.pv-num { text-align: right; font-family: var(--num); font-size: 1.15rem; font-weight: 600; }
+.pv-num.d, td.d { color: var(--dem); } .pv-num.r, td.r { color: var(--rep); }
+.pv-sub { margin: 18px 0 0; font-size: .95rem; }
+.miss { font-size: .7rem; font-weight: 700; color: var(--rep); white-space: nowrap; }
+.tabs button { font-size: .92rem; }
+
+/* seat bar: seats not on the ballot are striped, so they read as "already decided" */
+.bar span.notup { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,.18) 0 3px, transparent 3px 7px); }

@@ -30,10 +30,12 @@
     <button role="tab" id="tab-senate" aria-selected="true">Senate</button>
     <button role="tab" id="tab-house" aria-selected="false">House</button>
     <button role="tab" id="tab-governor" aria-selected="false">Governors</button>
+    <button role="tab" id="tab-pollsters" aria-selected="false">Pollsters</button>
   </div>
 
   <div class="livebar" id="livebar" hidden></div>
 
+  <div id="race-view">
   <section aria-label="Chance of control">
     <div class="board">
       <div class="side d"><div class="pct" id="pd">–</div><div class="who" id="wd">Democrats</div></div>
@@ -50,6 +52,27 @@
 
   <h2 id="list-title">Races, closest first</h2>
   <ul class="races" id="races"></ul>
+  </div>
+
+  <section id="pollster-view" hidden aria-labelledby="pv-title">
+    <h2 id="pv-title" class="pv-title">How accurate is each pollster?</h2>
+    <p class="pv-intro" id="pv-intro"></p>
+    <div class="seg" role="group" aria-label="Time period" id="pv-window"></div>
+    <div class="pv-tools">
+      <input type="search" id="pv-search" placeholder="Find a pollster" aria-label="Find a pollster" autocomplete="off">
+      <select id="pv-sort" aria-label="Sort by">
+        <option value="weight">Best record</option>
+        <option value="called">Called the winner</option>
+        <option value="miss">Smallest miss</option>
+        <option value="n">Most races</option>
+        <option value="name">A–Z</option>
+      </select>
+    </div>
+    <label class="pv-check"><input type="checkbox" id="pv-active"> Only pollsters with 2026 polls</label>
+    <div class="pv-head" aria-hidden="true"><span>Pollster</span><span>Called<br>winner</span><span>Avg<br>miss</span><span>Lean</span></div>
+    <ul class="races pv-list" id="pv-list"></ul>
+    <p class="note" id="pv-foot"></p>
+  </section>
 
   <footer>
     Odds from public polls compiled from Wikipedia (CC BY-SA) and archived FiveThirtyEight data (CC BY 4.0),

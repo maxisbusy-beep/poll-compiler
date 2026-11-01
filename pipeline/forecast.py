@@ -48,6 +48,61 @@ def governor_race_ids(cycle: int) -> list[str]:
     return sorted(set(ids))
 
 
+def nominees(cycle: int) -> dict[str, tuple]:
+    """race_id -> (Democrat-side, Republican) nominees from the general-election results box
+    on each 2026 Senate/governor page, for races with no polls to take names from."""
+    from bs4 import BeautifulSoup
+    from pipeline.parse_tables import general_blocks, races_on_page, walk
+    out = {}
+    for f in sorted((ROOT / "data" / "raw" / str(cycle)).glob("*.html")):
+        if "_House_" in f.name or "lieutenant" in f.name:
+            continue
+        text = f.read_text()
+        m = re.match(r'<!-- \{"title": "([^"]+)"', text)
+        if not m:
+            continue
+        try:
+            soup = BeautifulSoup(text, "lxml")
+            # governor tickets list "Governor / Running mate" in one cell: keep the governor
+            for ul in soup.select("th.fn div.plainlist ul, td.fn div.plainlist ul"):
+                for li in ul.find_all("li")[1:]:
+                    li.decompose()
+            races = races_on_page(m.group(1), cycle, walk(soup))
+        except Exception:      # a page we can't read just keeps the generic names
+            continue
+        # fallback for pages without a general-election box yet: the infobox "Nominee" row
+        ib = soup.select_one("table.infobox")
+        rid0 = races[0].race_id if len(races) == 1 else None
+        if not races:
+            g = re.match(rf"^{cycle} (.+) gubernatorial election$", m.group(1))
+            sn = re.match(rf"^{cycle} United States Senate election in (.+)$", m.group(1))
+            st = STATES.get((g or sn).group(1)) if (g or sn) else None
+            rid0 = f"{cycle}-{'GOV' if g else 'SEN'}-{st}" if st else None
+        if ib is not None and rid0:
+            rows = {tr.th.get_text(" ", strip=True): [x for x in (td.get_text(" ", strip=True) for td in tr.find_all("td")) if x]
+                    for tr in ib.find_all("tr") if tr.th}
+            names, parties = rows.get("Nominee", []), rows.get("Party", [])
+            if names and len(names) == len(parties):
+                cands = [(n, next((c for k, c in house_mod.PARTY_NAME if k in p.lower()), "OTH"), False)
+                         for n, p in zip(names, parties)]
+                pair = house_mod.main_pair(cands)
+                if pair and pair[1][1] != "NONE":
+                    out[rid0] = pair
+        for race in races:
+            for b in general_blocks(race.blocks):
+                if "result" not in " ".join(b.headings.values()).lower():
+                    continue
+                cands = house_mod.read_candidates(b.table)
+                pair = house_mod.main_pair(cands) if cands else None
+                if pair and pair[1][1] != "NONE":
+                    out[race.race_id] = pair
+                    break
+    return out
+
+
+_NOMINEES: dict | None = None
+
+
 def statewide_races(race_type, ids, cycle, as_of, days, params, pp, polls, results, env_margin, nat, nat_override):
     """Senate or governor races: poll average blended with the state's partisan lean."""
     by_race = defaultdict(list)
@@ -75,7 +130,15 @@ def statewide_races(race_type, ids, cycle, as_of, days, params, pp, polls, resul
             if mu is None:
                 continue
             sd = params["lean_sigma"]
-            rf = RaceForecast(rid, state, "Democrat", "DEM", "Republican", "REP", "D-R", mu, sd,
+            global _NOMINEES
+            if _NOMINEES is None:
+                _NOMINEES = nominees(cycle)
+            (an, ap, _), (bn, bp, _) = _NOMINEES.get(rid, (("Democrat", "DEM", 0), ("Republican", "REP", 0)))
+            if bp != "REP" or ap == "REP":          # keep the model's D-vs-R framing
+                (an, ap), (bn, bp) = ("Democrat", "DEM"), ("Republican", "REP")
+            if ap not in ("DEM", "IND"):
+                ap = "DEM" if an == "Democrat" else ap
+            rf = RaceForecast(rid, state, an, ap, bn, bp, "D-R" if ap == "DEM" else "X-R", mu, sd,
                               split_sd(sd, nat), win_prob(mu, sd), 0, 0.0, "", "lean")
             rf.poll_avg, rf.prior = None, prior
         races.append(rf)
