@@ -31,17 +31,22 @@ jobs:
       - name: Download
         run: |
           mkdir -p geo && cd geo
-          curl -sSLf -o cd120.zip https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_us_cd120.zip
+          # the 2026 release has one file per state
+          for f in 01 02 04 05 06 08 09 10 12 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 44 45 46 47 48 49 50 51 53 54 55 56; do
+            curl -sSLf -o cd120_$f.zip https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_${f}_cd120.zip
+            unzip -o -q cd120_$f.zip -d cd120
+          done
           curl -sSLf -o cd119.zip https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_cd119_500k.zip
-          unzip -o -q cd120.zip -d cd120 && unzip -o -q cd119.zip -d cd119
-          ls -la cd120 cd119
+          unzip -o -q cd119.zip -d cd119
+          ls cd120 | head; ls cd119
       - name: Simplify and merge
         env:
           USE_119: ${{ inputs.use_119 }}
         run: |
           npm install -g mapshaper@0.6 >/dev/null 2>&1
           cd geo
-          F120=$(ls cd120/*.shp); F119=$(ls cd119/*.shp)
+          mapshaper -i cd120/*.shp combine-files -merge-layers force -o cd120_all.shp
+          F120=cd120_all.shp; F119=$(ls cd119/*.shp)
           mapshaper -i "$F120" -info 2>&1 | head -30
           # keep: state FIPS + district number; drop ZZ (no district) water-only features
           EXPR120="this.properties = {st: STATEFP, cd: CD120FP}"
