@@ -7,7 +7,7 @@ Compiles public polls into **Senate and House control odds**, and grades every p
 
 ## Status
 
-**Election-ready.** Senate map and House district tile map with odds from polls + partisan lean (Senate backtested 2004–2024; see [backtest](reports/backtest.md)). Polls refresh from Wikipedia every 6 hours. On election night (from 23:00 Berlin, Nov 3) the page reads live results from Wikipedia every 3 minutes: votes, approximate % counted, calls, and control odds with called races locked in. Test it any time with `?live=2024`, which replays the 2024 results.
+**Election-ready.** Senate map and House district map (Census 2026 lines) with odds from polls + partisan lean (Senate backtested 2004–2024; see [backtest](reports/backtest.md)). Polls refresh from Wikipedia every 6 hours. On election night (from 23:00 Berlin, Nov 3) the page reads live results from Wikipedia every 3 minutes: votes, approximate % counted, calls, and control odds with called races locked in. Test it any time with `?live=2024`, which replays the 2024 results.
 
 | Phase | What | State |
 |---|---|---|
@@ -17,7 +17,7 @@ Compiles public polls into **Senate and House control odds**, and grades every p
 | 3 | Wikipedia scraper | ✅ |
 | 4 | Senate model + backtest | ✅ |
 | 5 | House model (not yet backtested) | ✅ |
-| 6 | UI: Senate map, House tile map, race sheets, live results | ✅ |
+| 6 | UI: Senate map, House district map, race sheets, live results | ✅ |
 | 7 | Poll refresh every 6 hours | ✅ |
 | 8 | Grade 2026 after results are certified | |
 
