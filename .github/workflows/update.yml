@@ -92,6 +92,8 @@ jobs:
 
   deploy:
     needs: test-and-build
+    # a skipped "refresh" (push runs) must not skip the deploy
+    if: always() && needs.test-and-build.result == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
