@@ -362,6 +362,17 @@ def races_on_page(title: str, cycle: int, blocks: list[Block]) -> list[Race]:
             return []
         kind = "S" if m.group(1) else ""
         return [Race(make_race_id(cycle, "SEN", st, "", kind), "SEN", st, "", kind, blocks)]
+    m = re.match(rf"^{cycle} (.+) gubernatorial (special )?election$", title)
+    if m:
+        st = STATES.get(m.group(1))
+        if not st:
+            return []
+        kind = "S" if m.group(2) else ""
+        return [Race(make_race_id(cycle, "GOV", st, "", kind), "GOV", st, "", kind, blocks)]
+    m = re.match(rf"^{cycle} United States presidential election in (.+)$", title)
+    if m:
+        st = STATES.get(m.group(1))
+        return [Race(make_race_id(cycle, "PRES", st), "PRES", st, "", "", blocks)] if st else []
     m = re.match(rf"^{cycle} United States House of Representatives elections? in (.+)$", title)
     if not m or m.group(1) not in STATES:
         return []

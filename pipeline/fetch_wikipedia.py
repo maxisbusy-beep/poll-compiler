@@ -89,6 +89,14 @@ def discover(cycle: int) -> dict:
 
     senate = sorted({t for t in page_links(sen_hub) if sen_re.match(t)})
     house = sorted({t for t in page_links(house_hub) if house_re.match(t)})
+    gov_hub = f"{y} United States gubernatorial elections"
+    gov_re = re.compile(rf"^{y} [A-Z][\w .]+ gubernatorial (special )?election$")
+    governor = sorted({t for t in page_links(gov_hub) if gov_re.match(t)})
+    president = []
+    if cycle % 4 == 0:
+        pres_hub = f"{y} United States presidential election"
+        pres_re = re.compile(rf"^{y} United States presidential election in [A-Z][\w .]+$")
+        president = sorted({t for t in page_links(pres_hub) if pres_re.match(t)})
     generic = [house_hub]
     for t in search_titles(f'intitle:"{y}" intitle:"opinion polling" House of Representatives'):
         if y in t and "House" in t and t not in generic:
@@ -104,7 +112,9 @@ def discover(cycle: int) -> dict:
         "senate": senate,
         "house_states": house,
         "generic_ballot": generic,
-        "extra": extra,  # manual additions: {senate: [...], house_states: [...], generic_ballot: [...]}
+        "governor": governor,
+        "president": president,
+        "extra": extra,  # manual additions, same keys as above
     }
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("# Wikipedia pages scraped for this cycle. Written by "
@@ -147,7 +157,7 @@ def fetch(cycle: int) -> dict:
     src = yaml.safe_load((SOURCES_DIR / f"{cycle}.yaml").read_text())
     extra = src.get("extra") or {}
     groups = {g: list(dict.fromkeys((src.get(g) or []) + (extra.get(g) or [])))
-              for g in ("senate", "house_states", "generic_ballot")}
+              for g in ("senate", "house_states", "generic_ballot", "governor", "president")}
     out_dir = RAW_DIR / str(cycle)
     out_dir.mkdir(parents=True, exist_ok=True)
     index, failures = [], []
