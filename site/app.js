@@ -16,6 +16,7 @@
   const fmtPct = (p) => (p >= 0.995 ? ">99" : p <= 0.005 ? "<1" : Math.round(p * 100)) + "%";
   const fmtMargin = (m, a = "D", b = "R") => (Math.abs(m) < 0.05 ? "Even" : (m > 0 ? a : b) + "+" + Math.abs(m).toFixed(1));
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmtDate = (iso) => new Date(iso + "T12:00:00").toLocaleDateString([], { month: "short", day: "numeric" });
   const letter = (party) => ({ DEM: "D", REP: "R", IND: "I", LIB: "L", GRN: "G" }[party] || party[0]);
 
   const state = { forecast: null, races: [], pollsters: {}, topo: null, selected: null, chamber: "senate" };
@@ -105,7 +106,7 @@
     const geo = topojson.feature(state.topo, state.topo.objects.states);
     const NS = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("viewBox", "0 0 1000 610");
+    svg.setAttribute("viewBox", "0 0 1000 620");
     svg.setAttribute("role", "group");
     const labels = [];
     for (const f of geo.features) {
@@ -127,7 +128,7 @@
       }
       svg.appendChild(p);
       const { pt, area } = labelPoint(f.geometry);
-      if (races && pt && area > 700 && !CALLOUTS.includes(st)) labels.push([st, pt, cat]);
+      if (races && pt && area > 1500 && !CALLOUTS.includes(st)) labels.push([st, pt, cat]);
     }
     for (const [st, pt, cat] of labels) {
       const t = document.createElementNS(NS, "text");
@@ -138,10 +139,10 @@
     }
     CALLOUTS.forEach((st, i) => {
       const races = byState[st];
-      const y = 200 + i * 34;
+      const y = 170 + i * 44;
       const g = document.createElementNS(NS, "g");
       const rect = document.createElementNS(NS, "path");
-      rect.setAttribute("d", `M935 ${y}h46v26h-46z`);
+      rect.setAttribute("d", `M922 ${y}h66v36h-66z`);
       const cat = races ? category(races[0]) : "none";
       rect.setAttribute("fill", `var(--${cat})`);
       if (!races) rect.classList.add("none");
@@ -152,7 +153,7 @@
         rect.addEventListener("click", () => openRace(races[0].race_id));
       }
       const t = document.createElementNS(NS, "text");
-      t.setAttribute("x", 958); t.setAttribute("y", y + 18); t.setAttribute("text-anchor", "middle");
+      t.setAttribute("x", 955); t.setAttribute("y", y + 27); t.setAttribute("text-anchor", "middle");
       if (!DARK_TEXT.has(cat)) t.classList.add("light");
       t.textContent = st;
       g.append(rect, t);
@@ -204,9 +205,9 @@
     const pollRows = (r.polls || []).slice(0, 25).map((p) => {
       const pol = state.pollsters[p.pollster_id];
       const name = pol ? pol.name : p.pollster_id;
-      const adj = Math.abs(p.bias_correction) >= 0.05 ? `<span class="pq">adjusted ${p.bias_correction > 0 ? "−" : "+"}${Math.abs(p.bias_correction).toFixed(1)} for lean</span>` : "";
+      const adj = Math.abs(p.bias_correction) >= 0.05 ? `<span class="pq">counted as ${fmtMargin(p.margin, A, B)}</span>` : "";
       return `<tr><td>${esc(name)}<span class="pq">${esc(pollsterLine(p.pollster_id))}</span></td>
-        <td class="num">${p.end.slice(5).replace("-", "/")}</td>
+        <td class="num">${fmtDate(p.end)}</td>
         <td class="num">${fmtMargin(p.margin_raw, A, B)}${adj}</td>
         <td class="num">${(p.weight_share * 100).toFixed(0)}%</td></tr>`;
     }).join("");
@@ -218,12 +219,12 @@
       </div>
       <dl class="facts">
         <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
-        ${r.poll_average != null ? `<dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, last ${r.last_poll}</dd>` : `<dt>Polls</dt><dd>None published. Forecast is from partisan lean only.</dd>`}
+        ${r.poll_average != null ? `<dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, latest ${fmtDate(r.last_poll)}</dd>` : `<dt>Polls</dt><dd>None published. Forecast is from partisan lean only.</dd>`}
         ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} (state's 2024 result moved by the national mood)</dd>` : ""}
         ${r.uncommitted ? `<dt>Note</dt><dd>${esc(r.side_a)} says he will join neither party's caucus.</dd>` : ""}
       </dl>
       ${pollRows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${pollRows}</tbody></table>
-      <p class="note">Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. Polls from firms that historically lean one way are adjusted by that lean.</p>` : ""}`;
+      <p class="note">Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. A pollster that has historically leaned one way is counted with that lean taken out.</p>` : ""}`;
     document.body.classList.add("sheet-open");
     history.replaceState(null, "", "#" + id);
     $("close").focus();
@@ -239,10 +240,15 @@
     $("close").addEventListener("click", closeRace);
     $("sheet-bg").addEventListener("click", closeRace);
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeRace(); });
+    const setTab = (which) => {
+      $("tab-senate").setAttribute("aria-selected", String(which === "senate"));
+      $("tab-house").setAttribute("aria-selected", String(which === "house"));
+    };
     $("tab-house").addEventListener("click", () => {
+      setTab("house");
       $("map").innerHTML = `<p class="note">House forecast and district map are being added before Election Day.</p>`;
     });
-    $("tab-senate").addEventListener("click", () => { renderMap(); });
+    $("tab-senate").addEventListener("click", () => { setTab("senate"); renderMap(); });
     try {
       const [f, races, pollsters, topo] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),

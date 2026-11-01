@@ -77,7 +77,7 @@ button { font: inherit; color: inherit; }
 .map path.none { cursor: default; }
 .map path.sel { stroke: var(--ink); stroke-width: 2.4; }
 .map path:not(.none):hover { opacity: .85; }
-.map text { font-family: var(--num); font-size: 15px; fill: #0f1526; pointer-events: none; font-weight: 600; }
+.map text { font-family: var(--num); font-size: 25px; fill: #0f1526; pointer-events: none; font-weight: 600; }
 .map text.light { fill: #fff; }
 
 .key { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: .78rem; color: var(--muted); margin: 6px 0 18px; }
