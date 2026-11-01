@@ -89,7 +89,7 @@
     $("wr").textContent = state.live ? "Republicans, with called races locked in" : `Republicans ${win}`;
     $("mid").innerHTML = gov ? `<strong>${need}</strong>of 50 governors<br>for a majority`
       : house ? `<strong>${need}</strong>of 435 seats<br>for control`
-      : `<strong>${need}</strong>seats for Democrats<br>(R need ${s.rep_needs}: VP breaks ties)`;
+      : `<strong>${need}</strong>seats for control<br>(${s.rep_needs} for Republicans,<br>with the VP's vote)`;
 
     const counts = Object.fromEntries(RATINGS.map(([k]) => [k, 0]));
     races().forEach((r) => counts[category(r)]++);
@@ -750,7 +750,7 @@
       <dl class="facts">
         ${g ? `<dt>Silver Bulletin</dt><dd>${esc(g)} (their grade, January 2026; not used in our weights)</dd>` : ""}
         <dt>In our averages</dt><dd>Each poll counts ${wt.toFixed(2)}× as much as a pollster with an average record${ex != null && Math.abs(ex) >= 0.05 ? `. Over its graded races it has been ${Math.abs(ex).toFixed(1)} pts ${ex < 0 ? "closer to" : "further from"} the result than other polls of the same race` : ""}.</dd>
-        ${m.shrunk_bias != null && Math.abs(m.shrunk_bias) >= 0.05 ? `<dt>Lean we remove</dt><dd>${leanText(m.shrunk_bias)} taken out of each new poll</dd>` : ""}
+        ${m.shrunk_bias != null && Math.abs(m.shrunk_bias) >= 0.5 ? `<dt>Lean we remove</dt><dd>${leanText(m.shrunk_bias)} taken out of each new poll</dd>` : ""}
         <dt>2026</dt><dd>${n26 ? `${n26} poll${n26 === 1 ? "" : "s"} in this year's averages` : "No polls in this year's averages"}</dd>
       </dl>
       <table class="polls"><thead><tr><th>Period</th><th class="num">Races</th><th class="num">Called</th><th class="num">Avg miss</th><th class="num">Lean</th></tr></thead>

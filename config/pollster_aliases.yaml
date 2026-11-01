@@ -39,7 +39,8 @@ pollsters:
   abc-news-the-washington-post:
     name: ABC News/The Washington Post
     fivethirtyeight_id: 3
-    aliases: []
+    aliases:
+    - ABC News / The Washington Post / Ipsos
   abt-associates:
     name: Abt Associates
     fivethirtyeight_id: 7
@@ -108,7 +109,8 @@ pollsters:
   angus-reid-global:
     name: Angus Reid Global
     fivethirtyeight_id: 13
-    aliases: []
+    aliases:
+    - Angus Reid
   ap-norc:
     name: AP-NORC
     fivethirtyeight_id: 397
@@ -157,7 +159,8 @@ pollsters:
   atlasintel:
     name: AtlasIntel
     fivethirtyeight_id: 546
-    aliases: []
+    aliases:
+    - Atlas Intel
   auburn-university-at-montgomery-department-of-political-science-and-public-administration:
     name: Auburn University at Montgomery Department of Political Science and Public Administration
     fivethirtyeight_id: 588
@@ -220,6 +223,7 @@ pollsters:
     aliases:
     - Beacon Research / Shaw & Co. Research
     - Fox News
+    - Beacon Research / Shaw & Company Research / Fox News
   becker-institute:
     name: Becker Institute
     fivethirtyeight_id: 26
@@ -374,6 +378,10 @@ pollsters:
     name: Capital Survey Research Center
     fivethirtyeight_id: 44
     aliases: []
+  capitol-weekly:
+    name: Capitol Weekly
+    aliases: []
+    source: wikipedia
   cardinal-point-analytics-cardinalgps:
     name: Cardinal Point Analytics (CardinalGPS)
     fivethirtyeight_id: 591
@@ -447,7 +455,8 @@ pollsters:
   civiqs:
     name: Civiqs
     fivethirtyeight_id: 471
-    aliases: []
+    aliases:
+    - Civiqs / Daily Kos
   cj-and-n:
     name: CJ&N
     fivethirtyeight_id: 63
@@ -476,6 +485,10 @@ pollsters:
     name: Clout Research
     fivethirtyeight_id: 55
     aliases: []
+  cnbc:
+    name: CNBC
+    aliases: []
+    source: wikipedia
   co-efficient:
     name: co/efficient
     fivethirtyeight_id: 514
@@ -806,7 +819,8 @@ pollsters:
   fairleigh-dickinson-university:
     name: Fairleigh Dickinson University
     fivethirtyeight_id: 92
-    aliases: []
+    aliases:
+    - FDU
   fallon-research-and-communications:
     name: Fallon Research & Communications
     fivethirtyeight_id: 476
@@ -838,7 +852,8 @@ pollsters:
   florida-atlantic-university-business-and-economics-polling-initiative:
     name: Florida Atlantic University Business and Economics Polling Initiative
     fivethirtyeight_id: 97
-    aliases: []
+    aliases:
+    - Florida Atlantic University
   florida-international-university-univision:
     name: Florida International University/Univision
     fivethirtyeight_id: 98
@@ -1085,6 +1100,7 @@ pollsters:
     name: HarrisX
     aliases:
     - Forbes / HarrisX
+    - HarrisX / Forbes
     source: wikipedia
   harstad-strategic-research:
     name: Harstad Strategic Research
@@ -1223,6 +1239,9 @@ pollsters:
     fivethirtyeight_id: 154
     aliases:
     - USA Today / Ipsos
+    - ABC News
+    - Ipsos / Reuters
+    - Reuters / Ipsos
   island-analytics-and-marketing-llc:
     name: Island Analytics & Marketing, LLC
     fivethirtyeight_id: 736
@@ -1353,7 +1372,8 @@ pollsters:
   leger:
     name: Leger
     fivethirtyeight_id: 572
-    aliases: []
+    aliases:
+    - Léger
   lester-and-associates:
     name: Lester & Associates
     fivethirtyeight_id: 293
@@ -1428,6 +1448,7 @@ pollsters:
     - Mainstreet Research / FAU
     - Florida Atlantic University / Mainstreet Research
     - Mainstreet Research / Florida Atlantic University
+    - FAU / Mainstreet Research
     source: wikipedia
   manhattan-institute:
     name: Manhattan Institute
@@ -1448,6 +1469,7 @@ pollsters:
     - Marist University
     - NPR / PBS News / Marist College
     - NPR / PBS
+    - Marist Poll
   mark-blankenship-enterprises:
     name: Mark Blankenship Enterprises
     fivethirtyeight_id: 766
@@ -1498,6 +1520,7 @@ pollsters:
     fivethirtyeight_id: 195
     aliases:
     - Marquette University
+    - Marquette Law
   marshall-marketing:
     name: Marshall Marketing
     fivethirtyeight_id: 196
@@ -1743,7 +1766,8 @@ pollsters:
   north-star-opinion-research:
     name: North Star Opinion Research
     fivethirtyeight_id: 233
-    aliases: []
+    aliases:
+    - North Star Opinion / American Greatness
   northern-arizona-university-social-research-laboratory:
     name: Northern Arizona University Social Research Laboratory
     fivethirtyeight_id: 234
@@ -1886,7 +1910,8 @@ pollsters:
   pew-research-center:
     name: Pew Research Center
     fivethirtyeight_id: 253
-    aliases: []
+    aliases:
+    - Pew Research
   phillips-academy:
     name: Phillips Academy
     fivethirtyeight_id: 699
@@ -2003,7 +2028,8 @@ pollsters:
     aliases: []
   quantus-insights:
     name: Quantus Insights
-    aliases: []
+    aliases:
+    - Quantus Polls and News
     source: wikipedia
   quest-research-group:
     name: Quest Research Group
@@ -2069,11 +2095,14 @@ pollsters:
   redfield-and-wilton-strategies:
     name: Redfield & Wilton Strategies
     fivethirtyeight_id: 562
-    aliases: []
+    aliases:
+    - Redfield and Wilton Strategies
+    - Refield & Wilton Strategies
   remington-research-group:
     name: Remington Research Group
     fivethirtyeight_id: 279
-    aliases: []
+    aliases:
+    - Remington Research Group / Missouri Scout
   repass:
     name: Repass
     fivethirtyeight_id: 268
@@ -2313,6 +2342,7 @@ pollsters:
     - CNN / SSRS
     - CNN / SRSS
     - SSRS / Vanderbilt University
+    - CNN
   st-cloud-state-university:
     name: St. Cloud State University
     fivethirtyeight_id: 312
@@ -2383,6 +2413,7 @@ pollsters:
     fivethirtyeight_id: 323
     aliases:
     - Suffolk University / USA Today
+    - USA Today / Suffolk University
   survation:
     name: Survation
     aliases: []
@@ -2404,6 +2435,7 @@ pollsters:
     aliases:
     - Susquehanna Polling & Research
     - Susquehanna Polling and Research
+    - Susquehanna
   swayable:
     name: Swayable
     fivethirtyeight_id: 543
@@ -2518,6 +2550,7 @@ pollsters:
     - The New York Times / The Philadelphia Inquirer / Siena University
     - The New York Times / Siena University
     - The New York Times / Siena College / The Philadelphia Inquirer
+    - NYTimes / Siena College
   the-political-matrix-the-listener-group:
     name: The Political Matrix/The Listener Group
     fivethirtyeight_id: 677
@@ -2578,6 +2611,8 @@ pollsters:
     fivethirtyeight_id: 144
     aliases:
     - I&I / TIPP
+    - Issues & Insights / TIPP
+    - TIPP
   tmr-research:
     name: TMR Research
     fivethirtyeight_id: 328
@@ -2705,7 +2740,8 @@ pollsters:
   university-of-massachusetts-lowell-center-for-public-opinion:
     name: University of Massachusetts Lowell Center for Public Opinion
     fivethirtyeight_id: 355
-    aliases: []
+    aliases:
+    - University of Massachusetts Lowell / YouGov
   university-of-minnesota-hubert-h-humphrey-school-of-public-affairs:
     name: University of Minnesota Hubert H. Humphrey School of Public Affairs
     fivethirtyeight_id: 143
@@ -2746,12 +2782,17 @@ pollsters:
     - University of North Florida
   university-of-rhode-island:
     name: University of Rhode Island
-    aliases: []
+    aliases:
+    - University of Rhode Island / YouGov
     source: wikipedia
   university-of-south-alabama-polling-group:
     name: University of South Alabama Polling Group
     fivethirtyeight_id: 361
     aliases: []
+  university-of-southern-california-csu-long-beach-cal-poly-pomona:
+    name: University of Southern California / CSU Long Beach / Cal Poly Pomona
+    aliases: []
+    source: wikipedia
   university-of-southern-california-dornsife-center-for-economic-and-social-research:
     name: University of Southern California Dornsife Center for Economic and Social Research
     fivethirtyeight_id: 343
@@ -2772,7 +2813,8 @@ pollsters:
   university-of-utah-hinckley-institute-of-politics:
     name: University of Utah Hinckley Institute of Politics
     fivethirtyeight_id: 500
-    aliases: []
+    aliases:
+    - Deseret News / Hinckley Institute of Politics
   university-of-washington-center-for-survey-research:
     name: University of Washington Center for Survey Research
     fivethirtyeight_id: 364
@@ -3011,6 +3053,13 @@ pollsters:
     - Rose Institute / YouGov
     - Institute for Global Affairs / YouGov
     - Center for Working Class Politics / YouGov
+    - Yahoo News
+    - Yahoo News / YouGov
+    - YouGov / Yahoo
+    - YouGov / Yahoo News
+    - YouGov / CBS News
+    - YouGov / Cooperative Election Study
+    - YouGov / The Economist
   z-to-a-research:
     name: Z to A Research
     aliases: []
@@ -3034,4 +3083,5 @@ pollsters:
   zogby-analytics:
     name: Zogby Analytics
     fivethirtyeight_id: 395
-    aliases: []
+    aliases:
+    - Zogby

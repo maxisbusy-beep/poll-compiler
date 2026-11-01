@@ -119,3 +119,16 @@ def test_washington_house_2024_skips_top_two_primary():
 def test_no_results_before_election_day():
     polls, results, _ = parse_page(FIX / "wiki_2024_sen_pa.html", 2024, date(2999, 1, 1))
     assert results == [] and polls
+
+
+def test_polls_in_full_field_tables_are_kept():
+    """Iowa 2024: Selzer's final poll is only in the table with third-party candidates."""
+    from datetime import date
+    from pathlib import Path
+    from pipeline.parse_tables import parse_page
+    f = Path(__file__).resolve().parent.parent / "data/raw/2024/2024_United_States_presidential_election_in_Iowa.html"
+    if not f.exists():
+        return
+    polls, _, _ = parse_page(f, 2024, date(2024, 11, 5))
+    selzer = [p for p in polls if p["pollster_raw"].startswith("Selzer") and p["end_date"] == "2024-10-31"]
+    assert len(selzer) == 1 and selzer[0]["margin_poll"] == 3.0     # Harris 47, Trump 44

@@ -442,8 +442,26 @@ def parse_page(path: Path, cycle: int, election: date) -> tuple[list[dict], list
                          + " vs ".join(c[1] for c in main.cands))
         ia, ib = main_pair(main)
         ca, cb = main.cands[ia], main.cands[ib]
-        for r in dedupe_versions(main.rows):
-            pa, pb = r["pcts"][ia], r["pcts"][ib]
+        # Polls only in another table of the same two nominees (e.g. a full-field table with
+        # third-party candidates) are kept too, so a pollster isn't dropped for asking a
+        # different version of the question. The main table wins when a poll is in both.
+        sur = lambda c: c[1].split()[-1].lower().strip(".")  # noqa: E731
+        want = {sur(ca), sur(cb)}
+        rows = [(r, ia, ib) for r in dedupe_versions(main.rows)]
+        have = {(r["pollster_raw"], r["dates"]) for r, _, _ in rows}
+        for t in tables:
+            if t is main:
+                continue
+            idx = {sur(c): i for i, c in enumerate(t.cands)}
+            if not want <= set(idx):
+                continue
+            ja, jb = idx[sur(ca)], idx[sur(cb)]
+            for r in dedupe_versions(t.rows):
+                if (r["pollster_raw"], r["dates"]) not in have:
+                    have.add((r["pollster_raw"], r["dates"]))
+                    rows.append((r, ja, jb))
+        for r, ja, jb in rows:
+            pa, pb = r["pcts"][ja], r["pcts"][jb]
             if pa is None or pb is None:
                 continue
             s = assign_sides((ca[1], ca[2], pa), (cb[1], cb[2], pb))
