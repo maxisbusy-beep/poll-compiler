@@ -91,7 +91,7 @@ def build(cycle: int | None = None, as_of: date | None = None) -> tuple[dict, di
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     forecast = {
         "cycle": cycle, "as_of": as_of.isoformat(), "election_date": eday.isoformat(),
-        "generated_utc": now, "days_to_election": days,
+        "generated_utc": now, "days_to_election": days, "national_sd": nat,
         "generic_ballot": env,
         "senate": {**sim, "races_up": len(races), "not_up": ccfg["senate"]["not_up"],
                    "uncommitted_races": ccfg["senate"].get("uncommitted", []),
@@ -176,8 +176,17 @@ def build_house(cycle, as_of, days, params, pp, polls, env_margin, nat):
     return out, info
 
 
+def add_pollster_names(races: dict) -> None:
+    from pipeline.normalize import PollsterAliases
+    names = {pid: info["name"] for pid, info in PollsterAliases().pollsters.items()}
+    for r in races["races"]:
+        for p in r["polls"]:
+            p["name"] = names.get(p["pollster_id"], p["pollster_id"])
+
+
 def main() -> dict:
     forecast, races = build()
+    add_pollster_names(races)
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     (SITE_DATA / "forecast.json").write_text(json.dumps(forecast, separators=(",", ":")))
     (SITE_DATA / "races.json").write_text(json.dumps(races, separators=(",", ":")))

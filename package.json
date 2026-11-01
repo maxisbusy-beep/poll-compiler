@@ -1,0 +1,7 @@
+{
+  "name": "poll-compiler",
+  "private": true,
+  "description": "Front-end tests for the election-night results parser",
+  "scripts": { "test": "node tests/live.test.js" },
+  "devDependencies": { "jsdom": "^25.0.1" }
+}

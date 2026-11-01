@@ -27,6 +27,8 @@ def main() -> None:
     print("pollster scoring:", score_pollsters.main())
     from pipeline import forecast
     print("forecast:", forecast.main())
+    from pipeline import live_sources
+    print("election-night table:", live_sources.main())
     (SITE_DATA / "status.json").write_text(json.dumps(build_status(), indent=2) + "\n")
 
 
