@@ -1,7 +1,7 @@
 # Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
 # Add pages by hand under `extra`; discovery keeps them.
 cycle: 2026
-discovered_utc: '2026-11-01T13:25:19Z'
+discovered_utc: '2026-11-01T13:44:51Z'
 senate:
 - 2026 United States Senate election in Alabama
 - 2026 United States Senate election in Alaska
@@ -94,4 +94,55 @@ house_states:
 - 2026 United States House of Representatives elections in Wisconsin
 generic_ballot:
 - 2026 United States House of Representatives elections
+governor:
+- 2026 Alabama gubernatorial election
+- 2026 Alabama lieutenant gubernatorial election
+- 2026 Alaska gubernatorial election
+- 2026 Arizona gubernatorial election
+- 2026 Arkansas gubernatorial election
+- 2026 Arkansas lieutenant gubernatorial election
+- 2026 California gubernatorial election
+- 2026 California lieutenant gubernatorial election
+- 2026 Colorado gubernatorial election
+- 2026 Connecticut gubernatorial election
+- 2026 Florida gubernatorial election
+- 2026 Georgia gubernatorial election
+- 2026 Georgia lieutenant gubernatorial election
+- 2026 Guam gubernatorial election
+- 2026 Hawaii gubernatorial election
+- 2026 Idaho gubernatorial election
+- 2026 Idaho lieutenant gubernatorial election
+- 2026 Illinois gubernatorial election
+- 2026 Iowa gubernatorial election
+- 2026 Kansas gubernatorial election
+- 2026 Maine gubernatorial election
+- 2026 Maryland gubernatorial election
+- 2026 Massachusetts gubernatorial election
+- 2026 Michigan gubernatorial election
+- 2026 Minnesota gubernatorial election
+- 2026 Nebraska gubernatorial election
+- 2026 Nevada gubernatorial election
+- 2026 Nevada lieutenant gubernatorial election
+- 2026 New Hampshire gubernatorial election
+- 2026 New Mexico gubernatorial election
+- 2026 New York gubernatorial election
+- 2026 Northern Mariana Islands gubernatorial election
+- 2026 Ohio gubernatorial election
+- 2026 Oklahoma gubernatorial election
+- 2026 Oklahoma lieutenant gubernatorial election
+- 2026 Oregon gubernatorial election
+- 2026 Pennsylvania gubernatorial election
+- 2026 Rhode Island gubernatorial election
+- 2026 Rhode Island lieutenant gubernatorial election
+- 2026 South Carolina gubernatorial election
+- 2026 South Dakota gubernatorial election
+- 2026 Tennessee gubernatorial election
+- 2026 Texas gubernatorial election
+- 2026 Texas lieutenant gubernatorial election
+- 2026 United States Virgin Islands gubernatorial election
+- 2026 Vermont gubernatorial election
+- 2026 Vermont lieutenant gubernatorial election
+- 2026 Wisconsin gubernatorial election
+- 2026 Wyoming gubernatorial election
+president: []
 extra: {}
