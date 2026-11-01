@@ -142,8 +142,11 @@
       const cr = rs.filter((x) => x.called && x.winner_party === "REP").length;
       const ci = rs.filter((x) => x.called && x.winner_party !== "DEM" && x.winner_party !== "REP").length;
       const counting = rs.filter((x) => !x.called && x.total > 0).length;
-      extra = `Called so far: ${cd} D, ${cr} R${ci ? `, ${ci} other` : ""}. Counting in ${counting} more. ` + extra
-        + " Races not yet called use the pre-election forecast, since early counts can lean either way.";
+      const h = Live.ifLeadersHold(races(), state.live, { notUp, uncommitted: house || gov ? [] : (s.uncommitted_races || []), partyOnly: gov });
+      $("bm").textContent += ` · ${counting} counting`;
+      extra = `If every current leader wins: Democrats ${h.dem}, Republicans ${h.rep}${h.other ? `, other ${h.other}` : ""}`
+        + ` (races with no votes yet go to the forecast favorite). That's a count, not a forecast: the odds above only lock in races once they're called, since counts can swing as late ballots come in. `
+        + `Called so far: ${cd} D, ${cr} R${ci ? `, ${ci} other` : ""}; still counting in ${counting}. ` + extra;
     }
     if (house) extra += ` ${s.races_with_polls} districts have polls; the rest go by how the district usually votes, plus incumbency.`;
     if (gov) {
@@ -461,9 +464,23 @@
   // ---- list ----------------------------------------------------------------
   function renderList() {
     const house = state.chamber === "house";
-    const list = house ? races().slice().sort((a, b) => Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5)).slice(0, state.showAll ? 435 : 40) : races();
+    // election night: races being counted first (closest count first), then not started, then called
+    const liveGroup = (r) => { const lr = liveRes(r); return !lr ? 1 : lr.called ? 2 : lr.total > 0 ? 0 : 1; };
+    const countGap = (r) => { const c = liveRes(r).candidates; return c[1] ? Math.abs((c[0].pct || 0) - (c[1].pct || 0)) : 100; };
+    const order = (a, b) => {
+      if (state.live) {
+        const ga = liveGroup(a), gb = liveGroup(b);
+        if (ga !== gb) return ga - gb;
+        if (ga === 0) return countGap(a) - countGap(b);
+      }
+      return Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5);
+    };
+    const all = races().slice().sort(order);
+    const list = house ? all.slice(0, state.showAll ? 435 : 40) : all;
+    const anyCounting = state.live && all.some((r) => liveGroup(r) === 0);
     $("races").classList.toggle("house-list", house);
-    $("list-title").textContent = house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
+    $("list-title").textContent = anyCounting ? (house && !state.showAll ? "Still counting, closest first (top 40)" : "Still counting, closest first")
+      : house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
     $("races").innerHTML = list.map((r) => {
       const cat = category(r);
       const fav = r.p_a >= 0.5;
@@ -538,7 +555,15 @@
     let liveBox = "";
     if (lr && lr.total > 0) {
       const share = lr.expected ? Math.min(100, 100 * lr.total / lr.expected) : null;
+      const [l1, l2] = lr.candidates;
+      const lastName = (n) => esc(String(n).trim().split(/\s+/).slice(-1)[0]);
+      const gapPts = l2 ? ((l1.pct || 0) - (l2.pct || 0)).toFixed(1) : null;
+      const headline = lr.called
+        ? `Called for ${esc((lr.candidates.find((c) => c.winner) || l1).name)}`
+        : l2 && l1.votes === l2.votes ? "Tied"
+        : `${lastName(l1.name)} leads${gapPts ? ` by ${gapPts} pts` : ""}${share != null ? ` with ~${Math.min(99, Math.round(share))}% counted` : ""}`;
       liveBox = `<div class="livebox">
+        <div class="livehead">${headline}</div>
         <table>${lr.candidates.slice(0, 4).map((c, i) => `<tr class="${i === 0 && lead ? "lead" : "trail"}"><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
           <td class="num">${c.votes.toLocaleString()}</td><td class="num">${c.pct != null ? c.pct.toFixed(1) + "%" : ""}</td></tr>`).join("")}</table>
         ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
@@ -620,6 +645,21 @@
     $("refresh").addEventListener("click", () => state.poller && state.poller.now());
   }
 
+  // Test only (?live=2024&partial=1): turn final 2024 results into a mid-count night. About a
+  // third of races stay called; the rest show 20-90% of their votes with no call.
+  function partialCount(results) {
+    const out = {};
+    for (const [rid, r] of Object.entries(results)) {
+      let h = 0;
+      for (const ch of rid) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+      if (h % 3 === 0) { out[rid] = r; continue; }
+      const f = 0.2 + (h % 71) / 100;
+      out[rid] = { ...r, called: false, winner_party: null, total: Math.round(r.total * f),
+                   candidates: r.candidates.map((c) => ({ ...c, winner: false, votes: Math.round(c.votes * f) })) };
+    }
+    return out;
+  }
+
   async function startLive(electionDate) {
     state.liveMode = liveModeFromURL(electionDate);
     if (!state.liveMode) return;
@@ -632,7 +672,8 @@
     renderLiveBar();
     const chamberOf = (rid) => (rid.includes("-HOUSE-") ? "house" : rid.includes("-GOV-") ? "governor" : "senate");
     state.poller = Live.poller(table, ({ results, checked, error }) => {
-      state.live = results; state.liveChecked = checked; state.liveError = error || null;
+      state.live = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
+      state.liveChecked = checked; state.liveError = error || null;
       renderLiveBar(); renderBoard(); renderMap(); renderList();
       if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
     }, { want: (rid) => chamberOf(rid) === state.chamber });   // only the tab on screen: saves phone data

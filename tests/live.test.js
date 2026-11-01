@@ -111,4 +111,22 @@ t("wikitext: 2026 pages before Election Day show no votes and no calls", () => {
   }
 });
 
+t("If every current leader wins: called, counting, not started, independents", () => {
+  const races = [
+    { race_id: "A", side_a_party: "DEM", side_b_party: "REP", p_a: 0.3 },   // called D
+    { race_id: "B", side_a_party: "DEM", side_b_party: "REP", p_a: 0.9 },   // R ahead in the count
+    { race_id: "C", side_a_party: "DEM", side_b_party: "REP", p_a: 0.6 },   // no votes yet: forecast D
+    { race_id: "NE", side_a_party: "IND", side_b_party: "REP", p_a: 0.4 },  // independent ahead, uncommitted
+  ];
+  const res = {
+    A: { called: true, winner_party: "DEM", total: 100, candidates: [{ party: "DEM", votes: 60 }, { party: "REP", votes: 40 }] },
+    B: { called: false, total: 50, candidates: [{ party: "REP", votes: 30 }, { party: "DEM", votes: 20 }] },
+    NE: { called: false, total: 10, candidates: [{ party: "IND", votes: 6 }, { party: "REP", votes: 4 }] },
+  };
+  const h = Live.ifLeadersHold(races, res, { notUp: { dem: 10, rep: 10 }, uncommitted: ["NE"] });
+  assert.deepStrictEqual(h, { dem: 12, rep: 11, other: 1, counting: 2 });
+  const g = Live.ifLeadersHold(races.slice(0, 3), res, { partyOnly: true });
+  assert.deepStrictEqual(g, { dem: 2, rep: 1, other: 0, counting: 1 });
+});
+
 console.log(`${n} passed`);

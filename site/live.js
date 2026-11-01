@@ -377,6 +377,30 @@
              median: seats[Math.floor(nSims / 2)], p10: seats[Math.floor(nSims * 0.1)], p90: seats[Math.floor(nSims * 0.9)] };
   }
 
-  return { blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, sections, templates, stripMarkup,
+  // ---- "if every current leader wins": a plain count, not a probability --------------
+  // Called races go to the winner, races being counted to whoever is ahead now, races with
+  // no votes yet to the forecast favorite. Shown next to the odds, never mixed into them.
+  function ifLeadersHold(races, results, { notUp = { dem: 0, rep: 0 }, uncommitted = [], partyOnly = false } = {}) {
+    let dem = notUp.dem, rep = notUp.rep, other = 0, counting = 0;
+    for (const r of races) {
+      const res = results[r.race_id];
+      let party, aSide;
+      if (res && res.called) { party = res.winner_party; }
+      else if (res && res.total > 0 && res.candidates && res.candidates.length) {
+        const [c1, c2] = res.candidates;
+        counting++;
+        if (c2 && c1.votes === c2.votes) { party = r.p_a >= 0.5 ? r.side_a_party : r.side_b_party; }
+        else party = c1.party;
+      } else party = r.p_a >= 0.5 ? r.side_a_party : r.side_b_party;
+      aSide = party === r.side_a_party;
+      if (party === "REP") rep++;
+      else if (party === "DEM" && !(aSide && uncommitted.includes(r.race_id))) dem++;
+      else if (!partyOnly && !uncommitted.includes(r.race_id)) dem++;   // independents who caucus with D
+      else other++;
+    }
+    return { dem, rep, other, counting };
+  }
+
+  return { ifLeadersHold, blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, sections, templates, stripMarkup,
            parseWikitext, poller, liveOdds, revisions };
 });
