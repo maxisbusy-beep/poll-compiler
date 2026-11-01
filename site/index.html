@@ -6,6 +6,16 @@
 <title>Maximum Likelihood</title>
 <meta name="description" content="2026 Senate, House and governor odds compiled from public polls, with every pollster graded on its track record.">
 <meta name="theme-color" content="#0f1526">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maximum Likelihood: 2026 midterm odds">
+<meta property="og:description" content="Senate, House and governor odds from public polls, with every pollster graded on its track record. Live results on election night.">
+<meta property="og:url" content="https://maxisbusy-beep.github.io/poll-compiler/">
+<meta property="og:image" content="https://maxisbusy-beep.github.io/poll-compiler/og.png?v=__BUILD__">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -62,6 +72,7 @@
       <input type="search" id="pv-search" placeholder="Find a pollster" aria-label="Find a pollster" autocomplete="off">
       <select id="pv-sort" aria-label="Sort by">
         <option value="weight">Best record</option>
+        <option value="beat">Beat other polls</option>
         <option value="called">Called the winner</option>
         <option value="miss">Smallest miss</option>
         <option value="n">Most races</option>
@@ -69,7 +80,7 @@
       </select>
     </div>
     <label class="pv-check"><input type="checkbox" id="pv-active"> Only pollsters with 2026 polls</label>
-    <div class="pv-head" aria-hidden="true"><span>Pollster</span><span>Called<br>winner</span><span>Avg<br>miss</span><span>Lean</span></div>
+    <div class="pv-head" aria-hidden="true"><span>Pollster</span><span>vs<br>others</span><span>Called</span><span>Miss</span><span>Lean</span></div>
     <ul class="races pv-list" id="pv-list"></ul>
     <p class="note" id="pv-foot"></p>
   </section>
@@ -88,7 +99,7 @@
   <div id="sheet-body"></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="vendor/topojson-client.min.js?v=__BUILD__"></script>
 <script src="live.js?v=__BUILD__"></script>
 <script src="app.js?v=__BUILD__"></script>
 </body>

@@ -302,13 +302,15 @@
   }
 
   /** Check every few minutes; download only pages whose revision changed (one light request each). */
-  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 3 } = {}) {
+  // want(raceId): which races to keep current (e.g. only the tab on screen, to save phone data).
+  function poller(liveTable, onUpdate, { intervalMs = 180000, concurrency = 3, want = () => true } = {}) {
     const seen = {}, results = {};
-    const pages = [...new Set(Object.values(liveTable.races).map((r) => r.page).filter(Boolean))];
-    let timer = null, running = false;
+    let timer = null, running = false, again = false;
     async function tick() {
-      if (running) return;
+      if (running) { again = true; return; }   // asked again mid-check: run once more right after
       running = true;
+      const pages = [...new Set(Object.entries(liveTable.races)
+        .filter(([rid, r]) => r.page && want(rid)).map(([, r]) => r.page))];
       try {
         const revs = await revisions(pages);
         const changed = pages.filter((t) => revs[t] && revs[t].revid !== seen[t]);
@@ -331,6 +333,7 @@
         onUpdate({ results, checked: new Date(), error: e.message });
       } finally {
         running = false;
+        if (again) { again = false; tick(); }
       }
     }
     return {

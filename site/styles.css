@@ -233,3 +233,13 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 
 /* seat bar: seats not on the ballot are striped, so they read as "already decided" */
 .bar span.notup { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,.18) 0 3px, transparent 3px 7px); }
+.pv-head, .races li button.pv-row { grid-template-columns: 1fr 46px 42px 38px 46px; gap: 4px; }
+.pv-num { font-size: 1.05rem; }
+.pv-num.good, td.good { color: #3ddc84; } .pv-num.bad, td.bad { color: #ff9f43; }
+@media (prefers-color-scheme: light) { .pv-num.good, td.good { color: #138a4a; } .pv-num.bad, td.bad { color: #b35900; } }
+.mid .short { display: none; }
+@media (max-width: 360px) {
+  .mid .long { display: none; } .mid .short { display: inline; }
+  .tabs button { font-size: .82rem; letter-spacing: -0.01em; }
+  .side .pct { font-size: 3.1rem; }
+}

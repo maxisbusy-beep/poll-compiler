@@ -82,6 +82,9 @@ jobs:
       - name: Run pipeline
         run: python -m pipeline.run_all
 
+      - name: Share-preview image with today's odds
+        run: python tools/make_og.py
+
       - name: Stamp asset versions (so phones never keep an old app.js)
         run: sed -i "s/__BUILD__/$(git rev-parse --short HEAD)-${GITHUB_RUN_NUMBER}/g" site/index.html
 

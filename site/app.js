@@ -26,6 +26,20 @@
                   pv: { window: "all_time", sort: "weight", q: "", active: false, all: false } };
 
   const liveRes = (r) => (state.live ? state.live[r.race_id] : null);
+  // Races that can't be settled on the night: majority-or-runoff and ranked-choice states.
+  function slowCount(r) {
+    if (r.state === "GA") return "Georgia needs a majority: if no one gets 50%, the top two meet in a runoff on December 1.";
+    if (r.state === "AK") return "Alaska uses ranked-choice voting. If no one tops 50%, later choices are counted about two weeks after Election Day.";
+    if (r.state === "ME" && r.chamber !== "governor")
+      return "Maine uses ranked-choice voting for Congress. If no one tops 50%, counting later choices takes several days.";
+    return null;
+  }
+  function wikiLink(r) {
+    const t = state.pages && state.pages[r.race_id];
+    if (!t || !t.page) return null;
+    const anchor = r.chamber === "house" && !t.single_district ? "#District_" + r.district : "";
+    return "https://en.wikipedia.org/wiki/" + encodeURIComponent(t.page.replace(/ /g, "_")) + anchor;
+  }
   // Who is ahead: "a", "b", or null for a dead heat. Once votes are counted, the vote
   // leader (or the called winner); before that, the forecast favorite. 50/50 shows no leader.
   function leaderSide(r) {
@@ -89,7 +103,7 @@
     $("wr").textContent = state.live ? "Republicans, with called races locked in" : `Republicans ${win}`;
     $("mid").innerHTML = gov ? `<strong>${need}</strong>of 50 governors<br>for a majority`
       : house ? `<strong>${need}</strong>of 435 seats<br>for control`
-      : `<strong>${need}</strong>seats for control<br>(${s.rep_needs} for Republicans,<br>with the VP's vote)`;
+      : `<strong>${need}</strong><span class="long">seats for control<br>(${s.rep_needs} for Republicans,<br>with the VP's vote)</span><span class="short">seats to win<br>(R: ${s.rep_needs})</span>`;
 
     const counts = Object.fromEntries(RATINGS.map(([k]) => [k, 0]));
     races().forEach((r) => counts[category(r)]++);
@@ -170,6 +184,10 @@
 
   function renderMap() {
     if (state.chamber === "house") return renderHouseMap();
+    if (!state.topo || typeof topojson === "undefined") {
+      $("map").innerHTML = `<p class="note">The map didn't load. The odds and race list below are up to date.</p>`;
+      return;
+    }
     const byState = {};
     races().forEach((r) => (byState[r.state] = byState[r.state] || []).push(r));
     const geo = topojson.feature(state.topo, state.topo.objects.states);
@@ -277,6 +295,10 @@
   }
 
   async function renderHouseMap() {
+    if (typeof topojson === "undefined") {
+      $("map").innerHTML = `<p class="note">The map didn't load. The odds and district list below are up to date.</p>`;
+      return;
+    }
     if (!state.houseTopo) {
       $("map").innerHTML = `<p class="note">Loading district map…</p>`;
       try { state.houseTopo = await getJSON("data/house_map.json"); }
@@ -538,6 +560,8 @@
         ${r.lean_prior != null ? `<dt>Partisan lean</dt><dd>${fmtMargin(r.lean_prior, "D", "R")} ${r.chamber === "house" ? leanNote(r) : r.chamber === "governor" && r.basis === "polls" ? "(state's 2024 result moved by the national mood; shown for reference only: in past governor races, mixing it in made forecasts worse, because governors often run far from their state's presidential lean)" : "(state's 2024 result moved by the national mood)"}</dd>` : ""}
         ${r.basis === "unopposed" ? `<dt>Note</dt><dd>No major-party opponent on the ballot.</dd>` : ""}
         ${r.redrawn_2026 ? `<dt>New map*</dt><dd>${esc(r.map_note)}</dd>` : ""}
+        ${slowCount(r) ? `<dt>Count</dt><dd>${esc(slowCount(r))}</dd>` : ""}
+        ${wikiLink(r) ? `<dt>Source</dt><dd><a href="${esc(wikiLink(r))}" target="_blank" rel="noopener">This race on Wikipedia</a>${state.live ? " (live results are read from here)" : ""}</dd>` : ""}
         ${r.uncommitted ? `<dt>Note</dt><dd>${esc(r.side_a)} says he will join neither party's caucus.</dd>` : ""}
       </dl>
       ${pollRows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${pollRows}</tbody></table>
@@ -606,11 +630,12 @@
     state.liveTable = table;
     state.live = {};
     renderLiveBar();
+    const chamberOf = (rid) => (rid.includes("-HOUSE-") ? "house" : rid.includes("-GOV-") ? "governor" : "senate");
     state.poller = Live.poller(table, ({ results, checked, error }) => {
       state.live = results; state.liveChecked = checked; state.liveError = error || null;
       renderLiveBar(); renderBoard(); renderMap(); renderList();
       if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
-    });
+    }, { want: (rid) => chamberOf(rid) === state.chamber });   // only the tab on screen: saves phone data
     state.poller.start();
   }
 
@@ -665,6 +690,8 @@
     return n;
   }
   const leanText = (b) => (b == null ? "–" : Math.abs(b) < 0.5 ? "None" : (b > 0 ? "D+" : "R+") + Math.abs(b).toFixed(1));
+  const beatText = (x) => (x == null ? "–" : Math.abs(x) < 0.05 ? "0.0" : (x < 0 ? "+" : "−") + Math.abs(x).toFixed(1));
+  const beatCls = (x) => (x == null || Math.abs(x) < 0.5 ? "" : x < 0 ? "good" : "bad");
   const leanCls = (b) => (b == null || Math.abs(b) < 0.5 ? "" : b > 0 ? "d" : "r");
   let gradeMap = null;
   const sbGrade = (id) => {
@@ -682,8 +709,9 @@
     const yrs = meta.windows.all_time.label.match(/\((.*)\)/);
     $("pv-intro").textContent = `Each pollster's final poll in ${meta.scored_races.toLocaleString()} past races `
       + `(${yrs ? yrs[1] : "all years"}), checked against the actual result. `
-      + `"Called winner" is how often it had the right candidate ahead. "Avg miss" is how many points it was off on the gap between the top two. `
-      + `"Lean" is which party its misses tended to favor.`;
+      + `"vs others" is the key number: how many points closer to the result it was than other polls of the same race (+ is better). `
+      + `"Called" is how often it had the right candidate ahead, which flatters pollsters of safe races. `
+      + `"Miss" is how many points it was off on the gap between the top two. "Lean" is which party its misses tended to favor.`;
     $("pv-window").innerHTML = Object.keys(WINDOW_SHORT).map((k) =>
       `<button type="button" data-w="${k}" aria-pressed="${pv.window === k}" title="${esc(meta.windows[k].label)}">${WINDOW_SHORT[k]}<small>${esc((meta.windows[k].label.match(/\((.*)\)/) || ["", ""])[1])}</small></button>`).join("");
     $("pv-window").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { pv.window = b.dataset.w; renderPollsters(); }));
@@ -693,6 +721,7 @@
       w && w.n >= (q ? 1 : min) && (!q || p.name.toLowerCase().includes(q)) && (!pv.active || n26[p.id]));
     const by = {
       weight: (a, b) => (b.p.model ? b.p.model.weight : 1) - (a.p.model ? a.p.model.weight : 1) || b.w.n - a.w.n,
+      beat: (a, b) => (a.w.excess_error ?? 99) - (b.w.excess_error ?? 99) || b.w.n - a.w.n,
       called: (a, b) => b.w.win_call_pct - a.w.win_call_pct || b.w.n - a.w.n,
       miss: (a, b) => a.w.mean_abs_error - b.w.mean_abs_error || b.w.n - a.w.n,
       n: (a, b) => b.w.n - a.w.n,
@@ -706,6 +735,7 @@
       const sub = `${w.n} race${w.n === 1 ? "" : "s"}${n26[p.id] ? ` · ${n26[p.id]} poll${n26[p.id] === 1 ? "" : "s"} in 2026` : ""}`;
       return `<li><button class="pv-row" data-pollster="${esc(p.id)}">
         <span class="names"><span class="lead">${esc(p.name)}${g ? ` <span class="sbg">(${esc(g)})</span>` : ""}</span><span class="trail">${sub}</span></span>
+        <span class="pv-num ${beatCls(w.excess_error)}">${beatText(w.excess_error)}</span>
         <span class="pv-num">${w.win_call_pct != null ? Math.round(w.win_call_pct) + "%" : "–"}</span>
         <span class="pv-num">${w.mean_abs_error != null ? w.mean_abs_error.toFixed(1) : "–"}</span>
         <span class="pv-num ${leanCls(w.bias)}">${leanText(w.bias)}</span>
@@ -738,9 +768,9 @@
     $("sheet-title").textContent = p.name;
     const row = (k) => {
       const w = p.windows[k];
-      if (!w || !w.n) return `<tr><td>${WINDOW_SHORT[k]}<span class="pq">${esc(meta.windows[k].label)}</span></td><td class="num" colspan="4">No graded races</td></tr>`;
+      if (!w || !w.n) return `<tr><td>${WINDOW_SHORT[k]}<span class="pq">${esc(meta.windows[k].label)}</span></td><td class="num" colspan="5">No graded races</td></tr>`;
       return `<tr><td>${WINDOW_SHORT[k]}<span class="pq">${esc(meta.windows[k].label)}</span></td>
-        <td class="num">${w.n}</td><td class="num">${Math.round(w.win_call_pct)}%</td>
+        <td class="num">${w.n}</td><td class="num ${beatCls(w.excess_error)}">${beatText(w.excess_error)}</td><td class="num">${Math.round(w.win_call_pct)}%</td>
         <td class="num">${w.mean_abs_error.toFixed(1)}</td><td class="num ${leanCls(w.bias)}">${leanText(w.bias)}</td></tr>`;
     };
     const m = p.model || {};
@@ -753,7 +783,7 @@
         ${m.shrunk_bias != null && Math.abs(m.shrunk_bias) >= 0.5 ? `<dt>Lean we remove</dt><dd>${leanText(m.shrunk_bias)} taken out of each new poll</dd>` : ""}
         <dt>2026</dt><dd>${n26 ? `${n26} poll${n26 === 1 ? "" : "s"} in this year's averages` : "No polls in this year's averages"}</dd>
       </dl>
-      <table class="polls"><thead><tr><th>Period</th><th class="num">Races</th><th class="num">Called</th><th class="num">Avg miss</th><th class="num">Lean</th></tr></thead>
+      <table class="polls"><thead><tr><th>Period</th><th class="num">Races</th><th class="num">vs others</th><th class="num">Called</th><th class="num">Avg miss</th><th class="num">Lean</th></tr></thead>
         <tbody>${["same_type", "last_two", "all_time"].map(row).join("")}</tbody></table>
       <h4 class="pv-sub">Graded races</h4>
       <div id="pv-hist"><p class="note">Loading…</p></div>`;
@@ -790,8 +820,10 @@
       $("race-view").hidden = pv;
       $("pollster-view").hidden = !pv;
       if (pv) { renderPollsters(); return; }
+      const changed = state.chamber !== which;
       state.chamber = which; state.houseZoom = null;
       renderBoard(); renderMap(); renderList();
+      if (changed && state.poller) state.poller.now();   // bring the new tab's results up to date now
     };
     $("tab-pollsters").addEventListener("click", () => show("pollsters"));
     $("pv-search").addEventListener("input", (e) => { state.pv.q = e.target.value; renderPollsters(); });
@@ -803,13 +835,14 @@
     try {
       const [f, races, pollsters, topo] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
-        getJSON("https://cdn.jsdelivr.net/npm/us-atlas@3/states-albers-10m.json"),
+        getJSON("vendor/states-albers-10m.json").catch(() => null),   // no map is better than no page
       ]);
       state.forecast = f;
       state.allRaces = races.races;
       pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
       state.pollsterMeta = pollsters;
       state.topo = topo;
+      getJSON("data/live.json").then((t) => { state.pages = t.races; }).catch(() => {});
       showUpdated();
       renderBoard(); renderMap(); renderList();
       startLive(f.election_date).catch((e) => { state.liveError = e.message; renderLiveBar(); });
