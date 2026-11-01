@@ -8,7 +8,9 @@
 #   (an assumption, not backtested yet).
 # lean_sigma: typical miss of the lean-only estimate, in points of margin
 #   (an assumption, not backtested yet).
-redistricted: [CA, MO, NC, OH, TX, UT]
+# Per Ballotpedia (Sept 2026): new maps in effect for 2026 in AL (2023 map reinstated), CA, FL, LA,
+# NC, OH, TN, TX, UT. Missouri's 2025 map is stayed (2022 lines used); Virginia's was blocked.
+redistricted: [AL, CA, FL, LA, NC, OH, TN, TX, UT]
 incumbency_edge: 3.0
 lean_sigma: 8.0
 control: 218

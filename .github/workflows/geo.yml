@@ -1,0 +1,73 @@
+name: Build House district map
+
+# Manual. Downloads Census congressional district boundaries, simplifies them for
+# phones and writes site/data/house_map.json (TopoJSON, Albers USA with AK/HI insets).
+#   - 120th Congress lines (in effect for 2026) from the TIGER/Line 2026 release
+#   - 119th Congress lines (2024) as the fallback for states listed in `use_119`
+on:
+  workflow_dispatch:
+    inputs:
+      use_119:
+        description: "State FIPS codes to draw on 2024 lines (space separated)"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  geo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: List Census folders
+        run: |
+          set -x
+          curl -sSL https://www2.census.gov/geo/tiger/TIGER2026/CD/ | grep -oE 'tl_2026_[0-9a-z_]+\.zip' | sort -u | head -80 || true
+          curl -sSL https://www2.census.gov/geo/tiger/GENZ2024/shp/ | grep -oE 'cb_2024_us_cd119_[0-9a-z]+\.zip' | sort -u || true
+      - name: Download
+        run: |
+          mkdir -p geo && cd geo
+          curl -sSLf -o cd120.zip https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_us_cd120.zip
+          curl -sSLf -o cd119.zip https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_cd119_500k.zip
+          unzip -o -q cd120.zip -d cd120 && unzip -o -q cd119.zip -d cd119
+          ls -la cd120 cd119
+      - name: Simplify and merge
+        env:
+          USE_119: ${{ inputs.use_119 }}
+        run: |
+          npm install -g mapshaper@0.6 >/dev/null 2>&1
+          cd geo
+          F120=$(ls cd120/*.shp); F119=$(ls cd119/*.shp)
+          mapshaper -i "$F120" -info 2>&1 | head -30
+          # keep: state FIPS + district number; drop ZZ (no district) water-only features
+          EXPR120="this.properties = {st: STATEFP, cd: CD120FP}"
+          EXPR119="this.properties = {st: STATEFP, cd: CD119FP}"
+          FILTER="cd !== 'ZZ' && ['60','66','69','72','78','11'].indexOf(st) < 0"
+          if [ -n "$USE_119" ]; then
+            LIST=$(printf "'%s'," $USE_119); LIST="[${LIST%,}]"
+            mapshaper -i "$F120" -each "$EXPR120" -filter "$FILTER && $LIST.indexOf(st) < 0" -o a.shp
+            mapshaper -i "$F119" -each "$EXPR119" -filter "$FILTER && $LIST.indexOf(st) >= 0" -o b.shp
+            mapshaper -i a.shp b.shp combine-files -merge-layers force -o merged.shp
+          else
+            mapshaper -i "$F120" -each "$EXPR120" -filter "$FILTER" -o merged.shp
+          fi
+          mapshaper -i merged.shp \
+            -proj albersusa \
+            -simplify 4% keep-shapes \
+            -filter-slivers min-area=2km2 \
+            -rename-layers districts \
+            -dissolve st + name=states \
+            -o format=topojson quantization=40000 precision=0.1 target=districts,states ../site/data/house_map.json
+          ls -la ../site/data/house_map.json
+      - name: Commit
+        run: |
+          git config user.name "poll-compiler bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f site/data/house_map.json
+          git diff --cached --quiet && exit 0
+          git commit -m "House district map (Census congressional districts, simplified)"
+          git push
