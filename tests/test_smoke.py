@@ -14,7 +14,7 @@ def test_status_shape():
 
 def test_site_entry_exists():
     html = (ROOT / "site" / "index.html").read_text()
-    assert "<title>" in html and "poll-compiler" in html.lower()
+    assert "<title>Maximum Likelihood</title>" in html and "face.webp" in html
 
 
 def test_spec_present():
