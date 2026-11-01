@@ -1,7 +1,7 @@
 # Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
 # Add pages by hand under `extra`; discovery keeps them.
 cycle: 2026
-discovered_utc: '2026-11-01T13:44:51Z'
+discovered_utc: '2026-11-01T14:26:40Z'
 senate:
 - 2026 United States Senate election in Alabama
 - 2026 United States Senate election in Alaska
@@ -145,4 +145,6 @@ governor:
 - 2026 Wisconsin gubernatorial election
 - 2026 Wyoming gubernatorial election
 president: []
+reference:
+- Cook Partisan Voting Index
 extra: {}
