@@ -1,0 +1,97 @@
+# Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
+# Add pages by hand under `extra`; discovery keeps them.
+cycle: 2024
+discovered_utc: '2026-11-01T13:11:05Z'
+senate:
+- 2024 United States Senate election in Arizona
+- 2024 United States Senate election in Connecticut
+- 2024 United States Senate election in Delaware
+- 2024 United States Senate election in Florida
+- 2024 United States Senate election in Hawaii
+- 2024 United States Senate election in Indiana
+- 2024 United States Senate election in Maine
+- 2024 United States Senate election in Maryland
+- 2024 United States Senate election in Massachusetts
+- 2024 United States Senate election in Michigan
+- 2024 United States Senate election in Minnesota
+- 2024 United States Senate election in Mississippi
+- 2024 United States Senate election in Missouri
+- 2024 United States Senate election in Montana
+- 2024 United States Senate election in Nebraska
+- 2024 United States Senate election in Nevada
+- 2024 United States Senate election in New Jersey
+- 2024 United States Senate election in New Mexico
+- 2024 United States Senate election in New York
+- 2024 United States Senate election in North Dakota
+- 2024 United States Senate election in Ohio
+- 2024 United States Senate election in Pennsylvania
+- 2024 United States Senate election in Rhode Island
+- 2024 United States Senate election in Tennessee
+- 2024 United States Senate election in Texas
+- 2024 United States Senate election in Utah
+- 2024 United States Senate election in Vermont
+- 2024 United States Senate election in Virginia
+- 2024 United States Senate election in Washington
+- 2024 United States Senate election in West Virginia
+- 2024 United States Senate election in Wisconsin
+- 2024 United States Senate election in Wyoming
+- 2024 United States Senate special election in Nebraska
+house_states:
+- 2024 United States House of Representatives election in Alaska
+- 2024 United States House of Representatives election in American Samoa
+- 2024 United States House of Representatives election in Delaware
+- 2024 United States House of Representatives election in Guam
+- 2024 United States House of Representatives election in North Dakota
+- 2024 United States House of Representatives election in Northern Mariana Islands
+- 2024 United States House of Representatives election in Puerto Rico
+- 2024 United States House of Representatives election in South Dakota
+- 2024 United States House of Representatives election in United States Virgin Islands
+- 2024 United States House of Representatives election in Vermont
+- 2024 United States House of Representatives election in Wyoming
+- 2024 United States House of Representatives elections in Alabama
+- 2024 United States House of Representatives elections in Arizona
+- 2024 United States House of Representatives elections in Arkansas
+- 2024 United States House of Representatives elections in California
+- 2024 United States House of Representatives elections in Colorado
+- 2024 United States House of Representatives elections in Connecticut
+- 2024 United States House of Representatives elections in Florida
+- 2024 United States House of Representatives elections in Georgia
+- 2024 United States House of Representatives elections in Hawaii
+- 2024 United States House of Representatives elections in Idaho
+- 2024 United States House of Representatives elections in Illinois
+- 2024 United States House of Representatives elections in Indiana
+- 2024 United States House of Representatives elections in Iowa
+- 2024 United States House of Representatives elections in Kansas
+- 2024 United States House of Representatives elections in Kentucky
+- 2024 United States House of Representatives elections in Louisiana
+- 2024 United States House of Representatives elections in Maine
+- 2024 United States House of Representatives elections in Maryland
+- 2024 United States House of Representatives elections in Massachusetts
+- 2024 United States House of Representatives elections in Michigan
+- 2024 United States House of Representatives elections in Minnesota
+- 2024 United States House of Representatives elections in Mississippi
+- 2024 United States House of Representatives elections in Missouri
+- 2024 United States House of Representatives elections in Montana
+- 2024 United States House of Representatives elections in Nebraska
+- 2024 United States House of Representatives elections in Nevada
+- 2024 United States House of Representatives elections in New Hampshire
+- 2024 United States House of Representatives elections in New Jersey
+- 2024 United States House of Representatives elections in New Mexico
+- 2024 United States House of Representatives elections in New York
+- 2024 United States House of Representatives elections in North Carolina
+- 2024 United States House of Representatives elections in Ohio
+- 2024 United States House of Representatives elections in Oklahoma
+- 2024 United States House of Representatives elections in Oregon
+- 2024 United States House of Representatives elections in Pennsylvania
+- 2024 United States House of Representatives elections in Rhode Island
+- 2024 United States House of Representatives elections in South Carolina
+- 2024 United States House of Representatives elections in Tennessee
+- 2024 United States House of Representatives elections in Texas
+- 2024 United States House of Representatives elections in Utah
+- 2024 United States House of Representatives elections in Virginia
+- 2024 United States House of Representatives elections in Washington
+- 2024 United States House of Representatives elections in West Virginia
+- 2024 United States House of Representatives elections in Wisconsin
+generic_ballot:
+- 2024 United States House of Representatives elections
+extra: {}

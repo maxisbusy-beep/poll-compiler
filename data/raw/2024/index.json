@@ -1,0 +1,714 @@
+[
+ {
+  "title": "2024 United States Senate election in Arizona",
+  "revid": 1382397629,
+  "requested": "2024 United States Senate election in Arizona",
+  "fetched_utc": "2026-11-01T13:11:15Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Arizona.html"
+ },
+ {
+  "title": "2024 United States Senate election in Connecticut",
+  "revid": 1382470573,
+  "requested": "2024 United States Senate election in Connecticut",
+  "fetched_utc": "2026-11-01T13:11:16Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Connecticut.html"
+ },
+ {
+  "title": "2024 United States Senate election in Delaware",
+  "revid": 1382475355,
+  "requested": "2024 United States Senate election in Delaware",
+  "fetched_utc": "2026-11-01T13:11:17Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Delaware.html"
+ },
+ {
+  "title": "2024 United States Senate election in Florida",
+  "revid": 1382480990,
+  "requested": "2024 United States Senate election in Florida",
+  "fetched_utc": "2026-11-01T13:11:18Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Florida.html"
+ },
+ {
+  "title": "2024 United States Senate election in Hawaii",
+  "revid": 1381463766,
+  "requested": "2024 United States Senate election in Hawaii",
+  "fetched_utc": "2026-11-01T13:11:19Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Hawaii.html"
+ },
+ {
+  "title": "2024 United States Senate election in Indiana",
+  "revid": 1382506009,
+  "requested": "2024 United States Senate election in Indiana",
+  "fetched_utc": "2026-11-01T13:11:20Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Indiana.html"
+ },
+ {
+  "title": "2024 United States Senate election in Maine",
+  "revid": 1382531026,
+  "requested": "2024 United States Senate election in Maine",
+  "fetched_utc": "2026-11-01T13:11:21Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Maine.html"
+ },
+ {
+  "title": "2024 United States Senate election in Maryland",
+  "revid": 1382536909,
+  "requested": "2024 United States Senate election in Maryland",
+  "fetched_utc": "2026-11-01T13:11:22Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Maryland.html"
+ },
+ {
+  "title": "2024 United States Senate election in Massachusetts",
+  "revid": 1382543843,
+  "requested": "2024 United States Senate election in Massachusetts",
+  "fetched_utc": "2026-11-01T13:11:23Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Massachusetts.html"
+ },
+ {
+  "title": "2024 United States Senate election in Michigan",
+  "revid": 1382547781,
+  "requested": "2024 United States Senate election in Michigan",
+  "fetched_utc": "2026-11-01T13:11:24Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Michigan.html"
+ },
+ {
+  "title": "2024 United States Senate election in Minnesota",
+  "revid": 1383075750,
+  "requested": "2024 United States Senate election in Minnesota",
+  "fetched_utc": "2026-11-01T13:11:28Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Minnesota.html"
+ },
+ {
+  "title": "2024 United States Senate election in Mississippi",
+  "revid": 1382555351,
+  "requested": "2024 United States Senate election in Mississippi",
+  "fetched_utc": "2026-11-01T13:11:28Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Mississippi.html"
+ },
+ {
+  "title": "2024 United States Senate election in Missouri",
+  "revid": 1382559209,
+  "requested": "2024 United States Senate election in Missouri",
+  "fetched_utc": "2026-11-01T13:11:29Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Missouri.html"
+ },
+ {
+  "title": "2024 United States Senate election in Montana",
+  "revid": 1382562372,
+  "requested": "2024 United States Senate election in Montana",
+  "fetched_utc": "2026-11-01T13:11:30Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Montana.html"
+ },
+ {
+  "title": "2024 United States Senate election in Nebraska",
+  "revid": 1382564902,
+  "requested": "2024 United States Senate election in Nebraska",
+  "fetched_utc": "2026-11-01T13:11:31Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Nebraska.html"
+ },
+ {
+  "title": "2024 United States Senate election in Nevada",
+  "revid": 1382567308,
+  "requested": "2024 United States Senate election in Nevada",
+  "fetched_utc": "2026-11-01T13:11:32Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Nevada.html"
+ },
+ {
+  "title": "2024 United States Senate election in New Jersey",
+  "revid": 1382576689,
+  "requested": "2024 United States Senate election in New Jersey",
+  "fetched_utc": "2026-11-01T13:11:34Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_New_Jersey.html"
+ },
+ {
+  "title": "2024 United States Senate election in New Mexico",
+  "revid": 1382578883,
+  "requested": "2024 United States Senate election in New Mexico",
+  "fetched_utc": "2026-11-01T13:11:35Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_New_Mexico.html"
+ },
+ {
+  "title": "2024 United States Senate election in New York",
+  "revid": 1382585490,
+  "requested": "2024 United States Senate election in New York",
+  "fetched_utc": "2026-11-01T13:11:36Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_New_York.html"
+ },
+ {
+  "title": "2024 United States Senate election in North Dakota",
+  "revid": 1382592773,
+  "requested": "2024 United States Senate election in North Dakota",
+  "fetched_utc": "2026-11-01T13:11:37Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_North_Dakota.html"
+ },
+ {
+  "title": "2024 United States Senate election in Ohio",
+  "revid": 1383113423,
+  "requested": "2024 United States Senate election in Ohio",
+  "fetched_utc": "2026-11-01T13:11:38Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Ohio.html"
+ },
+ {
+  "title": "2024 United States Senate election in Pennsylvania",
+  "revid": 1382613959,
+  "requested": "2024 United States Senate election in Pennsylvania",
+  "fetched_utc": "2026-11-01T13:11:39Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Pennsylvania.html"
+ },
+ {
+  "title": "2024 United States Senate election in Rhode Island",
+  "revid": 1382619556,
+  "requested": "2024 United States Senate election in Rhode Island",
+  "fetched_utc": "2026-11-01T13:11:40Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Rhode_Island.html"
+ },
+ {
+  "title": "2024 United States Senate election in Tennessee",
+  "revid": 1382632933,
+  "requested": "2024 United States Senate election in Tennessee",
+  "fetched_utc": "2026-11-01T13:11:41Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Tennessee.html"
+ },
+ {
+  "title": "2024 United States Senate election in Texas",
+  "revid": 1382640033,
+  "requested": "2024 United States Senate election in Texas",
+  "fetched_utc": "2026-11-01T13:11:42Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Texas.html"
+ },
+ {
+  "title": "2024 United States Senate election in Utah",
+  "revid": 1382643809,
+  "requested": "2024 United States Senate election in Utah",
+  "fetched_utc": "2026-11-01T13:11:43Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Utah.html"
+ },
+ {
+  "title": "2024 United States Senate election in Vermont",
+  "revid": 1382650472,
+  "requested": "2024 United States Senate election in Vermont",
+  "fetched_utc": "2026-11-01T13:11:44Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Vermont.html"
+ },
+ {
+  "title": "2024 United States Senate election in Virginia",
+  "revid": 1382658432,
+  "requested": "2024 United States Senate election in Virginia",
+  "fetched_utc": "2026-11-01T13:11:45Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Virginia.html"
+ },
+ {
+  "title": "2024 United States Senate election in Washington",
+  "revid": 1382725359,
+  "requested": "2024 United States Senate election in Washington",
+  "fetched_utc": "2026-11-01T13:11:46Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Washington.html"
+ },
+ {
+  "title": "2024 United States Senate election in West Virginia",
+  "revid": 1383168267,
+  "requested": "2024 United States Senate election in West Virginia",
+  "fetched_utc": "2026-11-01T13:11:47Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_West_Virginia.html"
+ },
+ {
+  "title": "2024 United States Senate election in Wisconsin",
+  "revid": 1382675420,
+  "requested": "2024 United States Senate election in Wisconsin",
+  "fetched_utc": "2026-11-01T13:11:48Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Wisconsin.html"
+ },
+ {
+  "title": "2024 United States Senate election in Wyoming",
+  "revid": 1382679421,
+  "requested": "2024 United States Senate election in Wyoming",
+  "fetched_utc": "2026-11-01T13:11:49Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_election_in_Wyoming.html"
+ },
+ {
+  "title": "2024 United States Senate special election in Nebraska",
+  "revid": 1382564906,
+  "requested": "2024 United States Senate special election in Nebraska",
+  "fetched_utc": "2026-11-01T13:11:50Z",
+  "group": "senate",
+  "file": "2024_United_States_Senate_special_election_in_Nebraska.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Alaska",
+  "revid": 1382386084,
+  "requested": "2024 United States House of Representatives election in Alaska",
+  "fetched_utc": "2026-11-01T13:11:51Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Alaska.html"
+ },
+ {
+  "title": "2024 American Samoan general election",
+  "revid": 1381055261,
+  "requested": "2024 United States House of Representatives election in American Samoa",
+  "fetched_utc": "2026-11-01T13:11:52Z",
+  "group": "house_states",
+  "file": "2024_American_Samoan_general_election.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Delaware",
+  "revid": 1383039416,
+  "requested": "2024 United States House of Representatives election in Delaware",
+  "fetched_utc": "2026-11-01T13:11:53Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Delaware.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Guam",
+  "revid": 1375246648,
+  "requested": "2024 United States House of Representatives election in Guam",
+  "fetched_utc": "2026-11-01T13:11:54Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Guam.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in North Dakota",
+  "revid": 1382592759,
+  "requested": "2024 United States House of Representatives election in North Dakota",
+  "fetched_utc": "2026-11-01T13:11:55Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_North_Dakota.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Northern Mariana Islands",
+  "revid": 1381053174,
+  "requested": "2024 United States House of Representatives election in Northern Mariana Islands",
+  "fetched_utc": "2026-11-01T13:11:56Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Northern_Mariana_Islands.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Puerto Rico",
+  "revid": 1381051408,
+  "requested": "2024 United States House of Representatives election in Puerto Rico",
+  "fetched_utc": "2026-11-01T13:11:58Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Puerto_Rico.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in South Dakota",
+  "revid": 1382627591,
+  "requested": "2024 United States House of Representatives election in South Dakota",
+  "fetched_utc": "2026-11-01T13:11:59Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_South_Dakota.html"
+ },
+ {
+  "title": "2024 United States Virgin Islands general election",
+  "revid": 1381052192,
+  "requested": "2024 United States House of Representatives election in United States Virgin Islands",
+  "fetched_utc": "2026-11-01T13:11:59Z",
+  "group": "house_states",
+  "file": "2024_United_States_Virgin_Islands_general_election.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Vermont",
+  "revid": 1382650462,
+  "requested": "2024 United States House of Representatives election in Vermont",
+  "fetched_utc": "2026-11-01T13:12:00Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Vermont.html"
+ },
+ {
+  "title": "2024 United States House of Representatives election in Wyoming",
+  "revid": 1382679417,
+  "requested": "2024 United States House of Representatives election in Wyoming",
+  "fetched_utc": "2026-11-01T13:12:01Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_election_in_Wyoming.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Alabama",
+  "revid": 1382383026,
+  "requested": "2024 United States House of Representatives elections in Alabama",
+  "fetched_utc": "2026-11-01T13:12:03Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Alabama.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Arizona",
+  "revid": 1382397610,
+  "requested": "2024 United States House of Representatives elections in Arizona",
+  "fetched_utc": "2026-11-01T13:12:04Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Arizona.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Arkansas",
+  "revid": 1382404314,
+  "requested": "2024 United States House of Representatives elections in Arkansas",
+  "fetched_utc": "2026-11-01T13:12:05Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Arkansas.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in California",
+  "revid": 1382413587,
+  "requested": "2024 United States House of Representatives elections in California",
+  "fetched_utc": "2026-11-01T13:12:08Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_California.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Colorado",
+  "revid": 1382463023,
+  "requested": "2024 United States House of Representatives elections in Colorado",
+  "fetched_utc": "2026-11-01T13:12:10Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Colorado.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Connecticut",
+  "revid": 1382470465,
+  "requested": "2024 United States House of Representatives elections in Connecticut",
+  "fetched_utc": "2026-11-01T13:12:10Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Connecticut.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Florida",
+  "revid": 1382480980,
+  "requested": "2024 United States House of Representatives elections in Florida",
+  "fetched_utc": "2026-11-01T13:12:12Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Florida.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Georgia",
+  "revid": 1382780558,
+  "requested": "2024 United States House of Representatives elections in Georgia",
+  "fetched_utc": "2026-11-01T13:12:13Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Georgia.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Hawaii",
+  "revid": 1381054713,
+  "requested": "2024 United States House of Representatives elections in Hawaii",
+  "fetched_utc": "2026-11-01T13:12:14Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Hawaii.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Idaho",
+  "revid": 1382490491,
+  "requested": "2024 United States House of Representatives elections in Idaho",
+  "fetched_utc": "2026-11-01T13:12:15Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Idaho.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Illinois",
+  "revid": 1382499530,
+  "requested": "2024 United States House of Representatives elections in Illinois",
+  "fetched_utc": "2026-11-01T13:12:16Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Illinois.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Indiana",
+  "revid": 1382893570,
+  "requested": "2024 United States House of Representatives elections in Indiana",
+  "fetched_utc": "2026-11-01T13:12:17Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Indiana.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Iowa",
+  "revid": 1382957056,
+  "requested": "2024 United States House of Representatives elections in Iowa",
+  "fetched_utc": "2026-11-01T13:12:18Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Iowa.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Kansas",
+  "revid": 1382514350,
+  "requested": "2024 United States House of Representatives elections in Kansas",
+  "fetched_utc": "2026-11-01T13:12:19Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Kansas.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Kentucky",
+  "revid": 1382777307,
+  "requested": "2024 United States House of Representatives elections in Kentucky",
+  "fetched_utc": "2026-11-01T13:12:20Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Kentucky.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Louisiana",
+  "revid": 1382526530,
+  "requested": "2024 United States House of Representatives elections in Louisiana",
+  "fetched_utc": "2026-11-01T13:12:21Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Louisiana.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Maine",
+  "revid": 1382531018,
+  "requested": "2024 United States House of Representatives elections in Maine",
+  "fetched_utc": "2026-11-01T13:12:22Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Maine.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Maryland",
+  "revid": 1382536887,
+  "requested": "2024 United States House of Representatives elections in Maryland",
+  "fetched_utc": "2026-11-01T13:12:23Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Maryland.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Massachusetts",
+  "revid": 1382543837,
+  "requested": "2024 United States House of Representatives elections in Massachusetts",
+  "fetched_utc": "2026-11-01T13:12:24Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Massachusetts.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Michigan",
+  "revid": 1382547765,
+  "requested": "2024 United States House of Representatives elections in Michigan",
+  "fetched_utc": "2026-11-01T13:12:25Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Michigan.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Minnesota",
+  "revid": 1382958794,
+  "requested": "2024 United States House of Representatives elections in Minnesota",
+  "fetched_utc": "2026-11-01T13:12:27Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Minnesota.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Mississippi",
+  "revid": 1382555347,
+  "requested": "2024 United States House of Representatives elections in Mississippi",
+  "fetched_utc": "2026-11-01T13:12:30Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Mississippi.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Missouri",
+  "revid": 1382559206,
+  "requested": "2024 United States House of Representatives elections in Missouri",
+  "fetched_utc": "2026-11-01T13:12:30Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Missouri.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Montana",
+  "revid": 1383096499,
+  "requested": "2024 United States House of Representatives elections in Montana",
+  "fetched_utc": "2026-11-01T13:12:31Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Montana.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Nebraska",
+  "revid": 1382564896,
+  "requested": "2024 United States House of Representatives elections in Nebraska",
+  "fetched_utc": "2026-11-01T13:12:32Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Nebraska.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Nevada",
+  "revid": 1382567301,
+  "requested": "2024 United States House of Representatives elections in Nevada",
+  "fetched_utc": "2026-11-01T13:12:33Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Nevada.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in New Hampshire",
+  "revid": 1382572160,
+  "requested": "2024 United States House of Representatives elections in New Hampshire",
+  "fetched_utc": "2026-11-01T13:12:34Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_New_Hampshire.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in New Jersey",
+  "revid": 1382576678,
+  "requested": "2024 United States House of Representatives elections in New Jersey",
+  "fetched_utc": "2026-11-01T13:12:36Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_New_Jersey.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in New Mexico",
+  "revid": 1382578876,
+  "requested": "2024 United States House of Representatives elections in New Mexico",
+  "fetched_utc": "2026-11-01T13:12:37Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_New_Mexico.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in New York",
+  "revid": 1382585462,
+  "requested": "2024 United States House of Representatives elections in New York",
+  "fetched_utc": "2026-11-01T13:12:38Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_New_York.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in North Carolina",
+  "revid": 1382590491,
+  "requested": "2024 United States House of Representatives elections in North Carolina",
+  "fetched_utc": "2026-11-01T13:12:40Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_North_Carolina.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Ohio",
+  "revid": 1382599289,
+  "requested": "2024 United States House of Representatives elections in Ohio",
+  "fetched_utc": "2026-11-01T13:12:41Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Ohio.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Oklahoma",
+  "revid": 1382602267,
+  "requested": "2024 United States House of Representatives elections in Oklahoma",
+  "fetched_utc": "2026-11-01T13:12:42Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Oklahoma.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Oregon",
+  "revid": 1382605776,
+  "requested": "2024 United States House of Representatives elections in Oregon",
+  "fetched_utc": "2026-11-01T13:12:43Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Oregon.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Pennsylvania",
+  "revid": 1382952058,
+  "requested": "2024 United States House of Representatives elections in Pennsylvania",
+  "fetched_utc": "2026-11-01T13:12:44Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Pennsylvania.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Rhode Island",
+  "revid": 1382619549,
+  "requested": "2024 United States House of Representatives elections in Rhode Island",
+  "fetched_utc": "2026-11-01T13:12:45Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Rhode_Island.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in South Carolina",
+  "revid": 1382624802,
+  "requested": "2024 United States House of Representatives elections in South Carolina",
+  "fetched_utc": "2026-11-01T13:12:46Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_South_Carolina.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Tennessee",
+  "revid": 1382714960,
+  "requested": "2024 United States House of Representatives elections in Tennessee",
+  "fetched_utc": "2026-11-01T13:12:47Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Tennessee.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Texas",
+  "revid": 1383159825,
+  "requested": "2024 United States House of Representatives elections in Texas",
+  "fetched_utc": "2026-11-01T13:13:05Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Texas.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Utah",
+  "revid": 1382643801,
+  "requested": "2024 United States House of Representatives elections in Utah",
+  "fetched_utc": "2026-11-01T13:13:06Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Utah.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Virginia",
+  "revid": 1382658427,
+  "requested": "2024 United States House of Representatives elections in Virginia",
+  "fetched_utc": "2026-11-01T13:13:08Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Virginia.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Washington",
+  "revid": 1382663270,
+  "requested": "2024 United States House of Representatives elections in Washington",
+  "fetched_utc": "2026-11-01T13:13:09Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Washington.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in West Virginia",
+  "revid": 1382667901,
+  "requested": "2024 United States House of Representatives elections in West Virginia",
+  "fetched_utc": "2026-11-01T13:13:10Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_West_Virginia.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections in Wisconsin",
+  "revid": 1382675404,
+  "requested": "2024 United States House of Representatives elections in Wisconsin",
+  "fetched_utc": "2026-11-01T13:13:11Z",
+  "group": "house_states",
+  "file": "2024_United_States_House_of_Representatives_elections_in_Wisconsin.html"
+ },
+ {
+  "title": "2024 United States House of Representatives elections",
+  "revid": 1381335515,
+  "requested": "2024 United States House of Representatives elections",
+  "fetched_utc": "2026-11-01T13:13:13Z",
+  "group": "generic_ballot",
+  "file": "2024_United_States_House_of_Representatives_elections.html"
+ }
+]

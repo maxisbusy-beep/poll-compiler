@@ -1,0 +1,97 @@
+# Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
+# Add pages by hand under `extra`; discovery keeps them.
+cycle: 2026
+discovered_utc: '2026-11-01T13:11:14Z'
+senate:
+- 2026 United States Senate election in Alabama
+- 2026 United States Senate election in Alaska
+- 2026 United States Senate election in Arkansas
+- 2026 United States Senate election in Colorado
+- 2026 United States Senate election in Delaware
+- 2026 United States Senate election in Georgia
+- 2026 United States Senate election in Idaho
+- 2026 United States Senate election in Illinois
+- 2026 United States Senate election in Iowa
+- 2026 United States Senate election in Kansas
+- 2026 United States Senate election in Kentucky
+- 2026 United States Senate election in Louisiana
+- 2026 United States Senate election in Maine
+- 2026 United States Senate election in Massachusetts
+- 2026 United States Senate election in Michigan
+- 2026 United States Senate election in Minnesota
+- 2026 United States Senate election in Mississippi
+- 2026 United States Senate election in Montana
+- 2026 United States Senate election in Nebraska
+- 2026 United States Senate election in New Hampshire
+- 2026 United States Senate election in New Jersey
+- 2026 United States Senate election in New Mexico
+- 2026 United States Senate election in North Carolina
+- 2026 United States Senate election in Oklahoma
+- 2026 United States Senate election in Oregon
+- 2026 United States Senate election in Rhode Island
+- 2026 United States Senate election in South Carolina
+- 2026 United States Senate election in South Dakota
+- 2026 United States Senate election in Tennessee
+- 2026 United States Senate election in Texas
+- 2026 United States Senate election in Virginia
+- 2026 United States Senate election in West Virginia
+- 2026 United States Senate election in Wyoming
+- 2026 United States Senate special election in Florida
+- 2026 United States Senate special election in Ohio
+house_states:
+- 2026 United States House of Representatives election in Alaska
+- 2026 United States House of Representatives election in American Samoa
+- 2026 United States House of Representatives election in Delaware
+- 2026 United States House of Representatives election in Guam
+- 2026 United States House of Representatives election in North Dakota
+- 2026 United States House of Representatives election in Northern Mariana Islands
+- 2026 United States House of Representatives election in South Dakota
+- 2026 United States House of Representatives election in Vermont
+- 2026 United States House of Representatives election in Wyoming
+- 2026 United States House of Representatives elections in Alabama
+- 2026 United States House of Representatives elections in Arizona
+- 2026 United States House of Representatives elections in Arkansas
+- 2026 United States House of Representatives elections in California
+- 2026 United States House of Representatives elections in Colorado
+- 2026 United States House of Representatives elections in Connecticut
+- 2026 United States House of Representatives elections in Florida
+- 2026 United States House of Representatives elections in Georgia
+- 2026 United States House of Representatives elections in Hawaii
+- 2026 United States House of Representatives elections in Idaho
+- 2026 United States House of Representatives elections in Illinois
+- 2026 United States House of Representatives elections in Indiana
+- 2026 United States House of Representatives elections in Iowa
+- 2026 United States House of Representatives elections in Kansas
+- 2026 United States House of Representatives elections in Kentucky
+- 2026 United States House of Representatives elections in Louisiana
+- 2026 United States House of Representatives elections in Maine
+- 2026 United States House of Representatives elections in Maryland
+- 2026 United States House of Representatives elections in Massachusetts
+- 2026 United States House of Representatives elections in Michigan
+- 2026 United States House of Representatives elections in Minnesota
+- 2026 United States House of Representatives elections in Mississippi
+- 2026 United States House of Representatives elections in Missouri
+- 2026 United States House of Representatives elections in Montana
+- 2026 United States House of Representatives elections in Nebraska
+- 2026 United States House of Representatives elections in Nevada
+- 2026 United States House of Representatives elections in New Hampshire
+- 2026 United States House of Representatives elections in New Jersey
+- 2026 United States House of Representatives elections in New Mexico
+- 2026 United States House of Representatives elections in New York
+- 2026 United States House of Representatives elections in North Carolina
+- 2026 United States House of Representatives elections in Ohio
+- 2026 United States House of Representatives elections in Oklahoma
+- 2026 United States House of Representatives elections in Oregon
+- 2026 United States House of Representatives elections in Pennsylvania
+- 2026 United States House of Representatives elections in Rhode Island
+- 2026 United States House of Representatives elections in South Carolina
+- 2026 United States House of Representatives elections in Tennessee
+- 2026 United States House of Representatives elections in Texas
+- 2026 United States House of Representatives elections in Utah
+- 2026 United States House of Representatives elections in Virginia
+- 2026 United States House of Representatives elections in Washington
+- 2026 United States House of Representatives elections in West Virginia
+- 2026 United States House of Representatives elections in Wisconsin
+generic_ballot:
+- 2026 United States House of Representatives elections
+extra: {}
