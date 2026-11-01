@@ -1,7 +1,7 @@
 # Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
 # Add pages by hand under `extra`; discovery keeps them.
 cycle: 2026
-discovered_utc: '2026-11-01T13:11:14Z'
+discovered_utc: '2026-11-01T13:25:19Z'
 senate:
 - 2026 United States Senate election in Alabama
 - 2026 United States Senate election in Alaska

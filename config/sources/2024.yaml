@@ -1,7 +1,7 @@
 # Wikipedia pages scraped for this cycle. Written by `python -m pipeline.fetch_wikipedia discover`.
 # Add pages by hand under `extra`; discovery keeps them.
 cycle: 2024
-discovered_utc: '2026-11-01T13:11:05Z'
+discovered_utc: '2026-11-01T13:25:10Z'
 senate:
 - 2024 United States Senate election in Arizona
 - 2024 United States Senate election in Connecticut
@@ -35,6 +35,7 @@ senate:
 - 2024 United States Senate election in West Virginia
 - 2024 United States Senate election in Wisconsin
 - 2024 United States Senate election in Wyoming
+- 2024 United States Senate elections in California
 - 2024 United States Senate special election in Nebraska
 house_states:
 - 2024 United States House of Representatives election in Alaska
