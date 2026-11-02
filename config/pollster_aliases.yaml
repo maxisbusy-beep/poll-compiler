@@ -411,6 +411,10 @@ pollsters:
     aliases:
     - CEPP
     source: wikipedia
+  center-for-strategic-politics:
+    name: Center for Strategic Politics
+    aliases: []
+    source: wikipedia
   center-street-pac:
     name: Center Street PAC
     fivethirtyeight_id: 715
