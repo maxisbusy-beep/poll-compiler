@@ -6,7 +6,7 @@
 2026-GOV-GA: 3 poll tables, kept Rick Jackson vs Keisha Lance Bottoms
 2026-GOV-IA: 2 poll tables, kept Zach Lahn vs Rob Sand
 2026-GOV-MD: 2 poll tables, kept Wes Moore vs Dan Cox
-2026-GOV-MA: 6 poll tables, kept Maura Healey vs Mike Minogue
+2026-GOV-MA: 6 poll tables, kept Maura Healey vs Mike Minogue vs Andrea James
 2026-GOV-MI: 16 poll tables, kept Jocelyn Benson vs John James
 2026-GOV-MN: 14 poll tables, kept Amy Klobuchar vs Lisa Demuth
 2026-GOV-NV: 4 poll tables, kept Joe Lombardo vs Aaron Ford

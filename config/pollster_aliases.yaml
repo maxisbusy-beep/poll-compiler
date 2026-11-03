@@ -2141,6 +2141,10 @@ pollsters:
     name: Resonance Media poll (R?)
     aliases: []
     source: wikipedia
+  resonance-media-services:
+    name: Resonance Media Services
+    aliases: []
+    source: wikipedia
   revere-solutions-providence:
     name: Revere Solutions / Providence
     aliases: []
@@ -2666,6 +2670,10 @@ pollsters:
     name: Tulsa Surveys
     fivethirtyeight_id: 341
     aliases: []
+  umass-lowell:
+    name: UMass Lowell
+    aliases: []
+    source: wikipedia
   united-2024:
     name: United 2024
     aliases: []
