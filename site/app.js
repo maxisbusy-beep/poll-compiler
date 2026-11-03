@@ -34,6 +34,41 @@
       return "Maine uses ranked-choice voting for Congress. If no one tops 50%, counting later choices takes several days.";
     return null;
   }
+  // Election night: which way the rest of the count usually moves, from each state's counting
+  // order (mail first vs mail last). States with no clear pattern get no note. Statewide reasons
+  // name cities, so House districts get the plain version.
+  const SHIFT = {
+    PA: ["DEM", "Mail ballots are counted late"],
+    WI: ["DEM", "Absentee ballots are counted late", "Milwaukee's absentees are counted late"],
+    MI: ["DEM", "Absentee ballots are counted late", "Detroit and Ann Arbor absentees are counted late"],
+    NH: ["DEM", "Mail ballots are counted late"],
+    VA: ["DEM", "Big-city precincts report late", "Northern Virginia and the big cities report late"],
+    NV: ["DEM", "Late mail ballots have leaned Democratic"],
+    CA: ["DEM", "Late mail ballots, counted over days, lean Democratic"],
+    WA: ["DEM", "Late mail ballots, counted over days, lean Democratic"],
+    OR: ["DEM", "Late mail ballots, counted over days, lean Democratic"],
+    FL: ["REP", "Mail votes were counted first"],
+    NC: ["REP", "Mail votes were counted first"],
+    OH: ["REP", "Mail votes were counted first"],
+    AZ: ["REP", "Late drop-off ballots have leaned Republican"],
+  };
+  function countShift(r, lr) {
+    const s = SHIFT[r.state];
+    if (!s || !lr || lr.called || !(lr.total > 0) || !lr.candidates || !lr.candidates[0]) return null;
+    const share = lr.expected ? 100 * lr.total / lr.expected : null;
+    if (share != null && share >= 95) return null;
+    const [party, plain, statewide] = s;
+    const why = (r.chamber !== "house" && statewide) || plain;
+    const L = party === "DEM" ? "D" : "R";
+    const mark = `<span class="${L === "D" ? "d" : "r"}">▲ ${L}</span>`;
+    if (share != null && share >= 85) return `${mark} slight edge. Little is left, but ${why.charAt(0).toLowerCase() + why.slice(1)}.`;
+    const c1 = lr.candidates[0], c2 = lr.candidates[1];
+    const name = esc(String(c1.name).trim().split(/\s+/).slice(-1)[0]);
+    const tail = c2 && c1.votes === c2.votes ? ""
+      : c1.party === party ? `, so ${name}'s lead should grow`
+      : c1.party === "DEM" || c1.party === "REP" ? `, so ${name}'s lead should shrink` : "";
+    return `${mark} likely gains. ${why}${tail}.`;
+  }
   function wikiLink(r) {
     const t = state.pages && state.pages[r.race_id];
     if (!t || !t.page) return null;
@@ -598,6 +633,7 @@
         ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
         <div class="note">${lr.total.toLocaleString()} votes counted${share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
         ${lr.called ? "Called, per Wikipedia." : "Not called yet."} Wikipedia last edited ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
+        ${(() => { const s = countShift(r, lr); return s ? `<div class="shift">${s}</div>` : ""; })()}
       </div>`;
     }
     const colour = (L) => (L === "D" ? "dem" : L === "R" ? "rep" : "ind");

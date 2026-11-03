@@ -176,6 +176,10 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .livebox td.num { text-align: right; font-family: var(--num); font-size: 1.05rem; }
 .livebox .meter { height: 6px; background: var(--line); border-radius: 3px; margin: 8px 0 4px; overflow: hidden; }
 .livebox .meter span { display: block; height: 100%; background: var(--ink); opacity: .7; }
+.livebox .shift { margin-top: 8px; padding: 7px 10px; border-left: 3px solid var(--focus); background: rgba(242, 214, 117, .07);
+  border-radius: 0 6px 6px 0; font-size: .84rem; line-height: 1.4; }
+.livebox .shift .d { color: var(--dem); font-weight: 700; }
+.livebox .shift .r { color: var(--rep); font-weight: 700; }
 .sbg { font-family: var(--num); font-weight: 600; color: var(--muted); white-space: nowrap; }
 .map path.state-line { fill: none; stroke: var(--bg); pointer-events: none; }
 .zoombar { display: flex; align-items: center; gap: 10px; margin: 0 4px 8px; font-size: .85rem; color: var(--muted); }
