@@ -22,7 +22,7 @@
   const state = { forecast: null, allRaces: [], pollsters: {}, topo: null, selected: null, chamber: "senate",
                   showAll: false, closeOnly: true, houseTopo: null, houseGeo: null, houseZoom: null,
                   live: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null,
-                  view: "races", pollsterMeta: null, pollsterHistory: null,
+                  view: "races", pollsterMeta: null, ballot: null, pollsterHistory: null,
                   pv: { window: "all_time", sort: "weight", q: "", active: false, all: false } };
 
   const liveRes = (r) => (state.live ? state.live[r.race_id] : null);
@@ -590,6 +590,41 @@
     return s;
   }
 
+  // Live count box for a race sheet (r: race with race_id/state/chamber; lr: its live result).
+  function pollRowsHTML(r, A, B) {
+    return (r.polls || []).slice(0, 25).map((p) => {
+      const pol = state.pollsters[p.pollster_id];
+      const name = p.name || (pol ? pol.name : p.pollster_id);
+      const grade = p.sb_grade ? ` <span class="sbg" title="Silver Bulletin grade">(${esc(p.sb_grade)}${p.sb_banned ? ", banned" : ""})</span>` : "";
+      const adj = Math.abs(p.bias_correction) >= 0.05 ? `<span class="pq">counted as ${fmtMargin(p.margin, A, B)}</span>` : "";
+      return `<tr><td>${esc(name)}${grade}<span class="pq">${esc(pollsterLine(p.pollster_id))}</span></td>
+        <td class="num">${fmtDate(p.end)}</td>
+        <td class="num">${fmtMargin(p.margin_raw, A, B)}${adj}</td>
+        <td class="num">${(p.weight_share * 100).toFixed(0)}%</td></tr>`;
+    }).join("");
+  }
+  const POLL_NOTE = "Weight is each poll's share of the average: newer, larger, likely-voter polls from pollsters with better records count more. A pollster that has historically leaned one way is counted with that lean taken out. Letter grades in brackets are Silver Bulletin's (January 2026) and are shown for reference only; they don't change any weight.";
+  function liveBoxHTML(r, lr, lead) {
+    if (!(lr && lr.total > 0)) return "";
+    const share = lr.expected ? Math.min(100, 100 * lr.total / lr.expected) : null;
+    const [l1, l2] = lr.candidates;
+    const lastName = (n) => esc(String(n).trim().split(/\s+/).slice(-1)[0]);
+    const gapPts = l2 ? ((l1.pct || 0) - (l2.pct || 0)).toFixed(1) : null;
+    const headline = lr.called
+      ? `Called for ${esc((lr.candidates.find((c) => c.winner) || l1).name)}`
+      : l2 && l1.votes === l2.votes ? "Tied"
+      : `${lastName(l1.name)} leads${gapPts ? ` by ${gapPts} pts` : ""}${share != null ? ` with ~${Math.min(99, Math.round(share))}% counted` : ""}`;
+    return `<div class="livebox">
+      <div class="livehead">${headline}</div>
+      <table>${lr.candidates.slice(0, 4).map((c, i) => `<tr class="${i === 0 && lead ? "lead" : "trail"}"><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
+        <td class="num">${c.votes.toLocaleString()}</td><td class="num">${c.pct != null ? c.pct.toFixed(1) + "%" : ""}</td></tr>`).join("")}</table>
+      ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
+      <div class="note">${lr.total.toLocaleString()} votes counted${share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
+      ${lr.called ? "Called, per Wikipedia." : "Not called yet."} Wikipedia last edited ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
+      ${(() => { const s = countShift(r, lr); return s ? `<div class="shift">${s}</div>` : ""; })()}
+    </div>`;
+  }
+
   function openRace(id) {
     const r = state.allRaces.find((x) => x.race_id === id);
     if (!r) return;
@@ -603,39 +638,11 @@
     document.querySelectorAll(sel).forEach((p) => p.classList.add("sel"));
     $("sheet-title").textContent = raceLabel(r);
     const A = letter(r.side_a_party), B = letter(r.side_b_party);
-    const pollRows = (r.polls || []).slice(0, 25).map((p) => {
-      const pol = state.pollsters[p.pollster_id];
-      const name = p.name || (pol ? pol.name : p.pollster_id);
-      const grade = p.sb_grade ? ` <span class="sbg" title="Silver Bulletin grade">(${esc(p.sb_grade)}${p.sb_banned ? ", banned" : ""})</span>` : "";
-      const adj = Math.abs(p.bias_correction) >= 0.05 ? `<span class="pq">counted as ${fmtMargin(p.margin, A, B)}</span>` : "";
-      return `<tr><td>${esc(name)}${grade}<span class="pq">${esc(pollsterLine(p.pollster_id))}</span></td>
-        <td class="num">${fmtDate(p.end)}</td>
-        <td class="num">${fmtMargin(p.margin_raw, A, B)}${adj}</td>
-        <td class="num">${(p.weight_share * 100).toFixed(0)}%</td></tr>`;
-    }).join("");
+    const pollRows = pollRowsHTML(r, A, B);
     const pa = r.p_a;
     const lr = liveRes(r);
     const lead = leaderSide(r);
-    let liveBox = "";
-    if (lr && lr.total > 0) {
-      const share = lr.expected ? Math.min(100, 100 * lr.total / lr.expected) : null;
-      const [l1, l2] = lr.candidates;
-      const lastName = (n) => esc(String(n).trim().split(/\s+/).slice(-1)[0]);
-      const gapPts = l2 ? ((l1.pct || 0) - (l2.pct || 0)).toFixed(1) : null;
-      const headline = lr.called
-        ? `Called for ${esc((lr.candidates.find((c) => c.winner) || l1).name)}`
-        : l2 && l1.votes === l2.votes ? "Tied"
-        : `${lastName(l1.name)} leads${gapPts ? ` by ${gapPts} pts` : ""}${share != null ? ` with ~${Math.min(99, Math.round(share))}% counted` : ""}`;
-      liveBox = `<div class="livebox">
-        <div class="livehead">${headline}</div>
-        <table>${lr.candidates.slice(0, 4).map((c, i) => `<tr class="${i === 0 && lead ? "lead" : "trail"}"><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
-          <td class="num">${c.votes.toLocaleString()}</td><td class="num">${c.pct != null ? c.pct.toFixed(1) + "%" : ""}</td></tr>`).join("")}</table>
-        ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
-        <div class="note">${lr.total.toLocaleString()} votes counted${share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
-        ${lr.called ? "Called, per Wikipedia." : "Not called yet."} Wikipedia last edited ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
-        ${(() => { const s = countShift(r, lr); return s ? `<div class="shift">${s}</div>` : ""; })()}
-      </div>`;
-    }
+    const liveBox = liveBoxHTML(r, lr, lead);
     const colour = (L) => (L === "D" ? "dem" : L === "R" ? "rep" : "ind");
     const sideA = { name: r.side_a, L: A, p: pa, cls: lead === "a" ? "lead" : lead ? "trail" : "" };
     const sideB = { name: r.side_b, L: B, p: 1 - pa, cls: lead === "b" ? "lead" : lead ? "trail" : "" };
@@ -672,6 +679,119 @@
     document.body.classList.remove("sheet-open");
     document.querySelectorAll(".map path.sel").forEach((p) => p.classList.remove("sel"));
     history.replaceState(null, "", location.pathname + location.search);
+  }
+
+  // ---- my ballot -------------------------------------------------------------
+  // One voter's ballot (config/my_ballot.yaml): races the model covers, Florida Cabinet races
+  // run through the governor method, and county races with no odds (the county posts those counts).
+  const ballotItems = () => (state.ballot ? state.ballot.sections.flatMap((s) => s.races) : []);
+  // A race object the list helpers understand (race_id, sides, p_a), or null when there are no odds.
+  function ballotRace(item) {
+    if (item.kind === "model") return state.allRaces.find((x) => x.race_id === item.id) || null;
+    if (item.kind === "polls" && item.odds) return { race_id: item.id, chamber: "cabinet", state: "FL", matchup: "D-R", ...item.odds };
+    return null;
+  }
+  const partyTag = (p) => (p ? ` (${{ DEM: "D", REP: "R", NPA: "NPA", LPF: "L" }[p] || p})` : "");
+
+  function oddsCell(r) {
+    const lr = liveRes(r);
+    if (lr && lr.total > 0) {
+      const [c1, c2] = lr.candidates;
+      const m = c2 ? ((c1.pct || 0) - (c2.pct || 0)) : 100;
+      const counted = lr.expected ? `~${Math.min(99, Math.round(100 * lr.total / lr.expected))}% in` : `${(lr.total / 1000).toFixed(0)}k votes`;
+      const tag = lr.called ? `<span class="won ${lr.winner_party === "DEM" ? "d" : lr.winner_party === "REP" ? "r" : "i"}">Won</span> ` : "";
+      return `${tag}${esc(c1.name.split(" ").slice(-1)[0])} +${m.toFixed(1)}<small>${lr.called ? "Called" : counted}</small>`;
+    }
+    const pFav = Math.max(r.p_a, 1 - r.p_a);
+    const favName = r.p_a >= 0.5 ? r.side_a : r.side_b;
+    const who = Math.round(r.p_a * 100) === 50 ? "Toss-up" : esc(favName.split(" ").slice(-1)[0]);
+    return `${fmtPct(pFav)}<small>${who} · ${fmtMargin(r.margin, letter(r.side_a_party), letter(r.side_b_party))}</small>`;
+  }
+
+  function ballotRow(item) {
+    const r = ballotRace(item);
+    let chipStyle = "background:var(--none);color:var(--ink)", names, right;
+    if (r) {
+      const cat = category(r);
+      chipStyle = `background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}`;
+      const lead = leaderSide(r);
+      const nA = `${esc(r.side_a)} (${letter(r.side_a_party)})`, nB = `${esc(r.side_b)} (${letter(r.side_b_party)})`;
+      names = `<span class="mb-label">${esc(item.label)}</span><span class="${lead ? "lead" : ""}">${lead === "b" ? nB : nA}</span><span class="${lead ? "trail" : ""}">${lead === "b" ? nA : nB}</span>`;
+      right = oddsCell(r);
+    } else if (item.kind === "measure") {
+      names = `<span class="mb-label">${esc(item.label)}</span><span class="mb-sum">${esc(item.summary)}</span>`;
+      right = `Yes/No<small>Count: county site</small>`;
+    } else {
+      const cs = (item.candidates || []).slice(0, 2);
+      names = `<span class="mb-label">${esc(item.label)}</span>` + cs.map(([n, p]) => `<span>${esc(n)}${partyTag(p)}</span>`).join("");
+      right = `–<small>No polls</small>`;
+    }
+    return `<li><button data-ballot="${esc(item.id)}">
+      <span class="chip" style="${chipStyle}">${esc(item.chip)}</span>
+      <span class="names mb-names">${names}</span>
+      <span class="odds">${right}</span>
+    </button></li>`;
+  }
+
+  function renderBallot() {
+    const b = state.ballot;
+    if (!b) {
+      $("mb-intro").textContent = "";
+      $("mb-body").innerHTML = `<p class="note">Couldn't load the ballot. Punch the face to try again.</p>`;
+      return;
+    }
+    const url = esc(b.county_results_url);
+    $("mb-intro").innerHTML = `${esc(b.county)} · ZIP ${esc(b.zip)} · ballot style ${esc(b.ballot_style)}. `
+      + (state.live ? "Federal and state races update from Wikipedia every 2 minutes." : "Chance of winning from the polls; tap a race for details.");
+    $("mb-body").innerHTML = b.sections.map((s) => `<h2>${esc(s.name)}</h2><ul class="races mb-list">${s.races.map(ballotRow).join("")}</ul>`
+      + (/county/i.test(s.name) ? `<p class="note mb-county">Live counts for county races: <a href="${url}" target="_blank" rel="noopener">${esc(b.county_results_name)}</a>. Wikipedia doesn't carry them, and the county's site can't be read from this page.</p>` : "")).join("");
+    $("mb-foot").textContent = "State constitutional amendments and judicial retention votes are on this ballot too but aren't shown here.";
+    $("mb-body").querySelectorAll("button[data-ballot]").forEach((el) => el.addEventListener("click", () => openBallot(el.dataset.ballot)));
+  }
+
+  function openBallot(id) {
+    const item = ballotItems().find((x) => x.id === id);
+    if (!item) return;
+    if (item.kind === "model") return openRace(id);
+    state.selected = id;
+    const b = state.ballot;
+    const countyLink = `<a href="${esc(b.county_results_url)}" target="_blank" rel="noopener">${esc(b.county_results_name)}</a>`;
+    $("sheet-title").textContent = item.label;
+    let html = "";
+    const r = ballotRace(item);
+    if (r) {
+      const A = letter(r.side_a_party), B = letter(r.side_b_party);
+      const lr = liveRes(r), lead = leaderSide(r);
+      const colour = (L) => (L === "D" ? "dem" : L === "R" ? "rep" : "ind");
+      const sa = { name: r.side_a, L: A, p: r.p_a, cls: lead === "a" ? "lead" : lead ? "trail" : "" };
+      const sb = { name: r.side_b, L: B, p: 1 - r.p_a, cls: lead === "b" ? "lead" : lead ? "trail" : "" };
+      const duel = (lead === "b" ? [sb, sa] : [sa, sb]).map((x, i) => `<div class="${i ? "r " : ""}${x.cls}"><div class="n">${esc(x.name)} (${x.L})</div><div class="p" style="color:var(--${colour(x.L)})">${fmtPct(x.p)}</div></div>`).join("");
+      const wiki = item.page ? "https://en.wikipedia.org/wiki/" + encodeURIComponent(item.page.replace(/ /g, "_")) : null;
+      const rows = pollRowsHTML(r, A, B);
+      html = liveBoxHTML(r, lr, lead)
+        + (lr && lr.total > 0 ? `<div class="note">Pre-election forecast, chance of winning:</div>` : "")
+        + `<div class="duel">${duel}</div>
+        <dl class="facts">
+          <dt>Forecast margin</dt><dd>${fmtMargin(r.margin, A, B)} (typical miss ±${r.sd.toFixed(1)})</dd>
+          <dt>Polling average</dt><dd>${fmtMargin(r.poll_average, A, B)} from ${r.n_polls} poll${r.n_polls === 1 ? "" : "s"}, latest ${fmtDate(r.last_poll)}</dd>
+          <dt>Method</dt><dd>Same poll average and error formula as the governor races. Cabinet races aren't in the backtest, and with this few polls the typical miss is wide.</dd>
+          ${wiki ? `<dt>Source</dt><dd><a href="${esc(wiki)}" target="_blank" rel="noopener">This race on Wikipedia</a>${state.live ? " (live results are read from here)" : ""}</dd>` : ""}
+          <dt>Hillsborough</dt><dd>County-level count: ${countyLink}</dd>
+        </dl>
+        ${rows ? `<table class="polls"><thead><tr><th>Pollster</th><th class="num">Ended</th><th class="num">Result</th><th class="num">Weight</th></tr></thead><tbody>${rows}</tbody></table><p class="note">${esc(POLL_NOTE)}</p>` : ""}`;
+    } else if (item.kind === "measure") {
+      html = `<p>${esc(item.summary)}</p>
+        <dl class="facts"><dt>Passes with</dt><dd>A simple majority of county voters</dd>
+        <dt>Live count</dt><dd>${countyLink}</dd></dl>`;
+    } else {
+      html = `<ul class="mb-cands">${(item.candidates || []).map(([n, p]) => `<li>${esc(n)}${partyTag(p)}</li>`).join("")}</ul>
+        <dl class="facts"><dt>Odds</dt><dd>None: no public polls for this race.</dd>
+        <dt>Live count</dt><dd>${countyLink}. Results start after polls close at 7 pm Eastern (01:00 Berlin).</dd></dl>`;
+    }
+    $("sheet-body").innerHTML = html;
+    document.body.classList.add("sheet-open");
+    history.replaceState(null, "", location.pathname + location.search + "#" + id);
+    $("close").focus();
   }
 
   // ---- election night ------------------------------------------------------------
@@ -730,6 +850,7 @@
     state.liveMode = liveModeFromURL(electionDate);
     if (!state.liveMode) return;
     const table = await getJSON("data/live.json");
+    if (state.ballot && state.ballot.live) Object.assign(table.races, state.ballot.live);   // Cabinet races on My ballot
     if (state.liveMode === "test") {
       for (const v of Object.values(table.races)) if (v.page) v.page = v.page.replace(/^2026 /, "2024 ");
     }
@@ -741,8 +862,11 @@
       state.live = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
       state.liveChecked = checked; state.liveError = error || null;
       renderLiveBar(); renderBoard(); renderMap(); renderList();
+      if (state.view === "ballot") renderBallot();
       narrate();
-      if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
+      if (state.selected && document.body.classList.contains("sheet-open")) {
+        if (state.view === "ballot") openBallot(state.selected); else openRace(state.selected);
+      }
     }, { intervalMs: 120000 });   // all three tabs every 2 minutes, so calls anywhere show up and every scoreboard stays current
     state.poller.start();
   }
@@ -756,8 +880,10 @@
     $("updated").textContent = `Updated ${t.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}`;
   }
   async function refreshData() {
-    const [f, rs, pollsters] = await Promise.all([
-      getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json")]);
+    const [f, rs, pollsters, ballot] = await Promise.all([
+      getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
+      getJSON("data/my_ballot.json").catch(() => state.ballot)]);
+    state.ballot = ballot;
     state.forecast = f;
     state.allRaces = rs.races;
     pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
@@ -766,6 +892,10 @@
     showUpdated();
     renderBoard(); renderMap(); renderList();
     if (state.view === "pollsters") renderPollsters();
+    else if (state.view === "ballot") {
+      renderBallot();
+      if (state.selected && document.body.classList.contains("sheet-open")) openBallot(state.selected);
+    }
     else if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
   }
   // ---- the face: mascot that carries information --------------------------------
@@ -1080,14 +1210,17 @@
       $("tab-house").setAttribute("aria-selected", String(which === "house"));
       $("tab-governor").setAttribute("aria-selected", String(which === "governor"));
       $("tab-pollsters").setAttribute("aria-selected", String(which === "pollsters"));
+      $("tab-ballot").setAttribute("aria-selected", String(which === "ballot"));
     };
     const show = (which) => {
       setTab(which); closeRace();
-      const pv = which === "pollsters";
-      state.view = pv ? "pollsters" : "races";
-      $("race-view").hidden = pv;
+      const pv = which === "pollsters", mb = which === "ballot";
+      state.view = pv ? "pollsters" : mb ? "ballot" : "races";
+      $("race-view").hidden = pv || mb;
       $("pollster-view").hidden = !pv;
+      $("ballot-view").hidden = !mb;
       if (pv) { renderPollsters(); return; }
+      if (mb) { renderBallot(); return; }
       const changed = state.chamber !== which;
       state.chamber = which; state.houseZoom = null;
       renderBoard(); renderMap(); renderList();
@@ -1101,13 +1234,16 @@
     $("tab-house").addEventListener("click", () => show("house"));
     $("tab-senate").addEventListener("click", () => show("senate"));
     $("tab-governor").addEventListener("click", () => show("governor"));
+    $("tab-ballot").addEventListener("click", () => show("ballot"));
     try {
-      const [f, races, pollsters, topo, pagesTable] = await Promise.all([
+      const [f, races, pollsters, topo, pagesTable, ballot] = await Promise.all([
         getJSON("data/forecast.json"), getJSON("data/races.json"), getJSON("data/pollsters.json"),
         getJSON("vendor/states-albers-10m.json").catch(() => null),   // no map is better than no page
         getJSON("data/live.json").catch(() => null),                   // Wikipedia page for each race
+        getJSON("data/my_ballot.json").catch(() => null),              // My ballot tab
       ]);
       state.pages = pagesTable ? pagesTable.races : {};
+      state.ballot = ballot;
       state.forecast = f;
       state.allRaces = races.races;
       pollsters.pollsters.forEach((p) => (state.pollsters[p.id] = p));
@@ -1122,6 +1258,8 @@
       if (location.hash.length > 1) {
         const id = decodeURIComponent(location.hash.slice(1));
         if (id.startsWith("pollster-")) { show("pollsters"); openPollster(id.slice(9)); return; }
+        if (id === "ballot") { show("ballot"); return; }
+        if (ballotItems().some((x) => x.id === id && x.kind !== "model")) { show("ballot"); openBallot(id); return; }
         if (id.includes("-HOUSE-")) show("house");
         else if (id.includes("-GOV-")) show("governor");
         openRace(id);

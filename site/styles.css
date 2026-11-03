@@ -313,3 +313,17 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
                   border: 6px solid transparent; border-top: 0; border-bottom-color: #fff; }
 .bubble.show { opacity: 1; transform: translateX(-50%) scale(1); }
 .banner { overflow-x: clip; }   /* a knocked-out face mustn't make the page scroll sideways */
+
+/* ---- my ballot ------------------------------------------------------------- */
+.mb-list { margin-bottom: 6px; }
+.mb-names .mb-label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; font-weight: 400; }
+.mb-names .mb-sum { white-space: normal; color: var(--ink); font-size: .85rem; line-height: 1.3; }
+.mb-names > span:not(.mb-label):not(.mb-sum) { color: var(--ink); }
+.mb-names > span.trail { color: var(--muted); }
+.mb-county { margin: 4px 0 14px; }
+.mb-cands { margin: 8px 0 12px; padding-left: 18px; }
+#mb-foot { margin-top: 18px; }
+/* five tabs on a phone: size to the label so "My ballot" stays on one line */
+.tabs button { flex: 1 1 auto; white-space: nowrap; padding-left: 6px; padding-right: 6px; }
+@media (max-width: 400px) { .tabs { gap: 2px; } .tabs button { font-size: .84rem; padding-left: 4px; padding-right: 4px; } }
+@media (max-width: 360px) { .tabs button { font-size: .76rem; } }

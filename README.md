@@ -9,6 +9,8 @@ Compiles public polls into **Senate, House and governor odds**, and grades every
 
 **Election-ready.** Senate map, House district map (Census 2026 lines) and governor map with odds from polls + partisan lean (Senate backtested 2004–2024, see [backtest](reports/backtest.md); governors backtested separately, see [governor backtest](reports/backtest_governor.md)). Polls refresh from Wikipedia every 6 hours. On election night (from 23:00 Berlin, Nov 3) the page reads live results from Wikipedia every 3 minutes: votes, approximate % counted, calls, and control odds with called races locked in. Test it any time with `?live=2024`, which replays the 2024 results.
 
+**My ballot** tab (`#ballot`): every race on one Hillsborough County ballot (ZIP 33610), set in [config/my_ballot.yaml](config/my_ballot.yaml). Federal and governor races come from the main model; Florida Cabinet races run their polls through the governor method (not backtested); county races and referendums have no odds and link to the county's results.
+
 | Phase | What | State |
 |---|---|---|
 | 0 | Repo, Pages, Action | ✅ |

@@ -43,6 +43,7 @@
     <button role="tab" id="tab-senate" aria-selected="true">Senate</button>
     <button role="tab" id="tab-house" aria-selected="false">House</button>
     <button role="tab" id="tab-governor" aria-selected="false">Governors</button>
+    <button role="tab" id="tab-ballot" aria-selected="false">My ballot</button>
     <button role="tab" id="tab-pollsters" aria-selected="false">Pollsters</button>
   </div>
 
@@ -67,6 +68,13 @@
   <div class="list-filter" id="list-filter"></div>
   <ul class="races" id="races"></ul>
   </div>
+
+  <section id="ballot-view" hidden aria-labelledby="mb-title">
+    <h2 id="mb-title" class="pv-title">My ballot</h2>
+    <p class="pv-intro" id="mb-intro"></p>
+    <div id="mb-body"></div>
+    <p class="note" id="mb-foot"></p>
+  </section>
 
   <section id="pollster-view" hidden aria-labelledby="pv-title">
     <h2 id="pv-title" class="pv-title">How accurate is each pollster?</h2>

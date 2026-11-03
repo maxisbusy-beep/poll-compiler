@@ -1,0 +1,121 @@
+# Max's ballot: Hillsborough County, FL, ballot style 33400A (ZIP 33610), November 3, 2026.
+# Read by pipeline/my_ballot.py, which writes site/data/my_ballot.json for the "My ballot" tab.
+#
+# kind:
+#   model  - race the main model already forecasts (ref = its race_id); odds and live results come from there
+#   polls  - statewide race outside the model; polls below go through the governor model's average
+#            (same weights, same pollster bias correction, same error formula). Not backtested.
+#   local  - county race: no public polls, no odds; live counts are only on the county's own site
+#   measure - county referendum: yes/no, live counts only on the county's site
+#
+# Poll margins are side_a (D) minus side_b (R). Only likely-voter numbers are entered where a
+# poll reported both LV and RV. Polls from Wikipedia's race pages (CC BY-SA), entered Nov 3, 2026.
+
+election_date: 2026-11-03
+county: Hillsborough County, FL
+zip: "33610"
+ballot_style: 33400A
+county_results_url: https://www.votehillsborough.gov/
+county_results_name: Hillsborough County Supervisor of Elections
+
+sections:
+  - name: Federal
+    races:
+      - id: 2026-SEN-FL-S
+        kind: model
+        chip: SEN
+        label: U.S. Senate (special)
+        candidates: [[Ashley Moody, REP], [Angie Nixon, DEM], [Neil J. Gillespie, NPA]]
+      - id: 2026-HOUSE-FL-15
+        kind: model
+        chip: FL-15
+        label: U.S. House, District 15
+        candidates: [[Laurel Lee, REP], [Robert People, DEM]]
+  - name: State
+    races:
+      - id: 2026-GOV-FL
+        kind: model
+        chip: GOV
+        label: Governor
+        candidates: [[Byron Donalds / Bryan Avila, REP], [David Jolly / Gwen Graham, DEM],
+                     [Scott Eckhard Jewett / Nicole Skelly, LPF], [Charles Burkett / Ruben A. Coto, NPA],
+                     [Frank J. Russo / Rachel Rodriguez, NPA], [Moliere "Moe" Dimanche / Benjiman Rojas, NPA],
+                     [Dean Ocean Abrams / Joe Van Vactor, NPA], [Jeffrey Peter "Dr. Jeff" Datto / Juan Santana, NPA]]
+      - id: 2026-AG-FL
+        kind: polls
+        chip: AG
+        label: Attorney General
+        page: 2026 Florida Attorney General election
+        side_a: [Jose Javier Rodriguez, DEM]
+        side_b: [James Uthmeier, REP]
+        polls:   # pollster_id, pollster name, end date, sample, D %, R %
+          - [st-pete-polls, St. Pete Polls, 2026-10-27, 916, 44, 49]
+          - [sea-polling, SEA Polling & Strategic Design (D), 2026-10-14, 805, 35, 34]
+          - [st-pete-polls, St. Pete Polls, 2026-10-07, 836, 43, 45]
+          - [targoz-market-research, Targoz Market Research, 2026-10-04, 854, 40, 50]
+          - [st-pete-polls, St. Pete Polls, 2026-09-17, 913, 42, 43]
+          - [change-research, Change Research (D), 2026-09-09, 1107, 46, 46]
+          - [change-research, Change Research (D), 2026-05-16, 1593, 45, 41]
+          - [mdw-communications, MDW (D), 2026-04-03, 1834, 43, 40]
+      - id: 2026-CFO-FL
+        kind: polls
+        chip: CFO
+        label: Chief Financial Officer
+        page: 2026 Florida Chief Financial Officer election
+        side_a: [Annette Taddeo, DEM]
+        side_b: [Blaise Ingoglia, REP]
+        polls:
+          - [st-pete-polls, St. Pete Polls, 2026-10-27, 916, 43, 47]
+          - [st-pete-polls, St. Pete Polls, 2026-10-07, 836, 42, 44]
+          - [targoz-market-research, Targoz Market Research, 2026-10-04, 853, 43, 43]
+          - [sea-polling, SEA Polling (D), 2026-09-13, 701, 42, 42]
+          - [change-research, Change Research (D), 2026-09-09, 1107, 44, 44]
+          - [ruths-list-florida, Ruth's List Florida (D), 2026-04-30, 1828, 39, 38]
+      - id: 2026-AGRI-FL
+        kind: polls
+        chip: AGR
+        label: Commissioner of Agriculture
+        page: 2026 Florida Commissioner of Agriculture election
+        side_a: [Joey Mendoza Atkins, DEM]
+        side_b: [Wilton Simpson, REP]
+        polls:
+          - [targoz-market-research, Targoz Market Research, 2026-10-04, 847, 39, 50]
+  - name: Hillsborough County
+    races:
+      - id: HC-BOCC-3
+        kind: local
+        chip: CC3
+        label: County Commission, District 3
+        candidates: [[Gwen Myers, DEM], [Luiz F. F. Garcia, REP]]
+      - id: HC-BOCC-5
+        kind: local
+        chip: CC5
+        label: County Commission, District 5
+        candidates: [[Stacy Hahn, REP], [Neil Manimala, DEM]]
+      - id: HC-BOCC-7
+        kind: local
+        chip: CC7
+        label: County Commission, District 7
+        candidates: [[Joshua Wostal, REP], [Aileen Rodriguez, DEM]]
+      - id: HC-SB-6
+        kind: local
+        chip: SB6
+        label: School Board, District 6 (nonpartisan)
+        candidates: [[Kenneth "Ken" Gay, ""], [Karen Perez, ""]]
+  - name: County referendums
+    races:
+      - id: HC-REF-1
+        kind: measure
+        chip: R1
+        label: "No. 1: Elected school superintendent"
+        summary: Should the Hillsborough schools superintendent be elected in a partisan election (4-year term, from 2028) instead of appointed by the School Board?
+      - id: HC-REF-2
+        kind: measure
+        chip: R2
+        label: "No. 2: Bigger county commission"
+        summary: Grow the County Commission from 7 to 9 members (11 once the county reaches 2.5 million people), all elected from single-member districts.
+      - id: HC-REF-3
+        kind: measure
+        chip: R3
+        label: "No. 3: School half-cent sales tax"
+        summary: Continue the half-cent school sales surtax for 10 more years from 2029, for air conditioning, repairs, new construction and school security.
