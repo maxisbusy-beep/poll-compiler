@@ -20,7 +20,7 @@
   const letter = (party) => ({ DEM: "D", REP: "R", IND: "I", LIB: "L", GRN: "G" }[party] || party[0]);
 
   const state = { forecast: null, allRaces: [], pollsters: {}, topo: null, selected: null, chamber: "senate",
-                  showAll: false, houseTopo: null, houseGeo: null, houseZoom: null,
+                  showAll: false, closeOnly: true, houseTopo: null, houseGeo: null, houseZoom: null,
                   live: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null,
                   view: "races", pollsterMeta: null, pollsterHistory: null,
                   pv: { window: "all_time", sort: "weight", q: "", active: false, all: false } };
@@ -466,6 +466,21 @@
   const shortLabel = (r) => r.chamber === "house" ? `${r.state}-${r.district}${r.redrawn_2026 ? "*" : ""}` : r.state;
 
   // ---- list ----------------------------------------------------------------
+  // Watch list: races always shown and pinned to the top, whatever their margin.
+  const WATCH = ["2026-HOUSE-TX-6"];
+  const CLOSE = 20;   // "close" = within this many points
+  try { if (localStorage.getItem("closeOnly") === "0") state.closeOnly = false; } catch (e) { /* storage blocked */ }
+  // Gap between the top two, in points: the vote count once counting starts, else the forecast.
+  function gapNow(r) {
+    const lr = liveRes(r);
+    if (lr && lr.total > 0 && lr.candidates && lr.candidates.length) {
+      const c = lr.candidates;
+      return c[1] ? Math.abs((c[0].pct || 0) - (c[1].pct || 0)) : 100;
+    }
+    return Math.abs(r.margin);
+  }
+  const isClose = (r) => gapNow(r) <= CLOSE;
+
   function renderList() {
     const house = state.chamber === "house";
     // election night: races being counted first (closest count first), then not started, then called
@@ -479,12 +494,22 @@
       }
       return Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5);
     };
-    const all = races().slice().sort(order);
+    const watched = (r) => WATCH.includes(r.race_id);
+    const sorted = races().slice().sort(order);
+    const all = sorted.filter(watched).concat(sorted.filter((r) => !watched(r) && (!state.closeOnly || isClose(r))));
     const list = house ? all.slice(0, state.showAll ? 435 : 40) : all;
     const anyCounting = state.live && all.some((r) => liveGroup(r) === 0);
     $("races").classList.toggle("house-list", house);
     $("list-title").textContent = anyCounting ? (house && !state.showAll ? "Still counting, closest first (top 40)" : "Still counting, closest first")
       : house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
+    const nHidden = races().length - all.length;
+    $("list-filter").innerHTML = `<button id="close-toggle" aria-pressed="${state.closeOnly}">${state.closeOnly ? `Within ${CLOSE} pts` : "All races"}</button>`
+      + `<span>${state.closeOnly ? (nHidden ? `${nHidden} lopsided ${nHidden === 1 ? "race" : "races"} hidden` : "None hidden") : `Tap to hide races not within ${CLOSE} pts`}</span>`;
+    $("close-toggle").addEventListener("click", () => {
+      state.closeOnly = !state.closeOnly;
+      try { localStorage.setItem("closeOnly", state.closeOnly ? "1" : "0"); } catch (e) { /* storage blocked */ }
+      renderList();
+    });
     $("races").innerHTML = list.map((r) => {
       const cat = category(r);
       const fav = r.p_a >= 0.5;
@@ -506,12 +531,12 @@
       const top = `<span class="${lead ? "lead" : ""}">${lead === "b" ? nameB : nameA}</span>`;
       const bottom = `<span class="${lead ? "trail" : ""}">${lead === "b" ? nameA : nameB}</span>`;
       return `<li><button data-race="${esc(r.race_id)}">
-        <span class="chip" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${shortLabel(r)}</span>
+        <span class="chip${watched(r) ? " watch" : ""}" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${shortLabel(r)}</span>
         <span class="names${lead ? "" : " even"}">${top}${bottom}</span>
         <span class="odds">${right}</span>
       </button></li>`;
     }).join("");
-    if (house && !state.showAll) $("races").innerHTML += `<li><button class="more" id="show-all">Show all 435 districts</button></li>`;
+    if (house && !state.showAll && all.length > 40) $("races").innerHTML += `<li><button class="more" id="show-all">Show all ${all.length === 435 ? 435 : all.length} districts</button></li>`;
     if (house) $("races").innerHTML += `<li class="foot">* District lines redrawn mid-decade for 2026 (the whole state map was replaced; some districts changed little). Tap a district to see who drew its map.</li>`;
     $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
     const more = $("show-all");
