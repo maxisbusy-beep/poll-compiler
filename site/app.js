@@ -700,7 +700,6 @@
     state.liveTable = table;
     state.live = {};
     renderLiveBar();
-    const chamberOf = (rid) => (rid.includes("-HOUSE-") ? "house" : rid.includes("-GOV-") ? "governor" : "senate");
     state.poller = Live.poller(table, ({ results, checked, error, partial }) => {
       if (!partial) state.liveSteps = (state.liveSteps || 0) + 1;
       state.live = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
@@ -708,7 +707,7 @@
       renderLiveBar(); renderBoard(); renderMap(); renderList();
       narrate();
       if (state.selected && document.body.classList.contains("sheet-open")) openRace(state.selected);
-    }, { want: (rid) => chamberOf(rid) === state.chamber });   // only the tab on screen: saves phone data
+    }, { intervalMs: 120000 });   // all three tabs every 2 minutes, so calls anywhere show up and every scoreboard stays current
     state.poller.start();
   }
 
