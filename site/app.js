@@ -743,8 +743,10 @@
     const url = esc(b.county_results_url);
     $("mb-intro").innerHTML = `${esc(b.county)} · ZIP ${esc(b.zip)} · ballot style ${esc(b.ballot_style)}. `
       + (state.live ? "Federal and state races update from Wikipedia every 2 minutes." : "Chance of winning from the polls; tap a race for details.");
+    const isCounty = (s) => s.races.some((x) => x.kind === "local" || x.kind === "measure");
+    const lastCounty = b.sections.filter(isCounty).slice(-1)[0];
     $("mb-body").innerHTML = b.sections.map((s) => `<h2>${esc(s.name)}</h2><ul class="races mb-list">${s.races.map(ballotRow).join("")}</ul>`
-      + (/county/i.test(s.name) ? `<p class="note mb-county">Live counts for county races: <a href="${url}" target="_blank" rel="noopener">${esc(b.county_results_name)}</a>. Wikipedia doesn't carry them, and the county's site can't be read from this page.</p>` : "")).join("");
+      + (s === lastCounty ? `<p class="note mb-county">Live counts for county races: <a href="${url}" target="_blank" rel="noopener">${esc(b.county_results_name)}</a>. Wikipedia doesn't carry them, and the county's site can't be read from this page.</p>` : "")).join("");
     $("mb-foot").textContent = "State constitutional amendments and judicial retention votes are on this ballot too but aren't shown here.";
     $("mb-body").querySelectorAll("button[data-ballot]").forEach((el) => el.addEventListener("click", () => openBallot(el.dataset.ballot)));
   }
