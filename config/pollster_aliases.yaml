@@ -577,6 +577,10 @@ pollsters:
     name: CrossTarget
     fivethirtyeight_id: 66
     aliases: []
+  cu-boulder-yougov:
+    name: CU Boulder / YouGov
+    aliases: []
+    source: wikipedia
   cvoter:
     name: CVOTER
     fivethirtyeight_id: 40
@@ -2133,6 +2137,10 @@ pollsters:
     name: Resonance Media
     aliases: []
     source: wikipedia
+  resonance-media-poll-r:
+    name: Resonance Media poll (R?)
+    aliases: []
+    source: wikipedia
   revere-solutions-providence:
     name: Revere Solutions / Providence
     aliases: []
@@ -2420,6 +2428,10 @@ pollsters:
     - USA Today / Suffolk University
   survation:
     name: Survation
+    aliases: []
+    source: wikipedia
+  survey-160:
+    name: Survey 160
     aliases: []
     source: wikipedia
   surveymonkey:
