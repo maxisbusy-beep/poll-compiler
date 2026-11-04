@@ -98,9 +98,33 @@ def florida() -> dict:
     return out
 
 
+# ---- Minnesota: Secretary of State results file (semicolon separated, statewide) ---------
+MN_URL = f"https://electionresultsfiles.sos.mn.gov/{CYCLE_DATE}/ushouse.txt"
+MN_PARTY = {"DFL": "DEM", "R": "REP", "IND": "IND", "LIB": "LIB", "GP": "GRN", "WI": "OTH"}
+
+
+def minnesota() -> dict:
+    text = get(MN_URL).decode("utf-8", "replace")
+    races = defaultdict(dict)
+    rep = {}
+    for line in text.splitlines():
+        f = line.split(";")
+        if len(f) < 16 or not f[5].strip().isdigit():
+            continue
+        name, party = f[7].strip(), f[10].strip()
+        if party == "WI" or name.upper() == "WRITE-IN":
+            continue
+        rid = f"2026-HOUSE-MN-{int(f[5])}"
+        races[rid][name] = {"name": name, "party": MN_PARTY.get(party, "OTH"), "votes": int(f[13] or 0)}
+        if int(f[12] or 0):
+            rep[rid] = 100 * int(f[11] or 0) / int(f[12])
+    return {rid: finish(c, rep.get(rid), "Minnesota Secretary of State") for rid, c in races.items()}
+
+
 SOURCES = {
     "NC": ("NC State Board of Elections", NC_URL, north_carolina),
     "FL": ("Florida Division of Elections", FL_URL, florida),
+    "MN": ("Minnesota Secretary of State", MN_URL, minnesota),
 }
 
 
