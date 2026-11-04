@@ -1,0 +1,47 @@
+name: Election-night House relay
+
+# Manual: runs for up to ~5.5 hours, pulling House counts from official state results
+# files every 90 seconds and force-pushing house_live.json to the `live-data` branch.
+# The page reads it from raw.githubusercontent.com. Pushes to live-data don't trigger
+# the site build (that only runs on main).
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "How long to keep relaying"
+        default: "330"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relay
+  cancel-in-progress: true
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Relay
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MINUTES: ${{ inputs.minutes }}
+        run: |
+          end=$(( $(date +%s) + MINUTES * 60 ))
+          mkdir -p /tmp/pub && cd /tmp/pub && git init -q -b live-data
+          git config user.name "poll-compiler bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          cd "$GITHUB_WORKSPACE"
+          while [ "$(date +%s)" -lt "$end" ]; do
+            python -m pipeline.house_relay --out /tmp/pub/house_live.json || true
+            ( cd /tmp/pub && git checkout -q --orphan next && git add -A \
+              && git commit -q -m "House relay $(date -u +%H:%M:%S)" && git branch -q -M next live-data \
+              && git push -q -f origin live-data ) || echo "push failed"
+            sleep 90
+          done
