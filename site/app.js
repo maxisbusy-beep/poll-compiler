@@ -574,7 +574,7 @@
     if (house && !state.showAll && all.length > 40) $("races").innerHTML += `<li><button class="more" id="show-all">Show all ${all.length === 435 ? 435 : all.length} districts</button></li>`;
     if (house && state.liveMode) {
       const sts = state.relay ? Object.entries(state.relay.sources || {}).filter(([, v]) => v.ok && v.races).map(([k]) => k).sort() : [];
-      $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts. ${sts.length ? `Counts for ${sts.join(", ")} come straight from those states' election offices (updated every 90 seconds); for` : "For"} other districts, tap the district for a live-count link.</li>`;
+      $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts. ${sts.length ? `Counts for ${sts.join(", ")} come straight from those states' election offices (checked every 2 minutes); for` : "For"} other districts, tap the district for a live-count link.</li>`;
     }
     if (house) $("races").innerHTML += `<li class="foot">* District lines redrawn mid-decade for 2026 (the whole state map was replaced; some districts changed little). Tap a district to see who drew its map.</li>`;
     $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
@@ -899,12 +899,18 @@
   // Wikipedia leaves House district results blank on election night. .github/workflows/relay.yml
   // pulls counts from state election offices that publish a plain results file (NC, FL, ...)
   // and pushes them to the live-data branch every 90 seconds.
-  const RELAY_URL = "https://raw.githubusercontent.com/maxisbusy-beep/poll-compiler/live-data/house_live.json";
+  // GitHub's content API is cached ~1 minute (raw.githubusercontent.com ~5, whatever the query
+  // string); unauthenticated it allows 60 requests an hour per IP, so the raw file is the fallback.
+  const RELAY_API = "https://api.github.com/repos/maxisbusy-beep/poll-compiler/contents/house_live.json?ref=live-data";
+  const RELAY_RAW = "https://raw.githubusercontent.com/maxisbusy-beep/poll-compiler/live-data/house_live.json";
   async function checkRelay() {
     try {
-      const r = await fetch(RELAY_URL + "?t=" + Date.now(), { cache: "no-store" });
+      let r = await fetch(RELAY_API, { cache: "no-store", headers: { Accept: "application/vnd.github.raw+json" } }).catch(() => null);
+      if (!r || !r.ok) r = await fetch(RELAY_RAW, { cache: "no-store" });
       if (!r.ok) return;
-      state.relay = await r.json();
+      const d = await r.json();
+      if (state.relay && d.updated < state.relay.updated) return;   // never step back to an older copy
+      state.relay = d;
       mergeLive();
       renderBoard(); renderMap(); renderList(); renderLiveBar();
       if (state.view === "ballot") renderBallot();
@@ -913,7 +919,7 @@
   }
   function startRelay() {
     checkRelay();
-    setInterval(checkRelay, 90000);
+    setInterval(checkRelay, 120000);
   }
   // Wikipedia's result wins once it has at least as many votes (it also carries the calls);
   // otherwise the state office's count, keeping any call Wikipedia has made.
