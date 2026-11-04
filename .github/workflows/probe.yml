@@ -1,0 +1,24 @@
+name: Probe official results feeds
+
+# Manual: prints the start of each URL so adapters for official state results can be written.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "URLs, space separated"
+        required: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch
+        env:
+          URLS: ${{ inputs.urls }}
+        run: |
+          for u in $URLS; do
+            echo "===== $u"
+            curl -sS -L --max-time 40 -A "poll-compiler election-night relay (github.com/maxisbusy-beep/poll-compiler)" \
+              -D /tmp/h -o /tmp/b "$u" || true
+            head -20 /tmp/h; echo "--- bytes: $(wc -c < /tmp/b)"; head -c 2500 /tmp/b; echo
+          done
