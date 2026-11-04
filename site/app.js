@@ -572,7 +572,10 @@
       </button></li>`;
     }).join("");
     if (house && !state.showAll && all.length > 40) $("races").innerHTML += `<li><button class="more" id="show-all">Show all ${all.length === 435 ? 435 : all.length} districts</button></li>`;
-    if (house && state.liveMode) $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts. Counts here come from state election offices where they publish a results file (NC, FL so far); for other districts, tap for a live-count link.</li>`;
+    if (house && state.liveMode) {
+      const sts = state.relay ? Object.entries(state.relay.sources || {}).filter(([, v]) => v.ok && v.races).map(([k]) => k).sort() : [];
+      $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts. ${sts.length ? `Counts for ${sts.join(", ")} come straight from those states' election offices (updated every 90 seconds); for` : "For"} other districts, tap the district for a live-count link.</li>`;
+    }
     if (house) $("races").innerHTML += `<li class="foot">* District lines redrawn mid-decade for 2026 (the whole state map was replaced; some districts changed little). Tap a district to see who drew its map.</li>`;
     $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
     const more = $("show-all");
