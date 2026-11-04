@@ -121,10 +121,52 @@ def minnesota() -> dict:
     return {rid: finish(c, rep.get(rid), "Minnesota Secretary of State") for rid, c in races.items()}
 
 
+# ---- Georgia and Virginia: state results sites run on Enhanced Voting (same data API) -----
+GA_URL = "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection/data"
+VA_URL = "https://enr.elections.virginia.gov/results/public/api/elections/virginia/2026-November-General/data"
+EV_PARTY = {"d": "DEM", "r": "REP", "l": "LIB", "i": "IND", "g": "GRN"}
+
+
+def _en(x) -> str:
+    if isinstance(x, list):
+        return next((i.get("text", "") for i in x if i.get("languageId") == "en"), x[0].get("text", "") if x else "")
+    return x or ""
+
+
+def enhanced_voting(url: str, st: str, pattern: str, source: str) -> dict:
+    d = json.loads(get(url, timeout=90))
+    out = {}
+    for b in d.get("ballotItems") or []:
+        m = re.match(pattern, _en(b.get("name")))
+        if not m:
+            continue
+        rid = f"2026-HOUSE-{st}-{int(m.group(1))}"
+        cands = {}
+        for o in (b.get("summaryResults") or {}).get("ballotOptions") or []:
+            if o.get("isWriteIn"):
+                continue
+            name = re.sub(r"\s*\((Rep|Dem|Lib|Ind|Grn|I|R|D)\)\s*$", "", _en(o.get("name"))).strip()
+            ab = ((o.get("party") or {}).get("abbreviation") or "").strip().lower()
+            cands[name] = {"name": name, "party": EV_PARTY.get(ab[:1], "OTH"), "votes": int(o.get("voteCount") or 0)}
+        # reportingUnits are whole counties/localities ("reporting" once any votes are in), so
+        # they say little about how much is counted: no % reporting for these states.
+        out[rid] = finish(cands, None, source)
+    return out
+
+
+def georgia() -> dict:
+    return enhanced_voting(GA_URL, "GA", r"US House of Representatives - District (\d+)", "Georgia Secretary of State")
+
+
+def virginia() -> dict:
+    return enhanced_voting(VA_URL, "VA", r"Member, House of Representatives \((\d+)", "Virginia Department of Elections")
+
 SOURCES = {
     "NC": ("NC State Board of Elections", NC_URL, north_carolina),
     "FL": ("Florida Division of Elections", FL_URL, florida),
     "MN": ("Minnesota Secretary of State", MN_URL, minnesota),
+    "GA": ("Georgia Secretary of State", GA_URL, georgia),
+    "VA": ("Virginia Department of Elections", VA_URL, virginia),
 }
 
 
