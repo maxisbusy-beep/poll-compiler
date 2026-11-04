@@ -40,3 +40,15 @@ def test_failing_source_does_not_stop_others(monkeypatch):
                                        "YY": ("y", "u", lambda: {"2026-HOUSE-YY-1": h.finish({"a": {"name": "a", "party": "DEM", "votes": 5}}, None, "y")})})
     out = h.run()
     assert out["sources"]["XX"]["ok"] is False and "2026-HOUSE-YY-1" in out["races"]
+
+
+def test_california(monkeypatch):
+    j = {"raceTitle": "U.S. House of Representatives District 22 - Districtwide Results",
+         "Reporting": "12.5% (72 of 575) precincts reporting",
+         "candidates": [{"Name": "Randy Villegas", "Party": "Dem", "Votes": "1,200"},
+                        {"Name": "David G. Valadao", "Party": "Rep", "Votes": "1,100"}]}
+    monkeypatch.setattr(h, "get", lambda u, timeout=40: json.dumps(j).encode())
+    monkeypatch.setattr(h, "CA_DISTRICTS", 1)
+    r = h.california()["2026-HOUSE-CA-1"]
+    assert r["candidates"][0] == {"name": "Randy Villegas", "party": "DEM", "votes": 1200}
+    assert abs(r["reporting"] - 12.5) < 0.1

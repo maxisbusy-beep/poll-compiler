@@ -161,12 +161,52 @@ def georgia() -> dict:
 def virginia() -> dict:
     return enhanced_voting(VA_URL, "VA", r"Member, House of Representatives \((\d+)", "Virginia Department of Elections")
 
+
+# ---- California: Secretary of State results API, one request per district ----------------
+CA_URL = "https://api.sos.ca.gov/returns/us-rep/district/{d}"
+CA_DISTRICTS = 52
+
+
+def _ca_one(d: int):
+    j = json.loads(get(CA_URL.format(d=d)))
+    cands = {}
+    for c in j.get("candidates") or []:
+        name = (c.get("Name") or "").strip()
+        if name:
+            cands[name] = {"name": name, "party": EV_PARTY.get((c.get("Party") or "").strip().lower()[:1], "OTH"),
+                           "votes": int(re.sub(r"[^\d]", "", str(c.get("Votes") or "0")) or 0)}
+    m = re.search(r"\(([\d,]+) of ([\d,]+)\)", j.get("Reporting") or "")
+    rep = None
+    if m and int(m.group(2).replace(",", "")):
+        rep = 100 * int(m.group(1).replace(",", "")) / int(m.group(2).replace(",", ""))
+    return f"2026-HOUSE-CA-{d}", finish(cands, rep, "California Secretary of State")
+
+
+def california() -> dict:
+    from concurrent.futures import ThreadPoolExecutor
+    out = {}
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        for res in ex.map(lambda d: _safe(_ca_one, d), range(1, CA_DISTRICTS + 1)):
+            if res:
+                out[res[0]] = res[1]
+    if not out:
+        raise RuntimeError("no California district answered")
+    return out
+
+
+def _safe(fn, *a):
+    try:
+        return fn(*a)
+    except Exception:
+        return None
+
 SOURCES = {
     "NC": ("NC State Board of Elections", NC_URL, north_carolina),
     "FL": ("Florida Division of Elections", FL_URL, florida),
     "MN": ("Minnesota Secretary of State", MN_URL, minnesota),
     "GA": ("Georgia Secretary of State", GA_URL, georgia),
     "VA": ("Virginia Department of Elections", VA_URL, virginia),
+    "CA": ("California Secretary of State", "https://api.sos.ca.gov/returns/us-rep/district/", california),
 }
 
 
