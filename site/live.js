@@ -203,7 +203,48 @@
     return (PARTY.find(([k]) => t.includes(k)) || [])[1] || "OTH"; };
 
   /** The results boxes of one race from a page's wikitext. */
+  // Election night: editors put the running count in the page's infobox (popular_voteN,
+  // percentageN, "reporting") and leave the results box blank until the race is final.
+  // The winner's numbers are bolded once the race is called. Statewide pages only: a House
+  // page's infobox sums every district.
+  function parseInfobox(wt) {
+    const i0 = wt.search(/\{\{\s*infobox election/i);
+    if (i0 < 0) return null;
+    const t = templates(wt.slice(i0, i0 + 20000).replace(/<!--[\s\S]*?(-->|$)/g, ""))
+      .find((x) => x.name.startsWith("infobox election"));
+    if (!t) return null;
+    const P = t.params, cands = [];
+    for (let i = 1; i <= 8; i++) {
+      const v = P["popular_vote" + i], name = P["nominee" + i] || P["candidate" + i];
+      if (!name || v == null) continue;
+      const votes = num(stripMarkup(v));
+      const pc = pct(stripMarkup(P["percentage" + i] || ""));
+      cands.push({ name: stripMarkup(name).replace(/\s*\((incumbent|write-in)\)/gi, "").trim(),
+                   party: partyOf(P["party" + i] || ""), votes, pct: pc,
+                   winner: /'{3}/.test(v) || /'{3}/.test(P["percentage" + i] || "") });
+    }
+    const sum = cands.reduce((a, c) => a + c.votes, 0);
+    if (!sum) return null;
+    cands.forEach((c) => { if (c.pct == null) c.pct = 100 * c.votes / sum; });
+    cands.sort((a, b) => b.votes - a.votes);
+    const rep = pct(stripMarkup(P.reporting || ""));
+    const after = stripMarkup(P.after_election || "").toLowerCase();
+    const last = (n) => n.trim().split(/\s+/).slice(-1)[0].toLowerCase();
+    if (after) cands.forEach((c) => { if (last(c.name) && after.includes(last(c.name))) c.winner = true; });
+    const winner = cands.find((c) => c.winner);
+    return { candidates: cands, total: sum, called: !!winner, winner_party: winner ? winner.party : null,
+             reporting: rep, expected: rep > 0 && rep < 100 ? Math.round(sum * 100 / rep) : rep >= 100 ? sum : null,
+             source: "infobox" };
+  }
+
   function parseWikitext(wt, district) {
+    const box = parseResultsBox(wt, district);
+    if (box && box.candidates.some((c) => c.votes > 0)) return box;
+    if (!district) { const ib = parseInfobox(wt); if (ib) return ib; }
+    return box;
+  }
+
+  function parseResultsBox(wt, district) {
     let secs = sections(wt);
     if (district) {
       const i = secs.findIndex((x) => x.level === 2 && (x.title.match(/^District (\d+)\b/) || [])[1] == +district);
@@ -321,7 +362,7 @@
               for (const [rid, info] of Object.entries(liveTable.races)) {
                 if (info.page !== t) continue;
                 const r = parseWikitext(wt, info.single_district ? null : info.district);
-                if (r) results[rid] = { ...r, expected: info.expected_votes, page: t, edited: revs[t].ts };
+                if (r) results[rid] = { ...r, expected: r.expected != null ? r.expected : info.expected_votes, page: t, edited: revs[t].ts };
               }
               seen[t] = revs[t].revid;
             } catch (e) { /* try this page again next time */ }
@@ -402,5 +443,5 @@
   }
 
   return { ifLeadersHold, blocks, grid, raceBlocks, generalBlocks, readResults, parseRace, sections, templates, stripMarkup,
-           parseWikitext, poller, liveOdds, revisions };
+           parseWikitext, parseInfobox, poller, liveOdds, revisions };
 });

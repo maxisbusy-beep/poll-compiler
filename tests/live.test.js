@@ -130,3 +130,75 @@ t("If every current leader wins: called, counting, not started, independents", (
 });
 
 console.log(`${n} passed`);
+
+// ---- election night: running counts live in the infobox, results box still blank ----
+const IB_TX = `{{Infobox election
+| election_name = 2026 United States Senate election in Texas
+| reporting = 53
+| last_update = 8:03 PM
+| nominee2 = [[Ken Paxton]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 2,111,740
+| percentage2 = 39%
+| nominee1 = [[James Talarico]]
+| party1 = Democratic Party (United States)
+| popular_vote1 = 3,241,741
+| percentage1 = 60%
+| after_election =
+}}
+== General election ==
+===Results===
+{{Election box begin | title=x}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Ken Paxton]]|votes=|percentage=}}
+{{Election box candidate with party link|party=Democratic Party (United States)|candidate=[[James Talarico]]|votes=|percentage=}}
+{{Election box total | votes= }}
+{{Election box end}}`;
+const IB_FL = `{{Infobox election
+| reporting = 97
+| nominee1 = '''[[Byron Donalds]]'''
+| running_mate1 = '''[[Bryan Avila]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''3,942,784'''
+| percentage1 = '''49.77%'''
+| nominee2 = [[David Jolly]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 3,879,948
+| percentage2 = 48.97%
+| after_election = [[Byron Donalds]]
+}}`;
+const IB_IA = `{{Infobox election
+| ongoing = yes
+<!--
+| reporting         = 0
+-->
+| nominee1 = [[Ashley Hinson]]
+| party1 = Republican Party (United States)
+| popular_vote1 =
+| nominee2 = [[Josh Turek]]
+| party2 = Democratic Party (United States)
+| popular_vote2 =
+}}`;
+t("infobox: running count used while the results box is blank", () => {
+  const r = Live.parseWikitext(IB_TX, null);
+  assert.equal(r.source, "infobox");
+  assert.equal(r.total, 3241741 + 2111740);
+  assert.equal(r.candidates[0].name, "James Talarico");
+  assert.equal(r.candidates[0].party, "DEM");
+  assert.equal(r.candidates[0].pct, 60);
+  assert.equal(r.reporting, 53);
+  assert.equal(r.called, false);
+  assert.ok(Math.abs(r.expected - r.total / 0.53) < 2);
+});
+t("infobox: bold numbers / after_election mean called", () => {
+  const r = Live.parseWikitext(IB_FL, null);
+  assert.equal(r.called, true);
+  assert.equal(r.winner_party, "REP");
+  assert.equal(r.candidates[0].name, "Byron Donalds");
+});
+t("infobox: blank or commented-out fields give nothing", () => {
+  assert.equal(Live.parseInfobox(IB_IA), null);
+});
+t("infobox: not used for one district on a multi-district page", () => {
+  const r = Live.parseWikitext(IB_TX, "3");
+  assert.equal(r, null);
+});
