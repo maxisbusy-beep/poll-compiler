@@ -501,7 +501,7 @@
   const shortLabel = (r) => r.chamber === "house" ? `${r.state}-${r.district}${r.redrawn_2026 ? "*" : ""}` : r.state;
 
   // ---- list ----------------------------------------------------------------
-  // Watch list: races always shown and pinned to the top, whatever their margin.
+  // Watch list: races always shown (never hidden by the close-only filter), with a ring on the box.
   const WATCH = ["2026-HOUSE-TX-6"];
   const CLOSE = 20;   // "close" = within this many points
   try { if (localStorage.getItem("closeOnly") === "0") state.closeOnly = false; } catch (e) { /* storage blocked */ }
@@ -516,26 +516,72 @@
   }
   const isClose = (r) => gapNow(r) <= CLOSE;
 
+  // Election night box color: full party color once called, a light tint of the leader's
+  // color while counting, gray with no votes yet or a tie.
+  function liveChip(r, lr, lead) {
+    const gray = "background:var(--none);color:var(--ink)";
+    if (!lr) return gray;
+    if (lr.called) {
+      const w = lr.winner_party;
+      return w === "DEM" ? "background:var(--safe-d);color:#fff" : w === "REP" ? "background:var(--safe-r);color:#fff" : "background:var(--ind);color:#fff";
+    }
+    if (!(lr.total > 0) || !lead) return gray;
+    const party = lead === "a" ? r.side_a_party : r.side_b_party;
+    return party === "DEM" ? "background:var(--lean-d);color:#0f1526" : party === "REP" ? "background:var(--lean-r);color:#0f1526"
+      : "background:var(--ind);color:#fff;opacity:.6";
+  }
+  // Share of the vote still to count: from expected turnout, else Wikipedia's % reporting.
+  const surname = (n) => { const w = String(n).trim().split(/\s+/); return w.length > 1 && /^(jr|sr|ii|iii|iv)\.?$/i.test(w[w.length - 1]) ? w[w.length - 2] : w[w.length - 1]; };
+  function leftToCount(lr) {
+    if (lr.expected) return `~${Math.max(1, 100 - Math.min(99, Math.round(100 * lr.total / lr.expected)))}% left`;
+    if (lr.reporting != null) return `~${Math.max(0, Math.round(100 - lr.reporting))}% ${lr.reporting_kind === "precincts" ? "of precincts " : ""}left`;
+    return `${(lr.total / 1000).toFixed(0)}k in · % left unknown`;
+  }
+  // Final margin (side A minus side B) from the count, matched by last name, then party.
+  function finalMargin(r, lr) {
+    const cs = lr.candidates || [];
+    const last = (n) => String(n).trim().split(/\s+/).slice(-1)[0].toLowerCase();
+    const find = (name, party) => cs.find((c) => last(c.name) === last(name))
+      || (r.side_a_party !== r.side_b_party ? cs.find((c) => c.party === party) : null);
+    const a = find(r.side_a, r.side_a_party), b = find(r.side_b, r.side_b_party);
+    if (!a || !b || a === b) return null;
+    return (a.pct || 0) - (b.pct || 0);
+  }
+  // How far the result landed from our forecast margin, as a shift toward one side.
+  function vsForecast(r, lr) {
+    const m = finalMargin(r, lr);
+    if (m == null) return "Called";
+    const d = m - r.margin;
+    if (Math.abs(d) < 0.05) return "Called · right on est";
+    const party = d > 0 ? r.side_a_party : r.side_b_party;
+    const who = r.side_a_party !== r.side_b_party ? letter(party) : esc(surname(d > 0 ? r.side_a : r.side_b));
+    const cls = party === "DEM" ? "d" : party === "REP" ? "r" : "i";
+    return `vs est <b class="shiftv ${cls}">${who} ▲${Math.abs(d).toFixed(1)}</b>`;
+  }
+
   function renderList() {
     const house = state.chamber === "house";
     // election night: races being counted first (closest count first), then not started, then called
+    // Open races on top (being counted, then not started), finished races below.
+    // Counting and finished races sort by the vote gap, closest first; not-started by the forecast.
     const liveGroup = (r) => { const lr = liveRes(r); return !lr ? 1 : lr.called ? 2 : lr.total > 0 ? 0 : 1; };
-    const countGap = (r) => { const c = liveRes(r).candidates; return c[1] ? Math.abs((c[0].pct || 0) - (c[1].pct || 0)) : 100; };
+    const countGap = (r) => { const c = liveRes(r).candidates; return c && c[1] ? Math.abs((c[0].pct || 0) - (c[1].pct || 0)) : 100; };
     const order = (a, b) => {
       if (state.live) {
         const ga = liveGroup(a), gb = liveGroup(b);
         if (ga !== gb) return ga - gb;
-        if (ga === 0) return countGap(a) - countGap(b);
+        if (ga !== 1) return countGap(a) - countGap(b);
       }
       return Math.abs(a.p_a - 0.5) - Math.abs(b.p_a - 0.5);
     };
     const watched = (r) => WATCH.includes(r.race_id);
     const sorted = races().slice().sort(order);
-    const all = sorted.filter(watched).concat(sorted.filter((r) => !watched(r) && (!state.closeOnly || isClose(r))));
+    const all = sorted.filter((r) => !state.closeOnly || isClose(r) || watched(r));
     const list = house ? all.slice(0, state.showAll ? 435 : 40) : all;
     const anyCounting = state.live && all.some((r) => liveGroup(r) === 0);
     $("races").classList.toggle("house-list", house);
-    $("list-title").textContent = anyCounting ? (house && !state.showAll ? "Still counting, closest first (top 40)" : "Still counting, closest first")
+    $("list-title").textContent = state.live ? (house && !state.showAll ? "Open races first, then finished, closest first (top 40)" : "Open races first, then finished, closest first")
+      : anyCounting ? (house && !state.showAll ? "Still counting, closest first (top 40)" : "Still counting, closest first")
       : house ? (state.showAll ? "All districts, closest first" : "40 closest districts") : "Races, closest first";
     const nHidden = races().length - all.length;
     $("list-filter").innerHTML = `<button id="close-toggle" aria-pressed="${state.closeOnly}">${state.closeOnly ? `Within ${CLOSE} pts` : "All races"}</button>`
@@ -556,17 +602,19 @@
       if (lr && lr.total > 0) {
         const [c1, c2] = lr.candidates;
         const m = c2 ? ((c1.pct || 0) - (c2.pct || 0)) : 100;
-        const lead = `${esc(c1.name.split(" ").slice(-1)[0])} +${m.toFixed(1)}`;
-        const counted = lr.expected ? `~${Math.min(99, Math.round(100 * lr.total / lr.expected))}% in` : `${(lr.total / 1000).toFixed(0)}k votes`;
+        const lead = `${esc(surname(c1.name))} +${m.toFixed(1)}`;
         const tag = lr.called ? `<span class="won ${lr.winner_party === "DEM" ? "d" : lr.winner_party === "REP" ? "r" : "i"}">Won</span> ` : "";
-        right = `${tag}${lead}<small>${lr.called ? "Called" : counted}</small>`;
+        right = `${tag}${lead}<small>${lr.called ? vsForecast(r, lr) : leftToCount(lr)}</small>`;
+      } else if (state.live) {
+        right = `${fmtPct(pFav)}<small>${tossName} · 100% left</small>`;
       }
       const lead = leaderSide(r);
+      const chip = state.live ? liveChip(r, lr, lead) : `background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}`;
       const nameA = `${esc(r.side_a)} (${letter(r.side_a_party)})`, nameB = `${esc(r.side_b)} (${letter(r.side_b_party)})`;
       const top = `<span class="${lead ? "lead" : ""}">${lead === "b" ? nameB : nameA}</span>`;
       const bottom = `<span class="${lead ? "trail" : ""}">${lead === "b" ? nameA : nameB}</span>`;
       return `<li><button data-race="${esc(r.race_id)}">
-        <span class="chip${watched(r) ? " watch" : ""}" style="background:var(--${cat});color:${DARK_TEXT.has(cat) ? "#0f1526" : "#fff"}">${shortLabel(r)}</span>
+        <span class="chip${watched(r) ? " watch" : ""}" style="${chip}">${shortLabel(r)}</span>
         <span class="names${lead ? "" : " even"}">${top}${bottom}</span>
         <span class="odds">${right}</span>
       </button></li>`;

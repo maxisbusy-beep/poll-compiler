@@ -169,6 +169,7 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 @keyframes pulse { 50% { box-shadow: 0 0 0 6px rgba(61,220,132,0); } }
 .map text.called { font-size: 22px; }
 .won { font-family: var(--text); font-size: .7rem; font-weight: 700; padding: 1px 6px; border-radius: 4px; color: #fff; vertical-align: 2px; }
+.odds small .shiftv { font-weight: 700; } .odds small .shiftv.d { color: var(--dem); } .odds small .shiftv.r { color: var(--rep); } .odds small .shiftv.i { color: var(--ind); }
 .won.d { background: var(--safe-d); } .won.r { background: var(--safe-r); } .won.i { background: var(--ind); }
 .livebox { background: var(--panel-2); border-radius: 10px; padding: 10px 12px; margin: 12px 0; }
 .livebox table { width: 100%; border-collapse: collapse; font-size: .9rem; }
