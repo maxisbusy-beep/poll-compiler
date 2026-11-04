@@ -21,7 +21,7 @@
 
   const state = { forecast: null, allRaces: [], pollsters: {}, topo: null, selected: null, chamber: "senate",
                   showAll: false, closeOnly: true, houseTopo: null, houseGeo: null, houseZoom: null,
-                  live: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null,
+                  live: null, liveWiki: null, relay: null, liveMode: null, liveTable: null, liveChecked: null, liveError: null,
                   view: "races", pollsterMeta: null, ballot: null, pollsterHistory: null,
                   pv: { window: "all_time", sort: "weight", q: "", active: false, all: false } };
 
@@ -572,7 +572,7 @@
       </button></li>`;
     }).join("");
     if (house && !state.showAll && all.length > 40) $("races").innerHTML += `<li><button class="more" id="show-all">Show all ${all.length === 435 ? 435 : all.length} districts</button></li>`;
-    if (house && state.liveMode) $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts yet. Tap a district for a live-count link.</li>`;
+    if (house && state.liveMode) $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts. Counts here come from state election offices where they publish a results file (NC, FL so far); for other districts, tap for a live-count link.</li>`;
     if (house) $("races").innerHTML += `<li class="foot">* District lines redrawn mid-decade for 2026 (the whole state map was replaced; some districts changed little). Tap a district to see who drew its map.</li>`;
     $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
     const more = $("show-all");
@@ -614,14 +614,14 @@
     const headline = lr.called
       ? `Called for ${esc((lr.candidates.find((c) => c.winner) || l1).name)}`
       : l2 && l1.votes === l2.votes ? "Tied"
-      : `${lastName(l1.name)} leads${gapPts ? ` by ${gapPts} pts` : ""}${share != null ? ` with ~${Math.min(99, Math.round(share))}% counted` : ""}`;
+      : `${lastName(l1.name)} leads${gapPts ? ` by ${gapPts} pts` : ""}${share != null ? ` with ~${Math.min(99, Math.round(share))}% ${lr.reporting_kind === "precincts" ? "of precincts in" : "counted"}` : ""}`;
     return `<div class="livebox">
       <div class="livehead">${headline}</div>
       <table>${lr.candidates.slice(0, 4).map((c, i) => `<tr class="${i === 0 && lead ? "lead" : "trail"}"><td>${esc(c.name)} (${letter(c.party)})${c.winner && lr.called ? ' <span class="won ' + (c.party === "DEM" ? "d" : c.party === "REP" ? "r" : "i") + '">Won</span>' : ""}</td>
         <td class="num">${c.votes.toLocaleString()}</td><td class="num">${c.pct != null ? c.pct.toFixed(1) + "%" : ""}</td></tr>`).join("")}</table>
       ${share != null ? `<div class="meter"><span style="width:${share.toFixed(0)}%"></span></div>` : ""}
-      <div class="note">${lr.total.toLocaleString()} votes counted${lr.reporting != null ? `, ${lr.reporting}% reporting per Wikipedia` : share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
-      ${lr.called ? "Called, per Wikipedia." : "Not called yet."} Wikipedia last edited ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
+      <div class="note">${lr.total.toLocaleString()} votes counted${lr.reporting != null ? (lr.reporting_kind === "precincts" ? `, ${lr.reporting}% of precincts reporting` : `, ${lr.reporting}% reporting per Wikipedia`) : share != null ? `, about ${share.toFixed(0)}% of the vote we expect (estimate from 2024 turnout)` : ""}.
+      ${lr.called ? "Called, per Wikipedia." : "Not called yet."} ${lr.source_name ? `Count from the ${esc(lr.source_name)}, checked` : "Wikipedia last edited"} ${new Date(lr.edited).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.</div>
       ${(() => { const s = countShift(r, lr); return s ? `<div class="shift">${s}</div>` : ""; })()}
     </div>`;
   }
@@ -842,7 +842,8 @@
     if (!state.liveMode) { el.hidden = true; return; }
     el.hidden = false;
     const t = state.liveChecked ? state.liveChecked.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "…";
-    el.innerHTML = `<span class="dot"></span><span>Live results from Wikipedia · checked ${t}${state.liveError ? " · last check failed, retrying" : ""}</span>`
+    const relayN = state.relay ? Object.keys(state.relay.races || {}).length : 0;
+    el.innerHTML = `<span class="dot"></span><span>Live results from Wikipedia${relayN ? ` + state election offices (${relayN} House races)` : ""} · checked ${t}${state.liveError ? " · last check failed, retrying" : ""}</span>`
       + (state.liveMode === "test" ? `<span class="test">Test: showing 2024 results</span>` : "")
       + `<button id="refresh">Refresh now</button>`;
     $("refresh").addEventListener("click", () => state.poller && state.poller.now());
@@ -877,7 +878,8 @@
     renderLiveBar();
     state.poller = Live.poller(table, ({ results, checked, error, partial }) => {
       if (!partial) state.liveSteps = (state.liveSteps || 0) + 1;
-      state.live = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
+      state.liveWiki = state.liveMode === "test" && new URLSearchParams(location.search).get("partial") ? partialCount(results) : results;
+      mergeLive();
       state.liveChecked = checked; state.liveError = error || null;
       renderLiveBar(); renderBoard(); renderMap(); renderList();
       if (state.view === "ballot") renderBallot();
@@ -887,6 +889,48 @@
       }
     }, { intervalMs: 120000 });   // all three tabs every 2 minutes, so calls anywhere show up and every scoreboard stays current
     state.poller.start();
+    if (state.liveMode === "on") startRelay();
+  }
+
+  // ---- House relay: official state results files, via a GitHub Action ----------------
+  // Wikipedia leaves House district results blank on election night. .github/workflows/relay.yml
+  // pulls counts from state election offices that publish a plain results file (NC, FL, ...)
+  // and pushes them to the live-data branch every 90 seconds.
+  const RELAY_URL = "https://raw.githubusercontent.com/maxisbusy-beep/poll-compiler/live-data/house_live.json";
+  async function checkRelay() {
+    try {
+      const r = await fetch(RELAY_URL + "?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) return;
+      state.relay = await r.json();
+      mergeLive();
+      renderBoard(); renderMap(); renderList(); renderLiveBar();
+      if (state.view === "ballot") renderBallot();
+      if (state.selected && document.body.classList.contains("sheet-open") && state.view !== "ballot") openRace(state.selected);
+    } catch (e) { /* try again next time */ }
+  }
+  function startRelay() {
+    checkRelay();
+    setInterval(checkRelay, 90000);
+  }
+  // Wikipedia's result wins once it has at least as many votes (it also carries the calls);
+  // otherwise the state office's count, keeping any call Wikipedia has made.
+  function mergeLive() {
+    const out = { ...(state.liveWiki || {}) };
+    const rel = state.relay && state.relay.races;
+    if (rel) {
+      for (const [rid, x] of Object.entries(rel)) {
+        const w = out[rid];
+        if (w && w.total > 0 && w.total >= x.total) continue;
+        const rep = x.reporting;
+        const cands = x.candidates.map((c) => ({ ...c, pct: x.total ? 100 * c.votes / x.total : null,
+          winner: !!(w && w.called && w.winner_party === c.party) }));
+        out[rid] = { candidates: cands, total: x.total, reporting: rep, reporting_kind: "precincts",
+          expected: rep > 0 && rep < 100 ? Math.round(x.total * 100 / rep) : rep >= 100 ? x.total : null,
+          called: !!(w && w.called), winner_party: w && w.called ? w.winner_party : null,
+          edited: state.relay.updated, source_name: x.source };
+      }
+    }
+    state.live = out;
   }
 
   // ---- punch to refresh ------------------------------------------------------
