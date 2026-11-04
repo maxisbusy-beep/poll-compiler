@@ -54,7 +54,7 @@
 2026-SEN-MA: 3 poll tables, kept Ed Markey vs John Deaton
 2026-SEN-MI: 13 poll tables, kept Abdul El-Sayed vs Mike Rogers
 2026-SEN-MN: 2 poll tables, kept Peggy Flanagan vs Michele Tafoya
-2026-SEN-MT: 6 poll tables, kept Kurt Alme vs Alani Bankhead vs Seth Bodnar vs Kyle Austin
+2026-SEN-MT: 6 poll tables, kept Sawyer Adams vs Alani Bankhead vs Seth Bodnar vs Kyle Austin
 2026-SEN-NE: 3 poll tables, kept Pete Ricketts vs Dan Osborn
 2026-SEN-NH: 7 poll tables, kept Chris Pappas vs John E. Sununu
 2026-SEN-NC: 4 poll tables, kept Michael Whatley vs Roy Cooper

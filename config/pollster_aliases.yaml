@@ -2745,6 +2745,10 @@ pollsters:
     name: University of Illinois at Chicago
     fivethirtyeight_id: 352
     aliases: []
+  university-of-illinois-springfield:
+    name: University of Illinois Springfield
+    aliases: []
+    source: wikipedia
   university-of-illinois-springfield-survey-research-office:
     name: University of Illinois Springfield Survey Research Office
     fivethirtyeight_id: 498
