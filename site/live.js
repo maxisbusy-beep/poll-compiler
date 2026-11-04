@@ -219,13 +219,14 @@
       if (!name || v == null) continue;
       const votes = num(stripMarkup(v));
       const pc = pct(stripMarkup(P["percentage" + i] || ""));
-      cands.push({ name: stripMarkup(name).replace(/\s*\((incumbent|write-in)\)/gi, "").trim(),
+      cands.push({ name: stripMarkup(name).replace(/\s*\([^)]*\)/g, "").trim(),
                    party: partyOf(P["party" + i] || ""), votes, pct: pc,
                    winner: /'{3}/.test(v) || /'{3}/.test(P["percentage" + i] || "") });
     }
     const sum = cands.reduce((a, c) => a + c.votes, 0);
     if (!sum) return null;
-    cands.forEach((c) => { if (c.pct == null) c.pct = 100 * c.votes / sum; });
+    // shares from the vote counts: the hand-typed percentages are sometimes swapped or stale
+    cands.forEach((c) => { c.pct = 100 * c.votes / sum; });
     cands.sort((a, b) => b.votes - a.votes);
     const rep = pct(stripMarkup(P.reporting || ""));
     const after = stripMarkup(P.after_election || "").toLowerCase();

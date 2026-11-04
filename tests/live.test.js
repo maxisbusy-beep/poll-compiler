@@ -184,7 +184,7 @@ t("infobox: running count used while the results box is blank", () => {
   assert.equal(r.total, 3241741 + 2111740);
   assert.equal(r.candidates[0].name, "James Talarico");
   assert.equal(r.candidates[0].party, "DEM");
-  assert.equal(r.candidates[0].pct, 60);
+  assert.ok(Math.abs(r.candidates[0].pct - 60.55) < 0.1);
   assert.equal(r.reporting, 53);
   assert.equal(r.called, false);
   assert.ok(Math.abs(r.expected - r.total / 0.53) < 2);
@@ -201,4 +201,20 @@ t("infobox: blank or commented-out fields give nothing", () => {
 t("infobox: not used for one district on a multi-district page", () => {
   const r = Live.parseWikitext(IB_TX, "3");
   assert.equal(r, null);
+});
+t("infobox: shares follow the votes, notes in parentheses dropped", () => {
+  const r = Live.parseInfobox(`{{Infobox election
+| reporting = 3
+| nominee2 = [[Susan Collins]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 14,020
+| percentage2 = 44.4%
+| nominee1 = [[Troy Jackson]] <!-- note -->(replacing [[Graham Platner]])
+| party1 = Democratic Party (United States)
+| popular_vote1 = 11,210
+| percentage1 = 55.6%
+}}`);
+  assert.equal(r.candidates[0].name, "Susan Collins");
+  assert.ok(r.candidates[0].pct > r.candidates[1].pct);
+  assert.equal(r.candidates[1].name, "Troy Jackson");
 });
