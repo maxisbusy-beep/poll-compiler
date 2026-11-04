@@ -327,3 +327,5 @@ footer { margin-top: 30px; color: var(--muted); font-size: .8rem; }
 .tabs button { flex: 1 1 auto; white-space: nowrap; padding-left: 6px; padding-right: 6px; }
 @media (max-width: 400px) { .tabs { gap: 2px; } .tabs button { font-size: .84rem; padding-left: 4px; padding-right: 4px; } }
 @media (max-width: 360px) { .tabs button { font-size: .76rem; } }
+.countlink { display: block; text-align: center; font-weight: 700; padding: 10px; margin: 12px 0 4px; border-radius: 10px;
+             background: var(--panel-2); color: var(--ink); text-decoration: none; border: 1px solid var(--line); }

@@ -572,6 +572,7 @@
       </button></li>`;
     }).join("");
     if (house && !state.showAll && all.length > 40) $("races").innerHTML += `<li><button class="more" id="show-all">Show all ${all.length === 435 ? 435 : all.length} districts</button></li>`;
+    if (house && state.liveMode) $("races").innerHTML += `<li class="foot">Wikipedia hasn't posted most House counts yet. Tap a district for a live-count link.</li>`;
     if (house) $("races").innerHTML += `<li class="foot">* District lines redrawn mid-decade for 2026 (the whole state map was replaced; some districts changed little). Tap a district to see who drew its map.</li>`;
     $("races").querySelectorAll("button[data-race]").forEach((b) => b.addEventListener("click", () => openRace(b.dataset.race)));
     const more = $("show-all");
@@ -625,6 +626,21 @@
     </div>`;
   }
 
+  // Election night, no count on Wikipedia yet: a link to a search that shows the live count
+  // (news results boxes, from AP). The app can't read those feeds itself.
+  function countLink(r, title) {
+    if (!state.liveMode) return "";
+    const lr = liveRes(r);
+    if (lr && lr.total > 0) return "";
+    const q = title || (r.chamber === "house"
+      ? `${NAMES[r.state]} ${state.allRaces.filter((x) => x.chamber === "house" && x.state === r.state).length === 1 ? "at-large" : ordinal(+r.district)} congressional district election results`
+      : r.chamber === "governor" ? `${NAMES[r.state]} governor election results`
+      : `${NAMES[r.state]} Senate election results`);
+    const url = "https://www.google.com/search?q=" + encodeURIComponent(q + " 2026");
+    return `<a class="countlink" href="${esc(url)}" target="_blank" rel="noopener">Live count ↗</a>`
+      + `<div class="note">Wikipedia has no count for this race yet. The link opens a search whose results box shows the running count.</div>`;
+  }
+
   function openRace(id) {
     const r = state.allRaces.find((x) => x.race_id === id);
     if (!r) return;
@@ -642,7 +658,7 @@
     const pa = r.p_a;
     const lr = liveRes(r);
     const lead = leaderSide(r);
-    const liveBox = liveBoxHTML(r, lr, lead);
+    const liveBox = liveBoxHTML(r, lr, lead) + countLink(r);
     const colour = (L) => (L === "D" ? "dem" : L === "R" ? "rep" : "ind");
     const sideA = { name: r.side_a, L: A, p: pa, cls: lead === "a" ? "lead" : lead ? "trail" : "" };
     const sideB = { name: r.side_b, L: B, p: 1 - pa, cls: lead === "b" ? "lead" : lead ? "trail" : "" };
@@ -770,7 +786,7 @@
       const duel = (lead === "b" ? [sb, sa] : [sa, sb]).map((x, i) => `<div class="${i ? "r " : ""}${x.cls}"><div class="n">${esc(x.name)} (${x.L})</div><div class="p" style="color:var(--${colour(x.L)})">${fmtPct(x.p)}</div></div>`).join("");
       const wiki = item.page ? "https://en.wikipedia.org/wiki/" + encodeURIComponent(item.page.replace(/ /g, "_")) : null;
       const rows = pollRowsHTML(r, A, B);
-      html = liveBoxHTML(r, lr, lead)
+      html = liveBoxHTML(r, lr, lead) + countLink(r, `Florida ${item.label} election results`)
         + (lr && lr.total > 0 ? `<div class="note">Pre-election forecast, chance of winning:</div>` : "")
         + `<div class="duel">${duel}</div>
         <dl class="facts">
