@@ -56,7 +56,7 @@
 2026-SEN-MN: 2 poll tables, kept Peggy Flanagan vs Michele Tafoya
 2026-SEN-MT: 6 poll tables, kept Kurt Alme vs Alani Bankhead vs Seth Bodnar vs Kyle Austin
 2026-SEN-NE: 3 poll tables, kept Pete Ricketts vs Dan Osborn
-2026-SEN-NH: 7 poll tables, kept Abigail Emmons vs John E. Sununu
+2026-SEN-NH: 7 poll tables, kept Chris Pappas vs John E. Sununu
 2026-SEN-NC: 4 poll tables, kept Michael Whatley vs Roy Cooper
 2026-SEN-OK: 2 poll tables, kept Kevin Hern vs N'Kiyla Jasmine Thomas
 2026-SEN-SD: 3 poll tables, kept Mike Rounds vs Brian Bengs
