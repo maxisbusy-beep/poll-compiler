@@ -51,7 +51,7 @@
 2026-SEN-KS: 4 poll tables, kept Roger Marshall vs Adam Hamilton vs David Graham
 2026-SEN-KY: 3 poll tables, kept Andy Barr vs Charles Booker
 2026-SEN-ME: 7 poll tables, kept Susan Collins vs Troy Jackson
-2026-SEN-MA: 3 poll tables, kept Ed Markey vs John Deaton
+2026-SEN-MA: 3 poll tables, kept Ed Markey vs John Deaton vs Shiva Ayyadurai
 2026-SEN-MI: 13 poll tables, kept Abdul El-Sayed vs Mike Rogers
 2026-SEN-MN: 2 poll tables, kept Peggy Flanagan vs Michele Tafoya
 2026-SEN-MT: 6 poll tables, kept Kurt Alme vs Alani Bankhead vs Seth Bodnar vs Kyle Austin
